@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemAwardWeightingsRecord.IAWR_HighTierShips RecordId="25afe6c5-3651-4705-a1d5-3ba025afc249" Type="ItemAwardWeightingsRecord">
+  <itemAwardStructure Type="ItemAwardWeightings" Count="4">
+    <ItemAwardWeightings Type="ItemAwardWeightings">
+      <weighting>11907000</weighting>
+      <awards Type="ItemAwardBase" Count="1">
+        <ItemAwardEntityClass Type="ItemAwardEntityClass">
+          <amountToAward>1</amountToAward>
+          <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/spaceships/anvl_lightning_f8c_collector_military.xml" />
+        </ItemAwardEntityClass>
+      </awards>
+    </ItemAwardWeightings>
+    <ItemAwardWeightings Type="ItemAwardWeightings">
+      <weighting>11907000</weighting>
+      <awards Type="ItemAwardBase" Count="1">
+        <ItemAwardEntityClass Type="ItemAwardEntityClass">
+          <amountToAward>1</amountToAward>
+          <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/spaceships/anvl_lightning_f8c_collector_stealth.xml" />
+        </ItemAwardEntityClass>
+      </awards>
+    </ItemAwardWeightings>
+    <ItemAwardWeightings Type="ItemAwardWeightings">
+      <weighting>8820000</weighting>
+      <awards Type="ItemAwardBase" Count="1">
+        <ItemAwardEntityClass Type="ItemAwardEntityClass">
+          <amountToAward>1</amountToAward>
+          <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/spaceships/misc_starlancer_max_collector_indust.xml" />
+        </ItemAwardEntityClass>
+      </awards>
+    </ItemAwardWeightings>
+    <ItemAwardWeightings Type="ItemAwardWeightings">
+      <weighting>8043840</weighting>
+      <awards Type="ItemAwardBase" Count="1">
+        <ItemAwardEntityClass Type="ItemAwardEntityClass">
+          <amountToAward>1</amountToAward>
+          <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/spaceships/rsi_constellation_taurus_military.xml" />
+        </ItemAwardEntityClass>
+      </awards>
+    </ItemAwardWeightings>
+  </itemAwardStructure>
+</ItemAwardWeightingsRecord.IAWR_HighTierShips>

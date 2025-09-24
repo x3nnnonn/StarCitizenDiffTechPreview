@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ItemAwardWeightingsRecord.IAWR_LowTierShip RecordId="b24ce19d-3200-4b6c-91e6-43c0a103ffae" Type="ItemAwardWeightingsRecord">
+  <itemAwardStructure Type="ItemAwardWeightings" Count="5">
+    <ItemAwardWeightings Type="ItemAwardWeightings">
+      <weighting>1890000</weighting>
+      <awards Type="ItemAwardBase" Count="1">
+        <ItemAwardEntityClass Type="ItemAwardEntityClass">
+          <amountToAward>1</amountToAward>
+          <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/spaceships/misc_fortune_collector_industrial.xml" />
+        </ItemAwardEntityClass>
+      </awards>
+    </ItemAwardWeightings>
+    <ItemAwardWeightings Type="ItemAwardWeightings">
+      <weighting>255150</weighting>
+      <awards Type="ItemAwardBase" Count="1">
+        <ItemAwardEntityClass Type="ItemAwardEntityClass">
+          <amountToAward>1</amountToAward>
+          <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/spaceships/xian_nox_collector_mod.xml" />
+        </ItemAwardEntityClass>
+      </awards>
+    </ItemAwardWeightings>
+    <ItemAwardWeightings Type="ItemAwardWeightings">
+      <weighting>1234800</weighting>
+      <awards Type="ItemAwardBase" Count="1">
+        <ItemAwardEntityClass Type="ItemAwardEntityClass">
+          <amountToAward>1</amountToAward>
+          <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/spaceships/crus_intrepid_collector_indust.xml" />
+        </ItemAwardEntityClass>
+      </awards>
+    </ItemAwardWeightings>
+    <ItemAwardWeightings Type="ItemAwardWeightings">
+      <weighting>185220</weighting>
+      <awards Type="ItemAwardBase" Count="1">
+        <ItemAwardEntityClass Type="ItemAwardEntityClass">
+          <amountToAward>1</amountToAward>
+          <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/spaceships/mrai_pulse_collector_civ.xml" />
+        </ItemAwardEntityClass>
+      </awards>
+    </ItemAwardWeightings>
+    <ItemAwardWeightings Type="ItemAwardWeightings">
+      <weighting>137214</weighting>
+      <awards Type="ItemAwardBase" Count="1">
+        <ItemAwardEntityClass Type="ItemAwardEntityClass">
+          <amountToAward>1</amountToAward>
+          <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/groundvehicles/rsi_ursa_medivac_stealth.xml" />
+        </ItemAwardEntityClass>
+      </awards>
+    </ItemAwardWeightings>
+  </itemAwardStructure>
+</ItemAwardWeightingsRecord.IAWR_LowTierShip>

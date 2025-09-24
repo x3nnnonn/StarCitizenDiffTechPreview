@@ -1,0 +1,610 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommunicationChannelConfig.Default RecordId="6027fa06-1e85-4ec7-ae03-0d94e5692781" Type="CommunicationChannelConfig">
+  <ChannelConfigName>Default</ChannelConfigName>
+  <Channels Type="CommunicationChannel" Count="12">
+    <CommunicationChannel Type="CommunicationChannel">
+      <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
+      <audioEventForExternalSources>Play_DXHN_Slaver</audioEventForExternalSources>
+      <minSilence>0</minSilence>
+      <flushSilence>0</flushSilence>
+      <type>Global</type>
+      <priority>0</priority>
+      <animationPriorityOverride>-1</animationPriorityOverride>
+      <minSpeakerSilence>0</minSpeakerSilence>
+      <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+      <subtitles Type="CommunicationSubtitleSettings">
+        <allow>False</allow>
+        <variableName />
+      </subtitles>
+      <audioRTPC />
+      <subChannels Type="CommunicationChannel" Count="0" />
+    </CommunicationChannel>
+    <CommunicationChannel Type="CommunicationChannel">
+      <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/tactic.xml" />
+      <audioEventForExternalSources />
+      <minSilence>7</minSilence>
+      <flushSilence>0</flushSilence>
+      <type>Group</type>
+      <priority>1</priority>
+      <animationPriorityOverride>-1</animationPriorityOverride>
+      <minSpeakerSilence>10</minSpeakerSilence>
+      <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+      <subtitles Type="CommunicationSubtitleSettings">
+        <allow>False</allow>
+        <variableName />
+      </subtitles>
+      <audioRTPC />
+      <subChannels Type="CommunicationChannel" Count="0" />
+    </CommunicationChannel>
+    <CommunicationChannel Type="CommunicationChannel">
+      <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/globalpersonal.xml" />
+      <audioEventForExternalSources />
+      <minSilence>0</minSilence>
+      <flushSilence>0</flushSilence>
+      <type>Personal</type>
+      <priority>6</priority>
+      <animationPriorityOverride>-1</animationPriorityOverride>
+      <minSpeakerSilence>0</minSpeakerSilence>
+      <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+      <subtitles Type="CommunicationSubtitleSettings">
+        <allow>False</allow>
+        <variableName />
+      </subtitles>
+      <audioRTPC />
+      <subChannels Type="CommunicationChannel" Count="3">
+        <CommunicationChannel Type="CommunicationChannel">
+          <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/workcommunication.xml" />
+          <audioEventForExternalSources />
+          <minSilence>0</minSilence>
+          <flushSilence>0</flushSilence>
+          <type>Personal</type>
+          <priority>2</priority>
+          <animationPriorityOverride>-1</animationPriorityOverride>
+          <minSpeakerSilence>0</minSpeakerSilence>
+          <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+          <subtitles Type="CommunicationSubtitleSettings">
+            <allow>True</allow>
+            <variableName />
+          </subtitles>
+          <audioRTPC />
+          <subChannels Type="CommunicationChannel" Count="3">
+            <CommunicationChannel Type="CommunicationChannel">
+              <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/workessential.xml" />
+              <audioEventForExternalSources />
+              <minSilence>0</minSilence>
+              <flushSilence>0</flushSilence>
+              <type>Personal</type>
+              <priority>7</priority>
+              <animationPriorityOverride>-1</animationPriorityOverride>
+              <minSpeakerSilence>0</minSpeakerSilence>
+              <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+              <subtitles Type="CommunicationSubtitleSettings">
+                <allow>False</allow>
+                <variableName />
+              </subtitles>
+              <audioRTPC />
+              <subChannels Type="CommunicationChannel" Count="0" />
+            </CommunicationChannel>
+            <CommunicationChannel Type="CommunicationChannel">
+              <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/workimportant.xml" />
+              <audioEventForExternalSources />
+              <minSilence>0</minSilence>
+              <flushSilence>0</flushSilence>
+              <type>Personal</type>
+              <priority>6</priority>
+              <animationPriorityOverride>-1</animationPriorityOverride>
+              <minSpeakerSilence>0</minSpeakerSilence>
+              <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+              <subtitles Type="CommunicationSubtitleSettings">
+                <allow>False</allow>
+                <variableName />
+              </subtitles>
+              <audioRTPC />
+              <subChannels Type="CommunicationChannel" Count="0" />
+            </CommunicationChannel>
+            <CommunicationChannel Type="CommunicationChannel">
+              <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/workincidental.xml" />
+              <audioEventForExternalSources />
+              <minSilence>0</minSilence>
+              <flushSilence>0</flushSilence>
+              <type>Personal</type>
+              <priority>5</priority>
+              <animationPriorityOverride>-1</animationPriorityOverride>
+              <minSpeakerSilence>0</minSpeakerSilence>
+              <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+              <subtitles Type="CommunicationSubtitleSettings">
+                <allow>False</allow>
+                <variableName />
+              </subtitles>
+              <audioRTPC />
+              <subChannels Type="CommunicationChannel" Count="0" />
+            </CommunicationChannel>
+          </subChannels>
+        </CommunicationChannel>
+        <CommunicationChannel Type="CommunicationChannel">
+          <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/personalwildline.xml" />
+          <audioEventForExternalSources />
+          <minSilence>0</minSilence>
+          <flushSilence>0</flushSilence>
+          <type>Personal</type>
+          <priority>3</priority>
+          <animationPriorityOverride>-1</animationPriorityOverride>
+          <minSpeakerSilence>0</minSpeakerSilence>
+          <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+          <subtitles Type="CommunicationSubtitleSettings">
+            <allow>False</allow>
+            <variableName />
+          </subtitles>
+          <audioRTPC />
+          <subChannels Type="CommunicationChannel" Count="1">
+            <CommunicationChannel Type="CommunicationChannel">
+              <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/personalwildline_high.xml" />
+              <audioEventForExternalSources />
+              <minSilence>0</minSilence>
+              <flushSilence>0</flushSilence>
+              <type>Personal</type>
+              <priority>8</priority>
+              <animationPriorityOverride>-1</animationPriorityOverride>
+              <minSpeakerSilence>0</minSpeakerSilence>
+              <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+              <subtitles Type="CommunicationSubtitleSettings">
+                <allow>False</allow>
+                <variableName />
+              </subtitles>
+              <audioRTPC />
+              <subChannels Type="CommunicationChannel" Count="0" />
+            </CommunicationChannel>
+          </subChannels>
+        </CommunicationChannel>
+        <CommunicationChannel Type="CommunicationChannel">
+          <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/personalreaction.xml" />
+          <audioEventForExternalSources />
+          <minSilence>0</minSilence>
+          <flushSilence>0</flushSilence>
+          <type>Personal</type>
+          <priority>4</priority>
+          <animationPriorityOverride>-1</animationPriorityOverride>
+          <minSpeakerSilence>0</minSpeakerSilence>
+          <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+          <subtitles Type="CommunicationSubtitleSettings">
+            <allow>False</allow>
+            <variableName />
+          </subtitles>
+          <audioRTPC />
+          <subChannels Type="CommunicationChannel" Count="0" />
+        </CommunicationChannel>
+      </subChannels>
+    </CommunicationChannel>
+    <CommunicationChannel Type="CommunicationChannel">
+      <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/conversationinterrupt.xml" />
+      <audioEventForExternalSources />
+      <minSilence>0</minSilence>
+      <flushSilence>0</flushSilence>
+      <type>Personal</type>
+      <priority>8</priority>
+      <animationPriorityOverride>-1</animationPriorityOverride>
+      <minSpeakerSilence>0</minSpeakerSilence>
+      <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+      <subtitles Type="CommunicationSubtitleSettings">
+        <allow>False</allow>
+        <variableName />
+      </subtitles>
+      <audioRTPC />
+      <subChannels Type="CommunicationChannel" Count="0" />
+    </CommunicationChannel>
+    <CommunicationChannel Type="CommunicationChannel">
+      <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/injury.xml" />
+      <audioEventForExternalSources />
+      <minSilence>40</minSilence>
+      <flushSilence>40</flushSilence>
+      <type>Personal</type>
+      <priority>12</priority>
+      <animationPriorityOverride>12</animationPriorityOverride>
+      <minSpeakerSilence>100</minSpeakerSilence>
+      <ignoreSpeakerSilence>True</ignoreSpeakerSilence>
+      <subtitles Type="CommunicationSubtitleSettings">
+        <allow>False</allow>
+        <variableName />
+      </subtitles>
+      <audioRTPC />
+      <subChannels Type="CommunicationChannel" Count="0" />
+    </CommunicationChannel>
+    <CommunicationChannel Type="CommunicationChannel">
+      <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/injurypain.xml" />
+      <audioEventForExternalSources />
+      <minSilence>0</minSilence>
+      <flushSilence>0</flushSilence>
+      <type>Personal</type>
+      <priority>10</priority>
+      <animationPriorityOverride>10</animationPriorityOverride>
+      <minSpeakerSilence>0</minSpeakerSilence>
+      <ignoreSpeakerSilence>True</ignoreSpeakerSilence>
+      <subtitles Type="CommunicationSubtitleSettings">
+        <allow>False</allow>
+        <variableName />
+      </subtitles>
+      <audioRTPC />
+      <subChannels Type="CommunicationChannel" Count="0" />
+    </CommunicationChannel>
+    <CommunicationChannel Type="CommunicationChannel">
+      <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/spaceship.xml" />
+      <audioEventForExternalSources>Play_DXSM_OEM_UI_Normal</audioEventForExternalSources>
+      <minSilence>0</minSilence>
+      <flushSilence>0</flushSilence>
+      <type>Personal</type>
+      <priority>0</priority>
+      <animationPriorityOverride>-1</animationPriorityOverride>
+      <minSpeakerSilence>0</minSpeakerSilence>
+      <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+      <subtitles Type="CommunicationSubtitleSettings">
+        <allow>False</allow>
+        <variableName />
+      </subtitles>
+      <audioRTPC />
+      <subChannels Type="CommunicationChannel" Count="0" />
+    </CommunicationChannel>
+    <CommunicationChannel Type="CommunicationChannel">
+      <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/missioncomms.xml" />
+      <audioEventForExternalSources />
+      <minSilence>0</minSilence>
+      <flushSilence>0</flushSilence>
+      <type>Global</type>
+      <priority>0</priority>
+      <animationPriorityOverride>-1</animationPriorityOverride>
+      <minSpeakerSilence>0</minSpeakerSilence>
+      <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+      <subtitles Type="CommunicationSubtitleSettings">
+        <allow>True</allow>
+        <variableName />
+      </subtitles>
+      <audioRTPC />
+      <subChannels Type="CommunicationChannel" Count="0" />
+    </CommunicationChannel>
+    <CommunicationChannel Type="CommunicationChannel">
+      <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/personalconversation.xml" />
+      <audioEventForExternalSources />
+      <minSilence>0</minSilence>
+      <flushSilence>0</flushSilence>
+      <type>Group</type>
+      <priority>7</priority>
+      <animationPriorityOverride>-1</animationPriorityOverride>
+      <minSpeakerSilence>0</minSpeakerSilence>
+      <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+      <subtitles Type="CommunicationSubtitleSettings">
+        <allow>True</allow>
+        <variableName />
+      </subtitles>
+      <audioRTPC />
+      <subChannels Type="CommunicationChannel" Count="0" />
+    </CommunicationChannel>
+    <CommunicationChannel Type="CommunicationChannel">
+      <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/combatbarks_0.xml" />
+      <audioEventForExternalSources />
+      <minSilence>0</minSilence>
+      <flushSilence>0</flushSilence>
+      <type>Group</type>
+      <priority>10</priority>
+      <animationPriorityOverride>-1</animationPriorityOverride>
+      <minSpeakerSilence>0</minSpeakerSilence>
+      <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+      <subtitles Type="CommunicationSubtitleSettings">
+        <allow>False</allow>
+        <variableName />
+      </subtitles>
+      <audioRTPC />
+      <subChannels Type="CommunicationChannel" Count="4">
+        <CommunicationChannel Type="CommunicationChannel">
+          <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/combatbarks_1_low.xml" />
+          <audioEventForExternalSources />
+          <minSilence>7</minSilence>
+          <flushSilence>0</flushSilence>
+          <type>Group</type>
+          <priority>6</priority>
+          <animationPriorityOverride>-1</animationPriorityOverride>
+          <minSpeakerSilence>0</minSpeakerSilence>
+          <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+          <subtitles Type="CommunicationSubtitleSettings">
+            <allow>False</allow>
+            <variableName />
+          </subtitles>
+          <audioRTPC />
+          <subChannels Type="CommunicationChannel" Count="1">
+            <CommunicationChannel Type="CommunicationChannel">
+              <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/combatbarks_1_low_sub.xml" />
+              <audioEventForExternalSources />
+              <minSilence>2</minSilence>
+              <flushSilence>0</flushSilence>
+              <type>Personal</type>
+              <priority>6</priority>
+              <animationPriorityOverride>-1</animationPriorityOverride>
+              <minSpeakerSilence>7</minSpeakerSilence>
+              <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+              <subtitles Type="CommunicationSubtitleSettings">
+                <allow>False</allow>
+                <variableName />
+              </subtitles>
+              <audioRTPC />
+              <subChannels Type="CommunicationChannel" Count="0" />
+            </CommunicationChannel>
+          </subChannels>
+        </CommunicationChannel>
+        <CommunicationChannel Type="CommunicationChannel">
+          <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/combatbarks_2_medium.xml" />
+          <audioEventForExternalSources />
+          <minSilence>5</minSilence>
+          <flushSilence>0</flushSilence>
+          <type>Group</type>
+          <priority>7</priority>
+          <animationPriorityOverride>-1</animationPriorityOverride>
+          <minSpeakerSilence>0</minSpeakerSilence>
+          <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+          <subtitles Type="CommunicationSubtitleSettings">
+            <allow>False</allow>
+            <variableName />
+          </subtitles>
+          <audioRTPC />
+          <subChannels Type="CommunicationChannel" Count="5">
+            <CommunicationChannel Type="CommunicationChannel">
+              <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/fps_melee_high.xml" />
+              <audioEventForExternalSources />
+              <minSilence>0</minSilence>
+              <flushSilence>0</flushSilence>
+              <type>Personal</type>
+              <priority>11</priority>
+              <animationPriorityOverride>-1</animationPriorityOverride>
+              <minSpeakerSilence>0</minSpeakerSilence>
+              <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+              <subtitles Type="CommunicationSubtitleSettings">
+                <allow>False</allow>
+                <variableName />
+              </subtitles>
+              <audioRTPC />
+              <subChannels Type="CommunicationChannel" Count="1">
+                <CommunicationChannel Type="CommunicationChannel">
+                  <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/fps_melee_high_provisional.xml" />
+                  <audioEventForExternalSources />
+                  <minSilence>0</minSilence>
+                  <flushSilence>0</flushSilence>
+                  <type>Group</type>
+                  <priority>12</priority>
+                  <animationPriorityOverride>-1</animationPriorityOverride>
+                  <minSpeakerSilence>0</minSpeakerSilence>
+                  <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+                  <subtitles Type="CommunicationSubtitleSettings">
+                    <allow>False</allow>
+                    <variableName />
+                  </subtitles>
+                  <audioRTPC />
+                  <subChannels Type="CommunicationChannel" Count="0" />
+                </CommunicationChannel>
+              </subChannels>
+            </CommunicationChannel>
+            <CommunicationChannel Type="CommunicationChannel">
+              <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/fps_melee_medium.xml" />
+              <audioEventForExternalSources />
+              <minSilence>15</minSilence>
+              <flushSilence>0</flushSilence>
+              <type>Personal</type>
+              <priority>8</priority>
+              <animationPriorityOverride>-1</animationPriorityOverride>
+              <minSpeakerSilence>0</minSpeakerSilence>
+              <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+              <subtitles Type="CommunicationSubtitleSettings">
+                <allow>False</allow>
+                <variableName />
+              </subtitles>
+              <audioRTPC />
+              <subChannels Type="CommunicationChannel" Count="1">
+                <CommunicationChannel Type="CommunicationChannel">
+                  <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/fps_tactic_pusher.xml" />
+                  <audioEventForExternalSources />
+                  <minSilence>8</minSilence>
+                  <flushSilence>0</flushSilence>
+                  <type>Group</type>
+                  <priority>7</priority>
+                  <animationPriorityOverride>-1</animationPriorityOverride>
+                  <minSpeakerSilence>0</minSpeakerSilence>
+                  <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+                  <subtitles Type="CommunicationSubtitleSettings">
+                    <allow>False</allow>
+                    <variableName />
+                  </subtitles>
+                  <audioRTPC />
+                  <subChannels Type="CommunicationChannel" Count="0" />
+                </CommunicationChannel>
+              </subChannels>
+            </CommunicationChannel>
+            <CommunicationChannel Type="CommunicationChannel">
+              <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/fps_melee_low.xml" />
+              <audioEventForExternalSources />
+              <minSilence>0</minSilence>
+              <flushSilence>0</flushSilence>
+              <type>Personal</type>
+              <priority>7</priority>
+              <animationPriorityOverride>-1</animationPriorityOverride>
+              <minSpeakerSilence>0</minSpeakerSilence>
+              <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+              <subtitles Type="CommunicationSubtitleSettings">
+                <allow>False</allow>
+                <variableName />
+              </subtitles>
+              <audioRTPC />
+              <subChannels Type="CommunicationChannel" Count="0" />
+            </CommunicationChannel>
+            <CommunicationChannel Type="CommunicationChannel">
+              <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/fps_tactic.xml" />
+              <audioEventForExternalSources />
+              <minSilence>5</minSilence>
+              <flushSilence>0</flushSilence>
+              <type>Group</type>
+              <priority>7</priority>
+              <animationPriorityOverride>-1</animationPriorityOverride>
+              <minSpeakerSilence>0</minSpeakerSilence>
+              <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+              <subtitles Type="CommunicationSubtitleSettings">
+                <allow>False</allow>
+                <variableName />
+              </subtitles>
+              <audioRTPC />
+              <subChannels Type="CommunicationChannel" Count="0" />
+            </CommunicationChannel>
+            <CommunicationChannel Type="CommunicationChannel">
+              <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/combatbarks_2_medium_sub.xml" />
+              <audioEventForExternalSources />
+              <minSilence>5</minSilence>
+              <flushSilence>0</flushSilence>
+              <type>Personal</type>
+              <priority>7</priority>
+              <animationPriorityOverride>-1</animationPriorityOverride>
+              <minSpeakerSilence>5</minSpeakerSilence>
+              <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+              <subtitles Type="CommunicationSubtitleSettings">
+                <allow>False</allow>
+                <variableName />
+              </subtitles>
+              <audioRTPC />
+              <subChannels Type="CommunicationChannel" Count="0" />
+            </CommunicationChannel>
+          </subChannels>
+        </CommunicationChannel>
+        <CommunicationChannel Type="CommunicationChannel">
+          <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/combatbarks_3_high.xml" />
+          <audioEventForExternalSources />
+          <minSilence>1</minSilence>
+          <flushSilence>0</flushSilence>
+          <type>Personal</type>
+          <priority>8</priority>
+          <animationPriorityOverride>-1</animationPriorityOverride>
+          <minSpeakerSilence>0</minSpeakerSilence>
+          <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+          <subtitles Type="CommunicationSubtitleSettings">
+            <allow>False</allow>
+            <variableName />
+          </subtitles>
+          <audioRTPC />
+          <subChannels Type="CommunicationChannel" Count="0" />
+        </CommunicationChannel>
+        <CommunicationChannel Type="CommunicationChannel">
+          <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/combatbarks_4_critical.xml" />
+          <audioEventForExternalSources />
+          <minSilence>1</minSilence>
+          <flushSilence>0</flushSilence>
+          <type>Group</type>
+          <priority>9</priority>
+          <animationPriorityOverride>-1</animationPriorityOverride>
+          <minSpeakerSilence>0</minSpeakerSilence>
+          <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+          <subtitles Type="CommunicationSubtitleSettings">
+            <allow>False</allow>
+            <variableName />
+          </subtitles>
+          <audioRTPC />
+          <subChannels Type="CommunicationChannel" Count="0" />
+        </CommunicationChannel>
+      </subChannels>
+    </CommunicationChannel>
+    <CommunicationChannel Type="CommunicationChannel">
+      <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/test_storycontent_0.xml" />
+      <audioEventForExternalSources />
+      <minSilence>0.5</minSilence>
+      <flushSilence>0</flushSilence>
+      <type>Global</type>
+      <priority>15</priority>
+      <animationPriorityOverride>-1</animationPriorityOverride>
+      <minSpeakerSilence>0</minSpeakerSilence>
+      <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+      <subtitles Type="CommunicationSubtitleSettings">
+        <allow>False</allow>
+        <variableName />
+      </subtitles>
+      <audioRTPC />
+      <subChannels Type="CommunicationChannel" Count="4">
+        <CommunicationChannel Type="CommunicationChannel">
+          <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/test_storycontent_1_low.xml" />
+          <audioEventForExternalSources />
+          <minSilence>0.5</minSilence>
+          <flushSilence>0.75</flushSilence>
+          <type>Global</type>
+          <priority>11</priority>
+          <animationPriorityOverride>-1</animationPriorityOverride>
+          <minSpeakerSilence>1</minSpeakerSilence>
+          <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+          <subtitles Type="CommunicationSubtitleSettings">
+            <allow>False</allow>
+            <variableName />
+          </subtitles>
+          <audioRTPC />
+          <subChannels Type="CommunicationChannel" Count="0" />
+        </CommunicationChannel>
+        <CommunicationChannel Type="CommunicationChannel">
+          <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/test_storycontent_2_medium.xml" />
+          <audioEventForExternalSources />
+          <minSilence>0.5</minSilence>
+          <flushSilence>0.75</flushSilence>
+          <type>Global</type>
+          <priority>12</priority>
+          <animationPriorityOverride>-1</animationPriorityOverride>
+          <minSpeakerSilence>1</minSpeakerSilence>
+          <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+          <subtitles Type="CommunicationSubtitleSettings">
+            <allow>False</allow>
+            <variableName />
+          </subtitles>
+          <audioRTPC />
+          <subChannels Type="CommunicationChannel" Count="0" />
+        </CommunicationChannel>
+        <CommunicationChannel Type="CommunicationChannel">
+          <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/test_storycontent_3_high.xml" />
+          <audioEventForExternalSources />
+          <minSilence>0.5</minSilence>
+          <flushSilence>0</flushSilence>
+          <type>Global</type>
+          <priority>13</priority>
+          <animationPriorityOverride>-1</animationPriorityOverride>
+          <minSpeakerSilence>1</minSpeakerSilence>
+          <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+          <subtitles Type="CommunicationSubtitleSettings">
+            <allow>False</allow>
+            <variableName />
+          </subtitles>
+          <audioRTPC />
+          <subChannels Type="CommunicationChannel" Count="0" />
+        </CommunicationChannel>
+        <CommunicationChannel Type="CommunicationChannel">
+          <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/test_storycontent_4_critical.xml" />
+          <audioEventForExternalSources />
+          <minSilence>0.5</minSilence>
+          <flushSilence>0</flushSilence>
+          <type>Global</type>
+          <priority>14</priority>
+          <animationPriorityOverride>-1</animationPriorityOverride>
+          <minSpeakerSilence>1</minSpeakerSilence>
+          <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+          <subtitles Type="CommunicationSubtitleSettings">
+            <allow>False</allow>
+            <variableName />
+          </subtitles>
+          <audioRTPC />
+          <subChannels Type="CommunicationChannel" Count="0" />
+        </CommunicationChannel>
+      </subChannels>
+    </CommunicationChannel>
+    <CommunicationChannel Type="CommunicationChannel">
+      <name ReferencedFile="file://./../../../../libs/foundry/records/communicationchannelname/trackview.xml" />
+      <audioEventForExternalSources />
+      <minSilence>0</minSilence>
+      <flushSilence>0</flushSilence>
+      <type>Personal</type>
+      <priority>9</priority>
+      <animationPriorityOverride>-1</animationPriorityOverride>
+      <minSpeakerSilence>0</minSpeakerSilence>
+      <ignoreSpeakerSilence>False</ignoreSpeakerSilence>
+      <subtitles Type="CommunicationSubtitleSettings">
+        <allow>False</allow>
+        <variableName />
+      </subtitles>
+      <audioRTPC />
+      <subChannels Type="CommunicationChannel" Count="0" />
+    </CommunicationChannel>
+  </Channels>
+</CommunicationChannelConfig.Default>

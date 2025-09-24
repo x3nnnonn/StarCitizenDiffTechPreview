@@ -1,0 +1,1257 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommunicationConfig.Human_SOC_Reactions RecordId="4daa5085-bf49-4da4-a235-8b4ad1d42560" Type="CommunicationConfig">
+  <name>Human_SOC_Reactions</name>
+  <communications Type="CommunicationEntry" Count="13">
+    <CommunicationEntry Type="CommunicationEntry">
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/social/reaction/soc_busy.xml" />
+      <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/personalwildline.xml" />
+      <method>RandomSequence</method>
+      <forceAnimation>False</forceAnimation>
+      <variations Type="CommunicationVariation" Count="1">
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__triggercontext:dx_Busy+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="0" />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+      <entityRetriggerDelay>0</entityRetriggerDelay>
+      <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
+    </CommunicationEntry>
+    <CommunicationEntry Type="CommunicationEntry">
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/social/reaction/soc_physicalbump.xml" />
+      <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/personalwildline.xml" />
+      <method>RandomSequence</method>
+      <forceAnimation>False</forceAnimation>
+      <variations Type="CommunicationVariation" Count="1">
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__triggercontext:dx_Bump+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="0" />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+      <entityRetriggerDelay>0</entityRetriggerDelay>
+      <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
+    </CommunicationEntry>
+    <CommunicationEntry Type="CommunicationEntry">
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/social/reaction/soc_greeting.xml" />
+      <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/personalwildline.xml" />
+      <method>RandomSequence</method>
+      <forceAnimation>False</forceAnimation>
+      <variations Type="CommunicationVariation" Count="1">
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Greet+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="0" />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+      <entityRetriggerDelay>0</entityRetriggerDelay>
+      <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
+    </CommunicationEntry>
+    <CommunicationEntry Type="CommunicationEntry">
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/social/reaction/soc_farewell.xml" />
+      <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/personalwildline.xml" />
+      <method>RandomSequence</method>
+      <forceAnimation>False</forceAnimation>
+      <variations Type="CommunicationVariation" Count="1">
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Farewell+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="0" />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+      <entityRetriggerDelay>0</entityRetriggerDelay>
+      <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
+    </CommunicationEntry>
+    <CommunicationEntry Type="CommunicationEntry">
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/social/reaction/soc_requesttoleave.xml" />
+      <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/personalwildline.xml" />
+      <method>RandomSequence</method>
+      <forceAnimation>False</forceAnimation>
+      <variations Type="CommunicationVariation" Count="1">
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Evict+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="0" />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+      <entityRetriggerDelay>0</entityRetriggerDelay>
+      <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
+    </CommunicationEntry>
+    <CommunicationEntry Type="CommunicationEntry">
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/social/reaction/soc_welcome.xml" />
+      <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/personalwildline.xml" />
+      <method>RandomSequence</method>
+      <forceAnimation>False</forceAnimation>
+      <variations Type="CommunicationVariation" Count="22">
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="0" />
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__CompanyName:dx_Covalex+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e863e8d4-1b84-4dd7-9c7a-d4615f46a752" RecordId="e863e8d4-1b84-4dd7-9c7a-d4615f46a752" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__CompanyName:dx_EzHab+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6f5da7b4-d030-4874-81c4-782346a1b842" RecordId="6f5da7b4-d030-4874-81c4-782346a1b842" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__CompanyName:dx_TDD+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7bf4896a-7992-4a86-a376-21c8c03d19e6" RecordId="7bf4896a-7992-4a86-a376-21c8c03d19e6" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>wildlines</animationFragmentId>
+          <animationFragmentTags>Greeting+newdeal</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4850340c-2779-47ff-a16a-bcc261f029c1" RecordId="4850340c-2779-47ff-a16a-bcc261f029c1" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>wildlines</animationFragmentId>
+          <animationFragmentTags>Greeting+teachshipshop</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.9845d4de-4fd1-4590-8eee-6848ebce2645" RecordId="9845d4de-4fd1-4590-8eee-6848ebce2645" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_MAndV+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.c115e38a-4804-4380-8d8d-65cb98c4c78d" RecordId="c115e38a-4804-4380-8d8d-65cb98c4c78d" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_Voyager+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.47a36940-ad4f-45a1-a1f6-21b895a43882" RecordId="47a36940-ad4f-45a1-a1f6-21b895a43882" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_GLOC+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dffeb04e-cad0-40b2-9e95-db186b0b2c48" RecordId="dffeb04e-cad0-40b2-9e95-db186b0b2c48" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_Wallys+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.c5d45bee-e6cc-4949-8866-20c6b5e88f89" RecordId="c5d45bee-e6cc-4949-8866-20c6b5e88f89" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_Ellroys+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1075225d-bc7b-4a3e-a0a1-0826d878b1ab" RecordId="1075225d-bc7b-4a3e-a0a1-0826d878b1ab" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_BigBenny+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ee43e231-26aa-4420-bd71-b0c86532bede" RecordId="ee43e231-26aa-4420-bd71-b0c86532bede" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_GrabNGo+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1c725421-7996-482e-aca9-089b1f8f9db2" RecordId="1c725421-7996-482e-aca9-089b1f8f9db2" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_Whammers+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.3a8cdecd-0827-4253-86d7-058e9e0e31ac" RecordId="3a8cdecd-0827-4253-86d7-058e9e0e31ac" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_GarciasGreens+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.07a268a8-67f3-45b3-9560-c689850f1cd2" RecordId="07a268a8-67f3-45b3-9560-c689850f1cd2" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_LiveFire+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.51b6df59-f26c-4b9a-8174-a48d7615ce42" RecordId="51b6df59-f26c-4b9a-8174-a48d7615ce42" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_DumpersDepot+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.cae81c64-c1c8-4fe9-852d-5a6febc35d71" RecordId="cae81c64-c1c8-4fe9-852d-5a6febc35d71" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_GarrityDefense+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.25833fa8-cd72-475d-8837-b9bbbe1a35ef" RecordId="25833fa8-cd72-475d-8837-b9bbbe1a35ef" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_TammanyAndSons+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4d6c0588-bfb7-4623-b96f-092a6380d6e3" RecordId="4d6c0588-bfb7-4623-b96f-092a6380d6e3" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_AstroArmada+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.3781702d-981e-48f9-b6d1-6c44731c2dbf" RecordId="3781702d-981e-48f9-b6d1-6c44731c2dbf" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_CubbyBlast+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.983703f1-116c-4e9b-abff-67178766f9bf" RecordId="983703f1-116c-4e9b-abff-67178766f9bf" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Welcome+dxg__ShopName:dx_Casaba+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e48657b6-7771-4663-960a-d58b6fab2ea4" RecordId="e48657b6-7771-4663-960a-d58b6fab2ea4" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+      <entityRetriggerDelay>0</entityRetriggerDelay>
+      <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
+    </CommunicationEntry>
+    <CommunicationEntry Type="CommunicationEntry">
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/social/reaction/soc_calmdown.xml" />
+      <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/personalwildline.xml" />
+      <method>RandomSequence</method>
+      <forceAnimation>False</forceAnimation>
+      <variations Type="CommunicationVariation" Count="1">
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Deescalate+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="0" />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+      <entityRetriggerDelay>0</entityRetriggerDelay>
+      <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
+    </CommunicationEntry>
+    <CommunicationEntry Type="CommunicationEntry">
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/social/reaction/soc_apologize.xml" />
+      <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/personalwildline.xml" />
+      <method>RandomSequence</method>
+      <forceAnimation>False</forceAnimation>
+      <variations Type="CommunicationVariation" Count="2">
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Apologize+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="0" />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Apologize+dxg__Preposition:dx_To+dxg__Role:dx_Customer+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2a607a41-483a-4983-bc75-59b743169aff" RecordId="2a607a41-483a-4983-bc75-59b743169aff" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+      <entityRetriggerDelay>0</entityRetriggerDelay>
+      <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
+    </CommunicationEntry>
+    <CommunicationEntry Type="CommunicationEntry">
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/social/reaction/soc_offerhelp.xml" />
+      <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/personalwildline.xml" />
+      <method>RandomSequence</method>
+      <forceAnimation>False</forceAnimation>
+      <variations Type="CommunicationVariation" Count="1">
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Offer+dxg__subject:dx_Assistance+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="0" />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+      <entityRetriggerDelay>0</entityRetriggerDelay>
+      <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
+    </CommunicationEntry>
+    <CommunicationEntry Type="CommunicationEntry">
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/social/reaction/soc_thanks.xml" />
+      <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/personalwildline.xml" />
+      <method>RandomSequence</method>
+      <forceAnimation>False</forceAnimation>
+      <variations Type="CommunicationVariation" Count="1">
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Appreciate+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="0" />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+      <entityRetriggerDelay>0</entityRetriggerDelay>
+      <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
+    </CommunicationEntry>
+    <CommunicationEntry Type="CommunicationEntry">
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/social/reaction/soc_requesthelp.xml" />
+      <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/personalwildline.xml" />
+      <method>RandomSequence</method>
+      <forceAnimation>False</forceAnimation>
+      <variations Type="CommunicationVariation" Count="2">
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Request+dxg__subject:dx_Assistance+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="0" />
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Request+dxg__subject:dx_Assistance+dxg__subject:dx_Stock+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="1">
+                <TagsDNFTerm Type="TagsDNFTerm">
+                  <positiveTags Type="Tag" Count="1">
+                    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ea05c611-32d7-44f0-9f56-2f0856025eab" RecordId="ea05c611-32d7-44f0-9f56-2f0856025eab" />
+                  </positiveTags>
+                  <negativeTags Type="Tag" Count="0" />
+                </TagsDNFTerm>
+              </terms>
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+      <entityRetriggerDelay>0</entityRetriggerDelay>
+      <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
+    </CommunicationEntry>
+    <CommunicationEntry Type="CommunicationEntry">
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/social/reaction/soc_affirm.xml" />
+      <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/personalwildline.xml" />
+      <method>RandomSequence</method>
+      <forceAnimation>False</forceAnimation>
+      <variations Type="CommunicationVariation" Count="1">
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Confirm+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="0" />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+      <entityRetriggerDelay>0</entityRetriggerDelay>
+      <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
+    </CommunicationEntry>
+    <CommunicationEntry Type="CommunicationEntry">
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/social/reaction/soc_deny.xml" />
+      <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/personalwildline.xml" />
+      <method>RandomSequence</method>
+      <forceAnimation>False</forceAnimation>
+      <variations Type="CommunicationVariation" Count="1">
+        <CommunicationVariation Type="CommunicationVariation">
+          <animationFragmentId>dx_social</animationFragmentId>
+          <animationFragmentTags>dxg__verb:dx_Deny+dxg__project:dx_pu</animationFragmentTags>
+          <soundName />
+          <overrideMinSilence>-1</overrideMinSilence>
+          <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
+          <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
+          <dialogueExternalSource />
+          <rules Type="CommunicationVariationRules">
+            <timeout>0</timeout>
+            <lookAtTarget>False</lookAtTarget>
+            <finishAnimation>True</finishAnimation>
+            <finishSound>True</finishSound>
+            <finishVoice>True</finishVoice>
+            <finishTimeout>True</finishTimeout>
+            <blockMovement>False</blockMovement>
+            <blockFire>False</blockFire>
+          </rules>
+          <conditions Type="CommunicationVariationCondition">
+            <expression />
+            <conditionTags Type="TagsDNF">
+              <terms Type="TagsDNFTerm" Count="0" />
+            </conditionTags>
+          </conditions>
+        </CommunicationVariation>
+      </variations>
+      <entityRetriggerDelay>0</entityRetriggerDelay>
+      <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
+    </CommunicationEntry>
+  </communications>
+  <subConfigs Type="CommunicationConfig" Count="0" />
+</CommunicationConfig.Human_SOC_Reactions>

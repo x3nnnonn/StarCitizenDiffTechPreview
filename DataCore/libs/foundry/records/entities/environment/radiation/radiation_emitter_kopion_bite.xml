@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<EntityClassDefinition.Radiation_Emitter_Kopion_Bite RecordId="40ec498e-6253-4480-9f3e-30ecf7a8a39e" Type="EntityClassDefinition">
+  <Category>Default</Category>
+  <Icon>Default.bmp</Icon>
+  <Invisible>False</Invisible>
+  <BBoxSelection>False</BBoxSelection>
+  <entityDensityClass />
+  <tags Type="Tag" Count="0" />
+  <StaticEntityClassData Type="EntityClassStaticDataParams" Count="0" />
+  <Components Type="DataForgeComponentParams" Count="4">
+    <SAttachableComponentParams Type="SAttachableComponentParams">
+      <AttachDef Type="SItemDefinition">
+        <Type>UNDEFINED</Type>
+        <SubType>UNDEFINED</SubType>
+        <Size>1</Size>
+        <Grade>1</Grade>
+        <Manufacturer />
+        <inheritParentManufacturer>False</inheritParentManufacturer>
+        <Tags />
+        <RequiredTags />
+        <DisplayType />
+        <Localization Type="SCItemLocalization">
+          <Name>@LOC_PLACEHOLDER</Name>
+          <ShortName>@LOC_EMPTY</ShortName>
+          <Description>@LOC_EMPTY</Description>
+          <displayFeatures Type="SCExtendedLocalizationLevelParams">
+            <LogoSimplifiedWhite />
+            <FrontendBackground />
+            <History>@LOC_EMPTY</History>
+            <Callout1>@LOC_EMPTY</Callout1>
+            <Callout2>@LOC_EMPTY</Callout2>
+            <Callout3>@LOC_EMPTY</Callout3>
+            <UIPriority>0</UIPriority>
+            <locationAudioPlayTrigger Type="GlobalResourceAudio">
+              <audioTrigger />
+            </locationAudioPlayTrigger>
+            <locationAudioStopTrigger Type="GlobalResourceAudio">
+              <audioTrigger />
+            </locationAudioStopTrigger>
+          </displayFeatures>
+        </Localization>
+        <mannequinTags Type="SCItemMannequinTags">
+          <mannequinClassTag />
+          <mannequinTypeTag />
+          <mannequinBaseTag />
+        </mannequinTags>
+        <inventoryOccupancyVolume Type="SMicroCargoUnit">
+          <microSCU>1</microSCU>
+        </inventoryOccupancyVolume>
+        <inventoryOccupancyDimensions Type="Vec3">
+          <x>0.15</x>
+          <y>0.15</y>
+          <z>0.15</z>
+        </inventoryOccupancyDimensions>
+        <inventoryOccupancyLocalBoundsMin Type="Vec3">
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </inventoryOccupancyLocalBoundsMin>
+        <inventoryOccupancyLocalBoundsMax Type="Vec3">
+          <x>0</x>
+          <y>0</y>
+          <z>0</z>
+        </inventoryOccupancyLocalBoundsMax>
+        <inventoryOccupancyDimensionsUIOverride />
+        <ignoredAttachAxis>None</ignoredAttachAxis>
+      </AttachDef>
+      <attachToTileItemPort>NoConnection</attachToTileItemPort>
+      <entityAttachParams />
+    </SAttachableComponentParams>
+    <RadiationEmitterComponentParams Type="RadiationEmitterComponentParams">
+      <radiationReceiverTag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6021d779-64a2-4cc8-b968-cf88bf03d37e" RecordId="6021d779-64a2-4cc8-b968-cf88bf03d37e" />
+      <enabled>True</enabled>
+      <useRaycasts>False</useRaycasts>
+      <toggleOnEntityHide>False</toggleOnEntityHide>
+      <emissionRangeMinimum>2</emissionRangeMinimum>
+      <emissionRangeMaximum>2</emissionRangeMaximum>
+      <emissionStrength>40</emissionStrength>
+      <falloffCurve>EaseOutQuad</falloffCurve>
+      <emissionRangeHeightMinimum>0</emissionRangeHeightMinimum>
+      <emissionRangeHeightMaximum>0</emissionRangeHeightMaximum>
+      <vfxParams Type="RadiationEmitterVFXParams">
+        <tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ab78a7f7-e3d8-4c5b-92fe-5f6ce7a899e0" RecordId="ab78a7f7-e3d8-4c5b-92fe-5f6ce7a899e0" />
+        <overwriteVFXStrength>True</overwriteVFXStrength>
+        <sizeMultiplier>1</sizeMultiplier>
+      </vfxParams>
+      <lifetimeParams Type="RadiationEmitterLifetimeParams">
+        <useLifetime>False</useLifetime>
+        <lifetimeLength>30</lifetimeLength>
+        <lifetimeCurve>EaseInCubic</lifetimeCurve>
+      </lifetimeParams>
+    </RadiationEmitterComponentParams>
+    <SCInteractionStateGameplayTriggerComponentParams Type="SCInteractionStateGameplayTriggerComponentParams">
+      <onInteractionStateChangeTriggers Type="SOnInteractionStateChangeTriggers" Count="0" />
+      <onInteractionSuccessTriggers Type="SOnInteractionTriggers" Count="1">
+        <SOnInteractionTriggers Type="SOnInteractionTriggers">
+          <targetInteraction PointsTo="ptr:1" />
+          <gameplayTriggers Type="SBaseInteractionGameplayTrigger" Count="1">
+            <SRadiationEmitterGameplayTrigger Type="SRadiationEmitterGameplayTrigger">
+              <enableEmitter>False</enableEmitter>
+            </SRadiationEmitterGameplayTrigger>
+          </gameplayTriggers>
+        </SOnInteractionTriggers>
+      </onInteractionSuccessTriggers>
+      <onInteractionFailedTriggers Type="SOnInteractionTriggers" Count="0" />
+    </SCInteractionStateGameplayTriggerComponentParams>
+    <SEntityInteractableParams Type="SEntityInteractableParams">
+      <Interactable Type="SInteractableParams">
+        <SharedInteractions Type="SSharedInteractionParams" Count="1">
+          <SSharedInteractionParams Pointer="ptr:1" Type="SSharedInteractionParams">
+            <Name>TurnOff</Name>
+            <QueryTags Type="Tag" Count="0" />
+            <RoomTag />
+            <UsableTag />
+            <LinkingTag />
+            <DisplayName>@usable_use</DisplayName>
+            <DisplayType>Hide</DisplayType>
+            <GenericCursor>SingleAction</GenericCursor>
+            <FocusModeOnly>False</FocusModeOnly>
+            <Sendable>False</Sendable>
+            <Linkable>False</Linkable>
+            <LockedByLinks>False</LockedByLinks>
+            <RequiresAuthorizedUser>False</RequiresAuthorizedUser>
+            <available>True</available>
+            <InheritsConditionDisplaysThroughLinks>False</InheritsConditionDisplaysThroughLinks>
+            <conditionList />
+            <playerAnimatedInteractionBase />
+          </SSharedInteractionParams>
+        </SharedInteractions>
+        <InteractionPoints Type="SInteractionPointParams" Count="0" />
+        <interactionTasks Type="SSequencerInteractionTask" Count="0" />
+        <actionHandlerTasks Type="SSequencerActorActionHandlerTask" Count="0" />
+        <itemActionTasks Type="SSequencerItemActionTask" Count="0" />
+        <menuTitle />
+      </Interactable>
+    </SEntityInteractableParams>
+  </Components>
+</EntityClassDefinition.Radiation_Emitter_Kopion_Bite>
