@@ -11,11 +11,6 @@
     <SGeometryResourceParams Type="SGeometryResourceParams">
       <ModelTag />
       <cacheResources>False</cacheResources>
-      <meshsetup Type="SGeometryMeshsetupParams">
-        <visibilityTags Type="TagList">
-          <tags Type="Tag" Count="0" />
-        </visibilityTags>
-      </meshsetup>
       <Geometry Type="SGeometryNodeParams">
         <Tags />
         <Geometry Type="SGeometryDataParams">
@@ -29,6 +24,7 @@
           <Palette Type="TintPaletteRef">
             <RootRecord />
             <ChildPath />
+            <SwizzleOverride />
           </Palette>
           <Slot>Main</Slot>
           <MaterialAttachments />
@@ -70,6 +66,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -109,6 +106,7 @@
         <Palette Type="TintPaletteRef">
           <RootRecord />
           <ChildPath />
+          <SwizzleOverride />
         </Palette>
         <materialVariants Type="SMaterialNodeParams" Count="0" />
       </Material>
@@ -117,33 +115,41 @@
     </SGeometryResourceParams>
     <SHealthComponentParams Type="SHealthComponentParams">
       <Health>1</Health>
+      <DamageCap>0</DamageCap>
       <DamageResistances Type="DamageResistance">
         <IgnoreMeleeDamage>False</IgnoreMeleeDamage>
         <PhysicalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </PhysicalResistance>
         <EnergyResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </EnergyResistance>
         <DistortionResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </DistortionResistance>
         <ThermalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </ThermalResistance>
         <BiochemicalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </BiochemicalResistance>
         <StunResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </StunResistance>
       </DamageResistances>
+      <hitManipulationParams />
       <InitialDamage />
       <SerializedDamageMapPath />
       <ClientOnly>False</ClientOnly>
@@ -151,6 +157,7 @@
       <PushDamageUpPartsHeirarchyWhenDead>True</PushDamageUpPartsHeirarchyWhenDead>
       <DetachFromItemPortOnDeath>False</DetachFromItemPortOnDeath>
       <DetachFromEntityOnDeath>False</DetachFromEntityOnDeath>
+      <DestroySelfOnDeath>False</DestroySelfOnDeath>
       <DestroyChildrenOnDeath>False</DestroyChildrenOnDeath>
       <PropagateExplosionDamageToChildren>False</PropagateExplosionDamageToChildren>
       <UseDirtShaderForDamage>True</UseDirtShaderForDamage>
@@ -173,13 +180,14 @@
       <InteractionLocks Type="SHealthInteractionLockParams" Count="0" />
       <IsSalvagable>True</IsSalvagable>
       <IsRepairable>True</IsRepairable>
-      <SalvageDamageModifier>1</SalvageDamageModifier>
       <MirrorSalvageHit>False</MirrorSalvageHit>
       <DisableMaterialDamage>False</DisableMaterialDamage>
       <sequencerTasks Type="EntityComponentHealth_SBaseSequencerTask" Count="0" />
-      <maelstromEvents Type="MaelstromBaseEvent" Count="0" />
+      <shatterDestroyEvent />
       <craftingData />
       <alwaysPropagateHitToParent>False</alwaysPropagateHitToParent>
+      <duplicateHitToParent>False</duplicateHitToParent>
+      <sendOnDestructionEventToMasterRootContainer>False</sendOnDestructionEventToMasterRootContainer>
     </SHealthComponentParams>
     <SEntityPhysicsControllerParams Type="SEntityPhysicsControllerParams">
       <PhysType Type="SEntityRigidPhysicsControllerParams">
@@ -187,11 +195,11 @@
         <compoundingAllowed>True</compoundingAllowed>
         <breakableParams />
         <gameCollisionClass />
-        <PhysFlagsOverride Type="DiminishingReturnsStatusEffectApplicationType" Count="0" />
-        <PhysFlagsColliderOverride Type="DiminishingReturnsStatusEffectApplicationType" Count="0" />
+        <spawnBoxScale>0.5</spawnBoxScale>
+        <PhysFlagsOverride Type="SAsteroidShapeComponentParams" Count="0" />
+        <PhysFlagsColliderOverride Type="SAsteroidShapeComponentParams" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
-        <DampingZeroG>0.01</DampingZeroG>
         <DampingFreefall>0.05</DampingFreefall>
         <PushableByPlayers>True</PushableByPlayers>
         <NeverAffectTriggers>False</NeverAffectTriggers>
@@ -307,6 +315,9 @@
         <z>0</z>
       </localOffsetForAdditionalOverridenDebris>
       <entityClassOverride />
+      <onBreakAudioTrigger Type="GlobalResourceAudio">
+        <audioTrigger />
+      </onBreakAudioTrigger>
     </BreakableComponentParams>
   </Components>
 </EntityClassDefinition.DestroyableObject>

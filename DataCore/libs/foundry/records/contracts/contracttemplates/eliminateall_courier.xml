@@ -529,6 +529,7 @@
         <module>Libs/Subsumption/Missions/PU/Missions/InfiltrateAndDefend/PU_EliminateAll.xml</module>
         <moduleHierarchy ReferencedFile="file://./../../../../../libs/foundry/records/contracts/modulehierarchy/eliminateall_mmh.xml" />
         <disableTravelObjectives>False</disableTravelObjectives>
+        <disableReturnObjectives>False</disableReturnObjectives>
         <travelRadiusKM>0</travelRadiusKM>
         <allPlayersLeftGracePeriod>-1</allPlayersLeftGracePeriod>
         <travelObjectiveInfo Type="ObjectiveDisplayInfo">
@@ -547,6 +548,7 @@
         </returnObjectiveInfo>
         <navPointSpawnInfo />
         <location PointsTo="ptr:14" />
+        <securityManifestToOverride />
       </objectiveHandler>
       <rewardContribution />
       <displayInfo Type="ObjectiveDisplayInfo">
@@ -661,47 +663,47 @@
           <HaulingOrder_MissionItem Type="HaulingOrder_MissionItem">
             <pickUpLocation PointsTo="ptr:23" />
             <dropOffLocation PointsTo="ptr:24" />
+            <pickUpTargetTypes Type="DeliveryTarget" Count="0" />
+            <dropOffTargetTypes Type="DeliveryTarget" Count="0" />
             <item PointsTo="ptr:25" />
             <minAmount>1</minAmount>
             <maxAmount>0</maxAmount>
-            <pickUpTargetTypes Type="DeliveryTarget" Count="0" />
-            <dropOffTargetTypes Type="DeliveryTarget" Count="0" />
           </HaulingOrder_MissionItem>
           <HaulingOrder_MissionItem Type="HaulingOrder_MissionItem">
             <pickUpLocation PointsTo="ptr:23" />
             <dropOffLocation PointsTo="ptr:24" />
+            <pickUpTargetTypes Type="DeliveryTarget" Count="0" />
+            <dropOffTargetTypes Type="DeliveryTarget" Count="0" />
             <item PointsTo="ptr:26" />
             <minAmount>1</minAmount>
             <maxAmount>0</maxAmount>
-            <pickUpTargetTypes Type="DeliveryTarget" Count="0" />
-            <dropOffTargetTypes Type="DeliveryTarget" Count="0" />
           </HaulingOrder_MissionItem>
           <HaulingOrder_MissionItem Type="HaulingOrder_MissionItem">
             <pickUpLocation PointsTo="ptr:23" />
             <dropOffLocation PointsTo="ptr:24" />
+            <pickUpTargetTypes Type="DeliveryTarget" Count="0" />
+            <dropOffTargetTypes Type="DeliveryTarget" Count="0" />
             <item PointsTo="ptr:27" />
             <minAmount>1</minAmount>
             <maxAmount>0</maxAmount>
-            <pickUpTargetTypes Type="DeliveryTarget" Count="0" />
-            <dropOffTargetTypes Type="DeliveryTarget" Count="0" />
           </HaulingOrder_MissionItem>
           <HaulingOrder_MissionItem Type="HaulingOrder_MissionItem">
             <pickUpLocation PointsTo="ptr:23" />
             <dropOffLocation PointsTo="ptr:24" />
+            <pickUpTargetTypes Type="DeliveryTarget" Count="0" />
+            <dropOffTargetTypes Type="DeliveryTarget" Count="0" />
             <item PointsTo="ptr:28" />
             <minAmount>1</minAmount>
             <maxAmount>0</maxAmount>
-            <pickUpTargetTypes Type="DeliveryTarget" Count="0" />
-            <dropOffTargetTypes Type="DeliveryTarget" Count="0" />
           </HaulingOrder_MissionItem>
           <HaulingOrder_MissionItem Type="HaulingOrder_MissionItem">
             <pickUpLocation PointsTo="ptr:23" />
             <dropOffLocation PointsTo="ptr:24" />
+            <pickUpTargetTypes Type="DeliveryTarget" Count="0" />
+            <dropOffTargetTypes Type="DeliveryTarget" Count="0" />
             <item PointsTo="ptr:29" />
             <minAmount>1</minAmount>
             <maxAmount>0</maxAmount>
-            <pickUpTargetTypes Type="DeliveryTarget" Count="0" />
-            <dropOffTargetTypes Type="DeliveryTarget" Count="0" />
           </HaulingOrder_MissionItem>
         </haulingOrders>
         <haulingLimitProperty PointsTo="ptr:30" />

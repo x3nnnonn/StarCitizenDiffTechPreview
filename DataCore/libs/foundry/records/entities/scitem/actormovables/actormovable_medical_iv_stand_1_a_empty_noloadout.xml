@@ -16,11 +16,11 @@
         <compoundingAllowed>True</compoundingAllowed>
         <breakableParams />
         <gameCollisionClass />
-        <PhysFlagsOverride Type="DiminishingReturnsStatusEffectApplicationType" Count="0" />
-        <PhysFlagsColliderOverride Type="DiminishingReturnsStatusEffectApplicationType" Count="0" />
+        <spawnBoxScale>0.5</spawnBoxScale>
+        <PhysFlagsOverride Type="SAsteroidShapeComponentParams" Count="0" />
+        <PhysFlagsColliderOverride Type="SAsteroidShapeComponentParams" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0</Damping>
-        <DampingZeroG>0.01</DampingZeroG>
         <DampingFreefall>0.05</DampingFreefall>
         <PushableByPlayers>True</PushableByPlayers>
         <NeverAffectTriggers>False</NeverAffectTriggers>
@@ -236,8 +236,6 @@
                 <z>0</z>
               </Position>
             </InteractionPromptOffset>
-            <PromptStyle>PromptAndText</PromptStyle>
-            <OverrideControlHintDescription>False</OverrideControlHintDescription>
             <InteractionPromptScale>1</InteractionPromptScale>
             <InteractionPromptLabelVerticalOffset>70</InteractionPromptLabelVerticalOffset>
             <InteractionPromptBound>EntityRoot</InteractionPromptBound>
@@ -265,11 +263,6 @@
     <SGeometryResourceParams Type="SGeometryResourceParams">
       <ModelTag />
       <cacheResources>False</cacheResources>
-      <meshsetup Type="SGeometryMeshsetupParams">
-        <visibilityTags Type="TagList">
-          <tags Type="Tag" Count="0" />
-        </visibilityTags>
-      </meshsetup>
       <Geometry Type="SGeometryNodeParams">
         <Tags />
         <Geometry Type="SGeometryDataParams">
@@ -283,6 +276,7 @@
           <Palette Type="TintPaletteRef">
             <RootRecord />
             <ChildPath />
+            <SwizzleOverride />
           </Palette>
           <Slot>Main</Slot>
           <MaterialAttachments />
@@ -324,6 +318,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -363,6 +358,7 @@
         <Palette Type="TintPaletteRef">
           <RootRecord />
           <ChildPath />
+          <SwizzleOverride />
         </Palette>
         <materialVariants Type="SMaterialNodeParams" Count="0" />
       </Material>
@@ -677,18 +673,6 @@
       <placeTrigger Type="GlobalResourceAudio">
         <audioTrigger />
       </placeTrigger>
-      <tractorBeamPickupTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
-      </tractorBeamPickupTrigger>
-      <tractorBeamDropTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
-      </tractorBeamDropTrigger>
-      <detachBreakTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
-      </detachBreakTrigger>
-      <playerCausedDetachBreakTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
-      </playerCausedDetachBreakTrigger>
       <rtpcSlideVelocity Type="AudioRtpc">
         <rtpc>PhysicalAudio_Velocity</rtpc>
       </rtpcSlideVelocity>
@@ -722,16 +706,12 @@
       <rtpcCarried Type="AudioRtpc">
         <rtpc>PhysicalAudio_CarryState</rtpc>
       </rtpcCarried>
-      <rtpcSize Type="AudioRtpc">
-        <rtpc />
-      </rtpcSize>
       <minimumImpulseContinuous>40</minimumImpulseContinuous>
       <minimumImpulseTransient>1000</minimumImpulseTransient>
       <minimumVelocityNoImpulse>100</minimumVelocityNoImpulse>
       <slideThreshold>0.1</slideThreshold>
       <rollThreshold>0.1</rollThreshold>
       <momentumScale>1</momentumScale>
-      <rollVelocityScale>1</rollVelocityScale>
       <useAABBCentre>False</useAABBCentre>
       <oneShotTag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0d401f6c-38a4-4c52-bb02-26059dd8d98a" RecordId="0d401f6c-38a4-4c52-bb02-26059dd8d98a" />
       <oneShotCooldown>0.2</oneShotCooldown>
@@ -739,33 +719,41 @@
     </EntityPhysicalAudioParams>
     <SHealthComponentParams Type="SHealthComponentParams">
       <Health>50</Health>
+      <DamageCap>0</DamageCap>
       <DamageResistances Type="DamageResistance">
         <IgnoreMeleeDamage>False</IgnoreMeleeDamage>
         <PhysicalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </PhysicalResistance>
         <EnergyResistance Type="DamageResistanceEntry">
           <Multiplier>0</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </EnergyResistance>
         <DistortionResistance Type="DamageResistanceEntry">
           <Multiplier>0</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </DistortionResistance>
         <ThermalResistance Type="DamageResistanceEntry">
           <Multiplier>0</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </ThermalResistance>
         <BiochemicalResistance Type="DamageResistanceEntry">
           <Multiplier>0</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </BiochemicalResistance>
         <StunResistance Type="DamageResistanceEntry">
           <Multiplier>0</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </StunResistance>
       </DamageResistances>
+      <hitManipulationParams />
       <InitialDamage />
       <SerializedDamageMapPath />
       <ClientOnly>False</ClientOnly>
@@ -773,6 +761,7 @@
       <PushDamageUpPartsHeirarchyWhenDead>True</PushDamageUpPartsHeirarchyWhenDead>
       <DetachFromItemPortOnDeath>False</DetachFromItemPortOnDeath>
       <DetachFromEntityOnDeath>False</DetachFromEntityOnDeath>
+      <DestroySelfOnDeath>False</DestroySelfOnDeath>
       <DestroyChildrenOnDeath>False</DestroyChildrenOnDeath>
       <PropagateExplosionDamageToChildren>False</PropagateExplosionDamageToChildren>
       <UseDirtShaderForDamage>False</UseDirtShaderForDamage>
@@ -789,13 +778,14 @@
       <InteractionLocks Type="SHealthInteractionLockParams" Count="0" />
       <IsSalvagable>True</IsSalvagable>
       <IsRepairable>True</IsRepairable>
-      <SalvageDamageModifier>1</SalvageDamageModifier>
       <MirrorSalvageHit>False</MirrorSalvageHit>
       <DisableMaterialDamage>False</DisableMaterialDamage>
       <sequencerTasks Type="EntityComponentHealth_SBaseSequencerTask" Count="0" />
-      <maelstromEvents Type="MaelstromBaseEvent" Count="0" />
+      <shatterDestroyEvent />
       <craftingData />
       <alwaysPropagateHitToParent>False</alwaysPropagateHitToParent>
+      <duplicateHitToParent>False</duplicateHitToParent>
+      <sendOnDestructionEventToMasterRootContainer>False</sendOnDestructionEventToMasterRootContainer>
     </SHealthComponentParams>
     <AINavigationDynamicTriggerComponent Type="AINavigationDynamicTriggerComponent">
       <adapters Type="NavigationTriggerAdapter" Count="1">
@@ -830,11 +820,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -867,7 +854,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -920,7 +907,7 @@
                     <y>0</y>
                   </Capsule>
                   <ProjectionType>PS1_NoProjection</ProjectionType>
-                  <AvailableCollisionProxies Type="SActorForceReactionsPresetRecord" Count="0" />
+                  <AvailableCollisionProxies Type="LinkedStatRulePassCrossingBelowThreshold" Count="0" />
                 </SimulationParams>
               </Helper>
               <SubHelpers Type="SItemPortDefHelperNode" Count="0" />
@@ -954,11 +941,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -991,7 +975,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1044,7 +1028,7 @@
                     <y>0</y>
                   </Capsule>
                   <ProjectionType>PS1_NoProjection</ProjectionType>
-                  <AvailableCollisionProxies Type="SActorForceReactionsPresetRecord" Count="0" />
+                  <AvailableCollisionProxies Type="LinkedStatRulePassCrossingBelowThreshold" Count="0" />
                 </SimulationParams>
               </Helper>
               <SubHelpers Type="SItemPortDefHelperNode" Count="0" />
@@ -1078,11 +1062,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -1115,7 +1096,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1168,7 +1149,7 @@
                     <y>0</y>
                   </Capsule>
                   <ProjectionType>PS1_NoProjection</ProjectionType>
-                  <AvailableCollisionProxies Type="SActorForceReactionsPresetRecord" Count="0" />
+                  <AvailableCollisionProxies Type="LinkedStatRulePassCrossingBelowThreshold" Count="0" />
                 </SimulationParams>
               </Helper>
               <SubHelpers Type="SItemPortDefHelperNode" Count="0" />

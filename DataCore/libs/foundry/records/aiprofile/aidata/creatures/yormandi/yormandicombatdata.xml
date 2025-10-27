@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ActivityData.YormandiCombatData RecordId="a8b66caa-479f-4fff-b4f3-693679d6cbf6" Type="ActivityData">
+  <dataRecords Type="ActivityDataRecord" Count="1">
+    <YormandiCombatData Type="YormandiCombatData">
+      <activityBehaviorRequests Type="ActivityBehaviorRequest" Count="1">
+        <ActivityBehaviorRequest Type="ActivityBehaviorRequest">
+          <requestName>SpawnAnotherYormandi</requestName>
+          <condition Type="ActivityBehaviorRequestCondition_HPThreshold">
+            <threshold>0.75</threshold>
+          </condition>
+        </ActivityBehaviorRequest>
+      </activityBehaviorRequests>
+      <targetQueryName ReferencedFile="file://./../../../../../../../libs/foundry/records/tacticalquery/ttsqueries/yormandicombattarget.xml" />
+      <targetQueryName_ignoreAttackerCapacity ReferencedFile="file://./../../../../../../../libs/foundry/records/tacticalquery/ttsqueries/yormandicombattarget_ignoreattackercapacity.xml" />
+      <postDivePauseDuration>2</postDivePauseDuration>
+      <postAttackIdleDuration>1</postAttackIdleDuration>
+    </YormandiCombatData>
+  </dataRecords>
+</ActivityData.YormandiCombatData>

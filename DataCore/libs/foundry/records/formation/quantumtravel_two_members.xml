@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Formation.QuantumTravel_two_members RecordId="c128f854-9b96-4c3d-bf26-86c4741e7c70" Type="Formation">
+  <name />
+  <offsets Type="FormationOffset" Count="1">
+    <FormationOffset Type="FormationOffset">
+      <offset Type="Vec3">
+        <x>40</x>
+        <y>-50</y>
+        <z>10</z>
+      </offset>
+      <offsetTag />
+    </FormationOffset>
+  </offsets>
+  <playerFormationParams Type="PlayerFormationParams">
+    <targetRadius>100</targetRadius>
+    <breakRadius>0</breakRadius>
+    <abandonFormationAtBreakRadius>False</abandonFormationAtBreakRadius>
+    <targetVelocityTolerance>5</targetVelocityTolerance>
+  </playerFormationParams>
+  <formationTag />
+</Formation.QuantumTravel_two_members>

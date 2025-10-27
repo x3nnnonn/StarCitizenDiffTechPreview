@@ -63,7 +63,7 @@
       <locationProperty PointsTo="ptr:1" />
     </MissionModifier_SecurityClearance>
   </modifiers>
-  <contractProperties Type="MissionProperty" Count="12">
+  <contractProperties Type="MissionProperty" Count="11">
     <MissionProperty Pointer="ptr:1" Type="MissionProperty">
       <missionVariableName>BP_MissionLocation</missionVariableName>
       <extendedTextToken>Location</extendedTextToken>
@@ -230,13 +230,6 @@
         <options Type="MissionPropertyValueOption_Tags" Count="0" />
       </value>
     </MissionProperty>
-    <MissionProperty Type="MissionProperty">
-      <missionVariableName>SkipReachLocation_BP</missionVariableName>
-      <extendedTextToken />
-      <value Type="MissionPropertyValue_Boolean">
-        <value>True</value>
-      </value>
-    </MissionProperty>
   </contractProperties>
   <objectiveTokens Type="ObjectiveToken" Count="1">
     <ObjectiveToken Type="ObjectiveToken">
@@ -304,6 +297,7 @@
         <module>Libs/Subsumption/Missions/PU/Missions/InfiltrateAndDefend/PU_EliminateAll.xml</module>
         <moduleHierarchy ReferencedFile="file://./../../../../../libs/foundry/records/contracts/modulehierarchy/eliminateall_mmh.xml" />
         <disableTravelObjectives>False</disableTravelObjectives>
+        <disableReturnObjectives>False</disableReturnObjectives>
         <travelRadiusKM>0</travelRadiusKM>
         <allPlayersLeftGracePeriod>-1</allPlayersLeftGracePeriod>
         <travelObjectiveInfo Type="ObjectiveDisplayInfo">
@@ -322,6 +316,7 @@
         </returnObjectiveInfo>
         <navPointSpawnInfo />
         <location PointsTo="ptr:12" />
+        <securityManifestToOverride />
       </objectiveHandler>
       <rewardContribution />
       <displayInfo Type="ObjectiveDisplayInfo">

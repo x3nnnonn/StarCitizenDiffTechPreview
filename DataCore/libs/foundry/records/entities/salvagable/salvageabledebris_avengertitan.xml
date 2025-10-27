@@ -169,50 +169,59 @@
           <z>0.15</z>
         </inventoryOccupancyDimensions>
         <inventoryOccupancyLocalBoundsMin Type="Vec3">
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
+          <x>-8.6</x>
+          <y>-11.911</y>
+          <z>-3.202</z>
         </inventoryOccupancyLocalBoundsMin>
         <inventoryOccupancyLocalBoundsMax Type="Vec3">
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
+          <x>8.552</x>
+          <y>10.472</y>
+          <z>2.788</z>
         </inventoryOccupancyLocalBoundsMax>
         <inventoryOccupancyDimensionsUIOverride />
         <ignoredAttachAxis>None</ignoredAttachAxis>
+        <attachCheckCenterOfMass>False</attachCheckCenterOfMass>
       </AttachDef>
       <attachToTileItemPort>NoConnection</attachToTileItemPort>
       <entityAttachParams />
     </SAttachableComponentParams>
     <SHealthComponentParams Type="SHealthComponentParams">
       <Health>1</Health>
+      <DamageCap>0</DamageCap>
       <DamageResistances Type="DamageResistance">
         <IgnoreMeleeDamage>False</IgnoreMeleeDamage>
         <PhysicalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </PhysicalResistance>
         <EnergyResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </EnergyResistance>
         <DistortionResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </DistortionResistance>
         <ThermalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </ThermalResistance>
         <BiochemicalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </BiochemicalResistance>
         <StunResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </StunResistance>
       </DamageResistances>
+      <hitManipulationParams />
       <InitialDamage Type="SInitialDamage">
         <RandomSeed>-1</RandomSeed>
         <Damage Type="SInitialDamageSpecifierFraction">
@@ -244,6 +253,7 @@
       <PushDamageUpPartsHeirarchyWhenDead>True</PushDamageUpPartsHeirarchyWhenDead>
       <DetachFromItemPortOnDeath>False</DetachFromItemPortOnDeath>
       <DetachFromEntityOnDeath>False</DetachFromEntityOnDeath>
+      <DestroySelfOnDeath>False</DestroySelfOnDeath>
       <DestroyChildrenOnDeath>False</DestroyChildrenOnDeath>
       <PropagateExplosionDamageToChildren>False</PropagateExplosionDamageToChildren>
       <UseDirtShaderForDamage>False</UseDirtShaderForDamage>
@@ -260,13 +270,14 @@
       <InteractionLocks Type="SHealthInteractionLockParams" Count="0" />
       <IsSalvagable>True</IsSalvagable>
       <IsRepairable>True</IsRepairable>
-      <SalvageDamageModifier>1</SalvageDamageModifier>
       <MirrorSalvageHit>False</MirrorSalvageHit>
       <DisableMaterialDamage>False</DisableMaterialDamage>
       <sequencerTasks Type="EntityComponentHealth_SBaseSequencerTask" Count="0" />
-      <maelstromEvents Type="MaelstromBaseEvent" Count="0" />
+      <shatterDestroyEvent />
       <craftingData />
       <alwaysPropagateHitToParent>False</alwaysPropagateHitToParent>
+      <duplicateHitToParent>False</duplicateHitToParent>
+      <sendOnDestructionEventToMasterRootContainer>False</sendOnDestructionEventToMasterRootContainer>
     </SHealthComponentParams>
     <SEntityComponentObjectMetadataParams Type="SEntityComponentObjectMetadataParams">
       <name>@LOC_EMPTY</name>
@@ -296,11 +307,7 @@
         </baseSignatureParams>
         <crossSectionParams Type="SSCSignatureSystemSDFCrossSectionParams" />
         <emissionModifierParams />
-        <deathParams />
         <scanBounds />
-        <roomParams Type="SCSignatureSystemRoomParams">
-          <ignoreInteriorVsExteriorCheck>False</ignoreInteriorVsExteriorCheck>
-        </roomParams>
       </radarProperties>
       <audioParams />
       <scanCustomData />
@@ -315,19 +322,11 @@
       </overriddenSize>
       <enableDetectionOnItemPort>False</enableDetectionOnItemPort>
       <ignoreHighlightWhenDetectorInsideBounds>False</ignoreHighlightWhenDetectorInsideBounds>
-      <linkedObjectives Type="MissionObjective" Count="0" />
-      <ignoreHighlightWhenNoLinkedOrActiveObjectives>False</ignoreHighlightWhenNoLinkedOrActiveObjectives>
-      <priorityBoxoutTag />
       <isObjectOfInterest>False</isObjectOfInterest>
     </SSCSignatureSystemParams>
     <SGeometryResourceParams Type="SGeometryResourceParams">
       <ModelTag />
       <cacheResources>False</cacheResources>
-      <meshsetup Type="SGeometryMeshsetupParams">
-        <visibilityTags Type="TagList">
-          <tags Type="Tag" Count="0" />
-        </visibilityTags>
-      </meshsetup>
       <Geometry Type="SGeometryNodeParams">
         <Tags />
         <Geometry Type="SGeometryDataParams">
@@ -341,6 +340,7 @@
           <Palette Type="TintPaletteRef">
             <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/aegs/avenger/aegs_avenger_default.xml" />
             <ChildPath />
+            <SwizzleOverride />
           </Palette>
           <Slot>Main</Slot>
           <MaterialAttachments />
@@ -382,6 +382,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/aegs/avenger/aegs_avenger_fleet_blue.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -424,6 +425,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -466,6 +468,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/aegs/avenger/aegs_avenger_fleet_green.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -508,6 +511,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/icc/icc_centurion_copernicus_lightblue.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -550,6 +554,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/icc/icc_imperator_kepler_blue_orange.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -592,6 +597,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/icc/icc_store_debiasio_orange_grey.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -634,6 +640,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/pirate/talk_like_a_pirate_day.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -676,6 +683,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/fleetweek/2022/fleetweek_2952_green_grey_camo.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -718,6 +726,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/fleetweek/2022/fleetweek_2952_blue_white.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -757,6 +766,7 @@
         <Palette Type="TintPaletteRef">
           <RootRecord />
           <ChildPath />
+          <SwizzleOverride />
         </Palette>
         <materialVariants Type="SMaterialNodeParams" Count="0" />
       </Material>
@@ -926,16 +936,7 @@
       </shieldSDFParams>
       <DashboardCanvasConfig />
       <inventoryContainerParams ReferencedFile="file://./../../../../../libs/foundry/records/inventorycontainers/ships/tempshipitemcarryingcapacity/ship_tempitemcarryingcapacity_aegs_avenger.xml" />
-      <landingOffset Type="Vec3">
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </landingOffset>
-      <landingRotationOffset Type="Ang3">
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </landingRotationOffset>
+      <spawnBoxScale>0.5</spawnBoxScale>
     </VehicleComponentParams>
     <SEntityTraversingTreeParams Type="SEntityTraversingTreeParams">
       <TraversingNodes Type="SEntityTraversingNodeBase" Count="0" />

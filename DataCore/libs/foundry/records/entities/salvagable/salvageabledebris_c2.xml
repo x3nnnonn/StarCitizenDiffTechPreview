@@ -413,50 +413,59 @@
           <z>0.15</z>
         </inventoryOccupancyDimensions>
         <inventoryOccupancyLocalBoundsMin Type="Vec3">
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
+          <x>-46.526</x>
+          <y>-57.701</y>
+          <z>-25.573</z>
         </inventoryOccupancyLocalBoundsMin>
         <inventoryOccupancyLocalBoundsMax Type="Vec3">
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
+          <x>45.309</x>
+          <y>42.609</y>
+          <z>14.01</z>
         </inventoryOccupancyLocalBoundsMax>
         <inventoryOccupancyDimensionsUIOverride />
         <ignoredAttachAxis>None</ignoredAttachAxis>
+        <attachCheckCenterOfMass>False</attachCheckCenterOfMass>
       </AttachDef>
       <attachToTileItemPort>NoConnection</attachToTileItemPort>
       <entityAttachParams />
     </SAttachableComponentParams>
     <SHealthComponentParams Type="SHealthComponentParams">
       <Health>1</Health>
+      <DamageCap>0</DamageCap>
       <DamageResistances Type="DamageResistance">
         <IgnoreMeleeDamage>False</IgnoreMeleeDamage>
         <PhysicalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </PhysicalResistance>
         <EnergyResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </EnergyResistance>
         <DistortionResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </DistortionResistance>
         <ThermalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </ThermalResistance>
         <BiochemicalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </BiochemicalResistance>
         <StunResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </StunResistance>
       </DamageResistances>
+      <hitManipulationParams />
       <InitialDamage Type="SInitialDamage">
         <RandomSeed>-1</RandomSeed>
         <Damage Type="SInitialDamageSpecifierFraction">
@@ -488,6 +497,7 @@
       <PushDamageUpPartsHeirarchyWhenDead>True</PushDamageUpPartsHeirarchyWhenDead>
       <DetachFromItemPortOnDeath>False</DetachFromItemPortOnDeath>
       <DetachFromEntityOnDeath>False</DetachFromEntityOnDeath>
+      <DestroySelfOnDeath>False</DestroySelfOnDeath>
       <DestroyChildrenOnDeath>False</DestroyChildrenOnDeath>
       <PropagateExplosionDamageToChildren>False</PropagateExplosionDamageToChildren>
       <UseDirtShaderForDamage>False</UseDirtShaderForDamage>
@@ -504,13 +514,14 @@
       <InteractionLocks Type="SHealthInteractionLockParams" Count="0" />
       <IsSalvagable>True</IsSalvagable>
       <IsRepairable>True</IsRepairable>
-      <SalvageDamageModifier>1</SalvageDamageModifier>
       <MirrorSalvageHit>False</MirrorSalvageHit>
       <DisableMaterialDamage>False</DisableMaterialDamage>
       <sequencerTasks Type="EntityComponentHealth_SBaseSequencerTask" Count="0" />
-      <maelstromEvents Type="MaelstromBaseEvent" Count="0" />
+      <shatterDestroyEvent />
       <craftingData />
       <alwaysPropagateHitToParent>False</alwaysPropagateHitToParent>
+      <duplicateHitToParent>False</duplicateHitToParent>
+      <sendOnDestructionEventToMasterRootContainer>False</sendOnDestructionEventToMasterRootContainer>
     </SHealthComponentParams>
     <SEntityComponentObjectMetadataParams Type="SEntityComponentObjectMetadataParams">
       <name>@LOC_EMPTY</name>
@@ -546,11 +557,7 @@
           </crossSection>
         </crossSectionParams>
         <emissionModifierParams />
-        <deathParams />
         <scanBounds />
-        <roomParams Type="SCSignatureSystemRoomParams">
-          <ignoreInteriorVsExteriorCheck>False</ignoreInteriorVsExteriorCheck>
-        </roomParams>
       </radarProperties>
       <audioParams />
       <scanCustomData />
@@ -565,19 +572,11 @@
       </overriddenSize>
       <enableDetectionOnItemPort>False</enableDetectionOnItemPort>
       <ignoreHighlightWhenDetectorInsideBounds>False</ignoreHighlightWhenDetectorInsideBounds>
-      <linkedObjectives Type="MissionObjective" Count="0" />
-      <ignoreHighlightWhenNoLinkedOrActiveObjectives>False</ignoreHighlightWhenNoLinkedOrActiveObjectives>
-      <priorityBoxoutTag />
       <isObjectOfInterest>False</isObjectOfInterest>
     </SSCSignatureSystemParams>
     <SGeometryResourceParams Type="SGeometryResourceParams">
       <ModelTag />
       <cacheResources>False</cacheResources>
-      <meshsetup Type="SGeometryMeshsetupParams">
-        <visibilityTags Type="TagList">
-          <tags Type="Tag" Count="0" />
-        </visibilityTags>
-      </meshsetup>
       <Geometry Type="SGeometryNodeParams">
         <Tags />
         <Geometry Type="SGeometryDataParams">
@@ -591,6 +590,7 @@
           <Palette Type="TintPaletteRef">
             <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/crusaderindustries/crus_starlifter_c2.xml" />
             <ChildPath />
+            <SwizzleOverride />
           </Palette>
           <Slot>Main</Slot>
           <MaterialAttachments />
@@ -632,6 +632,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/crusaderindustries/crus_starlifter_cerberus.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -674,6 +675,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/crusaderindustries/crus_starlifter_draco.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -716,6 +718,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/fleetweek/2021/fleetweek_level2_camo.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -758,6 +761,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/fleetweek/2021/fleetweek_level1_military.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -800,6 +804,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/aegs/avenger/aegs_avenger_fleet_blue.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -842,6 +847,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/crusaderindustries/crus_starlifter_sylvan_green.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -884,6 +890,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/crusaderindustries/crus_starlifter_dryad_green_camo.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -926,6 +933,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/crusaderindustries/crus_starlifter_argent_silver_camo.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -968,6 +976,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/iae/bis/bis_2021.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -1007,6 +1016,7 @@
         <Palette Type="TintPaletteRef">
           <RootRecord />
           <ChildPath />
+          <SwizzleOverride />
         </Palette>
         <materialVariants Type="SMaterialNodeParams" Count="0" />
       </Material>
@@ -1252,16 +1262,7 @@
       </shieldSDFParams>
       <DashboardCanvasConfig />
       <inventoryContainerParams ReferencedFile="file://./../../../../../libs/foundry/records/inventorycontainers/ships/tempshipitemcarryingcapacity/ship_tempitemcarryingcapacity_crus_hercules_c2.xml" />
-      <landingOffset Type="Vec3">
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </landingOffset>
-      <landingRotationOffset Type="Ang3">
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </landingRotationOffset>
+      <spawnBoxScale>0.5</spawnBoxScale>
     </VehicleComponentParams>
     <SEntityTraversingTreeParams Type="SEntityTraversingTreeParams">
       <TraversingNodes Type="SEntityTraversingNodeBase" Count="0" />

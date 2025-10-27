@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SEntrancesDef.ESPR_Prowler_Utility RecordId="bfede95d-8201-4289-92e3-8d5bcff7a504" Type="SEntrancesDef">
+  <boundingBoxScale Type="Vec3">
+    <x>1.4</x>
+    <y>1.4</y>
+    <z>1.4</z>
+  </boundingBoxScale>
+  <boundingBoxOffset Type="Vec3">
+    <x>0</x>
+    <y>0</y>
+    <z>-0.5</z>
+  </boundingBoxOffset>
+  <entranceArray Type="SCEntranceItem" Count="4">
+    <SCEntranceItem Type="SCEntranceItem">
+      <entranceName>@entrance_ramp</entranceName>
+      <jointName>hardpoint_door_rear_ramp</jointName>
+      <positionOffset Type="Vec3">
+        <x>1</x>
+        <y>-5.75</y>
+        <z>-2</z>
+      </positionOffset>
+      <shipState>Both</shipState>
+    </SCEntranceItem>
+    <SCEntranceItem Type="SCEntranceItem">
+      <entranceName>@entrance_ladder</entranceName>
+      <jointName>hardpoint_ladder</jointName>
+      <positionOffset Type="Vec3">
+        <x>-0.45</x>
+        <y>0</y>
+        <z>0.32</z>
+      </positionOffset>
+      <shipState>Both</shipState>
+    </SCEntranceItem>
+    <SCEntranceItem Type="SCEntranceItem">
+      <entranceName>@entrance_cargo</entranceName>
+      <jointName>hardpoint_cargo_door_left</jointName>
+      <positionOffset Type="Vec3">
+        <x>0.96</x>
+        <y>-3.425</y>
+        <z>-1.845</z>
+      </positionOffset>
+      <shipState>Both</shipState>
+    </SCEntranceItem>
+    <SCEntranceItem Type="SCEntranceItem">
+      <entranceName>@entrance_cargo</entranceName>
+      <jointName>hardpoint_cargo_door_right</jointName>
+      <positionOffset Type="Vec3">
+        <x>-0.96</x>
+        <y>-3.425</y>
+        <z>-1.845</z>
+      </positionOffset>
+      <shipState>Both</shipState>
+    </SCEntranceItem>
+  </entranceArray>
+</SEntrancesDef.ESPR_Prowler_Utility>

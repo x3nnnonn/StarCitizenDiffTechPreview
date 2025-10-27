@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Faction.Faction_Unlawful_ASD RecordId="c1abb5fa-54a5-47a1-b69b-b951254a9a66" Type="Faction">
+  <name>@Factions_ASD_DisplayName</name>
+  <description>@LOC_UNINITIALIZED</description>
+  <defaultReaction>Hostile</defaultReaction>
+  <alliedFactions Type="Faction" Count="2">
+    <Faction ReferencedFile="file://./../../../../libs/foundry/records/factions/faction_special_friendlytoall.xml" />
+    <Faction ReferencedFile="file://./../../../../libs/foundry/records/factions/faction_creature_hostile_generic_vlk_asd_align.xml" />
+  </alliedFactions>
+  <enemyFactions Type="Faction" Count="0" />
+  <friendlyFireBehaviorOverrides Type="FriendlyFireReactionOverride" Count="0" />
+  <factionType>Unlawful</factionType>
+  <ableToArrest>False</ableToArrest>
+  <policesLawfulTrespass>False</policesLawfulTrespass>
+  <policesCriminality>False</policesCriminality>
+  <noLegalRights>False</noLegalRights>
+  <factionReputationRef />
+</Faction.Faction_Unlawful_ASD>

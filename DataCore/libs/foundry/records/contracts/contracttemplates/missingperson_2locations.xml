@@ -38,7 +38,7 @@
     <preShowObjectives>False</preShowObjectives>
   </contractDisplayInfo>
   <modifiers Type="BaseMissionModifier" Count="0" />
-  <contractProperties Type="MissionProperty" Count="9">
+  <contractProperties Type="MissionProperty" Count="10">
     <MissionProperty Pointer="ptr:1" Type="MissionProperty">
       <missionVariableName>MissionLocation_BP1</missionVariableName>
       <extendedTextToken>Location1</extendedTextToken>
@@ -120,6 +120,13 @@
         <logErrorOnSearchFail>True</logErrorOnSearchFail>
       </value>
     </MissionProperty>
+    <MissionProperty Type="MissionProperty">
+      <missionVariableName>LastKnownLocationMarkers_BP</missionVariableName>
+      <extendedTextToken />
+      <value Type="MissionPropertyValue_Boolean">
+        <value>True</value>
+      </value>
+    </MissionProperty>
     <MissionProperty Pointer="ptr:6" Type="MissionProperty">
       <missionVariableName>LastKnownDistanceCheck_BP</missionVariableName>
       <extendedTextToken />
@@ -197,6 +204,7 @@
         <module>Libs/Subsumption/Missions/PU/Missions/MissingPerson.xml</module>
         <moduleHierarchy />
         <disableTravelObjectives>False</disableTravelObjectives>
+        <disableReturnObjectives>False</disableReturnObjectives>
         <travelRadiusKM>0</travelRadiusKM>
         <allPlayersLeftGracePeriod>-1</allPlayersLeftGracePeriod>
         <travelObjectiveInfo Type="ObjectiveDisplayInfo">
@@ -215,6 +223,7 @@
         </returnObjectiveInfo>
         <navPointSpawnInfo />
         <location PointsTo="ptr:8" />
+        <securityManifestToOverride />
       </objectiveHandler>
       <rewardContribution />
       <displayInfo Type="ObjectiveDisplayInfo">
@@ -257,6 +266,7 @@
         <module>Libs/Subsumption/Missions/PU/Missions/MissingPerson.xml</module>
         <moduleHierarchy />
         <disableTravelObjectives>False</disableTravelObjectives>
+        <disableReturnObjectives>False</disableReturnObjectives>
         <travelRadiusKM>0</travelRadiusKM>
         <allPlayersLeftGracePeriod>-1</allPlayersLeftGracePeriod>
         <travelObjectiveInfo Type="ObjectiveDisplayInfo">
@@ -275,6 +285,7 @@
         </returnObjectiveInfo>
         <navPointSpawnInfo />
         <location PointsTo="ptr:11" />
+        <securityManifestToOverride />
       </objectiveHandler>
       <rewardContribution />
       <displayInfo Type="ObjectiveDisplayInfo">

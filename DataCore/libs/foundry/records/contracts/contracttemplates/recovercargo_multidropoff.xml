@@ -270,6 +270,7 @@
         <module>Libs/Subsumption/Missions/PU/Missions/RecoverCargo.xml</module>
         <moduleHierarchy ReferencedFile="file://./../../../../../libs/foundry/records/contracts/modulehierarchy/recovercargo_mmh.xml" />
         <disableTravelObjectives>False</disableTravelObjectives>
+        <disableReturnObjectives>False</disableReturnObjectives>
         <travelRadiusKM>25</travelRadiusKM>
         <allPlayersLeftGracePeriod>-1</allPlayersLeftGracePeriod>
         <travelObjectiveInfo Type="ObjectiveDisplayInfo">
@@ -374,6 +375,8 @@
           <HaulingOrder_DropOff Type="HaulingOrder_DropOff">
             <pickUpLocation />
             <dropOffLocation PointsTo="ptr:13" />
+            <pickUpTargetTypes Type="DeliveryTarget" Count="0" />
+            <dropOffTargetTypes Type="DeliveryTarget" Count="0" />
             <collectedCargoInput PointsTo="ptr:14" />
           </HaulingOrder_DropOff>
         </haulingOrders>

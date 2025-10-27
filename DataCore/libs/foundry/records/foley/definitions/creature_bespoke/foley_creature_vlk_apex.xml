@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<FoleyDefinition.Foley_Creature_VLK_Apex RecordId="d787d1e8-1cc3-49f5-9227-31d6b95b43fd" Type="FoleyDefinition">
+  <priority>0</priority>
+  <items Type="FoleyItem" Count="1">
+    <FoleyItem Type="FoleyItem">
+      <bone />
+      <trackedBoneOverride />
+      <referenceBone />
+      <velocityRTPCName />
+      <velocityRTPCMinimum>0</velocityRTPCMinimum>
+      <velocityRTPCMaximum>50</velocityRTPCMaximum>
+      <collisionImpactRTPCName>Character_Collision_Impact_Speed</collisionImpactRTPCName>
+      <collisionScuffRTPCName>Character_Collision_Scuff_Speed</collisionScuffRTPCName>
+      <equipmentMassRTPCName />
+      <oneShots Type="FoleyOneShot" Count="0" />
+      <loops Type="FoleyLoop" Count="0" />
+      <collisions Type="FoleyCollision" Count="0" />
+    </FoleyItem>
+  </items>
+  <userRTPCs Type="UserRTPC" Count="0" />
+</FoleyDefinition.Foley_Creature_VLK_Apex>

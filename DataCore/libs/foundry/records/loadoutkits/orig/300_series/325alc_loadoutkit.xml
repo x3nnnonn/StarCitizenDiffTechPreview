@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LoadoutKit.325aLC_LoadoutKit RecordId="9a3a56d2-4be1-4e93-b7f9-205266178d27" Type="LoadoutKit">
+  <name>@item_Name325a-LC_LoadoutKit</name>
+  <description>@item_Desc325a-LC_LoadoutKit</description>
+  <loadout Type="SItemPortLoadoutManualParams">
+    <WearRange />
+    <DirtRange />
+    <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
+    <entries Type="SItemPortLoadoutEntryParams" Count="6">
+      <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
+        <itemPortName>hardpoint_weapon_nose</itemPortName>
+        <entityClassName />
+        <entityClassReference ReferencedFile="file://./../../../../../../libs/foundry/records/entities/scitem/ships/weapon_mounts/gimbal/entityclassdefinition.mount_gimbal_s4.xml" />
+        <inventoryContainer />
+        <loadout Type="SItemPortLoadoutManualParams">
+          <WearRange />
+          <DirtRange />
+          <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
+          <entries Type="SItemPortLoadoutEntryParams" Count="1">
+            <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
+              <itemPortName>hardpoint_class_2</itemPortName>
+              <entityClassName />
+              <entityClassReference ReferencedFile="file://./../../../../../../libs/foundry/records/entities/scitem/ships/weapons/amrs_lasercannon_s4.xml" />
+              <inventoryContainer />
+              <loadout />
+            </SItemPortLoadoutEntryParams>
+          </entries>
+        </loadout>
+      </SItemPortLoadoutEntryParams>
+      <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
+        <itemPortName>hardpoint_weapon_wing_right</itemPortName>
+        <entityClassName />
+        <entityClassReference ReferencedFile="file://./../../../../../../libs/foundry/records/entities/scitem/ships/weapon_mounts/gimbal/entityclassdefinition.mount_gimbal_s3.xml" />
+        <inventoryContainer />
+        <loadout Type="SItemPortLoadoutManualParams">
+          <WearRange />
+          <DirtRange />
+          <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
+          <entries Type="SItemPortLoadoutEntryParams" Count="1">
+            <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
+              <itemPortName>hardpoint_class_2</itemPortName>
+              <entityClassName />
+              <entityClassReference ReferencedFile="file://./../../../../../../libs/foundry/records/entities/scitem/ships/weapons/amrs_lasercannon_s3.xml" />
+              <inventoryContainer />
+              <loadout />
+            </SItemPortLoadoutEntryParams>
+          </entries>
+        </loadout>
+      </SItemPortLoadoutEntryParams>
+      <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
+        <itemPortName>hardpoint_weapon_wing_left</itemPortName>
+        <entityClassName />
+        <entityClassReference ReferencedFile="file://./../../../../../../libs/foundry/records/entities/scitem/ships/weapon_mounts/gimbal/entityclassdefinition.mount_gimbal_s3.xml" />
+        <inventoryContainer />
+        <loadout Type="SItemPortLoadoutManualParams">
+          <WearRange />
+          <DirtRange />
+          <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
+          <entries Type="SItemPortLoadoutEntryParams" Count="1">
+            <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
+              <itemPortName>hardpoint_class_2</itemPortName>
+              <entityClassName />
+              <entityClassReference ReferencedFile="file://./../../../../../../libs/foundry/records/entities/scitem/ships/weapons/amrs_lasercannon_s3.xml" />
+              <inventoryContainer />
+              <loadout />
+            </SItemPortLoadoutEntryParams>
+          </entries>
+        </loadout>
+      </SItemPortLoadoutEntryParams>
+      <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
+        <itemPortName>hardpoint_power_plant</itemPortName>
+        <entityClassName>POWR_AEGS_S01_FierellCascade_SCItem</entityClassName>
+        <entityClassReference />
+        <inventoryContainer />
+        <loadout />
+      </SItemPortLoadoutEntryParams>
+      <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
+        <itemPortName>hardpoint_cooler_left</itemPortName>
+        <entityClassName>COOL_AEGS_S01_Polar_SCItem</entityClassName>
+        <entityClassReference />
+        <inventoryContainer />
+        <loadout />
+      </SItemPortLoadoutEntryParams>
+      <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
+        <itemPortName>hardpoint_cooler_right</itemPortName>
+        <entityClassName>COOL_AEGS_S01_Polar_SCItem</entityClassName>
+        <entityClassReference />
+        <inventoryContainer />
+        <loadout />
+      </SItemPortLoadoutEntryParams>
+    </entries>
+  </loadout>
+</LoadoutKit.325aLC_LoadoutKit>

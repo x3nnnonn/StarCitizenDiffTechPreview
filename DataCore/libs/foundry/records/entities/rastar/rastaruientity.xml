@@ -11,11 +11,6 @@
     <SGeometryResourceParams Type="SGeometryResourceParams">
       <ModelTag />
       <cacheResources>False</cacheResources>
-      <meshsetup Type="SGeometryMeshsetupParams">
-        <visibilityTags Type="TagList">
-          <tags Type="Tag" Count="0" />
-        </visibilityTags>
-      </meshsetup>
       <Geometry Type="SGeometryNodeParams">
         <Tags />
         <Geometry Type="SGeometryDataParams">
@@ -29,6 +24,7 @@
           <Palette Type="TintPaletteRef">
             <RootRecord />
             <ChildPath />
+            <SwizzleOverride />
           </Palette>
           <Slot>Main</Slot>
           <MaterialAttachments />
@@ -66,6 +62,7 @@
         <Palette Type="TintPaletteRef">
           <RootRecord />
           <ChildPath />
+          <SwizzleOverride />
         </Palette>
         <materialVariants Type="SMaterialNodeParams" Count="0" />
       </Material>
@@ -124,7 +121,6 @@
               <component Type="UIGraph_BuildingBlocksContextComponent">
                 <canvas ReferencedFile="file://./../../../../../libs/foundry/records/rastar/rastarv1mainmenu.xml" />
                 <isSystemViewInstance>False</isSystemViewInstance>
-                <canvasInstantiationMode>RootDeferred</canvasInstantiationMode>
               </component>
             </BuildingBlocksView>
             <BuildingBlocksView Type="BuildingBlocksView">
@@ -132,7 +128,6 @@
               <component Type="UIGraph_BuildingBlocksContextComponent">
                 <canvas ReferencedFile="file://./../../../../../libs/foundry/records/rastar/rastar_creationcanvas.xml" />
                 <isSystemViewInstance>False</isSystemViewInstance>
-                <canvasInstantiationMode>RootDeferred</canvasInstantiationMode>
               </component>
             </BuildingBlocksView>
             <BuildingBlocksView Type="BuildingBlocksView">
@@ -140,7 +135,6 @@
               <component Type="UIGraph_BuildingBlocksContextComponent">
                 <canvas ReferencedFile="file://./../../../../../libs/foundry/records/rastar/rastarv1locationsmenu.xml" />
                 <isSystemViewInstance>False</isSystemViewInstance>
-                <canvasInstantiationMode>RootDeferred</canvasInstantiationMode>
               </component>
             </BuildingBlocksView>
             <BuildingBlocksView Type="BuildingBlocksView">
@@ -148,7 +142,6 @@
               <component Type="UIGraph_BuildingBlocksContextComponent">
                 <canvas ReferencedFile="file://./../../../../../libs/foundry/records/rastar/rastarv1editlocationmenu02.xml" />
                 <isSystemViewInstance>False</isSystemViewInstance>
-                <canvasInstantiationMode>RootDeferred</canvasInstantiationMode>
               </component>
             </BuildingBlocksView>
             <BuildingBlocksView Type="BuildingBlocksView">
@@ -156,7 +149,6 @@
               <component Type="UIGraph_BuildingBlocksContextComponent">
                 <canvas ReferencedFile="file://./../../../../../libs/foundry/records/rastar/rastarv1locationsmenu.xml" />
                 <isSystemViewInstance>False</isSystemViewInstance>
-                <canvasInstantiationMode>RootDeferred</canvasInstantiationMode>
               </component>
             </BuildingBlocksView>
             <BuildingBlocksView Type="BuildingBlocksView">
@@ -164,7 +156,6 @@
               <component Type="UIGraph_BuildingBlocksContextComponent">
                 <canvas ReferencedFile="file://./../../../../../libs/foundry/records/rastar/rastarv1contentbrowser.xml" />
                 <isSystemViewInstance>False</isSystemViewInstance>
-                <canvasInstantiationMode>RootDeferred</canvasInstantiationMode>
               </component>
             </BuildingBlocksView>
           </views>
@@ -190,7 +181,6 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
-              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -211,7 +201,6 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
-              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -232,7 +221,6 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
-              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -253,7 +241,6 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
-              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -274,7 +261,6 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
-              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -295,7 +281,6 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
-              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -316,7 +301,6 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
-              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />

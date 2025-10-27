@@ -1,0 +1,54 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ElectricalBehavior.pyro1 RecordId="be62a31c-50d5-412e-bf71-2874db18a9a3" Type="ElectricalBehavior">
+  <lightning Type="LightningBehavior">
+    <effects Type="LightningBehavior_Effect" Count="1">
+      <LightningBehavior_Effect Type="LightningBehavior_Effect">
+        <lightningEffect>d356c9a0-55c7-1b19-793b-a4303d91c5c1|Lightning/Lightning_Default.Default.lightning_irradiated1</lightningEffect>
+        <targetModes Type="LightningTargetMode" Count="1">
+          <LightningTargetMode_Internal Type="LightningTargetMode_Internal">
+            <enable>True</enable>
+            <strikeControls Type="LightningStrikeControls">
+              <interval Type="Range">
+                <minimum>0.2</minimum>
+                <maximum>3</maximum>
+              </interval>
+              <length Type="Range">
+                <minimum>2000</minimum>
+                <maximum>14000</maximum>
+              </length>
+              <scaleMultiplier>1</scaleMultiplier>
+              <intensity>1</intensity>
+              <strength>0</strength>
+              <distanceRange Type="Range">
+                <minimum>5000</minimum>
+                <maximum>10000</maximum>
+              </distanceRange>
+            </strikeControls>
+            <strikeReferenceVolumeSize>1000</strikeReferenceVolumeSize>
+            <targetPlanetSurface>True</targetPlanetSurface>
+          </LightningTargetMode_Internal>
+        </targetModes>
+        <audio Type="LightningStrikeAudio">
+          <emitterTrigger Type="GlobalResourceAudio">
+            <audioTrigger>Play_ENVW_ProceduralWeather_Rain_Lightning</audioTrigger>
+          </emitterTrigger>
+          <targetTrigger Type="GlobalResourceAudio">
+            <audioTrigger />
+          </targetTrigger>
+        </audio>
+      </LightningBehavior_Effect>
+    </effects>
+  </lightning>
+  <vehicleEffects Type="Behavior_ElectricalVehicleEffectParams">
+    <enableEngineTrails>False</enableEngineTrails>
+    <enableEngineContrails>True</enableEngineContrails>
+    <customVehicleEffects />
+    <customVehicleCalculation Type="ElectricalCalculationPropertyRange">
+      <type>ElectricalCharge</type>
+      <range Type="Range">
+        <minimum>0</minimum>
+        <maximum>1</maximum>
+      </range>
+    </customVehicleCalculation>
+  </vehicleEffects>
+</ElectricalBehavior.pyro1>

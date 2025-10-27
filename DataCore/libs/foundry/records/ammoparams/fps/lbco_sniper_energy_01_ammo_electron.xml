@@ -39,6 +39,7 @@
       <compoundingAllowed>True</compoundingAllowed>
       <breakableParams />
       <gameCollisionClass />
+      <spawnBoxScale>0.5</spawnBoxScale>
       <pierceability>0</pierceability>
       <radius>0.1</radius>
       <thickness>0.005</thickness>
@@ -86,7 +87,7 @@
     <proximityTriggerParams />
     <damage Type="DamageInfo">
       <DamagePhysical>0</DamagePhysical>
-      <DamageEnergy>100</DamageEnergy>
+      <DamageEnergy>120</DamageEnergy>
       <DamageDistortion>35</DamageDistortion>
       <DamageThermal>0</DamageThermal>
       <DamageBiochemical>0</DamageBiochemical>

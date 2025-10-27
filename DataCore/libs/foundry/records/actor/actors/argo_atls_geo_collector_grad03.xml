@@ -35,7 +35,7 @@
       </displayParams>
     </SEntityInsuranceProperties>
   </StaticEntityClassData>
-  <Components Type="DataForgeComponentParams" Count="47">
+  <Components Type="DataForgeComponentParams" Count="48">
     <SActorComponentParams Type="SActorComponentParams">
       <character />
       <isAIControlled>False</isAIControlled>
@@ -357,11 +357,6 @@
     <SGeometryResourceParams Type="SGeometryResourceParams">
       <ModelTag />
       <cacheResources>False</cacheResources>
-      <meshsetup Type="SGeometryMeshsetupParams">
-        <visibilityTags Type="TagList">
-          <tags Type="Tag" Count="0" />
-        </visibilityTags>
-      </meshsetup>
       <Geometry Type="SGeometryNodeParams">
         <Tags />
         <Geometry Type="SGeometryDataParams">
@@ -375,6 +370,7 @@
           <Palette Type="TintPaletteRef">
             <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/argo/atls/argo_atls_blue_black_red.xml" />
             <ChildPath />
+            <SwizzleOverride />
           </Palette>
           <Slot>Main</Slot>
           <MaterialAttachments>ARGO_ATLS_BASE_Trunk,ARGO_ATLS_BASE_L_Arm,ARGO_ATLS_BASE_R_Arm,ARGO_ATLS_BASE_L_Leg,ARGO_ATLS_BASE_R_Leg</MaterialAttachments>
@@ -416,6 +412,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/argo/atls/argo_atls_pale_yellow_grey.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -458,6 +455,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/argo/atls/argo_atls_olive_olive_grey.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -500,6 +498,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/argo/atls/argo_atls_blue_blue_grey.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -542,6 +541,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/argo/atls/argo_atls_steel_black.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -584,6 +584,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/argo/atls/argo_atls_black_grey_grey.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -626,6 +627,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/argo/atls/argo_atls_blue_grey_white.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments>ARGO_ATLS_BASE_Trunk,ARGO_ATLS_BASE_L_Arm,ARGO_ATLS_BASE_R_Arm,ARGO_ATLS_BASE_L_Leg,ARGO_ATLS_BASE_R_Leg</MaterialAttachments>
@@ -668,6 +670,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/argo/atls/argo_atls_silver_grey_lime.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments>ARGO_ATLS_BASE_Trunk,ARGO_ATLS_BASE_L_Arm,ARGO_ATLS_BASE_R_Arm,ARGO_ATLS_BASE_L_Leg,ARGO_ATLS_BASE_R_Leg</MaterialAttachments>
@@ -710,6 +713,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/argo/atls/argo_atls_orange_grey.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments>ARGO_ATLS_BASE_Trunk,ARGO_ATLS_BASE_L_Arm,ARGO_ATLS_BASE_R_Arm,ARGO_ATLS_BASE_L_Leg,ARGO_ATLS_BASE_R_Leg</MaterialAttachments>
@@ -752,6 +756,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/argo/atls/argo_atls_black_grey_grey.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments>ARGO_ATLS_BASE_Trunk,ARGO_ATLS_BASE_L_Arm,ARGO_ATLS_BASE_R_Arm,ARGO_ATLS_BASE_L_Leg,ARGO_ATLS_BASE_R_Leg</MaterialAttachments>
@@ -794,6 +799,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/workers_week/workers_week_2025.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments>ARGO_ATLS_BASE_Trunk,ARGO_ATLS_BASE_L_Arm,ARGO_ATLS_BASE_R_Arm,ARGO_ATLS_BASE_L_Leg,ARGO_ATLS_BASE_R_Leg</MaterialAttachments>
@@ -836,6 +842,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/argo/atls/argo_atls_white_black_teal.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments>ARGO_ATLS_BASE_Trunk,ARGO_ATLS_BASE_L_Arm,ARGO_ATLS_BASE_R_Arm,ARGO_ATLS_BASE_L_Leg,ARGO_ATLS_BASE_R_Leg</MaterialAttachments>
@@ -878,6 +885,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/argo/atls/argo_atls_olive_black_orange.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments>ARGO_ATLS_BASE_Trunk,ARGO_ATLS_BASE_L_Arm,ARGO_ATLS_BASE_R_Arm,ARGO_ATLS_BASE_L_Leg,ARGO_ATLS_BASE_R_Leg</MaterialAttachments>
@@ -920,6 +928,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/argo/atls/argo_atls_blue_black_red.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments>ARGO_ATLS_BASE_Trunk,ARGO_ATLS_BASE_L_Arm,ARGO_ATLS_BASE_R_Arm,ARGO_ATLS_BASE_L_Leg,ARGO_ATLS_BASE_R_Leg</MaterialAttachments>
@@ -959,6 +968,7 @@
         <Palette Type="TintPaletteRef">
           <RootRecord />
           <ChildPath />
+          <SwizzleOverride />
         </Palette>
         <materialVariants Type="SMaterialNodeParams" Count="0" />
       </Material>
@@ -1000,11 +1010,7 @@
         </baseSignatureParams>
         <crossSectionParams Type="SSCSignatureSystemActorCrossSectionParams" />
         <emissionModifierParams />
-        <deathParams />
         <scanBounds />
-        <roomParams Type="SCSignatureSystemRoomParams">
-          <ignoreInteriorVsExteriorCheck>False</ignoreInteriorVsExteriorCheck>
-        </roomParams>
       </radarProperties>
       <audioParams Type="SSCSignatureSystemAudioParams">
         <rulesets Type="SSCSignatureSystemAudioRuleset" Count="1">
@@ -1023,9 +1029,6 @@
       </overriddenSize>
       <enableDetectionOnItemPort>False</enableDetectionOnItemPort>
       <ignoreHighlightWhenDetectorInsideBounds>False</ignoreHighlightWhenDetectorInsideBounds>
-      <linkedObjectives Type="MissionObjective" Count="0" />
-      <ignoreHighlightWhenNoLinkedOrActiveObjectives>False</ignoreHighlightWhenNoLinkedOrActiveObjectives>
-      <priorityBoxoutTag />
       <isObjectOfInterest>False</isObjectOfInterest>
     </SSCSignatureSystemParams>
     <SSCActorRotationComponentParams Type="SSCActorRotationComponentParams" />
@@ -1054,7 +1057,9 @@
       </vectorFieldParams>
       <undergroundEffects Type="ActorUndergroundEffects">
         <enable>False</enable>
+        <maskWaterIntersection>False</maskWaterIntersection>
         <helpersToDisableUnderground Type="ActivityBehaviorRequestCondition" Count="0" />
+        <helpersToQueryForWater Type="ActivityBehaviorRequestCondition" Count="0" />
       </undergroundEffects>
     </SSCActorEffectsControllerParams>
     <SGreenZoneObedienceComponentParams Type="SGreenZoneObedienceComponentParams" />
@@ -1068,6 +1073,7 @@
         <compoundingAllowed>True</compoundingAllowed>
         <breakableParams />
         <gameCollisionClass />
+        <spawnBoxScale>0.5</spawnBoxScale>
         <stiffnessScale>2</stiffnessScale>
         <airResistance>0</airResistance>
         <airControl>0</airControl>
@@ -1130,7 +1136,7 @@
     <SCItemUserParams Type="SCItemUserParams" />
     <SEntityInteractableParams Type="SEntityInteractableParams">
       <Interactable Type="SInteractableParams">
-        <SharedInteractions Type="SSharedInteractionParams" Count="4">
+        <SharedInteractions Type="SSharedInteractionParams" Count="5">
           <SSharedInteractionParams Type="SSharedInteractionParams">
             <Name>LookAt</Name>
             <QueryTags Type="Tag" Count="0" />
@@ -1196,6 +1202,25 @@
             <LinkingTag />
             <DisplayName>@usable_use</DisplayName>
             <DisplayType>Show</DisplayType>
+            <GenericCursor>SingleAction</GenericCursor>
+            <FocusModeOnly>False</FocusModeOnly>
+            <Sendable>False</Sendable>
+            <Linkable>False</Linkable>
+            <LockedByLinks>False</LockedByLinks>
+            <RequiresAuthorizedUser>False</RequiresAuthorizedUser>
+            <available>True</available>
+            <InheritsConditionDisplaysThroughLinks>False</InheritsConditionDisplaysThroughLinks>
+            <conditionList />
+            <playerAnimatedInteractionBase />
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Pointer="ptr:3" Type="SSharedInteractionParams">
+            <Name>ConsumeActor</Name>
+            <QueryTags Type="Tag" Count="0" />
+            <RoomTag />
+            <UsableTag />
+            <LinkingTag />
+            <DisplayName>@usable_use</DisplayName>
+            <DisplayType>Hide</DisplayType>
             <GenericCursor>SingleAction</GenericCursor>
             <FocusModeOnly>False</FocusModeOnly>
             <Sendable>False</Sendable>
@@ -1278,6 +1303,7 @@
           <z>0.7</z>
         </inventoryOccupancyDimensionsUIOverride>
         <ignoredAttachAxis>None</ignoredAttachAxis>
+        <attachCheckCenterOfMass>False</attachCheckCenterOfMass>
       </AttachDef>
       <attachToTileItemPort>NoConnection</attachToTileItemPort>
       <entityAttachParams />
@@ -1388,7 +1414,11 @@
       <overrideEmValue>0</overrideEmValue>
       <distortionAffectsRoot>False</distortionAffectsRoot>
     </EMPoolParams>
-    <DataForgeComponentParams />
+    <AudioRayOcclusionParams Type="AudioRayOcclusionParams">
+      <occlusionType>MultiRayRadius</occlusionType>
+      <occlusionCalcRule>Average</occlusionCalcRule>
+      <rayTargetBoneName>HeadCam</rayTargetBoneName>
+    </AudioRayOcclusionParams>
     <SEntityAudioControllerParams Type="SEntityAudioControllerParams">
       <audioControllerEntityType>Actor</audioControllerEntityType>
       <randomSeedCount>4</randomSeedCount>
@@ -1452,18 +1482,6 @@
       <placeTrigger Type="GlobalResourceAudio">
         <audioTrigger />
       </placeTrigger>
-      <tractorBeamPickupTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
-      </tractorBeamPickupTrigger>
-      <tractorBeamDropTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
-      </tractorBeamDropTrigger>
-      <detachBreakTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
-      </detachBreakTrigger>
-      <playerCausedDetachBreakTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
-      </playerCausedDetachBreakTrigger>
       <rtpcSlideVelocity Type="AudioRtpc">
         <rtpc>PhysicalAudio_Velocity</rtpc>
       </rtpcSlideVelocity>
@@ -1497,16 +1515,12 @@
       <rtpcCarried Type="AudioRtpc">
         <rtpc>PhysicalAudio_CarryState</rtpc>
       </rtpcCarried>
-      <rtpcSize Type="AudioRtpc">
-        <rtpc />
-      </rtpcSize>
       <minimumImpulseContinuous>40</minimumImpulseContinuous>
       <minimumImpulseTransient>30</minimumImpulseTransient>
       <minimumVelocityNoImpulse>100</minimumVelocityNoImpulse>
       <slideThreshold>0.1</slideThreshold>
       <rollThreshold>0.1</rollThreshold>
       <momentumScale>1</momentumScale>
-      <rollVelocityScale>1</rollVelocityScale>
       <useAABBCentre>False</useAABBCentre>
       <oneShotTag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0d401f6c-38a4-4c52-bb02-26059dd8d98a" RecordId="0d401f6c-38a4-4c52-bb02-26059dd8d98a" />
       <oneShotCooldown>2</oneShotCooldown>
@@ -1539,11 +1553,8 @@
           <Tags Type="Tag" Count="1">
             <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.27893aeb-650b-4c1b-9c96-a5ae9b0da261" RecordId="27893aeb-650b-4c1b-9c96-a5ae9b0da261" />
           </Tags>
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -1576,7 +1587,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Body</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1631,11 +1642,8 @@
           <RequiredPortTags>Paint_ATLS</RequiredPortTags>
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -1668,7 +1676,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Paints</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1747,11 +1755,8 @@
           <Tags Type="Tag" Count="1">
             <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.8c71c1ea-dd41-45c4-9fc1-7880740552b7" RecordId="8c71c1ea-dd41-45c4-9fc1-7880740552b7" />
           </Tags>
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>0</MinSize>
           <MaxSize>4</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -1814,7 +1819,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Seat</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1871,11 +1876,8 @@
           <Tags Type="Tag" Count="1">
             <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.8c71c1ea-dd41-45c4-9fc1-7880740552b7" RecordId="8c71c1ea-dd41-45c4-9fc1-7880740552b7" />
           </Tags>
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>0</MinSize>
           <MaxSize>4</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -1918,7 +1920,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>SeatAccess</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1975,11 +1977,8 @@
           <Tags Type="Tag" Count="1">
             <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.8c71c1ea-dd41-45c4-9fc1-7880740552b7" RecordId="8c71c1ea-dd41-45c4-9fc1-7880740552b7" />
           </Tags>
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>0</MinSize>
           <MaxSize>4</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2012,7 +2011,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponGun</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="1">
+              <SubTypes Type="LinkedStat" Count="1">
                 <EnumChoice>Gun</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2071,11 +2070,8 @@
           <Tags Type="Tag" Count="1">
             <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.8c71c1ea-dd41-45c4-9fc1-7880740552b7" RecordId="8c71c1ea-dd41-45c4-9fc1-7880740552b7" />
           </Tags>
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>0</MinSize>
           <MaxSize>0</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2108,13 +2104,13 @@
           <Types Type="SItemPortDefTypes" Count="2">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponMining</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="1">
+              <SubTypes Type="LinkedStat" Count="1">
                 <EnumChoice>Gun</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>TractorBeam</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2169,11 +2165,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>0</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2216,7 +2209,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MiningController</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2271,11 +2264,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>0</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2308,7 +2298,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>SeatDashboard</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2363,11 +2353,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2400,7 +2387,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2455,11 +2442,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2492,7 +2476,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2547,11 +2531,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2584,7 +2565,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Usable</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2639,11 +2620,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2676,7 +2654,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2731,11 +2709,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2768,7 +2743,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2823,11 +2798,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2860,7 +2832,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2915,11 +2887,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2952,7 +2921,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3007,11 +2976,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -3044,7 +3010,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3099,11 +3065,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -3136,7 +3099,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3191,11 +3154,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -3228,7 +3188,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3283,11 +3243,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -3320,7 +3277,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Usable</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3375,11 +3332,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -3412,7 +3366,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Usable</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3467,11 +3421,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -3504,7 +3455,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3559,11 +3510,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -3596,7 +3544,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3651,11 +3599,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -3688,7 +3633,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3743,11 +3688,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -3780,7 +3722,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3835,11 +3777,8 @@
           <RequiredPortTags />
           <Flags>invisible uneditable</Flags>
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>0</MinSize>
           <MaxSize>0</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -3872,7 +3811,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Radar</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="2">
+              <SubTypes Type="LinkedStat" Count="2">
                 <EnumChoice>ShortRangeRadar</EnumChoice>
                 <EnumChoice>MidRangeRadar</EnumChoice>
               </SubTypes>
@@ -3954,11 +3893,8 @@
           <Tags Type="Tag" Count="1">
             <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.8c71c1ea-dd41-45c4-9fc1-7880740552b7" RecordId="8c71c1ea-dd41-45c4-9fc1-7880740552b7" />
           </Tags>
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>0</MinSize>
           <MaxSize>4</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -3991,7 +3927,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="1">
+              <SubTypes Type="LinkedStat" Count="1">
                 <EnumChoice>Gun</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -4101,7 +4037,6 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
-              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -4122,7 +4057,6 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
-              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -4146,10 +4080,38 @@
         </SInteractionStateType>
       </StateTypes>
     </SInteractionStateMachineParams>
+    <SCInteractionStateGameplayTriggerComponentParams Type="SCInteractionStateGameplayTriggerComponentParams">
+      <onInteractionStateChangeTriggers Type="SOnInteractionStateChangeTriggers" Count="0" />
+      <onInteractionSuccessTriggers Type="SOnInteractionTriggers" Count="1">
+        <SOnInteractionTriggers Type="SOnInteractionTriggers">
+          <targetInteraction PointsTo="ptr:3" />
+          <gameplayTriggers Type="SBaseInteractionGameplayTrigger" Count="1">
+            <SDestroySelfGameplayTrigger Type="SDestroySelfGameplayTrigger" />
+          </gameplayTriggers>
+        </SOnInteractionTriggers>
+      </onInteractionSuccessTriggers>
+      <onInteractionFailedTriggers Type="SOnInteractionTriggers" Count="0" />
+    </SCInteractionStateGameplayTriggerComponentParams>
     <SSCItemControllableManagerParams Type="SSCItemControllableManagerParams">
       <defaultMasterMode>SCM</defaultMasterMode>
-      <masterModeSpoolTimeToNAV>1</masterModeSpoolTimeToNAV>
-      <masterModeSpoolTimeToSCM>0.2</masterModeSpoolTimeToSCM>
+      <masterModes Type="SMasterModeParams" Count="4">
+        <SMasterModeParams Type="SMasterModeParams">
+          <available>False</available>
+          <spoolTime>1</spoolTime>
+        </SMasterModeParams>
+        <SMasterModeParams Type="SMasterModeParams">
+          <available>True</available>
+          <spoolTime>1</spoolTime>
+        </SMasterModeParams>
+        <SMasterModeParams Type="SMasterModeParams">
+          <available>True</available>
+          <spoolTime>0.2</spoolTime>
+        </SMasterModeParams>
+        <SMasterModeParams Type="SMasterModeParams">
+          <available>False</available>
+          <spoolTime>1</spoolTime>
+        </SMasterModeParams>
+      </masterModes>
       <controllerParams />
     </SSCItemControllableManagerParams>
     <ItemControlComponentParams Type="ItemControlComponentParams">

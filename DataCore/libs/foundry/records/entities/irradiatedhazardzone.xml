@@ -19,11 +19,7 @@
       <falloffCurve>EaseOutQuad</falloffCurve>
       <emissionRangeHeightMinimum>0</emissionRangeHeightMinimum>
       <emissionRangeHeightMaximum>0</emissionRangeHeightMaximum>
-      <vfxParams Type="RadiationEmitterVFXParams">
-        <tag RecordReference="file://./../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ab78a7f7-e3d8-4c5b-92fe-5f6ce7a899e0" RecordId="ab78a7f7-e3d8-4c5b-92fe-5f6ce7a899e0" />
-        <overwriteVFXStrength>True</overwriteVFXStrength>
-        <sizeMultiplier>1</sizeMultiplier>
-      </vfxParams>
+      <vfxTag RecordReference="file://./../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ab78a7f7-e3d8-4c5b-92fe-5f6ce7a899e0" RecordId="ab78a7f7-e3d8-4c5b-92fe-5f6ce7a899e0" />
       <lifetimeParams Type="RadiationEmitterLifetimeParams">
         <useLifetime>True</useLifetime>
         <lifetimeLength>120</lifetimeLength>
@@ -46,7 +42,6 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
-              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange Type="SStateAutoChange">
@@ -71,7 +66,6 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
-              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -141,6 +135,7 @@
       <hazardRadiation />
       <tagListBehavior>OneTagWillExempt</tagListBehavior>
       <receiverTags Type="Tag" Count="0" />
+      <vfxTag RecordReference="file://./../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.c7f20668-bfe9-4e07-b043-51073569b2b3" RecordId="c7f20668-bfe9-4e07-b043-51073569b2b3" />
     </HazardComponentParams>
     <SEntityComponentEffects Type="SEntityComponentEffects">
       <entityEffects Type="SEntitityEffectSystem_System">
@@ -177,12 +172,12 @@
               <propertyLinks Type="SEntityEffectSystem_ParticlePropertyLink" Count="2">
                 <SEntityEffectSystem_ParticlePropertyLink Type="SEntityEffectSystem_ParticlePropertyLink">
                   <modifiers Type="SEntityEffectSystem_PropertyModifier" Count="0" />
-                  <parameterName RecordReference="file://./../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f2977e16-aff3-4c0f-8f77-a2cd1ab88b7f" RecordId="f2977e16-aff3-4c0f-8f77-a2cd1ab88b7f" />
+                  <parameterName RecordReference="file://./../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.19b40008-ee26-49e4-ad68-5968bb61ec0a" RecordId="19b40008-ee26-49e4-ad68-5968bb61ec0a" />
                   <particleProperty>strength</particleProperty>
                 </SEntityEffectSystem_ParticlePropertyLink>
                 <SEntityEffectSystem_ParticlePropertyLink Type="SEntityEffectSystem_ParticlePropertyLink">
                   <modifiers Type="SEntityEffectSystem_PropertyModifier" Count="0" />
-                  <parameterName RecordReference="file://./../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.cfd22ca4-434e-4596-9051-b6fd5036288e" RecordId="cfd22ca4-434e-4596-9051-b6fd5036288e" />
+                  <parameterName RecordReference="file://./../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e7fb41f0-fc47-4428-ae74-4b2a4059f041" RecordId="e7fb41f0-fc47-4428-ae74-4b2a4059f041" />
                   <particleProperty>emissionSize</particleProperty>
                 </SEntityEffectSystem_ParticlePropertyLink>
               </propertyLinks>

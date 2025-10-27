@@ -38,7 +38,7 @@
     <preShowObjectives>False</preShowObjectives>
   </contractDisplayInfo>
   <modifiers Type="BaseMissionModifier" Count="0" />
-  <contractProperties Type="MissionProperty" Count="28">
+  <contractProperties Type="MissionProperty" Count="38">
     <MissionProperty Pointer="ptr:1" Type="MissionProperty">
       <missionVariableName>MissionLocation_BP</missionVariableName>
       <extendedTextToken>Location</extendedTextToken>
@@ -102,8 +102,7 @@
       <extendedTextToken />
       <value Type="MissionPropertyValue_Tags">
         <tags Type="TagList">
-          <tags Type="Tag" Count="2">
-            <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1dcaf9e0-9b99-4c2d-83e3-faba4ef7673a" RecordId="1dcaf9e0-9b99-4c2d-83e3-faba4ef7673a" />
+          <tags Type="Tag" Count="1">
             <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.cd87ad33-2b5a-46dc-b399-d9fb02a6f303" RecordId="cd87ad33-2b5a-46dc-b399-d9fb02a6f303" />
           </tags>
         </tags>
@@ -225,49 +224,176 @@
         <value>False</value>
       </value>
     </MissionProperty>
+    <MissionProperty Pointer="ptr:19" Type="MissionProperty">
+      <missionVariableName>NPCSpawnDescriptions_Reinforcements01_BP</missionVariableName>
+      <extendedTextToken />
+      <value Type="MissionPropertyValue_NPCSpawnDescriptions">
+        <spawnDescriptions Type="SpawnDescription_NPC_Group" Count="0" />
+      </value>
+    </MissionProperty>
     <MissionProperty Pointer="ptr:20" Type="MissionProperty">
+      <missionVariableName>NPCSpawnDescriptions_Reinforcements01_PercentageToSpawnAt_BP</missionVariableName>
+      <extendedTextToken />
+      <value Type="MissionPropertyValue_Float">
+        <options Type="MissionPropertyValueOption_Float" Count="1">
+          <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
+            <textId>@LOC_UNINITIALIZED</textId>
+            <weighting>1</weighting>
+            <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+            <dependentProperties Type="DependentMissionProperty" Count="0" />
+            <value>0</value>
+            <variation>0</variation>
+          </MissionPropertyValueOption_Float>
+        </options>
+      </value>
+    </MissionProperty>
+    <MissionProperty Pointer="ptr:21" Type="MissionProperty">
+      <missionVariableName>NPCSpawnDescriptions_Reinforcements02_BP</missionVariableName>
+      <extendedTextToken />
+      <value Type="MissionPropertyValue_NPCSpawnDescriptions">
+        <spawnDescriptions Type="SpawnDescription_NPC_Group" Count="0" />
+      </value>
+    </MissionProperty>
+    <MissionProperty Pointer="ptr:22" Type="MissionProperty">
+      <missionVariableName>NPCSpawnDescriptions_Reinforcements02_PercentageToSpawnAt_BP</missionVariableName>
+      <extendedTextToken />
+      <value Type="MissionPropertyValue_Float">
+        <options Type="MissionPropertyValueOption_Float" Count="1">
+          <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
+            <textId>@LOC_UNINITIALIZED</textId>
+            <weighting>1</weighting>
+            <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+            <dependentProperties Type="DependentMissionProperty" Count="0" />
+            <value>0</value>
+            <variation>0</variation>
+          </MissionPropertyValueOption_Float>
+        </options>
+      </value>
+    </MissionProperty>
+    <MissionProperty Pointer="ptr:23" Type="MissionProperty">
+      <missionVariableName>NPCSpawnDescriptions_Reinforcements03_BP</missionVariableName>
+      <extendedTextToken />
+      <value Type="MissionPropertyValue_NPCSpawnDescriptions">
+        <spawnDescriptions Type="SpawnDescription_NPC_Group" Count="0" />
+      </value>
+    </MissionProperty>
+    <MissionProperty Pointer="ptr:24" Type="MissionProperty">
+      <missionVariableName>NPCSpawnDescriptions_Reinforcements03_PercentageToSpawnAt_BP</missionVariableName>
+      <extendedTextToken />
+      <value Type="MissionPropertyValue_Float">
+        <options Type="MissionPropertyValueOption_Float" Count="1">
+          <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
+            <textId>@LOC_UNINITIALIZED</textId>
+            <weighting>1</weighting>
+            <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+            <dependentProperties Type="DependentMissionProperty" Count="0" />
+            <value>0</value>
+            <variation>0</variation>
+          </MissionPropertyValueOption_Float>
+        </options>
+      </value>
+    </MissionProperty>
+    <MissionProperty Pointer="ptr:26" Type="MissionProperty">
       <missionVariableName>WaveSpawnDescriptions_BP</missionVariableName>
       <extendedTextToken />
       <value Type="MissionPropertyValue_ShipSpawnDescriptions">
         <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="0" />
       </value>
     </MissionProperty>
-    <MissionProperty Pointer="ptr:21" Type="MissionProperty">
-      <missionVariableName>ContinuousWaves_BP</missionVariableName>
+    <MissionProperty Pointer="ptr:36" Type="MissionProperty">
+      <missionVariableName>CN_MissionStart</missionVariableName>
       <extendedTextToken />
-      <value Type="MissionPropertyValue_Boolean">
-        <value>False</value>
+      <value Type="MissionPropertyValue_Tags">
+        <tags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </tags>
+        <negativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </negativeTags>
+        <options Type="MissionPropertyValueOption_Tags" Count="0" />
       </value>
     </MissionProperty>
-    <MissionProperty Pointer="ptr:22" Type="MissionProperty">
+    <MissionProperty Pointer="ptr:37" Type="MissionProperty">
+      <missionVariableName>CN_MissionComplete</missionVariableName>
+      <extendedTextToken />
+      <value Type="MissionPropertyValue_Tags">
+        <tags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </tags>
+        <negativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </negativeTags>
+        <options Type="MissionPropertyValueOption_Tags" Count="0" />
+      </value>
+    </MissionProperty>
+    <MissionProperty Pointer="ptr:38" Type="MissionProperty">
+      <missionVariableName>CN_MissionFail</missionVariableName>
+      <extendedTextToken />
+      <value Type="MissionPropertyValue_Tags">
+        <tags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </tags>
+        <negativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </negativeTags>
+        <options Type="MissionPropertyValueOption_Tags" Count="0" />
+      </value>
+    </MissionProperty>
+    <MissionProperty Pointer="ptr:39" Type="MissionProperty">
+      <missionVariableName>CN_MissionAbandon</missionVariableName>
+      <extendedTextToken />
+      <value Type="MissionPropertyValue_Tags">
+        <tags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </tags>
+        <negativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </negativeTags>
+        <options Type="MissionPropertyValueOption_Tags" Count="0" />
+      </value>
+    </MissionProperty>
+    <MissionProperty Pointer="ptr:40" Type="MissionProperty">
+      <missionVariableName>CN_BoydTaunt</missionVariableName>
+      <extendedTextToken />
+      <value Type="MissionPropertyValue_Tags">
+        <tags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </tags>
+        <negativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </negativeTags>
+        <options Type="MissionPropertyValueOption_Tags" Count="0" />
+      </value>
+    </MissionProperty>
+    <MissionProperty Pointer="ptr:27" Type="MissionProperty">
       <missionVariableName>SpawnWaveOnStream_BP</missionVariableName>
       <extendedTextToken />
       <value Type="MissionPropertyValue_Boolean">
         <value>False</value>
       </value>
     </MissionProperty>
-    <MissionProperty Pointer="ptr:23" Type="MissionProperty">
+    <MissionProperty Pointer="ptr:28" Type="MissionProperty">
       <missionVariableName>TimeBetweenWaves_BP</missionVariableName>
       <extendedTextToken />
       <value Type="MissionPropertyValue_Float">
         <options Type="MissionPropertyValueOption_Float" Count="0" />
       </value>
     </MissionProperty>
-    <MissionProperty Pointer="ptr:24" Type="MissionProperty">
+    <MissionProperty Pointer="ptr:29" Type="MissionProperty">
       <missionVariableName>MaxShips_BP</missionVariableName>
       <extendedTextToken />
       <value Type="MissionPropertyValue_Integer">
         <options Type="MissionPropertyValueOption_Integer" Count="0" />
       </value>
     </MissionProperty>
-    <MissionProperty Pointer="ptr:25" Type="MissionProperty">
+    <MissionProperty Pointer="ptr:30" Type="MissionProperty">
       <missionVariableName>ChangeDifficultyOverTime_BP</missionVariableName>
       <extendedTextToken />
       <value Type="MissionPropertyValue_Boolean">
         <value>False</value>
       </value>
     </MissionProperty>
-    <MissionProperty Type="MissionProperty">
+    <MissionProperty Pointer="ptr:31" Type="MissionProperty">
       <missionVariableName>MissionLocation</missionVariableName>
       <extendedTextToken />
       <value Type="MissionPropertyValue_Location">
@@ -292,7 +418,7 @@
         </options>
       </value>
     </MissionProperty>
-    <MissionProperty Pointer="ptr:26" Type="MissionProperty">
+    <MissionProperty Type="MissionProperty">
       <missionVariableName>SpawningSpread_BP</missionVariableName>
       <extendedTextToken />
       <value Type="MissionPropertyValue_StringHash">
@@ -307,7 +433,7 @@
         </options>
       </value>
     </MissionProperty>
-    <MissionProperty Pointer="ptr:27" Type="MissionProperty">
+    <MissionProperty Pointer="ptr:32" Type="MissionProperty">
       <missionVariableName>InitiallyActive_BP</missionVariableName>
       <extendedTextToken />
       <value Type="MissionPropertyValue_Boolean">
@@ -316,12 +442,12 @@
     </MissionProperty>
   </contractProperties>
   <objectiveTokens Type="ObjectiveToken" Count="2">
-    <ObjectiveToken Pointer="ptr:29" Type="ObjectiveToken">
+    <ObjectiveToken Pointer="ptr:34" Type="ObjectiveToken">
       <id>08a562df-adf5-4751-a705-2006abde5af0</id>
       <debugName>ItemsToDestroy</debugName>
       <startsActive>True</startsActive>
-      <properties Type="ObjectivePropertyBase" Count="18">
-        <ObjectiveProperty_Referenced Pointer="ptr:19" Type="ObjectiveProperty_Referenced">
+      <properties Type="ObjectivePropertyBase" Count="24">
+        <ObjectiveProperty_Referenced Pointer="ptr:25" Type="ObjectiveProperty_Referenced">
           <missionVariableName>MissionLocation_BP</missionVariableName>
           <extendedTextToken>Location</extendedTextToken>
           <property PointsTo="ptr:1" />
@@ -411,11 +537,42 @@
           <extendedTextToken />
           <property PointsTo="ptr:18" />
         </ObjectiveProperty_Referenced>
+        <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
+          <missionVariableName>NPCSpawnDescriptions_Reinforcments01_BP</missionVariableName>
+          <extendedTextToken />
+          <property PointsTo="ptr:19" />
+        </ObjectiveProperty_Referenced>
+        <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
+          <missionVariableName>NPCSpawnDescriptions_Reinforcments01_PercentageToSpawnAt_BP</missionVariableName>
+          <extendedTextToken />
+          <property PointsTo="ptr:20" />
+        </ObjectiveProperty_Referenced>
+        <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
+          <missionVariableName>NPCSpawnDescriptions_Reinforcments02_BP</missionVariableName>
+          <extendedTextToken />
+          <property PointsTo="ptr:21" />
+        </ObjectiveProperty_Referenced>
+        <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
+          <missionVariableName>NPCSpawnDescriptions_Reinforcments02_PercentageToSpawnAt_BP</missionVariableName>
+          <extendedTextToken />
+          <property PointsTo="ptr:22" />
+        </ObjectiveProperty_Referenced>
+        <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
+          <missionVariableName>NPCSpawnDescriptions_Reinforcments03_BP</missionVariableName>
+          <extendedTextToken />
+          <property PointsTo="ptr:23" />
+        </ObjectiveProperty_Referenced>
+        <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
+          <missionVariableName>NPCSpawnDescriptions_Reinforcments03_PercentageToSpawnAt_BP</missionVariableName>
+          <extendedTextToken />
+          <property PointsTo="ptr:24" />
+        </ObjectiveProperty_Referenced>
       </properties>
       <objectiveHandler Type="ObjectiveHandler_Local">
         <module>Libs/Subsumption/Missions/PU/Missions/DestroyItems.xml</module>
         <moduleHierarchy ReferencedFile="file://./../../../../../libs/foundry/records/contracts/modulehierarchy/destroyitems_mmh.xml" />
         <disableTravelObjectives>False</disableTravelObjectives>
+        <disableReturnObjectives>False</disableReturnObjectives>
         <travelRadiusKM>0</travelRadiusKM>
         <allPlayersLeftGracePeriod>-1</allPlayersLeftGracePeriod>
         <travelObjectiveInfo Type="ObjectiveDisplayInfo">
@@ -432,8 +589,13 @@
           <category>Primary</category>
           <hideOnHUD>False</hideOnHUD>
         </returnObjectiveInfo>
-        <navPointSpawnInfo />
-        <location PointsTo="ptr:19" />
+        <navPointSpawnInfo Type="NavPointSpawnInformation">
+          <entityClassDefinition ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/mission_entities/mission_qt_quantum_beacon.xml" />
+          <name>@LOC_UNINITIALIZED</name>
+          <extendedTextTokens Type="ActivityBehaviorRequestCondition" Count="0" />
+        </navPointSpawnInfo>
+        <location PointsTo="ptr:25" />
+        <securityManifestToOverride />
       </objectiveHandler>
       <rewardContribution />
       <displayInfo Type="ObjectiveDisplayInfo">
@@ -446,7 +608,7 @@
       <commsNotifications Type="CommsNotificationSelector" Count="0" />
       <childMissionPhases Type="ChildMissionPhase" Count="0" />
     </ObjectiveToken>
-    <ObjectiveToken Pointer="ptr:30" Type="ObjectiveToken">
+    <ObjectiveToken Pointer="ptr:35" Type="ObjectiveToken">
       <id>75bc9217-e0f7-415e-9a7a-d60c44cea84e</id>
       <debugName>LocationDefence</debugName>
       <startsActive>True</startsActive>
@@ -454,34 +616,34 @@
         <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
           <missionVariableName>WaveSpawnDescriptions_BP</missionVariableName>
           <extendedTextToken />
-          <property PointsTo="ptr:20" />
+          <property PointsTo="ptr:26" />
         </ObjectiveProperty_Referenced>
         <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
           <missionVariableName>ContinuousWaves_BP</missionVariableName>
           <extendedTextToken />
-          <property PointsTo="ptr:21" />
+          <property PointsTo="ptr:27" />
         </ObjectiveProperty_Referenced>
         <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
           <missionVariableName>SpawnWaveOnStream_BP</missionVariableName>
           <extendedTextToken />
-          <property PointsTo="ptr:22" />
+          <property PointsTo="ptr:28" />
         </ObjectiveProperty_Referenced>
         <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
           <missionVariableName>TimeBetweenWaves_BP</missionVariableName>
           <extendedTextToken />
-          <property PointsTo="ptr:23" />
+          <property PointsTo="ptr:29" />
         </ObjectiveProperty_Referenced>
         <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
           <missionVariableName>MaxShips_BP</missionVariableName>
           <extendedTextToken />
-          <property PointsTo="ptr:24" />
+          <property PointsTo="ptr:30" />
         </ObjectiveProperty_Referenced>
         <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
           <missionVariableName>ChangeDifficultyOverTime_BP</missionVariableName>
           <extendedTextToken />
-          <property PointsTo="ptr:25" />
+          <property PointsTo="ptr:31" />
         </ObjectiveProperty_Referenced>
-        <ObjectiveProperty_Referenced Pointer="ptr:28" Type="ObjectiveProperty_Referenced">
+        <ObjectiveProperty_Referenced Pointer="ptr:33" Type="ObjectiveProperty_Referenced">
           <missionVariableName>MissionLocation</missionVariableName>
           <extendedTextToken />
           <property PointsTo="ptr:1" />
@@ -489,23 +651,24 @@
         <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
           <missionVariableName>SpawningRange_BP</missionVariableName>
           <extendedTextToken />
-          <property PointsTo="ptr:26" />
+          <property PointsTo="ptr:32" />
         </ObjectiveProperty_Referenced>
         <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
           <missionVariableName>SpawningSpread_BP</missionVariableName>
           <extendedTextToken />
-          <property PointsTo="ptr:26" />
+          <property PointsTo="ptr:32" />
         </ObjectiveProperty_Referenced>
         <ObjectiveProperty_Referenced Type="ObjectiveProperty_Referenced">
           <missionVariableName>InitiallyActive_BP</missionVariableName>
           <extendedTextToken />
-          <property PointsTo="ptr:27" />
+          <property />
         </ObjectiveProperty_Referenced>
       </properties>
       <objectiveHandler Type="ObjectiveHandler_Local">
         <module>Libs/Subsumption/Missions/PU/PU_MissionModules/LocationManager/LocationDefence/ShipLocationDefence.xml</module>
         <moduleHierarchy />
         <disableTravelObjectives>True</disableTravelObjectives>
+        <disableReturnObjectives>False</disableReturnObjectives>
         <travelRadiusKM>0</travelRadiusKM>
         <allPlayersLeftGracePeriod>-1</allPlayersLeftGracePeriod>
         <travelObjectiveInfo Type="ObjectiveDisplayInfo">
@@ -523,7 +686,8 @@
           <hideOnHUD>True</hideOnHUD>
         </returnObjectiveInfo>
         <navPointSpawnInfo />
-        <location PointsTo="ptr:28" />
+        <location PointsTo="ptr:33" />
+        <securityManifestToOverride />
       </objectiveHandler>
       <rewardContribution />
       <displayInfo Type="ObjectiveDisplayInfo">
@@ -539,22 +703,32 @@
   </objectiveTokens>
   <partialRewardPayout />
   <missionFlow Type="MissionFlow">
-    <triggers Type="MissionFlowTrigger" Count="2">
+    <triggers Type="MissionFlowTrigger" Count="3">
       <MissionFlowTrigger Type="MissionFlowTrigger">
-        <description />
+        <description>When DestroyItems is complete, Complete Mission</description>
         <condition Type="MissionFlowCondition_TokenState">
-          <objectiveToken PointsTo="ptr:29" />
+          <objectiveToken PointsTo="ptr:34" />
           <tokenState>Completed</tokenState>
         </condition>
-        <action Type="MissionFlowAction_TokenStateChange">
-          <objectiveToken PointsTo="ptr:30" />
+        <action Type="MissionFlowAction_StateChange">
           <toState>Completed</toState>
         </action>
       </MissionFlowTrigger>
       <MissionFlowTrigger Type="MissionFlowTrigger">
         <description />
         <condition Type="MissionFlowCondition_TokenState">
-          <objectiveToken PointsTo="ptr:29" />
+          <objectiveToken PointsTo="ptr:34" />
+          <tokenState>Completed</tokenState>
+        </condition>
+        <action Type="MissionFlowAction_TokenStateChange">
+          <objectiveToken PointsTo="ptr:35" />
+          <toState>Completed</toState>
+        </action>
+      </MissionFlowTrigger>
+      <MissionFlowTrigger Type="MissionFlowTrigger">
+        <description />
+        <condition Type="MissionFlowCondition_TokenState">
+          <objectiveToken PointsTo="ptr:34" />
           <tokenState>Completed</tokenState>
         </condition>
         <action Type="MissionFlowAction_StateChange">
@@ -563,6 +737,30 @@
       </MissionFlowTrigger>
     </triggers>
   </missionFlow>
-  <contractStartCommsNotification />
-  <contractEndCommsNotifications Type="ContractEndCommsNotification" Count="0" />
+  <contractStartCommsNotification Type="ContractCommsNotification">
+    <communicationTags PointsTo="ptr:36" />
+    <delay>0</delay>
+  </contractStartCommsNotification>
+  <contractEndCommsNotifications Type="ContractEndCommsNotification" Count="4">
+    <ContractEndCommsNotification Type="ContractEndCommsNotification">
+      <reason>Complete</reason>
+      <communicationTags PointsTo="ptr:37" />
+      <delay>0</delay>
+    </ContractEndCommsNotification>
+    <ContractEndCommsNotification Type="ContractEndCommsNotification">
+      <reason>Fail</reason>
+      <communicationTags PointsTo="ptr:38" />
+      <delay>0</delay>
+    </ContractEndCommsNotification>
+    <ContractEndCommsNotification Type="ContractEndCommsNotification">
+      <reason>Abandon</reason>
+      <communicationTags PointsTo="ptr:39" />
+      <delay>0</delay>
+    </ContractEndCommsNotification>
+    <ContractEndCommsNotification Type="ContractEndCommsNotification">
+      <reason>Complete</reason>
+      <communicationTags PointsTo="ptr:40" />
+      <delay>2</delay>
+    </ContractEndCommsNotification>
+  </contractEndCommsNotifications>
 </ContractTemplate.DestroyItems_ShipLocationDefence>

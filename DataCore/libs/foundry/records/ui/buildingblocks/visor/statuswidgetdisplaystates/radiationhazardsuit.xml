@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StatusWidgetDisplayPreset.RadiationHazardSuit RecordId="2a7192d3-cb60-4cc7-8dae-4457eb4a8603" Type="StatusWidgetDisplayPreset">
+  <ranges Type="DisplayState" Count="4">
+    <DisplayState Type="DisplayState">
+      <minimumValue>0.5</minimumValue>
+      <maximumValue>1</maximumValue>
+      <displayDuration>0</displayDuration>
+      <activeRange>InteriorRange</activeRange>
+      <enabled>True</enabled>
+    </DisplayState>
+    <DisplayState Type="DisplayState">
+      <minimumValue>0.33</minimumValue>
+      <maximumValue>0.5</maximumValue>
+      <displayDuration>0</displayDuration>
+      <activeRange>InteriorRange</activeRange>
+      <enabled>True</enabled>
+    </DisplayState>
+    <DisplayState Type="DisplayState">
+      <minimumValue>0.01</minimumValue>
+      <maximumValue>0.33</maximumValue>
+      <displayDuration>0</displayDuration>
+      <activeRange>InteriorRange</activeRange>
+      <enabled>True</enabled>
+    </DisplayState>
+    <DisplayState Type="DisplayState">
+      <minimumValue>0</minimumValue>
+      <maximumValue>0.01</maximumValue>
+      <displayDuration>0</displayDuration>
+      <activeRange>InteriorRange</activeRange>
+      <enabled>False</enabled>
+    </DisplayState>
+  </ranges>
+  <incrementDisplayDuration>0</incrementDisplayDuration>
+  <incrementStep>0</incrementStep>
+  <maximumChangePerSecond>0</maximumChangePerSecond>
+  <historySeconds>1</historySeconds>
+  <historySamplesPerSecond>1</historySamplesPerSecond>
+  <shownOnLens>True</shownOnLens>
+  <shownOnVisor>True</shownOnVisor>
+</StatusWidgetDisplayPreset.RadiationHazardSuit>

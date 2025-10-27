@@ -25,11 +25,6 @@
     <SGeometryResourceParams Type="SGeometryResourceParams">
       <ModelTag />
       <cacheResources>False</cacheResources>
-      <meshsetup Type="SGeometryMeshsetupParams">
-        <visibilityTags Type="TagList">
-          <tags Type="Tag" Count="0" />
-        </visibilityTags>
-      </meshsetup>
       <Geometry Type="SGeometryNodeParams">
         <Tags />
         <Geometry Type="SGeometryDataParams">
@@ -43,6 +38,7 @@
           <Palette Type="TintPaletteRef">
             <RootRecord />
             <ChildPath />
+            <SwizzleOverride />
           </Palette>
           <Slot>Main</Slot>
           <MaterialAttachments />
@@ -80,6 +76,7 @@
         <Palette Type="TintPaletteRef">
           <RootRecord />
           <ChildPath />
+          <SwizzleOverride />
         </Palette>
         <materialVariants Type="SMaterialNodeParams" Count="0" />
       </Material>
@@ -96,6 +93,7 @@
         <compoundingAllowed>True</compoundingAllowed>
         <breakableParams />
         <gameCollisionClass />
+        <spawnBoxScale>0.5</spawnBoxScale>
         <stiffnessScale>2</stiffnessScale>
         <airResistance>0</airResistance>
         <airControl>0.9</airControl>
@@ -183,33 +181,41 @@
     </SAnimationControllerParams>
     <SHealthComponentParams Type="SHealthComponentParams">
       <Health>1</Health>
+      <DamageCap>0</DamageCap>
       <DamageResistances Type="DamageResistance">
         <IgnoreMeleeDamage>False</IgnoreMeleeDamage>
         <PhysicalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </PhysicalResistance>
         <EnergyResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </EnergyResistance>
         <DistortionResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </DistortionResistance>
         <ThermalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </ThermalResistance>
         <BiochemicalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </BiochemicalResistance>
         <StunResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </StunResistance>
       </DamageResistances>
+      <hitManipulationParams />
       <InitialDamage />
       <SerializedDamageMapPath />
       <ClientOnly>False</ClientOnly>
@@ -217,6 +223,7 @@
       <PushDamageUpPartsHeirarchyWhenDead>True</PushDamageUpPartsHeirarchyWhenDead>
       <DetachFromItemPortOnDeath>False</DetachFromItemPortOnDeath>
       <DetachFromEntityOnDeath>False</DetachFromEntityOnDeath>
+      <DestroySelfOnDeath>False</DestroySelfOnDeath>
       <DestroyChildrenOnDeath>False</DestroyChildrenOnDeath>
       <PropagateExplosionDamageToChildren>False</PropagateExplosionDamageToChildren>
       <UseDirtShaderForDamage>False</UseDirtShaderForDamage>
@@ -233,13 +240,14 @@
       <InteractionLocks Type="SHealthInteractionLockParams" Count="0" />
       <IsSalvagable>True</IsSalvagable>
       <IsRepairable>True</IsRepairable>
-      <SalvageDamageModifier>1</SalvageDamageModifier>
       <MirrorSalvageHit>False</MirrorSalvageHit>
       <DisableMaterialDamage>False</DisableMaterialDamage>
       <sequencerTasks Type="EntityComponentHealth_SBaseSequencerTask" Count="0" />
-      <maelstromEvents Type="MaelstromBaseEvent" Count="0" />
+      <shatterDestroyEvent />
       <craftingData />
       <alwaysPropagateHitToParent>False</alwaysPropagateHitToParent>
+      <duplicateHitToParent>False</duplicateHitToParent>
+      <sendOnDestructionEventToMasterRootContainer>False</sendOnDestructionEventToMasterRootContainer>
     </SHealthComponentParams>
     <SItemPortContainerComponentParams Type="SItemPortContainerComponentParams">
       <masterController />
@@ -251,11 +259,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -338,11 +343,8 @@
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>0</MinSize>
           <MaxSize>0</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -434,7 +436,7 @@
     </SItemPortContainerComponentParams>
     <SHearingComponentParams Type="SHearingComponentParams">
       <movementSoundOriginFilter />
-      <soundTypeFilter Type="SActorForceReactionImpulseAccumulationConfig" Count="0" />
+      <soundTypeFilter Type="ActivityBehaviorRequestCondition" Count="0" />
     </SHearingComponentParams>
   </Components>
 </EntityClassDefinition.Marok_Forest>

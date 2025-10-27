@@ -64,7 +64,7 @@
       <dynamicallyUpdatePersistanceLocation>True</dynamicallyUpdatePersistanceLocation>
     </SEntityDynamicLocationProperties>
   </StaticEntityClassData>
-  <Components Type="DataForgeComponentParams" Count="49">
+  <Components Type="DataForgeComponentParams" Count="50">
     <VehicleComponentParams Type="VehicleComponentParams">
       <landingSystem />
       <manufacturer ReferencedFile="file://./../../../../../libs/foundry/records/scitemmanufacturer/tmbl.xml" />
@@ -172,23 +172,14 @@
       </shieldSDFParams>
       <DashboardCanvasConfig />
       <inventoryContainerParams ReferencedFile="file://./../../../../../libs/foundry/records/inventorycontainers/ships/tmbl_cyclone_aa_template.xml" />
-      <landingOffset Type="Vec3">
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </landingOffset>
-      <landingRotationOffset Type="Ang3">
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </landingRotationOffset>
+      <spawnBoxScale>0.5</spawnBoxScale>
     </VehicleComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
       <loadout Type="SItemPortLoadoutManualParams">
         <WearRange />
         <DirtRange />
         <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
-        <entries Type="SItemPortLoadoutEntryParams" Count="29">
+        <entries Type="SItemPortLoadoutEntryParams" Count="31">
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_paint</itemPortName>
             <entityClassName />
@@ -198,8 +189,8 @@
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_seat_driver</itemPortName>
-            <entityClassName>TMBL_Cyclone_SCItem_Seat_Driver</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/vehicles/seat/tmbl_cyclone_scitem_seat_driver_aa.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
@@ -520,6 +511,20 @@
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
+          <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
+            <itemPortName>hardpoint_personal_storage_left</itemPortName>
+            <entityClassName />
+            <entityClassReference />
+            <inventoryContainer />
+            <loadout />
+          </SItemPortLoadoutEntryParams>
+          <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
+            <itemPortName>hardpoint_personal_storage_right</itemPortName>
+            <entityClassName />
+            <entityClassReference />
+            <inventoryContainer />
+            <loadout />
+          </SItemPortLoadoutEntryParams>
         </entries>
       </loadout>
     </SEntityComponentDefaultLoadoutParams>
@@ -637,6 +642,7 @@
         </inventoryOccupancyLocalBoundsMax>
         <inventoryOccupancyDimensionsUIOverride />
         <ignoredAttachAxis>None</ignoredAttachAxis>
+        <attachCheckCenterOfMass>False</attachCheckCenterOfMass>
       </AttachDef>
       <attachToTileItemPort>NoConnection</attachToTileItemPort>
       <entityAttachParams />
@@ -748,39 +754,63 @@
     </SEntityComponentEffects>
     <SSCItemControllableManagerParams Type="SSCItemControllableManagerParams">
       <defaultMasterMode>SCM</defaultMasterMode>
-      <masterModeSpoolTimeToNAV>1</masterModeSpoolTimeToNAV>
-      <masterModeSpoolTimeToSCM>0.2</masterModeSpoolTimeToSCM>
+      <masterModes Type="SMasterModeParams" Count="4">
+        <SMasterModeParams Type="SMasterModeParams">
+          <available>False</available>
+          <spoolTime>1</spoolTime>
+        </SMasterModeParams>
+        <SMasterModeParams Type="SMasterModeParams">
+          <available>True</available>
+          <spoolTime>1</spoolTime>
+        </SMasterModeParams>
+        <SMasterModeParams Type="SMasterModeParams">
+          <available>True</available>
+          <spoolTime>0.2</spoolTime>
+        </SMasterModeParams>
+        <SMasterModeParams Type="SMasterModeParams">
+          <available>False</available>
+          <spoolTime>1</spoolTime>
+        </SMasterModeParams>
+      </masterModes>
       <controllerParams />
     </SSCItemControllableManagerParams>
     <SHealthComponentParams Type="SHealthComponentParams">
       <Health>1</Health>
+      <DamageCap>0</DamageCap>
       <DamageResistances Type="DamageResistance">
         <IgnoreMeleeDamage>False</IgnoreMeleeDamage>
         <PhysicalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </PhysicalResistance>
         <EnergyResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </EnergyResistance>
         <DistortionResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </DistortionResistance>
         <ThermalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </ThermalResistance>
         <BiochemicalResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </BiochemicalResistance>
         <StunResistance Type="DamageResistanceEntry">
           <Multiplier>1</Multiplier>
           <Threshold>0</Threshold>
+          <DamageCap>0</DamageCap>
         </StunResistance>
       </DamageResistances>
+      <hitManipulationParams />
       <InitialDamage />
       <SerializedDamageMapPath />
       <ClientOnly>False</ClientOnly>
@@ -788,6 +818,7 @@
       <PushDamageUpPartsHeirarchyWhenDead>True</PushDamageUpPartsHeirarchyWhenDead>
       <DetachFromItemPortOnDeath>False</DetachFromItemPortOnDeath>
       <DetachFromEntityOnDeath>False</DetachFromEntityOnDeath>
+      <DestroySelfOnDeath>False</DestroySelfOnDeath>
       <DestroyChildrenOnDeath>False</DestroyChildrenOnDeath>
       <PropagateExplosionDamageToChildren>False</PropagateExplosionDamageToChildren>
       <UseDirtShaderForDamage>False</UseDirtShaderForDamage>
@@ -804,13 +835,14 @@
       <InteractionLocks Type="SHealthInteractionLockParams" Count="0" />
       <IsSalvagable>True</IsSalvagable>
       <IsRepairable>True</IsRepairable>
-      <SalvageDamageModifier>1</SalvageDamageModifier>
       <MirrorSalvageHit>False</MirrorSalvageHit>
       <DisableMaterialDamage>False</DisableMaterialDamage>
       <sequencerTasks Type="EntityComponentHealth_SBaseSequencerTask" Count="0" />
-      <maelstromEvents Type="MaelstromBaseEvent" Count="0" />
+      <shatterDestroyEvent />
       <craftingData />
       <alwaysPropagateHitToParent>False</alwaysPropagateHitToParent>
+      <duplicateHitToParent>False</duplicateHitToParent>
+      <sendOnDestructionEventToMasterRootContainer>False</sendOnDestructionEventToMasterRootContainer>
     </SHealthComponentParams>
     <SInteractionLinkParams Type="SInteractionLinkParams">
       <vehicleItemPortInteractionLinks Type="SVehicleItemportInteractionLink" Count="0" />
@@ -839,11 +871,7 @@
           </crossSection>
         </crossSectionParams>
         <emissionModifierParams />
-        <deathParams />
         <scanBounds />
-        <roomParams Type="SCSignatureSystemRoomParams">
-          <ignoreInteriorVsExteriorCheck>False</ignoreInteriorVsExteriorCheck>
-        </roomParams>
       </radarProperties>
       <audioParams Type="SSCSignatureSystemAudioParams">
         <rulesets Type="SSCSignatureSystemAudioRuleset" Count="1">
@@ -862,9 +890,6 @@
       </overriddenSize>
       <enableDetectionOnItemPort>False</enableDetectionOnItemPort>
       <ignoreHighlightWhenDetectorInsideBounds>False</ignoreHighlightWhenDetectorInsideBounds>
-      <linkedObjectives Type="MissionObjective" Count="0" />
-      <ignoreHighlightWhenNoLinkedOrActiveObjectives>False</ignoreHighlightWhenNoLinkedOrActiveObjectives>
-      <priorityBoxoutTag />
       <isObjectOfInterest>False</isObjectOfInterest>
     </SSCSignatureSystemParams>
     <SSuperGUIDComponentParams Type="SSuperGUIDComponentParams" />
@@ -872,11 +897,6 @@
     <SGeometryResourceParams Type="SGeometryResourceParams">
       <ModelTag />
       <cacheResources>False</cacheResources>
-      <meshsetup Type="SGeometryMeshsetupParams">
-        <visibilityTags Type="TagList">
-          <tags Type="Tag" Count="0" />
-        </visibilityTags>
-      </meshsetup>
       <Geometry Type="SGeometryNodeParams">
         <Tags />
         <Geometry Type="SGeometryDataParams">
@@ -890,6 +910,7 @@
           <Palette Type="TintPaletteRef">
             <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/tmbl/cyclone/tmbl_cyclone_aa.xml" />
             <ChildPath />
+            <SwizzleOverride />
           </Palette>
           <Slot>Main</Slot>
           <MaterialAttachments />
@@ -931,6 +952,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/fleetweek/2021/fleetweek_level1_military.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -973,6 +995,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/fleetweek/2021/fleetweek_level2_camo.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -1015,6 +1038,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/aegs/avenger/aegs_avenger_fleet_blue.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -1057,6 +1081,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/lovestruck/coramor_lovestruck_default.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -1099,6 +1124,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/racing/racing_red_silver_red.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -1141,6 +1167,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/racing/racing_white_blue_blue.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -1183,6 +1210,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/racing/racing_white_purple_purple.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -1225,6 +1253,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/racing/cyclone_racing_yellow_white_grey_stripes.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -1267,6 +1296,7 @@
               <Palette Type="TintPaletteRef">
                 <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/racing/cyclone_racing_blue_blue_blue_tigerstripes.xml" />
                 <ChildPath />
+                <SwizzleOverride />
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
@@ -1306,6 +1336,7 @@
         <Palette Type="TintPaletteRef">
           <RootRecord />
           <ChildPath />
+          <SwizzleOverride />
         </Palette>
         <materialVariants Type="SMaterialNodeParams" Count="0" />
       </Material>
@@ -1395,11 +1426,8 @@
           <RequiredPortTags />
           <Flags>invisible uneditable</Flags>
           <Tags Type="Tag" Count="0" />
-          <OnAttachTags Type="Tag" Count="0" />
-          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
-          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -1432,7 +1460,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="StatusEffectSetupBase" Count="0" />
+              <SubTypes Type="LinkedStat" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1527,6 +1555,7 @@
     </EntityComponentAudioEnvironmentFeedbackParams>
     <EntityComponentVibrationParams Type="EntityComponentVibrationParams">
       <vibrationRecord ReferencedFile="file://./../../../../../libs/foundry/records/vibrations/vibrations_vehiclebase.xml" />
+      <normalizationMassOverride>-1</normalizationMassOverride>
     </EntityComponentVibrationParams>
     <SurfaceRaindropsComponentParams Type="SurfaceRaindropsComponentParams">
       <enable>True</enable>
@@ -1553,7 +1582,6 @@
             <maximum>276</maximum>
           </temperatureRange>
           <fadeOutDuration>10</fadeOutDuration>
-          <enableCloudCondensation>False</enableCloudCondensation>
         </SurfaceRaindrops_Emitter>
         <SurfaceRaindrops_Emitter Type="SurfaceRaindrops_Emitter">
           <particleEffect Type="GlobalResourceParticle">
@@ -1569,12 +1597,12 @@
             <maximum>276</maximum>
           </temperatureRange>
           <fadeOutDuration>35</fadeOutDuration>
-          <enableCloudCondensation>False</enableCloudCondensation>
         </SurfaceRaindrops_Emitter>
       </customEmitters>
       <wipeEffect Type="GlobalResourceParticle">
         <path />
       </wipeEffect>
+      <enableCloudCondensation>False</enableCloudCondensation>
       <inactiveDuration>35</inactiveDuration>
       <maximumSpeed>50</maximumSpeed>
       <waterSprayHeightRange Type="Range">
@@ -1939,14 +1967,13 @@
       <entrancesRecord ReferencedFile="file://./../../../../../libs/foundry/records/ui/vehicleentrance/tmbl_cyclone.xml" />
     </EntranceDisplayComponentParams>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="ActorStatusStatModifier" Count="1">
+      <perceptionTypes Type="SRadarSenseComponentParams" Count="1">
         <EnumChoice>Vehicle</EnumChoice>
       </perceptionTypes>
-      <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusAddBuff" Count="0" />
+      <excludedSenses Type="SHearingComponentParams" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
-      <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
-      <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />
+      <defaultEntityObservablePoint />
+      <defaultAimingObservablePoint />
       <observableExtensions Type="IObservableExtender" Count="1">
         <AudioObservableExtender Type="AudioObservableExtender">
           <hearingRadiusAtFullStrength>550</hearingRadiusAtFullStrength>
@@ -1992,5 +2019,6 @@
       <shotAlertTime>1</shotAlertTime>
     </AnnunciatorProviderParams>
     <EntityComponentResourceNetworkUIProviderParams Type="EntityComponentResourceNetworkUIProviderParams" />
+    <PositionTrackerComponentParams Type="PositionTrackerComponentParams" />
   </Components>
 </EntityClassDefinition.TMBL_Cyclone_AA>
