@@ -1,0 +1,101 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StarMapObject.MTL_Sandbox_PortOlisar RecordId="1ad244a0-4f18-42b0-afa2-3c81e8e30cfa" Type="StarMapObject">
+  <name>@ui_pregame_port_Olisar_name</name>
+  <affiliation />
+  <description>@stanton2_transfer_Port_Olisar_desc</description>
+  <callout1>@LOC_UNINITIALIZED</callout1>
+  <callout2>@LOC_UNINITIALIZED</callout2>
+  <callout3>@LOC_UNINITIALIZED</callout3>
+  <respawnLocationType>Other</respawnLocationType>
+  <jurisdiction />
+  <locationHierarchyTag />
+  <type RecordReference="file://./../../../../../../../libs/foundry/records/starmap/starmapobjecttypes.xml" RecordName="StarMapObjectType.3819ac97-18f1-499e-9729-b889172da3f8" RecordId="3819ac97-18f1-499e-9729-b889172da3f8" />
+  <radarProperties Type="SSCRadarContactProperites">
+    <contactType RecordReference="file://./../../../../../../../libs/foundry/records/radarsystem/radarcontacttypes.xml" RecordName="RadarContactTypeEntry.ce1f9207-36f2-4cc6-b93a-ebdf6b1f777d" RecordId="ce1f9207-36f2-4cc6-b93a-ebdf6b1f777d" />
+    <baseSignatureParams Type="SSCSignatureSystemBaseSignatureParams">
+      <signatures Type="ActivityBehaviorRequestCondition" Count="8">
+        <Single>15000</Single>
+        <Single>50000</Single>
+        <Single>5000</Single>
+        <Single>0</Single>
+        <Single>0</Single>
+        <Single>90000</Single>
+        <Single>0</Single>
+        <Single>0</Single>
+      </signatures>
+      <signatureCategories Type="SSignaturesCategoryEntry" Count="0" />
+      <taggedSignatures Type="STaggedSignaturesEntry" Count="0" />
+    </baseSignatureParams>
+    <crossSectionParams />
+    <emissionModifierParams />
+    <deathParams />
+    <scanBounds Type="SSCSignatureSystemScanBounds">
+      <min Type="Vec3">
+        <x>-2000</x>
+        <y>-500</y>
+        <z>-370</z>
+      </min>
+      <max Type="Vec3">
+        <x>2000</x>
+        <y>500</y>
+        <z>370</z>
+      </max>
+      <localRotation Type="Deg3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </localRotation>
+    </scanBounds>
+    <roomParams Type="SCSignatureSystemRoomParams">
+      <ignoreInteriorVsExteriorCheck>False</ignoreInteriorVsExteriorCheck>
+    </roomParams>
+  </radarProperties>
+  <navIcon>Station</navIcon>
+  <parent />
+  <isScannable>False</isScannable>
+  <size>400</size>
+  <hideInStarmap>False</hideInStarmap>
+  <hideInWorld>False</hideInWorld>
+  <hideWhenInAdoptionRadius>False</hideWhenInAdoptionRadius>
+  <blockTravel>False</blockTravel>
+  <onlyShowWhenParentSelected>False</onlyShowWhenParentSelected>
+  <overrideShowInAllZones>NoOverride</overrideShowInAllZones>
+  <overridePermanent>NoOverride</overridePermanent>
+  <minimumDisplaySize>0</minimumDisplaySize>
+  <overrideRotationSpeed>False</overrideRotationSpeed>
+  <overrideRotationSpeedValue>0</overrideRotationSpeedValue>
+  <showOrbitLine>True</showOrbitLine>
+  <useHoloMaterial>True</useHoloMaterial>
+  <noAutoBodyRecovery>False</noAutoBodyRecovery>
+  <starMapGeomPath>objects/ui/starmap/stations/smap_portolisar_a.cgf</starMapGeomPath>
+  <starMapMaterialPath>materials/ui/radar/starmap_objecthologram.mtl</starMapMaterialPath>
+  <starMapShapePath>UI/Textures/Vector/General/MarkerIcons/ui_icon_general_01.svg</starMapShapePath>
+  <assetManagerLocationParams Type="StarMapAssetManagerLocationParams">
+    <previewImagePath>UI/mobiGlas/assets/TIF/AssetManager/niknax_preview_portolisar.tif</previewImagePath>
+    <previewIconPath>UI/mobiGlas/assets/TIF/AssetManager/niknax_listicon_portolisar.tif</previewIconPath>
+  </assetManagerLocationParams>
+  <asteroidRings Type="StarMapAsteroidRing" Count="0" />
+  <quantumTravelData Type="StarMapQuantumTravelDataParams">
+    <obstructionRadius>2000</obstructionRadius>
+    <arrivalRadius>8000</arrivalRadius>
+    <arrivalPointDetectionOffset>10000</arrivalPointDetectionOffset>
+    <adoptionRadius>20000</adoptionRadius>
+    <subPointRadiusMultiplier>1.5</subPointRadiusMultiplier>
+  </quantumTravelData>
+  <locationParams Type="StarMapObjectLocationParams">
+    <setEntityLocationOnEnter>True</setEntityLocationOnEnter>
+    <exposeForPlayerCreatedMissions>True</exposeForPlayerCreatedMissions>
+    <excludeFromLevelLoad>False</excludeFromLevelLoad>
+    <densityClassOverwrites />
+    <densityClassLifetimeOverrides Type="SStarMapDensityClassLifetimeOverrideEntry" Count="0" />
+  </locationParams>
+  <locationImagePath>UI/Frontend/assets/TIF/Locations/PUBackdrop_Stanton_PortOlisar.tif</locationImagePath>
+  <locationMedicalImagePath />
+  <locationAudioPlayTrigger Type="GlobalResourceAudio">
+    <audioTrigger />
+  </locationAudioPlayTrigger>
+  <locationAudioStopTrigger Type="GlobalResourceAudio">
+    <audioTrigger />
+  </locationAudioStopTrigger>
+  <amenities Type="StarMapAmenityTypeEntry" Count="0" />
+</StarMapObject.MTL_Sandbox_PortOlisar>

@@ -86,7 +86,7 @@
     <detonationParams />
     <proximityTriggerParams />
     <damage Type="DamageInfo">
-      <DamagePhysical>1600</DamagePhysical>
+      <DamagePhysical>185</DamagePhysical>
       <DamageEnergy>0</DamageEnergy>
       <DamageDistortion>0</DamageDistortion>
       <DamageThermal>0</DamageThermal>
@@ -108,7 +108,8 @@
     </pierceabilityParams>
     <penetrationParams Type="AmmoPenetrationParams">
       <basePenetrationDistance>50</basePenetrationDistance>
-      <angle>14.3</angle>
+      <nearRadius>0</nearRadius>
+      <farRadius>0</farRadius>
     </penetrationParams>
     <visualParams Type="BulletVisualParams">
       <Material Type="GlobalResourceMaterial">

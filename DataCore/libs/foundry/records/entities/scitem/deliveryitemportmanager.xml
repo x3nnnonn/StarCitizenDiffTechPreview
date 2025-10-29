@@ -4,8 +4,15 @@
   <Icon>Default.bmp</Icon>
   <Invisible>False</Invisible>
   <BBoxSelection>False</BBoxSelection>
+  <defaultEditorColor Type="RGB">
+    <r>1</r>
+    <g>1</g>
+    <b>0</b>
+  </defaultEditorColor>
   <entityDensityClass />
-  <tags Type="Tag" Count="0" />
+  <tags Type="Tag" Count="1">
+    <Tag />
+  </tags>
   <StaticEntityClassData Type="EntityClassStaticDataParams" Count="0" />
   <Components Type="DataForgeComponentParams" Count="1">
     <DeliveryItemPortManagerComponentParams Type="DeliveryItemPortManagerComponentParams" />

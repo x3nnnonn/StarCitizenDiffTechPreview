@@ -60,7 +60,7 @@
     </entries>
   </defaultStyles>
   <style />
-  <brandStyles Type="BuildingBlocks_BrandStyles" Count="62">
+  <brandStyles Type="BuildingBlocks_BrandStyles" Count="65">
     <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
       <brandIdentifier ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/s_uihi_a.xml" />
       <sharedStyles />
@@ -811,7 +811,7 @@
           <modifiers Type="BuildingBlocks_FieldModifierBase" Count="2">
             <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
               <field>EnableBackground</field>
-              <value>True</value>
+              <value>False</value>
             </BuildingBlocks_FieldModifierBoolean>
             <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
               <field>BackgroundColor</field>
@@ -835,11 +835,15 @@
               </conditions>
             </BuildingBlocks_StyleConditionList>
           </conditionsList>
-          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="2">
             <BuildingBlocks_FieldModifierString Type="BuildingBlocks_FieldModifierString">
               <field>ImagePath</field>
-              <value>UI/Textures/ModularKitStyles/MISC/Background.tif</value>
+              <value>UI/Textures/ModularKitStyles/MISC_ENV/SK_MISC_NoGreebles_BG.tif</value>
             </BuildingBlocks_FieldModifierString>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>Alpha</field>
+              <value>0.1</value>
+            </BuildingBlocks_FieldModifierNumber>
           </modifiers>
           <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
         </BuildingBlocks_StyleEntry>
@@ -4023,6 +4027,194 @@
         </BuildingBlocks_StyleEntry>
       </entries>
     </BuildingBlocks_BrandStyles>
+    <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
+      <brandIdentifier ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/s_nyx_a.xml" />
+      <sharedStyles />
+      <entries Type="BuildingBlocks_StyleEntry" Count="2">
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>BackgroundColor</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.21788313-6aff-45b4-a3ad-fdc62b1cf849" RecordId="21788313-6aff-45b4-a3ad-fdc62b1cf849" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+                <BuildingBlocks_StyleSelectorConditionParent Type="BuildingBlocks_StyleSelectorConditionParent">
+                  <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                    <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                      <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4386fed5-efdf-442f-95e4-123701d7f616" RecordId="4386fed5-efdf-442f-95e4-123701d7f616" />
+                    </BuildingBlocks_StyleSelectorConditionTag>
+                  </conditions>
+                </BuildingBlocks_StyleSelectorConditionParent>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="2">
+            <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+              <field>EnableBackground</field>
+              <value>True</value>
+            </BuildingBlocks_FieldModifierBoolean>
+            <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
+              <field>BackgroundColor</field>
+              <color Type="BuildingBlocks_ColorStyle">
+                <color>Background</color>
+                <alpha>1</alpha>
+              </color>
+            </BuildingBlocks_FieldModifierColor>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>Background Texture Style</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.cc37cf84-f93a-4a60-82a6-efea090069b1" RecordId="cc37cf84-f93a-4a60-82a6-efea090069b1" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
+            <BuildingBlocks_FieldModifierString Type="BuildingBlocks_FieldModifierString">
+              <field>ImagePath</field>
+              <value>UI/Textures/ModularKitStyles/NYX_A/S_NYX_A_16x9_BG_Image.tif</value>
+            </BuildingBlocks_FieldModifierString>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+      </entries>
+    </BuildingBlocks_BrandStyles>
+    <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
+      <brandIdentifier ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/s_grin_hud.xml" />
+      <sharedStyles />
+      <entries Type="BuildingBlocks_StyleEntry" Count="2">
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>Background Color</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.21788313-6aff-45b4-a3ad-fdc62b1cf849" RecordId="21788313-6aff-45b4-a3ad-fdc62b1cf849" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+                <BuildingBlocks_StyleSelectorConditionParent Type="BuildingBlocks_StyleSelectorConditionParent">
+                  <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                    <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                      <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4386fed5-efdf-442f-95e4-123701d7f616" RecordId="4386fed5-efdf-442f-95e4-123701d7f616" />
+                    </BuildingBlocks_StyleSelectorConditionTag>
+                  </conditions>
+                </BuildingBlocks_StyleSelectorConditionParent>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="2">
+            <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+              <field>EnableBackground</field>
+              <value>True</value>
+            </BuildingBlocks_FieldModifierBoolean>
+            <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
+              <field>BackgroundColor</field>
+              <color Type="BuildingBlocks_ColorSolid">
+                <color Type="SRGBA8">
+                  <r>0</r>
+                  <g>0</g>
+                  <b>0</b>
+                  <a>255</a>
+                </color>
+              </color>
+            </BuildingBlocks_FieldModifierColor>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>Background Texture Style</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.cc37cf84-f93a-4a60-82a6-efea090069b1" RecordId="cc37cf84-f93a-4a60-82a6-efea090069b1" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="2">
+            <BuildingBlocks_FieldModifierString Type="BuildingBlocks_FieldModifierString">
+              <field>ImagePath</field>
+              <value>UI/Textures/Ships/Manufacturer/GRIN/GRIN_MFD_Background_4x3.tif</value>
+            </BuildingBlocks_FieldModifierString>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>Alpha</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+      </entries>
+    </BuildingBlocks_BrandStyles>
+    <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
+      <brandIdentifier />
+      <sharedStyles />
+      <entries Type="BuildingBlocks_StyleEntry" Count="2">
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>BackgroundColor</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.21788313-6aff-45b4-a3ad-fdc62b1cf849" RecordId="21788313-6aff-45b4-a3ad-fdc62b1cf849" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+                <BuildingBlocks_StyleSelectorConditionParent Type="BuildingBlocks_StyleSelectorConditionParent">
+                  <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                    <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                      <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4386fed5-efdf-442f-95e4-123701d7f616" RecordId="4386fed5-efdf-442f-95e4-123701d7f616" />
+                    </BuildingBlocks_StyleSelectorConditionTag>
+                  </conditions>
+                </BuildingBlocks_StyleSelectorConditionParent>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="2">
+            <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+              <field>EnableBackground</field>
+              <value>True</value>
+            </BuildingBlocks_FieldModifierBoolean>
+            <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
+              <field>BackgroundColor</field>
+              <color Type="BuildingBlocks_ColorStyle">
+                <color>Background</color>
+                <alpha>1</alpha>
+              </color>
+            </BuildingBlocks_FieldModifierColor>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>Background Texture Style</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.cc37cf84-f93a-4a60-82a6-efea090069b1" RecordId="cc37cf84-f93a-4a60-82a6-efea090069b1" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
+            <BuildingBlocks_FieldModifierString Type="BuildingBlocks_FieldModifierString">
+              <field>ImagePath</field>
+              <value>UI/Textures/ModularKitStyles/NYX_B/S_NYX_B_16x9_BG_Image.tif</value>
+            </BuildingBlocks_FieldModifierString>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+      </entries>
+    </BuildingBlocks_BrandStyles>
   </brandStyles>
   <entityPreviewScene Type="BuildingBlocks_PreviewSceneEntityRoot">
     <renderLayer>Default</renderLayer>
@@ -4083,8 +4275,8 @@
       <parent />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -4333,6 +4525,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -4393,8 +4586,8 @@
       <parent PointsTo="ptr:1" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -4636,6 +4829,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />

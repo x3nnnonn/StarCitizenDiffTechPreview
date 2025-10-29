@@ -4,10 +4,15 @@
   <Icon>Default.bmp</Icon>
   <Invisible>False</Invisible>
   <BBoxSelection>False</BBoxSelection>
+  <defaultEditorColor Type="RGB">
+    <r>1</r>
+    <g>1</g>
+    <b>0</b>
+  </defaultEditorColor>
   <entityDensityClass />
   <tags Type="Tag" Count="0" />
   <StaticEntityClassData Type="EntityClassStaticDataParams" Count="0" />
-  <Components Type="DataForgeComponentParams" Count="5">
+  <Components Type="DataForgeComponentParams" Count="8">
     <SAttachableComponentParams Type="SAttachableComponentParams">
       <AttachDef Type="SItemDefinition">
         <Type>EnergyController</Type>
@@ -135,5 +140,177 @@
         </itemControlPriorities>
       </additionalItemControlPriorities>
     </ItemControllerComponentParams>
+    <ItemResourceComponentParams Type="ItemResourceComponentParams">
+      <isResourceNetworked>True</isResourceNetworked>
+      <isRelay>False</isRelay>
+      <filterParams />
+      <isConnectedToRoom>False</isConnectedToRoom>
+      <wirelessConnection>False</wirelessConnection>
+      <states Type="ItemResourceState" Count="1">
+        <ItemResourceState Type="ItemResourceState">
+          <name>Reflection</name>
+          <deltas Type="ItemResourceDeltaBase" Count="1">
+            <ItemResourceDeltaNetworkReflection Type="ItemResourceDeltaNetworkReflection">
+              <resource>Power</resource>
+              <binaryEvaluation>False</binaryEvaluation>
+            </ItemResourceDeltaNetworkReflection>
+          </deltas>
+          <linkedInteractionStates Type="ResourceLinkedInteractionState" Count="0" />
+          <signatureParams Type="ItemResourceSignatureParams">
+            <EMSignature Type="ItemResourceSignatureEntry">
+              <nominalSignature>0</nominalSignature>
+              <decayRate>0.15</decayRate>
+              <functionalityCurve />
+            </EMSignature>
+            <IRSignature Type="ItemResourceSignatureEntry">
+              <nominalSignature>0</nominalSignature>
+              <decayRate>0.15</decayRate>
+              <functionalityCurve />
+            </IRSignature>
+          </signatureParams>
+          <powerRanges Type="PowerRangeParams">
+            <low Type="ResourceRangeParams">
+              <start>0</start>
+              <modifier>1</modifier>
+              <registerRange>False</registerRange>
+            </low>
+            <medium Type="ResourceRangeParams">
+              <start>0</start>
+              <modifier>1</modifier>
+              <registerRange>False</registerRange>
+            </medium>
+            <high Type="ResourceRangeParams">
+              <start>0</start>
+              <modifier>1</modifier>
+              <registerRange>False</registerRange>
+            </high>
+          </powerRanges>
+        </ItemResourceState>
+      </states>
+      <controlParameters Type="ItemResourceControlParameterBase" Count="0" />
+      <controlBlocks Type="ItemResourceControlBlock" Count="0" />
+      <defaultPriority>50</defaultPriority>
+      <functionalityModifiers />
+      <powerPlantOverride />
+      <selfRepair Type="ItemResourceSelfRepairParams">
+        <maxRepairCount>1</maxRepairCount>
+        <timeToRepair>120</timeToRepair>
+        <healthRatio>0.2</healthRatio>
+      </selfRepair>
+    </ItemResourceComponentParams>
+    <SEntityInteractableParams Type="SEntityInteractableParams">
+      <Interactable Type="SInteractableParams">
+        <SharedInteractions Type="SSharedInteractionParams" Count="0" />
+        <InteractionPoints Type="SInteractionPointParams" Count="0" />
+        <interactionTasks Type="SSequencerInteractionTask" Count="0" />
+        <actionHandlerTasks Type="SSequencerActorActionHandlerTask" Count="0" />
+        <itemActionTasks Type="SSequencerItemActionTask" Count="0" />
+        <menuTitle />
+      </Interactable>
+    </SEntityInteractableParams>
+    <SInteractionStateMachineParams Type="SInteractionStateMachineParams">
+      <StateTypes Type="SInteractionStateType" Count="1">
+        <SInteractionStateType Type="SInteractionStateType">
+          <StateTypeName>Power</StateTypeName>
+          <bindingsMethod>None</bindingsMethod>
+          <DefaultState />
+          <asopReset>False</asopReset>
+          <networkAuthority>Server</networkAuthority>
+          <States Type="SInteractionState" Count="3">
+            <SInteractionState Pointer="ptr:1" Type="SInteractionState">
+              <StateName>Nominal</StateName>
+              <EnterStateEffectGroup />
+              <ExitStateEffectGroup />
+              <enterStateEffectTags Type="Tag" Count="0" />
+              <exitStateEffectTags Type="Tag" Count="0" />
+              <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
+              <EnterStatePlaySequence />
+              <ExitStatePlaySequence />
+              <StateAutoChange />
+              <Interactions Type="SInteractionStateTransition" Count="0" />
+              <interactionPoints Type="SInteractionPointParams" Count="0" />
+              <stateTags Type="TagList">
+                <tags Type="Tag" Count="1">
+                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7e6a2f02-480d-4f86-9ee6-b19dbc778f76" RecordId="7e6a2f02-480d-4f86-9ee6-b19dbc778f76" />
+                </tags>
+              </stateTags>
+              <enterGeometryTags />
+              <entityTags Type="TagList">
+                <tags Type="Tag" Count="0" />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState Pointer="ptr:2" Type="SInteractionState">
+              <StateName>Warning</StateName>
+              <EnterStateEffectGroup />
+              <ExitStateEffectGroup />
+              <enterStateEffectTags Type="Tag" Count="0" />
+              <exitStateEffectTags Type="Tag" Count="0" />
+              <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
+              <EnterStatePlaySequence />
+              <ExitStatePlaySequence />
+              <StateAutoChange />
+              <Interactions Type="SInteractionStateTransition" Count="0" />
+              <interactionPoints Type="SInteractionPointParams" Count="0" />
+              <stateTags Type="TagList">
+                <tags Type="Tag" Count="1">
+                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7e6a2f02-480d-4f86-9ee6-b19dbc778f76" RecordId="7e6a2f02-480d-4f86-9ee6-b19dbc778f76" />
+                </tags>
+              </stateTags>
+              <enterGeometryTags />
+              <entityTags Type="TagList">
+                <tags Type="Tag" Count="0" />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState Pointer="ptr:3" Type="SInteractionState">
+              <StateName>NoPower</StateName>
+              <EnterStateEffectGroup />
+              <ExitStateEffectGroup />
+              <enterStateEffectTags Type="Tag" Count="0" />
+              <exitStateEffectTags Type="Tag" Count="0" />
+              <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
+              <EnterStatePlaySequence />
+              <ExitStatePlaySequence />
+              <StateAutoChange />
+              <Interactions Type="SInteractionStateTransition" Count="0" />
+              <interactionPoints Type="SInteractionPointParams" Count="0" />
+              <stateTags Type="TagList">
+                <tags Type="Tag" Count="1">
+                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.aff7a3ed-a8bf-4b91-b07a-462f57003211" RecordId="aff7a3ed-a8bf-4b91-b07a-462f57003211" />
+                </tags>
+              </stateTags>
+              <enterGeometryTags />
+              <entityTags Type="TagList">
+                <tags Type="Tag" Count="0" />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers Type="SStateModifier" Count="1">
+            <ItemResourceStateModifier Type="ItemResourceStateModifier">
+              <stateRanges Type="SRangeStateLevel" Count="3">
+                <SRangeStateLevel Type="SRangeStateLevel">
+                  <state PointsTo="ptr:1" />
+                  <min>0.5</min>
+                  <max>1</max>
+                </SRangeStateLevel>
+                <SRangeStateLevel Type="SRangeStateLevel">
+                  <state PointsTo="ptr:2" />
+                  <min>0.01</min>
+                  <max>0.5</max>
+                </SRangeStateLevel>
+                <SRangeStateLevel Type="SRangeStateLevel">
+                  <state PointsTo="ptr:3" />
+                  <min>0</min>
+                  <max>0.01</max>
+                </SRangeStateLevel>
+              </stateRanges>
+              <linkedRNetStates Type="ItemResourceState" Count="0" />
+            </ItemResourceStateModifier>
+          </StateModifiers>
+        </SInteractionStateType>
+      </StateTypes>
+    </SInteractionStateMachineParams>
   </Components>
 </EntityClassDefinition.Controller_Energy>

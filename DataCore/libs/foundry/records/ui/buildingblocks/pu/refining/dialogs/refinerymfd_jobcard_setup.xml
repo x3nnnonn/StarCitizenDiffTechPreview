@@ -6,7 +6,43 @@
     <z>0</z>
   </size>
   <coordinateMethod>useRaw</coordinateMethod>
-  <embeddedStyles Type="BuildingBlocks_StyleEntry" Count="0" />
+  <embeddedStyles Type="BuildingBlocks_StyleEntry" Count="1">
+    <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+      <name>MaterialNameResize</name>
+      <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+        <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+          <name>New Condition List</name>
+          <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+            <BuildingBlocks_StyleSelectorConditionAllOfCondition Type="BuildingBlocks_StyleSelectorConditionAllOfCondition">
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="3">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.295223fa-f17e-48c7-aff0-cec34148be12" RecordId="295223fa-f17e-48c7-aff0-cec34148be12" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+                <BuildingBlocks_StyleSelectorConditionType Type="BuildingBlocks_StyleSelectorConditionType">
+                  <type>Text</type>
+                </BuildingBlocks_StyleSelectorConditionType>
+                <BuildingBlocks_StyleSelectorConditionAncestor Type="BuildingBlocks_StyleSelectorConditionAncestor">
+                  <breakConditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                    <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                      <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0964d22f-3a22-4052-92e4-eaf77f975423" RecordId="0964d22f-3a22-4052-92e4-eaf77f975423" />
+                    </BuildingBlocks_StyleSelectorConditionTag>
+                  </breakConditions>
+                  <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="0" />
+                </BuildingBlocks_StyleSelectorConditionAncestor>
+              </conditions>
+            </BuildingBlocks_StyleSelectorConditionAllOfCondition>
+          </conditions>
+        </BuildingBlocks_StyleConditionList>
+      </conditionsList>
+      <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
+        <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+          <field>WordWrap</field>
+          <value>False</value>
+        </BuildingBlocks_FieldModifierBoolean>
+      </modifiers>
+      <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+    </BuildingBlocks_StyleEntry>
+  </embeddedStyles>
   <defaultStyles Type="BuildingBlocks_DefaultStyles">
     <sharedStyles />
     <entries Type="BuildingBlocks_StyleEntry" Count="0" />
@@ -70,8 +106,8 @@
       <parent />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -313,6 +349,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -345,7 +382,7 @@
       <enableHeldCursor>False</enableHeldCursor>
       <heldCursor>Auto</heldCursor>
     </BuildingBlocks_DisplayWidget>
-    <BuildingBlocks_WidgetToggleControl Pointer="ptr:38" Type="BuildingBlocks_WidgetToggleControl">
+    <BuildingBlocks_WidgetToggleControl Pointer="ptr:39" Type="BuildingBlocks_WidgetToggleControl">
       <name>&lt;unnamed&gt;</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -371,8 +408,8 @@
       <parent PointsTo="ptr:1" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -614,6 +651,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -680,8 +718,8 @@
       <parent PointsTo="ptr:2" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>False</affectsLayout>
       <affectsAutosize>False</affectsAutosize>
       <exportNode>True</exportNode>
@@ -923,6 +961,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -991,8 +1030,8 @@
       <parent PointsTo="ptr:3" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -1241,6 +1280,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -1299,8 +1339,8 @@
       <parent PointsTo="ptr:4" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -1542,6 +1582,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -1625,8 +1666,8 @@
       <parent PointsTo="ptr:5" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -1875,6 +1916,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -1933,8 +1975,8 @@
       <parent PointsTo="ptr:6" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -2176,6 +2218,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -2234,7 +2277,7 @@
       <caseModifier>None</caseModifier>
     </BuildingBlocks_WidgetText>
   </scene>
-  <library Type="BuildingBlocks_WidgetBase" Count="61">
+  <library Type="BuildingBlocks_WidgetBase" Count="62">
     <BuildingBlocks_ComponentGeneralButton Pointer="ptr:3" Type="BuildingBlocks_ComponentGeneralButton">
       <name>Button_Confirm</name>
       <styleTags Type="Tag" Count="0" />
@@ -2261,8 +2304,8 @@
       <parent PointsTo="ptr:7" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -2504,6 +2547,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>True</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="2">
           <BuildingBlocks_TriggerURL Type="BuildingBlocks_TriggerURL">
             <name>StateMachine.LoggedIn</name>
@@ -2554,14 +2598,22 @@
         <label>@refinery_ui_Button_Confirm</label>
         <style>Heading6</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <iconProperties Type="BuildingBlocks_ComponentIconProperties">
         <show>False</show>
         <iconPreset>ArrowHollowRight</iconPreset>
         <customIcon />
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </iconProperties>
+      <rootLayoutPolicy>Flex</rootLayoutPolicy>
       <fillStyle>Filled</fillStyle>
       <iconPosition>Right</iconPosition>
+      <imagePath />
     </BuildingBlocks_ComponentGeneralButton>
     <BuildingBlocks_ComponentGeneralDropDownMenu Type="BuildingBlocks_ComponentGeneralDropDownMenu">
       <name>DropdownMenu-ProcessingType</name>
@@ -2589,8 +2641,8 @@
       <parent PointsTo="ptr:7" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -2842,6 +2894,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -2884,7 +2937,6 @@
       <arrayVariable>refineryuidata/listOfProcessTypes</arrayVariable>
       <selectedVariable>refineryuidata/selectedProcessIndex</selectedVariable>
       <hoverVariable />
-      <keyboardNavVariable />
       <gamepadNavVariable />
       <expandedVariable>ProcessingTypesBoolean</expandedVariable>
       <nameVariable>processName</nameVariable>
@@ -2921,8 +2973,8 @@
       <parent PointsTo="ptr:8" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -3160,6 +3212,10 @@
         <autoScrollStartPause>0</autoScrollStartPause>
         <autoScrollEndPause>0</autoScrollEndPause>
         <autoScrollFadeSpeed>0</autoScrollFadeSpeed>
+        <scrollThrottleInterval>0</scrollThrottleInterval>
+        <startMoveSoundTag />
+        <stopMoveSoundTag />
+        <mouseWheelSelection>False</mouseWheelSelection>
       </scrollPolicy>
       <radialTransform Type="BuildingBlocks_RadialTransform">
         <transformMultiplier>0</transformMultiplier>
@@ -3201,6 +3257,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -3235,16 +3292,14 @@
       <arrayVariable>refineryuidata/materialList</arrayVariable>
       <selectedVariable />
       <hoverVariable />
-      <keyboardNavVariable />
       <gamepadNavVariable />
       <target PointsTo="ptr:9" />
-      <verticalKeyboardNavigation>False</verticalKeyboardNavigation>
-      <horizontalKeyboardNavigation>False</horizontalKeyboardNavigation>
+      <listNavigationType>None</listNavigationType>
       <useVirtualization>False</useVirtualization>
-      <useCulling>False</useCulling>
       <preCacheAmount>0</preCacheAmount>
+      <selectOnHighlight>True</selectOnHighlight>
     </BuildingBlocks_WidgetList>
-    <BuildingBlocks_WidgetTextField Pointer="ptr:18" Type="BuildingBlocks_WidgetTextField">
+    <BuildingBlocks_WidgetTextField Pointer="ptr:19" Type="BuildingBlocks_WidgetTextField">
       <name>JobCard-Processing-Cost</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -3270,8 +3325,8 @@
       <parent PointsTo="ptr:10" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -3513,6 +3568,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -3556,6 +3612,9 @@
         <label>@refinery_ui_WorkOrderCost</label>
         <style>Heading6</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Left</textAlignment>
       <verticalTextAlignment>Top</verticalTextAlignment>
@@ -3588,8 +3647,8 @@
       <parent />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -3866,6 +3925,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -3924,8 +3984,8 @@
       <parent PointsTo="ptr:1" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>False</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -4167,6 +4227,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -4211,6 +4272,9 @@
         <label>@LOC_PLACEHOLDER</label>
         <style>Body</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <captionProperties Type="BuildingBlocks_ComponentCaptionProperties">
         <show>False</show>
@@ -4220,7 +4284,7 @@
       </captionProperties>
       <alignment>Center</alignment>
     </BuildingBlocks_ComponentToggleButton>
-    <BuildingBlocks_WidgetTextField Pointer="ptr:36" Type="BuildingBlocks_WidgetTextField">
+    <BuildingBlocks_WidgetTextField Pointer="ptr:37" Type="BuildingBlocks_WidgetTextField">
       <name>Number-CreateJobsList-Quantity</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -4246,8 +4310,8 @@
       <parent PointsTo="ptr:11" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -4489,6 +4553,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -4532,15 +4597,20 @@
         <label>@refinery_ui_JobCard_Table_QTY</label>
         <style>Body</style>
         <caseModifier>None</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Center</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
       <colorStyleOverride />
       <fitToParent>False</fitToParent>
     </BuildingBlocks_WidgetTextField>
-    <BuildingBlocks_WidgetTextField Pointer="ptr:34" Type="BuildingBlocks_WidgetTextField">
+    <BuildingBlocks_WidgetTextField Pointer="ptr:35" Type="BuildingBlocks_WidgetTextField">
       <name>JobCard-ProcessingSelection-Materials-Name</name>
-      <styleTags Type="Tag" Count="0" />
+      <styleTags Type="Tag" Count="1">
+        <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0964d22f-3a22-4052-92e4-eaf77f975423" RecordId="0964d22f-3a22-4052-92e4-eaf77f975423" />
+      </styleTags>
       <rendererType>Flash</rendererType>
       <rendererPolicy Type="BuildingBlocks_FlashRendererPolicy">
         <useFlashRenderThreadUpdate>False</useFlashRenderThreadUpdate>
@@ -4564,13 +4634,13 @@
       <parent PointsTo="ptr:12" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
       <position Type="Vec3">
-        <x>50</x>
+        <x>0</x>
         <y>0</y>
         <z>0</z>
       </position>
@@ -4597,7 +4667,7 @@
       <sizing Type="BuildingBlocks_Size">
         <width Type="BuildingBlocks_FixedOrRelativeValue">
           <value>1</value>
-          <behavior>Percent</behavior>
+          <behavior>Auto</behavior>
         </width>
         <height Type="BuildingBlocks_FixedOrRelativeValue">
           <value>1</value>
@@ -4807,6 +4877,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -4850,6 +4921,9 @@
         <label>@refinery_ui_JobCard_Table_MaterialsSelected</label>
         <style>Heading6</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Left</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
@@ -4882,8 +4956,8 @@
       <parent PointsTo="ptr:13" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -5125,6 +5199,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -5168,13 +5243,16 @@
         <label>@refinery_ui_WorkOrderCard_Title_Setup</label>
         <style>Heading2</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Right</textAlignment>
       <verticalTextAlignment>Top</verticalTextAlignment>
       <colorStyleOverride />
       <fitToParent>False</fitToParent>
     </BuildingBlocks_WidgetTextField>
-    <BuildingBlocks_WidgetTextField Pointer="ptr:31" Type="BuildingBlocks_WidgetTextField">
+    <BuildingBlocks_WidgetTextField Pointer="ptr:32" Type="BuildingBlocks_WidgetTextField">
       <name>JobCard-JobCard</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -5200,8 +5278,8 @@
       <parent PointsTo="ptr:13" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -5443,6 +5521,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -5486,6 +5565,9 @@
         <label>@refinery_ui_WorkOrderCard</label>
         <style>Body</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Left</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
@@ -5518,8 +5600,8 @@
       <parent PointsTo="ptr:7" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -5768,6 +5850,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -5826,8 +5909,8 @@
       <parent PointsTo="ptr:14" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -6069,6 +6152,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -6127,8 +6211,8 @@
       <parent PointsTo="ptr:15" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -6370,6 +6454,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -6413,6 +6498,9 @@
         <label>@refinery_ui_JobCard_Table_Refine</label>
         <style>Body</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Center</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
@@ -6445,8 +6533,8 @@
       <parent PointsTo="ptr:16" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -6688,6 +6776,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -6743,11 +6832,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:12" />
+      <parent PointsTo="ptr:17" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -6989,6 +7078,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -7021,7 +7111,7 @@
       <enableHeldCursor>False</enableHeldCursor>
       <heldCursor>Auto</heldCursor>
     </BuildingBlocks_DisplayWidget>
-    <BuildingBlocks_DisplayWidget Pointer="ptr:12" Type="BuildingBlocks_DisplayWidget">
+    <BuildingBlocks_DisplayWidget Pointer="ptr:17" Type="BuildingBlocks_DisplayWidget">
       <name>Backdrop-JobCard-Processing-TableEntry-Material</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -7047,8 +7137,8 @@
       <parent PointsTo="ptr:9" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -7290,6 +7380,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -7348,8 +7439,8 @@
       <parent PointsTo="ptr:9" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -7591,6 +7682,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -7633,7 +7725,7 @@
       <style>Tertiary</style>
       <flip>None</flip>
     </BuildingBlocks_WidgetSeparator>
-    <BuildingBlocks_DisplayWidget Pointer="ptr:32" Type="BuildingBlocks_DisplayWidget">
+    <BuildingBlocks_DisplayWidget Pointer="ptr:33" Type="BuildingBlocks_DisplayWidget">
       <name>ProgressBars</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -7656,11 +7748,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:17" />
+      <parent PointsTo="ptr:18" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -7909,6 +8001,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -7941,7 +8034,7 @@
       <enableHeldCursor>False</enableHeldCursor>
       <heldCursor>Auto</heldCursor>
     </BuildingBlocks_DisplayWidget>
-    <BuildingBlocks_WidgetTextField Pointer="ptr:19" Type="BuildingBlocks_WidgetTextField">
+    <BuildingBlocks_WidgetTextField Pointer="ptr:20" Type="BuildingBlocks_WidgetTextField">
       <name>JobCard-Processing-Cost-Counter</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -7964,11 +8057,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:18" />
+      <parent PointsTo="ptr:19" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -8210,6 +8303,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -8253,6 +8347,9 @@
         <label>@LOC_PLACEHOLDER</label>
         <style>Heading3</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Right</textAlignment>
       <verticalTextAlignment>Top</verticalTextAlignment>
@@ -8282,11 +8379,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:19" />
+      <parent PointsTo="ptr:20" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -8528,6 +8625,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -8571,6 +8669,9 @@
         <label>@dfm_ui_param_aUEC</label>
         <style>Body</style>
         <caseModifier>None</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Right</textAlignment>
       <verticalTextAlignment>Top</verticalTextAlignment>
@@ -8603,8 +8704,8 @@
       <parent PointsTo="ptr:11" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -8846,6 +8947,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -8878,7 +8980,7 @@
       <enableHeldCursor>False</enableHeldCursor>
       <heldCursor>Auto</heldCursor>
     </BuildingBlocks_DisplayWidget>
-    <BuildingBlocks_WidgetTextField Pointer="ptr:40" Type="BuildingBlocks_WidgetTextField">
+    <BuildingBlocks_WidgetTextField Pointer="ptr:41" Type="BuildingBlocks_WidgetTextField">
       <name>Number-CreateJobsList-Yield</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -8904,8 +9006,8 @@
       <parent PointsTo="ptr:16" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -9147,6 +9249,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -9190,6 +9293,9 @@
         <label>@refinery_ui_JobCard_Table_Yield</label>
         <style>Body</style>
         <caseModifier>None</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Center</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
@@ -9219,11 +9325,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:20" />
+      <parent PointsTo="ptr:21" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -9465,6 +9571,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -9508,6 +9615,9 @@
         <label>@refinery_ui_WorkOrderCard_InManifest</label>
         <style>Body</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Left</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
@@ -9537,11 +9647,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:21" />
+      <parent PointsTo="ptr:22" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -9783,6 +9893,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -9826,13 +9937,16 @@
         <label>@refinery_ui_WorkOrderCard_ToRefine</label>
         <style>Body</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Left</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
       <colorStyleOverride />
       <fitToParent>False</fitToParent>
     </BuildingBlocks_WidgetTextField>
-    <BuildingBlocks_DisplayWidget Pointer="ptr:23" Type="BuildingBlocks_DisplayWidget">
+    <BuildingBlocks_DisplayWidget Pointer="ptr:24" Type="BuildingBlocks_DisplayWidget">
       <name>Backdrop-JobCard-RawMaterials</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -9855,11 +9969,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:22" />
+      <parent PointsTo="ptr:23" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -10108,6 +10222,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -10163,11 +10278,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:23" />
+      <parent PointsTo="ptr:24" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -10409,6 +10524,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -10452,6 +10568,9 @@
         <label>@refinery_ui_WorkOrderCard_RawMaterials</label>
         <style>Body</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Left</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
@@ -10481,11 +10600,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:23" />
+      <parent PointsTo="ptr:24" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -10727,6 +10846,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -10770,13 +10890,16 @@
         <label>@refinery_ui_JobCard_CardNum_01</label>
         <style>Heading6</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Center</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
       <colorStyleOverride />
       <fitToParent>False</fitToParent>
     </BuildingBlocks_WidgetTextField>
-    <BuildingBlocks_DisplayWidget Pointer="ptr:25" Type="BuildingBlocks_DisplayWidget">
+    <BuildingBlocks_DisplayWidget Pointer="ptr:26" Type="BuildingBlocks_DisplayWidget">
       <name>JobCard-ProcessingYieldCosts</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -10799,11 +10922,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:24" />
+      <parent PointsTo="ptr:25" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -11052,6 +11175,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -11107,11 +11231,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:25" />
+      <parent PointsTo="ptr:26" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -11353,6 +11477,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -11396,6 +11521,9 @@
         <label>@refinery_ui_WorkOrderCard_ProcessSelection</label>
         <style>Body</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Left</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
@@ -11425,11 +11553,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:25" />
+      <parent PointsTo="ptr:26" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -11671,6 +11799,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -11714,13 +11843,16 @@
         <label>@refinery_ui_JobCard_CardNum_02</label>
         <style>Heading6</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Center</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
       <colorStyleOverride />
       <fitToParent>False</fitToParent>
     </BuildingBlocks_WidgetTextField>
-    <BuildingBlocks_DisplayWidget Pointer="ptr:27" Type="BuildingBlocks_DisplayWidget">
+    <BuildingBlocks_DisplayWidget Pointer="ptr:28" Type="BuildingBlocks_DisplayWidget">
       <name>Backdrop-Processing</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -11743,11 +11875,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:26" />
+      <parent PointsTo="ptr:27" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -11996,6 +12128,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -12051,11 +12184,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:27" />
+      <parent PointsTo="ptr:28" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -12297,6 +12430,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -12340,6 +12474,9 @@
         <label>@refinery_ui_WorkOrderCard_Processing</label>
         <style>Body</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Left</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
@@ -12369,11 +12506,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:27" />
+      <parent PointsTo="ptr:28" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -12615,6 +12752,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -12658,13 +12796,16 @@
         <label>@refinery_ui_JobCard_CardNum_03</label>
         <style>Heading6</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Center</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
       <colorStyleOverride />
       <fitToParent>False</fitToParent>
     </BuildingBlocks_WidgetTextField>
-    <BuildingBlocks_WidgetTextField Pointer="ptr:28" Type="BuildingBlocks_WidgetTextField">
+    <BuildingBlocks_WidgetTextField Pointer="ptr:29" Type="BuildingBlocks_WidgetTextField">
       <name>JobCard-Processing-Duration</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -12687,11 +12828,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:17" />
+      <parent PointsTo="ptr:18" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -12933,6 +13074,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -12976,13 +13118,16 @@
         <label>@refinery_ui_ProcessingTime</label>
         <style>Heading6</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Left</textAlignment>
       <verticalTextAlignment>Bottom</verticalTextAlignment>
       <colorStyleOverride />
       <fitToParent>False</fitToParent>
     </BuildingBlocks_WidgetTextField>
-    <BuildingBlocks_WidgetTextField Pointer="ptr:52" Type="BuildingBlocks_WidgetTextField">
+    <BuildingBlocks_WidgetTextField Pointer="ptr:53" Type="BuildingBlocks_WidgetTextField">
       <name>JobCard-Processing-Duration-Counter</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -13005,11 +13150,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:28" />
+      <parent PointsTo="ptr:29" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -13251,6 +13396,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -13294,13 +13440,16 @@
         <label>@LOC_PLACEHOLDER</label>
         <style>Heading2</style>
         <caseModifier>None</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Right</textAlignment>
       <verticalTextAlignment>Top</verticalTextAlignment>
       <colorStyleOverride />
       <fitToParent>False</fitToParent>
     </BuildingBlocks_WidgetTextField>
-    <BuildingBlocks_DisplayWidget Pointer="ptr:30" Type="BuildingBlocks_DisplayWidget">
+    <BuildingBlocks_DisplayWidget Pointer="ptr:31" Type="BuildingBlocks_DisplayWidget">
       <name>Backdrop-JobCard-Processing-TableEntry-Quantity</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -13323,11 +13472,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:29" />
+      <parent PointsTo="ptr:30" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -13569,6 +13718,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -13624,11 +13774,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:30" />
+      <parent PointsTo="ptr:31" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -13870,6 +14020,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -13913,6 +14064,9 @@
         <label>@refinery_ui_JobCard_Table_QTY</label>
         <style>Body</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Center</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
@@ -13942,11 +14096,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:30" />
+      <parent PointsTo="ptr:31" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -14188,6 +14342,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -14246,8 +14401,8 @@
       <parent PointsTo="ptr:14" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -14489,6 +14644,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -14532,6 +14688,9 @@
         <label>@refinery_ui_JobCard_Table_Yield</label>
         <style>Body</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Center</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
@@ -14561,11 +14720,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:29" />
+      <parent PointsTo="ptr:30" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -14807,6 +14966,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -14850,13 +15010,16 @@
         <label>@refinery_ui_JobCard_Table_MaterialsSelected</label>
         <style>Body</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Left</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
       <colorStyleOverride />
       <fitToParent>False</fitToParent>
     </BuildingBlocks_WidgetTextField>
-    <BuildingBlocks_DisplayWidget Pointer="ptr:29" Type="BuildingBlocks_DisplayWidget">
+    <BuildingBlocks_DisplayWidget Pointer="ptr:30" Type="BuildingBlocks_DisplayWidget">
       <name>Backdrop-JobCard-Processing-TableEntry-Material</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -14882,8 +15045,8 @@
       <parent PointsTo="ptr:8" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -15125,6 +15288,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -15157,7 +15321,7 @@
       <enableHeldCursor>False</enableHeldCursor>
       <heldCursor>Auto</heldCursor>
     </BuildingBlocks_DisplayWidget>
-    <BuildingBlocks_WidgetTextField Pointer="ptr:42" Type="BuildingBlocks_WidgetTextField">
+    <BuildingBlocks_WidgetTextField Pointer="ptr:43" Type="BuildingBlocks_WidgetTextField">
       <name>JobCard-JobCardNumber</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -15180,11 +15344,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:31" />
+      <parent PointsTo="ptr:32" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -15426,6 +15590,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -15469,332 +15634,17 @@
         <label>@LOC_PLACEHOLDER</label>
         <style>Body</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Right</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
       <colorStyleOverride />
       <fitToParent>False</fitToParent>
     </BuildingBlocks_WidgetTextField>
-    <BuildingBlocks_WidgetTextField Pointer="ptr:44" Type="BuildingBlocks_WidgetTextField">
+    <BuildingBlocks_WidgetTextField Pointer="ptr:45" Type="BuildingBlocks_WidgetTextField">
       <name>OreInManifest-Amount</name>
-      <styleTags Type="Tag" Count="0" />
-      <rendererType>Flash</rendererType>
-      <rendererPolicy Type="BuildingBlocks_FlashRendererPolicy">
-        <useFlashRenderThreadUpdate>False</useFlashRenderThreadUpdate>
-        <transformFrom3D>False</transformFrom3D>
-      </rendererPolicy>
-      <primitiveSettings Type="BuildingBlocks_PrimitiveSettings">
-        <primitiveMaterialPath />
-        <UVStart Type="Vec2">
-          <x>0</x>
-          <y>0</y>
-        </UVStart>
-        <UVSize Type="Vec2">
-          <x>1</x>
-          <y>1</y>
-        </UVSize>
-        <isUValuePerPixel>False</isUValuePerPixel>
-        <isVValuePerPixel>False</isVValuePerPixel>
-        <isGrouped>True</isGrouped>
-        <visualState />
-      </primitiveSettings>
-      <parent PointsTo="ptr:20" />
-      <previewScene />
-      <previewSceneFlattened />
-      <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
-      <affectsLayout>True</affectsLayout>
-      <affectsAutosize>True</affectsAutosize>
-      <exportNode>True</exportNode>
-      <position Type="Vec3">
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </position>
-      <positionOffset Type="Vec3">
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </positionOffset>
-      <orientation Type="Deg3">
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </orientation>
-      <orientationOffset Type="Deg3">
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </orientationOffset>
-      <scale Type="Vec3">
-        <x>1</x>
-        <y>1</y>
-        <z>1</z>
-      </scale>
-      <sizing Type="BuildingBlocks_Size">
-        <width Type="BuildingBlocks_FixedOrRelativeValue">
-          <value>1</value>
-          <behavior>Percent</behavior>
-        </width>
-        <height Type="BuildingBlocks_FixedOrRelativeValue">
-          <value>1</value>
-          <behavior>Percent</behavior>
-        </height>
-        <depth Type="BuildingBlocks_FixedOrRelativeValue">
-          <value>0</value>
-          <behavior>Fixed</behavior>
-        </depth>
-        <minWidth Type="BuildingBlocks_FixedOrRelativeValue">
-          <value>0</value>
-          <behavior>Fixed</behavior>
-        </minWidth>
-        <minHeight Type="BuildingBlocks_FixedOrRelativeValue">
-          <value>0</value>
-          <behavior>Fixed</behavior>
-        </minHeight>
-        <maxWidth Type="BuildingBlocks_FixedOrRelativeValue">
-          <value>0</value>
-          <behavior>Fixed</behavior>
-        </maxWidth>
-        <maxHeight Type="BuildingBlocks_FixedOrRelativeValue">
-          <value>0</value>
-          <behavior>Fixed</behavior>
-        </maxHeight>
-        <enableMinWidth>False</enableMinWidth>
-        <enableMinHeight>False</enableMinHeight>
-        <enableMaxWidth>False</enableMaxWidth>
-        <enableMaxHeight>False</enableMaxHeight>
-      </sizing>
-      <autoScalingMethod>None</autoScalingMethod>
-      <padding Type="BuildingBlocks_TRBL">
-        <top>0</top>
-        <right>0</right>
-        <bottom>0</bottom>
-        <left>0</left>
-        <front>0</front>
-        <back>0</back>
-      </padding>
-      <margin Type="BuildingBlocks_TRBL">
-        <top>0</top>
-        <right>0</right>
-        <bottom>0</bottom>
-        <left>0</left>
-        <front>0</front>
-        <back>0</back>
-      </margin>
-      <pivot Type="Vec3">
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
-      </pivot>
-      <anchor Type="Vec3">
-        <x>0</x>
-        <y>0.2</y>
-        <z>0</z>
-      </anchor>
-      <background Type="BuildingBlocks_Background">
-        <enable>False</enable>
-        <color />
-        <topLeftColor />
-        <topRightColor />
-        <bottomLeftColor />
-        <bottomRightCColor />
-      </background>
-      <segmentedFill Type="BuildingBlocks_SegmentedFill">
-        <enable>False</enable>
-        <segmentSize Type="BuildingBlocks_FixedOrRelativeValue">
-          <value>64</value>
-          <behavior>Fixed</behavior>
-        </segmentSize>
-        <spaceSize Type="BuildingBlocks_FixedOrRelativeValue">
-          <value>64</value>
-          <behavior>Fixed</behavior>
-        </spaceSize>
-        <angle>0</angle>
-        <xOffset>0</xOffset>
-        <segmentColor />
-        <barFill>False</barFill>
-      </segmentedFill>
-      <svgFill Type="BuildingBlocks_SvgFill">
-        <svgPath />
-        <nineSliceRect Type="BuildingBlocks_TRBL">
-          <top>0.25</top>
-          <right>0.75</right>
-          <bottom>0.75</bottom>
-          <left>0.25</left>
-          <front>0</front>
-          <back>0</back>
-        </nineSliceRect>
-        <renderShape>True</renderShape>
-        <flipHorizontal>False</flipHorizontal>
-        <flipVertical>False</flipVertical>
-        <enableColorOverlay>True</enableColorOverlay>
-        <color />
-        <scalingBehavior>Contain</scalingBehavior>
-        <containPositionX>0</containPositionX>
-        <containPositionY>0</containPositionY>
-        <enableNineSliceRect>True</enableNineSliceRect>
-        <nineSliceScale>1</nineSliceScale>
-        <strokeExtent>1</strokeExtent>
-        <playhead>0</playhead>
-      </svgFill>
-      <border Type="BuildingBlocks_Border">
-        <top Type="BuildingBlocks_BorderSide">
-          <width>0</width>
-          <color />
-        </top>
-        <right Type="BuildingBlocks_BorderSide">
-          <width>0</width>
-          <color />
-        </right>
-        <bottom Type="BuildingBlocks_BorderSide">
-          <width>0</width>
-          <color />
-        </bottom>
-        <left Type="BuildingBlocks_BorderSide">
-          <width>0</width>
-          <color />
-        </left>
-        <topLeftRadius Type="BuildingBlocks_BorderRadiusCorner">
-          <radius Type="BuildingBlocks_FixedOrRelativeValue">
-            <value>0</value>
-            <behavior>Fixed</behavior>
-          </radius>
-          <chamfer>False</chamfer>
-        </topLeftRadius>
-        <topRightRadius Type="BuildingBlocks_BorderRadiusCorner">
-          <radius Type="BuildingBlocks_FixedOrRelativeValue">
-            <value>0</value>
-            <behavior>Fixed</behavior>
-          </radius>
-          <chamfer>False</chamfer>
-        </topRightRadius>
-        <bottomLeftRadius Type="BuildingBlocks_BorderRadiusCorner">
-          <radius Type="BuildingBlocks_FixedOrRelativeValue">
-            <value>0</value>
-            <behavior>Fixed</behavior>
-          </radius>
-          <chamfer>False</chamfer>
-        </bottomLeftRadius>
-        <bottomRightRadius Type="BuildingBlocks_BorderRadiusCorner">
-          <radius Type="BuildingBlocks_FixedOrRelativeValue">
-            <value>0</value>
-            <behavior>Fixed</behavior>
-          </radius>
-          <chamfer>False</chamfer>
-        </bottomRightRadius>
-      </border>
-      <layoutPolicy />
-      <layoutPolicyItem />
-      <layoutItemCommon />
-      <dropTargetPolicy />
-      <draggablePolicy />
-      <tooltipPolicy />
-      <contextMenuPolicy />
-      <grabControlsPolicy />
-      <calloutSettings />
-      <virtualCursorPolicy />
-      <overflow Type="BuildingBlocks_Overflow">
-        <overflow>Visible</overflow>
-        <widthFadeThreshold>0</widthFadeThreshold>
-        <heightFadeThreshold>0</heightFadeThreshold>
-        <depthFadeThreshold>0</depthFadeThreshold>
-        <fadeXAxis>True</fadeXAxis>
-        <fadeYAxis>True</fadeYAxis>
-        <fadeZAxis>True</fadeZAxis>
-      </overflow>
-      <scrollPolicy />
-      <radialTransform Type="BuildingBlocks_RadialTransform">
-        <transformMultiplier>0</transformMultiplier>
-        <curvatureAxis>Z</curvatureAxis>
-        <mouseTestShape>True</mouseTestShape>
-        <polyResolution>45</polyResolution>
-        <conicSlantFactor>0</conicSlantFactor>
-      </radialTransform>
-      <radialTransformChild Type="BuildingBlocks_RadialTransformChild">
-        <inheritRotation>True</inheritRotation>
-        <inheritShapeWarp>True</inheritShapeWarp>
-        <maintainGapLength>True</maintainGapLength>
-      </radialTransformChild>
-      <animation Type="BuildingBlocks_Animation">
-        <animationTimeline />
-        <dynamicStartTimeVariableName />
-        <duration>1</duration>
-        <delay>0</delay>
-        <delayRandomRange>0</delayRandomRange>
-        <direction>Forward</direction>
-        <fillMode>None</fillMode>
-        <iterationCount>1</iterationCount>
-        <loopIndefinitely>False</loopIndefinitely>
-        <timeSync>False</timeSync>
-        <additive>True</additive>
-        <timescaleIndependent>False</timescaleIndependent>
-      </animation>
-      <interactions Type="BuildingBlocks_Interactions">
-        <canInteract>False</canInteract>
-        <disabled>False</disabled>
-        <selected>False</selected>
-        <collideLeftClick>True</collideLeftClick>
-        <collideRightClick>True</collideRightClick>
-        <collideMouseWheel>False</collideMouseWheel>
-        <hitDetectionOffset>1</hitDetectionOffset>
-        <propagateInteractionStates>False</propagateInteractionStates>
-        <inheritHoverState>False</inheritHoverState>
-        <inheritDownState>False</inheritDownState>
-        <inheritSelectedState>False</inheritSelectedState>
-        <inheritDisabledState>False</inheritDisabledState>
-        <blocksCursor>False</blocksCursor>
-        <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
-        <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
-        <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
-        <onRollOver Type="BuildingBlocks_TriggerBase" Count="0" />
-        <onRollOff Type="BuildingBlocks_TriggerBase" Count="0" />
-        <boundRestrictionShape />
-        <twoVariablePicker />
-        <buttonDownSoundTag />
-        <rightButtonDownSoundTag />
-        <leftClickSoundTag />
-        <rightClickSoundTag />
-        <leftDoubleClickSoundTag />
-        <rollOverSoundTag />
-        <rollOffSoundTag />
-        <movementStartSoundTag />
-        <movementStopSoundTag />
-        <movementStopDelayMs>80</movementStopDelayMs>
-      </interactions>
-      <inheritsScale>True</inheritsScale>
-      <inheritsRotation>True</inheritsRotation>
-      <inheritsTranslation>True</inheritsTranslation>
-      <inheritsAlpha>False</inheritsAlpha>
-      <inheritsOverflow>False</inheritsOverflow>
-      <alpha>1</alpha>
-      <layer>3</layer>
-      <aspectRatioLibrary />
-      <focusIndex>-1</focusIndex>
-      <inlineStyles Type="BuildingBlocks_StyleEntry" Count="0" />
-      <hoverCursor>Auto</hoverCursor>
-      <enableHeldCursor>False</enableHeldCursor>
-      <heldCursor>Auto</heldCursor>
-      <instantiated>True</instantiated>
-      <urlOptional />
-      <urlPostfix />
-      <stylesheetOverride />
-      <canvas />
-      <sizingMethod>Size</sizingMethod>
-      <paramInputValues Type="BuildingBlocks_ComponentParameterInputBase" Count="0" />
-      <labelProperties Type="BuildingBlocks_ComponentLabelProperties">
-        <show>True</show>
-        <label>@LOC_PLACEHOLDER</label>
-        <style>Heading4</style>
-        <caseModifier>None</caseModifier>
-      </labelProperties>
-      <textAlignment>Center</textAlignment>
-      <verticalTextAlignment>Center</verticalTextAlignment>
-      <colorStyleOverride />
-      <fitToParent>False</fitToParent>
-    </BuildingBlocks_WidgetTextField>
-    <BuildingBlocks_WidgetTextField Pointer="ptr:46" Type="BuildingBlocks_WidgetTextField">
-      <name>OreToRefine-Amount</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
       <rendererPolicy Type="BuildingBlocks_FlashRendererPolicy">
@@ -15819,8 +15669,8 @@
       <parent PointsTo="ptr:21" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -16062,6 +15912,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -16105,13 +15956,338 @@
         <label>@LOC_PLACEHOLDER</label>
         <style>Heading4</style>
         <caseModifier>None</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Center</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
       <colorStyleOverride />
       <fitToParent>False</fitToParent>
     </BuildingBlocks_WidgetTextField>
-    <BuildingBlocks_ComponentGeneralButton Pointer="ptr:58" Type="BuildingBlocks_ComponentGeneralButton">
+    <BuildingBlocks_WidgetTextField Pointer="ptr:47" Type="BuildingBlocks_WidgetTextField">
+      <name>OreToRefine-Amount</name>
+      <styleTags Type="Tag" Count="0" />
+      <rendererType>Flash</rendererType>
+      <rendererPolicy Type="BuildingBlocks_FlashRendererPolicy">
+        <useFlashRenderThreadUpdate>False</useFlashRenderThreadUpdate>
+        <transformFrom3D>False</transformFrom3D>
+      </rendererPolicy>
+      <primitiveSettings Type="BuildingBlocks_PrimitiveSettings">
+        <primitiveMaterialPath />
+        <UVStart Type="Vec2">
+          <x>0</x>
+          <y>0</y>
+        </UVStart>
+        <UVSize Type="Vec2">
+          <x>1</x>
+          <y>1</y>
+        </UVSize>
+        <isUValuePerPixel>False</isUValuePerPixel>
+        <isVValuePerPixel>False</isVValuePerPixel>
+        <isGrouped>True</isGrouped>
+        <visualState />
+      </primitiveSettings>
+      <parent PointsTo="ptr:22" />
+      <previewScene />
+      <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
+      <isActive>True</isActive>
+      <affectsLayout>True</affectsLayout>
+      <affectsAutosize>True</affectsAutosize>
+      <exportNode>True</exportNode>
+      <position Type="Vec3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </position>
+      <positionOffset Type="Vec3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </positionOffset>
+      <orientation Type="Deg3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </orientation>
+      <orientationOffset Type="Deg3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </orientationOffset>
+      <scale Type="Vec3">
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+      </scale>
+      <sizing Type="BuildingBlocks_Size">
+        <width Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>1</value>
+          <behavior>Percent</behavior>
+        </width>
+        <height Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>1</value>
+          <behavior>Percent</behavior>
+        </height>
+        <depth Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>0</value>
+          <behavior>Fixed</behavior>
+        </depth>
+        <minWidth Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>0</value>
+          <behavior>Fixed</behavior>
+        </minWidth>
+        <minHeight Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>0</value>
+          <behavior>Fixed</behavior>
+        </minHeight>
+        <maxWidth Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>0</value>
+          <behavior>Fixed</behavior>
+        </maxWidth>
+        <maxHeight Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>0</value>
+          <behavior>Fixed</behavior>
+        </maxHeight>
+        <enableMinWidth>False</enableMinWidth>
+        <enableMinHeight>False</enableMinHeight>
+        <enableMaxWidth>False</enableMaxWidth>
+        <enableMaxHeight>False</enableMaxHeight>
+      </sizing>
+      <autoScalingMethod>None</autoScalingMethod>
+      <padding Type="BuildingBlocks_TRBL">
+        <top>0</top>
+        <right>0</right>
+        <bottom>0</bottom>
+        <left>0</left>
+        <front>0</front>
+        <back>0</back>
+      </padding>
+      <margin Type="BuildingBlocks_TRBL">
+        <top>0</top>
+        <right>0</right>
+        <bottom>0</bottom>
+        <left>0</left>
+        <front>0</front>
+        <back>0</back>
+      </margin>
+      <pivot Type="Vec3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </pivot>
+      <anchor Type="Vec3">
+        <x>0</x>
+        <y>0.2</y>
+        <z>0</z>
+      </anchor>
+      <background Type="BuildingBlocks_Background">
+        <enable>False</enable>
+        <color />
+        <topLeftColor />
+        <topRightColor />
+        <bottomLeftColor />
+        <bottomRightCColor />
+      </background>
+      <segmentedFill Type="BuildingBlocks_SegmentedFill">
+        <enable>False</enable>
+        <segmentSize Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>64</value>
+          <behavior>Fixed</behavior>
+        </segmentSize>
+        <spaceSize Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>64</value>
+          <behavior>Fixed</behavior>
+        </spaceSize>
+        <angle>0</angle>
+        <xOffset>0</xOffset>
+        <segmentColor />
+        <barFill>False</barFill>
+      </segmentedFill>
+      <svgFill Type="BuildingBlocks_SvgFill">
+        <svgPath />
+        <nineSliceRect Type="BuildingBlocks_TRBL">
+          <top>0.25</top>
+          <right>0.75</right>
+          <bottom>0.75</bottom>
+          <left>0.25</left>
+          <front>0</front>
+          <back>0</back>
+        </nineSliceRect>
+        <renderShape>True</renderShape>
+        <flipHorizontal>False</flipHorizontal>
+        <flipVertical>False</flipVertical>
+        <enableColorOverlay>True</enableColorOverlay>
+        <color />
+        <scalingBehavior>Contain</scalingBehavior>
+        <containPositionX>0</containPositionX>
+        <containPositionY>0</containPositionY>
+        <enableNineSliceRect>True</enableNineSliceRect>
+        <nineSliceScale>1</nineSliceScale>
+        <strokeExtent>1</strokeExtent>
+        <playhead>0</playhead>
+      </svgFill>
+      <border Type="BuildingBlocks_Border">
+        <top Type="BuildingBlocks_BorderSide">
+          <width>0</width>
+          <color />
+        </top>
+        <right Type="BuildingBlocks_BorderSide">
+          <width>0</width>
+          <color />
+        </right>
+        <bottom Type="BuildingBlocks_BorderSide">
+          <width>0</width>
+          <color />
+        </bottom>
+        <left Type="BuildingBlocks_BorderSide">
+          <width>0</width>
+          <color />
+        </left>
+        <topLeftRadius Type="BuildingBlocks_BorderRadiusCorner">
+          <radius Type="BuildingBlocks_FixedOrRelativeValue">
+            <value>0</value>
+            <behavior>Fixed</behavior>
+          </radius>
+          <chamfer>False</chamfer>
+        </topLeftRadius>
+        <topRightRadius Type="BuildingBlocks_BorderRadiusCorner">
+          <radius Type="BuildingBlocks_FixedOrRelativeValue">
+            <value>0</value>
+            <behavior>Fixed</behavior>
+          </radius>
+          <chamfer>False</chamfer>
+        </topRightRadius>
+        <bottomLeftRadius Type="BuildingBlocks_BorderRadiusCorner">
+          <radius Type="BuildingBlocks_FixedOrRelativeValue">
+            <value>0</value>
+            <behavior>Fixed</behavior>
+          </radius>
+          <chamfer>False</chamfer>
+        </bottomLeftRadius>
+        <bottomRightRadius Type="BuildingBlocks_BorderRadiusCorner">
+          <radius Type="BuildingBlocks_FixedOrRelativeValue">
+            <value>0</value>
+            <behavior>Fixed</behavior>
+          </radius>
+          <chamfer>False</chamfer>
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy />
+      <layoutPolicyItem />
+      <layoutItemCommon />
+      <dropTargetPolicy />
+      <draggablePolicy />
+      <tooltipPolicy />
+      <contextMenuPolicy />
+      <grabControlsPolicy />
+      <calloutSettings />
+      <virtualCursorPolicy />
+      <overflow Type="BuildingBlocks_Overflow">
+        <overflow>Visible</overflow>
+        <widthFadeThreshold>0</widthFadeThreshold>
+        <heightFadeThreshold>0</heightFadeThreshold>
+        <depthFadeThreshold>0</depthFadeThreshold>
+        <fadeXAxis>True</fadeXAxis>
+        <fadeYAxis>True</fadeYAxis>
+        <fadeZAxis>True</fadeZAxis>
+      </overflow>
+      <scrollPolicy />
+      <radialTransform Type="BuildingBlocks_RadialTransform">
+        <transformMultiplier>0</transformMultiplier>
+        <curvatureAxis>Z</curvatureAxis>
+        <mouseTestShape>True</mouseTestShape>
+        <polyResolution>45</polyResolution>
+        <conicSlantFactor>0</conicSlantFactor>
+      </radialTransform>
+      <radialTransformChild Type="BuildingBlocks_RadialTransformChild">
+        <inheritRotation>True</inheritRotation>
+        <inheritShapeWarp>True</inheritShapeWarp>
+        <maintainGapLength>True</maintainGapLength>
+      </radialTransformChild>
+      <animation Type="BuildingBlocks_Animation">
+        <animationTimeline />
+        <dynamicStartTimeVariableName />
+        <duration>1</duration>
+        <delay>0</delay>
+        <delayRandomRange>0</delayRandomRange>
+        <direction>Forward</direction>
+        <fillMode>None</fillMode>
+        <iterationCount>1</iterationCount>
+        <loopIndefinitely>False</loopIndefinitely>
+        <timeSync>False</timeSync>
+        <additive>True</additive>
+        <timescaleIndependent>False</timescaleIndependent>
+      </animation>
+      <interactions Type="BuildingBlocks_Interactions">
+        <canInteract>False</canInteract>
+        <disabled>False</disabled>
+        <selected>False</selected>
+        <collideLeftClick>True</collideLeftClick>
+        <collideRightClick>True</collideRightClick>
+        <collideMouseWheel>False</collideMouseWheel>
+        <hitDetectionOffset>1</hitDetectionOffset>
+        <propagateInteractionStates>False</propagateInteractionStates>
+        <inheritHoverState>False</inheritHoverState>
+        <inheritDownState>False</inheritDownState>
+        <inheritSelectedState>False</inheritSelectedState>
+        <inheritDisabledState>False</inheritDisabledState>
+        <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
+        <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
+        <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
+        <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
+        <onRollOver Type="BuildingBlocks_TriggerBase" Count="0" />
+        <onRollOff Type="BuildingBlocks_TriggerBase" Count="0" />
+        <boundRestrictionShape />
+        <twoVariablePicker />
+        <buttonDownSoundTag />
+        <rightButtonDownSoundTag />
+        <leftClickSoundTag />
+        <rightClickSoundTag />
+        <leftDoubleClickSoundTag />
+        <rollOverSoundTag />
+        <rollOffSoundTag />
+        <movementStartSoundTag />
+        <movementStopSoundTag />
+        <movementStopDelayMs>80</movementStopDelayMs>
+      </interactions>
+      <inheritsScale>True</inheritsScale>
+      <inheritsRotation>True</inheritsRotation>
+      <inheritsTranslation>True</inheritsTranslation>
+      <inheritsAlpha>False</inheritsAlpha>
+      <inheritsOverflow>False</inheritsOverflow>
+      <alpha>1</alpha>
+      <layer>3</layer>
+      <aspectRatioLibrary />
+      <focusIndex>-1</focusIndex>
+      <inlineStyles Type="BuildingBlocks_StyleEntry" Count="0" />
+      <hoverCursor>Auto</hoverCursor>
+      <enableHeldCursor>False</enableHeldCursor>
+      <heldCursor>Auto</heldCursor>
+      <instantiated>True</instantiated>
+      <urlOptional />
+      <urlPostfix />
+      <stylesheetOverride />
+      <canvas />
+      <sizingMethod>Size</sizingMethod>
+      <paramInputValues Type="BuildingBlocks_ComponentParameterInputBase" Count="0" />
+      <labelProperties Type="BuildingBlocks_ComponentLabelProperties">
+        <show>True</show>
+        <label>@LOC_PLACEHOLDER</label>
+        <style>Heading4</style>
+        <caseModifier>None</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
+      </labelProperties>
+      <textAlignment>Center</textAlignment>
+      <verticalTextAlignment>Center</verticalTextAlignment>
+      <colorStyleOverride />
+      <fitToParent>False</fitToParent>
+    </BuildingBlocks_WidgetTextField>
+    <BuildingBlocks_ComponentGeneralButton Pointer="ptr:59" Type="BuildingBlocks_ComponentGeneralButton">
       <name>Button_GetQuote</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -16137,8 +16313,8 @@
       <parent PointsTo="ptr:7" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -16380,6 +16556,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>True</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="1">
           <BuildingBlocks_TriggerURL Type="BuildingBlocks_TriggerURL">
             <name>/getJobQuoteTrigger</name>
@@ -16427,14 +16604,22 @@
         <label>@refinery_ui_getQuote</label>
         <style>Heading6</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <iconProperties Type="BuildingBlocks_ComponentIconProperties">
         <show>False</show>
         <iconPreset>ArrowHollowRight</iconPreset>
         <customIcon />
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </iconProperties>
+      <rootLayoutPolicy>Flex</rootLayoutPolicy>
       <fillStyle>Filled</fillStyle>
       <iconPosition>Right</iconPosition>
+      <imagePath />
     </BuildingBlocks_ComponentGeneralButton>
     <BuildingBlocks_WidgetImage Type="BuildingBlocks_WidgetImage">
       <name>JobCard-ProcessingSelection-TableEntry-Icon</name>
@@ -16462,8 +16647,8 @@
       <parent PointsTo="ptr:9" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -16705,6 +16890,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -16774,8 +16960,8 @@
       <parent PointsTo="ptr:7" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -17017,6 +17203,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -17049,7 +17236,7 @@
       <enableHeldCursor>False</enableHeldCursor>
       <heldCursor>Auto</heldCursor>
     </BuildingBlocks_DisplayWidget>
-    <BuildingBlocks_DisplayWidget Pointer="ptr:17" Type="BuildingBlocks_DisplayWidget">
+    <BuildingBlocks_DisplayWidget Pointer="ptr:18" Type="BuildingBlocks_DisplayWidget">
       <name>Anchor-ProcessingTime</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -17072,11 +17259,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:26" />
+      <parent PointsTo="ptr:27" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -17325,6 +17512,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -17357,7 +17545,7 @@
       <enableHeldCursor>False</enableHeldCursor>
       <heldCursor>Auto</heldCursor>
     </BuildingBlocks_DisplayWidget>
-    <BuildingBlocks_WidgetCustomShape Pointer="ptr:22" Type="BuildingBlocks_WidgetCustomShape">
+    <BuildingBlocks_WidgetCustomShape Pointer="ptr:23" Type="BuildingBlocks_WidgetCustomShape">
       <name>CustomShape-Separator</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -17383,8 +17571,8 @@
       <parent PointsTo="ptr:7" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -17626,6 +17814,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -17679,7 +17868,7 @@
       <strokeExtent>1</strokeExtent>
       <playhead>0</playhead>
     </BuildingBlocks_WidgetCustomShape>
-    <BuildingBlocks_WidgetCustomShape Pointer="ptr:24" Type="BuildingBlocks_WidgetCustomShape">
+    <BuildingBlocks_WidgetCustomShape Pointer="ptr:25" Type="BuildingBlocks_WidgetCustomShape">
       <name>CustomShape-Separator</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -17705,8 +17894,8 @@
       <parent PointsTo="ptr:7" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -17948,6 +18137,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -18027,8 +18217,8 @@
       <parent PointsTo="ptr:7" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -18270,6 +18460,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -18323,7 +18514,7 @@
       <strokeExtent>1</strokeExtent>
       <playhead>0</playhead>
     </BuildingBlocks_WidgetCustomShape>
-    <BuildingBlocks_WidgetCustomShape Pointer="ptr:26" Type="BuildingBlocks_WidgetCustomShape">
+    <BuildingBlocks_WidgetCustomShape Pointer="ptr:27" Type="BuildingBlocks_WidgetCustomShape">
       <name>CustomShape-Separator</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -18349,8 +18540,8 @@
       <parent PointsTo="ptr:10" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -18592,6 +18783,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -18668,11 +18860,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:32" />
+      <parent PointsTo="ptr:33" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -18914,6 +19106,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -18967,7 +19160,7 @@
       <strokeExtent>1</strokeExtent>
       <playhead>0</playhead>
     </BuildingBlocks_WidgetCustomShape>
-    <BuildingBlocks_WidgetCustomShape Pointer="ptr:20" Type="BuildingBlocks_WidgetCustomShape">
+    <BuildingBlocks_WidgetCustomShape Pointer="ptr:21" Type="BuildingBlocks_WidgetCustomShape">
       <name>CustomShape-Border</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -18993,8 +19186,8 @@
       <parent PointsTo="ptr:7" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -19236,6 +19429,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -19289,7 +19483,7 @@
       <strokeExtent>1</strokeExtent>
       <playhead>0</playhead>
     </BuildingBlocks_WidgetCustomShape>
-    <BuildingBlocks_WidgetCustomShape Pointer="ptr:21" Type="BuildingBlocks_WidgetCustomShape">
+    <BuildingBlocks_WidgetCustomShape Pointer="ptr:22" Type="BuildingBlocks_WidgetCustomShape">
       <name>CustomShape-Border</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -19312,11 +19506,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:20" />
+      <parent PointsTo="ptr:21" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -19558,6 +19752,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -19637,8 +19832,8 @@
       <parent PointsTo="ptr:7" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -19880,6 +20075,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -19930,7 +20126,7 @@
       <containPositionX>0</containPositionX>
       <containPositionY>0</containPositionY>
     </BuildingBlocks_WidgetImage>
-    <BuildingBlocks_ComponentGeneralButtonSecondary Pointer="ptr:96" Type="BuildingBlocks_ComponentGeneralButtonSecondary">
+    <BuildingBlocks_ComponentGeneralButtonSecondary Pointer="ptr:97" Type="BuildingBlocks_ComponentGeneralButtonSecondary">
       <name>Button_cancel_new</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -19956,8 +20152,8 @@
       <parent PointsTo="ptr:7" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -20199,6 +20395,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>True</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="1">
           <BuildingBlocks_TriggerURL Type="BuildingBlocks_TriggerURL">
             <name>/StateMachine.Dialog.Close</name>
@@ -20246,16 +20443,24 @@
         <label>@shop_ui_RefineryTerminal_Button_Cancel</label>
         <style>Heading6</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <iconProperties Type="BuildingBlocks_ComponentIconProperties">
         <show>False</show>
         <iconPreset>ArrowHollowRight</iconPreset>
         <customIcon />
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </iconProperties>
+      <rootLayoutPolicy>Flex</rootLayoutPolicy>
       <fillStyle>Ghost</fillStyle>
       <iconPosition>Left</iconPosition>
+      <imagePath />
     </BuildingBlocks_ComponentGeneralButtonSecondary>
-    <BuildingBlocks_WidgetTextField Pointer="ptr:83" Type="BuildingBlocks_WidgetTextField">
+    <BuildingBlocks_WidgetTextField Pointer="ptr:84" Type="BuildingBlocks_WidgetTextField">
       <name>ProcessingTypeBlurb</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -20278,11 +20483,11 @@
         <isGrouped>True</isGrouped>
         <visualState />
       </primitiveSettings>
-      <parent PointsTo="ptr:33" />
+      <parent PointsTo="ptr:34" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -20524,6 +20729,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -20567,13 +20773,16 @@
         <label>@refinery_ui_ProcessingType_NormalWasteful_Details</label>
         <style>Body</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Center</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
       <colorStyleOverride />
       <fitToParent>False</fitToParent>
     </BuildingBlocks_WidgetTextField>
-    <BuildingBlocks_DisplayWidget Pointer="ptr:33" Type="BuildingBlocks_DisplayWidget">
+    <BuildingBlocks_DisplayWidget Pointer="ptr:34" Type="BuildingBlocks_DisplayWidget">
       <name>ProcessingTypeBlurb-Anchor</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -20599,8 +20808,8 @@
       <parent PointsTo="ptr:7" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -20842,6 +21051,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -20874,7 +21084,7 @@
       <enableHeldCursor>False</enableHeldCursor>
       <heldCursor>Auto</heldCursor>
     </BuildingBlocks_DisplayWidget>
-    <BuildingBlocks_WidgetCanvas Pointer="ptr:93" Type="BuildingBlocks_WidgetCanvas">
+    <BuildingBlocks_WidgetCanvas Pointer="ptr:94" Type="BuildingBlocks_WidgetCanvas">
       <name>WarningDialog</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -20900,8 +21110,8 @@
       <parent PointsTo="ptr:7" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>False</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>False</affectsLayout>
       <affectsAutosize>False</affectsAutosize>
       <exportNode>True</exportNode>
@@ -21143,6 +21353,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -21208,8 +21419,8 @@
       <parent PointsTo="ptr:7" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>False</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -21451,6 +21662,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>True</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="1">
           <BuildingBlocks_TriggerURL Type="BuildingBlocks_TriggerURL">
             <name>openDiscardWarningTrigger</name>
@@ -21498,18 +21710,344 @@
         <label>@refinery_ui_Button_Confirm</label>
         <style>Heading6</style>
         <caseModifier>Upper</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <iconProperties Type="BuildingBlocks_ComponentIconProperties">
         <show>False</show>
         <iconPreset>ArrowHollowRight</iconPreset>
         <customIcon />
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </iconProperties>
+      <rootLayoutPolicy>Flex</rootLayoutPolicy>
       <fillStyle>Filled</fillStyle>
       <iconPosition>Right</iconPosition>
+      <imagePath />
     </BuildingBlocks_ComponentGeneralButton>
+    <BuildingBlocks_DisplayWidget Pointer="ptr:12" Type="BuildingBlocks_DisplayWidget">
+      <name>JobCard-Processing-Materials-Name-Layout</name>
+      <styleTags Type="Tag" Count="0" />
+      <rendererType>Flash</rendererType>
+      <rendererPolicy Type="BuildingBlocks_FlashRendererPolicy">
+        <useFlashRenderThreadUpdate>False</useFlashRenderThreadUpdate>
+        <transformFrom3D>False</transformFrom3D>
+      </rendererPolicy>
+      <primitiveSettings Type="BuildingBlocks_PrimitiveSettings">
+        <primitiveMaterialPath />
+        <UVStart Type="Vec2">
+          <x>0</x>
+          <y>0</y>
+        </UVStart>
+        <UVSize Type="Vec2">
+          <x>1</x>
+          <y>1</y>
+        </UVSize>
+        <isUValuePerPixel>False</isUValuePerPixel>
+        <isVValuePerPixel>False</isVValuePerPixel>
+        <isGrouped>True</isGrouped>
+        <visualState />
+      </primitiveSettings>
+      <parent PointsTo="ptr:17" />
+      <previewScene />
+      <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
+      <isActive>True</isActive>
+      <affectsLayout>True</affectsLayout>
+      <affectsAutosize>True</affectsAutosize>
+      <exportNode>True</exportNode>
+      <position Type="Vec3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </position>
+      <positionOffset Type="Vec3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </positionOffset>
+      <orientation Type="Deg3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </orientation>
+      <orientationOffset Type="Deg3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </orientationOffset>
+      <scale Type="Vec3">
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
+      </scale>
+      <sizing Type="BuildingBlocks_Size">
+        <width Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>0.85</value>
+          <behavior>Percent</behavior>
+        </width>
+        <height Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>1</value>
+          <behavior>Percent</behavior>
+        </height>
+        <depth Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>0</value>
+          <behavior>Fixed</behavior>
+        </depth>
+        <minWidth Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>0</value>
+          <behavior>Fixed</behavior>
+        </minWidth>
+        <minHeight Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>0</value>
+          <behavior>Fixed</behavior>
+        </minHeight>
+        <maxWidth Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>0</value>
+          <behavior>Fixed</behavior>
+        </maxWidth>
+        <maxHeight Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>0</value>
+          <behavior>Fixed</behavior>
+        </maxHeight>
+        <enableMinWidth>False</enableMinWidth>
+        <enableMinHeight>False</enableMinHeight>
+        <enableMaxWidth>False</enableMaxWidth>
+        <enableMaxHeight>False</enableMaxHeight>
+      </sizing>
+      <autoScalingMethod>None</autoScalingMethod>
+      <padding Type="BuildingBlocks_TRBL">
+        <top>0</top>
+        <right>0</right>
+        <bottom>0</bottom>
+        <left>0</left>
+        <front>0</front>
+        <back>0</back>
+      </padding>
+      <margin Type="BuildingBlocks_TRBL">
+        <top>0</top>
+        <right>0</right>
+        <bottom>0</bottom>
+        <left>0</left>
+        <front>0</front>
+        <back>0</back>
+      </margin>
+      <pivot Type="Vec3">
+        <x>0</x>
+        <y>0</y>
+        <z>0</z>
+      </pivot>
+      <anchor Type="Vec3">
+        <x>0.15</x>
+        <y>0</y>
+        <z>0</z>
+      </anchor>
+      <background Type="BuildingBlocks_Background">
+        <enable>False</enable>
+        <color />
+        <topLeftColor />
+        <topRightColor />
+        <bottomLeftColor />
+        <bottomRightCColor />
+      </background>
+      <segmentedFill Type="BuildingBlocks_SegmentedFill">
+        <enable>False</enable>
+        <segmentSize Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>64</value>
+          <behavior>Fixed</behavior>
+        </segmentSize>
+        <spaceSize Type="BuildingBlocks_FixedOrRelativeValue">
+          <value>64</value>
+          <behavior>Fixed</behavior>
+        </spaceSize>
+        <angle>0</angle>
+        <xOffset>0</xOffset>
+        <segmentColor />
+        <barFill>False</barFill>
+      </segmentedFill>
+      <svgFill Type="BuildingBlocks_SvgFill">
+        <svgPath />
+        <nineSliceRect Type="BuildingBlocks_TRBL">
+          <top>0.25</top>
+          <right>0.75</right>
+          <bottom>0.75</bottom>
+          <left>0.25</left>
+          <front>0</front>
+          <back>0</back>
+        </nineSliceRect>
+        <renderShape>True</renderShape>
+        <flipHorizontal>False</flipHorizontal>
+        <flipVertical>False</flipVertical>
+        <enableColorOverlay>True</enableColorOverlay>
+        <color />
+        <scalingBehavior>Contain</scalingBehavior>
+        <containPositionX>0</containPositionX>
+        <containPositionY>0</containPositionY>
+        <enableNineSliceRect>True</enableNineSliceRect>
+        <nineSliceScale>1</nineSliceScale>
+        <strokeExtent>1</strokeExtent>
+        <playhead>0</playhead>
+      </svgFill>
+      <border Type="BuildingBlocks_Border">
+        <top Type="BuildingBlocks_BorderSide">
+          <width>0</width>
+          <color />
+        </top>
+        <right Type="BuildingBlocks_BorderSide">
+          <width>0</width>
+          <color />
+        </right>
+        <bottom Type="BuildingBlocks_BorderSide">
+          <width>0</width>
+          <color />
+        </bottom>
+        <left Type="BuildingBlocks_BorderSide">
+          <width>0</width>
+          <color />
+        </left>
+        <topLeftRadius Type="BuildingBlocks_BorderRadiusCorner">
+          <radius Type="BuildingBlocks_FixedOrRelativeValue">
+            <value>0</value>
+            <behavior>Fixed</behavior>
+          </radius>
+          <chamfer>False</chamfer>
+        </topLeftRadius>
+        <topRightRadius Type="BuildingBlocks_BorderRadiusCorner">
+          <radius Type="BuildingBlocks_FixedOrRelativeValue">
+            <value>0</value>
+            <behavior>Fixed</behavior>
+          </radius>
+          <chamfer>False</chamfer>
+        </topRightRadius>
+        <bottomLeftRadius Type="BuildingBlocks_BorderRadiusCorner">
+          <radius Type="BuildingBlocks_FixedOrRelativeValue">
+            <value>0</value>
+            <behavior>Fixed</behavior>
+          </radius>
+          <chamfer>False</chamfer>
+        </bottomLeftRadius>
+        <bottomRightRadius Type="BuildingBlocks_BorderRadiusCorner">
+          <radius Type="BuildingBlocks_FixedOrRelativeValue">
+            <value>0</value>
+            <behavior>Fixed</behavior>
+          </radius>
+          <chamfer>False</chamfer>
+        </bottomRightRadius>
+      </border>
+      <layoutPolicy />
+      <layoutPolicyItem />
+      <layoutItemCommon />
+      <dropTargetPolicy />
+      <draggablePolicy />
+      <tooltipPolicy />
+      <contextMenuPolicy />
+      <grabControlsPolicy />
+      <calloutSettings />
+      <virtualCursorPolicy />
+      <overflow Type="BuildingBlocks_Overflow">
+        <overflow>Clip</overflow>
+        <widthFadeThreshold>0</widthFadeThreshold>
+        <heightFadeThreshold>0</heightFadeThreshold>
+        <depthFadeThreshold>0</depthFadeThreshold>
+        <fadeXAxis>True</fadeXAxis>
+        <fadeYAxis>True</fadeYAxis>
+        <fadeZAxis>True</fadeZAxis>
+      </overflow>
+      <scrollPolicy Type="BuildingBlocks_UnidirectionalScroller">
+        <scrollBehavior>Item</scrollBehavior>
+        <scrollDirection>Horizontal</scrollDirection>
+        <scrollPixelIncrement>100</scrollPixelIncrement>
+        <scrollEasingTime>0.2</scrollEasingTime>
+        <scrollEasingType>EaseInCubic</scrollEasingType>
+        <autoScroll>True</autoScroll>
+        <autoScrollBehavior>Bounce</autoScrollBehavior>
+        <autoScrollSpeed>0.25</autoScrollSpeed>
+        <autoScrollStartPause>3</autoScrollStartPause>
+        <autoScrollEndPause>3</autoScrollEndPause>
+        <autoScrollFadeSpeed>0</autoScrollFadeSpeed>
+        <scrollThrottleInterval>0</scrollThrottleInterval>
+        <startMoveSoundTag />
+        <stopMoveSoundTag />
+        <mouseWheelSelection>False</mouseWheelSelection>
+      </scrollPolicy>
+      <radialTransform Type="BuildingBlocks_RadialTransform">
+        <transformMultiplier>0</transformMultiplier>
+        <curvatureAxis>Z</curvatureAxis>
+        <mouseTestShape>True</mouseTestShape>
+        <polyResolution>45</polyResolution>
+        <conicSlantFactor>0</conicSlantFactor>
+      </radialTransform>
+      <radialTransformChild Type="BuildingBlocks_RadialTransformChild">
+        <inheritRotation>True</inheritRotation>
+        <inheritShapeWarp>True</inheritShapeWarp>
+        <maintainGapLength>True</maintainGapLength>
+      </radialTransformChild>
+      <animation Type="BuildingBlocks_Animation">
+        <animationTimeline />
+        <dynamicStartTimeVariableName />
+        <duration>1</duration>
+        <delay>0</delay>
+        <delayRandomRange>0</delayRandomRange>
+        <direction>Forward</direction>
+        <fillMode>None</fillMode>
+        <iterationCount>1</iterationCount>
+        <loopIndefinitely>False</loopIndefinitely>
+        <timeSync>True</timeSync>
+        <additive>True</additive>
+        <timescaleIndependent>False</timescaleIndependent>
+      </animation>
+      <interactions Type="BuildingBlocks_Interactions">
+        <canInteract>False</canInteract>
+        <disabled>False</disabled>
+        <selected>False</selected>
+        <collideLeftClick>True</collideLeftClick>
+        <collideRightClick>True</collideRightClick>
+        <collideMouseWheel>False</collideMouseWheel>
+        <hitDetectionOffset>1</hitDetectionOffset>
+        <propagateInteractionStates>False</propagateInteractionStates>
+        <inheritHoverState>False</inheritHoverState>
+        <inheritDownState>False</inheritDownState>
+        <inheritSelectedState>False</inheritSelectedState>
+        <inheritDisabledState>False</inheritDisabledState>
+        <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
+        <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
+        <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
+        <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
+        <onRollOver Type="BuildingBlocks_TriggerBase" Count="0" />
+        <onRollOff Type="BuildingBlocks_TriggerBase" Count="0" />
+        <boundRestrictionShape />
+        <twoVariablePicker />
+        <buttonDownSoundTag />
+        <rightButtonDownSoundTag />
+        <leftClickSoundTag />
+        <rightClickSoundTag />
+        <leftDoubleClickSoundTag />
+        <rollOverSoundTag />
+        <rollOffSoundTag />
+        <movementStartSoundTag />
+        <movementStopSoundTag />
+        <movementStopDelayMs>80</movementStopDelayMs>
+      </interactions>
+      <inheritsScale>True</inheritsScale>
+      <inheritsRotation>True</inheritsRotation>
+      <inheritsTranslation>True</inheritsTranslation>
+      <inheritsAlpha>True</inheritsAlpha>
+      <inheritsOverflow>False</inheritsOverflow>
+      <alpha>1</alpha>
+      <layer>5</layer>
+      <aspectRatioLibrary />
+      <focusIndex>-1</focusIndex>
+      <inlineStyles Type="BuildingBlocks_StyleEntry" Count="0" />
+      <hoverCursor>Auto</hoverCursor>
+      <enableHeldCursor>False</enableHeldCursor>
+      <heldCursor>Auto</heldCursor>
+    </BuildingBlocks_DisplayWidget>
   </library>
   <operations Type="BuildingBlocks_Node" Count="73">
-    <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:35" Type="BuildingBlocks_BindingsLocalizedVariable">
+    <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:36" Type="BuildingBlocks_BindingsLocalizedVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>mineralName</binding>
       <inheritsNamespace>True</inheritsNamespace>
@@ -21517,11 +22055,11 @@
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsLocalizedVariable>
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
-      <widget PointsTo="ptr:34" />
+      <widget PointsTo="ptr:35" />
       <field>ParamInput0</field>
-      <input PointsTo="ptr:35" />
+      <input PointsTo="ptr:36" />
     </BuildingBlocks_BindingsLocalizedField>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:77" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:78" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>amount</binding>
       <inheritsNamespace>True</inheritsNamespace>
@@ -21529,11 +22067,11 @@
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsIntegerVariable>
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
-      <widget PointsTo="ptr:36" />
+      <widget PointsTo="ptr:37" />
       <field>ParamInput0</field>
-      <input PointsTo="ptr:37" />
+      <input PointsTo="ptr:38" />
     </BuildingBlocks_BindingsLocalizedField>
-    <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:71" Type="BuildingBlocks_BindingsBooleanVariable">
+    <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:72" Type="BuildingBlocks_BindingsBooleanVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>canRefine</binding>
       <inheritsNamespace>True</inheritsNamespace>
@@ -21541,11 +22079,11 @@
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsBooleanVariable>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
-      <widget PointsTo="ptr:38" />
+      <widget PointsTo="ptr:39" />
       <field>Disabled</field>
-      <input PointsTo="ptr:39" />
+      <input PointsTo="ptr:40" />
     </BuildingBlocks_BindingsBooleanField>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:68" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:69" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>commodityamount</binding>
       <inheritsNamespace>True</inheritsNamespace>
@@ -21553,26 +22091,26 @@
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsIntegerVariable>
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
-      <widget PointsTo="ptr:40" />
+      <widget PointsTo="ptr:41" />
       <field>ParamInput0</field>
-      <input PointsTo="ptr:41" />
+      <input PointsTo="ptr:42" />
     </BuildingBlocks_BindingsLocalizedField>
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
-      <widget PointsTo="ptr:42" />
+      <widget PointsTo="ptr:43" />
       <field>ParamInput0</field>
-      <input PointsTo="ptr:43" />
+      <input PointsTo="ptr:44" />
     </BuildingBlocks_BindingsLocalizedField>
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
-      <widget PointsTo="ptr:44" />
+      <widget PointsTo="ptr:45" />
       <field>ParamInput0</field>
-      <input PointsTo="ptr:45" />
+      <input PointsTo="ptr:46" />
     </BuildingBlocks_BindingsLocalizedField>
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
-      <widget PointsTo="ptr:46" />
+      <widget PointsTo="ptr:47" />
       <field>ParamInput0</field>
-      <input PointsTo="ptr:47" />
+      <input PointsTo="ptr:48" />
     </BuildingBlocks_BindingsLocalizedField>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:69" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:70" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="1">
         <BuildingBlocks_BindingsPathStructure Type="BuildingBlocks_BindingsPathStructure">
           <name>refineryuidata</name>
@@ -21584,11 +22122,11 @@
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsIntegerVariable>
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
-      <widget PointsTo="ptr:19" />
+      <widget PointsTo="ptr:20" />
       <field>ParamInput0</field>
-      <input PointsTo="ptr:48" />
+      <input PointsTo="ptr:49" />
     </BuildingBlocks_BindingsLocalizedField>
-    <BuildingBlocks_BindingsNumberVariable Pointer="ptr:49" Type="BuildingBlocks_BindingsNumberVariable">
+    <BuildingBlocks_BindingsNumberVariable Pointer="ptr:50" Type="BuildingBlocks_BindingsNumberVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="1">
         <BuildingBlocks_BindingsPathStructure Type="BuildingBlocks_BindingsPathStructure">
           <name>refineryuidata</name>
@@ -21599,32 +22137,32 @@
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsNumberVariable>
-    <BuildingBlocks_BindingsLocalizedFromNumber Pointer="ptr:50" Type="BuildingBlocks_BindingsLocalizedFromNumber">
+    <BuildingBlocks_BindingsLocalizedFromNumber Pointer="ptr:51" Type="BuildingBlocks_BindingsLocalizedFromNumber">
       <nZeros>0</nZeros>
       <nPlaces>2</nPlaces>
       <trailingZeros>True</trailingZeros>
       <withSeparators>False</withSeparators>
-      <input PointsTo="ptr:49" />
+      <input PointsTo="ptr:50" />
     </BuildingBlocks_BindingsLocalizedFromNumber>
-    <BuildingBlocks_BindingsBooleanFromNumber Pointer="ptr:51" Type="BuildingBlocks_BindingsBooleanFromNumber">
+    <BuildingBlocks_BindingsBooleanFromNumber Pointer="ptr:52" Type="BuildingBlocks_BindingsBooleanFromNumber">
       <type>Less</type>
       <number>0</number>
-      <input PointsTo="ptr:49" />
+      <input PointsTo="ptr:50" />
       <inputB />
     </BuildingBlocks_BindingsBooleanFromNumber>
-    <BuildingBlocks_BindingsLocalizedFromBoolean Pointer="ptr:48" Type="BuildingBlocks_BindingsLocalizedFromBoolean">
+    <BuildingBlocks_BindingsLocalizedFromBoolean Pointer="ptr:49" Type="BuildingBlocks_BindingsLocalizedFromBoolean">
       <isTrue>@refinery_ui_no_data</isTrue>
       <isFalse>@LOC_EMPTY</isFalse>
       <inputTrue />
-      <inputFalse PointsTo="ptr:50" />
-      <input PointsTo="ptr:51" />
+      <inputFalse PointsTo="ptr:51" />
+      <input PointsTo="ptr:52" />
     </BuildingBlocks_BindingsLocalizedFromBoolean>
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
-      <widget PointsTo="ptr:52" />
+      <widget PointsTo="ptr:53" />
       <field>ParamInput0</field>
-      <input PointsTo="ptr:53" />
+      <input PointsTo="ptr:54" />
     </BuildingBlocks_BindingsLocalizedField>
-    <BuildingBlocks_BindingsNumberVariable Pointer="ptr:54" Type="BuildingBlocks_BindingsNumberVariable">
+    <BuildingBlocks_BindingsNumberVariable Pointer="ptr:55" Type="BuildingBlocks_BindingsNumberVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="1">
         <BuildingBlocks_BindingsPathStructure Type="BuildingBlocks_BindingsPathStructure">
           <name>refineryuidata</name>
@@ -21635,33 +22173,33 @@
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsNumberVariable>
-    <BuildingBlocks_BindingsBooleanFromNumber Pointer="ptr:56" Type="BuildingBlocks_BindingsBooleanFromNumber">
+    <BuildingBlocks_BindingsBooleanFromNumber Pointer="ptr:57" Type="BuildingBlocks_BindingsBooleanFromNumber">
       <type>Less</type>
       <number>0</number>
-      <input PointsTo="ptr:54" />
+      <input PointsTo="ptr:55" />
       <inputB />
     </BuildingBlocks_BindingsBooleanFromNumber>
-    <BuildingBlocks_BindingsLocalizedFromBoolean Pointer="ptr:53" Type="BuildingBlocks_BindingsLocalizedFromBoolean">
+    <BuildingBlocks_BindingsLocalizedFromBoolean Pointer="ptr:54" Type="BuildingBlocks_BindingsLocalizedFromBoolean">
       <isTrue>@refinery_ui_no_data</isTrue>
       <isFalse>@LOC_EMPTY</isFalse>
       <inputTrue />
-      <inputFalse PointsTo="ptr:55" />
-      <input PointsTo="ptr:56" />
+      <inputFalse PointsTo="ptr:56" />
+      <input PointsTo="ptr:57" />
     </BuildingBlocks_BindingsLocalizedFromBoolean>
-    <BuildingBlocks_BindingsNumberVariable Pointer="ptr:57" Type="BuildingBlocks_BindingsNumberVariable">
+    <BuildingBlocks_BindingsNumberVariable Pointer="ptr:58" Type="BuildingBlocks_BindingsNumberVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>refineryuidata/jobCostEstimate</binding>
       <inheritsNamespace>False</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsNumberVariable>
-    <BuildingBlocks_BindingsBooleanFromNumber Pointer="ptr:61" Type="BuildingBlocks_BindingsBooleanFromNumber">
+    <BuildingBlocks_BindingsBooleanFromNumber Pointer="ptr:62" Type="BuildingBlocks_BindingsBooleanFromNumber">
       <type>Less</type>
       <number>0</number>
-      <input PointsTo="ptr:57" />
+      <input PointsTo="ptr:58" />
       <inputB />
     </BuildingBlocks_BindingsBooleanFromNumber>
-    <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:59" Type="BuildingBlocks_BindingsBooleanVariable">
+    <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:60" Type="BuildingBlocks_BindingsBooleanVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>refineryuidata/awaitingQuote</binding>
       <inheritsNamespace>False</inheritsNamespace>
@@ -21669,159 +22207,159 @@
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsBooleanVariable>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
-      <widget PointsTo="ptr:58" />
+      <widget PointsTo="ptr:59" />
       <field>Disabled</field>
-      <input PointsTo="ptr:59" />
+      <input PointsTo="ptr:60" />
     </BuildingBlocks_BindingsBooleanField>
-    <BuildingBlocks_BindingsLocalizedFromBoolean Pointer="ptr:60" Type="BuildingBlocks_BindingsLocalizedFromBoolean">
+    <BuildingBlocks_BindingsLocalizedFromBoolean Pointer="ptr:61" Type="BuildingBlocks_BindingsLocalizedFromBoolean">
       <isTrue>@refinery_ui_gettingQuote</isTrue>
       <isFalse>@refinery_ui_getQuote</isFalse>
       <inputTrue />
       <inputFalse />
-      <input PointsTo="ptr:59" />
+      <input PointsTo="ptr:60" />
     </BuildingBlocks_BindingsLocalizedFromBoolean>
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
-      <widget PointsTo="ptr:58" />
+      <widget PointsTo="ptr:59" />
       <field>ParamInput0</field>
-      <input PointsTo="ptr:60" />
-    </BuildingBlocks_BindingsLocalizedField>
-    <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:89" Type="BuildingBlocks_BindingsBooleanInvert">
       <input PointsTo="ptr:61" />
+    </BuildingBlocks_BindingsLocalizedField>
+    <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:90" Type="BuildingBlocks_BindingsBooleanInvert">
+      <input PointsTo="ptr:62" />
     </BuildingBlocks_BindingsBooleanInvert>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
       <widget PointsTo="ptr:3" />
       <field>IsActive</field>
-      <input PointsTo="ptr:62" />
+      <input PointsTo="ptr:63" />
     </BuildingBlocks_BindingsBooleanField>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
-      <widget PointsTo="ptr:58" />
+      <widget PointsTo="ptr:59" />
       <field>IsActive</field>
-      <input PointsTo="ptr:61" />
+      <input PointsTo="ptr:62" />
     </BuildingBlocks_BindingsBooleanField>
-    <BuildingBlocks_BindingsIntegerArithmatic Pointer="ptr:74" Type="BuildingBlocks_BindingsIntegerArithmatic">
+    <BuildingBlocks_BindingsIntegerArithmatic Pointer="ptr:75" Type="BuildingBlocks_BindingsIntegerArithmatic">
       <type>Sub</type>
       <amount>0</amount>
-      <inputL PointsTo="ptr:63" />
-      <inputR PointsTo="ptr:64" />
+      <inputL PointsTo="ptr:64" />
+      <inputR PointsTo="ptr:65" />
     </BuildingBlocks_BindingsIntegerArithmatic>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:65" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:66" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>cardIndex</binding>
       <inheritsNamespace>True</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsIntegerVariable>
-    <BuildingBlocks_BindingsLocalizedFromInteger Pointer="ptr:43" Type="BuildingBlocks_BindingsLocalizedFromInteger">
+    <BuildingBlocks_BindingsLocalizedFromInteger Pointer="ptr:44" Type="BuildingBlocks_BindingsLocalizedFromInteger">
       <defaultNZeros>0</defaultNZeros>
       <nZeros />
       <withSeparators>False</withSeparators>
-      <input PointsTo="ptr:65" />
+      <input PointsTo="ptr:66" />
     </BuildingBlocks_BindingsLocalizedFromInteger>
-    <BuildingBlocks_BindingsLocalizedFromBoolean Pointer="ptr:41" Type="BuildingBlocks_BindingsLocalizedFromBoolean">
+    <BuildingBlocks_BindingsLocalizedFromBoolean Pointer="ptr:42" Type="BuildingBlocks_BindingsLocalizedFromBoolean">
       <isTrue>@refinery_ui_no_data</isTrue>
       <isFalse>@LOC_EMPTY</isFalse>
       <inputTrue />
-      <inputFalse PointsTo="ptr:66" />
-      <input PointsTo="ptr:67" />
+      <inputFalse PointsTo="ptr:67" />
+      <input PointsTo="ptr:68" />
     </BuildingBlocks_BindingsLocalizedFromBoolean>
-    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:67" Type="BuildingBlocks_BindingsBooleanFromInteger">
+    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:68" Type="BuildingBlocks_BindingsBooleanFromInteger">
       <type>LessOrEqual</type>
-      <inputL PointsTo="ptr:68" />
+      <inputL PointsTo="ptr:69" />
       <inputR />
       <value>-1</value>
     </BuildingBlocks_BindingsBooleanFromInteger>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:63" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:64" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>refineryuidata/totalRefinable</binding>
       <inheritsNamespace>False</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsIntegerVariable>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:70" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:71" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>refineryuidata/totalnonrefinable</binding>
       <inheritsNamespace>False</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsIntegerVariable>
-    <BuildingBlocks_BindingsIntegerArithmatic Pointer="ptr:64" Type="BuildingBlocks_BindingsIntegerArithmatic">
+    <BuildingBlocks_BindingsIntegerArithmatic Pointer="ptr:65" Type="BuildingBlocks_BindingsIntegerArithmatic">
       <type>Sub</type>
       <amount>1</amount>
-      <inputL PointsTo="ptr:69" />
-      <inputR PointsTo="ptr:70" />
+      <inputL PointsTo="ptr:70" />
+      <inputR PointsTo="ptr:71" />
     </BuildingBlocks_BindingsIntegerArithmatic>
-    <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:39" Type="BuildingBlocks_BindingsBooleanInvert">
-      <input PointsTo="ptr:71" />
-    </BuildingBlocks_BindingsBooleanInvert>
-    <BuildingBlocks_BindingsNumberArithmatic Pointer="ptr:73" Type="BuildingBlocks_BindingsNumberArithmatic">
-      <type>Div</type>
-      <amount>10000</amount>
+    <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:40" Type="BuildingBlocks_BindingsBooleanInvert">
       <input PointsTo="ptr:72" />
-      <inputB />
-    </BuildingBlocks_BindingsNumberArithmatic>
-    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:72" Type="BuildingBlocks_BindingsNumberFromInteger">
-      <asSeconds>False</asSeconds>
-      <input PointsTo="ptr:63" />
-    </BuildingBlocks_BindingsNumberFromInteger>
-    <BuildingBlocks_BindingsLocalizedFromNumber Pointer="ptr:45" Type="BuildingBlocks_BindingsLocalizedFromNumber">
-      <nZeros>0</nZeros>
-      <nPlaces>0</nPlaces>
-      <trailingZeros>True</trailingZeros>
-      <withSeparators>False</withSeparators>
-      <input PointsTo="ptr:73" />
-    </BuildingBlocks_BindingsLocalizedFromNumber>
-    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:75" Type="BuildingBlocks_BindingsNumberFromInteger">
-      <asSeconds>False</asSeconds>
-      <input PointsTo="ptr:74" />
-    </BuildingBlocks_BindingsNumberFromInteger>
-    <BuildingBlocks_BindingsNumberArithmatic Pointer="ptr:76" Type="BuildingBlocks_BindingsNumberArithmatic">
+    </BuildingBlocks_BindingsBooleanInvert>
+    <BuildingBlocks_BindingsNumberArithmatic Pointer="ptr:74" Type="BuildingBlocks_BindingsNumberArithmatic">
       <type>Div</type>
       <amount>10000</amount>
-      <input PointsTo="ptr:75" />
+      <input PointsTo="ptr:73" />
       <inputB />
     </BuildingBlocks_BindingsNumberArithmatic>
-    <BuildingBlocks_BindingsLocalizedFromNumber Pointer="ptr:47" Type="BuildingBlocks_BindingsLocalizedFromNumber">
+    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:73" Type="BuildingBlocks_BindingsNumberFromInteger">
+      <asSeconds>False</asSeconds>
+      <input PointsTo="ptr:64" />
+    </BuildingBlocks_BindingsNumberFromInteger>
+    <BuildingBlocks_BindingsLocalizedFromNumber Pointer="ptr:46" Type="BuildingBlocks_BindingsLocalizedFromNumber">
       <nZeros>0</nZeros>
       <nPlaces>0</nPlaces>
       <trailingZeros>True</trailingZeros>
       <withSeparators>False</withSeparators>
-      <input PointsTo="ptr:76" />
+      <input PointsTo="ptr:74" />
     </BuildingBlocks_BindingsLocalizedFromNumber>
-    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:80" Type="BuildingBlocks_BindingsNumberFromInteger">
+    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:76" Type="BuildingBlocks_BindingsNumberFromInteger">
       <asSeconds>False</asSeconds>
-      <input PointsTo="ptr:77" />
+      <input PointsTo="ptr:75" />
     </BuildingBlocks_BindingsNumberFromInteger>
-    <BuildingBlocks_BindingsLocalizedFromNumber Pointer="ptr:37" Type="BuildingBlocks_BindingsLocalizedFromNumber">
+    <BuildingBlocks_BindingsNumberArithmatic Pointer="ptr:77" Type="BuildingBlocks_BindingsNumberArithmatic">
+      <type>Div</type>
+      <amount>10000</amount>
+      <input PointsTo="ptr:76" />
+      <inputB />
+    </BuildingBlocks_BindingsNumberArithmatic>
+    <BuildingBlocks_BindingsLocalizedFromNumber Pointer="ptr:48" Type="BuildingBlocks_BindingsLocalizedFromNumber">
       <nZeros>0</nZeros>
       <nPlaces>0</nPlaces>
-      <trailingZeros>False</trailingZeros>
+      <trailingZeros>True</trailingZeros>
       <withSeparators>False</withSeparators>
-      <input PointsTo="ptr:78" />
+      <input PointsTo="ptr:77" />
     </BuildingBlocks_BindingsLocalizedFromNumber>
-    <BuildingBlocks_BindingsLocalizedFromNumber Pointer="ptr:66" Type="BuildingBlocks_BindingsLocalizedFromNumber">
+    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:81" Type="BuildingBlocks_BindingsNumberFromInteger">
+      <asSeconds>False</asSeconds>
+      <input PointsTo="ptr:78" />
+    </BuildingBlocks_BindingsNumberFromInteger>
+    <BuildingBlocks_BindingsLocalizedFromNumber Pointer="ptr:38" Type="BuildingBlocks_BindingsLocalizedFromNumber">
       <nZeros>0</nZeros>
       <nPlaces>0</nPlaces>
       <trailingZeros>False</trailingZeros>
       <withSeparators>False</withSeparators>
       <input PointsTo="ptr:79" />
     </BuildingBlocks_BindingsLocalizedFromNumber>
-    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:81" Type="BuildingBlocks_BindingsNumberFromInteger">
-      <asSeconds>False</asSeconds>
-      <input PointsTo="ptr:68" />
-    </BuildingBlocks_BindingsNumberFromInteger>
-    <BuildingBlocks_BindingsNumberArithmatic Pointer="ptr:78" Type="BuildingBlocks_BindingsNumberArithmatic">
-      <type>Div</type>
-      <amount>10000</amount>
+    <BuildingBlocks_BindingsLocalizedFromNumber Pointer="ptr:67" Type="BuildingBlocks_BindingsLocalizedFromNumber">
+      <nZeros>0</nZeros>
+      <nPlaces>0</nPlaces>
+      <trailingZeros>False</trailingZeros>
+      <withSeparators>False</withSeparators>
       <input PointsTo="ptr:80" />
-      <inputB />
-    </BuildingBlocks_BindingsNumberArithmatic>
+    </BuildingBlocks_BindingsLocalizedFromNumber>
+    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:82" Type="BuildingBlocks_BindingsNumberFromInteger">
+      <asSeconds>False</asSeconds>
+      <input PointsTo="ptr:69" />
+    </BuildingBlocks_BindingsNumberFromInteger>
     <BuildingBlocks_BindingsNumberArithmatic Pointer="ptr:79" Type="BuildingBlocks_BindingsNumberArithmatic">
       <type>Div</type>
       <amount>10000</amount>
       <input PointsTo="ptr:81" />
       <inputB />
     </BuildingBlocks_BindingsNumberArithmatic>
-    <BuildingBlocks_BindingsLocalizationFromIntegerSwitch Pointer="ptr:84" Type="BuildingBlocks_BindingsLocalizationFromIntegerSwitch">
+    <BuildingBlocks_BindingsNumberArithmatic Pointer="ptr:80" Type="BuildingBlocks_BindingsNumberArithmatic">
+      <type>Div</type>
+      <amount>10000</amount>
+      <input PointsTo="ptr:82" />
+      <inputB />
+    </BuildingBlocks_BindingsNumberArithmatic>
+    <BuildingBlocks_BindingsLocalizationFromIntegerSwitch Pointer="ptr:85" Type="BuildingBlocks_BindingsLocalizationFromIntegerSwitch">
       <defaultValue>@refinery_ui_ProcessingType_NormalWasteful_Details</defaultValue>
       <defaultOverride />
       <values Type="BuildingBlocks_IntegerLocalizedPair" Count="9">
@@ -21871,9 +22409,9 @@
           <secondOverride />
         </BuildingBlocks_IntegerLocalizedPair>
       </values>
-      <input PointsTo="ptr:82" />
+      <input PointsTo="ptr:83" />
     </BuildingBlocks_BindingsLocalizationFromIntegerSwitch>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:82" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:83" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="1">
         <BuildingBlocks_BindingsPathStructure Type="BuildingBlocks_BindingsPathStructure">
           <name>refineryuidata</name>
@@ -21885,75 +22423,75 @@
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsIntegerVariable>
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
-      <widget PointsTo="ptr:83" />
+      <widget PointsTo="ptr:84" />
       <field>ParamInput0</field>
-      <input PointsTo="ptr:84" />
+      <input PointsTo="ptr:85" />
     </BuildingBlocks_BindingsLocalizedField>
-    <BuildingBlocks_BindingsBooleanFromNumber Pointer="ptr:87" Type="BuildingBlocks_BindingsBooleanFromNumber">
+    <BuildingBlocks_BindingsBooleanFromNumber Pointer="ptr:88" Type="BuildingBlocks_BindingsBooleanFromNumber">
       <type>Greater</type>
       <number>0</number>
-      <input PointsTo="ptr:49" />
-      <inputB PointsTo="ptr:85" />
+      <input PointsTo="ptr:50" />
+      <inputB PointsTo="ptr:86" />
     </BuildingBlocks_BindingsBooleanFromNumber>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:86" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:87" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>refineryUiData/currentUEC</binding>
       <inheritsNamespace>True</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsIntegerVariable>
-    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:85" Type="BuildingBlocks_BindingsNumberFromInteger">
+    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:86" Type="BuildingBlocks_BindingsNumberFromInteger">
       <asSeconds>False</asSeconds>
-      <input PointsTo="ptr:86" />
+      <input PointsTo="ptr:87" />
     </BuildingBlocks_BindingsNumberFromInteger>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
       <widget PointsTo="ptr:3" />
       <field>Disabled</field>
-      <input PointsTo="ptr:87" />
+      <input PointsTo="ptr:88" />
     </BuildingBlocks_BindingsBooleanField>
-    <BuildingBlocks_BindingsBooleanFromNumber Pointer="ptr:88" Type="BuildingBlocks_BindingsBooleanFromNumber">
+    <BuildingBlocks_BindingsBooleanFromNumber Pointer="ptr:89" Type="BuildingBlocks_BindingsBooleanFromNumber">
       <type>Equal</type>
       <number>0</number>
-      <input PointsTo="ptr:73" />
-      <inputB PointsTo="ptr:76" />
+      <input PointsTo="ptr:74" />
+      <inputB PointsTo="ptr:77" />
     </BuildingBlocks_BindingsBooleanFromNumber>
-    <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:90" Type="BuildingBlocks_BindingsBooleanInvert">
-      <input PointsTo="ptr:88" />
+    <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:91" Type="BuildingBlocks_BindingsBooleanInvert">
+      <input PointsTo="ptr:89" />
     </BuildingBlocks_BindingsBooleanInvert>
-    <BuildingBlocks_BindingsBooleanEvaluateAnd Pointer="ptr:62" Type="BuildingBlocks_BindingsBooleanEvaluateAnd">
+    <BuildingBlocks_BindingsBooleanEvaluateAnd Pointer="ptr:63" Type="BuildingBlocks_BindingsBooleanEvaluateAnd">
       <inputs Type="BuildingBlocks_BindingsBooleanBase" Count="2">
-        <BuildingBlocks_BindingsBooleanFromNumber PointsTo="ptr:88" />
-        <BuildingBlocks_BindingsBooleanInvert PointsTo="ptr:89" />
+        <BuildingBlocks_BindingsBooleanFromNumber PointsTo="ptr:89" />
+        <BuildingBlocks_BindingsBooleanInvert PointsTo="ptr:90" />
       </inputs>
     </BuildingBlocks_BindingsBooleanEvaluateAnd>
-    <BuildingBlocks_BindingsBooleanEvaluateAnd Pointer="ptr:92" Type="BuildingBlocks_BindingsBooleanEvaluateAnd">
+    <BuildingBlocks_BindingsBooleanEvaluateAnd Pointer="ptr:93" Type="BuildingBlocks_BindingsBooleanEvaluateAnd">
       <inputs Type="BuildingBlocks_BindingsBooleanBase" Count="3">
-        <BuildingBlocks_BindingsBooleanInvert PointsTo="ptr:90" />
-        <BuildingBlocks_BindingsBooleanInvert PointsTo="ptr:89" />
         <BuildingBlocks_BindingsBooleanInvert PointsTo="ptr:91" />
+        <BuildingBlocks_BindingsBooleanInvert PointsTo="ptr:90" />
+        <BuildingBlocks_BindingsBooleanInvert PointsTo="ptr:92" />
       </inputs>
     </BuildingBlocks_BindingsBooleanEvaluateAnd>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
       <widget PointsTo="ptr:5" />
       <field>IsActive</field>
-      <input PointsTo="ptr:92" />
+      <input PointsTo="ptr:93" />
     </BuildingBlocks_BindingsBooleanField>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
       <widget PointsTo="ptr:6" />
       <field>IsActive</field>
-      <input PointsTo="ptr:87" />
+      <input PointsTo="ptr:88" />
     </BuildingBlocks_BindingsBooleanField>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
       <widget PointsTo="ptr:4" />
       <field>IsActive</field>
-      <input PointsTo="ptr:87" />
+      <input PointsTo="ptr:88" />
     </BuildingBlocks_BindingsBooleanField>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
       <widget PointsTo="ptr:5" />
       <field>Disabled</field>
-      <input PointsTo="ptr:87" />
+      <input PointsTo="ptr:88" />
     </BuildingBlocks_BindingsBooleanField>
-    <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:94" Type="BuildingBlocks_BindingsBooleanVariable">
+    <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:95" Type="BuildingBlocks_BindingsBooleanVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="1">
         <BuildingBlocks_BindingsPathStructure Type="BuildingBlocks_BindingsPathStructure">
           <name>refineryuidata</name>
@@ -21965,30 +22503,30 @@
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsBooleanVariable>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
-      <widget PointsTo="ptr:93" />
+      <widget PointsTo="ptr:94" />
       <field>IsActive</field>
-      <input PointsTo="ptr:94" />
+      <input PointsTo="ptr:95" />
     </BuildingBlocks_BindingsBooleanField>
-    <BuildingBlocks_BindingsBooleanFromNumber Pointer="ptr:95" Type="BuildingBlocks_BindingsBooleanFromNumber">
+    <BuildingBlocks_BindingsBooleanFromNumber Pointer="ptr:96" Type="BuildingBlocks_BindingsBooleanFromNumber">
       <type>Equal</type>
       <number>0</number>
       <input />
-      <inputB PointsTo="ptr:76" />
+      <inputB PointsTo="ptr:77" />
     </BuildingBlocks_BindingsBooleanFromNumber>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
-      <widget PointsTo="ptr:58" />
+      <widget PointsTo="ptr:59" />
       <field>Disabled</field>
-      <input PointsTo="ptr:95" />
+      <input PointsTo="ptr:96" />
     </BuildingBlocks_BindingsBooleanField>
-    <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:91" Type="BuildingBlocks_BindingsBooleanInvert">
-      <input PointsTo="ptr:94" />
+    <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:92" Type="BuildingBlocks_BindingsBooleanInvert">
+      <input PointsTo="ptr:95" />
     </BuildingBlocks_BindingsBooleanInvert>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
-      <widget PointsTo="ptr:96" />
+      <widget PointsTo="ptr:97" />
       <field>IsActive</field>
-      <input PointsTo="ptr:91" />
+      <input PointsTo="ptr:92" />
     </BuildingBlocks_BindingsBooleanField>
-    <BuildingBlocks_BindingsLocalizationTimeFormat Pointer="ptr:55" Type="BuildingBlocks_BindingsLocalizationTimeFormat">
+    <BuildingBlocks_BindingsLocalizationTimeFormat Pointer="ptr:56" Type="BuildingBlocks_BindingsLocalizationTimeFormat">
       <significantFigures>2</significantFigures>
       <useClockFormatting>False</useClockFormatting>
       <hideLeadingZeros>False</hideLeadingZeros>
@@ -22000,7 +22538,7 @@
       <hours>True</hours>
       <minutes>True</minutes>
       <seconds>True</seconds>
-      <input PointsTo="ptr:54" />
+      <input PointsTo="ptr:55" />
     </BuildingBlocks_BindingsLocalizationTimeFormat>
   </operations>
   <overrideDefaultTooltipCanvas />

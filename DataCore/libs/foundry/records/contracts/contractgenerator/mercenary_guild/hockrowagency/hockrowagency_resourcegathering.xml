@@ -4,7 +4,7 @@
     <ContractGeneratorHandler_List Type="ContractGeneratorHandler_List">
       <notForRelease>False</notForRelease>
       <workInProgress>False</workInProgress>
-      <debugName>ASDFacilityDelving_Repeat</debugName>
+      <debugName>Hockrow Agency Resource Gathering</debugName>
       <defaultAvailability Type="ContractAvailability">
         <prerequisites Type="ContractPrerequisiteBase" Count="0" />
         <notifyOnAvailable>False</notifyOnAvailable>
@@ -64,7 +64,7 @@
               </ContractIntParam>
             </intParamOverrides>
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="1">
+            <propertyOverrides Type="MissionProperty" Count="2">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>DropoffLocation_BP</missionVariableName>
                 <extendedTextToken>Destination</extendedTextToken>
@@ -89,6 +89,19 @@
                   <minLocationsToFind>4</minLocationsToFind>
                   <maxLocationsToFind>4</maxLocationsToFind>
                   <failIfMinAmountNotFound>False</failIfMinAmountNotFound>
+                </value>
+              </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName>HaulingOverride</missionVariableName>
+                <extendedTextToken />
+                <value Type="MissionPropertyValue_HaulingOrders">
+                  <haulingOrderContent Type="HaulingOrderContentBase" Count="1">
+                    <HaulingOrderContent_EntityClass Type="HaulingOrderContent_EntityClass">
+                      <entityClass ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/scitem/carryables/1h/carryable_1h_cy_vial_specimen_1_asd_a.xml" />
+                      <minAmount>1</minAmount>
+                      <maxAmount>0</maxAmount>
+                    </HaulingOrderContent_EntityClass>
+                  </haulingOrderContent>
                 </value>
               </MissionProperty>
             </propertyOverrides>

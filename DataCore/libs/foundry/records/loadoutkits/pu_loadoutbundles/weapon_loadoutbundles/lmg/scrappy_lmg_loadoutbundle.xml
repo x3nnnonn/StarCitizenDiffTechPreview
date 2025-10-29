@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SLoadoutAssortment.Scrappy_LMG_loadoutbundle RecordId="c27304ed-5b73-4d43-a74e-6516e2974795" Type="SLoadoutAssortment">
+  <Requirement />
+  <GroupedLoadouts Type="SGroupedLoadouts" Count="1">
+    <SGroupedLoadouts Type="SGroupedLoadouts">
+      <Group>PrimaryWeapon</Group>
+      <Requirement />
+      <Loadouts Type="SItemPortLoadoutBaseParams" Count="1">
+        <SItemPortLoadoutRandomGeneratedParams Type="SItemPortLoadoutRandomGeneratedParams">
+          <WearRange />
+          <DirtRange />
+          <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
+          <GenerationSeed>0</GenerationSeed>
+          <LoadoutAssortments Type="SLoadoutAssortment" Count="1">
+            <SLoadoutAssortment ReferencedFile="file://./../../../../../../../libs/foundry/records/loadoutkits/pu_loadoutbundles/weapon_loadoutbundles/lmg/scrappy_lmg_loadoutbundle.xml" />
+          </LoadoutAssortments>
+        </SItemPortLoadoutRandomGeneratedParams>
+      </Loadouts>
+    </SGroupedLoadouts>
+  </GroupedLoadouts>
+</SLoadoutAssortment.Scrappy_LMG_loadoutbundle>

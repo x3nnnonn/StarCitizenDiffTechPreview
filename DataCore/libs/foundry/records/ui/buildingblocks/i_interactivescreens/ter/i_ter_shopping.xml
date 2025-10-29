@@ -5,14 +5,14 @@
     <y>1080</y>
     <z>0</z>
   </size>
-  <coordinateMethod>useRaw</coordinateMethod>
+  <coordinateMethod>auto</coordinateMethod>
   <embeddedStyles Type="BuildingBlocks_StyleEntry" Count="0" />
   <defaultStyles Type="BuildingBlocks_DefaultStyles">
     <sharedStyles />
     <entries Type="BuildingBlocks_StyleEntry" Count="0" />
   </defaultStyles>
   <style />
-  <brandStyles Type="BuildingBlocks_BrandStyles" Count="56">
+  <brandStyles Type="BuildingBlocks_BrandStyles" Count="58">
     <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
       <brandIdentifier ReferencedFile="file://./../../../../../../../libs/foundry/records/ui/buildingblocks/styles/shopbrands/shop_aparelli.xml" />
       <sharedStyles />
@@ -14030,6 +14030,544 @@
         </BuildingBlocks_StyleEntry>
       </entries>
     </BuildingBlocks_BrandStyles>
+    <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
+      <brandIdentifier ReferencedFile="file://./../../../../../../../libs/foundry/records/ui/buildingblocks/styles/s_nyx_a.xml" />
+      <sharedStyles />
+      <entries Type="BuildingBlocks_StyleEntry" Count="6">
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>ShopContainer</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dffad598-e8e2-4de5-a15a-aa08bb44b400" RecordId="dffad598-e8e2-4de5-a15a-aa08bb44b400" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="2">
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>SizeY</field>
+              <value>0.9</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PosYOffset</field>
+              <value>8</value>
+            </BuildingBlocks_FieldModifierNumber>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>ScreenBorderCard</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
+                <BuildingBlocks_StyleSelectorConditionType Type="BuildingBlocks_StyleSelectorConditionType">
+                  <type>Card</type>
+                </BuildingBlocks_StyleSelectorConditionType>
+                <BuildingBlocks_StyleSelectorConditionChild Type="BuildingBlocks_StyleSelectorConditionChild">
+                  <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                    <BuildingBlocks_StyleSelectorConditionChild Type="BuildingBlocks_StyleSelectorConditionChild">
+                      <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                        <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                          <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dba66c24-83ad-46f1-ac04-ada0a869245c" RecordId="dba66c24-83ad-46f1-ac04-ada0a869245c" />
+                        </BuildingBlocks_StyleSelectorConditionTag>
+                      </conditions>
+                    </BuildingBlocks_StyleSelectorConditionChild>
+                  </conditions>
+                </BuildingBlocks_StyleSelectorConditionChild>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="2">
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>SizeY</field>
+              <value>1.18</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PosYOffset</field>
+              <value>-20</value>
+            </BuildingBlocks_FieldModifierNumber>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>ScreenBorderContainer</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dba66c24-83ad-46f1-ac04-ada0a869245c" RecordId="dba66c24-83ad-46f1-ac04-ada0a869245c" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="4">
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PaddingTop</field>
+              <value>2</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PaddingRight</field>
+              <value>2</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PaddingBottom</field>
+              <value>2</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PaddingLeft</field>
+              <value>2</value>
+            </BuildingBlocks_FieldModifierNumber>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>MainBorder</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0964d22f-3a22-4052-92e4-eaf77f975423" RecordId="0964d22f-3a22-4052-92e4-eaf77f975423" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.78e9510d-b3ff-494a-96e0-a61089c26274" RecordId="78e9510d-b3ff-494a-96e0-a61089c26274" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="10">
+            <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+              <field>IsActive</field>
+              <value>False</value>
+            </BuildingBlocks_FieldModifierBoolean>
+            <BuildingBlocks_FieldModifierString Type="BuildingBlocks_FieldModifierString">
+              <field>SvgPath</field>
+              <value>UI/Textures/Vector/ModularKitStyles/Cordrys/Cordrys_MainBorder.svg</value>
+            </BuildingBlocks_FieldModifierString>
+            <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+              <field>EnableColorOverlay</field>
+              <value>True</value>
+            </BuildingBlocks_FieldModifierBoolean>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PosXOffset</field>
+              <value>0</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PosYOffset</field>
+              <value>0</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>ScaleY</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>ScaleX</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>Alpha</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierEnumerated Type="BuildingBlocks_FieldModifierEnumerated">
+              <field Type="BuildingBlocks_FieldModifierEnumeratedTypeSvgScalingBehavior">
+                <value>StretchXY</value>
+              </field>
+            </BuildingBlocks_FieldModifierEnumerated>
+            <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
+              <field>FillColor</field>
+              <color Type="BuildingBlocks_ColorStyle">
+                <color>Background</color>
+                <alpha>1</alpha>
+              </color>
+            </BuildingBlocks_FieldModifierColor>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>MainBorder2</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e824c3a0-2cbc-49d2-9d72-82a9654a451d" RecordId="e824c3a0-2cbc-49d2-9d72-82a9654a451d" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.78e9510d-b3ff-494a-96e0-a61089c26274" RecordId="78e9510d-b3ff-494a-96e0-a61089c26274" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="14">
+            <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+              <field>IsActive</field>
+              <value>False</value>
+            </BuildingBlocks_FieldModifierBoolean>
+            <BuildingBlocks_FieldModifierString Type="BuildingBlocks_FieldModifierString">
+              <field>SvgPath</field>
+              <value>UI/Textures/Vector/ModularKitStyles/Cordrys/Cordrys_MainBorder2.svg</value>
+            </BuildingBlocks_FieldModifierString>
+            <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+              <field>EnableColorOverlay</field>
+              <value>True</value>
+            </BuildingBlocks_FieldModifierBoolean>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>Alpha</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>ScaleX</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>ScaleY</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>SizeX</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>SizeY</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierEnumerated Type="BuildingBlocks_FieldModifierEnumerated">
+              <field Type="BuildingBlocks_FieldModifierEnumeratedTypeWidthBehavior">
+                <value>Percent</value>
+              </field>
+            </BuildingBlocks_FieldModifierEnumerated>
+            <BuildingBlocks_FieldModifierEnumerated Type="BuildingBlocks_FieldModifierEnumerated">
+              <field Type="BuildingBlocks_FieldModifierEnumeratedTypeHeightBehavior">
+                <value>Percent</value>
+              </field>
+            </BuildingBlocks_FieldModifierEnumerated>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>AnchorX</field>
+              <value>0.5</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>AnchorY</field>
+              <value>0.5</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierEnumerated Type="BuildingBlocks_FieldModifierEnumerated">
+              <field Type="BuildingBlocks_FieldModifierEnumeratedTypeSvgScalingBehavior">
+                <value>StretchXY</value>
+              </field>
+            </BuildingBlocks_FieldModifierEnumerated>
+            <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
+              <field>FillColor</field>
+              <color Type="BuildingBlocks_ColorStyle">
+                <color>Disabled</color>
+                <alpha>1</alpha>
+              </color>
+            </BuildingBlocks_FieldModifierColor>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>MainBackground</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
+                <BuildingBlocks_StyleSelectorConditionAncestor Type="BuildingBlocks_StyleSelectorConditionAncestor">
+                  <breakConditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                    <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                      <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b8467bdc-252f-4851-a7d3-56cba430f01a" RecordId="b8467bdc-252f-4851-a7d3-56cba430f01a" />
+                    </BuildingBlocks_StyleSelectorConditionTag>
+                  </breakConditions>
+                  <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="0" />
+                </BuildingBlocks_StyleSelectorConditionAncestor>
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.cc37cf84-f93a-4a60-82a6-efea090069b1" RecordId="cc37cf84-f93a-4a60-82a6-efea090069b1" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
+            <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+              <field>IsActive</field>
+              <value>True</value>
+            </BuildingBlocks_FieldModifierBoolean>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+      </entries>
+    </BuildingBlocks_BrandStyles>
+    <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
+      <brandIdentifier />
+      <sharedStyles />
+      <entries Type="BuildingBlocks_StyleEntry" Count="6">
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>ShopContainer</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dffad598-e8e2-4de5-a15a-aa08bb44b400" RecordId="dffad598-e8e2-4de5-a15a-aa08bb44b400" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="2">
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>SizeY</field>
+              <value>0.9</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PosYOffset</field>
+              <value>8</value>
+            </BuildingBlocks_FieldModifierNumber>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>ScreenBorderCard</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
+                <BuildingBlocks_StyleSelectorConditionType Type="BuildingBlocks_StyleSelectorConditionType">
+                  <type>Card</type>
+                </BuildingBlocks_StyleSelectorConditionType>
+                <BuildingBlocks_StyleSelectorConditionChild Type="BuildingBlocks_StyleSelectorConditionChild">
+                  <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                    <BuildingBlocks_StyleSelectorConditionChild Type="BuildingBlocks_StyleSelectorConditionChild">
+                      <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                        <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                          <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dba66c24-83ad-46f1-ac04-ada0a869245c" RecordId="dba66c24-83ad-46f1-ac04-ada0a869245c" />
+                        </BuildingBlocks_StyleSelectorConditionTag>
+                      </conditions>
+                    </BuildingBlocks_StyleSelectorConditionChild>
+                  </conditions>
+                </BuildingBlocks_StyleSelectorConditionChild>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="2">
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>SizeY</field>
+              <value>1.18</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PosYOffset</field>
+              <value>-20</value>
+            </BuildingBlocks_FieldModifierNumber>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>ScreenBorderContainer</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dba66c24-83ad-46f1-ac04-ada0a869245c" RecordId="dba66c24-83ad-46f1-ac04-ada0a869245c" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="4">
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PaddingTop</field>
+              <value>2</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PaddingRight</field>
+              <value>2</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PaddingBottom</field>
+              <value>2</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PaddingLeft</field>
+              <value>2</value>
+            </BuildingBlocks_FieldModifierNumber>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>MainBorder</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0964d22f-3a22-4052-92e4-eaf77f975423" RecordId="0964d22f-3a22-4052-92e4-eaf77f975423" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.78e9510d-b3ff-494a-96e0-a61089c26274" RecordId="78e9510d-b3ff-494a-96e0-a61089c26274" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="10">
+            <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+              <field>IsActive</field>
+              <value>False</value>
+            </BuildingBlocks_FieldModifierBoolean>
+            <BuildingBlocks_FieldModifierString Type="BuildingBlocks_FieldModifierString">
+              <field>SvgPath</field>
+              <value>UI/Textures/Vector/ModularKitStyles/Cordrys/Cordrys_MainBorder.svg</value>
+            </BuildingBlocks_FieldModifierString>
+            <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+              <field>EnableColorOverlay</field>
+              <value>True</value>
+            </BuildingBlocks_FieldModifierBoolean>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PosXOffset</field>
+              <value>0</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PosYOffset</field>
+              <value>0</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>ScaleY</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>ScaleX</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>Alpha</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierEnumerated Type="BuildingBlocks_FieldModifierEnumerated">
+              <field Type="BuildingBlocks_FieldModifierEnumeratedTypeSvgScalingBehavior">
+                <value>StretchXY</value>
+              </field>
+            </BuildingBlocks_FieldModifierEnumerated>
+            <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
+              <field>FillColor</field>
+              <color Type="BuildingBlocks_ColorStyle">
+                <color>Background</color>
+                <alpha>1</alpha>
+              </color>
+            </BuildingBlocks_FieldModifierColor>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>MainBorder2</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e824c3a0-2cbc-49d2-9d72-82a9654a451d" RecordId="e824c3a0-2cbc-49d2-9d72-82a9654a451d" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.78e9510d-b3ff-494a-96e0-a61089c26274" RecordId="78e9510d-b3ff-494a-96e0-a61089c26274" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="14">
+            <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+              <field>IsActive</field>
+              <value>False</value>
+            </BuildingBlocks_FieldModifierBoolean>
+            <BuildingBlocks_FieldModifierString Type="BuildingBlocks_FieldModifierString">
+              <field>SvgPath</field>
+              <value>UI/Textures/Vector/ModularKitStyles/Cordrys/Cordrys_MainBorder2.svg</value>
+            </BuildingBlocks_FieldModifierString>
+            <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+              <field>EnableColorOverlay</field>
+              <value>True</value>
+            </BuildingBlocks_FieldModifierBoolean>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>Alpha</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>ScaleX</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>ScaleY</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>SizeX</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>SizeY</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierEnumerated Type="BuildingBlocks_FieldModifierEnumerated">
+              <field Type="BuildingBlocks_FieldModifierEnumeratedTypeWidthBehavior">
+                <value>Percent</value>
+              </field>
+            </BuildingBlocks_FieldModifierEnumerated>
+            <BuildingBlocks_FieldModifierEnumerated Type="BuildingBlocks_FieldModifierEnumerated">
+              <field Type="BuildingBlocks_FieldModifierEnumeratedTypeHeightBehavior">
+                <value>Percent</value>
+              </field>
+            </BuildingBlocks_FieldModifierEnumerated>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>AnchorX</field>
+              <value>0.5</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>AnchorY</field>
+              <value>0.5</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierEnumerated Type="BuildingBlocks_FieldModifierEnumerated">
+              <field Type="BuildingBlocks_FieldModifierEnumeratedTypeSvgScalingBehavior">
+                <value>StretchXY</value>
+              </field>
+            </BuildingBlocks_FieldModifierEnumerated>
+            <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
+              <field>FillColor</field>
+              <color Type="BuildingBlocks_ColorStyle">
+                <color>Disabled</color>
+                <alpha>1</alpha>
+              </color>
+            </BuildingBlocks_FieldModifierColor>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>MainBackground</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
+                <BuildingBlocks_StyleSelectorConditionAncestor Type="BuildingBlocks_StyleSelectorConditionAncestor">
+                  <breakConditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                    <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                      <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b8467bdc-252f-4851-a7d3-56cba430f01a" RecordId="b8467bdc-252f-4851-a7d3-56cba430f01a" />
+                    </BuildingBlocks_StyleSelectorConditionTag>
+                  </breakConditions>
+                  <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="0" />
+                </BuildingBlocks_StyleSelectorConditionAncestor>
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.cc37cf84-f93a-4a60-82a6-efea090069b1" RecordId="cc37cf84-f93a-4a60-82a6-efea090069b1" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
+            <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+              <field>IsActive</field>
+              <value>True</value>
+            </BuildingBlocks_FieldModifierBoolean>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+      </entries>
+    </BuildingBlocks_BrandStyles>
   </brandStyles>
   <entityPreviewScene Type="BuildingBlocks_PreviewSceneEntityRoot">
     <renderLayer>Default</renderLayer>
@@ -14345,12 +14883,12 @@
       </value>
     </BuildingBlocks_StaticVariableArray>
     <BuildingBlocks_StaticVariableInteger Type="BuildingBlocks_StaticVariableInteger">
-      <name>shopUI/transactionStatusPopup/transactionStatus_NA</name>
+      <name>shopUI/transactionStatusPopup/transactionStatus_SV</name>
       <value>1</value>
     </BuildingBlocks_StaticVariableInteger>
     <BuildingBlocks_StaticVariableInteger Type="BuildingBlocks_StaticVariableInteger">
-      <name>shopUI/walletBalance_na</name>
-      <value>100</value>
+      <name>shopUI/walletBalance_SV</name>
+      <value>10000000000</value>
     </BuildingBlocks_StaticVariableInteger>
     <BuildingBlocks_StaticVariableLocalization Type="BuildingBlocks_StaticVariableLocalization">
       <name>shopUI/shopCurrency_NA</name>
@@ -14458,8 +14996,8 @@
       <parent />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>False</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -14701,6 +15239,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -14770,8 +15309,8 @@
       <parent PointsTo="ptr:1" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -15013,6 +15552,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>True</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -15078,8 +15618,8 @@
       <parent PointsTo="ptr:2" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -15321,6 +15861,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -15381,8 +15922,8 @@
       <parent />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -15624,6 +16165,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -15682,8 +16224,8 @@
       <parent PointsTo="ptr:1" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -15932,6 +16474,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -15992,8 +16535,8 @@
       <parent PointsTo="ptr:2" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -16243,6 +16786,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -16301,8 +16845,8 @@
       <parent PointsTo="ptr:3" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -16552,6 +17096,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -16610,8 +17155,8 @@
       <parent PointsTo="ptr:4" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -16853,6 +17398,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -16920,8 +17466,8 @@
       <parent PointsTo="ptr:4" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -17166,6 +17712,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -17231,8 +17778,8 @@
       <parent PointsTo="ptr:3" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -17474,6 +18021,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -17532,8 +18080,8 @@
       <parent PointsTo="ptr:5" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -17775,6 +18323,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -17840,8 +18389,8 @@
       <parent PointsTo="ptr:6" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -18083,6 +18632,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -18148,8 +18698,8 @@
       <parent PointsTo="ptr:1" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -18391,6 +18941,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -18456,8 +19007,8 @@
       <parent PointsTo="ptr:1" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -18699,6 +19250,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>True</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -18764,8 +19316,8 @@
       <parent />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -19007,6 +19559,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -19050,9 +19603,9 @@
       <name>Slice</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Primitive</rendererType>
-      <rendererPolicy Type="BuildingBlocks_FlashRendererPolicy">
-        <useFlashRenderThreadUpdate>False</useFlashRenderThreadUpdate>
-        <transformFrom3D>False</transformFrom3D>
+      <rendererPolicy Type="BuildingBlocks_PrimitiveRendererPolicy">
+        <sortViaPivot>False</sortViaPivot>
+        <includeInGroundingEffects>True</includeInGroundingEffects>
       </rendererPolicy>
       <primitiveSettings Type="BuildingBlocks_PrimitiveSettings">
         <primitiveMaterialPath />
@@ -19072,8 +19625,8 @@
       <parent />
       <previewScene PointsTo="ptr:7" />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -19322,6 +19875,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -19374,9 +19928,9 @@
       <name>BackgroundTexture</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Primitive</rendererType>
-      <rendererPolicy Type="BuildingBlocks_FlashRendererPolicy">
-        <useFlashRenderThreadUpdate>False</useFlashRenderThreadUpdate>
-        <transformFrom3D>False</transformFrom3D>
+      <rendererPolicy Type="BuildingBlocks_PrimitiveRendererPolicy">
+        <sortViaPivot>False</sortViaPivot>
+        <includeInGroundingEffects>True</includeInGroundingEffects>
       </rendererPolicy>
       <primitiveSettings Type="BuildingBlocks_PrimitiveSettings">
         <primitiveMaterialPath>Materials/default_rtt.mtl</primitiveMaterialPath>
@@ -19396,8 +19950,8 @@
       <parent PointsTo="ptr:1" />
       <previewScene PointsTo="ptr:7" />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -19639,6 +20193,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -19712,8 +20267,8 @@
       <parent PointsTo="ptr:8" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -20082,6 +20637,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -20129,9 +20685,9 @@
       <name>ScreenBorderCard</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Primitive</rendererType>
-      <rendererPolicy Type="BuildingBlocks_FlashRendererPolicy">
-        <useFlashRenderThreadUpdate>False</useFlashRenderThreadUpdate>
-        <transformFrom3D>False</transformFrom3D>
+      <rendererPolicy Type="BuildingBlocks_PrimitiveRendererPolicy">
+        <sortViaPivot>False</sortViaPivot>
+        <includeInGroundingEffects>True</includeInGroundingEffects>
       </rendererPolicy>
       <primitiveSettings Type="BuildingBlocks_PrimitiveSettings">
         <primitiveMaterialPath>Materials/default_rtt.mtl</primitiveMaterialPath>
@@ -20151,8 +20707,8 @@
       <parent PointsTo="ptr:2" />
       <previewScene PointsTo="ptr:7" />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -20394,6 +20950,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -20467,8 +21024,8 @@
       <parent PointsTo="ptr:9" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -20717,6 +21274,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -20778,8 +21336,8 @@
       <parent PointsTo="ptr:10" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>False</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -21028,6 +21586,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -21110,8 +21669,8 @@
       <parent PointsTo="ptr:11" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>False</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>False</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -21353,6 +21912,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -21441,8 +22001,8 @@
       <parent PointsTo="ptr:8" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -21684,6 +22244,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />

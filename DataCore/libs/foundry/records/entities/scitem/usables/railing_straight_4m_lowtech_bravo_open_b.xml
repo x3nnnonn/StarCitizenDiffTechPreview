@@ -4,6 +4,11 @@
   <Icon>Usable.bmp</Icon>
   <Invisible>False</Invisible>
   <BBoxSelection>False</BBoxSelection>
+  <defaultEditorColor Type="RGB">
+    <r>1</r>
+    <g>1</g>
+    <b>0</b>
+  </defaultEditorColor>
   <entityDensityClass />
   <tags Type="Tag" Count="1">
     <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ec205446-476b-4606-9607-776d9cbc84cc" RecordId="ec205446-476b-4606-9607-776d9cbc84cc" />
@@ -13,6 +18,11 @@
     <SGeometryResourceParams Type="SGeometryResourceParams">
       <ModelTag />
       <cacheResources>False</cacheResources>
+      <meshsetup Type="SGeometryMeshsetupParams">
+        <visibilityTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </visibilityTags>
+      </meshsetup>
       <Geometry Type="SGeometryNodeParams">
         <Tags />
         <Geometry Type="SGeometryDataParams">
@@ -78,10 +88,11 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="SAsteroidShapeComponentParams" Count="0" />
-        <PhysFlagsColliderOverride Type="SAsteroidShapeComponentParams" Count="0" />
+        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
+        <DampingZeroG>0.01</DampingZeroG>
         <DampingFreefall>0.05</DampingFreefall>
         <PushableByPlayers>True</PushableByPlayers>
         <NeverAffectTriggers>False</NeverAffectTriggers>
@@ -98,13 +109,16 @@
         <temperature Type="EntityTemperature">
           <enable>False</enable>
           <initialTemperature>-1</initialTemperature>
-          <coolingEqualizationMultiplier>1</coolingEqualizationMultiplier>
+          <coolingEqualizationParams Type="CoolingEqualizationMultiplier">
+            <coolingEqualizationMultiplier>1</coolingEqualizationMultiplier>
+          </coolingEqualizationParams>
           <signatureParams Type="EntityTemperatureSignature">
             <enable>False</enable>
             <minimumTemperatureForIR>250</minimumTemperatureForIR>
             <temperatureToIR>6</temperatureToIR>
           </signatureParams>
           <itemResourceParams Type="EntityTemperatureItemResource">
+            <poweredAmbientCoolingMultiplier>1</poweredAmbientCoolingMultiplier>
             <minOperatingTemperature>0</minOperatingTemperature>
             <minCoolingTemperature>300</minCoolingTemperature>
             <enableOverheat>False</enableOverheat>
@@ -208,6 +222,8 @@
                 <z>0</z>
               </Position>
             </InteractionPromptOffset>
+            <PromptStyle>PromptAndText</PromptStyle>
+            <OverrideControlHintDescription>False</OverrideControlHintDescription>
             <InteractionPromptScale>1</InteractionPromptScale>
             <InteractionPromptLabelVerticalOffset>70</InteractionPromptLabelVerticalOffset>
             <InteractionPromptBound>EntityRoot</InteractionPromptBound>
@@ -296,7 +312,7 @@
     <SActorUsableParams Type="SActorUsableParams">
       <archetype RecordReference="file://./../../../../../../libs/foundry/records/entities/scitem/usables/usablearchetypes.xml" RecordName="UsableArchetype.Railing" RecordId="a21e8269-ca75-40c6-b0cc-6cc64c76fe3e" />
       <fragmentTag>Railing+back_exit</fragmentTag>
-      <useSlots Type="UsableUseSlot" Count="2">
+      <useSlots Type="UsableUseSlot" Count="1">
         <UsableUseSlot Type="UsableUseSlot">
           <name>Railing1</name>
           <available>True</available>
@@ -434,147 +450,10 @@
           <alignWithGravity>False</alignWithGravity>
           <syncAnimationWithUser>False</syncAnimationWithUser>
         </UsableUseSlot>
-        <UsableUseSlot Type="UsableUseSlot">
-          <name>Railing2</name>
-          <available>True</available>
-          <useChannelInstances Type="UsableUseChannelInstance" Count="5">
-            <UsableUseChannelInstance Type="UsableUseChannelInstance">
-              <useChannelArchetype RecordReference="file://./../../../../../../libs/foundry/records/entities/scitem/usables/usablearchetypes.xml" RecordName="UseChannelArchetype.Railing_Lean" RecordId="fe6a5bf9-18bd-45ba-9afa-afc0ff2d7544" />
-              <alignmentSlots Type="AlignmentSlotBase" Count="1">
-                <AlignmentSlotBase />
-              </alignmentSlots>
-              <conditionList />
-              <useChannelInstancesToEnable Type="UsableUseChannelInstance" Count="0" />
-              <useChannelInstancesToDisable Type="UsableUseChannelInstance" Count="0" />
-              <interaction />
-              <triggerInteractionOnSlottedUsables>False</triggerInteractionOnSlottedUsables>
-              <stance>Unset</stance>
-              <isEnabled>True</isEnabled>
-              <isAvailableOnlyForRouting>False</isAvailableOnlyForRouting>
-              <isAvailableWhenHoldingTheUsable>True</isAvailableWhenHoldingTheUsable>
-              <shouldValidateExitAnimations>True</shouldValidateExitAnimations>
-              <fragmentTag>straight+front</fragmentTag>
-              <preparationSequence />
-              <tagsToAddOnEnter Type="Tag" Count="0" />
-              <tagsToRemoveOnEnter Type="Tag" Count="0" />
-              <tagsToAddOnExit Type="Tag" Count="0" />
-              <tagsToRemoveOnExit Type="Tag" Count="0" />
-            </UsableUseChannelInstance>
-            <UsableUseChannelInstance Type="UsableUseChannelInstance">
-              <useChannelArchetype RecordReference="file://./../../../../../../libs/foundry/records/entities/scitem/usables/usablearchetypes.xml" RecordName="UseChannelArchetype.Railing_Search" RecordId="9ec50b8c-d1b7-49e9-acb5-4e29fc732108" />
-              <alignmentSlots Type="AlignmentSlotBase" Count="1">
-                <AlignmentSlotBase />
-              </alignmentSlots>
-              <conditionList />
-              <useChannelInstancesToEnable Type="UsableUseChannelInstance" Count="0" />
-              <useChannelInstancesToDisable Type="UsableUseChannelInstance" Count="0" />
-              <interaction />
-              <triggerInteractionOnSlottedUsables>False</triggerInteractionOnSlottedUsables>
-              <stance>Unset</stance>
-              <isEnabled>True</isEnabled>
-              <isAvailableOnlyForRouting>False</isAvailableOnlyForRouting>
-              <isAvailableWhenHoldingTheUsable>True</isAvailableWhenHoldingTheUsable>
-              <shouldValidateExitAnimations>True</shouldValidateExitAnimations>
-              <fragmentTag>stand+front+middle</fragmentTag>
-              <preparationSequence />
-              <tagsToAddOnEnter Type="Tag" Count="0" />
-              <tagsToRemoveOnEnter Type="Tag" Count="0" />
-              <tagsToAddOnExit Type="Tag" Count="0" />
-              <tagsToRemoveOnExit Type="Tag" Count="0" />
-            </UsableUseChannelInstance>
-            <UsableUseChannelInstance Type="UsableUseChannelInstance">
-              <useChannelArchetype RecordReference="file://./../../../../../../libs/foundry/records/entities/scitem/usables/usablearchetypes.xml" RecordName="UseChannelArchetype.Railing_Idle" RecordId="394a5399-fe24-48c7-bd3b-75c36c1fac5e" />
-              <alignmentSlots Type="AlignmentSlotBase" Count="1">
-                <AlignmentSlotBase />
-              </alignmentSlots>
-              <conditionList />
-              <useChannelInstancesToEnable Type="UsableUseChannelInstance" Count="0" />
-              <useChannelInstancesToDisable Type="UsableUseChannelInstance" Count="0" />
-              <interaction />
-              <triggerInteractionOnSlottedUsables>False</triggerInteractionOnSlottedUsables>
-              <stance>Unset</stance>
-              <isEnabled>True</isEnabled>
-              <isAvailableOnlyForRouting>False</isAvailableOnlyForRouting>
-              <isAvailableWhenHoldingTheUsable>True</isAvailableWhenHoldingTheUsable>
-              <shouldValidateExitAnimations>True</shouldValidateExitAnimations>
-              <fragmentTag />
-              <preparationSequence />
-              <tagsToAddOnEnter Type="Tag" Count="0" />
-              <tagsToRemoveOnEnter Type="Tag" Count="0" />
-              <tagsToAddOnExit Type="Tag" Count="0" />
-              <tagsToRemoveOnExit Type="Tag" Count="0" />
-            </UsableUseChannelInstance>
-            <UsableUseChannelInstance Type="UsableUseChannelInstance">
-              <useChannelArchetype RecordReference="file://./../../../../../../libs/foundry/records/entities/scitem/usables/usablearchetypes.xml" RecordName="UseChannelArchetype.Railing_MobiGlas" RecordId="32664e92-09cc-4e39-8b4d-1ac5b86cba1c" />
-              <alignmentSlots Type="AlignmentSlotBase" Count="1">
-                <AlignmentSlotBase />
-              </alignmentSlots>
-              <conditionList />
-              <useChannelInstancesToEnable Type="UsableUseChannelInstance" Count="0" />
-              <useChannelInstancesToDisable Type="UsableUseChannelInstance" Count="0" />
-              <interaction />
-              <triggerInteractionOnSlottedUsables>False</triggerInteractionOnSlottedUsables>
-              <stance>Unset</stance>
-              <isEnabled>True</isEnabled>
-              <isAvailableOnlyForRouting>False</isAvailableOnlyForRouting>
-              <isAvailableWhenHoldingTheUsable>True</isAvailableWhenHoldingTheUsable>
-              <shouldValidateExitAnimations>True</shouldValidateExitAnimations>
-              <fragmentTag />
-              <preparationSequence />
-              <tagsToAddOnEnter Type="Tag" Count="0" />
-              <tagsToRemoveOnEnter Type="Tag" Count="0" />
-              <tagsToAddOnExit Type="Tag" Count="0" />
-              <tagsToRemoveOnExit Type="Tag" Count="0" />
-            </UsableUseChannelInstance>
-            <UsableUseChannelInstance Type="UsableUseChannelInstance">
-              <useChannelArchetype RecordReference="file://./../../../../../../libs/foundry/records/entities/scitem/usables/usablearchetypes.xml" RecordName="UseChannelArchetype.Railing_Occupy" RecordId="f4cf3600-d1cd-403f-9851-4f7c759b0fec" />
-              <alignmentSlots Type="AlignmentSlotBase" Count="1">
-                <AlignmentSlotBase />
-              </alignmentSlots>
-              <conditionList />
-              <useChannelInstancesToEnable Type="UsableUseChannelInstance" Count="0" />
-              <useChannelInstancesToDisable Type="UsableUseChannelInstance" Count="0" />
-              <interaction />
-              <triggerInteractionOnSlottedUsables>False</triggerInteractionOnSlottedUsables>
-              <stance>Stand</stance>
-              <isEnabled>True</isEnabled>
-              <isAvailableOnlyForRouting>False</isAvailableOnlyForRouting>
-              <isAvailableWhenHoldingTheUsable>True</isAvailableWhenHoldingTheUsable>
-              <shouldValidateExitAnimations>True</shouldValidateExitAnimations>
-              <fragmentTag>Front</fragmentTag>
-              <preparationSequence />
-              <tagsToAddOnEnter Type="Tag" Count="0" />
-              <tagsToRemoveOnEnter Type="Tag" Count="0" />
-              <tagsToAddOnExit Type="Tag" Count="0" />
-              <tagsToRemoveOnExit Type="Tag" Count="0" />
-            </UsableUseChannelInstance>
-          </useChannelInstances>
-          <usableItemPorts Type="UsableItemPort" Count="0" />
-          <useSlotsToDisable Type="UsableUseSlot" Count="0" />
-          <useSlotReenablePoint>UsableDelink</useSlotReenablePoint>
-          <stance>Unset</stance>
-          <relativeTransform Type="QuatT">
-            <Rotation Type="Ang3">
-              <x>0</x>
-              <y>0</y>
-              <z>0</z>
-            </Rotation>
-            <Position Type="Vec3">
-              <x>0</x>
-              <y>0</y>
-              <z>0</z>
-            </Position>
-          </relativeTransform>
-          <additionalFragmentTags />
-          <optionalGameTags Type="Tag" Count="0" />
-          <isScoochable>False</isScoochable>
-          <alignWithGravity>False</alignWithGravity>
-          <syncAnimationWithUser>False</syncAnimationWithUser>
-        </UsableUseSlot>
       </useSlots>
       <alignmentSlots Type="AlignmentSlotBase" Count="1">
         <PointAlignmentSlot Pointer="ptr:2" Type="PointAlignmentSlot">
-          <id>1772bdb4-8948-4847-9093-77d6ec1ddeea</id>
+          <id>e4208419-dbc4-4220-93c8-d08d25b1877b</id>
           <name />
           <available>True</available>
           <canPlayerUse>False</canPlayerUse>
@@ -643,15 +522,18 @@
         </PointAlignmentSlot>
       </alignmentSlots>
       <exclusivityGroups Type="AlignmentSlotExclusivityGroup" Count="0" />
+      <freeItemPortsForDirectInteraction Type="SItemPortDef" Count="0" />
       <slottingSetups Type="UsableSlottingSetup" Count="0" />
       <views Type="Camera" Count="0" />
-      <abilityLocks Type="ActivityBehaviorRequest_Animate" Count="0" />
+      <abilityLocks Type="ActivityBehaviorRequest" Count="0" />
       <usableSequencerTasks Type="SSequencerUsableTask" Count="0" />
       <specializedData Type="SSpecializedData">
         <specializedDataEntry Type="SSpecializedDataEntry" Count="0" />
       </specializedData>
       <isExterior>False</isExterior>
       <allowDeadOrUnconscious>False</allowDeadOrUnconscious>
+      <lowEnergyThreshold>0</lowEnergyThreshold>
+      <highEnergyThreshold>2</highEnergyThreshold>
     </SActorUsableParams>
   </Components>
 </EntityClassDefinition.Railing_Straight_4m_Lowtech_Bravo_Open_B>

@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Struct Name="PersonalThoughtInventoryParams">
+  <Property Name="proximityDetectionParams" Type="ProximityInventoryDetectionParams" />
   <Property Name="lootingScreenParams" Type="PersonalThoughtLootingScreenParams" />
   <Property Name="inventoryDropInteractionConditions" Type="InteractionConditionPreset" />
   <Property Name="inventoryTitle" Type="string" />

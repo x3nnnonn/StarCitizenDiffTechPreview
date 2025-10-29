@@ -3,7 +3,7 @@
   <name>Human_CombatCheckIns</name>
   <communications Type="CommunicationEntry" Count="93">
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_acknowledge_commrequest_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -15,6 +15,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -36,9 +37,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_announce_hostileexfil_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -50,6 +52,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -71,9 +74,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_captain_high_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -85,6 +89,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -106,9 +111,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_captain_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -120,6 +126,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -141,9 +148,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_captain_repeatoccur_high_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -155,6 +163,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -176,9 +185,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_captain_repeatoccur_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -190,6 +200,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -211,9 +222,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_affirm_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -225,6 +237,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -246,9 +259,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_negative_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -260,6 +274,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -281,9 +296,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_foxtrotteam_hackrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -295,6 +311,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -316,9 +333,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_foxtrotteam_hackrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -330,6 +348,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -351,9 +370,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_statusupdate_almostdone_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -365,6 +385,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -386,9 +407,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_signoff_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -400,6 +422,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -421,9 +444,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_enroute_engloc_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -435,6 +459,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -456,9 +481,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_statusupdate_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -470,6 +496,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -491,9 +518,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_enroute_habsloc_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -505,6 +533,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -526,9 +555,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_enroute_hangarloc_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -540,6 +570,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -561,9 +592,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_enroute_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -575,6 +607,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -596,9 +629,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_enroute_mcloc_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -610,6 +644,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -631,9 +666,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_locupdate_engloc_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -645,6 +681,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -666,9 +703,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_locupdate_habsloc_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -680,6 +718,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -701,9 +740,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_locupdate_hangarloc_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -715,6 +755,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -736,9 +777,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_locupdate_mcloc_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -750,6 +792,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -771,9 +814,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_locupdate_travloca_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -785,6 +829,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -806,9 +851,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_locupdate_travlocb_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -820,6 +866,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -841,9 +888,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_statusupdate_inprogress_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -855,6 +903,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -876,9 +925,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_inform_captain_supportprovided_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -890,6 +940,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -911,9 +962,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_charlieteam_logrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -925,6 +977,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -946,9 +999,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_charlieteam_logrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -960,6 +1014,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -981,9 +1036,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_affirm_charlieteam_techrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -995,6 +1051,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1016,9 +1073,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_charlieteam_techrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1030,6 +1088,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1051,9 +1110,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_charlieteam_techrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1065,6 +1125,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1086,9 +1147,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_deltateam_tranrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1100,6 +1162,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1121,9 +1184,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_deltateam_tranrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1135,6 +1199,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1156,9 +1221,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_affirm_deltateam_tranaltrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1170,6 +1236,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1191,9 +1258,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_affirm_deltateam_tranaltrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1205,6 +1273,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1226,9 +1295,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_deltateam_tranaltrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1240,6 +1310,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1261,9 +1332,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_deltateam_tranaltrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1275,6 +1347,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1296,9 +1369,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_echoteam_hackrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1310,6 +1384,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1331,9 +1406,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_echoteam_hackrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1345,6 +1421,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1366,9 +1443,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_echoteam_searchrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1380,6 +1458,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1401,9 +1480,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_echoteam_searchrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1415,6 +1495,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1436,9 +1517,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_respond_progupdate_foxtrotteam_logrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1450,6 +1532,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1471,9 +1554,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_acknowledge_commrequest_withupdate_bravoteam_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1485,6 +1569,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1506,9 +1591,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_acknowledge_patrolupdate_bodyfound_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1520,6 +1606,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1541,9 +1628,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_acknowledge_patrolupdate_failedsearch_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1555,6 +1643,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1576,9 +1665,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_acknowledge_progupdate_charlieteam_techrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1590,6 +1680,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1611,9 +1702,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_acknowledge_progupdate_deltateam_tranaltrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1625,6 +1717,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1646,9 +1739,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_acknowledge_progupdate_deltateam_tranaltrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1660,6 +1754,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1681,9 +1776,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_acknowledge_progupdate_echoteam_hackrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1695,6 +1791,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1716,9 +1813,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_acknowledge_progupdate_echoteam_searchrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1730,6 +1828,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1751,9 +1850,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_acknowledge_progupdate_foxtrotteam_logrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1765,6 +1865,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1786,9 +1887,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_acknowledge_statusupdate_almostdone_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1800,6 +1902,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1821,9 +1924,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_acknowledge_statusupdate_inprogress_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1835,6 +1939,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1856,9 +1961,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_announce_abandonstation_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1870,6 +1976,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1891,9 +1998,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_announce_commsdown_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1905,6 +2013,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1926,9 +2035,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_announce_done_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1940,6 +2050,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1961,9 +2072,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_announce_hostilefound_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -1975,6 +2087,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -1996,9 +2109,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_hq_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2010,6 +2124,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2031,9 +2146,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_team_bravoteam_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2045,6 +2161,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2066,9 +2183,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_team_bravoteam_repeatoccur_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2080,6 +2198,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2101,9 +2220,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_team_charlieteam_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2115,6 +2235,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2136,9 +2257,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_team_charlieteam_repeatoccur_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2150,6 +2272,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2171,9 +2294,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_team_deltateam_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2185,6 +2309,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2206,9 +2331,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_team_deltateam_repeatoccur_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2220,6 +2346,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2241,9 +2368,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_team_echoteam_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2255,6 +2383,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2276,9 +2405,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_team_echoteam_repeatoccur_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2290,6 +2420,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2311,9 +2442,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_team_foxtrotteam_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2325,6 +2457,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2346,9 +2479,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_callout_team_foxtrotteam_repeatoccur_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2360,6 +2494,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2381,9 +2516,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_command_team_keepsearching_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2395,6 +2531,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2416,9 +2553,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_dispatch_team_failedcheckin_engloc_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2430,6 +2568,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2451,9 +2590,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_dispatch_team_failedcheckin_habsloc_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2465,6 +2605,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2486,9 +2627,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_dispatch_team_failedcheckin_hangarloc_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2500,6 +2642,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2521,9 +2664,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_dispatch_team_failedcheckin_mcloc_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2535,6 +2679,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2556,9 +2701,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_inform_team_supportrequired_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2570,6 +2716,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2591,9 +2738,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_hq_supportrequired_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2605,6 +2753,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2626,9 +2775,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_locupdate_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2640,6 +2790,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2661,9 +2812,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_charlieteam_logrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2675,6 +2827,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2696,9 +2849,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_charlieteam_logrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2710,6 +2864,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2731,9 +2886,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_charlieteam_techrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2745,6 +2901,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2766,9 +2923,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_charlieteam_techrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2780,6 +2938,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2801,9 +2960,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_deltateam_tranaltrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2815,6 +2975,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2836,9 +2997,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_deltateam_tranaltrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2850,6 +3012,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2871,9 +3034,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_deltateam_tranrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2885,6 +3049,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2906,9 +3071,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_deltateam_tranrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2920,6 +3086,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2941,9 +3108,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_echoteam_hackrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2955,6 +3123,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -2976,9 +3145,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_echoteam_hackrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -2990,6 +3160,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -3011,9 +3182,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_echoteam_searchrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -3025,6 +3197,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -3046,9 +3219,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_echoteam_searchrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -3060,6 +3234,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -3081,9 +3256,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_foxtrotteam_hackrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -3095,6 +3271,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -3116,9 +3293,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_foxtrotteam_hackrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -3130,6 +3308,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -3151,9 +3330,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_foxtrotteam_logrole_firstreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -3165,6 +3345,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -3186,9 +3367,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_progupdate_foxtrotteam_logrole_nextreport_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -3200,6 +3382,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -3221,9 +3404,10 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
     <CommunicationEntry Type="CommunicationEntry">
-      <name />
+      <name ReferencedFile="file://./../../../../../../libs/foundry/records/communicationname/combatlines/combatcheckins/cci_request_statusupdate_ig.xml" />
       <channelName ReferencedFile="file://./../../../../../../libs/foundry/records/communicationchannelname/globalgroup.xml" />
       <method>RandomSequence</method>
       <forceAnimation>False</forceAnimation>
@@ -3235,6 +3419,7 @@
           <overrideMinSilence>-1</overrideMinSilence>
           <overrideMinSpeakerSilence>-1</overrideMinSpeakerSilence>
           <dialogueContext />
+          <playDialogueAsAnimation>False</playDialogueAsAnimation>
           <dialogueExternalSource />
           <rules Type="CommunicationVariationRules">
             <timeout>0</timeout>
@@ -3256,6 +3441,7 @@
       </variations>
       <entityRetriggerDelay>0</entityRetriggerDelay>
       <channelRetriggerDelay>0</channelRetriggerDelay>
+      <gameTags Type="Tag" Count="0" />
     </CommunicationEntry>
   </communications>
   <subConfigs Type="CommunicationConfig" Count="0" />

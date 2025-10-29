@@ -3,7 +3,7 @@
   <multiConfig Type="SubHarvestableMultiConfig">
     <defaultConfig />
     <ignoreAttachableTagsForTaggedConfigs>True</ignoreAttachableTagsForTaggedConfigs>
-    <taggedConfigs Type="TaggedSubHarvestableConfig" Count="10">
+    <taggedConfigs Type="TaggedSubHarvestableConfig" Count="9">
       <TaggedSubHarvestableConfig Type="TaggedSubHarvestableConfig">
         <name>GRADE D - COMMON</name>
         <tagList Type="HarvestableTagListTagEditor">
@@ -740,11 +740,6 @@
             </subHarvestables>
           </subConfigManual>
         </subConfig>
-      </TaggedSubHarvestableConfig>
-      <TaggedSubHarvestableConfig Type="TaggedSubHarvestableConfig">
-        <name />
-        <tagList />
-        <subConfig />
       </TaggedSubHarvestableConfig>
     </taggedConfigs>
   </multiConfig>

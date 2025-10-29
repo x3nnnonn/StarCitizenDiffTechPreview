@@ -12,7 +12,7 @@
     <entries Type="BuildingBlocks_StyleEntry" Count="0" />
   </defaultStyles>
   <style />
-  <brandStyles Type="BuildingBlocks_BrandStyles" Count="45">
+  <brandStyles Type="BuildingBlocks_BrandStyles" Count="46">
     <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
       <brandIdentifier ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/s_uilo_a.xml" />
       <sharedStyles ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/modularkitstyles/sk_uilo_a/sk_uilo_a_linearprogressmeterstyles.xml" />
@@ -640,6 +640,11 @@
       <sharedStyles ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/modularkitstyles/sk_drak_hud/sk_drak_hud_linearprogressmeterstyle_horizontal.xml" />
       <entries Type="BuildingBlocks_StyleEntry" Count="0" />
     </BuildingBlocks_BrandStyles>
+    <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
+      <brandIdentifier ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/s_nyx_a.xml" />
+      <sharedStyles ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/modularkitstyles/sk_nyx_a/sk_nyx_a_linearprogressmeterstyles.xml" />
+      <entries Type="BuildingBlocks_StyleEntry" Count="0" />
+    </BuildingBlocks_BrandStyles>
   </brandStyles>
   <entityPreviewScene Type="BuildingBlocks_PreviewSceneEntityRoot">
     <renderLayer>Default</renderLayer>
@@ -700,8 +705,8 @@
       <parent />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -943,6 +948,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -1003,8 +1009,8 @@
       <parent PointsTo="ptr:1" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -1253,6 +1259,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -1311,8 +1318,8 @@
       <parent PointsTo="ptr:1" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>False</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -1554,6 +1561,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />

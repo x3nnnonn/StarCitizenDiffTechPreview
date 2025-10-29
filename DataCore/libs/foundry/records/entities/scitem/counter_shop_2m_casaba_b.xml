@@ -4,6 +4,11 @@
   <Icon>Usable.bmp</Icon>
   <Invisible>False</Invisible>
   <BBoxSelection>False</BBoxSelection>
+  <defaultEditorColor Type="RGB">
+    <r>1</r>
+    <g>1</g>
+    <b>0</b>
+  </defaultEditorColor>
   <entityDensityClass />
   <tags Type="Tag" Count="1">
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6878db42-b452-474c-9e5a-5c66bb021e20" RecordId="6878db42-b452-474c-9e5a-5c66bb021e20" />
@@ -13,6 +18,11 @@
     <SGeometryResourceParams Type="SGeometryResourceParams">
       <ModelTag />
       <cacheResources>False</cacheResources>
+      <meshsetup Type="SGeometryMeshsetupParams">
+        <visibilityTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </visibilityTags>
+      </meshsetup>
       <Geometry Type="SGeometryNodeParams">
         <Tags />
         <Geometry Type="SGeometryDataParams">
@@ -78,10 +88,11 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="SAsteroidShapeComponentParams" Count="0" />
-        <PhysFlagsColliderOverride Type="SAsteroidShapeComponentParams" Count="0" />
+        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
+        <DampingZeroG>0.01</DampingZeroG>
         <DampingFreefall>0.05</DampingFreefall>
         <PushableByPlayers>False</PushableByPlayers>
         <NeverAffectTriggers>False</NeverAffectTriggers>
@@ -98,13 +109,16 @@
         <temperature Type="EntityTemperature">
           <enable>False</enable>
           <initialTemperature>-1</initialTemperature>
-          <coolingEqualizationMultiplier>1</coolingEqualizationMultiplier>
+          <coolingEqualizationParams Type="CoolingEqualizationMultiplier">
+            <coolingEqualizationMultiplier>1</coolingEqualizationMultiplier>
+          </coolingEqualizationParams>
           <signatureParams Type="EntityTemperatureSignature">
             <enable>False</enable>
             <minimumTemperatureForIR>250</minimumTemperatureForIR>
             <temperatureToIR>6</temperatureToIR>
           </signatureParams>
           <itemResourceParams Type="EntityTemperatureItemResource">
+            <poweredAmbientCoolingMultiplier>1</poweredAmbientCoolingMultiplier>
             <minOperatingTemperature>0</minOperatingTemperature>
             <minCoolingTemperature>300</minCoolingTemperature>
             <enableOverheat>False</enableOverheat>
@@ -180,6 +194,8 @@
                 <z>0</z>
               </Position>
             </InteractionPromptOffset>
+            <PromptStyle>PromptAndText</PromptStyle>
+            <OverrideControlHintDescription>False</OverrideControlHintDescription>
             <InteractionPromptScale>1</InteractionPromptScale>
             <InteractionPromptLabelVerticalOffset>70</InteractionPromptLabelVerticalOffset>
             <InteractionPromptBound>EntityRoot</InteractionPromptBound>
@@ -206,9 +222,9 @@
     </SEntityInteractableParams>
     <SActorUsableParams Type="SActorUsableParams">
       <archetype RecordReference="file://./../../../../../libs/foundry/records/entities/scitem/usables/usablearchetypes.xml" RecordName="UsableArchetype.Counter" RecordId="e5319031-d1cb-4be8-a818-85d8811755c9" />
-      <fragmentTag>counter_bar+high</fragmentTag>
+      <fragmentTag>counter_shop</fragmentTag>
       <useSlots Type="UsableUseSlot" Count="2">
-        <UsableUseSlot Type="UsableUseSlot">
+        <UsableUseSlot Pointer="ptr:3" Type="UsableUseSlot">
           <name>Vendor</name>
           <available>True</available>
           <useChannelInstances Type="UsableUseChannelInstance" Count="7">
@@ -391,14 +407,14 @@
           <alignWithGravity>False</alignWithGravity>
           <syncAnimationWithUser>False</syncAnimationWithUser>
         </UsableUseSlot>
-        <UsableUseSlot Type="UsableUseSlot">
+        <UsableUseSlot Pointer="ptr:4" Type="UsableUseSlot">
           <name>Patron</name>
           <available>True</available>
-          <useChannelInstances Type="UsableUseChannelInstance" Count="4">
+          <useChannelInstances Type="UsableUseChannelInstance" Count="6">
             <UsableUseChannelInstance Type="UsableUseChannelInstance">
               <useChannelArchetype RecordReference="file://./../../../../../libs/foundry/records/entities/scitem/usables/usablearchetypes.xml" RecordName="UseChannelArchetype.Counter_Take" RecordId="4edfd15e-44f6-4ee8-8de5-6351b03f4300" />
               <alignmentSlots Type="AlignmentSlotBase" Count="1">
-                <AlignmentSlotBase />
+                <AreaAlignmentSlot PointsTo="ptr:2" />
               </alignmentSlots>
               <conditionList />
               <useChannelInstancesToEnable Type="UsableUseChannelInstance" Count="0" />
@@ -420,7 +436,7 @@
             <UsableUseChannelInstance Type="UsableUseChannelInstance">
               <useChannelArchetype RecordReference="file://./../../../../../libs/foundry/records/entities/scitem/usables/usablearchetypes.xml" RecordName="UseChannelArchetype.Counter_Place" RecordId="857bd0e3-717d-4849-95d4-14c67ca491ed" />
               <alignmentSlots Type="AlignmentSlotBase" Count="1">
-                <AlignmentSlotBase />
+                <AreaAlignmentSlot PointsTo="ptr:2" />
               </alignmentSlots>
               <conditionList />
               <useChannelInstancesToEnable Type="UsableUseChannelInstance" Count="0" />
@@ -442,7 +458,7 @@
             <UsableUseChannelInstance Type="UsableUseChannelInstance">
               <useChannelArchetype RecordReference="file://./../../../../../libs/foundry/records/entities/scitem/usables/usablearchetypes.xml" RecordName="UseChannelArchetype.Counter_Consume" RecordId="37dd039c-08b7-4bb2-b7ae-455000536cb9" />
               <alignmentSlots Type="AlignmentSlotBase" Count="1">
-                <AlignmentSlotBase />
+                <AreaAlignmentSlot PointsTo="ptr:2" />
               </alignmentSlots>
               <conditionList />
               <useChannelInstancesToEnable Type="UsableUseChannelInstance" Count="0" />
@@ -464,7 +480,51 @@
             <UsableUseChannelInstance Type="UsableUseChannelInstance">
               <useChannelArchetype RecordReference="file://./../../../../../libs/foundry/records/entities/scitem/usables/usablearchetypes.xml" RecordName="UseChannelArchetype.Counter_MobiGlas" RecordId="95c7dee2-4ca1-4a9c-abb2-15f3d11a5194" />
               <alignmentSlots Type="AlignmentSlotBase" Count="1">
-                <AlignmentSlotBase />
+                <AreaAlignmentSlot PointsTo="ptr:2" />
+              </alignmentSlots>
+              <conditionList />
+              <useChannelInstancesToEnable Type="UsableUseChannelInstance" Count="0" />
+              <useChannelInstancesToDisable Type="UsableUseChannelInstance" Count="0" />
+              <interaction />
+              <triggerInteractionOnSlottedUsables>False</triggerInteractionOnSlottedUsables>
+              <stance>Unset</stance>
+              <isEnabled>True</isEnabled>
+              <isAvailableOnlyForRouting>False</isAvailableOnlyForRouting>
+              <isAvailableWhenHoldingTheUsable>True</isAvailableWhenHoldingTheUsable>
+              <shouldValidateExitAnimations>True</shouldValidateExitAnimations>
+              <fragmentTag />
+              <preparationSequence />
+              <tagsToAddOnEnter Type="Tag" Count="0" />
+              <tagsToRemoveOnEnter Type="Tag" Count="0" />
+              <tagsToAddOnExit Type="Tag" Count="0" />
+              <tagsToRemoveOnExit Type="Tag" Count="0" />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance Type="UsableUseChannelInstance">
+              <useChannelArchetype RecordReference="file://./../../../../../libs/foundry/records/entities/scitem/usables/usablearchetypes.xml" RecordName="UseChannelArchetype.Counter_Talk" RecordId="19eef40c-70c9-4737-a3d5-8877e5502d9e" />
+              <alignmentSlots Type="AlignmentSlotBase" Count="1">
+                <AreaAlignmentSlot PointsTo="ptr:2" />
+              </alignmentSlots>
+              <conditionList />
+              <useChannelInstancesToEnable Type="UsableUseChannelInstance" Count="0" />
+              <useChannelInstancesToDisable Type="UsableUseChannelInstance" Count="0" />
+              <interaction />
+              <triggerInteractionOnSlottedUsables>False</triggerInteractionOnSlottedUsables>
+              <stance>Unset</stance>
+              <isEnabled>True</isEnabled>
+              <isAvailableOnlyForRouting>False</isAvailableOnlyForRouting>
+              <isAvailableWhenHoldingTheUsable>True</isAvailableWhenHoldingTheUsable>
+              <shouldValidateExitAnimations>True</shouldValidateExitAnimations>
+              <fragmentTag />
+              <preparationSequence />
+              <tagsToAddOnEnter Type="Tag" Count="0" />
+              <tagsToRemoveOnEnter Type="Tag" Count="0" />
+              <tagsToAddOnExit Type="Tag" Count="0" />
+              <tagsToRemoveOnExit Type="Tag" Count="0" />
+            </UsableUseChannelInstance>
+            <UsableUseChannelInstance Type="UsableUseChannelInstance">
+              <useChannelArchetype RecordReference="file://./../../../../../libs/foundry/records/entities/scitem/usables/usablearchetypes.xml" RecordName="UseChannelArchetype.Counter_Occupy" RecordId="c6b7a5d6-fa13-4330-b546-f4b34256d7c5" />
+              <alignmentSlots Type="AlignmentSlotBase" Count="1">
+                <AreaAlignmentSlot PointsTo="ptr:2" />
               </alignmentSlots>
               <conditionList />
               <useChannelInstancesToEnable Type="UsableUseChannelInstance" Count="0" />
@@ -509,7 +569,7 @@
           <syncAnimationWithUser>False</syncAnimationWithUser>
         </UsableUseSlot>
       </useSlots>
-      <alignmentSlots Type="AlignmentSlotBase" Count="1">
+      <alignmentSlots Type="AlignmentSlotBase" Count="2">
         <PointAlignmentSlot Pointer="ptr:1" Type="PointAlignmentSlot">
           <id>e584baf6-a21f-4b00-be9f-aed2e0ca2268</id>
           <name />
@@ -576,17 +636,99 @@
             <interiorOnly>False</interiorOnly>
           </additionalAttachmentFlags>
         </PointAlignmentSlot>
+        <AreaAlignmentSlot Pointer="ptr:2" Type="AreaAlignmentSlot">
+          <id>6b9c8d7d-de4c-4c84-b1f1-df50ad58566c</id>
+          <name />
+          <available>True</available>
+          <canPlayerUse>True</canPlayerUse>
+          <interactionPoints Type="SInteractionPointParams" Count="0" />
+          <fragmentTag>front</fragmentTag>
+          <optionalGameTags Type="Tag" Count="0" />
+          <slottedFragmentTag />
+          <helperName />
+          <relativeTransform Type="QuatT">
+            <Rotation Type="Ang3">
+              <x>0</x>
+              <y>0</y>
+              <z>180</z>
+            </Rotation>
+            <Position Type="Vec3">
+              <x>1</x>
+              <y>1.25</y>
+              <z>0</z>
+            </Position>
+          </relativeTransform>
+          <entityRelativeRotation>False</entityRelativeRotation>
+          <entityRelativeTranslation>False</entityRelativeTranslation>
+          <linkMode>FeetLink</linkMode>
+          <stance>Stand</stance>
+          <useHandIK>False</useHandIK>
+          <useADIK>False</useADIK>
+          <viewParams Type="SUsableViewParams">
+            <viewLimitYawMin>-45</viewLimitYawMin>
+            <viewLimitYawMax>45</viewLimitYawMax>
+            <viewLimitPitchMin>-45</viewLimitPitchMin>
+            <viewLimitPitchMax>45</viewLimitPitchMax>
+          </viewParams>
+          <enterParams Type="SUsableEnterTransitionParams">
+            <transitionAudioTrigger Type="GlobalResourceAudio">
+              <audioTrigger />
+            </transitionAudioTrigger>
+            <aiSignal>OnTakenPlaceAtCounter</aiSignal>
+            <additionalTags />
+            <eventTriggerMask>OnlyPlayer</eventTriggerMask>
+            <holsterWeapon>True</holsterWeapon>
+            <enterInteraction />
+          </enterParams>
+          <exitParams Type="SUsableExitTransitionParams">
+            <transitionAudioTrigger Type="GlobalResourceAudio">
+              <audioTrigger />
+            </transitionAudioTrigger>
+            <aiSignal>OnLeaveCounter</aiSignal>
+            <additionalTags />
+            <eventTriggerMask>AIAndPlayer</eventTriggerMask>
+            <inputExit>True</inputExit>
+            <exitOnMovement>False</exitOnMovement>
+            <exitOnJump>False</exitOnJump>
+            <exitOnDamageTaken>False</exitOnDamageTaken>
+            <exitInteraction />
+            <exitSequence />
+          </exitParams>
+          <usableIdleParams Type="SUsableIdleParams">
+            <idlePoseOverrides Type="SUsableIdlePoseOverride" Count="0" />
+          </usableIdleParams>
+          <additionalAttachmentFlags Type="SUsableAttachFlagParams">
+            <exteriorOnly>False</exteriorOnly>
+            <interiorOnly>False</interiorOnly>
+          </additionalAttachmentFlags>
+          <areaTypeParams Type="BoxAreaAlignmentSlotTypeParams">
+            <min Type="Vec3">
+              <x>-0.7</x>
+              <y>-1</y>
+              <z>-0.5</z>
+            </min>
+            <max Type="Vec3">
+              <x>0.7</x>
+              <y>0.5</y>
+              <z>2</z>
+            </max>
+          </areaTypeParams>
+          <maxAmount>1</maxAmount>
+          <interactionOnEnter />
+        </AreaAlignmentSlot>
       </alignmentSlots>
       <exclusivityGroups Type="AlignmentSlotExclusivityGroup" Count="0" />
+      <freeItemPortsForDirectInteraction Type="SItemPortDef" Count="0" />
       <slottingSetups Type="UsableSlottingSetup" Count="2">
         <UsableSlottingSetup Type="UsableSlottingSetup">
           <name />
           <routingElement Type="UsableSlottingAlignmentSlot">
-            <alignmentSlot />
+            <alignmentSlot PointsTo="ptr:2" />
           </routingElement>
           <orderedAlignmentSlotsToBeOverriden Type="UsableAlignmentSlot" Count="0" />
-          <useSlots Type="UsableUseSlot" Count="1">
+          <useSlots Type="UsableUseSlot" Count="2">
             <UsableUseSlot />
+            <UsableUseSlot PointsTo="ptr:3" />
           </useSlots>
           <fragmentTagsForSlot />
         </UsableSlottingSetup>
@@ -596,20 +738,23 @@
             <alignmentSlot PointsTo="ptr:1" />
           </routingElement>
           <orderedAlignmentSlotsToBeOverriden Type="UsableAlignmentSlot" Count="0" />
-          <useSlots Type="UsableUseSlot" Count="1">
+          <useSlots Type="UsableUseSlot" Count="2">
             <UsableUseSlot />
+            <UsableUseSlot PointsTo="ptr:4" />
           </useSlots>
           <fragmentTagsForSlot />
         </UsableSlottingSetup>
       </slottingSetups>
       <views Type="Camera" Count="0" />
-      <abilityLocks Type="ActivityBehaviorRequest_Animate" Count="0" />
+      <abilityLocks Type="ActivityBehaviorRequest" Count="0" />
       <usableSequencerTasks Type="SSequencerUsableTask" Count="0" />
       <specializedData Type="SSpecializedData">
         <specializedDataEntry Type="SSpecializedDataEntry" Count="0" />
       </specializedData>
       <isExterior>False</isExterior>
       <allowDeadOrUnconscious>False</allowDeadOrUnconscious>
+      <lowEnergyThreshold>0</lowEnergyThreshold>
+      <highEnergyThreshold>2</highEnergyThreshold>
     </SActorUsableParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
       <loadout Type="SItemPortLoadoutManualParams">

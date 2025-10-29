@@ -571,6 +571,20 @@
     </gameModeDef>
   </contextualActionsMenus>
   <inventoryParams Type="PersonalThoughtInventoryParams">
+    <proximityDetectionParams Type="ProximityInventoryDetectionParams">
+      <filterTags Type="TagsDNF">
+        <terms Type="TagsDNFTerm" Count="1">
+          <TagsDNFTerm Type="TagsDNFTerm">
+            <positiveTags Type="Tag" Count="1">
+              <Tag RecordReference="file://./../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.039eb697-7307-409b-a176-a778de49a613" RecordId="039eb697-7307-409b-a176-a778de49a613" />
+            </positiveTags>
+            <negativeTags Type="Tag" Count="0" />
+          </TagsDNFTerm>
+        </terms>
+      </filterTags>
+      <zoneQueryRadius>2</zoneQueryRadius>
+      <maxHeightStep>1.25</maxHeightStep>
+    </proximityDetectionParams>
     <lootingScreenParams Type="PersonalThoughtLootingScreenParams">
       <itemPortClasses Type="LootingItemPortSizeClass" Count="1">
         <LootingItemPortSizeClass Type="LootingItemPortSizeClass">

@@ -12,7 +12,7 @@
     <entries Type="BuildingBlocks_StyleEntry" Count="0" />
   </defaultStyles>
   <style />
-  <brandStyles Type="BuildingBlocks_BrandStyles" Count="4">
+  <brandStyles Type="BuildingBlocks_BrandStyles" Count="5">
     <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
       <brandIdentifier ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/commoditybrands/commodity_default.xml" />
       <sharedStyles />
@@ -242,6 +242,35 @@
         </BuildingBlocks_StyleEntry>
       </entries>
     </BuildingBlocks_BrandStyles>
+    <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
+      <brandIdentifier ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/s_nyx_a.xml" />
+      <sharedStyles />
+      <entries Type="BuildingBlocks_StyleEntry" Count="1">
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>TotalAmountText</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.655c1682-3225-4bfe-b4c1-b5d8ced817e1" RecordId="655c1682-3225-4bfe-b4c1-b5d8ced817e1" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0c91723a-afe1-4942-b29e-d7b48b3655f9" RecordId="0c91723a-afe1-4942-b29e-d7b48b3655f9" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>PaddingTop</field>
+              <value>10</value>
+            </BuildingBlocks_FieldModifierNumber>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+      </entries>
+    </BuildingBlocks_BrandStyles>
   </brandStyles>
   <entityPreviewScene Type="BuildingBlocks_PreviewSceneEntityRoot">
     <renderLayer>Default</renderLayer>
@@ -305,8 +334,8 @@
       <parent />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -548,6 +577,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -608,8 +638,8 @@
       <parent PointsTo="ptr:1" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -857,6 +887,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -915,8 +946,8 @@
       <parent PointsTo="ptr:2" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -1161,6 +1192,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -1221,8 +1253,8 @@
       <parent PointsTo="ptr:3" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -1467,6 +1499,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="1">
           <BuildingBlocks_TriggerURL Type="BuildingBlocks_TriggerURL">
             <name>zeroButton</name>
@@ -1514,14 +1547,22 @@
         <label>@LOC_PLACEHOLDER</label>
         <style>Heading6</style>
         <caseModifier>None</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <iconProperties Type="BuildingBlocks_ComponentIconProperties">
         <show>True</show>
         <iconPreset>ArrowCaratLeft</iconPreset>
         <customIcon />
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </iconProperties>
+      <rootLayoutPolicy>Flex</rootLayoutPolicy>
       <fillStyle>Filled</fillStyle>
       <iconPosition>Left</iconPosition>
+      <imagePath />
     </BuildingBlocks_ComponentGeneralButtonSecondary>
     <BuildingBlocks_DisplayWidget Pointer="ptr:4" Type="BuildingBlocks_DisplayWidget">
       <name>SliderContainer</name>
@@ -1549,8 +1590,8 @@
       <parent PointsTo="ptr:3" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -1798,6 +1839,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -1858,8 +1900,8 @@
       <parent PointsTo="ptr:3" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -2104,6 +2146,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="1">
           <BuildingBlocks_TriggerURL Type="BuildingBlocks_TriggerURL">
             <name>maxButton</name>
@@ -2151,14 +2194,22 @@
         <label>@LOC_PLACEHOLDER</label>
         <style>Heading6</style>
         <caseModifier>None</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <iconProperties Type="BuildingBlocks_ComponentIconProperties">
         <show>True</show>
         <iconPreset>ArrowCaratRight</iconPreset>
         <customIcon />
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </iconProperties>
+      <rootLayoutPolicy>Flex</rootLayoutPolicy>
       <fillStyle>Filled</fillStyle>
       <iconPosition>Left</iconPosition>
+      <imagePath />
     </BuildingBlocks_ComponentGeneralButtonSecondary>
     <BuildingBlocks_ComponentLinearRangeSlider Pointer="ptr:9" Type="BuildingBlocks_ComponentLinearRangeSlider">
       <name>Slider</name>
@@ -2186,8 +2237,8 @@
       <parent PointsTo="ptr:4" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -2429,6 +2480,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -2500,8 +2552,8 @@
       <parent PointsTo="ptr:4" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>False</exportNode>
@@ -2743,6 +2795,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -2786,6 +2839,9 @@
         <label>@LOC_PLACEHOLDER</label>
         <style>Heading1</style>
         <caseModifier>None</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Left</textAlignment>
       <verticalTextAlignment>Top</verticalTextAlignment>
@@ -2834,8 +2890,8 @@
       <parent PointsTo="ptr:2" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -3083,6 +3139,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -3143,8 +3200,8 @@
       <parent PointsTo="ptr:5" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -3386,6 +3443,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -3429,6 +3487,9 @@
         <label>@LOC_PLACEHOLDER</label>
         <style>Heading4</style>
         <caseModifier>None</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Left</textAlignment>
       <verticalTextAlignment>Center</verticalTextAlignment>
@@ -3461,8 +3522,8 @@
       <parent PointsTo="ptr:6" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -3704,6 +3765,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>True</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -3779,8 +3841,8 @@
       <parent PointsTo="ptr:4" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -4028,6 +4090,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -4086,8 +4149,8 @@
       <parent PointsTo="ptr:6" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -4329,6 +4392,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -4372,6 +4436,9 @@
         <label>@LOC_PLACEHOLDER</label>
         <style>Heading5</style>
         <caseModifier>None</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <textAlignment>Left</textAlignment>
       <verticalTextAlignment>Top</verticalTextAlignment>
@@ -4404,8 +4471,8 @@
       <parent PointsTo="ptr:8" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -4647,6 +4714,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -4727,8 +4795,8 @@
       <parent PointsTo="ptr:5" />
       <previewScene />
       <previewSceneFlattened />
+      <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
-      <canBeVirtual>True</canBeVirtual>
       <affectsLayout>True</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
       <exportNode>True</exportNode>
@@ -4970,6 +5038,7 @@
         <inheritSelectedState>False</inheritSelectedState>
         <inheritDisabledState>False</inheritDisabledState>
         <blocksCursor>False</blocksCursor>
+        <blocksNavigation>False</blocksNavigation>
         <onLeftClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onRightClick Type="BuildingBlocks_TriggerBase" Count="0" />
         <onLeftDoubleClick Type="BuildingBlocks_TriggerBase" Count="0" />
@@ -5013,14 +5082,22 @@
         <label>@LOC_PLACEHOLDER</label>
         <style>Heading5</style>
         <caseModifier>None</caseModifier>
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </labelProperties>
       <iconProperties Type="BuildingBlocks_ComponentIconProperties">
         <show>False</show>
         <iconPreset>ArrowHollowRight</iconPreset>
         <customIcon />
+        <anchorToParentX>0.5</anchorToParentX>
+        <anchorToParentY>0.5</anchorToParentY>
+        <scale>1</scale>
       </iconProperties>
+      <rootLayoutPolicy>Flex</rootLayoutPolicy>
       <fillStyle>Filled</fillStyle>
       <iconPosition>Left</iconPosition>
+      <imagePath />
     </BuildingBlocks_ComponentGeneralButton>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />

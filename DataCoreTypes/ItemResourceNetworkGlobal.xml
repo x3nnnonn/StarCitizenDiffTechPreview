@@ -3,7 +3,8 @@
   <Property Name="networkResources" Type="ItemResourceCompositionMap[]" />
   <Property Name="resourcePairs" Type="ItemRoomResourcePair[]" />
   <Property Name="itemResourceTypeData" Type="ItemResourceTypeData[]" />
-  <Property Name="coolantBaseConversionRate" Type="float" />
+  <Property Name="maxPowerToCoolantRatio" Type="float" />
+  <Property Name="thrusterCoolantMultiplier" Type="float" />
   <Property Name="powerBaseConversionRate" Type="float" />
   <Property Name="uiParams" Type="ItemResourceNetworkUIParams" />
   <Property Name="powerParams" Type="ItemResourceNetworkPowerParams" />

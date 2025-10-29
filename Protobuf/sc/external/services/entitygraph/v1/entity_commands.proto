@@ -289,17 +289,12 @@ message SetTagsCommand {
   }
 }
 
-message MeltByOwner {
-  uint64 owner_id = 1;
-  bool enabled = 2;
-}
-
 message MeltCommand {
   repeated .sc.external.services.entitygraph.v1.MeltCommand.Body melts = 1;
 
   message Body {
     repeated string parent_urns = 1;
-    .sc.external.services.entitygraph.v1.MeltByOwner melt_by_owner = 2;
+    uint64 owner_id = 3;
   }
 }
 

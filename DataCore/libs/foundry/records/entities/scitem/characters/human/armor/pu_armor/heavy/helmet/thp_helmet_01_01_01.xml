@@ -4,6 +4,11 @@
   <Icon>Default.bmp</Icon>
   <Invisible>False</Invisible>
   <BBoxSelection>False</BBoxSelection>
+  <defaultEditorColor Type="RGB">
+    <r>1</r>
+    <g>1</g>
+    <b>0</b>
+  </defaultEditorColor>
   <entityDensityClass ReferencedFile="file://./../../../../../../../../../../../libs/foundry/records/densityclasses/fpsitemsdensityclass.xml" />
   <tags Type="Tag" Count="10">
     <Tag RecordReference="file://./../../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b285311b-1f68-4a69-b73f-1295e83a3909" RecordId="b285311b-1f68-4a69-b73f-1295e83a3909" />
@@ -40,10 +45,11 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="SAsteroidShapeComponentParams" Count="0" />
-        <PhysFlagsColliderOverride Type="SAsteroidShapeComponentParams" Count="0" />
+        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
+        <DampingZeroG>0.01</DampingZeroG>
         <DampingFreefall>0.05</DampingFreefall>
         <PushableByPlayers>True</PushableByPlayers>
         <NeverAffectTriggers>False</NeverAffectTriggers>
@@ -60,13 +66,16 @@
         <temperature Type="EntityTemperature">
           <enable>False</enable>
           <initialTemperature>-1</initialTemperature>
-          <coolingEqualizationMultiplier>1</coolingEqualizationMultiplier>
+          <coolingEqualizationParams Type="CoolingEqualizationMultiplier">
+            <coolingEqualizationMultiplier>1</coolingEqualizationMultiplier>
+          </coolingEqualizationParams>
           <signatureParams Type="EntityTemperatureSignature">
             <enable>False</enable>
             <minimumTemperatureForIR>250</minimumTemperatureForIR>
             <temperatureToIR>6</temperatureToIR>
           </signatureParams>
           <itemResourceParams Type="EntityTemperatureItemResource">
+            <poweredAmbientCoolingMultiplier>1</poweredAmbientCoolingMultiplier>
             <minOperatingTemperature>0</minOperatingTemperature>
             <minCoolingTemperature>300</minCoolingTemperature>
             <enableOverheat>False</enableOverheat>
@@ -160,6 +169,11 @@
     <SGeometryResourceParams Type="SGeometryResourceParams">
       <ModelTag />
       <cacheResources>False</cacheResources>
+      <meshsetup Type="SGeometryMeshsetupParams">
+        <visibilityTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </visibilityTags>
+      </meshsetup>
       <Geometry Type="SGeometryNodeParams">
         <Tags />
         <Geometry Type="SGeometryDataParams">
@@ -1750,13 +1764,16 @@
       <Ports Type="SItemPortDef" Count="7">
         <SItemPortDef Type="SItemPortDef">
           <Name>visor_display</Name>
-          <DisplayName>visor_display</DisplayName>
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
           <Tags Type="Tag" Count="0" />
+          <OnAttachTags Type="Tag" Count="0" />
+          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
+          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -1789,7 +1806,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="LinkedStat" Count="0" />
+              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1839,13 +1856,16 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>radar</Name>
-          <DisplayName>radar</DisplayName>
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
           <Tags Type="Tag" Count="0" />
+          <OnAttachTags Type="Tag" Count="0" />
+          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
+          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -1878,7 +1898,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Radar</Type>
-              <SubTypes Type="LinkedStat" Count="0" />
+              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1928,13 +1948,16 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>long_range_radar</Name>
-          <DisplayName>long_range_radar</DisplayName>
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
           <Tags Type="Tag" Count="0" />
+          <OnAttachTags Type="Tag" Count="0" />
+          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
+          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -1967,7 +1990,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Radar</Type>
-              <SubTypes Type="LinkedStat" Count="0" />
+              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2017,13 +2040,16 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>ping</Name>
-          <DisplayName>ping</DisplayName>
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
           <Tags Type="Tag" Count="0" />
+          <OnAttachTags Type="Tag" Count="0" />
+          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
+          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2065,7 +2091,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Ping</Type>
-              <SubTypes Type="LinkedStat" Count="0" />
+              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2115,13 +2141,16 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>scanner</Name>
-          <DisplayName>scanner</DisplayName>
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
           <Tags Type="Tag" Count="0" />
+          <OnAttachTags Type="Tag" Count="0" />
+          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
+          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2154,7 +2183,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Avionics</Type>
-              <SubTypes Type="LinkedStat" Count="0" />
+              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2204,13 +2233,16 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>flashlight</Name>
-          <DisplayName>flashlight</DisplayName>
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
           <Tags Type="Tag" Count="0" />
+          <OnAttachTags Type="Tag" Count="0" />
+          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
+          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2243,7 +2275,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Suit</Type>
-              <SubTypes Type="LinkedStat" Count="1">
+              <SubTypes Type="StatusEffectBuffMacro" Count="1">
                 <EnumChoice>Flashlight</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2295,13 +2327,16 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>holo_display</Name>
-          <DisplayName>holo_display</DisplayName>
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
           <Tags Type="Tag" Count="0" />
+          <OnAttachTags Type="Tag" Count="0" />
+          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
+          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -2334,7 +2369,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="LinkedStat" Count="0" />
+              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2631,6 +2666,8 @@
                 <z>0</z>
               </Position>
             </InteractionPromptOffset>
+            <PromptStyle>PromptAndText</PromptStyle>
+            <OverrideControlHintDescription>False</OverrideControlHintDescription>
             <InteractionPromptScale>1</InteractionPromptScale>
             <InteractionPromptLabelVerticalOffset>70</InteractionPromptLabelVerticalOffset>
             <InteractionPromptBound>EntityRoot</InteractionPromptBound>
@@ -2728,6 +2765,8 @@
                 <z>0</z>
               </Position>
             </InteractionPromptOffset>
+            <PromptStyle>PromptAndText</PromptStyle>
+            <OverrideControlHintDescription>False</OverrideControlHintDescription>
             <InteractionPromptScale>1</InteractionPromptScale>
             <InteractionPromptLabelVerticalOffset>70</InteractionPromptLabelVerticalOffset>
             <InteractionPromptBound>TopBoundingBoxZSurface</InteractionPromptBound>
@@ -2940,7 +2979,7 @@
           </SCarryableGrip>
         </grips>
       </gripData>
-      <abilityLocks Type="ActivityBehaviorRequest_Animate" Count="6">
+      <abilityLocks Type="ActivityBehaviorRequest" Count="6">
         <EnumChoice>Climb</EnumChoice>
         <EnumChoice>Sprint</EnumChoice>
         <EnumChoice>Vault</EnumChoice>
@@ -3038,6 +3077,7 @@
       <ikInteractionsRecord />
       <carryableSequences Type="SCarryableSequenceRef" Count="0" />
       <canBeCarriedInProne>False</canBeCarriedInProne>
+      <disableRotation>False</disableRotation>
     </SEntityComponentCarryableParams>
     <SInteractionStateMachineParams Type="SInteractionStateMachineParams">
       <StateTypes Type="SInteractionStateType" Count="1">
@@ -3055,6 +3095,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -3090,6 +3131,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -3129,6 +3171,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -3149,6 +3192,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -3180,6 +3224,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -3200,6 +3245,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -3224,6 +3270,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -3281,6 +3328,7 @@
         </ItemSuitArmorSignatureParams>
       </signatureParams>
       <restrictedMoveViewPenalty ReferencedFile="file://./../../../../../../../../../../../libs/foundry/records/moveviewrestrictionpenalties/armor/moveviewrestriction_armor_heavy.xml" />
+      <integrityMilestoneToBreak>0.1</integrityMilestoneToBreak>
     </SCItemSuitArmorParams>
     <SEntityComponentEffects Type="SEntityComponentEffects">
       <entityEffects Type="SEntitityEffectSystem_System">
@@ -3936,8 +3984,18 @@
       <enableMFDCasts>True</enableMFDCasts>
       <actorLookLimits ReferencedFile="file://./../../../../../../../../../../../libs/foundry/records/actor/actorviewlimits/looklimits/looklimits_helmet_heavy.xml" />
       <restrictedMoveViewPenalty ReferencedFile="file://./../../../../../../../../../../../libs/foundry/records/moveviewrestrictionpenalties/armor/moveviewrestriction_armor_heavy.xml" />
+      <hasFirstPersonGeometry>False</hasFirstPersonGeometry>
+      <animateOnEquip>False</animateOnEquip>
+      <animateOnEquipDelay>0</animateOnEquipDelay>
+      <disableBootup>True</disableBootup>
+      <disableAutomaticEVAMask>False</disableAutomaticEVAMask>
       <animationParams />
+      <bootupMovie />
+      <bootupText />
       <interactableParams />
+      <visorOpenAudioRtpc Type="AudioRtpc">
+        <rtpc />
+      </visorOpenAudioRtpc>
     </SCItemSuitHelmetParams>
     <SCItemVisorDisplayParams Type="SCItemVisorDisplayParams">
       <globalConstraint>0</globalConstraint>
@@ -4004,11 +4062,37 @@
       <runtimeImageToAggregate>False</runtimeImageToAggregate>
     </UIRenderToTextureEntityComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
-      <loadout Type="SItemPortLoadoutXMLParams">
+      <loadout Type="SItemPortLoadoutOutfitParams">
         <WearRange />
         <DirtRange />
         <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
-        <loadoutPath>Scripts/Loadouts/Player/DefaultLoadouts/helmet_default.xml</loadoutPath>
+        <BaseLoadout Type="SItemPortLoadoutXMLParams">
+          <WearRange />
+          <DirtRange />
+          <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
+          <loadoutPath>Scripts/Loadouts/Player/DefaultLoadouts/helmet_default.xml</loadoutPath>
+        </BaseLoadout>
+        <Outfits Type="SItemPortLoadoutOutfitTagParams" Count="1">
+          <SItemPortLoadoutOutfitTagParams Type="SItemPortLoadoutOutfitTagParams">
+            <OutfitNameTags Type="Tag" Count="0" />
+            <Loadouts Type="SItemPortLoadoutBaseParams" Count="1">
+              <SItemPortLoadoutManualParams Type="SItemPortLoadoutManualParams">
+                <WearRange />
+                <DirtRange />
+                <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
+                <entries Type="SItemPortLoadoutEntryParams" Count="1">
+                  <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
+                    <itemPortName>Armor_Helmet</itemPortName>
+                    <entityClassName />
+                    <entityClassReference ReferencedFile="file://./../../../../../../../../../../../libs/foundry/records/entities/scitem/suit/fps_defaultradar.xml" />
+                    <inventoryContainer />
+                    <loadout />
+                  </SItemPortLoadoutEntryParams>
+                </entries>
+              </SItemPortLoadoutManualParams>
+            </Loadouts>
+          </SItemPortLoadoutOutfitTagParams>
+        </Outfits>
       </loadout>
     </SEntityComponentDefaultLoadoutParams>
     <SEntityComponentRoomParams Type="SEntityComponentRoomParams">
@@ -4038,6 +4122,7 @@
         <audioTrigger />
       </videoAudioResumeTrigger>
       <dialogueContext />
+      <bypassRealisticMode>False</bypassRealisticMode>
     </UIAudioComponentEntityComponentParams>
     <UIBindingsConsumerEntityComponentParams Type="UIBindingsConsumerEntityComponentParams">
       <linkToPort>False</linkToPort>
@@ -4355,6 +4440,7 @@
         </PointAlignmentSlot>
       </alignmentSlots>
       <exclusivityGroups Type="AlignmentSlotExclusivityGroup" Count="0" />
+      <freeItemPortsForDirectInteraction Type="SItemPortDef" Count="0" />
       <slottingSetups Type="UsableSlottingSetup" Count="5">
         <UsableSlottingSetup Type="UsableSlottingSetup">
           <name />
@@ -4413,13 +4499,15 @@
         </UsableSlottingSetup>
       </slottingSetups>
       <views Type="Camera" Count="0" />
-      <abilityLocks Type="ActivityBehaviorRequest_Animate" Count="0" />
+      <abilityLocks Type="ActivityBehaviorRequest" Count="0" />
       <usableSequencerTasks Type="SSequencerUsableTask" Count="0" />
       <specializedData Type="SSpecializedData">
         <specializedDataEntry Type="SSpecializedDataEntry" Count="0" />
       </specializedData>
       <isExterior>False</isExterior>
       <allowDeadOrUnconscious>False</allowDeadOrUnconscious>
+      <lowEnergyThreshold>0</lowEnergyThreshold>
+      <highEnergyThreshold>2</highEnergyThreshold>
     </SActorUsableParams>
     <SubsumptionMissionLinkComponentParams Type="SubsumptionMissionLinkComponentParams" />
     <SAudioProxyParams Type="SAudioProxyParams" />

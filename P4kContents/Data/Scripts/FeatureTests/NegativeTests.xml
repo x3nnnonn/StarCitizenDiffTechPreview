@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-16"?>
-<FeatureTester>
-  <Tests setName="NegativeTests">
-    <FeatureTest name="crashTest" enabled="true">
-      <DoConsoleCommand command="sys_crashtest 1" />
-    </FeatureTest>
-  </Tests>
-</FeatureTester>

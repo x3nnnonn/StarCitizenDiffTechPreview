@@ -4,6 +4,11 @@
   <Icon>Default.bmp</Icon>
   <Invisible>False</Invisible>
   <BBoxSelection>False</BBoxSelection>
+  <defaultEditorColor Type="RGB">
+    <r>1</r>
+    <g>1</g>
+    <b>0</b>
+  </defaultEditorColor>
   <entityDensityClass ReferencedFile="file://./../../../../../../../libs/foundry/records/densityclasses/fpsitemsdensityclass.xml" />
   <tags Type="Tag" Count="11">
     <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a0191226-abf0-4677-b249-c3111aa7222f" RecordId="a0191226-abf0-4677-b249-c3111aa7222f" />
@@ -41,10 +46,11 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="SAsteroidShapeComponentParams" Count="0" />
-        <PhysFlagsColliderOverride Type="SAsteroidShapeComponentParams" Count="0" />
+        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
+        <DampingZeroG>0.01</DampingZeroG>
         <DampingFreefall>0.05</DampingFreefall>
         <PushableByPlayers>True</PushableByPlayers>
         <NeverAffectTriggers>False</NeverAffectTriggers>
@@ -61,13 +67,16 @@
         <temperature Type="EntityTemperature">
           <enable>False</enable>
           <initialTemperature>-1</initialTemperature>
-          <coolingEqualizationMultiplier>1</coolingEqualizationMultiplier>
+          <coolingEqualizationParams Type="CoolingEqualizationMultiplier">
+            <coolingEqualizationMultiplier>1</coolingEqualizationMultiplier>
+          </coolingEqualizationParams>
           <signatureParams Type="EntityTemperatureSignature">
             <enable>False</enable>
             <minimumTemperatureForIR>250</minimumTemperatureForIR>
             <temperatureToIR>6</temperatureToIR>
           </signatureParams>
           <itemResourceParams Type="EntityTemperatureItemResource">
+            <poweredAmbientCoolingMultiplier>1</poweredAmbientCoolingMultiplier>
             <minOperatingTemperature>0</minOperatingTemperature>
             <minCoolingTemperature>300</minCoolingTemperature>
             <enableOverheat>False</enableOverheat>
@@ -324,11 +333,12 @@
           </SCarryableGrip>
         </grips>
       </gripData>
-      <abilityLocks Type="ActivityBehaviorRequest_Animate" Count="0" />
+      <abilityLocks Type="ActivityBehaviorRequest" Count="0" />
       <carryableTasks Type="SSequencerCarryableTaskParams" Count="9">
         <SSequencerMoveToAnimateCarryableTaskParams Type="SSequencerMoveToAnimateCarryableTaskParams">
           <fragmentId>Take</fragmentId>
           <fragTag />
+          <bForceExactPositioning>False</bForceExactPositioning>
         </SSequencerMoveToAnimateCarryableTaskParams>
         <SSequencerBespokeTakeCarryableTaskParams Type="SSequencerBespokeTakeCarryableTaskParams">
           <fragmentId>Take</fragmentId>
@@ -337,6 +347,7 @@
         <SSequencerMoveToAnimateCarryableTaskParams Type="SSequencerMoveToAnimateCarryableTaskParams">
           <fragmentId>Place</fragmentId>
           <fragTag />
+          <bForceExactPositioning>False</bForceExactPositioning>
         </SSequencerMoveToAnimateCarryableTaskParams>
         <SSequencerBespokePlaceCarryableTaskParams Type="SSequencerBespokePlaceCarryableTaskParams">
           <fragmentId>Place</fragmentId>
@@ -348,6 +359,7 @@
         <SSequencerMoveToAnimateCarryableTaskParams Type="SSequencerMoveToAnimateCarryableTaskParams">
           <fragmentId>Take</fragmentId>
           <fragTag>first_select</fragTag>
+          <bForceExactPositioning>False</bForceExactPositioning>
         </SSequencerMoveToAnimateCarryableTaskParams>
         <SSequencerBespokeTakeCarryableTaskParams Type="SSequencerBespokeTakeCarryableTaskParams">
           <fragmentId>Take</fragmentId>
@@ -445,6 +457,7 @@
       <ikInteractionsRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/scarryableikinteractionlist/stockedikinteractionlist.xml" />
       <carryableSequences Type="SCarryableSequenceRef" Count="0" />
       <canBeCarriedInProne>True</canBeCarriedInProne>
+      <disableRotation>False</disableRotation>
     </SEntityComponentCarryableParams>
     <SEntityInteractableParams Type="SEntityInteractableParams">
       <Interactable Type="SInteractableParams">
@@ -874,6 +887,8 @@
                 <z>0</z>
               </Position>
             </InteractionPromptOffset>
+            <PromptStyle>PromptAndText</PromptStyle>
+            <OverrideControlHintDescription>False</OverrideControlHintDescription>
             <InteractionPromptScale>1</InteractionPromptScale>
             <InteractionPromptLabelVerticalOffset>70</InteractionPromptLabelVerticalOffset>
             <InteractionPromptBound>TopBoundingBoxZSurface</InteractionPromptBound>
@@ -995,6 +1010,8 @@
                 <z>0</z>
               </Position>
             </InteractionPromptOffset>
+            <PromptStyle>PromptAndText</PromptStyle>
+            <OverrideControlHintDescription>False</OverrideControlHintDescription>
             <InteractionPromptScale>1</InteractionPromptScale>
             <InteractionPromptLabelVerticalOffset>70</InteractionPromptLabelVerticalOffset>
             <InteractionPromptBound>NearestBoundingBoxIgnoreFurthestSurfaces</InteractionPromptBound>
@@ -1124,6 +1141,8 @@
                 <z>0</z>
               </Position>
             </InteractionPromptOffset>
+            <PromptStyle>PromptAndText</PromptStyle>
+            <OverrideControlHintDescription>False</OverrideControlHintDescription>
             <InteractionPromptScale>1</InteractionPromptScale>
             <InteractionPromptLabelVerticalOffset>70</InteractionPromptLabelVerticalOffset>
             <InteractionPromptBound>EntityRoot</InteractionPromptBound>
@@ -1158,6 +1177,11 @@
     <SGeometryResourceParams Type="SGeometryResourceParams">
       <ModelTag />
       <cacheResources>False</cacheResources>
+      <meshsetup Type="SGeometryMeshsetupParams">
+        <visibilityTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </visibilityTags>
+      </meshsetup>
       <Geometry Type="SGeometryNodeParams">
         <Tags />
         <Geometry Type="SGeometryDataParams">
@@ -1511,6 +1535,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -1556,6 +1581,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -1603,6 +1629,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -1648,6 +1675,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -1695,6 +1723,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -1715,6 +1744,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -1762,6 +1792,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -1815,6 +1846,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -1835,6 +1867,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -1871,6 +1904,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -1893,6 +1927,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -1915,6 +1950,7 @@
               <enterStateEffectTags Type="Tag" Count="0" />
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
@@ -2056,6 +2092,18 @@
       <placeTrigger Type="GlobalResourceAudio">
         <audioTrigger>Play_PHOB_Weapons_Generic_Rifle_Place</audioTrigger>
       </placeTrigger>
+      <tractorBeamPickupTrigger Type="GlobalResourceAudio">
+        <audioTrigger />
+      </tractorBeamPickupTrigger>
+      <tractorBeamDropTrigger Type="GlobalResourceAudio">
+        <audioTrigger />
+      </tractorBeamDropTrigger>
+      <detachBreakTrigger Type="GlobalResourceAudio">
+        <audioTrigger />
+      </detachBreakTrigger>
+      <playerCausedDetachBreakTrigger Type="GlobalResourceAudio">
+        <audioTrigger />
+      </playerCausedDetachBreakTrigger>
       <rtpcSlideVelocity Type="AudioRtpc">
         <rtpc>PhysicalAudio_Velocity</rtpc>
       </rtpcSlideVelocity>
@@ -2089,12 +2137,16 @@
       <rtpcCarried Type="AudioRtpc">
         <rtpc>PhysicalAudio_CarryState</rtpc>
       </rtpcCarried>
+      <rtpcSize Type="AudioRtpc">
+        <rtpc />
+      </rtpcSize>
       <minimumImpulseContinuous>5</minimumImpulseContinuous>
       <minimumImpulseTransient>8</minimumImpulseTransient>
       <minimumVelocityNoImpulse>3</minimumVelocityNoImpulse>
       <slideThreshold>0.5</slideThreshold>
       <rollThreshold>0.1</rollThreshold>
       <momentumScale>1</momentumScale>
+      <rollVelocityScale>1</rollVelocityScale>
       <useAABBCentre>False</useAABBCentre>
       <oneShotTag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.01580479-c8a5-4bb8-85df-56b5edc32c14" RecordId="01580479-c8a5-4bb8-85df-56b5edc32c14" />
       <oneShotCooldown>0.1</oneShotCooldown>
@@ -2370,15 +2422,18 @@
         </PointAlignmentSlot>
       </alignmentSlots>
       <exclusivityGroups Type="AlignmentSlotExclusivityGroup" Count="0" />
+      <freeItemPortsForDirectInteraction Type="SItemPortDef" Count="0" />
       <slottingSetups Type="UsableSlottingSetup" Count="0" />
       <views Type="Camera" Count="0" />
-      <abilityLocks Type="ActivityBehaviorRequest_Animate" Count="0" />
+      <abilityLocks Type="ActivityBehaviorRequest" Count="0" />
       <usableSequencerTasks Type="SSequencerUsableTask" Count="0" />
       <specializedData Type="SSpecializedData">
         <specializedDataEntry Type="SSpecializedDataEntry" Count="0" />
       </specializedData>
       <isExterior>False</isExterior>
       <allowDeadOrUnconscious>False</allowDeadOrUnconscious>
+      <lowEnergyThreshold>0</lowEnergyThreshold>
+      <highEnergyThreshold>2</highEnergyThreshold>
     </SActorUsableParams>
     <SCItemPurchasableParams Type="SCItemPurchasableParams">
       <Display />
@@ -2553,7 +2608,8 @@
             <useLUT>False</useLUT>
           </timePrecisionCurve>
         </shootingTimeAccuracyData>
-        <idealCombatRange>50</idealCombatRange>
+        <idealCombatRange>30</idealCombatRange>
+        <maxFiringRange>50</maxFiringRange>
         <CombatRangeCategory>Medium</CombatRangeCategory>
         <baseAccuracy>0.13</baseAccuracy>
         <impactRadiusForFriendlyFire>0</impactRadiusForFriendlyFire>
@@ -2616,6 +2672,7 @@
           <chargeTimeMultiplier>1</chargeTimeMultiplier>
           <useAlternateProjectileVisuals>False</useAlternateProjectileVisuals>
           <useAugmentedRealityProjectiles>False</useAugmentedRealityProjectiles>
+          <disableMisfire>False</disableMisfire>
           <recoilModifier Type="SRecoilModifier">
             <decayMultiplier>1</decayMultiplier>
             <endDecayMultiplier>1</endDecayMultiplier>
@@ -2630,6 +2687,7 @@
             <frontalOscillationDecayMultiplier>1</frontalOscillationDecayMultiplier>
             <frontalOscillationRandomnessMultiplier>1</frontalOscillationRandomnessMultiplier>
             <animatedRecoilMultiplier>1</animatedRecoilMultiplier>
+            <disableRecoil>False</disableRecoil>
             <headRotationMultiplier Type="Vec3">
               <x>1</x>
               <y>1</y>
@@ -2828,6 +2886,7 @@
           <chargeTimeMultiplier>1</chargeTimeMultiplier>
           <useAlternateProjectileVisuals>False</useAlternateProjectileVisuals>
           <useAugmentedRealityProjectiles>False</useAugmentedRealityProjectiles>
+          <disableMisfire>False</disableMisfire>
           <recoilModifier Type="SRecoilModifier">
             <decayMultiplier>1</decayMultiplier>
             <endDecayMultiplier>1</endDecayMultiplier>
@@ -2842,6 +2901,7 @@
             <frontalOscillationDecayMultiplier>1</frontalOscillationDecayMultiplier>
             <frontalOscillationRandomnessMultiplier>1</frontalOscillationRandomnessMultiplier>
             <animatedRecoilMultiplier>1</animatedRecoilMultiplier>
+            <disableRecoil>False</disableRecoil>
             <headRotationMultiplier Type="Vec3">
               <x>1</x>
               <y>1</y>
@@ -3040,6 +3100,7 @@
           <chargeTimeMultiplier>1</chargeTimeMultiplier>
           <useAlternateProjectileVisuals>False</useAlternateProjectileVisuals>
           <useAugmentedRealityProjectiles>False</useAugmentedRealityProjectiles>
+          <disableMisfire>False</disableMisfire>
           <recoilModifier Type="SRecoilModifier">
             <decayMultiplier>1</decayMultiplier>
             <endDecayMultiplier>1</endDecayMultiplier>
@@ -3054,6 +3115,7 @@
             <frontalOscillationDecayMultiplier>1</frontalOscillationDecayMultiplier>
             <frontalOscillationRandomnessMultiplier>1</frontalOscillationRandomnessMultiplier>
             <animatedRecoilMultiplier>1</animatedRecoilMultiplier>
+            <disableRecoil>False</disableRecoil>
             <headRotationMultiplier Type="Vec3">
               <x>1</x>
               <y>1</y>
@@ -3252,6 +3314,7 @@
           <chargeTimeMultiplier>1</chargeTimeMultiplier>
           <useAlternateProjectileVisuals>False</useAlternateProjectileVisuals>
           <useAugmentedRealityProjectiles>False</useAugmentedRealityProjectiles>
+          <disableMisfire>False</disableMisfire>
           <recoilModifier Type="SRecoilModifier">
             <decayMultiplier>1</decayMultiplier>
             <endDecayMultiplier>1</endDecayMultiplier>
@@ -3266,6 +3329,7 @@
             <frontalOscillationDecayMultiplier>1</frontalOscillationDecayMultiplier>
             <frontalOscillationRandomnessMultiplier>1</frontalOscillationRandomnessMultiplier>
             <animatedRecoilMultiplier>1</animatedRecoilMultiplier>
+            <disableRecoil>False</disableRecoil>
             <headRotationMultiplier Type="Vec3">
               <x>1</x>
               <y>1</y>
@@ -3464,6 +3528,7 @@
           <chargeTimeMultiplier>1</chargeTimeMultiplier>
           <useAlternateProjectileVisuals>False</useAlternateProjectileVisuals>
           <useAugmentedRealityProjectiles>False</useAugmentedRealityProjectiles>
+          <disableMisfire>False</disableMisfire>
           <recoilModifier Type="SRecoilModifier">
             <decayMultiplier>1</decayMultiplier>
             <endDecayMultiplier>1</endDecayMultiplier>
@@ -3478,6 +3543,7 @@
             <frontalOscillationDecayMultiplier>1</frontalOscillationDecayMultiplier>
             <frontalOscillationRandomnessMultiplier>1</frontalOscillationRandomnessMultiplier>
             <animatedRecoilMultiplier>1</animatedRecoilMultiplier>
+            <disableRecoil>False</disableRecoil>
             <headRotationMultiplier Type="Vec3">
               <x>1</x>
               <y>1</y>
@@ -3681,6 +3747,7 @@
             <scale>1</scale>
             <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
             <isMuzzleFlash>False</isMuzzleFlash>
+            <effectCondition />
           </SWeaponParticleEffectParams>
         </overheatEffects>
         <maxGlow>100</maxGlow>
@@ -3734,6 +3801,7 @@
             <chargeTimeMultiplier>1</chargeTimeMultiplier>
             <useAlternateProjectileVisuals>False</useAlternateProjectileVisuals>
             <useAugmentedRealityProjectiles>False</useAugmentedRealityProjectiles>
+            <disableMisfire>False</disableMisfire>
             <recoilModifier Type="SRecoilModifier">
               <decayMultiplier>1</decayMultiplier>
               <endDecayMultiplier>1</endDecayMultiplier>
@@ -3748,6 +3816,7 @@
               <frontalOscillationDecayMultiplier>1</frontalOscillationDecayMultiplier>
               <frontalOscillationRandomnessMultiplier>1</frontalOscillationRandomnessMultiplier>
               <animatedRecoilMultiplier>1</animatedRecoilMultiplier>
+              <disableRecoil>False</disableRecoil>
               <headRotationMultiplier Type="Vec3">
                 <x>1</x>
                 <y>1</y>
@@ -4045,6 +4114,26 @@
           <dryFireAudioTrigger Type="GlobalResourceAudio">
             <audioTrigger>Play_WPFA_Handling_KSAR_Rifle_Karna_Dry_Fire</audioTrigger>
           </dryFireAudioTrigger>
+          <NLPCAudioTriggers Type="SWeaponActionFireRapidNLPCAudioTriggers">
+            <startFireAudioTrigger Type="GlobalResourceAudio">
+              <audioTrigger />
+            </startFireAudioTrigger>
+            <startFireAudioTriggerOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </startFireAudioTriggerOneShot>
+            <stopFireAudioTrigger Type="GlobalResourceAudio">
+              <audioTrigger />
+            </stopFireAudioTrigger>
+            <startRotationAudioTrigger Type="GlobalResourceAudio">
+              <audioTrigger />
+            </startRotationAudioTrigger>
+            <stopRotationAudioTrigger Type="GlobalResourceAudio">
+              <audioTrigger />
+            </stopRotationAudioTrigger>
+            <dryFireAudioTrigger Type="GlobalResourceAudio">
+              <audioTrigger />
+            </dryFireAudioTrigger>
+          </NLPCAudioTriggers>
           <spinRTPC Type="AudioRtpc">
             <rtpc>Weapon_Rotation_Speed</rtpc>
           </spinRTPC>
@@ -4069,6 +4158,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
             <SWeaponParticleEffectParams Type="SWeaponParticleEffectParams">
               <firstPerson Type="GlobalResourceParticle">
@@ -4084,6 +4174,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
           </fireEffects>
           <stopFireEffects Type="SWeaponParticleEffectParams" Count="8">
@@ -4101,6 +4192,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
             <SWeaponParticleEffectParams Type="SWeaponParticleEffectParams">
               <firstPerson Type="GlobalResourceParticle">
@@ -4116,6 +4208,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
             <SWeaponParticleEffectParams Type="SWeaponParticleEffectParams">
               <firstPerson Type="GlobalResourceParticle">
@@ -4131,6 +4224,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
             <SWeaponParticleEffectParams Type="SWeaponParticleEffectParams">
               <firstPerson Type="GlobalResourceParticle">
@@ -4146,6 +4240,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
             <SWeaponParticleEffectParams Type="SWeaponParticleEffectParams">
               <firstPerson Type="GlobalResourceParticle">
@@ -4161,6 +4256,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
             <SWeaponParticleEffectParams Type="SWeaponParticleEffectParams">
               <firstPerson Type="GlobalResourceParticle">
@@ -4176,6 +4272,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
             <SWeaponParticleEffectParams Type="SWeaponParticleEffectParams">
               <firstPerson Type="GlobalResourceParticle">
@@ -4191,6 +4288,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
             <SWeaponParticleEffectParams Type="SWeaponParticleEffectParams">
               <firstPerson Type="GlobalResourceParticle">
@@ -4206,12 +4304,14 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
           </stopFireEffects>
           <vibrationParams Type="SWeaponVibrationParams">
             <vibrationImpulse>2500</vibrationImpulse>
           </vibrationParams>
           <signatureEmitterParams />
+          <adaptiveTriggerParams />
         </SWeaponActionFireRapidParams>
         <SWeaponActionFireChargedParams Type="SWeaponActionFireChargedParams">
           <name>Charge</name>
@@ -4256,6 +4356,7 @@
             <chargeTimeMultiplier>1</chargeTimeMultiplier>
             <useAlternateProjectileVisuals>False</useAlternateProjectileVisuals>
             <useAugmentedRealityProjectiles>False</useAugmentedRealityProjectiles>
+            <disableMisfire>False</disableMisfire>
             <recoilModifier Type="SRecoilModifier">
               <decayMultiplier>1</decayMultiplier>
               <endDecayMultiplier>1</endDecayMultiplier>
@@ -4270,6 +4371,7 @@
               <frontalOscillationDecayMultiplier>1</frontalOscillationDecayMultiplier>
               <frontalOscillationRandomnessMultiplier>1</frontalOscillationRandomnessMultiplier>
               <animatedRecoilMultiplier>1</animatedRecoilMultiplier>
+              <disableRecoil>False</disableRecoil>
               <headRotationMultiplier Type="Vec3">
                 <x>1</x>
                 <y>1</y>
@@ -4507,12 +4609,27 @@
             <cooldownStopTrigger Type="GlobalResourceAudio">
               <audioTrigger />
             </cooldownStopTrigger>
+            <NLPCAudioTriggers Type="SWeaponActionFireSingleNLPCAudioTriggers">
+              <fireAudioTrigger Type="GlobalResourceAudio">
+                <audioTrigger />
+              </fireAudioTrigger>
+              <dryFireAudioTrigger Type="GlobalResourceAudio">
+                <audioTrigger />
+              </dryFireAudioTrigger>
+              <cooldownStartTrigger Type="GlobalResourceAudio">
+                <audioTrigger />
+              </cooldownStartTrigger>
+              <cooldownStopTrigger Type="GlobalResourceAudio">
+                <audioTrigger />
+              </cooldownStopTrigger>
+            </NLPCAudioTriggers>
             <fireEffects Type="SWeaponParticleEffectParams" Count="0" />
             <vibrationParams Type="SWeaponVibrationParams">
               <vibrationImpulse>2500</vibrationImpulse>
             </vibrationParams>
             <explosionParams />
             <signatureEmitterParams />
+            <adaptiveTriggerParams />
           </weaponAction>
           <chargeFragment Type="SFragmentParams">
             <fragment>charge</fragment>
@@ -4556,6 +4673,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
           </chargingEffects>
           <chargedEffects Type="SWeaponParticleEffectParams" Count="1">
@@ -4573,6 +4691,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
           </chargedEffects>
           <overchargedEffects Type="SWeaponParticleEffectParams" Count="3">
@@ -4590,6 +4709,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
             <SWeaponParticleEffectParams Type="SWeaponParticleEffectParams">
               <firstPerson Type="GlobalResourceParticle">
@@ -4605,6 +4725,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
             <SWeaponParticleEffectParams Type="SWeaponParticleEffectParams">
               <firstPerson Type="GlobalResourceParticle">
@@ -4620,6 +4741,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
           </overchargedEffects>
           <fireEffects Type="SWeaponParticleEffectParams" Count="3">
@@ -4637,6 +4759,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
             <SWeaponParticleEffectParams Type="SWeaponParticleEffectParams">
               <firstPerson Type="GlobalResourceParticle">
@@ -4652,6 +4775,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
             <SWeaponParticleEffectParams Type="SWeaponParticleEffectParams">
               <firstPerson Type="GlobalResourceParticle">
@@ -4667,6 +4791,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
           </fireEffects>
           <maxChargeFireEffects Type="SWeaponParticleEffectParams" Count="1">
@@ -4684,8 +4809,11 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
           </maxChargeFireEffects>
+          <weaponIdleEffects Type="SWeaponParticleEffectParams" Count="0" />
+          <adaptiveTriggerParams />
         </SWeaponActionFireChargedParams>
       </fireActions>
       <audioParams Type="SWeaponAudioParams">
@@ -4699,6 +4827,9 @@
         <switchFireModeAudioTrigger Type="GlobalResourceAudio">
           <audioTrigger>Play_WPFA_KSAR_Rifle_Karna_FiremodeSwitch</audioTrigger>
         </switchFireModeAudioTrigger>
+        <switchWeaponPresetAudioTrigger Type="GlobalResourceAudio">
+          <audioTrigger />
+        </switchWeaponPresetAudioTrigger>
         <weaponHeatRTPC Type="AudioRtpc">
           <rtpc>Weapon_Heat_Level</rtpc>
         </weaponHeatRTPC>
@@ -4851,6 +4982,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
             <SWeaponParticleEffectParams Type="SWeaponParticleEffectParams">
               <firstPerson Type="GlobalResourceParticle">
@@ -4866,6 +4998,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
           </effects>
         </SWeaponParticleEffectParamsArray>
@@ -4888,6 +5021,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
             <SWeaponParticleEffectParams Type="SWeaponParticleEffectParams">
               <firstPerson Type="GlobalResourceParticle">
@@ -4903,6 +5037,7 @@
               <scale>1</scale>
               <retriggerOnViewModeChange>False</retriggerOnViewModeChange>
               <isMuzzleFlash>False</isMuzzleFlash>
+              <effectCondition />
             </SWeaponParticleEffectParams>
           </effects>
         </SWeaponParticleEffectParamsArray>
@@ -5002,13 +5137,16 @@
       <Ports Type="SItemPortDef" Count="5">
         <SItemPortDef Pointer="ptr:27" Type="SItemPortDef">
           <Name>magazine_attach</Name>
-          <DisplayName>Magazine Slot</DisplayName>
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags>ksar_rifle_energy_01</PortTags>
           <RequiredPortTags>ksar_rifle_energy_01</RequiredPortTags>
           <Flags />
           <Tags Type="Tag" Count="0" />
+          <OnAttachTags Type="Tag" Count="0" />
+          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>1</MaxSize>
+          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -5041,7 +5179,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="LinkedStat" Count="1">
+              <SubTypes Type="StatusEffectBuffMacro" Count="1">
                 <EnumChoice>Magazine</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -5093,7 +5231,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>optics_attach</Name>
-          <DisplayName>OpticsSlot</DisplayName>
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>inventory</Flags>
@@ -5101,8 +5239,11 @@
             <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.201aae5c-92c9-43f9-8c6c-b50c279080f8" RecordId="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
             <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.fdd7e1a2-e990-4346-a08c-d22d1480e39c" RecordId="fdd7e1a2-e990-4346-a08c-d22d1480e39c" />
           </Tags>
+          <OnAttachTags Type="Tag" Count="0" />
+          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>2</MaxSize>
+          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -5135,7 +5276,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="LinkedStat" Count="1">
+              <SubTypes Type="StatusEffectBuffMacro" Count="1">
                 <EnumChoice>IronSight</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -5187,7 +5328,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>barrel_attach</Name>
-          <DisplayName>BarrelSlot</DisplayName>
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags>FPS_Barrel energy_attach</RequiredPortTags>
           <Flags>inventory energy_barrel</Flags>
@@ -5195,8 +5336,11 @@
             <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.201aae5c-92c9-43f9-8c6c-b50c279080f8" RecordId="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
             <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.fdd7e1a2-e990-4346-a08c-d22d1480e39c" RecordId="fdd7e1a2-e990-4346-a08c-d22d1480e39c" />
           </Tags>
+          <OnAttachTags Type="Tag" Count="0" />
+          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>2</MinSize>
           <MaxSize>2</MaxSize>
+          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -5229,7 +5373,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="LinkedStat" Count="1">
+              <SubTypes Type="StatusEffectBuffMacro" Count="1">
                 <EnumChoice>Barrel</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -5281,7 +5425,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>underbarrel_attach</Name>
-          <DisplayName>UnderbarrelSlot</DisplayName>
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>inventory</Flags>
@@ -5289,8 +5433,11 @@
             <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.201aae5c-92c9-43f9-8c6c-b50c279080f8" RecordId="201aae5c-92c9-43f9-8c6c-b50c279080f8" />
             <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.fdd7e1a2-e990-4346-a08c-d22d1480e39c" RecordId="fdd7e1a2-e990-4346-a08c-d22d1480e39c" />
           </Tags>
+          <OnAttachTags Type="Tag" Count="0" />
+          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>1</MinSize>
           <MaxSize>2</MaxSize>
+          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -5323,7 +5470,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="LinkedStat" Count="1">
+              <SubTypes Type="StatusEffectBuffMacro" Count="1">
                 <EnumChoice>BottomAttachment</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -5375,13 +5522,16 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>item_grab</Name>
-          <DisplayName />
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags />
           <Tags Type="Tag" Count="0" />
+          <OnAttachTags Type="Tag" Count="0" />
+          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
           <MinSize>0</MinSize>
           <MaxSize>0</MaxSize>
+          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
             <entityClass />
@@ -5491,7 +5641,11 @@
         </baseSignatureParams>
         <crossSectionParams />
         <emissionModifierParams />
+        <deathParams />
         <scanBounds />
+        <roomParams Type="SCSignatureSystemRoomParams">
+          <ignoreInteriorVsExteriorCheck>False</ignoreInteriorVsExteriorCheck>
+        </roomParams>
       </radarProperties>
       <audioParams />
       <scanCustomData />
@@ -5506,6 +5660,9 @@
       </overriddenSize>
       <enableDetectionOnItemPort>False</enableDetectionOnItemPort>
       <ignoreHighlightWhenDetectorInsideBounds>False</ignoreHighlightWhenDetectorInsideBounds>
+      <linkedObjectives Type="MissionObjective" Count="0" />
+      <ignoreHighlightWhenNoLinkedOrActiveObjectives>False</ignoreHighlightWhenNoLinkedOrActiveObjectives>
+      <priorityBoxoutTag />
       <isObjectOfInterest>False</isObjectOfInterest>
     </SSCSignatureSystemParams>
     <SInteractionLinkParams Type="SInteractionLinkParams">
@@ -5528,13 +5685,18 @@
           <UseAsTimer>False</UseAsTimer>
           <InitialAgeRatio>0</InitialAgeRatio>
           <InitialUsageRatio>0</InitialUsageRatio>
-          <BasePowerMultiplier>0</BasePowerMultiplier>
-          <DrawPowerMultiplier>0</DrawPowerMultiplier>
           <AtmosphereMultiplier>1</AtmosphereMultiplier>
           <HeatMultipliers Type="HeatDegradation">
             <NormalTemperatureMultiplier>1</NormalTemperatureMultiplier>
             <OverheatTemperatureMultiplier>1</OverheatTemperatureMultiplier>
           </HeatMultipliers>
+          <FunctionalityMultiplier Type="FunctionalityDegradation">
+            <FunctionalityMultiplyCurve Type="BezierCurve">
+              <points Type="Vec2" Count="0" />
+              <useLUT>False</useLUT>
+            </FunctionalityMultiplyCurve>
+            <UsePowerRatio>True</UsePowerRatio>
+          </FunctionalityMultiplier>
           <DamageConversionRate>0.01</DamageConversionRate>
           <EffectCurve Type="BezierCurve">
             <points Type="Vec2" Count="0" />
@@ -5599,6 +5761,7 @@
               <component Type="UIGraph_BuildingBlocksContextComponent">
                 <canvas ReferencedFile="file://./../../../../../../../libs/foundry/records/ui/buildingblocks/weapons/ksar/w_weap_ksar_rifle_energy.xml" />
                 <isSystemViewInstance>False</isSystemViewInstance>
+                <canvasInstantiationMode>RootDeferred</canvasInstantiationMode>
               </component>
             </BuildingBlocksView>
           </views>

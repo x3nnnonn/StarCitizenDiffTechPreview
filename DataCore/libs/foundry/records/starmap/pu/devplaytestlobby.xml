@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<StarMapObject.DEVPlaytestLobby RecordId="d8615c12-9724-4716-9e40-054535a2bd84" Type="StarMapObject">
+  <name>@E1_C04DS18_Branch01_Choice02</name>
+  <affiliation />
+  <description>@Pyro3_desc</description>
+  <callout1>@LOC_UNINITIALIZED</callout1>
+  <callout2>@LOC_UNINITIALIZED</callout2>
+  <callout3>@LOC_UNINITIALIZED</callout3>
+  <respawnLocationType>Hospital</respawnLocationType>
+  <jurisdiction />
+  <locationHierarchyTag />
+  <type RecordReference="file://./../../../../../libs/foundry/records/starmap/starmapobjecttypes.xml" RecordName="StarMapObjectType.73efbf7b-a595-49df-b99f-f3fe75558d8a" RecordId="73efbf7b-a595-49df-b99f-f3fe75558d8a" />
+  <radarProperties />
+  <navIcon>Planet</navIcon>
+  <parent ReferencedFile="file://./../../../../../libs/foundry/records/starmap/pu/system/pyro/pyro3/pyro3.xml" />
+  <isScannable>False</isScannable>
+  <size>313900</size>
+  <hideInStarmap>False</hideInStarmap>
+  <hideInWorld>False</hideInWorld>
+  <hideWhenInAdoptionRadius>False</hideWhenInAdoptionRadius>
+  <blockTravel>False</blockTravel>
+  <onlyShowWhenParentSelected>False</onlyShowWhenParentSelected>
+  <overrideShowInAllZones>NoOverride</overrideShowInAllZones>
+  <overridePermanent>NoOverride</overridePermanent>
+  <minimumDisplaySize>0</minimumDisplaySize>
+  <overrideRotationSpeed>True</overrideRotationSpeed>
+  <overrideRotationSpeedValue>2</overrideRotationSpeedValue>
+  <showOrbitLine>True</showOrbitLine>
+  <useHoloMaterial>False</useHoloMaterial>
+  <noAutoBodyRecovery>False</noAutoBodyRecovery>
+  <starMapGeomPath>Objects/UI/holo/holovolume/ui_hologlobe/ui_hs_planetary_sphere.cgf</starMapGeomPath>
+  <starMapMaterialPath>textures/planet/global/system/nyx/delamar/nyx_delamar_starmap.mtl</starMapMaterialPath>
+  <starMapShapePath>UI/Textures/Vector/General/MarkerIcons/ui_icon_general_01.svg</starMapShapePath>
+  <assetManagerLocationParams Type="StarMapAssetManagerLocationParams">
+    <previewImagePath />
+    <previewIconPath />
+  </assetManagerLocationParams>
+  <asteroidRings Type="StarMapAsteroidRing" Count="0" />
+  <quantumTravelData Type="StarMapQuantumTravelDataParams">
+    <obstructionRadius>434595</obstructionRadius>
+    <arrivalRadius>584595</arrivalRadius>
+    <arrivalPointDetectionOffset>77645</arrivalPointDetectionOffset>
+    <adoptionRadius>643054.5</adoptionRadius>
+    <subPointRadiusMultiplier>1.5</subPointRadiusMultiplier>
+  </quantumTravelData>
+  <locationParams Type="StarMapObjectLocationParams">
+    <setEntityLocationOnEnter>True</setEntityLocationOnEnter>
+    <exposeForPlayerCreatedMissions>False</exposeForPlayerCreatedMissions>
+    <excludeFromLevelLoad>False</excludeFromLevelLoad>
+    <densityClassOverwrites />
+    <densityClassLifetimeOverrides Type="SStarMapDensityClassLifetimeOverrideEntry" Count="0" />
+  </locationParams>
+  <locationImagePath />
+  <locationMedicalImagePath />
+  <locationAudioPlayTrigger Type="GlobalResourceAudio">
+    <audioTrigger />
+  </locationAudioPlayTrigger>
+  <locationAudioStopTrigger Type="GlobalResourceAudio">
+    <audioTrigger />
+  </locationAudioStopTrigger>
+  <amenities Type="StarMapAmenityTypeEntry" Count="0" />
+</StarMapObject.DEVPlaytestLobby>

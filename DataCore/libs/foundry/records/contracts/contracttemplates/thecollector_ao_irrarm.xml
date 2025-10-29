@@ -124,6 +124,13 @@
         <failIfMinAmountNotFound>False</failIfMinAmountNotFound>
       </value>
     </MissionProperty>
+    <MissionProperty Pointer="ptr:3" Type="MissionProperty">
+      <missionVariableName>HaulingOverride</missionVariableName>
+      <extendedTextToken />
+      <value Type="MissionPropertyValue_HaulingOrders">
+        <haulingOrderContent Type="HaulingOrderContentBase" Count="0" />
+      </value>
+    </MissionProperty>
     <MissionProperty Pointer="ptr:9" Type="MissionProperty">
       <missionVariableName>CN_MissionAccept</missionVariableName>
       <extendedTextToken />
@@ -174,13 +181,6 @@
           <tags Type="Tag" Count="0" />
         </negativeTags>
         <options Type="MissionPropertyValueOption_Tags" Count="0" />
-      </value>
-    </MissionProperty>
-    <MissionProperty Pointer="ptr:3" Type="MissionProperty">
-      <missionVariableName>HaulingOverride</missionVariableName>
-      <extendedTextToken />
-      <value Type="MissionPropertyValue_HaulingOrders">
-        <haulingOrderContent Type="HaulingOrderContentBase" Count="0" />
       </value>
     </MissionProperty>
   </contractProperties>
@@ -275,7 +275,7 @@
             <dropOffLocation PointsTo="ptr:6" />
             <pickUpTargetTypes Type="DeliveryTarget" Count="0" />
             <dropOffTargetTypes Type="DeliveryTarget" Count="0" />
-            <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/characters/human/armor/pu_armor/heavy/helmet/qrt_specialist_heavy_helmet_01_01_01.xml" />
+            <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/characters/human/starwear/helmet/heavy/qrt_specialist_heavy_helmet_01_01_01.xml" />
             <minAmount>1</minAmount>
             <maxAmount>0</maxAmount>
           </HaulingOrder_EntityClass>
