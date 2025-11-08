@@ -40,7 +40,7 @@
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>Hockrow_ASD_ResourceGathering</debugName>
-          <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/itemresourcegathering_single_sampletube.xml" />
+          <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/itemresourcegathering_generic.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
               <ContractStringParam Type="ContractStringParam">
@@ -68,7 +68,7 @@
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>DropoffLocation_BP</missionVariableName>
                 <extendedTextToken>Destination</extendedTextToken>
-                <value Type="MissionPropertyValue_Locations">
+                <value Type="MissionPropertyValue_Location">
                   <matchConditions Type="BaseDataSetMatchCondition" Count="1">
                     <DataSetMatchCondition_TagSearch Type="DataSetMatchCondition_TagSearch">
                       <tagSearch Type="TagSearchTerm" Count="1">
@@ -86,9 +86,6 @@
                   <resourceTags Type="Tag" Count="0" />
                   <resourcePriority>Contract</resourcePriority>
                   <logErrorOnSearchFail>True</logErrorOnSearchFail>
-                  <minLocationsToFind>4</minLocationsToFind>
-                  <maxLocationsToFind>4</maxLocationsToFind>
-                  <failIfMinAmountNotFound>False</failIfMinAmountNotFound>
                 </value>
               </MissionProperty>
               <MissionProperty Type="MissionProperty">

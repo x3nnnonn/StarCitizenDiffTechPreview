@@ -2,6 +2,12 @@
 <Directory Name="window">
   <File Name="bespoke_window_visarea.cgf" CRC32="0xFB95E0B6" Size="944" CompressionType="100" Encrypted="False" />
   <File Name="bespoke_window_visarea.cgfm" CRC32="0x53B4D482" Size="1464" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_base_08x08x08_a_glass_lod1.cgf" CRC32="0x7367BAA4" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_base_08x08x08_a_glass_lod1.cgfm" CRC32="0x03ED967A" Size="5376" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_base_08x08x08_a_glass_lod2.cgf" CRC32="0xE11DFDF7" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_base_08x08x08_a_glass_lod2.cgfm" CRC32="0xE49FE1E4" Size="896" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_base_08x08x08_a_glass.cgf" CRC32="0xD321DA48" Size="5344" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_base_08x08x08_a_glass.cgfm" CRC32="0x8C677340" Size="9184" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_base_08x08x08_a_lod1.cgf" CRC32="0xB39FA83E" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_base_08x08x08_a_lod1.cgfm" CRC32="0xF4F69A88" Size="261504" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_base_08x08x08_a_lod2.cgf" CRC32="0xDCB88F5A" Size="152" CompressionType="100" Encrypted="False" />
@@ -12,7 +18,7 @@
   <File Name="roomlg_window_base_08x08x08_a_lod4.cgfm" CRC32="0x8A29B6E7" Size="19064" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_base_08x08x08_a_lod5.cgf" CRC32="0x8C47B75F" Size="136" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_base_08x08x08_a_lod5.cgfm" CRC32="0xF6FC40CC" Size="9112" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_base_08x08x08_a.cgf" CRC32="0x31A35D09" Size="137976" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_base_08x08x08_a.cgf" CRC32="0x88F676F0" Size="137976" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_base_08x08x08_a.cgfm" CRC32="0xF70E0EC0" Size="491792" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_base_16x08x08_a_lod1.cgf" CRC32="0xEC0FA436" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_base_16x08x08_a_lod1.cgfm" CRC32="0x0C1CB1BC" Size="262064" CompressionType="100" Encrypted="False" />
@@ -116,6 +122,18 @@
   <File Name="roomlg_window_bespoke_int_20x07x08_e_lod5.cgfm" CRC32="0x4D14D96C" Size="15688" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_bespoke_int_20x07x08_e.cgf" CRC32="0x4CB0BC9E" Size="71200" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_bespoke_int_20x07x08_e.cgfm" CRC32="0xB5B0C4BA" Size="275424" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_bespoke_int_20x07x08_f_lod1.cgf" CRC32="0xDD66D358" Size="152" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_bespoke_int_20x07x08_f_lod1.cgfm" CRC32="0xC81CE5C0" Size="187992" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_bespoke_int_20x07x08_f_lod2.cgf" CRC32="0xA104602A" Size="152" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_bespoke_int_20x07x08_f_lod2.cgfm" CRC32="0xED525438" Size="102320" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_bespoke_int_20x07x08_f_lod3.cgf" CRC32="0xA6737E8C" Size="144" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_bespoke_int_20x07x08_f_lod3.cgfm" CRC32="0xAB7EA99A" Size="58952" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_bespoke_int_20x07x08_f_lod4.cgf" CRC32="0x45FDAFC1" Size="144" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_bespoke_int_20x07x08_f_lod4.cgfm" CRC32="0xB5922923" Size="28464" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_bespoke_int_20x07x08_f_lod5.cgf" CRC32="0xE7BAFC0E" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_bespoke_int_20x07x08_f_lod5.cgfm" CRC32="0x1478EDE6" Size="7688" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_bespoke_int_20x07x08_f.cgf" CRC32="0xD35D3E07" Size="105120" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_bespoke_int_20x07x08_f.cgfm" CRC32="0xA6703769" Size="333512" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_bespoke_int_glass_a.cgf" CRC32="0x4A2E0E38" Size="2424" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_bespoke_int_glass_a.cgfm" CRC32="0x429D2A33" Size="2728" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_bespoke_int_glass_b.cgf" CRC32="0x69FD1F86" Size="2456" CompressionType="100" Encrypted="False" />
@@ -157,6 +175,12 @@
   <File Name="roomlg_window_cornerin_08x01x04_b_lod5.cgfm" CRC32="0x86DAFDEF" Size="9496" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_08x01x04_b.cgf" CRC32="0x06CB807F" Size="134784" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_08x01x04_b.cgfm" CRC32="0x4211B10A" Size="474096" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_a_glass_lod1.cgf" CRC32="0xF46106A3" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_a_glass_lod1.cgfm" CRC32="0x6E743E25" Size="11800" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_a_glass_lod2.cgf" CRC32="0x94BF6711" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_a_glass_lod2.cgfm" CRC32="0xECF9B885" Size="1128" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_a_glass.cgf" CRC32="0xC3912476" Size="6208" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_a_glass.cgfm" CRC32="0x98C96384" Size="20792" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_base_08x08x08_a_lod1.cgf" CRC32="0x97CDB387" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_base_08x08x08_a_lod1.cgfm" CRC32="0x1DD28AD7" Size="418384" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_base_08x08x08_a_lod2.cgf" CRC32="0x34CC69D6" Size="152" CompressionType="100" Encrypted="False" />
@@ -167,20 +191,32 @@
   <File Name="roomlg_window_cornerin_base_08x08x08_a_lod4.cgfm" CRC32="0x8482F271" Size="29952" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_base_08x08x08_a_lod5.cgf" CRC32="0xFAA43F3D" Size="136" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_base_08x08x08_a_lod5.cgfm" CRC32="0x1F8FC8FE" Size="12656" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_base_08x08x08_a.cgf" CRC32="0xC53FE46E" Size="219968" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_a.cgf" CRC32="0x1B6EDDC4" Size="219968" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_base_08x08x08_a.cgfm" CRC32="0xAD9FE3EA" Size="783416" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_base_08x08x08_b_lod1.cgf" CRC32="0xE05D81B7" Size="152" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_base_08x08x08_b_lod1.cgfm" CRC32="0xE1FE1924" Size="425656" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_base_08x08x08_b_lod2.cgf" CRC32="0x262356EB" Size="152" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_base_08x08x08_b_lod2.cgfm" CRC32="0x815FD4D4" Size="169104" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_b_glass_lod1.cgf" CRC32="0x19AD7627" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_b_glass_lod1.cgfm" CRC32="0x612F62B2" Size="12400" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_b_glass_lod2.cgf" CRC32="0x4BD70B8F" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_b_glass_lod2.cgfm" CRC32="0x26D5BB6F" Size="1232" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_b_glass.cgf" CRC32="0xA927332B" Size="6840" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_b_glass.cgfm" CRC32="0x71EFE845" Size="21960" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_b_lod1.cgf" CRC32="0x69E3A5D2" Size="152" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_b_lod1.cgfm" CRC32="0xBD48E21E" Size="413816" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_b_lod2.cgf" CRC32="0x1CCEFB2D" Size="152" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_b_lod2.cgfm" CRC32="0xDEE8AD71" Size="165496" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_base_08x08x08_b_lod3.cgf" CRC32="0x645F598F" Size="152" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_base_08x08x08_b_lod3.cgfm" CRC32="0xC3339AD0" Size="69896" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_b_lod3.cgfm" CRC32="0xE7E01847" Size="69896" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_base_08x08x08_b_lod4.cgf" CRC32="0xEADFBF27" Size="136" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_base_08x08x08_b_lod4.cgfm" CRC32="0xBF4FC574" Size="27888" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_base_08x08x08_b_lod5.cgf" CRC32="0x169823F3" Size="136" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_base_08x08x08_b_lod5.cgfm" CRC32="0xC2F62446" Size="12168" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_base_08x08x08_b.cgf" CRC32="0x5C25BC32" Size="219968" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_base_08x08x08_b.cgfm" CRC32="0x56AA8B25" Size="783496" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_b.cgf" CRC32="0xBDDF7B3C" Size="214280" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_base_08x08x08_b.cgfm" CRC32="0x798B0D05" Size="763784" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_a_glass_lod1.cgf" CRC32="0x1406B152" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_a_glass_lod1.cgfm" CRC32="0x9C61E4DF" Size="9328" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_a_glass_lod2.cgf" CRC32="0x149E4319" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_a_glass_lod2.cgfm" CRC32="0x2143475C" Size="896" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_a_glass.cgf" CRC32="0xC0889CC8" Size="5024" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_a_glass.cgfm" CRC32="0x09E2EABF" Size="16464" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_mid_08x08x08_a_lod1.cgf" CRC32="0x329F4ADF" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_mid_08x08x08_a_lod1.cgfm" CRC32="0x3B2035C7" Size="324432" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_mid_08x08x08_a_lod2.cgf" CRC32="0x59ABA90C" Size="152" CompressionType="100" Encrypted="False" />
@@ -191,8 +227,14 @@
   <File Name="roomlg_window_cornerin_mid_08x08x08_a_lod4.cgfm" CRC32="0xC350B2B2" Size="23480" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_mid_08x08x08_a_lod5.cgf" CRC32="0x7AC374E9" Size="136" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_mid_08x08x08_a_lod5.cgfm" CRC32="0xC75BD062" Size="10832" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_mid_08x08x08_a.cgf" CRC32="0x103A3FFB" Size="179824" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_a.cgf" CRC32="0xD9F4777B" Size="179824" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_mid_08x08x08_a.cgfm" CRC32="0x470F1B46" Size="657944" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_b_glass_lod1.cgf" CRC32="0xDB2C7FDE" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_b_glass_lod1.cgfm" CRC32="0x6F4CF456" Size="11304" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_b_glass_lod2.cgf" CRC32="0x877373DF" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_b_glass_lod2.cgfm" CRC32="0xEBC85B83" Size="1000" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_b_glass.cgf" CRC32="0x1AA934AE" Size="5024" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_b_glass.cgfm" CRC32="0x5F9CD597" Size="19584" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_mid_08x08x08_b_lod1.cgf" CRC32="0x8F4C0F5E" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_mid_08x08x08_b_lod1.cgfm" CRC32="0x62E8EF88" Size="396056" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_mid_08x08x08_b_lod2.cgf" CRC32="0xFC9287EF" Size="144" CompressionType="100" Encrypted="False" />
@@ -203,20 +245,20 @@
   <File Name="roomlg_window_cornerin_mid_08x08x08_b_lod4.cgfm" CRC32="0x10DA1D58" Size="27576" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_mid_08x08x08_b_lod5.cgf" CRC32="0x74C8A040" Size="144" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_mid_08x08x08_b_lod5.cgfm" CRC32="0x8FB84504" Size="11472" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_mid_08x08x08_b.cgf" CRC32="0x32CB569D" Size="179824" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_b.cgf" CRC32="0x62A1EEEA" Size="179824" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_mid_08x08x08_b.cgfm" CRC32="0x5311E31D" Size="657760" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod1.cgf" CRC32="0x1BB9D836" Size="160" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod1.cgfm" CRC32="0xB23252F6" Size="373176" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod2.cgf" CRC32="0xA566D809" Size="152" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod2.cgfm" CRC32="0x3D2CEC26" Size="145336" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod3.cgf" CRC32="0x38E4E942" Size="152" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod3.cgfm" CRC32="0x2AA047B2" Size="57072" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod4.cgf" CRC32="0x35278C11" Size="152" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod4.cgfm" CRC32="0x1E26911D" Size="24960" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod5.cgf" CRC32="0x172A7266" Size="152" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod5.cgfm" CRC32="0xC52BA456" Size="9888" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b.cgf" CRC32="0x2A1BBAFD" Size="167312" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b.cgfm" CRC32="0x286C4C7F" Size="615304" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod1.cgf" CRC32="0xD83710E5" Size="160" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod1.cgfm" CRC32="0x021C8930" Size="357072" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod2.cgf" CRC32="0x47C28B98" Size="152" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod2.cgfm" CRC32="0xA649D0F3" Size="140792" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod3.cgf" CRC32="0xC1A6260B" Size="152" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod3.cgfm" CRC32="0x832C7F22" Size="56776" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod4.cgf" CRC32="0xE06B7508" Size="152" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod4.cgfm" CRC32="0xA225713F" Size="24656" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod5.cgf" CRC32="0xB2AE38DB" Size="152" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b_lod5.cgfm" CRC32="0x4000B42C" Size="9584" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b.cgf" CRC32="0x96EE8E5A" Size="161216" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_mid_08x08x08_custom_levski_b.cgfm" CRC32="0x5C336167" Size="593576" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x01x08_b_lod1.cgf" CRC32="0x0E314537" Size="168" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x01x08_b_lod1.cgfm" CRC32="0x960C9FF8" Size="657888" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x01x08_b_lod2.cgf" CRC32="0xE5A2D1DB" Size="168" CompressionType="100" Encrypted="False" />
@@ -263,8 +305,14 @@
   <File Name="roomlg_window_cornerin_top_08x01x08_d_lod5.cgfm" CRC32="0x5683236E" Size="60936" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x01x08_d.cgf" CRC32="0xBA5BF93B" Size="209360" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x01x08_d.cgfm" CRC32="0x26DFDB08" Size="751008" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_a_glass_lod1.cgf" CRC32="0x65D46DE4" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_a_glass_lod1.cgfm" CRC32="0xCE2E6325" Size="10320" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_a_glass_lod2.cgf" CRC32="0x9C01D7CF" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_a_glass_lod2.cgfm" CRC32="0x617106D8" Size="1432" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_a_glass.cgf" CRC32="0x588A2D30" Size="8120" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_a_glass.cgfm" CRC32="0xCC70B4D8" Size="17632" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x08x08_a_lod1.cgf" CRC32="0xAE945D9F" Size="152" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_top_08x08x08_a_lod1.cgfm" CRC32="0x16FCBA52" Size="603856" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_a_lod1.cgfm" CRC32="0xC6124943" Size="603856" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x08x08_a_lod2.cgf" CRC32="0x0B315E79" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x08x08_a_lod2.cgfm" CRC32="0x6E57126B" Size="240880" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x08x08_a_lod3.cgf" CRC32="0x7B16208B" Size="152" CompressionType="100" Encrypted="False" />
@@ -273,10 +321,16 @@
   <File Name="roomlg_window_cornerin_top_08x08x08_a_lod4.cgfm" CRC32="0x432C2416" Size="41768" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x08x08_a_lod5.cgf" CRC32="0x0C08C080" Size="144" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x08x08_a_lod5.cgfm" CRC32="0x34E164A7" Size="16656" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_top_08x08x08_a.cgf" CRC32="0xA8FDF84F" Size="275264" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_top_08x08x08_a.cgfm" CRC32="0x89725A81" Size="997856" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_a.cgf" CRC32="0x2245451E" Size="275264" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_a.cgfm" CRC32="0x4E2F0B12" Size="997856" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_b_glass_lod1.cgf" CRC32="0xFE3C1047" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_b_glass_lod1.cgfm" CRC32="0x7EF6D417" Size="10320" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_b_glass_lod2.cgf" CRC32="0x45EC44D4" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_b_glass_lod2.cgfm" CRC32="0xA242D6E7" Size="1432" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_b_glass.cgf" CRC32="0xEA52F5E2" Size="8280" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_b_glass.cgfm" CRC32="0xA7A4B8C5" Size="17680" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x08x08_b_lod1.cgf" CRC32="0x5FB04902" Size="152" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_top_08x08x08_b_lod1.cgfm" CRC32="0x27D462E9" Size="543592" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_b_lod1.cgfm" CRC32="0xADAA0395" Size="543592" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x08x08_b_lod2.cgf" CRC32="0x33825B87" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x08x08_b_lod2.cgfm" CRC32="0xADFB0271" Size="250856" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x08x08_b_lod3.cgf" CRC32="0x6C952777" Size="152" CompressionType="100" Encrypted="False" />
@@ -285,20 +339,20 @@
   <File Name="roomlg_window_cornerin_top_08x08x08_b_lod4.cgfm" CRC32="0x071A142D" Size="43808" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x08x08_b_lod5.cgf" CRC32="0xF25F13E5" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x08x08_b_lod5.cgfm" CRC32="0x8C754BD4" Size="18560" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_cornerin_top_08x08x08_b.cgf" CRC32="0xA99B4760" Size="275456" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_cornerin_top_08x08x08_b.cgf" CRC32="0xD0FE4711" Size="275456" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_cornerin_top_08x08x08_b.cgfm" CRC32="0x38B0A035" Size="997696" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_enclosed_08x08x08_a_lod1.cgf" CRC32="0x744B77A8" Size="160" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_enclosed_08x08x08_a_lod1.cgfm" CRC32="0xDC9A9E02" Size="1193064" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_enclosed_08x08x08_a_lod1.cgf" CRC32="0x4FB478B0" Size="160" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_enclosed_08x08x08_a_lod1.cgfm" CRC32="0xDB905677" Size="1192496" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_enclosed_08x08x08_a_lod2.cgf" CRC32="0x433A72B0" Size="160" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_enclosed_08x08x08_a_lod2.cgfm" CRC32="0x2216DAF7" Size="901704" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_enclosed_08x08x08_a_lod3.cgf" CRC32="0xFD31C7F2" Size="160" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_enclosed_08x08x08_a_lod3.cgfm" CRC32="0xC9A9A581" Size="499320" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_enclosed_08x08x08_a_lod2.cgfm" CRC32="0x6A1DF8CC" Size="901704" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_enclosed_08x08x08_a_lod3.cgf" CRC32="0xA50F23B3" Size="160" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_enclosed_08x08x08_a_lod3.cgfm" CRC32="0x478AF5D9" Size="498336" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_enclosed_08x08x08_a_lod4.cgf" CRC32="0x03173FC0" Size="152" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_enclosed_08x08x08_a_lod4.cgfm" CRC32="0xFD272BA0" Size="327360" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_enclosed_08x08x08_a_lod4.cgfm" CRC32="0x6FFC70DA" Size="327360" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_enclosed_08x08x08_a_lod5.cgf" CRC32="0xCDF70626" Size="152" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_enclosed_08x08x08_a_lod5.cgfm" CRC32="0xADDB27E2" Size="289056" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_enclosed_08x08x08_a.cgf" CRC32="0x54CCE230" Size="408504" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_enclosed_08x08x08_a.cgfm" CRC32="0xA0E44224" Size="1380592" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_enclosed_08x08x08_a_lod5.cgfm" CRC32="0x79197B31" Size="289056" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_enclosed_08x08x08_a.cgf" CRC32="0x50FE8C5D" Size="408320" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_enclosed_08x08x08_a.cgfm" CRC32="0x9F67A4BC" Size="1379656" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_mid_08x01x04_a_ext_lod1.cgf" CRC32="0x060FF656" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_mid_08x01x04_a_ext_lod1.cgfm" CRC32="0xEF92E4F3" Size="147408" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_mid_08x01x04_a_ext_lod2.cgf" CRC32="0x35290D2A" Size="152" CompressionType="100" Encrypted="False" />
@@ -365,6 +419,12 @@
   <File Name="roomlg_window_straight_base_shutter_08x08x08_b_lod4.cgfm" CRC32="0xB5F148DA" Size="11408" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_base_shutter_08x08x08_b.cgf" CRC32="0x35AD3BE7" Size="60040" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_base_shutter_08x08x08_b.cgfm" CRC32="0x523E26BD" Size="324320" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_straight_mid_08x02x08_a_glass_lod1.cgf" CRC32="0xB03F2CEF" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_straight_mid_08x02x08_a_glass_lod1.cgfm" CRC32="0x43AB46E7" Size="2904" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_straight_mid_08x02x08_a_glass_lod2.cgf" CRC32="0x99A1AE37" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_straight_mid_08x02x08_a_glass_lod2.cgfm" CRC32="0x2026EA97" Size="664" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_straight_mid_08x02x08_a_glass.cgf" CRC32="0x20CA2A85" Size="3144" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_straight_mid_08x02x08_a_glass.cgfm" CRC32="0xCA8AC16D" Size="4904" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_mid_08x02x08_a_lod1.cgf" CRC32="0x43E15C49" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_mid_08x02x08_a_lod1.cgfm" CRC32="0x9EFD99A4" Size="187616" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_mid_08x02x08_a_lod2.cgf" CRC32="0x3325A2C8" Size="144" CompressionType="100" Encrypted="False" />
@@ -387,7 +447,7 @@
   <File Name="roomlg_window_straight_mid_08x02x08_a_noglass_lod5.cgfm" CRC32="0xA9054401" Size="6808" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_mid_08x02x08_a_noglass.cgf" CRC32="0x3A55707C" Size="90800" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_mid_08x02x08_a_noglass.cgfm" CRC32="0x747619B6" Size="327656" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_straight_mid_08x02x08_a.cgf" CRC32="0x63888149" Size="85304" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_straight_mid_08x02x08_a.cgf" CRC32="0xB7D7D604" Size="85304" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_mid_08x02x08_a.cgfm" CRC32="0x60CEAA10" Size="309592" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_mid_16x02x08_a_lod1.cgf" CRC32="0x803E118A" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_mid_16x02x08_a_lod1.cgfm" CRC32="0x85A78751" Size="225616" CompressionType="100" Encrypted="False" />
@@ -457,6 +517,12 @@
   <File Name="roomlg_window_straight_top_08x08x08_a_ext_lod5.cgfm" CRC32="0x8C27158C" Size="12664" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_top_08x08x08_a_ext.cgf" CRC32="0xCD30156E" Size="28408" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_top_08x08x08_a_ext.cgfm" CRC32="0xCC256D74" Size="103336" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_straight_top_08x08x08_a_glass_lod1.cgf" CRC32="0x13071C1F" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_straight_top_08x08x08_a_glass_lod1.cgfm" CRC32="0xC425CDC2" Size="7848" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_straight_top_08x08x08_a_glass_lod2.cgf" CRC32="0x48276166" Size="136" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_straight_top_08x08x08_a_glass_lod2.cgfm" CRC32="0xE2B54A81" Size="1128" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_straight_top_08x08x08_a_glass.cgf" CRC32="0xEB51A84A" Size="4360" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_straight_top_08x08x08_a_glass.cgfm" CRC32="0xA7AB16AC" Size="15096" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_top_08x08x08_a_lod1.cgf" CRC32="0x9F9CC843" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_top_08x08x08_a_lod1.cgfm" CRC32="0xABC39BF0" Size="334848" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_top_08x08x08_a_lod2.cgf" CRC32="0xE554CE62" Size="144" CompressionType="100" Encrypted="False" />
@@ -467,7 +533,7 @@
   <File Name="roomlg_window_straight_top_08x08x08_a_lod4.cgfm" CRC32="0x107407C7" Size="25480" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_top_08x08x08_a_lod5.cgf" CRC32="0x427A247E" Size="136" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_top_08x08x08_a_lod5.cgfm" CRC32="0x5BE5C97B" Size="10304" CompressionType="100" Encrypted="False" />
-  <File Name="roomlg_window_straight_top_08x08x08_a.cgf" CRC32="0xAD2A7051" Size="152736" CompressionType="100" Encrypted="False" />
+  <File Name="roomlg_window_straight_top_08x08x08_a.cgf" CRC32="0x3C5EBBDC" Size="152736" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_top_08x08x08_a.cgfm" CRC32="0x5A7A7D81" Size="553600" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_top_08x08x08_b_ext_lod1.cgf" CRC32="0x704D89A2" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="roomlg_window_straight_top_08x08x08_b_ext_lod1.cgfm" CRC32="0xE3BDBD39" Size="81280" CompressionType="100" Encrypted="False" />

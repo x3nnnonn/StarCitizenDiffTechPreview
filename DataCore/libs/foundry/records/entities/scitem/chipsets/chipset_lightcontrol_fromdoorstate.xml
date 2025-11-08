@@ -12,7 +12,7 @@
   <entityDensityClass />
   <tags Type="Tag" Count="0" />
   <StaticEntityClassData Type="EntityClassStaticDataParams" Count="0" />
-  <Components Type="DataForgeComponentParams" Count="12">
+  <Components Type="DataForgeComponentParams" Count="14">
     <SAttachableComponentParams Type="SAttachableComponentParams">
       <AttachDef Type="SItemDefinition">
         <Type>UNDEFINED</Type>
@@ -71,7 +71,7 @@
         <ignoredAttachAxis>None</ignoredAttachAxis>
         <attachCheckCenterOfMass>False</attachCheckCenterOfMass>
       </AttachDef>
-      <attachToTileItemPort>NoConnection</attachToTileItemPort>
+      <attachToTileItemPort>DefaultConnection</attachToTileItemPort>
       <entityAttachParams />
     </SAttachableComponentParams>
     <SGeometryResourceParams Type="SGeometryResourceParams">
@@ -219,7 +219,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:23" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:22" Type="SSharedInteractionParams">
             <Name>FunctionDisruptedTrigger</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -238,7 +238,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:26" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:25" Type="SSharedInteractionParams">
             <Name>FunctionRestoredTrigger</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -295,7 +295,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:29" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:28" Type="SSharedInteractionParams">
             <Name>CascadeCompleted</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -352,7 +352,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:45" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:44" Type="SSharedInteractionParams">
             <Name>SetMisfire_None</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -371,7 +371,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:47" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:46" Type="SSharedInteractionParams">
             <Name>SetMisfire_Trivial</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -390,7 +390,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:49" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:48" Type="SSharedInteractionParams">
             <Name>SetMisfire_Minor</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -409,7 +409,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:51" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:50" Type="SSharedInteractionParams">
             <Name>SetMisfire_Major</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -428,7 +428,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:52" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:51" Type="SSharedInteractionParams">
             <Name>SetMisfire_Catastrophic</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -447,7 +447,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:54" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:53" Type="SSharedInteractionParams">
             <Name>Unlock</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -466,7 +466,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:55" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:54" Type="SSharedInteractionParams">
             <Name>Lock</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -488,15 +488,15 @@
         </SharedInteractions>
         <InteractionPoints Type="SInteractionPointParams" Count="0" />
         <interactionTasks Type="SSequencerInteractionTask" Count="3">
-          <SSequencerInteractionTask Pointer="ptr:58" Type="SSequencerInteractionTask">
+          <SSequencerInteractionTask Pointer="ptr:57" Type="SSequencerInteractionTask">
             <interaction>DisruptionCascade</interaction>
             <triggerType>Self</triggerType>
           </SSequencerInteractionTask>
-          <SSequencerInteractionTask Pointer="ptr:59" Type="SSequencerInteractionTask">
+          <SSequencerInteractionTask Pointer="ptr:58" Type="SSequencerInteractionTask">
             <interaction>RestorationCascade</interaction>
             <triggerType>Self</triggerType>
           </SSequencerInteractionTask>
-          <SSequencerInteractionTask Pointer="ptr:60" Type="SSequencerInteractionTask">
+          <SSequencerInteractionTask Pointer="ptr:59" Type="SSequencerInteractionTask">
             <interaction>CascadeCompleted</interaction>
             <triggerType>Self</triggerType>
           </SSequencerInteractionTask>
@@ -517,8 +517,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
-        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsOverride Type="StatusCost" Count="0" />
+        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -763,7 +763,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:15" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:14" Type="SInteractionState">
               <StateName>PowerAvailable</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -786,7 +786,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:14" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:13" Type="SInteractionState">
               <StateName>PowerUnavailable</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -811,34 +811,21 @@
             </SInteractionState>
           </States>
           <StateModifiers Type="SStateModifier" Count="1">
-            <SLinkedInteractionStateChangedStateModifier Type="SLinkedInteractionStateChangedStateModifier">
-              <context Type="SEntityTraversalTargetPathContext">
-                <targetPath PointsTo="ptr:13" />
-              </context>
-              <onChangeStateTagStates Type="SLinkedInteractionStateTags" Count="2">
-                <SLinkedInteractionStateTags Type="SLinkedInteractionStateTags">
-                  <stateTags Type="TagList">
-                    <tags Type="Tag" Count="1">
-                      <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.aff7a3ed-a8bf-4b91-b07a-462f57003211" RecordId="aff7a3ed-a8bf-4b91-b07a-462f57003211" />
-                    </tags>
-                  </stateTags>
-                  <isANDList>False</isANDList>
-                  <checkAllEntities>False</checkAllEntities>
+            <ItemResourceStateModifier Type="ItemResourceStateModifier">
+              <stateRanges Type="SRangeStateLevel" Count="2">
+                <SRangeStateLevel Type="SRangeStateLevel">
+                  <state PointsTo="ptr:13" />
+                  <min>0</min>
+                  <max>0.01</max>
+                </SRangeStateLevel>
+                <SRangeStateLevel Type="SRangeStateLevel">
                   <state PointsTo="ptr:14" />
-                </SLinkedInteractionStateTags>
-                <SLinkedInteractionStateTags Type="SLinkedInteractionStateTags">
-                  <stateTags Type="TagList">
-                    <tags Type="Tag" Count="1">
-                      <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7e6a2f02-480d-4f86-9ee6-b19dbc778f76" RecordId="7e6a2f02-480d-4f86-9ee6-b19dbc778f76" />
-                    </tags>
-                  </stateTags>
-                  <isANDList>False</isANDList>
-                  <checkAllEntities>False</checkAllEntities>
-                  <state PointsTo="ptr:15" />
-                </SLinkedInteractionStateTags>
-              </onChangeStateTagStates>
-              <nullEntityState />
-            </SLinkedInteractionStateChangedStateModifier>
+                  <min>0.01</min>
+                  <max>100</max>
+                </SRangeStateLevel>
+              </stateRanges>
+              <linkedRNetStates Type="ItemResourceState" Count="0" />
+            </ItemResourceStateModifier>
           </StateModifiers>
         </SInteractionStateType>
         <SInteractionStateType Type="SInteractionStateType">
@@ -848,7 +835,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="4">
-            <SInteractionState Pointer="ptr:21" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:20" Type="SInteractionState">
               <StateName>LightsOn</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -871,7 +858,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:16" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:15" Type="SInteractionState">
               <StateName>LightsOff</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -894,7 +881,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:19" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:18" Type="SInteractionState">
               <StateName>LightsLow</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -917,7 +904,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:18" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:17" Type="SInteractionState">
               <StateName>LightsAlarm</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -946,51 +933,51 @@
               <aggregateStateParams Type="AggregateStateParams" Count="8">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:14" />
+                    <SInteractionState PointsTo="ptr:13" />
                   </aggregateStates>
-                  <state PointsTo="ptr:16" />
+                  <state PointsTo="ptr:15" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:17" />
+                    <SInteractionState PointsTo="ptr:16" />
                   </aggregateStates>
-                  <state PointsTo="ptr:16" />
+                  <state PointsTo="ptr:15" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
                     <SInteractionState PointsTo="ptr:2" />
                   </aggregateStates>
-                  <state PointsTo="ptr:16" />
+                  <state PointsTo="ptr:15" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
                     <SInteractionState PointsTo="ptr:11" />
                   </aggregateStates>
-                  <state PointsTo="ptr:18" />
+                  <state PointsTo="ptr:17" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
                     <SInteractionState PointsTo="ptr:6" />
                   </aggregateStates>
-                  <state PointsTo="ptr:18" />
+                  <state PointsTo="ptr:17" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
                     <SInteractionState PointsTo="ptr:4" />
                   </aggregateStates>
-                  <state PointsTo="ptr:19" />
+                  <state PointsTo="ptr:18" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:20" />
+                    <SInteractionState PointsTo="ptr:19" />
                   </aggregateStates>
-                  <state PointsTo="ptr:19" />
+                  <state PointsTo="ptr:18" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
                     <SInteractionState PointsTo="ptr:8" />
                   </aggregateStates>
-                  <state PointsTo="ptr:21" />
+                  <state PointsTo="ptr:20" />
                 </AggregateStateParams>
               </aggregateStateParams>
             </AggregateStateModifier>
@@ -1003,7 +990,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:22" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:21" Type="SInteractionState">
               <StateName>AlarmIdle</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1058,7 +1045,7 @@
                   </stateTags>
                   <isANDList>False</isANDList>
                   <checkAllEntities>False</checkAllEntities>
-                  <state PointsTo="ptr:22" />
+                  <state PointsTo="ptr:21" />
                 </SLinkedInteractionStateTags>
                 <SLinkedInteractionStateTags Type="SLinkedInteractionStateTags">
                   <stateTags Type="TagList">
@@ -1092,7 +1079,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="14">
-            <SInteractionState Pointer="ptr:34" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:33" Type="SInteractionState">
               <StateName>Functional</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1105,8 +1092,8 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:23" />
-                  <NextState PointsTo="ptr:24" />
+                  <Interaction PointsTo="ptr:22" />
+                  <NextState PointsTo="ptr:23" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -1120,7 +1107,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:17" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:16" Type="SInteractionState">
               <StateName>NonFunctional</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1131,14 +1118,14 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange Type="SStateAutoChange">
-                <NextState PointsTo="ptr:25" />
+                <NextState PointsTo="ptr:24" />
                 <Delay>10</Delay>
                 <RunWhenStreamedOut>False</RunWhenStreamedOut>
               </StateAutoChange>
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:26" />
-                  <NextState PointsTo="ptr:25" />
+                  <Interaction PointsTo="ptr:25" />
+                  <NextState PointsTo="ptr:24" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -1152,7 +1139,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:24" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:23" Type="SInteractionState">
               <StateName>TriggerNonFunctional</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1173,7 +1160,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:36" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:35" Type="SInteractionState">
               <StateName>DisruptionCascade01</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1184,7 +1171,7 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange Type="SStateAutoChange">
-                <NextState PointsTo="ptr:27" />
+                <NextState PointsTo="ptr:26" />
                 <Delay>0.05</Delay>
                 <RunWhenStreamedOut>False</RunWhenStreamedOut>
               </StateAutoChange>
@@ -1198,7 +1185,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:27" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:26" Type="SInteractionState">
               <StateName>DisruptionCascade01_Trigger</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1206,13 +1193,39 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
               <ExitEventDispatchers Type="EventDispatcher" Count="0" />
-              <EnterStatePlaySequence PointsTo="ptr:28" />
+              <EnterStatePlaySequence PointsTo="ptr:27" />
               <ExitStatePlaySequence />
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:29" />
-                  <NextState PointsTo="ptr:17" />
+                  <Interaction PointsTo="ptr:28" />
+                  <NextState PointsTo="ptr:16" />
+                </SInteractionStateTransition>
+              </Interactions>
+              <interactionPoints Type="SInteractionPointParams" Count="0" />
+              <stateTags Type="TagList">
+                <tags Type="Tag" Count="0" />
+              </stateTags>
+              <enterGeometryTags />
+              <entityTags Type="TagList">
+                <tags Type="Tag" Count="0" />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState Pointer="ptr:29" Type="SInteractionState">
+              <StateName>DisruptionCascade02_Trigger</StateName>
+              <EnterStateEffectGroup />
+              <ExitStateEffectGroup />
+              <enterStateEffectTags Type="Tag" Count="0" />
+              <exitStateEffectTags Type="Tag" Count="0" />
+              <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
+              <EnterStatePlaySequence PointsTo="ptr:27" />
+              <ExitStatePlaySequence />
+              <StateAutoChange />
+              <Interactions Type="SInteractionStateTransition" Count="1">
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:28" />
+                  <NextState PointsTo="ptr:16" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -1225,32 +1238,6 @@
               </entityTags>
             </SInteractionState>
             <SInteractionState Pointer="ptr:30" Type="SInteractionState">
-              <StateName>DisruptionCascade02_Trigger</StateName>
-              <EnterStateEffectGroup />
-              <ExitStateEffectGroup />
-              <enterStateEffectTags Type="Tag" Count="0" />
-              <exitStateEffectTags Type="Tag" Count="0" />
-              <EnterEventDispatchers Type="EventDispatcher" Count="0" />
-              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
-              <EnterStatePlaySequence PointsTo="ptr:28" />
-              <ExitStatePlaySequence />
-              <StateAutoChange />
-              <Interactions Type="SInteractionStateTransition" Count="1">
-                <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:29" />
-                  <NextState PointsTo="ptr:17" />
-                </SInteractionStateTransition>
-              </Interactions>
-              <interactionPoints Type="SInteractionPointParams" Count="0" />
-              <stateTags Type="TagList">
-                <tags Type="Tag" Count="0" />
-              </stateTags>
-              <enterGeometryTags />
-              <entityTags Type="TagList">
-                <tags Type="Tag" Count="0" />
-              </entityTags>
-            </SInteractionState>
-            <SInteractionState Pointer="ptr:31" Type="SInteractionState">
               <StateName>DisruptionCascade03_Trigger</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1258,13 +1245,13 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
               <ExitEventDispatchers Type="EventDispatcher" Count="0" />
-              <EnterStatePlaySequence PointsTo="ptr:28" />
+              <EnterStatePlaySequence PointsTo="ptr:27" />
               <ExitStatePlaySequence />
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:29" />
-                  <NextState PointsTo="ptr:17" />
+                  <Interaction PointsTo="ptr:28" />
+                  <NextState PointsTo="ptr:16" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -1276,7 +1263,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:38" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:37" Type="SInteractionState">
               <StateName>DisruptionCascade02</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1287,7 +1274,7 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange Type="SStateAutoChange">
-                <NextState PointsTo="ptr:30" />
+                <NextState PointsTo="ptr:29" />
                 <Delay>0.2</Delay>
                 <RunWhenStreamedOut>False</RunWhenStreamedOut>
               </StateAutoChange>
@@ -1301,7 +1288,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:40" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:39" Type="SInteractionState">
               <StateName>DisruptionCascade03</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1312,7 +1299,7 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange Type="SStateAutoChange">
-                <NextState PointsTo="ptr:31" />
+                <NextState PointsTo="ptr:30" />
                 <Delay>0.5</Delay>
                 <RunWhenStreamedOut>False</RunWhenStreamedOut>
               </StateAutoChange>
@@ -1326,7 +1313,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:25" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:24" Type="SInteractionState">
               <StateName>TriggerFunctional</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1347,7 +1334,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:41" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:40" Type="SInteractionState">
               <StateName>RestorationCascade01</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1358,7 +1345,7 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange Type="SStateAutoChange">
-                <NextState PointsTo="ptr:32" />
+                <NextState PointsTo="ptr:31" />
                 <Delay>0.01</Delay>
                 <RunWhenStreamedOut>False</RunWhenStreamedOut>
               </StateAutoChange>
@@ -1372,7 +1359,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:32" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:31" Type="SInteractionState">
               <StateName>RestorationCascade01_Trigger</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1380,13 +1367,13 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
               <ExitEventDispatchers Type="EventDispatcher" Count="0" />
-              <EnterStatePlaySequence PointsTo="ptr:33" />
+              <EnterStatePlaySequence PointsTo="ptr:32" />
               <ExitStatePlaySequence />
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:29" />
-                  <NextState PointsTo="ptr:34" />
+                  <Interaction PointsTo="ptr:28" />
+                  <NextState PointsTo="ptr:33" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -1398,7 +1385,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:42" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:41" Type="SInteractionState">
               <StateName>RestorationCascade02</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1409,7 +1396,7 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange Type="SStateAutoChange">
-                <NextState PointsTo="ptr:32" />
+                <NextState PointsTo="ptr:31" />
                 <Delay>0.05</Delay>
                 <RunWhenStreamedOut>False</RunWhenStreamedOut>
               </StateAutoChange>
@@ -1423,7 +1410,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:43" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:42" Type="SInteractionState">
               <StateName>RestorationCascade03</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1434,7 +1421,7 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange Type="SStateAutoChange">
-                <NextState PointsTo="ptr:32" />
+                <NextState PointsTo="ptr:31" />
                 <Delay>0.1</Delay>
                 <RunWhenStreamedOut>False</RunWhenStreamedOut>
               </StateAutoChange>
@@ -1454,45 +1441,45 @@
               <aggregateStateParams Type="AggregateStateParams" Count="6">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="2">
-                    <SInteractionState PointsTo="ptr:24" />
-                    <SInteractionState PointsTo="ptr:35" />
+                    <SInteractionState PointsTo="ptr:23" />
+                    <SInteractionState PointsTo="ptr:34" />
                   </aggregateStates>
-                  <state PointsTo="ptr:36" />
+                  <state PointsTo="ptr:35" />
+                </AggregateStateParams>
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="2">
+                    <SInteractionState PointsTo="ptr:23" />
+                    <SInteractionState PointsTo="ptr:36" />
+                  </aggregateStates>
+                  <state PointsTo="ptr:37" />
+                </AggregateStateParams>
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="2">
+                    <SInteractionState PointsTo="ptr:23" />
+                    <SInteractionState PointsTo="ptr:38" />
+                  </aggregateStates>
+                  <state PointsTo="ptr:39" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="2">
                     <SInteractionState PointsTo="ptr:24" />
-                    <SInteractionState PointsTo="ptr:37" />
-                  </aggregateStates>
-                  <state PointsTo="ptr:38" />
-                </AggregateStateParams>
-                <AggregateStateParams Type="AggregateStateParams">
-                  <aggregateStates Type="SInteractionState" Count="2">
-                    <SInteractionState PointsTo="ptr:24" />
-                    <SInteractionState PointsTo="ptr:39" />
+                    <SInteractionState PointsTo="ptr:34" />
                   </aggregateStates>
                   <state PointsTo="ptr:40" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="2">
-                    <SInteractionState PointsTo="ptr:25" />
-                    <SInteractionState PointsTo="ptr:35" />
+                    <SInteractionState PointsTo="ptr:24" />
+                    <SInteractionState PointsTo="ptr:36" />
                   </aggregateStates>
                   <state PointsTo="ptr:41" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="2">
-                    <SInteractionState PointsTo="ptr:25" />
-                    <SInteractionState PointsTo="ptr:37" />
+                    <SInteractionState PointsTo="ptr:24" />
+                    <SInteractionState PointsTo="ptr:38" />
                   </aggregateStates>
                   <state PointsTo="ptr:42" />
-                </AggregateStateParams>
-                <AggregateStateParams Type="AggregateStateParams">
-                  <aggregateStates Type="SInteractionState" Count="2">
-                    <SInteractionState PointsTo="ptr:25" />
-                    <SInteractionState PointsTo="ptr:39" />
-                  </aggregateStates>
-                  <state PointsTo="ptr:43" />
                 </AggregateStateParams>
               </aggregateStateParams>
             </AggregateStateModifier>
@@ -1501,11 +1488,11 @@
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>CascadeTiming</StateTypeName>
           <bindingsMethod>None</bindingsMethod>
-          <DefaultState PointsTo="ptr:44" />
+          <DefaultState PointsTo="ptr:43" />
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="4">
-            <SInteractionState Pointer="ptr:35" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:34" Type="SInteractionState">
               <StateName>CascadeTiming01</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1516,7 +1503,7 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange Type="SStateAutoChange">
-                <NextState PointsTo="ptr:37" />
+                <NextState PointsTo="ptr:36" />
                 <Delay>0.3</Delay>
                 <RunWhenStreamedOut>False</RunWhenStreamedOut>
               </StateAutoChange>
@@ -1530,7 +1517,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:37" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:36" Type="SInteractionState">
               <StateName>CascadeTiming02</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1541,7 +1528,7 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange Type="SStateAutoChange">
-                <NextState PointsTo="ptr:39" />
+                <NextState PointsTo="ptr:38" />
                 <Delay>0.3</Delay>
                 <RunWhenStreamedOut>False</RunWhenStreamedOut>
               </StateAutoChange>
@@ -1555,7 +1542,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:39" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:38" Type="SInteractionState">
               <StateName>CascadeTiming03</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1566,7 +1553,7 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange Type="SStateAutoChange">
-                <NextState PointsTo="ptr:35" />
+                <NextState PointsTo="ptr:34" />
                 <Delay>0.3</Delay>
                 <RunWhenStreamedOut>False</RunWhenStreamedOut>
               </StateAutoChange>
@@ -1580,7 +1567,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:44" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:43" Type="SInteractionState">
               <StateName>CascadeTimingDisabled</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1611,7 +1598,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="5">
-            <SInteractionState Pointer="ptr:46" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:45" Type="SInteractionState">
               <StateName>Misfire_None</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1624,24 +1611,24 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="5">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:45" />
-                  <NextState PointsTo="ptr:46" />
+                  <Interaction PointsTo="ptr:44" />
+                  <NextState PointsTo="ptr:45" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:47" />
-                  <NextState PointsTo="ptr:48" />
+                  <Interaction PointsTo="ptr:46" />
+                  <NextState PointsTo="ptr:47" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:49" />
-                  <NextState PointsTo="ptr:50" />
+                  <Interaction PointsTo="ptr:48" />
+                  <NextState PointsTo="ptr:49" />
+                </SInteractionStateTransition>
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:50" />
+                  <NextState PointsTo="ptr:19" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
                   <Interaction PointsTo="ptr:51" />
-                  <NextState PointsTo="ptr:20" />
-                </SInteractionStateTransition>
-                <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:52" />
-                  <NextState PointsTo="ptr:53" />
+                  <NextState PointsTo="ptr:52" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -1653,7 +1640,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:48" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:47" Type="SInteractionState">
               <StateName>Misfire_Trivial</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1666,24 +1653,24 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="5">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:45" />
-                  <NextState PointsTo="ptr:46" />
+                  <Interaction PointsTo="ptr:44" />
+                  <NextState PointsTo="ptr:45" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:47" />
-                  <NextState PointsTo="ptr:48" />
+                  <Interaction PointsTo="ptr:46" />
+                  <NextState PointsTo="ptr:47" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:49" />
-                  <NextState PointsTo="ptr:50" />
+                  <Interaction PointsTo="ptr:48" />
+                  <NextState PointsTo="ptr:49" />
+                </SInteractionStateTransition>
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:50" />
+                  <NextState PointsTo="ptr:19" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
                   <Interaction PointsTo="ptr:51" />
-                  <NextState PointsTo="ptr:20" />
-                </SInteractionStateTransition>
-                <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:52" />
-                  <NextState PointsTo="ptr:53" />
+                  <NextState PointsTo="ptr:52" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -1697,7 +1684,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:50" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:49" Type="SInteractionState">
               <StateName>Misfire_Minor</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1710,24 +1697,24 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="5">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:45" />
-                  <NextState PointsTo="ptr:46" />
+                  <Interaction PointsTo="ptr:44" />
+                  <NextState PointsTo="ptr:45" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:47" />
-                  <NextState PointsTo="ptr:48" />
+                  <Interaction PointsTo="ptr:46" />
+                  <NextState PointsTo="ptr:47" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:49" />
-                  <NextState PointsTo="ptr:50" />
+                  <Interaction PointsTo="ptr:48" />
+                  <NextState PointsTo="ptr:49" />
+                </SInteractionStateTransition>
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:50" />
+                  <NextState PointsTo="ptr:19" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
                   <Interaction PointsTo="ptr:51" />
-                  <NextState PointsTo="ptr:20" />
-                </SInteractionStateTransition>
-                <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:52" />
-                  <NextState PointsTo="ptr:53" />
+                  <NextState PointsTo="ptr:52" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -1741,7 +1728,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:20" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:19" Type="SInteractionState">
               <StateName>Misfire_Major</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1754,24 +1741,24 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="5">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:45" />
-                  <NextState PointsTo="ptr:46" />
+                  <Interaction PointsTo="ptr:44" />
+                  <NextState PointsTo="ptr:45" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:47" />
-                  <NextState PointsTo="ptr:48" />
+                  <Interaction PointsTo="ptr:46" />
+                  <NextState PointsTo="ptr:47" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:49" />
-                  <NextState PointsTo="ptr:50" />
+                  <Interaction PointsTo="ptr:48" />
+                  <NextState PointsTo="ptr:49" />
+                </SInteractionStateTransition>
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:50" />
+                  <NextState PointsTo="ptr:19" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
                   <Interaction PointsTo="ptr:51" />
-                  <NextState PointsTo="ptr:20" />
-                </SInteractionStateTransition>
-                <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:52" />
-                  <NextState PointsTo="ptr:53" />
+                  <NextState PointsTo="ptr:52" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -1785,7 +1772,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:53" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:52" Type="SInteractionState">
               <StateName>Misfire_Catastrophic</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1798,24 +1785,24 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="5">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:45" />
-                  <NextState PointsTo="ptr:46" />
+                  <Interaction PointsTo="ptr:44" />
+                  <NextState PointsTo="ptr:45" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:47" />
-                  <NextState PointsTo="ptr:48" />
+                  <Interaction PointsTo="ptr:46" />
+                  <NextState PointsTo="ptr:47" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:49" />
-                  <NextState PointsTo="ptr:50" />
+                  <Interaction PointsTo="ptr:48" />
+                  <NextState PointsTo="ptr:49" />
+                </SInteractionStateTransition>
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:50" />
+                  <NextState PointsTo="ptr:19" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
                   <Interaction PointsTo="ptr:51" />
-                  <NextState PointsTo="ptr:20" />
-                </SInteractionStateTransition>
-                <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:52" />
-                  <NextState PointsTo="ptr:53" />
+                  <NextState PointsTo="ptr:52" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -1842,7 +1829,7 @@
                   </stateTags>
                   <isANDList>False</isANDList>
                   <checkAllEntities>False</checkAllEntities>
-                  <state PointsTo="ptr:20" />
+                  <state PointsTo="ptr:19" />
                 </SLinkedInteractionStateTags>
                 <SLinkedInteractionStateTags Type="SLinkedInteractionStateTags">
                   <stateTags Type="TagList">
@@ -1852,7 +1839,7 @@
                   </stateTags>
                   <isANDList>False</isANDList>
                   <checkAllEntities>False</checkAllEntities>
-                  <state PointsTo="ptr:46" />
+                  <state PointsTo="ptr:45" />
                 </SLinkedInteractionStateTags>
               </onChangeStateTagStates>
               <nullEntityState />
@@ -1879,11 +1866,11 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="2">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:54" />
+                  <Interaction PointsTo="ptr:53" />
                   <NextState PointsTo="ptr:12" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:55" />
+                  <Interaction PointsTo="ptr:54" />
                   <NextState PointsTo="ptr:10" />
                 </SInteractionStateTransition>
               </Interactions>
@@ -1909,11 +1896,11 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="2">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:54" />
+                  <Interaction PointsTo="ptr:53" />
                   <NextState PointsTo="ptr:12" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:55" />
+                  <Interaction PointsTo="ptr:54" />
                   <NextState PointsTo="ptr:10" />
                 </SInteractionStateTransition>
               </Interactions>
@@ -1926,7 +1913,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:57" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:56" Type="SInteractionState">
               <StateName>DoorLock_NoDoor</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1939,11 +1926,11 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="2">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:54" />
+                  <Interaction PointsTo="ptr:53" />
                   <NextState PointsTo="ptr:12" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:55" />
+                  <Interaction PointsTo="ptr:54" />
                   <NextState PointsTo="ptr:10" />
                 </SInteractionStateTransition>
               </Interactions>
@@ -1960,7 +1947,7 @@
           <StateModifiers Type="SStateModifier" Count="1">
             <SLinkedInteractionStateChangedStateModifier Type="SLinkedInteractionStateChangedStateModifier">
               <context Type="SEntityTraversalTargetPathContext">
-                <targetPath PointsTo="ptr:56" />
+                <targetPath PointsTo="ptr:55" />
               </context>
               <onChangeStateTagStates Type="SLinkedInteractionStateTags" Count="2">
                 <SLinkedInteractionStateTags Type="SLinkedInteractionStateTags">
@@ -1984,7 +1971,7 @@
                   <state PointsTo="ptr:10" />
                 </SLinkedInteractionStateTags>
               </onChangeStateTagStates>
-              <nullEntityState PointsTo="ptr:57" />
+              <nullEntityState PointsTo="ptr:56" />
             </SLinkedInteractionStateChangedStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -2064,7 +2051,7 @@ Link this to Power Source</text>
           <interaction />
           <taskEntries Type="SSequencerSequenceTaskEntryParams" Count="1">
             <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
-              <task PointsTo="ptr:58" />
+              <task PointsTo="ptr:57" />
               <postDelay>0</postDelay>
               <dependentTasks Type="SSequencerDefTaskParams" Count="0" />
               <haltOnFailure>True</haltOnFailure>
@@ -2076,6 +2063,24 @@ Link this to Power Source</text>
           <interaction />
           <taskEntries Type="SSequencerSequenceTaskEntryParams" Count="1">
             <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
+              <task PointsTo="ptr:58" />
+              <postDelay>0</postDelay>
+              <dependentTasks Type="SSequencerDefTaskParams" Count="0" />
+              <haltOnFailure>True</haltOnFailure>
+            </SSequencerSequenceTaskEntryParams>
+          </taskEntries>
+        </SSequencerDefSequenceParams>
+        <SSequencerDefSequenceParams Pointer="ptr:27" Type="SSequencerDefSequenceParams">
+          <name>DisruptionCascade</name>
+          <interaction />
+          <taskEntries Type="SSequencerSequenceTaskEntryParams" Count="2">
+            <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
+              <task PointsTo="ptr:57" />
+              <postDelay>0</postDelay>
+              <dependentTasks Type="SSequencerDefTaskParams" Count="0" />
+              <haltOnFailure>True</haltOnFailure>
+            </SSequencerSequenceTaskEntryParams>
+            <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
               <task PointsTo="ptr:59" />
               <postDelay>0</postDelay>
               <dependentTasks Type="SSequencerDefTaskParams" Count="0" />
@@ -2083,8 +2088,8 @@ Link this to Power Source</text>
             </SSequencerSequenceTaskEntryParams>
           </taskEntries>
         </SSequencerDefSequenceParams>
-        <SSequencerDefSequenceParams Pointer="ptr:28" Type="SSequencerDefSequenceParams">
-          <name>DisruptionCascade</name>
+        <SSequencerDefSequenceParams Pointer="ptr:32" Type="SSequencerDefSequenceParams">
+          <name>RestorationCascade</name>
           <interaction />
           <taskEntries Type="SSequencerSequenceTaskEntryParams" Count="2">
             <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
@@ -2094,25 +2099,7 @@ Link this to Power Source</text>
               <haltOnFailure>True</haltOnFailure>
             </SSequencerSequenceTaskEntryParams>
             <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
-              <task PointsTo="ptr:60" />
-              <postDelay>0</postDelay>
-              <dependentTasks Type="SSequencerDefTaskParams" Count="0" />
-              <haltOnFailure>True</haltOnFailure>
-            </SSequencerSequenceTaskEntryParams>
-          </taskEntries>
-        </SSequencerDefSequenceParams>
-        <SSequencerDefSequenceParams Pointer="ptr:33" Type="SSequencerDefSequenceParams">
-          <name>RestorationCascade</name>
-          <interaction />
-          <taskEntries Type="SSequencerSequenceTaskEntryParams" Count="2">
-            <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
               <task PointsTo="ptr:59" />
-              <postDelay>0</postDelay>
-              <dependentTasks Type="SSequencerDefTaskParams" Count="0" />
-              <haltOnFailure>True</haltOnFailure>
-            </SSequencerSequenceTaskEntryParams>
-            <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
-              <task PointsTo="ptr:60" />
               <postDelay>0</postDelay>
               <dependentTasks Type="SSequencerDefTaskParams" Count="0" />
               <haltOnFailure>True</haltOnFailure>
@@ -2255,7 +2242,7 @@ Link this to Power Source</text>
           </entityTraversingType>
           <executeNodes Type="SEntityTraversingExecuteNodeBase" Count="0" />
           <nextNodes Type="SEntityTraversingNodeBase" Count="1">
-            <SEntityTraversingNodeBase Pointer="ptr:61" Type="SEntityTraversingNodeBase">
+            <SEntityTraversingNodeBase Type="SEntityTraversingNodeBase">
               <name>EnergyController</name>
               <id Type="SEntityTraversingNodeUniqueId">
                 <id />
@@ -2292,7 +2279,7 @@ Link this to Power Source</text>
                   </entityTraversingType>
                   <executeNodes Type="SEntityTraversingExecuteNodeBase" Count="0" />
                   <nextNodes Type="SEntityTraversingNodeBase" Count="1">
-                    <SEntityTraversingNodeBase Pointer="ptr:62" Type="SEntityTraversingNodeBase">
+                    <SEntityTraversingNodeBase Pointer="ptr:60" Type="SEntityTraversingNodeBase">
                       <name>Door</name>
                       <id />
                       <entityTraversingType Type="SEntityTraversingNodeTypeEntityLink">
@@ -2310,24 +2297,81 @@ Link this to Power Source</text>
           </nextNodes>
         </SEntityTraversingNodeBase>
       </TraversingNodes>
-      <TraversingTargets Type="SEntityTraversingTarget" Count="2">
-        <SEntityTraversingTarget Pointer="ptr:13" Type="SEntityTraversingTarget">
-          <name>EnergyController</name>
-          <paths Type="SEntityTraversingTargetPath" Count="1">
-            <SEntityTraversingTargetPath Type="SEntityTraversingTargetPath">
-              <node PointsTo="ptr:61" />
-            </SEntityTraversingTargetPath>
-          </paths>
-        </SEntityTraversingTarget>
-        <SEntityTraversingTarget Pointer="ptr:56" Type="SEntityTraversingTarget">
+      <TraversingTargets Type="SEntityTraversingTarget" Count="1">
+        <SEntityTraversingTarget Pointer="ptr:55" Type="SEntityTraversingTarget">
           <name>DoorState</name>
           <paths Type="SEntityTraversingTargetPath" Count="1">
             <SEntityTraversingTargetPath Type="SEntityTraversingTargetPath">
-              <node PointsTo="ptr:62" />
+              <node PointsTo="ptr:60" />
             </SEntityTraversingTargetPath>
           </paths>
         </SEntityTraversingTarget>
       </TraversingTargets>
     </SEntityTraversingTreeParams>
+    <ItemResourceComponentParams Type="ItemResourceComponentParams">
+      <isResourceNetworked>True</isResourceNetworked>
+      <isRelay>False</isRelay>
+      <filterParams />
+      <isConnectedToRoom>False</isConnectedToRoom>
+      <wirelessConnection>False</wirelessConnection>
+      <states Type="ItemResourceState" Count="1">
+        <ItemResourceState Type="ItemResourceState">
+          <name>PowerConnection</name>
+          <deltas Type="ItemResourceDeltaBase" Count="1">
+            <ItemResourceDeltaNetworkReflection Type="ItemResourceDeltaNetworkReflection">
+              <resource>Power</resource>
+              <binaryEvaluation>False</binaryEvaluation>
+            </ItemResourceDeltaNetworkReflection>
+          </deltas>
+          <linkedInteractionStates Type="ResourceLinkedInteractionState" Count="0" />
+          <signatureParams Type="ItemResourceSignatureParams">
+            <EMSignature Type="ItemResourceSignatureEntry">
+              <nominalSignature>0</nominalSignature>
+              <decayRate>0.15</decayRate>
+              <functionalityCurve />
+            </EMSignature>
+            <IRSignature Type="ItemResourceSignatureEntry">
+              <nominalSignature>0</nominalSignature>
+              <decayRate>0.15</decayRate>
+              <functionalityCurve />
+            </IRSignature>
+          </signatureParams>
+          <powerRanges Type="PowerRangeParams">
+            <low Type="ResourceRangeParams">
+              <start>0</start>
+              <modifier>1</modifier>
+              <registerRange>False</registerRange>
+            </low>
+            <medium Type="ResourceRangeParams">
+              <start>0</start>
+              <modifier>1</modifier>
+              <registerRange>False</registerRange>
+            </medium>
+            <high Type="ResourceRangeParams">
+              <start>0</start>
+              <modifier>1</modifier>
+              <registerRange>False</registerRange>
+            </high>
+          </powerRanges>
+        </ItemResourceState>
+      </states>
+      <controlParameters Type="ItemResourceControlParameterBase" Count="0" />
+      <controlBlocks Type="ItemResourceControlBlock" Count="0" />
+      <defaultPriority>50</defaultPriority>
+      <functionalityModifiers />
+      <powerPlantOverride />
+      <selfRepair Type="ItemResourceSelfRepairParams">
+        <maxRepairCount>1</maxRepairCount>
+        <timeToRepair>120</timeToRepair>
+        <healthRatio>0.2</healthRatio>
+      </selfRepair>
+    </ItemResourceComponentParams>
+    <ItemControlComponentParams Type="ItemControlComponentParams">
+      <turnedOnByDefault>True</turnedOnByDefault>
+      <forceOn>True</forceOn>
+      <asopSpawnState>On</asopSpawnState>
+      <throttleParams Type="ItemThrottleParamsBase" Count="0" />
+      <masterModeExclusionsOverride />
+    </ItemControlComponentParams>
   </Components>
 </EntityClassDefinition.ChipSet_LightControl_fromDoorState>

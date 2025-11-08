@@ -14,11 +14,11 @@
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5f12dd31-4ff9-41a5-b5e2-916270351ba9" RecordId="5f12dd31-4ff9-41a5-b5e2-916270351ba9" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.95b8cab3-5230-46f9-92e6-8e021978f543" RecordId="95b8cab3-5230-46f9-92e6-8e021978f543" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6374bb62-de4e-410a-96a3-a1156dce4802" RecordId="6374bb62-de4e-410a-96a3-a1156dce4802" />
+    <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.503443c0-b6d1-4539-b493-688117334ff1" RecordId="503443c0-b6d1-4539-b493-688117334ff1" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.434af56b-80a5-4e0d-a004-fe22c07ebacd" RecordId="434af56b-80a5-4e0d-a004-fe22c07ebacd" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.10d96278-5b69-42d3-a2aa-f20eb6b0b33b" RecordId="10d96278-5b69-42d3-a2aa-f20eb6b0b33b" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.63897a88-9b61-476d-94f4-1fe138ca648e" RecordId="63897a88-9b61-476d-94f4-1fe138ca648e" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.896817b1-aa6c-4dfd-b193-a6039c1c8a26" RecordId="896817b1-aa6c-4dfd-b193-a6039c1c8a26" />
-    <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.503443c0-b6d1-4539-b493-688117334ff1" RecordId="503443c0-b6d1-4539-b493-688117334ff1" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.091c54fe-8a0f-45bd-af8b-4767e4d08669" RecordId="091c54fe-8a0f-45bd-af8b-4767e4d08669" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f7cf0874-6297-499f-b4fd-c5b9a98d7ab7" RecordId="f7cf0874-6297-499f-b4fd-c5b9a98d7ab7" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4cfa3eda-5989-4f48-a56a-500834ebf1af" RecordId="4cfa3eda-5989-4f48-a56a-500834ebf1af" />
@@ -223,7 +223,8 @@
         <y>0</y>
         <z>0</z>
       </landingRotationOffset>
-      <fusePenetrationDamageMultiplier>0.0483871</fusePenetrationDamageMultiplier>
+      <fusePenetrationDamageMultiplier>0.001</fusePenetrationDamageMultiplier>
+      <componentPenetrationDamageMultiplier>0.8</componentPenetrationDamageMultiplier>
     </VehicleComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
       <loadout Type="SItemPortLoadoutManualParams">
@@ -5704,7 +5705,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>DockingCollar</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5818,7 +5819,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AirTrafficController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -6215,7 +6216,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Door</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -6416,7 +6417,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -6508,7 +6509,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -6600,7 +6601,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -6692,7 +6693,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -6784,7 +6785,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -6876,7 +6877,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -6968,7 +6969,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>LifeSupportGenerator</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -7127,7 +7128,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>hardpoint_pdc_top_01</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@port_PDC_01</DisplayName>
           <PortTags>PDC</PortTags>
           <RequiredPortTags>$PDC</RequiredPortTags>
           <Flags />
@@ -7186,7 +7187,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -7310,7 +7311,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -7434,7 +7435,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -7594,7 +7595,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AIModule</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -7644,7 +7645,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>hardpoint_pdc_top_02</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@port_PDC_02</DisplayName>
           <PortTags>PDC</PortTags>
           <RequiredPortTags>$PDC</RequiredPortTags>
           <Flags />
@@ -7703,7 +7704,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -7827,7 +7828,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -7951,7 +7952,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -8111,7 +8112,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AIModule</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -8161,7 +8162,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>hardpoint_pdc_top_03</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@port_PDC_03</DisplayName>
           <PortTags>PDC</PortTags>
           <RequiredPortTags>$PDC</RequiredPortTags>
           <Flags />
@@ -8220,7 +8221,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -8344,7 +8345,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -8468,7 +8469,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -8628,7 +8629,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AIModule</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -8678,7 +8679,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>hardpoint_pdc_bottom_01</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@port_PDC_04</DisplayName>
           <PortTags>PDC</PortTags>
           <RequiredPortTags>$PDC</RequiredPortTags>
           <Flags />
@@ -8737,7 +8738,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -8861,7 +8862,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -8985,7 +8986,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9145,7 +9146,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AIModule</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9195,7 +9196,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>hardpoint_pdc_bottom_02</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@port_PDC_05</DisplayName>
           <PortTags>PDC</PortTags>
           <RequiredPortTags>$PDC</RequiredPortTags>
           <Flags />
@@ -9254,7 +9255,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9378,7 +9379,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9502,7 +9503,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9662,7 +9663,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AIModule</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9712,7 +9713,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>hardpoint_pdc_bottom_03</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@port_PDC_06</DisplayName>
           <PortTags>PDC</PortTags>
           <RequiredPortTags>$PDC</RequiredPortTags>
           <Flags />
@@ -9771,7 +9772,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9895,7 +9896,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -10019,7 +10020,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -10179,7 +10180,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AIModule</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -10229,7 +10230,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>hardpoint_pdc_bottom_04</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@port_PDC_07</DisplayName>
           <PortTags>PDC</PortTags>
           <RequiredPortTags>$PDC</RequiredPortTags>
           <Flags />
@@ -10288,7 +10289,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -10412,7 +10413,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -10536,7 +10537,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -10696,7 +10697,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AIModule</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -11150,12 +11151,12 @@
       </adapters>
     </AINavigationDynamicTriggerComponent>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="ActorStatusUIData" Count="2">
+      <perceptionTypes Type="HealthIconData" Count="2">
         <EnumChoice>Vehicle</EnumChoice>
         <EnumChoice>Spaceship</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusUIWarning" Count="0" />
+      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
       <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
       <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />

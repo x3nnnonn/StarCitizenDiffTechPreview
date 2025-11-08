@@ -161,8 +161,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
-        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsOverride Type="StatusCost" Count="0" />
+        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -467,7 +467,7 @@
           <distortion>0.6</distortion>
         </SMisfireStatCondition>
         <SMisfireCriticalItemStateCondition Type="SMisfireCriticalItemStateCondition">
-          <criticalConditions Type="ActorStateData_AnimationValidationParams" Count="1">
+          <criticalConditions Type="ActorStateData_JumpFallValidationParams" Count="1">
             <EnumChoice>Damage</EnumChoice>
           </criticalConditions>
           <misfireArray Type="SMisfireEffect" Count="1">
@@ -480,58 +480,23 @@
           <misfireProbabilityArray Type="SMisfireProbabilityParams" Count="0" />
         </SMisfireLevelParams>
         <SMisfireLevelParams Type="SMisfireLevelParams">
-          <misfireProbabilityArray Type="SMisfireProbabilityParams" Count="1">
-            <SMisfireProbabilityParams Type="SMisfireProbabilityParams">
-              <weight>0.5</weight>
-              <misfireArray Type="SMisfireEffect" Count="1">
-                <SDamageMisfireEffect PointsTo="ptr:3" />
-              </misfireArray>
-            </SMisfireProbabilityParams>
-          </misfireProbabilityArray>
+          <misfireProbabilityArray Type="SMisfireProbabilityParams" Count="0" />
         </SMisfireLevelParams>
         <SMisfireLevelParams Type="SMisfireLevelParams">
-          <misfireProbabilityArray Type="SMisfireProbabilityParams" Count="2">
-            <SMisfireProbabilityParams Type="SMisfireProbabilityParams">
-              <weight>1</weight>
-              <misfireArray Type="SMisfireEffect" Count="1">
-                <SSpreadMisfireEffect PointsTo="ptr:4" />
-              </misfireArray>
-            </SMisfireProbabilityParams>
-            <SMisfireProbabilityParams Type="SMisfireProbabilityParams">
-              <weight>0.25</weight>
-              <misfireArray Type="SMisfireEffect" Count="1">
-                <SFireMisfireEffect PointsTo="ptr:5" />
-              </misfireArray>
-            </SMisfireProbabilityParams>
-          </misfireProbabilityArray>
+          <misfireProbabilityArray Type="SMisfireProbabilityParams" Count="0" />
         </SMisfireLevelParams>
       </misfireLevels>
-      <misfires Type="SMisfireEffect" Count="4">
-        <SSpreadMisfireEffect Pointer="ptr:4" Type="SSpreadMisfireEffect">
-          <effectTrigger />
-          <effectTag />
-        </SSpreadMisfireEffect>
-        <SDamageMisfireEffect Pointer="ptr:3" Type="SDamageMisfireEffect">
-          <effectTrigger />
-          <effectTag />
-          <damageValue Type="SMisfireDamageValue">
-            <health>15</health>
-          </damageValue>
-        </SDamageMisfireEffect>
-        <SFireMisfireEffect Pointer="ptr:5" Type="SFireMisfireEffect">
-          <effectTrigger />
-          <effectTag />
-        </SFireMisfireEffect>
+      <misfires Type="SMisfireEffect" Count="1">
         <SHostExplosionEffect Pointer="ptr:2" Type="SHostExplosionEffect">
           <effectTrigger />
           <effectTag />
-          <explosionChance>0.5</explosionChance>
+          <explosionChance>0.2</explosionChance>
           <explosionCountdown>119</explosionCountdown>
           <degradationAdditionalRollsFactor>10</degradationAdditionalRollsFactor>
           <criticalMalfunctionStates Type="SCriticalMalfunctionStates">
-            <safeState PointsTo="ptr:6" />
-            <selfDestructState PointsTo="ptr:7" />
-            <criticalMalfunctionState PointsTo="ptr:8" />
+            <safeState PointsTo="ptr:3" />
+            <selfDestructState PointsTo="ptr:4" />
+            <criticalMalfunctionState PointsTo="ptr:5" />
           </criticalMalfunctionStates>
         </SHostExplosionEffect>
       </misfires>
@@ -598,8 +563,8 @@
       <show>True</show>
     </InteriorMapEntityVisiblityEntityComponentParams>
     <SCItemPowerPlantParams Type="SCItemPowerPlantParams">
-      <turnOnInteraction PointsTo="ptr:9" />
-      <turnOffInteraction PointsTo="ptr:10" />
+      <turnOnInteraction PointsTo="ptr:6" />
+      <turnOffInteraction PointsTo="ptr:7" />
     </SCItemPowerPlantParams>
     <EntityComponentPowerConnection Type="EntityComponentPowerConnection">
       <PowerBase>0</PowerBase>
@@ -772,7 +737,7 @@
     <SEntityInteractableParams Type="SEntityInteractableParams">
       <Interactable Type="SInteractableParams">
         <SharedInteractions Type="SSharedInteractionParams" Count="2">
-          <SSharedInteractionParams Pointer="ptr:9" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:6" Type="SSharedInteractionParams">
             <Name>EnablePowerPlant</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -791,7 +756,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:10" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:7" Type="SSharedInteractionParams">
             <Name>DisablePowerPlant</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -909,7 +874,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:11" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:8" Type="SInteractionState">
               <StateName>Working</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -930,7 +895,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:12" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:9" Type="SInteractionState">
               <StateName>Destroyed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -960,12 +925,12 @@
             <SHealthStateModifier Type="SHealthStateModifier">
               <stateRanges Type="SRangeStateLevel" Count="2">
                 <SRangeStateLevel Type="SRangeStateLevel">
-                  <state PointsTo="ptr:11" />
+                  <state PointsTo="ptr:8" />
                   <min>0.01</min>
                   <max>1</max>
                 </SRangeStateLevel>
                 <SRangeStateLevel Type="SRangeStateLevel">
-                  <state PointsTo="ptr:12" />
+                  <state PointsTo="ptr:9" />
                   <min>0</min>
                   <max>0.01</max>
                 </SRangeStateLevel>
@@ -977,11 +942,11 @@
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>CriticalMalfunctionState</StateTypeName>
           <bindingsMethod>None</bindingsMethod>
-          <DefaultState PointsTo="ptr:6" />
+          <DefaultState PointsTo="ptr:3" />
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:6" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:3" Type="SInteractionState">
               <StateName>Safe</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1002,7 +967,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:7" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:4" Type="SInteractionState">
               <StateName>SelfDestruct</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1023,7 +988,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:8" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:5" Type="SInteractionState">
               <StateName>CriticalMalfunction</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />

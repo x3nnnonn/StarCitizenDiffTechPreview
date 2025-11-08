@@ -60650,7 +60650,7 @@
       </entries>
     </BuildingBlocks_BrandStyles>
     <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
-      <brandIdentifier />
+      <brandIdentifier ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/s_nyx_b.xml" />
       <sharedStyles />
       <entries Type="BuildingBlocks_StyleEntry" Count="19">
         <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
@@ -64218,7 +64218,7 @@
       <enableHeldCursor>False</enableHeldCursor>
       <heldCursor>Auto</heldCursor>
     </BuildingBlocks_DisplayWidget>
-    <BuildingBlocks_WidgetTextField Pointer="ptr:12" Type="BuildingBlocks_WidgetTextField">
+    <BuildingBlocks_WidgetTextField Pointer="ptr:13" Type="BuildingBlocks_WidgetTextField">
       <name>ItemDescription</name>
       <styleTags Type="Tag" Count="1">
         <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7d627d47-d787-414d-8bd6-093e0967a01f" RecordId="7d627d47-d787-414d-8bd6-093e0967a01f" />
@@ -65477,7 +65477,7 @@
       <target PointsTo="ptr:6" />
       <scrollPositionURL />
     </BuildingBlocks_ComponentScrollBar>
-    <BuildingBlocks_WidgetImage Pointer="ptr:16" Type="BuildingBlocks_WidgetImage">
+    <BuildingBlocks_WidgetImage Pointer="ptr:17" Type="BuildingBlocks_WidgetImage">
       <name>ItemManufacturerIcon</name>
       <styleTags Type="Tag" Count="1">
         <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.95bd6a43-6cad-4f07-b3c9-ecacb2efb8b1" RecordId="95bd6a43-6cad-4f07-b3c9-ecacb2efb8b1" />
@@ -65792,7 +65792,7 @@
       <containPositionX>0</containPositionX>
       <containPositionY>0</containPositionY>
     </BuildingBlocks_WidgetImage>
-    <BuildingBlocks_WidgetText Pointer="ptr:26" Type="BuildingBlocks_WidgetText">
+    <BuildingBlocks_WidgetText Pointer="ptr:27" Type="BuildingBlocks_WidgetText">
       <name>ItemCostPreview</name>
       <styleTags Type="Tag" Count="1">
         <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.40f38fb5-108e-481d-9a2c-64812d814a0f" RecordId="40f38fb5-108e-481d-9a2c-64812d814a0f" />
@@ -67742,7 +67742,7 @@
         <color />
       </tertiaryLightSettings>
     </BuildingBlocks_WidgetLighting>
-    <BuildingBlocks_GeneralEntityWidget Pointer="ptr:14" Type="BuildingBlocks_GeneralEntityWidget">
+    <BuildingBlocks_GeneralEntityWidget Pointer="ptr:15" Type="BuildingBlocks_GeneralEntityWidget">
       <name>ItemModel</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Entity</rendererType>
@@ -69045,28 +69045,28 @@
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
   <operations Type="BuildingBlocks_Node" Count="30">
-    <BuildingBlocks_BindingsLocalizedVariable Type="BuildingBlocks_BindingsLocalizedVariable">
+    <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:12" Type="BuildingBlocks_BindingsLocalizedVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>shopUI/modeView/currentlyViewedItemList/[shopUI/modeView/itemSelectedIndex]/itemName</binding>
       <inheritsNamespace>False</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsLocalizedVariable>
-    <BuildingBlocks_BindingsStringVariable Pointer="ptr:15" Type="BuildingBlocks_BindingsStringVariable">
+    <BuildingBlocks_BindingsStringVariable Pointer="ptr:16" Type="BuildingBlocks_BindingsStringVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>shopUI/modeView/currentlyViewedItemList/[shopUI/modeView/itemSelectedIndex]/itemModel</binding>
       <inheritsNamespace>False</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsStringVariable>
-    <BuildingBlocks_BindingsStringVariable Pointer="ptr:17" Type="BuildingBlocks_BindingsStringVariable">
+    <BuildingBlocks_BindingsStringVariable Pointer="ptr:18" Type="BuildingBlocks_BindingsStringVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>shopUI/modeView/currentlyViewedItemList/[shopUI/modeView/itemSelectedIndex]/itemManufacturerIcon</binding>
       <inheritsNamespace>False</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsStringVariable>
-    <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:13" Type="BuildingBlocks_BindingsLocalizedVariable">
+    <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:14" Type="BuildingBlocks_BindingsLocalizedVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>shopUI/modeView/currentlyViewedItemList/[shopUI/modeView/itemSelectedIndex]/itemDesc</binding>
       <inheritsNamespace>False</inheritsNamespace>
@@ -69076,50 +69076,50 @@
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
       <widget PointsTo="ptr:11" />
       <field>Text</field>
-      <input />
+      <input PointsTo="ptr:12" />
     </BuildingBlocks_BindingsLocalizedField>
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
-      <widget PointsTo="ptr:12" />
+      <widget PointsTo="ptr:13" />
       <field>ParamInput0</field>
-      <input PointsTo="ptr:13" />
+      <input PointsTo="ptr:14" />
     </BuildingBlocks_BindingsLocalizedField>
     <BuildingBlocks_BindingsStringField Type="BuildingBlocks_BindingsStringField">
-      <widget PointsTo="ptr:14" />
+      <widget PointsTo="ptr:15" />
       <field>GeneralEntityClassName</field>
-      <input PointsTo="ptr:15" />
+      <input PointsTo="ptr:16" />
     </BuildingBlocks_BindingsStringField>
     <BuildingBlocks_BindingsStringField Type="BuildingBlocks_BindingsStringField">
-      <widget PointsTo="ptr:16" />
+      <widget PointsTo="ptr:17" />
       <field>ImagePath</field>
-      <input PointsTo="ptr:17" />
+      <input PointsTo="ptr:18" />
     </BuildingBlocks_BindingsStringField>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
       <widget PointsTo="ptr:5" />
       <field>IsActive</field>
-      <input PointsTo="ptr:18" />
+      <input PointsTo="ptr:19" />
     </BuildingBlocks_BindingsBooleanField>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:19" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:20" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>shopUI/modeView/itemSelectedIndex</binding>
       <inheritsNamespace>True</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsIntegerVariable>
-    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:20" Type="BuildingBlocks_BindingsBooleanFromInteger">
+    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:21" Type="BuildingBlocks_BindingsBooleanFromInteger">
       <type>Less</type>
-      <inputL PointsTo="ptr:19" />
+      <inputL PointsTo="ptr:20" />
       <inputR />
       <value>0</value>
     </BuildingBlocks_BindingsBooleanFromInteger>
-    <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:18" Type="BuildingBlocks_BindingsBooleanInvert">
-      <input PointsTo="ptr:20" />
+    <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:19" Type="BuildingBlocks_BindingsBooleanInvert">
+      <input PointsTo="ptr:21" />
     </BuildingBlocks_BindingsBooleanInvert>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
       <widget PointsTo="ptr:4" />
       <field>IsActive</field>
-      <input PointsTo="ptr:20" />
+      <input PointsTo="ptr:21" />
     </BuildingBlocks_BindingsBooleanField>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:22" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:23" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>shopUI/transactionMode</binding>
       <inheritsNamespace>True</inheritsNamespace>
@@ -69129,9 +69129,9 @@
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
       <widget PointsTo="ptr:9" />
       <field>ParamInput0</field>
-      <input PointsTo="ptr:21" />
+      <input PointsTo="ptr:22" />
     </BuildingBlocks_BindingsLocalizedField>
-    <BuildingBlocks_BindingsLocalizationFromIntegerSwitch Pointer="ptr:21" Type="BuildingBlocks_BindingsLocalizationFromIntegerSwitch">
+    <BuildingBlocks_BindingsLocalizationFromIntegerSwitch Pointer="ptr:22" Type="BuildingBlocks_BindingsLocalizationFromIntegerSwitch">
       <defaultValue>@shop_ui_headerbtn_buy</defaultValue>
       <defaultOverride />
       <values Type="BuildingBlocks_IntegerLocalizedPair" Count="2">
@@ -69146,29 +69146,29 @@
           <secondOverride />
         </BuildingBlocks_IntegerLocalizedPair>
       </values>
-      <input PointsTo="ptr:22" />
+      <input PointsTo="ptr:23" />
     </BuildingBlocks_BindingsLocalizationFromIntegerSwitch>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
       <widget PointsTo="ptr:9" />
       <field>IsActive</field>
-      <input PointsTo="ptr:23" />
+      <input PointsTo="ptr:24" />
     </BuildingBlocks_BindingsBooleanField>
-    <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:24" Type="BuildingBlocks_BindingsBooleanVariable">
+    <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:25" Type="BuildingBlocks_BindingsBooleanVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>shopUI/transactionModal/modalIsActive</binding>
       <inheritsNamespace>False</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsBooleanVariable>
-    <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:23" Type="BuildingBlocks_BindingsBooleanInvert">
-      <input PointsTo="ptr:24" />
+    <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:24" Type="BuildingBlocks_BindingsBooleanInvert">
+      <input PointsTo="ptr:25" />
     </BuildingBlocks_BindingsBooleanInvert>
     <BuildingBlocks_BindingsStringField Type="BuildingBlocks_BindingsStringField">
-      <widget PointsTo="ptr:14" />
+      <widget PointsTo="ptr:15" />
       <field>EntityGeometryTag</field>
-      <input PointsTo="ptr:25" />
+      <input PointsTo="ptr:26" />
     </BuildingBlocks_BindingsStringField>
-    <BuildingBlocks_BindingsStringVariable Pointer="ptr:25" Type="BuildingBlocks_BindingsStringVariable">
+    <BuildingBlocks_BindingsStringVariable Pointer="ptr:26" Type="BuildingBlocks_BindingsStringVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>shopUI/modeView/currentlyViewedItemList/[shopUI/modeView/itemSelectedIndex]/inventoryGeoTag</binding>
       <inheritsNamespace>False</inheritsNamespace>
@@ -69176,7 +69176,7 @@
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsStringVariable>
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
-      <widget PointsTo="ptr:26" />
+      <widget PointsTo="ptr:27" />
       <field>Text</field>
       <input />
     </BuildingBlocks_BindingsLocalizedField>
@@ -69186,27 +69186,27 @@
       <withSeparators>True</withSeparators>
       <currencyType>CURRENCY_UEC</currencyType>
       <showFullValue>True</showFullValue>
-      <input PointsTo="ptr:27" />
+      <input PointsTo="ptr:28" />
     </BuildingBlocks_BindingsLocalizedCurrencyFromNumber>
     <BuildingBlocks_BindingsNumberFromInteger Type="BuildingBlocks_BindingsNumberFromInteger">
       <asSeconds>False</asSeconds>
-      <input PointsTo="ptr:28" />
+      <input PointsTo="ptr:29" />
     </BuildingBlocks_BindingsNumberFromInteger>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:28" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:29" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>shopUI/itemTotalCost</binding>
       <inheritsNamespace>True</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsIntegerVariable>
-    <BuildingBlocks_BindingsNumberVariable Pointer="ptr:27" Type="BuildingBlocks_BindingsNumberVariable">
+    <BuildingBlocks_BindingsNumberVariable Pointer="ptr:28" Type="BuildingBlocks_BindingsNumberVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>itemCost</binding>
       <inheritsNamespace>True</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsNumberVariable>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:31" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:32" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>itemTotalCost</binding>
       <inheritsNamespace>True</inheritsNamespace>
@@ -69214,21 +69214,21 @@
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsIntegerVariable>
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
-      <widget PointsTo="ptr:26" />
+      <widget PointsTo="ptr:27" />
       <field>Text</field>
-      <input PointsTo="ptr:29" />
+      <input PointsTo="ptr:30" />
     </BuildingBlocks_BindingsLocalizedField>
-    <BuildingBlocks_BindingsLocalizedCurrencyFromNumber Pointer="ptr:29" Type="BuildingBlocks_BindingsLocalizedCurrencyFromNumber">
+    <BuildingBlocks_BindingsLocalizedCurrencyFromNumber Pointer="ptr:30" Type="BuildingBlocks_BindingsLocalizedCurrencyFromNumber">
       <numSignificantFigures>0</numSignificantFigures>
       <numDecimalPlaces>0</numDecimalPlaces>
       <withSeparators>True</withSeparators>
       <currencyType>CURRENCY_UEC</currencyType>
       <showFullValue>True</showFullValue>
-      <input PointsTo="ptr:30" />
-    </BuildingBlocks_BindingsLocalizedCurrencyFromNumber>
-    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:30" Type="BuildingBlocks_BindingsNumberFromInteger">
-      <asSeconds>False</asSeconds>
       <input PointsTo="ptr:31" />
+    </BuildingBlocks_BindingsLocalizedCurrencyFromNumber>
+    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:31" Type="BuildingBlocks_BindingsNumberFromInteger">
+      <asSeconds>False</asSeconds>
+      <input PointsTo="ptr:32" />
     </BuildingBlocks_BindingsNumberFromInteger>
   </operations>
   <overrideDefaultTooltipCanvas />

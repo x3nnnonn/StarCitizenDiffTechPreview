@@ -89,8 +89,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
-        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsOverride Type="StatusCost" Count="0" />
+        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -776,8 +776,8 @@
               <onEntityAttachedState PointsTo="ptr:7" />
               <onEntityDetachedState PointsTo="ptr:4" />
               <onPortDestroyedState PointsTo="ptr:4" />
-              <itemTypes Type="SpeedThreshold" Count="0" />
-              <itemSubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <itemTypes Type="StatusEffectValue" Count="0" />
+              <itemSubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -926,8 +926,8 @@
               <onEntityAttachedState PointsTo="ptr:11" />
               <onEntityDetachedState PointsTo="ptr:14" />
               <onPortDestroyedState PointsTo="ptr:14" />
-              <itemTypes Type="SpeedThreshold" Count="0" />
-              <itemSubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <itemTypes Type="StatusEffectValue" Count="0" />
+              <itemSubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>

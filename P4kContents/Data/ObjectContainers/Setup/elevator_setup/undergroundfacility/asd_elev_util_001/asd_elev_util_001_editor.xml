@@ -1,0 +1,38 @@
+<ObjectContainer sourceLevel="data/levels/!oc/setup/elevator">
+ <Layers>
+  <Layer fullname="UndergroundFacility/asd_elev_util_001" externalLayerLevelDir="data/levels/!oc/setup/elevator/Layers/" externalLayerParentDir="UndergroundFacility/" externalLayerFilePath="data/levels/!oc/setup/elevator/Layers/UndergroundFacility/asd_elev_util_001.lyr" ParentGUID="{21522D05-8A3B-42D5-800E-695714EAA736}" layerHash="2660759038">
+   <Layer name="decal" layerHash="251198796" externalLayerFilePath="data/levels/!oc/setup/elevator/Layers/UndergroundFacility/asd_elev_util_001/decal.lyr"/>
+   <Layer name="geo" layerHash="3777738420" externalLayerFilePath="data/levels/!oc/setup/elevator/Layers/UndergroundFacility/asd_elev_util_001/geo.lyr">
+    <Object name="hathor_3d_logo_square_clean-031" type="Brush" guid="401d38fd-fa1e-4283-f17b-677d67e9e7a6"/>
+    <Object name="elevator_carriage-004" type="GeomEntity" guid="4ec63c53-b0c4-5b98-aee3-4afd6ff1dab7" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
+   </Layer>
+   <Layer name="light" layerHash="4116864113" externalLayerFilePath="data/levels/!oc/setup/elevator/Layers/UndergroundFacility/asd_elev_util_001/light.lyr">
+    <Object name="lt_asd_spawnclos_empt_top_key-030" type="Light" guid="49c02c64-d8e9-270f-7c8a-a3ea171d8d9c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_spawnclos_empt_btm_bnc-008" type="Light" guid="470fe249-047e-a70f-b6f2-1709a5765a96" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_spawnclos_empt_fill-016" type="Light" guid="4b8b2c7a-f18f-8230-6eb4-e5720c2f2191" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_spawnclos_empt_top_key-032" type="Light" guid="43d256b6-814d-1039-66ee-66b8ff46bd9b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lb_asd_elev_util_001" type="LightBox" guid="44ea1424-cd07-2f46-9a50-90302abb738c" tags=""/>
+    <Object name="light_fluorescent_a-035" type="Brush" guid="40a2129b-5085-dd4b-5756-d0ee0046b091"/>
+    <Object name="lg_asd_elev_util_001" type="LightGroup" guid="4a665c55-edf6-4d72-c76f-917802193793" tags="849b8481-5893-4301-964e-4f39f3e27ad8,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,60cc8ca1-8927-4e92-af99-9cd367e0595c,5b803369-07d1-470f-996a-9372ca50e617,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
+    <Object name="lt_asd_spawnclos_empt_top_key-031" type="Light" guid="40e3f215-74f8-e1b8-fa02-470c91ce25bf" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="cm_asd_elev_util_001" type="EnvironmentLight" guid="4c51297e-864e-a5db-9d09-e28e896d4c8e" tags=""/>
+    <Object name="lt_asd_spawnclos_empt_btm_key-029" type="Light" guid="40c5c499-e45e-99e3-5ce8-847ac5e8dbb7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="light_fluorescent_a-037" type="Brush" guid="4a4dba27-9377-7af1-ae82-9a64970c4999"/>
+    <Object name="lt_asd_spawnclos_empt_btm_key-031" type="Light" guid="44a7f359-dc1c-73f7-0fc7-f36357be9485" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="fv_asd_elev_util_001" type="FogVolume" guid="4bcd746c-814b-f0f8-761f-45f245a66da3" tags=""/>
+    <Object name="lt_asd_spawnclos_empt_top_glo-008" type="Light" guid="4d3c9769-a04c-b5f9-9c9f-07f3e6ce5eb4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+   </Layer>
+   <Layer name="visarea" layerHash="323274575" externalLayerFilePath="data/levels/!oc/setup/elevator/Layers/UndergroundFacility/asd_elev_util_001/visarea.lyr">
+    <Object name="Generic_Shape_VisArea_asd_elev_util_001" type="GenericShape" guid="41f0c13c-962e-bd78-1393-c1deafb1089e" tags=""/>
+    <Object name="Generic_Shape_Portal_asd_elev_util_001" type="GenericShape" guid="407709ca-1a52-dd94-3e45-a60244024aaf" tags=""/>
+   </Layer>
+   <Object name="NavigationArea009" type="NavigationArea" guid="4840b0dd-940c-8304-0c1b-461155896f8d" tags="a9842535-5d8f-460b-bc21-447a70025802"/>
+   <Object name="door_navlink-006" type="door_navlink_to_external" guid="40382015-dd97-ac20-e953-f16b2867519f" tags="00ead468-9073-485b-a6df-ca6b94053603,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+   <Object name="Lowtech_Truck_Shaft_Door_Double_Elev-017" type="Lowtech_Truck_Shaft_Door_Double_Elev" guid="44edf187-210b-5c33-9da7-65ca31f166b9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,00ead468-9073-485b-a6df-ca6b94053603,0e515dc0-2cd7-4b2e-8578-f14a234f5eed,9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,75d84438-295e-409a-8a0f-9a530cc14218,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,65c060b9-cf53-4706-93e7-9184a27cc9c1,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,5caff6ec-c71b-4e1c-b939-83263471611d,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,78afd517-a3a1-48f5-b251-0a7c28f865bb,81bc340e-4964-4c2d-9689-fdbb23e4fd9f,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+   <Object name="oc_pivot_asd_elev_util_001" type="ObjectContainerPivot" guid="405552c2-686b-a586-e4e3-3510e9382588" tags=""/>
+   <Object name="RoomShape-049" type="AreaShape" guid="425acb93-083d-17b4-4bea-a8ca5d3b9d9a" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+   <Object name="TransitInteractionUIPanel_Elevator_Int-042" type="TransitInteractionUIPanel_Elevator_Int" guid="4366ae68-b411-2af3-cb47-e81b19286daa" tags="70d69451-46df-4b2f-94c8-c8fc329fd05d,849b8481-5893-4301-964e-4f39f3e27ad8,5ace9427-e331-45f9-9816-531026a2da04,00ead468-9073-485b-a6df-ca6b94053603,eecc685c-d6c2-4c02-ba5e-6e08be2ef272,b5e7e39d-18cd-42d8-85b0-7862c0075765,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,78afd517-a3a1-48f5-b251-0a7c28f865bb,eac0031a-3373-451e-80cc-4148d13a213d,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,99cf665e-f2bb-4e84-93ff-9ff861f3fb00,146790a6-2926-46ca-a1d8-517e4a503354"/>
+   <Object name="Room_elev_util-030" type="Room" guid="4445b147-47ac-1efe-e225-e53db635128a" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+  </Layer>
+ </Layers>
+</ObjectContainer>

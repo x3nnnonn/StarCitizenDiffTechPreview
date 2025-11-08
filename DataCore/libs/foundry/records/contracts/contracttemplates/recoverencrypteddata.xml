@@ -178,7 +178,9 @@
       <extendedTextToken />
       <value Type="MissionPropertyValue_Tags">
         <tags Type="TagList">
-          <tags Type="Tag" Count="0" />
+          <tags Type="Tag" Count="1">
+            <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.fa9a5787-8fd1-4a97-a6c4-9da4e62e2264" RecordId="fa9a5787-8fd1-4a97-a6c4-9da4e62e2264" />
+          </tags>
         </tags>
         <negativeTags Type="TagList">
           <tags Type="Tag" Count="0" />
@@ -279,7 +281,7 @@
         <moduleHierarchy />
         <disableTravelObjectives>False</disableTravelObjectives>
         <disableReturnObjectives>False</disableReturnObjectives>
-        <travelRadiusKM>6</travelRadiusKM>
+        <travelRadiusKM>16</travelRadiusKM>
         <allPlayersLeftGracePeriod>-1</allPlayersLeftGracePeriod>
         <travelObjectiveInfo Type="ObjectiveDisplayInfo">
           <shortDescription>@TravelObjective_Short</shortDescription>

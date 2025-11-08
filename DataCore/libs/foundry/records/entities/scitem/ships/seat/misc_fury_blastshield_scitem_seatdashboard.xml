@@ -23,7 +23,7 @@
       <isConnectedToRoom>False</isConnectedToRoom>
       <wirelessConnection>False</wirelessConnection>
       <states Type="ItemResourceState" Count="1">
-        <ItemResourceState Type="ItemResourceState">
+        <ItemResourceState Pointer="ptr:78" Type="ItemResourceState">
           <name>Online</name>
           <deltas Type="ItemResourceDeltaBase" Count="1">
             <ItemResourceDeltaNetworkReflection Type="ItemResourceDeltaNetworkReflection">
@@ -366,7 +366,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:7" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:6" Type="SSharedInteractionParams">
             <Name>Coupled_SetCoupled</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -385,7 +385,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:8" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:7" Type="SSharedInteractionParams">
             <Name>Coupled_SetDecoupled</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -404,7 +404,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:9" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:8" Type="SSharedInteractionParams">
             <Name>GSafe_SetActive</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -423,7 +423,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:10" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:9" Type="SSharedInteractionParams">
             <Name>GSafe_SetInactive</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -442,7 +442,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:11" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:10" Type="SSharedInteractionParams">
             <Name>ESP_SetActive</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -461,7 +461,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:12" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:11" Type="SSharedInteractionParams">
             <Name>ESP_SetInactive</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -480,7 +480,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:13" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:12" Type="SSharedInteractionParams">
             <Name>QuantumSpool_SetActive</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -499,7 +499,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:14" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:13" Type="SSharedInteractionParams">
             <Name>QuantumSpool_SetInactive</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -518,7 +518,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:15" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:14" Type="SSharedInteractionParams">
             <Name>QuantumTravel_SetActive</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -537,7 +537,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:16" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:15" Type="SSharedInteractionParams">
             <Name>QuantumTravel_SetInactive</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -594,7 +594,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:19" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:18" Type="SSharedInteractionParams">
             <Name>GimbalType_SetFixed</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -613,7 +613,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:18" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:17" Type="SSharedInteractionParams">
             <Name>GimbalType_SetGimbal</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -632,7 +632,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:17" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:16" Type="SSharedInteractionParams">
             <Name>GimbalType_SetAimAssist</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -651,7 +651,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:20" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:19" Type="SSharedInteractionParams">
             <Name>FirePattern_SetStaggered</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -670,7 +670,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:21" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:20" Type="SSharedInteractionParams">
             <Name>FirePattern_SetSynchronized</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -689,7 +689,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:22" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:21" Type="SSharedInteractionParams">
             <Name>PipType_SetLead</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -708,7 +708,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:23" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:22" Type="SSharedInteractionParams">
             <Name>PipType_SetLag</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -727,7 +727,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:4" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:150" Type="SSharedInteractionParams">
             <Name>LandingGear_Invalid</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -746,7 +746,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:24" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:23" Type="SSharedInteractionParams">
             <Name>SelfDestruct_Engage</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -765,7 +765,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:25" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:24" Type="SSharedInteractionParams">
             <Name>SelfDestruct_Disengage</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -784,7 +784,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:26" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:25" Type="SSharedInteractionParams">
             <Name>HailTarget_Start</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -803,7 +803,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:27" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:26" Type="SSharedInteractionParams">
             <Name>HailTarget_Stop</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -822,7 +822,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:30" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:29" Type="SSharedInteractionParams">
             <Name>Sensors_On</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -841,7 +841,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:31" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:30" Type="SSharedInteractionParams">
             <Name>Sensors_Off</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -860,7 +860,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:32" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:31" Type="SSharedInteractionParams">
             <Name>Scan_Enable</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -879,7 +879,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:33" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:32" Type="SSharedInteractionParams">
             <Name>Scan_Disable</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -898,7 +898,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:34" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:33" Type="SSharedInteractionParams">
             <Name>Shields_On</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -917,7 +917,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:35" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:34" Type="SSharedInteractionParams">
             <Name>Shields_Off</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -936,7 +936,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:36" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:35" Type="SSharedInteractionParams">
             <Name>Missiles_ArmMissile</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -955,7 +955,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:37" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:36" Type="SSharedInteractionParams">
             <Name>Missiles_DisarmMissiles</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -974,7 +974,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:38" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:37" Type="SSharedInteractionParams">
             <Name>Missiles_CycleMissiles</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -993,7 +993,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:39" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:38" Type="SSharedInteractionParams">
             <Name>Missiles_FireMissiles</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1012,7 +1012,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:40" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:39" Type="SSharedInteractionParams">
             <Name>Weapons_On</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1031,7 +1031,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:41" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:40" Type="SSharedInteractionParams">
             <Name>Weapons_Off</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1050,7 +1050,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:42" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:41" Type="SSharedInteractionParams">
             <Name>Countermeasures_Fire</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1069,7 +1069,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:43" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:42" Type="SSharedInteractionParams">
             <Name>Headlights_On</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1088,7 +1088,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:44" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:43" Type="SSharedInteractionParams">
             <Name>Headlights_Off</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1145,7 +1145,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:45" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:44" Type="SSharedInteractionParams">
             <Name>ProximityAssist_SetActive</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1164,7 +1164,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:46" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:45" Type="SSharedInteractionParams">
             <Name>ProximityAssist_SetInactive</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1202,7 +1202,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:47" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Type="SSharedInteractionParams">
             <Name>ScanningHUD_Invalid</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1221,7 +1221,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:28" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:27" Type="SSharedInteractionParams">
             <Name>Comms_AcceptCall</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1240,7 +1240,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:29" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:28" Type="SSharedInteractionParams">
             <Name>Comms_DeclineCall</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1282,7 +1282,7 @@
             </conditionList>
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:6" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:4" Type="SSharedInteractionParams">
             <Name>ShipTransformRetract</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1377,7 +1377,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:90" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:89" Type="SSharedInteractionParams">
             <Name>ShipTransformCycle</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1396,7 +1396,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:48" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:46" Type="SSharedInteractionParams">
             <Name>OpenBlastShield</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1415,7 +1415,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:49" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:47" Type="SSharedInteractionParams">
             <Name>CloseBlastShield</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -1852,7 +1852,7 @@
             </AngleConstraint>
           </SInteractionPointParams>
           <SInteractionPointParams Pointer="ptr:229" Type="SInteractionPointParams">
-            <Interactions Type="SInteractionParams" Count="3">
+            <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
                 <Interaction PointsTo="ptr:4" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
@@ -1860,11 +1860,6 @@
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
                 <Interaction PointsTo="ptr:5" />
-                <DisplayName>@LOC_EMPTY</DisplayName>
-                <IsPrimary>False</IsPrimary>
-              </SInteractionParams>
-              <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:6" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -1951,12 +1946,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:7" />
+                <Interaction PointsTo="ptr:6" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:8" />
+                <Interaction PointsTo="ptr:7" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -2036,12 +2031,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:9" />
+                <Interaction PointsTo="ptr:8" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:10" />
+                <Interaction PointsTo="ptr:9" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -2121,12 +2116,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:11" />
+                <Interaction PointsTo="ptr:10" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:12" />
+                <Interaction PointsTo="ptr:11" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -2206,12 +2201,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:13" />
+                <Interaction PointsTo="ptr:12" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:14" />
+                <Interaction PointsTo="ptr:13" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -2291,12 +2286,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:15" />
+                <Interaction PointsTo="ptr:14" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:16" />
+                <Interaction PointsTo="ptr:15" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -2376,17 +2371,17 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="3">
               <SInteractionParams Type="SInteractionParams">
+                <Interaction PointsTo="ptr:16" />
+                <DisplayName>@LOC_EMPTY</DisplayName>
+                <IsPrimary>False</IsPrimary>
+              </SInteractionParams>
+              <SInteractionParams Type="SInteractionParams">
                 <Interaction PointsTo="ptr:17" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
                 <Interaction PointsTo="ptr:18" />
-                <DisplayName>@LOC_EMPTY</DisplayName>
-                <IsPrimary>False</IsPrimary>
-              </SInteractionParams>
-              <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:19" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -2466,12 +2461,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:20" />
+                <Interaction PointsTo="ptr:19" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:21" />
+                <Interaction PointsTo="ptr:20" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -2551,12 +2546,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:22" />
+                <Interaction PointsTo="ptr:21" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:23" />
+                <Interaction PointsTo="ptr:22" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -2636,12 +2631,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:24" />
+                <Interaction PointsTo="ptr:23" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:25" />
+                <Interaction PointsTo="ptr:24" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -2721,6 +2716,11 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="4">
               <SInteractionParams Type="SInteractionParams">
+                <Interaction PointsTo="ptr:25" />
+                <DisplayName>@LOC_EMPTY</DisplayName>
+                <IsPrimary>False</IsPrimary>
+              </SInteractionParams>
+              <SInteractionParams Type="SInteractionParams">
                 <Interaction PointsTo="ptr:26" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
@@ -2732,11 +2732,6 @@
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
                 <Interaction PointsTo="ptr:28" />
-                <DisplayName>@LOC_EMPTY</DisplayName>
-                <IsPrimary>False</IsPrimary>
-              </SInteractionParams>
-              <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:29" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -2816,12 +2811,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:30" />
+                <Interaction PointsTo="ptr:29" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:31" />
+                <Interaction PointsTo="ptr:30" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -2901,12 +2896,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:32" />
+                <Interaction PointsTo="ptr:31" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:33" />
+                <Interaction PointsTo="ptr:32" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -2986,12 +2981,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:34" />
+                <Interaction PointsTo="ptr:33" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:35" />
+                <Interaction PointsTo="ptr:34" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -3071,12 +3066,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:36" />
+                <Interaction PointsTo="ptr:35" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:37" />
+                <Interaction PointsTo="ptr:36" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -3156,7 +3151,7 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="1">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:38" />
+                <Interaction PointsTo="ptr:37" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -3236,7 +3231,7 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="1">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:39" />
+                <Interaction PointsTo="ptr:38" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -3314,19 +3309,14 @@
             </AngleConstraint>
           </SInteractionPointParams>
           <SInteractionPointParams Type="SInteractionPointParams">
-            <Interactions Type="SInteractionParams" Count="3">
+            <Interactions Type="SInteractionParams" Count="2">
+              <SInteractionParams Type="SInteractionParams">
+                <Interaction PointsTo="ptr:39" />
+                <DisplayName>@LOC_EMPTY</DisplayName>
+                <IsPrimary>False</IsPrimary>
+              </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
                 <Interaction PointsTo="ptr:40" />
-                <DisplayName>@LOC_EMPTY</DisplayName>
-                <IsPrimary>False</IsPrimary>
-              </SInteractionParams>
-              <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:41" />
-                <DisplayName>@LOC_EMPTY</DisplayName>
-                <IsPrimary>False</IsPrimary>
-              </SInteractionParams>
-              <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:4" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -3413,7 +3403,7 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="1">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:42" />
+                <Interaction PointsTo="ptr:41" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -3493,12 +3483,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:43" />
+                <Interaction PointsTo="ptr:42" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:44" />
+                <Interaction PointsTo="ptr:43" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -3585,12 +3575,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:45" />
+                <Interaction PointsTo="ptr:44" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:46" />
+                <Interaction PointsTo="ptr:45" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -3744,12 +3734,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:47" />
+                <Interaction PointsTo="ptr:5" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:28" />
+                <Interaction PointsTo="ptr:4" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -3903,12 +3893,12 @@
           <SInteractionPointParams Type="SInteractionPointParams">
             <Interactions Type="SInteractionParams" Count="2">
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:48" />
+                <Interaction PointsTo="ptr:46" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
               <SInteractionParams Type="SInteractionParams">
-                <Interaction PointsTo="ptr:49" />
+                <Interaction PointsTo="ptr:47" />
                 <DisplayName>@LOC_EMPTY</DisplayName>
                 <IsPrimary>False</IsPrimary>
               </SInteractionParams>
@@ -4076,8 +4066,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
-        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsOverride Type="StatusCost" Count="0" />
+        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -4144,7 +4134,7 @@
       </ScopeContexts>
       <AnimationJointControls Type="AnimationJointControl">
         <variables Type="AnimationVariable" Count="27">
-          <AnimationPlayerInputVariable Pointer="ptr:53" Type="AnimationPlayerInputVariable">
+          <AnimationPlayerInputVariable Pointer="ptr:51" Type="AnimationPlayerInputVariable">
             <name>yaw</name>
             <range Type="Range">
               <minimum>-1</minimum>
@@ -4156,7 +4146,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationPlayerInputVariable>
-          <AnimationPlayerInputVariable Pointer="ptr:52" Type="AnimationPlayerInputVariable">
+          <AnimationPlayerInputVariable Pointer="ptr:50" Type="AnimationPlayerInputVariable">
             <name>pitch</name>
             <range Type="Range">
               <minimum>-1</minimum>
@@ -4168,7 +4158,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationPlayerInputVariable>
-          <AnimationPlayerInputVariable Pointer="ptr:54" Type="AnimationPlayerInputVariable">
+          <AnimationPlayerInputVariable Pointer="ptr:52" Type="AnimationPlayerInputVariable">
             <name>roll</name>
             <range Type="Range">
               <minimum>-1</minimum>
@@ -4180,7 +4170,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationPlayerInputVariable>
-          <AnimationPlayerInputVariable Pointer="ptr:55" Type="AnimationPlayerInputVariable">
+          <AnimationPlayerInputVariable Pointer="ptr:53" Type="AnimationPlayerInputVariable">
             <name>StrafeUpDown</name>
             <range Type="Range">
               <minimum>-1</minimum>
@@ -4192,7 +4182,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationPlayerInputVariable>
-          <AnimationPlayerInputVariable Pointer="ptr:50" Type="AnimationPlayerInputVariable">
+          <AnimationPlayerInputVariable Pointer="ptr:48" Type="AnimationPlayerInputVariable">
             <name>power</name>
             <range Type="Range">
               <minimum>-1</minimum>
@@ -4204,7 +4194,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationPlayerInputVariable>
-          <AnimationPlayerInputVariable Pointer="ptr:51" Type="AnimationPlayerInputVariable">
+          <AnimationPlayerInputVariable Pointer="ptr:49" Type="AnimationPlayerInputVariable">
             <name>StrafeLeftRight</name>
             <range Type="Range">
               <minimum>-1</minimum>
@@ -4216,7 +4206,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationPlayerInputVariable>
-          <AnimationFloatVariable Pointer="ptr:56" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:54" Type="AnimationFloatVariable">
             <name>var_EngineSystem</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4228,7 +4218,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:57" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:55" Type="AnimationFloatVariable">
             <name>var_PowerSystem</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4240,7 +4230,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:58" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:56" Type="AnimationFloatVariable">
             <name>var_Canopy</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4252,7 +4242,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:59" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:57" Type="AnimationFloatVariable">
             <name>var_CoupledControl</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4264,7 +4254,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:60" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:58" Type="AnimationFloatVariable">
             <name>var_LandingGear</name>
             <range Type="Range">
               <minimum>-1</minimum>
@@ -4276,7 +4266,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:61" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:59" Type="AnimationFloatVariable">
             <name>var_GSsafe</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4288,7 +4278,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:62" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:60" Type="AnimationFloatVariable">
             <name>var_ESP</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4300,7 +4290,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:63" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:61" Type="AnimationFloatVariable">
             <name>var_QuantumSpool</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4312,7 +4302,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:64" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:62" Type="AnimationFloatVariable">
             <name>var_QuantumTravel</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4324,7 +4314,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:65" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:63" Type="AnimationFloatVariable">
             <name>var_GimbalType</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4336,7 +4326,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:66" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:64" Type="AnimationFloatVariable">
             <name>var_FirePattern</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4348,7 +4338,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:67" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:65" Type="AnimationFloatVariable">
             <name>var_PipType</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4360,7 +4350,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:68" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:66" Type="AnimationFloatVariable">
             <name>var_Shields</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4372,7 +4362,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:69" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:67" Type="AnimationFloatVariable">
             <name>var_Weapons</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4384,7 +4374,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:70" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:68" Type="AnimationFloatVariable">
             <name>var_Sensors</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4396,7 +4386,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:71" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:69" Type="AnimationFloatVariable">
             <name>var_Scan</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4408,7 +4398,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:72" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:70" Type="AnimationFloatVariable">
             <name>var_ProximityAssist</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4420,7 +4410,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:73" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:71" Type="AnimationFloatVariable">
             <name>var_Headlights</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4432,7 +4422,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:74" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:72" Type="AnimationFloatVariable">
             <name>var_ArmMissiles</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4444,7 +4434,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:75" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:73" Type="AnimationFloatVariable">
             <name>var_FireMissiles</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4456,7 +4446,7 @@
               <type>Linear</type>
             </defaultInterpolation>
           </AnimationFloatVariable>
-          <AnimationFloatVariable Pointer="ptr:76" Type="AnimationFloatVariable">
+          <AnimationFloatVariable Pointer="ptr:74" Type="AnimationFloatVariable">
             <name>var_BlastShield</name>
             <range Type="Range">
               <minimum>0</minimum>
@@ -4474,14 +4464,14 @@
             <joint>Joystick_Left</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:50" />
+                <variable PointsTo="ptr:48" />
                 <fromStartValus>-1</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>30</toStartAngle>
                 <toEndAngle>-30</toEndAngle>
               </AnimationJointLinearRotation>
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:51" />
+                <variable PointsTo="ptr:49" />
                 <fromStartValus>-1</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>30</toStartAngle>
@@ -4499,21 +4489,21 @@
             <joint>Joystick_Right</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
+                <variable PointsTo="ptr:50" />
+                <fromStartValus>-1</fromStartValus>
+                <fromEndValus>1</fromEndValus>
+                <toStartAngle>30</toStartAngle>
+                <toEndAngle>-30</toEndAngle>
+              </AnimationJointLinearRotation>
+              <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
+                <variable PointsTo="ptr:51" />
+                <fromStartValus>-1</fromStartValus>
+                <fromEndValus>1</fromEndValus>
+                <toStartAngle>30</toStartAngle>
+                <toEndAngle>-30</toEndAngle>
+              </AnimationJointLinearRotation>
+              <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
                 <variable PointsTo="ptr:52" />
-                <fromStartValus>-1</fromStartValus>
-                <fromEndValus>1</fromEndValus>
-                <toStartAngle>30</toStartAngle>
-                <toEndAngle>-30</toEndAngle>
-              </AnimationJointLinearRotation>
-              <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:53" />
-                <fromStartValus>-1</fromStartValus>
-                <fromEndValus>1</fromEndValus>
-                <toStartAngle>30</toStartAngle>
-                <toEndAngle>-30</toEndAngle>
-              </AnimationJointLinearRotation>
-              <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:54" />
                 <fromStartValus>-1</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>15</toStartAngle>
@@ -4530,7 +4520,7 @@
             <joint>Control_Pedal_Left</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:51" />
+                <variable PointsTo="ptr:49" />
                 <fromStartValus>-1</fromStartValus>
                 <fromEndValus>0</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4549,7 +4539,7 @@
             <joint>Control_Pedal_Right</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:51" />
+                <variable PointsTo="ptr:49" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4568,7 +4558,7 @@
             <joint>throttle_button_2</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:51" />
+                <variable PointsTo="ptr:49" />
                 <fromStartValus>-1</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>-15</toStartAngle>
@@ -4576,7 +4566,7 @@
               </AnimationJointLinearRotation>
               <AnimationJointBaseRotation />
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:55" />
+                <variable PointsTo="ptr:53" />
                 <fromStartValus>-1</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>-15</toStartAngle>
@@ -4593,7 +4583,7 @@
             <joint>btn_Engine_Switch</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:56" />
+                <variable PointsTo="ptr:54" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4612,7 +4602,7 @@
             <joint>btn_PowerSystem_Switch</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:57" />
+                <variable PointsTo="ptr:55" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4631,7 +4621,7 @@
             <joint>btn_Canopy_Switch</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:58" />
+                <variable PointsTo="ptr:56" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4650,7 +4640,7 @@
             <joint>btn_Coupled_Switch</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:59" />
+                <variable PointsTo="ptr:57" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4669,7 +4659,7 @@
             <joint>btn_LandingGear_Throttle</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:60" />
+                <variable PointsTo="ptr:58" />
                 <fromStartValus>-1</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4688,7 +4678,7 @@
             <joint>btn_GSafe_Switch</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:61" />
+                <variable PointsTo="ptr:59" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4707,7 +4697,7 @@
             <joint>btn_ESP_Switch</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:62" />
+                <variable PointsTo="ptr:60" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4728,7 +4718,7 @@
               <AnimationJointBaseRotation />
               <AnimationJointBaseRotation />
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:63" />
+                <variable PointsTo="ptr:61" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4752,7 +4742,7 @@
               <AnimationJointBaseTranslation />
               <AnimationJointBaseTranslation />
               <AnimationJointLinearTranslation Type="AnimationJointLinearTranslation">
-                <variable PointsTo="ptr:64" />
+                <variable PointsTo="ptr:62" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartOffset>0</toStartOffset>
@@ -4766,7 +4756,7 @@
               <AnimationJointBaseRotation />
               <AnimationJointBaseRotation />
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:65" />
+                <variable PointsTo="ptr:63" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>2</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4783,7 +4773,7 @@
             <joint>btn_FirePattern_Switch</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:66" />
+                <variable PointsTo="ptr:64" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4802,7 +4792,7 @@
             <joint>btn_PipType_Switch</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:67" />
+                <variable PointsTo="ptr:65" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4821,7 +4811,7 @@
             <joint>btn_Shields_Switch</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:68" />
+                <variable PointsTo="ptr:66" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4840,7 +4830,7 @@
             <joint>btn_Weapons_Switch</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:69" />
+                <variable PointsTo="ptr:67" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4859,7 +4849,7 @@
             <joint>btn_Sensor_Switch</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:70" />
+                <variable PointsTo="ptr:68" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4885,7 +4875,7 @@
               <AnimationJointBaseTranslation />
               <AnimationJointBaseTranslation />
               <AnimationJointLinearTranslation Type="AnimationJointLinearTranslation">
-                <variable PointsTo="ptr:71" />
+                <variable PointsTo="ptr:69" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartOffset>0</toStartOffset>
@@ -4897,7 +4887,7 @@
             <joint>btn_ProximityAssist_Switch</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:72" />
+                <variable PointsTo="ptr:70" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4916,7 +4906,7 @@
             <joint>btn_Headlights_Switch</joint>
             <rotations Type="AnimationJointBaseRotation" Count="3">
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:73" />
+                <variable PointsTo="ptr:71" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4937,7 +4927,7 @@
               <AnimationJointBaseRotation />
               <AnimationJointBaseRotation />
               <AnimationJointLinearRotation Type="AnimationJointLinearRotation">
-                <variable PointsTo="ptr:74" />
+                <variable PointsTo="ptr:72" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartAngle>0</toStartAngle>
@@ -4961,7 +4951,7 @@
               <AnimationJointBaseTranslation />
               <AnimationJointBaseTranslation />
               <AnimationJointLinearTranslation Type="AnimationJointLinearTranslation">
-                <variable PointsTo="ptr:75" />
+                <variable PointsTo="ptr:73" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartOffset>0</toStartOffset>
@@ -4979,7 +4969,7 @@
             <translations Type="AnimationJointBaseTranslation" Count="3">
               <AnimationJointBaseTranslation />
               <AnimationJointLinearTranslation Type="AnimationJointLinearTranslation">
-                <variable PointsTo="ptr:76" />
+                <variable PointsTo="ptr:74" />
                 <fromStartValus>0</fromStartValus>
                 <fromEndValus>1</fromEndValus>
                 <toStartOffset>0</toStartOffset>
@@ -5076,7 +5066,7 @@
             <UsableUseChannelInstance Type="UsableUseChannelInstance">
               <useChannelArchetype RecordReference="file://./../../../../../../../libs/foundry/records/entities/scitem/usables/usablearchetypes.xml" RecordName="UseChannelArchetype.Operate" RecordId="7ed6ccb6-0466-4817-8eaa-e054046e3ec9" />
               <alignmentSlots Type="AlignmentSlotBase" Count="1">
-                <OperatorSeatAlignmentSlot PointsTo="ptr:77" />
+                <OperatorSeatAlignmentSlot PointsTo="ptr:75" />
               </alignmentSlots>
               <conditionList />
               <useChannelInstancesToEnable Type="UsableUseChannelInstance" Count="0" />
@@ -5120,7 +5110,7 @@
         </UsableUseSlot>
       </useSlots>
       <alignmentSlots Type="AlignmentSlotBase" Count="1">
-        <OperatorSeatAlignmentSlot Pointer="ptr:77" Type="OperatorSeatAlignmentSlot">
+        <OperatorSeatAlignmentSlot Pointer="ptr:75" Type="OperatorSeatAlignmentSlot">
           <id>f2ce828a-4d1f-49ed-90c8-c0d19c39d677</id>
           <name />
           <available>True</available>
@@ -5164,11 +5154,11 @@
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>DashboardPower_State</StateTypeName>
           <bindingsMethod>None</bindingsMethod>
-          <DefaultState PointsTo="ptr:78" />
+          <DefaultState PointsTo="ptr:76" />
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:78" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:76" Type="SInteractionState">
               <StateName>DashboardPower_Off</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5195,7 +5185,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:79" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:77" Type="SInteractionState">
               <StateName>DashboardPower_Normal</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5224,13 +5214,23 @@
             </SInteractionState>
           </States>
           <StateModifiers Type="SStateModifier" Count="1">
-            <PowerConnectionStateModifier Type="PowerConnectionStateModifier">
-              <context Type="AttachableStateModifierContext_Self" />
-              <off PointsTo="ptr:78" />
-              <normal PointsTo="ptr:79" />
-              <warning />
-              <failed PointsTo="ptr:78" />
-            </PowerConnectionStateModifier>
+            <ItemResourceStateModifier Type="ItemResourceStateModifier">
+              <stateRanges Type="SRangeStateLevel" Count="2">
+                <SRangeStateLevel Type="SRangeStateLevel">
+                  <state PointsTo="ptr:76" />
+                  <min>0</min>
+                  <max>0.1</max>
+                </SRangeStateLevel>
+                <SRangeStateLevel Type="SRangeStateLevel">
+                  <state PointsTo="ptr:77" />
+                  <min>0.1</min>
+                  <max>100</max>
+                </SRangeStateLevel>
+              </stateRanges>
+              <linkedRNetStates Type="ItemResourceState" Count="1">
+                <ItemResourceState PointsTo="ptr:78" />
+              </linkedRNetStates>
+            </ItemResourceStateModifier>
           </StateModifiers>
         </SInteractionStateType>
         <SInteractionStateType Type="SInteractionStateType">
@@ -5240,7 +5240,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:81" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:79" Type="SInteractionState">
               <StateName>PowerSystem_SwitchUp</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5248,7 +5248,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:57" />
+                  <variable PointsTo="ptr:55" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -5275,7 +5275,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:57" />
+                  <variable PointsTo="ptr:55" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -5296,13 +5296,23 @@
             </SInteractionState>
           </States>
           <StateModifiers Type="SStateModifier" Count="1">
-            <PowerConnectionStateModifier Type="PowerConnectionStateModifier">
-              <context Type="AttachableStateModifierContext_Self" />
-              <off PointsTo="ptr:80" />
-              <normal PointsTo="ptr:81" />
-              <warning />
-              <failed />
-            </PowerConnectionStateModifier>
+            <ItemResourceStateModifier Type="ItemResourceStateModifier">
+              <stateRanges Type="SRangeStateLevel" Count="2">
+                <SRangeStateLevel Type="SRangeStateLevel">
+                  <state PointsTo="ptr:79" />
+                  <min>0</min>
+                  <max>0.1</max>
+                </SRangeStateLevel>
+                <SRangeStateLevel Type="SRangeStateLevel">
+                  <state PointsTo="ptr:80" />
+                  <min>0.1</min>
+                  <max>100</max>
+                </SRangeStateLevel>
+              </stateRanges>
+              <linkedRNetStates Type="ItemResourceState" Count="1">
+                <ItemResourceState PointsTo="ptr:78" />
+              </linkedRNetStates>
+            </ItemResourceStateModifier>
           </StateModifiers>
         </SInteractionStateType>
         <SInteractionStateType Type="SInteractionStateType">
@@ -5312,7 +5322,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:82" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:81" Type="SInteractionState">
               <StateName>FlightControllerPowerOn</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5322,7 +5332,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:56" />
+                  <variable PointsTo="ptr:54" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -5341,7 +5351,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:83" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:82" Type="SInteractionState">
               <StateName>FlightControllerPowerOff</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5351,7 +5361,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:56" />
+                  <variable PointsTo="ptr:54" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -5374,8 +5384,8 @@
           <StateModifiers Type="SStateModifier" Count="1">
             <FlightControllerStateModifier Type="FlightControllerStateModifier">
               <engineStates Type="FlightControllerEnableStates">
-                <enabled PointsTo="ptr:82" />
-                <disabled PointsTo="ptr:83" />
+                <enabled PointsTo="ptr:81" />
+                <disabled PointsTo="ptr:82" />
               </engineStates>
               <coupledModeStates />
               <gSafetyStates />
@@ -5391,11 +5401,11 @@
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>BUTTON_WeaponSystem_Switch</StateTypeName>
           <bindingsMethod>None</bindingsMethod>
-          <DefaultState PointsTo="ptr:84" />
+          <DefaultState PointsTo="ptr:83" />
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:84" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:83" Type="SInteractionState">
               <StateName>WeaponPowerOn</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5403,7 +5413,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:69" />
+                  <variable PointsTo="ptr:67" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -5430,7 +5440,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:69" />
+                  <variable PointsTo="ptr:67" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -5461,11 +5471,11 @@
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>BUTTON_CanopyControl_Switch</StateTypeName>
           <bindingsMethod>None</bindingsMethod>
-          <DefaultState PointsTo="ptr:85" />
+          <DefaultState PointsTo="ptr:84" />
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:85" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:84" Type="SInteractionState">
               <StateName>CanopyClosed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5473,7 +5483,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:58" />
+                  <variable PointsTo="ptr:56" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -5485,7 +5495,7 @@
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
                   <Interaction PointsTo="ptr:2" />
-                  <NextState PointsTo="ptr:86" />
+                  <NextState PointsTo="ptr:85" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -5497,7 +5507,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:86" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:85" Type="SInteractionState">
               <StateName>CanopyOpened</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5505,7 +5515,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:58" />
+                  <variable PointsTo="ptr:56" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -5517,7 +5527,7 @@
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
                   <Interaction PointsTo="ptr:3" />
-                  <NextState PointsTo="ptr:85" />
+                  <NextState PointsTo="ptr:84" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -5535,11 +5545,11 @@
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>CanopyAtmosphereState</StateTypeName>
           <bindingsMethod>None</bindingsMethod>
-          <DefaultState PointsTo="ptr:87" />
+          <DefaultState PointsTo="ptr:86" />
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:87" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:86" Type="SInteractionState">
               <StateName>CanopyInAtmosphere</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5591,11 +5601,11 @@
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>LandingGearState</StateTypeName>
           <bindingsMethod>None</bindingsMethod>
-          <DefaultState PointsTo="ptr:88" />
+          <DefaultState PointsTo="ptr:87" />
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:88" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:87" Type="SInteractionState">
               <StateName>LandingGearRetracted</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5603,7 +5613,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:60" />
+                  <variable PointsTo="ptr:58" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -5615,11 +5625,11 @@
               <Interactions Type="SInteractionStateTransition" Count="2">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
                   <Interaction PointsTo="ptr:5" />
-                  <NextState PointsTo="ptr:89" />
+                  <NextState PointsTo="ptr:88" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:90" />
-                  <NextState PointsTo="ptr:89" />
+                  <Interaction PointsTo="ptr:89" />
+                  <NextState PointsTo="ptr:88" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -5631,7 +5641,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:91" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:90" Type="SInteractionState">
               <StateName>LandingGearDeployed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5639,7 +5649,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:60" />
+                  <variable PointsTo="ptr:58" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -5658,7 +5668,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:89" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:88" Type="SInteractionState">
               <StateName>LandingGearFlight</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5666,7 +5676,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:60" />
+                  <variable PointsTo="ptr:58" />
                   <value>-1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -5677,12 +5687,12 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="2">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:6" />
-                  <NextState PointsTo="ptr:88" />
+                  <Interaction PointsTo="ptr:4" />
+                  <NextState PointsTo="ptr:87" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:90" />
-                  <NextState PointsTo="ptr:88" />
+                  <Interaction PointsTo="ptr:89" />
+                  <NextState PointsTo="ptr:87" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -5698,10 +5708,10 @@
           <StateModifiers Type="SStateModifier" Count="1">
             <LandingGearStateModifier Type="LandingGearStateModifier">
               <context Type="AttachableStateModifierContext_Parent" />
-              <deploying PointsTo="ptr:91" />
-              <deployed PointsTo="ptr:91" />
-              <retracting PointsTo="ptr:88" />
-              <retracted PointsTo="ptr:88" />
+              <deploying PointsTo="ptr:90" />
+              <deployed PointsTo="ptr:90" />
+              <retracting PointsTo="ptr:87" />
+              <retracted PointsTo="ptr:87" />
             </LandingGearStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -5712,7 +5722,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:93" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:92" Type="SInteractionState">
               <StateName>LandingGearStopped</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5733,7 +5743,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:92" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:91" Type="SInteractionState">
               <StateName>LandingGearMoving</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5763,21 +5773,21 @@
           <StateModifiers Type="SStateModifier" Count="1">
             <LandingGearStateModifier Type="LandingGearStateModifier">
               <context Type="AttachableStateModifierContext_Parent" />
-              <deploying PointsTo="ptr:92" />
-              <deployed PointsTo="ptr:93" />
-              <retracting PointsTo="ptr:92" />
-              <retracted PointsTo="ptr:93" />
+              <deploying PointsTo="ptr:91" />
+              <deployed PointsTo="ptr:92" />
+              <retracting PointsTo="ptr:91" />
+              <retracted PointsTo="ptr:92" />
             </LandingGearStateModifier>
           </StateModifiers>
         </SInteractionStateType>
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>local_QuantumSpool_Gate</StateTypeName>
           <bindingsMethod>None</bindingsMethod>
-          <DefaultState PointsTo="ptr:94" />
+          <DefaultState PointsTo="ptr:93" />
           <asopReset>False</asopReset>
           <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:94" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:93" Type="SInteractionState">
               <StateName>QuantumSpool_GateClosed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5785,7 +5795,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:63" />
+                  <variable PointsTo="ptr:61" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -5796,8 +5806,8 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:13" />
-                  <NextState PointsTo="ptr:95" />
+                  <Interaction PointsTo="ptr:12" />
+                  <NextState PointsTo="ptr:94" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -5809,7 +5819,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:95" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:94" Type="SInteractionState">
               <StateName>QuantumSpool_GateOpen</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5817,7 +5827,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:63" />
+                  <variable PointsTo="ptr:61" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -5828,8 +5838,8 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:14" />
-                  <NextState PointsTo="ptr:94" />
+                  <Interaction PointsTo="ptr:13" />
+                  <NextState PointsTo="ptr:93" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -5846,9 +5856,9 @@
             <QuantumDriveStateModifier Type="QuantumDriveStateModifier">
               <calibrationStates />
               <spoolStates Type="QuantumTravelPreparationStates">
-                <idle PointsTo="ptr:94" />
-                <inProgress PointsTo="ptr:95" />
-                <complete PointsTo="ptr:95" />
+                <idle PointsTo="ptr:93" />
+                <inProgress PointsTo="ptr:94" />
+                <complete PointsTo="ptr:94" />
               </spoolStates>
               <travelStates />
             </QuantumDriveStateModifier>
@@ -5857,11 +5867,11 @@
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>local_QuantumSpool_State</StateTypeName>
           <bindingsMethod>None</bindingsMethod>
-          <DefaultState PointsTo="ptr:96" />
+          <DefaultState PointsTo="ptr:95" />
           <asopReset>False</asopReset>
           <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="4">
-            <SInteractionState Pointer="ptr:96" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:95" Type="SInteractionState">
               <StateName>QuantumSpool_Available</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5882,7 +5892,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:97" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:96" Type="SInteractionState">
               <StateName>SpoolingActive</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5903,7 +5913,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:98" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:97" Type="SInteractionState">
               <StateName>SpoolingComplete</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5924,7 +5934,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:132" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:131" Type="SInteractionState">
               <StateName>SpoolingCooldown</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -5950,9 +5960,9 @@
             <QuantumDriveStateModifier Type="QuantumDriveStateModifier">
               <calibrationStates />
               <spoolStates Type="QuantumTravelPreparationStates">
-                <idle PointsTo="ptr:96" />
-                <inProgress PointsTo="ptr:97" />
-                <complete PointsTo="ptr:98" />
+                <idle PointsTo="ptr:95" />
+                <inProgress PointsTo="ptr:96" />
+                <complete PointsTo="ptr:97" />
               </spoolStates>
               <travelStates />
             </QuantumDriveStateModifier>
@@ -5965,7 +5975,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="10">
-            <SInteractionState Pointer="ptr:99" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:98" Type="SInteractionState">
               <StateName>QuantumDriveIdle</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6007,7 +6017,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:138" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:137" Type="SInteractionState">
               <StateName>QuantumDriveLinkCalibrating</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6028,7 +6038,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:100" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:99" Type="SInteractionState">
               <StateName>QuantumDriveActive</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6036,7 +6046,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:64" />
+                  <variable PointsTo="ptr:62" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -6055,7 +6065,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:104" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:103" Type="SInteractionState">
               <StateName>QuantumDriveBlocked</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6076,7 +6086,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:101" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:100" Type="SInteractionState">
               <StateName>QuantumDriveComplete</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6084,7 +6094,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:64" />
+                  <variable PointsTo="ptr:62" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -6103,7 +6113,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:102" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:101" Type="SInteractionState">
               <StateName>QuantumDriveError</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6166,7 +6176,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:103" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:102" Type="SInteractionState">
               <StateName>QuantumDriveCooldown</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6193,12 +6203,12 @@
               <calibrationStates />
               <spoolStates />
               <travelStates Type="QuantumTravelStates">
-                <idle PointsTo="ptr:99" />
-                <inProgress PointsTo="ptr:100" />
-                <complete PointsTo="ptr:101" />
-                <interrupted PointsTo="ptr:102" />
-                <cooldown PointsTo="ptr:103" />
-                <blocked PointsTo="ptr:104" />
+                <idle PointsTo="ptr:98" />
+                <inProgress PointsTo="ptr:99" />
+                <complete PointsTo="ptr:100" />
+                <interrupted PointsTo="ptr:101" />
+                <cooldown PointsTo="ptr:102" />
+                <blocked PointsTo="ptr:103" />
               </travelStates>
             </QuantumDriveStateModifier>
           </StateModifiers>
@@ -6206,11 +6216,11 @@
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>QuantumFuelState</StateTypeName>
           <bindingsMethod>None</bindingsMethod>
-          <DefaultState PointsTo="ptr:105" />
+          <DefaultState PointsTo="ptr:104" />
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:105" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:104" Type="SInteractionState">
               <StateName>QuantumFuelNormal</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6231,7 +6241,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:106" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:105" Type="SInteractionState">
               <StateName>QuantumFuelLow</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6254,7 +6264,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:107" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:106" Type="SInteractionState">
               <StateName>QuantumFuelEmpty</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6289,9 +6299,9 @@
               <proximityAssistStates />
               <hydrogenFuelStates />
               <quantumFuelStates Type="FlightControllerQuantumFuelStates">
-                <normal PointsTo="ptr:105" />
-                <low PointsTo="ptr:106" />
-                <empty PointsTo="ptr:107" />
+                <normal PointsTo="ptr:104" />
+                <low PointsTo="ptr:105" />
+                <empty PointsTo="ptr:106" />
               </quantumFuelStates>
             </FlightControllerStateModifier>
           </StateModifiers>
@@ -6303,7 +6313,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:109" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:108" Type="SInteractionState">
               <StateName>QuantumDriveTriggerUp</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6311,8 +6321,40 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:64" />
+                  <variable PointsTo="ptr:62" />
                   <value>0</value>
+                  <overrideInterpolation />
+                </AnimationSetVariable>
+              </EnterEventDispatchers>
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
+              <EnterStatePlaySequence />
+              <ExitStatePlaySequence />
+              <StateAutoChange />
+              <Interactions Type="SInteractionStateTransition" Count="1">
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:14" />
+                  <NextState PointsTo="ptr:107" />
+                </SInteractionStateTransition>
+              </Interactions>
+              <interactionPoints Type="SInteractionPointParams" Count="0" />
+              <stateTags Type="TagList">
+                <tags Type="Tag" Count="0" />
+              </stateTags>
+              <enterGeometryTags />
+              <entityTags Type="TagList">
+                <tags Type="Tag" Count="0" />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState Pointer="ptr:107" Type="SInteractionState">
+              <StateName>QuantumDriveTriggerDown</StateName>
+              <EnterStateEffectGroup />
+              <ExitStateEffectGroup />
+              <enterStateEffectTags Type="Tag" Count="0" />
+              <exitStateEffectTags Type="Tag" Count="0" />
+              <EnterEventDispatchers Type="EventDispatcher" Count="1">
+                <AnimationSetVariable Type="AnimationSetVariable">
+                  <variable PointsTo="ptr:62" />
+                  <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
               </EnterEventDispatchers>
@@ -6335,51 +6377,19 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:108" Type="SInteractionState">
-              <StateName>QuantumDriveTriggerDown</StateName>
-              <EnterStateEffectGroup />
-              <ExitStateEffectGroup />
-              <enterStateEffectTags Type="Tag" Count="0" />
-              <exitStateEffectTags Type="Tag" Count="0" />
-              <EnterEventDispatchers Type="EventDispatcher" Count="1">
-                <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:64" />
-                  <value>1</value>
-                  <overrideInterpolation />
-                </AnimationSetVariable>
-              </EnterEventDispatchers>
-              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
-              <EnterStatePlaySequence />
-              <ExitStatePlaySequence />
-              <StateAutoChange />
-              <Interactions Type="SInteractionStateTransition" Count="1">
-                <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:16" />
-                  <NextState PointsTo="ptr:109" />
-                </SInteractionStateTransition>
-              </Interactions>
-              <interactionPoints Type="SInteractionPointParams" Count="0" />
-              <stateTags Type="TagList">
-                <tags Type="Tag" Count="0" />
-              </stateTags>
-              <enterGeometryTags />
-              <entityTags Type="TagList">
-                <tags Type="Tag" Count="0" />
-              </entityTags>
-            </SInteractionState>
           </States>
           <StateModifiers Type="SStateModifier" Count="1">
             <AggregateStateModifier Type="AggregateStateModifier">
               <aggregateStateParams Type="AggregateStateParams" Count="2">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:100" />
+                    <SInteractionState PointsTo="ptr:99" />
                   </aggregateStates>
-                  <state PointsTo="ptr:108" />
+                  <state PointsTo="ptr:107" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="0" />
-                  <state PointsTo="ptr:109" />
+                  <state PointsTo="ptr:108" />
                 </AggregateStateParams>
               </aggregateStateParams>
             </AggregateStateModifier>
@@ -6392,7 +6402,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:110" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:109" Type="SInteractionState">
               <StateName>QuantumDriveCalibration_Idle</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6413,7 +6423,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:111" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:110" Type="SInteractionState">
               <StateName>QuantumDriveCalibration_Active</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6434,7 +6444,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:112" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:111" Type="SInteractionState">
               <StateName>QuantumDriveCalibration_Complete</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6447,7 +6457,7 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:15" />
+                  <Interaction PointsTo="ptr:14" />
                   <NextState />
                 </SInteractionStateTransition>
               </Interactions>
@@ -6464,9 +6474,9 @@
           <StateModifiers Type="SStateModifier" Count="1">
             <QuantumDriveStateModifier Type="QuantumDriveStateModifier">
               <calibrationStates Type="QuantumTravelPreparationStates">
-                <idle PointsTo="ptr:110" />
-                <inProgress PointsTo="ptr:111" />
-                <complete PointsTo="ptr:112" />
+                <idle PointsTo="ptr:109" />
+                <inProgress PointsTo="ptr:110" />
+                <complete PointsTo="ptr:111" />
               </calibrationStates>
               <spoolStates />
               <travelStates />
@@ -6480,7 +6490,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="4">
-            <SInteractionState Pointer="ptr:117" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:116" Type="SInteractionState">
               <StateName>LandingGearLight_Deployed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6501,7 +6511,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:114" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:113" Type="SInteractionState">
               <StateName>LandingGearLight_Retracted</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6522,7 +6532,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:113" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:112" Type="SInteractionState">
               <StateName>LandingGearLightOff</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6543,7 +6553,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:116" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:115" Type="SInteractionState">
               <StateName>LandingGearLight_Landed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6572,29 +6582,29 @@
               <aggregateStateParams Type="AggregateStateParams" Count="4">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
+                  </aggregateStates>
+                  <state PointsTo="ptr:112" />
+                </AggregateStateParams>
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="1">
+                    <SInteractionState PointsTo="ptr:87" />
                   </aggregateStates>
                   <state PointsTo="ptr:113" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
-                  <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:88" />
+                  <aggregateStates Type="SInteractionState" Count="2">
+                    <SInteractionState PointsTo="ptr:90" />
+                    <SInteractionState PointsTo="ptr:114" />
                   </aggregateStates>
-                  <state PointsTo="ptr:114" />
+                  <state PointsTo="ptr:115" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="2">
-                    <SInteractionState PointsTo="ptr:91" />
-                    <SInteractionState PointsTo="ptr:115" />
+                    <SInteractionState PointsTo="ptr:90" />
+                    <SInteractionState PointsTo="ptr:92" />
                   </aggregateStates>
                   <state PointsTo="ptr:116" />
-                </AggregateStateParams>
-                <AggregateStateParams Type="AggregateStateParams">
-                  <aggregateStates Type="SInteractionState" Count="2">
-                    <SInteractionState PointsTo="ptr:91" />
-                    <SInteractionState PointsTo="ptr:93" />
-                  </aggregateStates>
-                  <state PointsTo="ptr:117" />
                 </AggregateStateParams>
               </aggregateStateParams>
             </AggregateStateModifier>
@@ -6607,7 +6617,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:119" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:118" Type="SInteractionState">
               <StateName>QuantumDrivePowerOn</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6628,7 +6638,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:118" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:117" Type="SInteractionState">
               <StateName>QuantumDrivePowerOff</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6649,7 +6659,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:120" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:119" Type="SInteractionState">
               <StateName>QuantumDrivePowerFailing</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6676,21 +6686,21 @@
               <context Type="AttachableStateModifierContext_Sibling">
                 <itemType>QuantumDrive</itemType>
               </context>
-              <off PointsTo="ptr:118" />
-              <normal PointsTo="ptr:119" />
+              <off PointsTo="ptr:117" />
+              <normal PointsTo="ptr:118" />
               <warning />
-              <failed PointsTo="ptr:120" />
+              <failed PointsTo="ptr:119" />
             </PowerConnectionStateModifier>
           </StateModifiers>
         </SInteractionStateType>
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>BUTTON_GimbalType_Throttle</StateTypeName>
           <bindingsMethod>None</bindingsMethod>
-          <DefaultState PointsTo="ptr:121" />
+          <DefaultState PointsTo="ptr:120" />
           <asopReset>False</asopReset>
           <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:121" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:120" Type="SInteractionState">
               <StateName>GimbalType_Fixed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6698,7 +6708,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:65" />
+                  <variable PointsTo="ptr:63" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -6725,7 +6735,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:65" />
+                  <variable PointsTo="ptr:63" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -6752,7 +6762,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:65" />
+                  <variable PointsTo="ptr:63" />
                   <value>2</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -6787,7 +6797,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="4">
-            <SInteractionState Pointer="ptr:123" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:122" Type="SInteractionState">
               <StateName>GimbalTypeLightFixed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6810,7 +6820,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:124" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:123" Type="SInteractionState">
               <StateName>GimbalTypeLightGimbal</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6833,7 +6843,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:125" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:124" Type="SInteractionState">
               <StateName>GimbalTypeLightAimAssist</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6856,7 +6866,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:122" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:121" Type="SInteractionState">
               <StateName>GimbalTypeLightOff</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6883,13 +6893,19 @@
               <aggregateStateParams Type="AggregateStateParams" Count="4">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
+                  </aggregateStates>
+                  <state PointsTo="ptr:121" />
+                </AggregateStateParams>
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="1">
+                    <SInteractionState PointsTo="ptr:120" />
                   </aggregateStates>
                   <state PointsTo="ptr:122" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:121" />
+                    <SInteractionState PointsTo="ptr:123" />
                   </aggregateStates>
                   <state PointsTo="ptr:123" />
                 </AggregateStateParams>
@@ -6898,12 +6914,6 @@
                     <SInteractionState PointsTo="ptr:124" />
                   </aggregateStates>
                   <state PointsTo="ptr:124" />
-                </AggregateStateParams>
-                <AggregateStateParams Type="AggregateStateParams">
-                  <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:125" />
-                  </aggregateStates>
-                  <state PointsTo="ptr:125" />
                 </AggregateStateParams>
               </aggregateStateParams>
             </AggregateStateModifier>
@@ -6916,7 +6926,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:127" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:126" Type="SInteractionState">
               <StateName>FlightControllerLight_On</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6924,7 +6934,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:56" />
+                  <variable PointsTo="ptr:54" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -6943,7 +6953,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:126" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:125" Type="SInteractionState">
               <StateName>FlightControllerLight_Off</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6970,19 +6980,19 @@
               <aggregateStateParams Type="AggregateStateParams" Count="3">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
                   </aggregateStates>
-                  <state PointsTo="ptr:126" />
+                  <state PointsTo="ptr:125" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:82" />
+                    <SInteractionState PointsTo="ptr:81" />
                   </aggregateStates>
-                  <state PointsTo="ptr:127" />
+                  <state PointsTo="ptr:126" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="0" />
-                  <state PointsTo="ptr:126" />
+                  <state PointsTo="ptr:125" />
                 </AggregateStateParams>
               </aggregateStateParams>
             </AggregateStateModifier>
@@ -6995,7 +7005,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="5">
-            <SInteractionState Pointer="ptr:129" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:128" Type="SInteractionState">
               <StateName>QuantumSpoolLight_Available</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7018,7 +7028,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:130" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:129" Type="SInteractionState">
               <StateName>QuantumSpoolLight_Active</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7041,7 +7051,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:131" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:130" Type="SInteractionState">
               <StateName>QuantumSpoolLight_Complete</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7064,7 +7074,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:133" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:132" Type="SInteractionState">
               <StateName>QuantumSpoolLight_Cooldown</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7087,7 +7097,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:128" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:127" Type="SInteractionState">
               <StateName>QuantumSpoolLight_Off</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7114,7 +7124,13 @@
               <aggregateStateParams Type="AggregateStateParams" Count="5">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
+                  </aggregateStates>
+                  <state PointsTo="ptr:127" />
+                </AggregateStateParams>
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="1">
+                    <SInteractionState PointsTo="ptr:95" />
                   </aggregateStates>
                   <state PointsTo="ptr:128" />
                 </AggregateStateParams>
@@ -7132,15 +7148,9 @@
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:98" />
+                    <SInteractionState PointsTo="ptr:131" />
                   </aggregateStates>
-                  <state PointsTo="ptr:131" />
-                </AggregateStateParams>
-                <AggregateStateParams Type="AggregateStateParams">
-                  <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:132" />
-                  </aggregateStates>
-                  <state PointsTo="ptr:133" />
+                  <state PointsTo="ptr:132" />
                 </AggregateStateParams>
               </aggregateStateParams>
             </AggregateStateModifier>
@@ -7153,7 +7163,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="9">
-            <SInteractionState Pointer="ptr:134" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:133" Type="SInteractionState">
               <StateName>QuantumDriveLight_Off</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7174,7 +7184,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:137" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:136" Type="SInteractionState">
               <StateName>QuantumDriveLight_Available</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7197,7 +7207,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:135" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:134" Type="SInteractionState">
               <StateName>QuantumDriveLight_Calibrating</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7220,7 +7230,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:139" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:138" Type="SInteractionState">
               <StateName>QuantumDriveLight_LinkCalibrating</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7243,7 +7253,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:136" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:135" Type="SInteractionState">
               <StateName>QuantumDriveLight_Active</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7289,7 +7299,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:141" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:140" Type="SInteractionState">
               <StateName>QuantumDriveLight_Complete</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7364,43 +7374,43 @@
               <aggregateStateParams Type="AggregateStateParams" Count="7">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
+                  </aggregateStates>
+                  <state PointsTo="ptr:133" />
+                </AggregateStateParams>
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="1">
+                    <SInteractionState PointsTo="ptr:110" />
                   </aggregateStates>
                   <state PointsTo="ptr:134" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:111" />
+                    <SInteractionState PointsTo="ptr:99" />
                   </aggregateStates>
                   <state PointsTo="ptr:135" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:100" />
+                    <SInteractionState PointsTo="ptr:111" />
                   </aggregateStates>
                   <state PointsTo="ptr:136" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:112" />
+                    <SInteractionState PointsTo="ptr:137" />
                   </aggregateStates>
-                  <state PointsTo="ptr:137" />
+                  <state PointsTo="ptr:138" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:138" />
+                    <SInteractionState PointsTo="ptr:139" />
                   </aggregateStates>
-                  <state PointsTo="ptr:139" />
-                </AggregateStateParams>
-                <AggregateStateParams Type="AggregateStateParams">
-                  <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:140" />
-                  </aggregateStates>
-                  <state PointsTo="ptr:141" />
+                  <state PointsTo="ptr:140" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="0" />
-                  <state PointsTo="ptr:134" />
+                  <state PointsTo="ptr:133" />
                 </AggregateStateParams>
               </aggregateStateParams>
             </AggregateStateModifier>
@@ -7413,7 +7423,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:143" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:142" Type="SInteractionState">
               <StateName>PowerSystemLight_On</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7436,7 +7446,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:142" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:141" Type="SInteractionState">
               <StateName>PowerSystemLight_Off</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7463,15 +7473,15 @@
               <aggregateStateParams Type="AggregateStateParams" Count="2">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
                   </aggregateStates>
-                  <state PointsTo="ptr:142" />
+                  <state PointsTo="ptr:141" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:81" />
+                    <SInteractionState PointsTo="ptr:79" />
                   </aggregateStates>
-                  <state PointsTo="ptr:143" />
+                  <state PointsTo="ptr:142" />
                 </AggregateStateParams>
               </aggregateStateParams>
             </AggregateStateModifier>
@@ -7484,7 +7494,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:144" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:143" Type="SInteractionState">
               <StateName>FlightControllerFuel_Normal</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7505,7 +7515,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:146" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:145" Type="SInteractionState">
               <StateName>FlightControllerFuel_Low</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7526,7 +7536,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:150" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:149" Type="SInteractionState">
               <StateName>FlightControllerFuel_Empty</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7558,12 +7568,12 @@
               <vtolStates />
               <proximityAssistStates />
               <hydrogenFuelStates Type="FlightControllerHydrogenFuelStates">
-                <full PointsTo="ptr:144" />
-                <warning_75 PointsTo="ptr:144" />
-                <warning_50 PointsTo="ptr:144" />
-                <warning_25 PointsTo="ptr:145" />
-                <warning_10 PointsTo="ptr:146" />
-                <depleted PointsTo="ptr:147" />
+                <full PointsTo="ptr:143" />
+                <warning_75 PointsTo="ptr:143" />
+                <warning_50 PointsTo="ptr:143" />
+                <warning_25 PointsTo="ptr:144" />
+                <warning_10 PointsTo="ptr:145" />
+                <depleted PointsTo="ptr:146" />
               </hydrogenFuelStates>
               <quantumFuelStates />
             </FlightControllerStateModifier>
@@ -7576,7 +7586,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="4">
-            <SInteractionState Pointer="ptr:149" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:148" Type="SInteractionState">
               <StateName>FlightControllerFuelLight_Normal</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7599,7 +7609,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:145" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:144" Type="SInteractionState">
               <StateName>FlightControllerFuelLight_Low</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7622,7 +7632,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:147" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:146" Type="SInteractionState">
               <StateName>FlightControllerFuelLight_Empty</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7645,7 +7655,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:148" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:147" Type="SInteractionState">
               <StateName>FlightControllerFuelLight_Off</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7672,27 +7682,27 @@
               <aggregateStateParams Type="AggregateStateParams" Count="4">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
+                  </aggregateStates>
+                  <state PointsTo="ptr:147" />
+                </AggregateStateParams>
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="1">
+                    <SInteractionState PointsTo="ptr:143" />
                   </aggregateStates>
                   <state PointsTo="ptr:148" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:144" />
+                    <SInteractionState PointsTo="ptr:145" />
                   </aggregateStates>
-                  <state PointsTo="ptr:149" />
+                  <state PointsTo="ptr:144" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:146" />
+                    <SInteractionState PointsTo="ptr:149" />
                   </aggregateStates>
-                  <state PointsTo="ptr:145" />
-                </AggregateStateParams>
-                <AggregateStateParams Type="AggregateStateParams">
-                  <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:150" />
-                  </aggregateStates>
-                  <state PointsTo="ptr:147" />
+                  <state PointsTo="ptr:146" />
                 </AggregateStateParams>
               </aggregateStateParams>
             </AggregateStateModifier>
@@ -7705,7 +7715,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:115" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:114" Type="SInteractionState">
               <StateName>LandingCondition_Landed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -7718,7 +7728,7 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:4" />
+                  <Interaction PointsTo="ptr:150" />
                   <NextState />
                 </SInteractionStateTransition>
               </Interactions>
@@ -7756,7 +7766,7 @@
           <StateModifiers Type="SStateModifier" Count="1">
             <LandingGearContactStateModifier Type="LandingGearContactStateModifier">
               <context Type="AttachableStateModifierContext_Parent" />
-              <landed PointsTo="ptr:115" />
+              <landed PointsTo="ptr:114" />
               <notLanded PointsTo="ptr:151" />
             </LandingGearContactStateModifier>
           </StateModifiers>
@@ -7816,19 +7826,19 @@
               <aggregateStateParams Type="AggregateStateParams" Count="3">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
                   </aggregateStates>
                   <state PointsTo="ptr:152" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:92" />
+                    <SInteractionState PointsTo="ptr:91" />
                   </aggregateStates>
                   <state PointsTo="ptr:153" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:93" />
+                    <SInteractionState PointsTo="ptr:92" />
                   </aggregateStates>
                   <state PointsTo="ptr:152" />
                 </AggregateStateParams>
@@ -8936,7 +8946,7 @@
               <aggregateStateParams Type="AggregateStateParams" Count="11">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
                   </aggregateStates>
                   <state PointsTo="ptr:170" />
                 </AggregateStateParams>
@@ -9174,7 +9184,7 @@
               <aggregateStateParams Type="AggregateStateParams" Count="5">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
                   </aggregateStates>
                   <state PointsTo="ptr:181" />
                 </AggregateStateParams>
@@ -9232,7 +9242,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:140" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:139" Type="SInteractionState">
               <StateName>QuantumDriveEvent_Completed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -9315,7 +9325,7 @@
               <travelStates Type="QuantumTravelStates">
                 <idle />
                 <inProgress />
-                <complete PointsTo="ptr:140" />
+                <complete PointsTo="ptr:139" />
                 <interrupted PointsTo="ptr:186" />
                 <cooldown />
                 <blocked />
@@ -9338,7 +9348,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:59" />
+                  <variable PointsTo="ptr:57" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -9365,7 +9375,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:59" />
+                  <variable PointsTo="ptr:57" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -9459,7 +9469,7 @@
               <aggregateStateParams Type="AggregateStateParams" Count="3">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
                   </aggregateStates>
                   <state PointsTo="ptr:189" />
                 </AggregateStateParams>
@@ -9492,7 +9502,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:61" />
+                  <variable PointsTo="ptr:59" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -9519,7 +9529,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:61" />
+                  <variable PointsTo="ptr:59" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -9613,7 +9623,7 @@
               <aggregateStateParams Type="AggregateStateParams" Count="3">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
                   </aggregateStates>
                   <state PointsTo="ptr:193" />
                 </AggregateStateParams>
@@ -9646,7 +9656,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:62" />
+                  <variable PointsTo="ptr:60" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -9673,7 +9683,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:62" />
+                  <variable PointsTo="ptr:60" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -9748,7 +9758,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:62" />
+                  <variable PointsTo="ptr:60" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -9773,7 +9783,7 @@
               <aggregateStateParams Type="AggregateStateParams" Count="3">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
                   </aggregateStates>
                   <state PointsTo="ptr:197" />
                 </AggregateStateParams>
@@ -9808,7 +9818,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:67" />
+                  <variable PointsTo="ptr:65" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -9835,7 +9845,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:67" />
+                  <variable PointsTo="ptr:65" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -9872,7 +9882,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:66" />
+                  <variable PointsTo="ptr:64" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -9899,7 +9909,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:66" />
+                  <variable PointsTo="ptr:64" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -9936,7 +9946,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:68" />
+                  <variable PointsTo="ptr:66" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -9963,7 +9973,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:68" />
+                  <variable PointsTo="ptr:66" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -10008,7 +10018,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:72" />
+                  <variable PointsTo="ptr:70" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -10035,7 +10045,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:72" />
+                  <variable PointsTo="ptr:70" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -10087,7 +10097,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:74" />
+                  <variable PointsTo="ptr:72" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -10098,7 +10108,7 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:37" />
+                  <Interaction PointsTo="ptr:36" />
                   <NextState PointsTo="ptr:168" />
                 </SInteractionStateTransition>
               </Interactions>
@@ -10119,7 +10129,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:74" />
+                  <variable PointsTo="ptr:72" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -10130,7 +10140,7 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:36" />
+                  <Interaction PointsTo="ptr:35" />
                   <NextState PointsTo="ptr:169" />
                 </SInteractionStateTransition>
               </Interactions>
@@ -10172,7 +10182,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:75" />
+                  <variable PointsTo="ptr:73" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -10183,7 +10193,7 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:38" />
+                  <Interaction PointsTo="ptr:37" />
                   <NextState PointsTo="ptr:165" />
                 </SInteractionStateTransition>
               </Interactions>
@@ -10204,7 +10214,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:75" />
+                  <variable PointsTo="ptr:73" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -10215,7 +10225,7 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:39" />
+                  <Interaction PointsTo="ptr:38" />
                   <NextState PointsTo="ptr:205" />
                 </SInteractionStateTransition>
               </Interactions>
@@ -10234,7 +10244,7 @@
               <aggregateStateParams Type="AggregateStateParams" Count="2">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:100" />
+                    <SInteractionState PointsTo="ptr:99" />
                   </aggregateStates>
                   <state PointsTo="ptr:167" />
                 </AggregateStateParams>
@@ -10497,13 +10507,13 @@
               <aggregateStateParams Type="AggregateStateParams" Count="6">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
                   </aggregateStates>
                   <state PointsTo="ptr:211" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:89" />
+                    <SInteractionState PointsTo="ptr:88" />
                   </aggregateStates>
                   <state PointsTo="ptr:212" />
                 </AggregateStateParams>
@@ -10550,7 +10560,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:76" />
+                  <variable PointsTo="ptr:74" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -10561,7 +10571,7 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:48" />
+                  <Interaction PointsTo="ptr:46" />
                   <NextState />
                 </SInteractionStateTransition>
               </Interactions>
@@ -10582,7 +10592,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:76" />
+                  <variable PointsTo="ptr:74" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -10609,7 +10619,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:76" />
+                  <variable PointsTo="ptr:74" />
                   <value>0</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -10620,7 +10630,7 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:49" />
+                  <Interaction PointsTo="ptr:47" />
                   <NextState />
                 </SInteractionStateTransition>
               </Interactions>
@@ -10641,7 +10651,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <AnimationSetVariable Type="AnimationSetVariable">
-                  <variable PointsTo="ptr:76" />
+                  <variable PointsTo="ptr:74" />
                   <value>1</value>
                   <overrideInterpolation />
                 </AnimationSetVariable>
@@ -10792,7 +10802,7 @@
               <aggregateStateParams Type="AggregateStateParams" Count="3">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:78" />
+                    <SInteractionState PointsTo="ptr:76" />
                   </aggregateStates>
                   <state PointsTo="ptr:222" />
                 </AggregateStateParams>
@@ -10816,6 +10826,7 @@
     </SInteractionStateMachineParams>
     <SCItemSeatDashboardParams Type="SCItemSeatDashboardParams">
       <canTogglePowerForObservedItems>True</canTogglePowerForObservedItems>
+      <ignorePowerResults>True</ignorePowerResults>
       <PowerOnline>1</PowerOnline>
       <dashboardInteractions Type="SDashboardInteractionParams">
         <flightReady PointsTo="ptr:1" />
@@ -11116,19 +11127,19 @@
           <executeNodes Type="SEntityTraversingExecuteNodeBase" Count="4">
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>TurnOnSpool</linkedInteractionName>
-              <localInteraction PointsTo="ptr:13" />
+              <localInteraction PointsTo="ptr:12" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>TurnOffSpool</linkedInteractionName>
-              <localInteraction PointsTo="ptr:14" />
+              <localInteraction PointsTo="ptr:13" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>EngageQuantumTravel</linkedInteractionName>
-              <localInteraction PointsTo="ptr:15" />
+              <localInteraction PointsTo="ptr:14" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>DisengageQuantumTravel</linkedInteractionName>
-              <localInteraction PointsTo="ptr:16" />
+              <localInteraction PointsTo="ptr:15" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
           </executeNodes>
           <nextNodes Type="SEntityTraversingNodeBase" Count="0" />
@@ -11151,11 +11162,11 @@
           <executeNodes Type="SEntityTraversingExecuteNodeBase" Count="2">
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>BeginScan</linkedInteractionName>
-              <localInteraction PointsTo="ptr:32" />
+              <localInteraction PointsTo="ptr:31" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>EndScan</linkedInteractionName>
-              <localInteraction PointsTo="ptr:33" />
+              <localInteraction PointsTo="ptr:32" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
           </executeNodes>
           <nextNodes Type="SEntityTraversingNodeBase" Count="0" />
@@ -11169,27 +11180,27 @@
           <executeNodes Type="SEntityTraversingExecuteNodeBase" Count="10">
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>EnableDecoupled</linkedInteractionName>
-              <localInteraction PointsTo="ptr:8" />
-            </SInteractionLinkExecuteCreateInteractionLinkNode>
-            <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
-              <linkedInteractionName>DisableDecoupled</linkedInteractionName>
               <localInteraction PointsTo="ptr:7" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
+              <linkedInteractionName>DisableDecoupled</linkedInteractionName>
+              <localInteraction PointsTo="ptr:6" />
+            </SInteractionLinkExecuteCreateInteractionLinkNode>
+            <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>EnableGSafe</linkedInteractionName>
-              <localInteraction PointsTo="ptr:9" />
+              <localInteraction PointsTo="ptr:8" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>DisableGSafe</linkedInteractionName>
-              <localInteraction PointsTo="ptr:10" />
+              <localInteraction PointsTo="ptr:9" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>EnableESP</linkedInteractionName>
-              <localInteraction PointsTo="ptr:11" />
+              <localInteraction PointsTo="ptr:10" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>DisableESP</linkedInteractionName>
-              <localInteraction PointsTo="ptr:12" />
+              <localInteraction PointsTo="ptr:11" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>EnableVTOL</linkedInteractionName>
@@ -11201,11 +11212,11 @@
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>EnableProximityAssist</linkedInteractionName>
-              <localInteraction PointsTo="ptr:45" />
+              <localInteraction PointsTo="ptr:44" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>DisableProximityAssist</linkedInteractionName>
-              <localInteraction PointsTo="ptr:46" />
+              <localInteraction PointsTo="ptr:45" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
           </executeNodes>
           <nextNodes Type="SEntityTraversingNodeBase" Count="0" />
@@ -11219,39 +11230,39 @@
           <executeNodes Type="SEntityTraversingExecuteNodeBase" Count="9">
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>EnableWeapons</linkedInteractionName>
-              <localInteraction PointsTo="ptr:40" />
+              <localInteraction PointsTo="ptr:39" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>DisableWeapons</linkedInteractionName>
-              <localInteraction PointsTo="ptr:41" />
+              <localInteraction PointsTo="ptr:40" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>SetLagPips</linkedInteractionName>
-              <localInteraction PointsTo="ptr:23" />
-            </SInteractionLinkExecuteCreateInteractionLinkNode>
-            <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
-              <linkedInteractionName>SetLeadPips</linkedInteractionName>
               <localInteraction PointsTo="ptr:22" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
-              <linkedInteractionName>SetGimbalLock</linkedInteractionName>
-              <localInteraction PointsTo="ptr:19" />
+              <linkedInteractionName>SetLeadPips</linkedInteractionName>
+              <localInteraction PointsTo="ptr:21" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
-              <linkedInteractionName>SetFreeGimbal</linkedInteractionName>
+              <linkedInteractionName>SetGimbalLock</linkedInteractionName>
               <localInteraction PointsTo="ptr:18" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
-              <linkedInteractionName>SetAimAssist</linkedInteractionName>
+              <linkedInteractionName>SetFreeGimbal</linkedInteractionName>
               <localInteraction PointsTo="ptr:17" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
+              <linkedInteractionName>SetAimAssist</linkedInteractionName>
+              <localInteraction PointsTo="ptr:16" />
+            </SInteractionLinkExecuteCreateInteractionLinkNode>
+            <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>SetStaggeredFire</linkedInteractionName>
-              <localInteraction PointsTo="ptr:20" />
+              <localInteraction PointsTo="ptr:19" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>SetSynchronousFire</linkedInteractionName>
-              <localInteraction PointsTo="ptr:21" />
+              <localInteraction PointsTo="ptr:20" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
           </executeNodes>
           <nextNodes Type="SEntityTraversingNodeBase" Count="0" />
@@ -11265,19 +11276,19 @@
           <executeNodes Type="SEntityTraversingExecuteNodeBase" Count="4">
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>HailTarget</linkedInteractionName>
-              <localInteraction PointsTo="ptr:26" />
+              <localInteraction PointsTo="ptr:25" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>EndCall</linkedInteractionName>
-              <localInteraction PointsTo="ptr:27" />
+              <localInteraction PointsTo="ptr:26" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>AcceptCall</linkedInteractionName>
-              <localInteraction PointsTo="ptr:28" />
+              <localInteraction PointsTo="ptr:27" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>DeclineCall</linkedInteractionName>
-              <localInteraction PointsTo="ptr:29" />
+              <localInteraction PointsTo="ptr:28" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
           </executeNodes>
           <nextNodes Type="SEntityTraversingNodeBase" Count="0" />
@@ -11304,11 +11315,11 @@
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>ShipTransformRetract</linkedInteractionName>
-              <localInteraction PointsTo="ptr:6" />
+              <localInteraction PointsTo="ptr:4" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
             <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
               <linkedInteractionName>ShipTransformCycle</linkedInteractionName>
-              <localInteraction PointsTo="ptr:90" />
+              <localInteraction PointsTo="ptr:89" />
             </SInteractionLinkExecuteCreateInteractionLinkNode>
           </executeNodes>
           <nextNodes Type="SEntityTraversingNodeBase" Count="1">
@@ -11321,11 +11332,11 @@
               <executeNodes Type="SEntityTraversingExecuteNodeBase" Count="2">
                 <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
                   <linkedInteractionName>Open</linkedInteractionName>
-                  <localInteraction PointsTo="ptr:48" />
+                  <localInteraction PointsTo="ptr:46" />
                 </SInteractionLinkExecuteCreateInteractionLinkNode>
                 <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
                   <linkedInteractionName>Close</linkedInteractionName>
-                  <localInteraction PointsTo="ptr:49" />
+                  <localInteraction PointsTo="ptr:47" />
                 </SInteractionLinkExecuteCreateInteractionLinkNode>
               </executeNodes>
               <nextNodes Type="SEntityTraversingNodeBase" Count="0" />
@@ -11400,7 +11411,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -11579,7 +11590,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -11680,7 +11691,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -11772,7 +11783,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -11864,7 +11875,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -11956,7 +11967,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -12048,7 +12059,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />

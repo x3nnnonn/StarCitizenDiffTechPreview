@@ -149,8 +149,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
-        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsOverride Type="StatusCost" Count="0" />
+        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -718,21 +718,21 @@
     </UIAudioComponentEntityComponentParams>
     <KioskInteractionEntityComponentParams Type="KioskInteractionEntityComponentParams">
       <onlyShowCursorWhenLockedByKiosk>False</onlyShowCursorWhenLockedByKiosk>
-      <initialForceLookAtLerpTime>0.3</initialForceLookAtLerpTime>
+      <initialForceLookAtLerpTime>0.1</initialForceLookAtLerpTime>
       <defaultForceLookAtLerpTime>0.05</defaultForceLookAtLerpTime>
       <forceLookAtDecayFactor>2</forceLookAtDecayFactor>
       <forceLookAtIncreaseFactor>1</forceLookAtIncreaseFactor>
-      <forceLookAtThreshold>0.8</forceLookAtThreshold>
-      <FOVSpeedFactor>0.5</FOVSpeedFactor>
+      <forceLookAtThreshold>0.3</forceLookAtThreshold>
+      <FOVSpeedFactor>0.1</FOVSpeedFactor>
       <FOVHaltDistanceMax>0.2</FOVHaltDistanceMax>
-      <FOVHaltDistanceMin>0.1</FOVHaltDistanceMin>
+      <FOVHaltDistanceMin>0.2</FOVHaltDistanceMin>
       <FOVMax>1</FOVMax>
       <FOVMin>1</FOVMin>
       <lookInputFactor>0.8</lookInputFactor>
       <inActivityTimer>999999</inActivityTimer>
       <autoCloseRadiusInNonFoucseMode>1.5</autoCloseRadiusInNonFoucseMode>
       <blockLookInputs>False</blockLookInputs>
-      <supportWalkToAlign>False</supportWalkToAlign>
+      <supportWalkToAlign>True</supportWalkToAlign>
       <openInteraction PointsTo="ptr:1" />
       <attractTransitions Type="UIOwnerContextTransitionPair" Count="1">
         <UIOwnerContextTransitionPair Type="UIOwnerContextTransitionPair">

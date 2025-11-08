@@ -48,8 +48,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
-        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsOverride Type="StatusCost" Count="0" />
+        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -116,9 +116,9 @@
         <RequiredTags />
         <DisplayType />
         <Localization Type="SCItemLocalization">
-          <Name>@LOC_PLACEHOLDER</Name>
+          <Name>@item_Name_qrt_combat_medium_helmet_04_01_01</Name>
           <ShortName>@LOC_EMPTY</ShortName>
-          <Description>@LOC_EMPTY</Description>
+          <Description>@item_Desc_qrt_combat_medium_helmet_04_01_01</Description>
           <displayFeatures Type="SCExtendedLocalizationLevelParams">
             <LogoSimplifiedWhite />
             <FrontendBackground />
@@ -1545,7 +1545,7 @@
     </SGeometryResourceParams>
     <SCItemPurchasableParams Type="SCItemPurchasableParams">
       <Display />
-      <displayName>@LOC_PLACEHOLDER</displayName>
+      <displayName>@item_Name_qrt_combat_medium_helmet_04_01_01</displayName>
       <displayType>@item_displayType_Helmet</displayType>
       <displayThumbnail />
       <allowTryOn>True</allowTryOn>
@@ -1671,7 +1671,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1763,7 +1763,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Radar</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1855,7 +1855,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Radar</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1956,7 +1956,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Ping</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2048,7 +2048,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Avionics</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2140,7 +2140,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Suit</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Flashlight</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2234,7 +2234,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2326,7 +2326,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2418,7 +2418,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Radar</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2510,7 +2510,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Radar</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2611,7 +2611,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Ping</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2703,7 +2703,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Avionics</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2795,7 +2795,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Suit</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Flashlight</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2889,7 +2889,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2981,7 +2981,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Flair</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3073,7 +3073,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Flair</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />

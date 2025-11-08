@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ATLConfig atl_name="SC_SSMP_XIAN_Nox">
+  <AudioTriggers>
+    <ATLTrigger atl_name="Play_Nox_Canopy_Close_01">
+      <WwiseEvent wwise_duration_max="1.778125" wwise_duration_min="1.778125" wwise_duration_type="OneShot" wwise_name="Play_Nox_Canopy_Close_01" wwise_radius_max="50" />
+      <RTPCDependees>
+        <ATLRTPCDependee atl_name="pressure_gameContext" />
+        <ATLRTPCDependee atl_name="propagation_pressurePhysicalAudible" />
+        <ATLRTPCDependee atl_name="Listener_Cone" />
+        <ATLRTPCDependee atl_name="MIX_SFX" />
+        <ATLRTPCDependee atl_name="Listener_Volume" />
+      </RTPCDependees>
+      <ATLPreload atl_name="SC_SSMP_XIAN_Nox" />
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_Nox_Canopy_Open_01">
+      <WwiseEvent wwise_duration_max="1.47064579" wwise_duration_min="1.47064579" wwise_duration_type="OneShot" wwise_name="Play_Nox_Canopy_Open_01" wwise_radius_max="50" />
+      <RTPCDependees>
+        <ATLRTPCDependee atl_name="pressure_gameContext" />
+        <ATLRTPCDependee atl_name="propagation_pressurePhysicalAudible" />
+        <ATLRTPCDependee atl_name="Listener_Cone" />
+        <ATLRTPCDependee atl_name="MIX_SFX" />
+        <ATLRTPCDependee atl_name="Listener_Volume" />
+      </RTPCDependees>
+      <ATLPreload atl_name="SC_SSMP_XIAN_Nox" />
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_SSMP_Nox_BackRest_Retract_01">
+      <WwiseEvent wwise_duration_max="1.40020835" wwise_duration_min="1.40020835" wwise_duration_type="OneShot" wwise_name="Play_SSMP_Nox_BackRest_Retract_01" wwise_radius_max="50" />
+      <RTPCDependees>
+        <ATLRTPCDependee atl_name="pressure_gameContext" />
+        <ATLRTPCDependee atl_name="propagation_pressurePhysicalAudible" />
+        <ATLRTPCDependee atl_name="Listener_Cone" />
+        <ATLRTPCDependee atl_name="MIX_SFX" />
+        <ATLRTPCDependee atl_name="Listener_Volume" />
+      </RTPCDependees>
+      <ATLPreload atl_name="SC_SSMP_XIAN_Nox" />
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_SSMP_Nox_BackRest_Deploy">
+      <WwiseEvent wwise_duration_max="1.57522917" wwise_duration_min="1.57522917" wwise_duration_type="OneShot" wwise_name="Play_SSMP_Nox_BackRest_Deploy" wwise_radius_max="50" />
+      <RTPCDependees>
+        <ATLRTPCDependee atl_name="pressure_gameContext" />
+        <ATLRTPCDependee atl_name="propagation_pressurePhysicalAudible" />
+        <ATLRTPCDependee atl_name="Listener_Cone" />
+        <ATLRTPCDependee atl_name="MIX_SFX" />
+        <ATLRTPCDependee atl_name="Listener_Volume" />
+      </RTPCDependees>
+      <ATLPreload atl_name="SC_SSMP_XIAN_Nox" />
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_SSMP_Nox_SidePanels_01">
+      <WwiseEvent wwise_duration_max="2.059125" wwise_duration_min="2.059125" wwise_duration_type="OneShot" wwise_name="Play_SSMP_Nox_SidePanels_01" wwise_radius_max="50" />
+      <RTPCDependees>
+        <ATLRTPCDependee atl_name="pressure_gameContext" />
+        <ATLRTPCDependee atl_name="propagation_pressurePhysicalAudible" />
+        <ATLRTPCDependee atl_name="Listener_Cone" />
+        <ATLRTPCDependee atl_name="MIX_SFX" />
+        <ATLRTPCDependee atl_name="Listener_Volume" />
+      </RTPCDependees>
+      <ATLPreload atl_name="SC_SSMP_XIAN_Nox" />
+    </ATLTrigger>
+  </AudioTriggers>
+  <AudioPreloads>
+    <ATLPreloadRequest atl_name="SC_SSMP_XIAN_Nox" atl_type="empty" path="Banks/">
+      <ATLPlatforms>
+        <Platform atl_config_group_name="default" atl_name="pc" />
+      </ATLPlatforms>
+      <ATLConfigGroup atl_name="default">
+        <WwiseFile wwise_name="SSMP_XIAN_Nox.bnk" />
+      </ATLConfigGroup>
+    </ATLPreloadRequest>
+  </AudioPreloads>
+</ATLConfig>

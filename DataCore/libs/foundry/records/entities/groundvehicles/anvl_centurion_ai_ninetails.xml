@@ -96,7 +96,7 @@
       <vehicleImagePath />
       <vehicleCareer>@vehicle_focus_ground</vehicleCareer>
       <vehicleCareerRef ReferencedFile="file://./../../../../../libs/foundry/records/vehicle/careers/combat.xml" />
-      <vehicleRole>@vehicle_focus_ground</vehicleRole>
+      <vehicleRole>@vehicle_class_antiair</vehicleRole>
       <vehicleRoleRef ReferencedFile="file://./../../../../../libs/foundry/records/vehicle/roles/antiair.xml" />
       <maxBoundingBoxSize Type="Vec3">
         <x>7</x>
@@ -207,6 +207,7 @@
         <z>0</z>
       </landingRotationOffset>
       <fusePenetrationDamageMultiplier>2.727273</fusePenetrationDamageMultiplier>
+      <componentPenetrationDamageMultiplier>1</componentPenetrationDamageMultiplier>
     </VehicleComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
       <loadout Type="SItemPortLoadoutManualParams">
@@ -1419,7 +1420,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Flair_Cockpit</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Flair_Static</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -1535,7 +1536,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Flair_Cockpit</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Flair_Hanging</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -1651,7 +1652,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1774,7 +1775,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>SeatAccess</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1982,10 +1983,11 @@
     <EntityComponentAudioEnvironmentFeedbackParams Type="EntityComponentAudioEnvironmentFeedbackParams">
       <audioObjects Type="EnvironmentFeedbackAudioObject" Count="0" />
     </EntityComponentAudioEnvironmentFeedbackParams>
-    <EntityComponentVibrationParams Type="EntityComponentVibrationParams">
+    <EntityComponentVibrationVehicleParams Type="EntityComponentVibrationVehicleParams">
       <vibrationRecord ReferencedFile="file://./../../../../../libs/foundry/records/vibrations/vibrations_vehiclebase.xml" />
       <normalizationMassOverride>-1</normalizationMassOverride>
-    </EntityComponentVibrationParams>
+      <vibrationVehicleRecord ReferencedFile="file://./../../../../../libs/foundry/records/vibrations/vibrations_vehiclespecifics.xml" />
+    </EntityComponentVibrationVehicleParams>
     <SurfaceRaindropsComponentParams Type="SurfaceRaindropsComponentParams">
       <enable>True</enable>
       <surfaceParticleRtt Type="SurfaceParticleRTTParams">
@@ -2401,11 +2403,11 @@
       <entrancesRecord ReferencedFile="file://./../../../../../libs/foundry/records/ui/vehicleentrance/anvl_centurion.xml" />
     </EntranceDisplayComponentParams>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="ActorStatusUIData" Count="1">
+      <perceptionTypes Type="HealthIconData" Count="1">
         <EnumChoice>Vehicle</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusUIWarning" Count="0" />
+      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
       <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
       <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />

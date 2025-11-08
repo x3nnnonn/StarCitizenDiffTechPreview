@@ -34,8 +34,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
-        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsOverride Type="StatusCost" Count="0" />
+        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -174,7 +174,7 @@
         <tags Type="Tag" Count="0" />
       </OverlayTags>
       <HiddenParts Type="SCItemClothingHiddenPartsParams" Count="0" />
-      <Chunks Type="SCItemClothingMeshChunkParams" Count="21">
+      <Chunks Type="SCItemClothingMeshChunkParams" Count="22">
         <SCItemClothingMeshChunkParams Type="SCItemClothingMeshChunkParams">
           <MeshChunk>torso01_zone</MeshChunk>
           <Layer>1</Layer>
@@ -195,6 +195,12 @@
         </SCItemClothingMeshChunkParams>
         <SCItemClothingMeshChunkParams Type="SCItemClothingMeshChunkParams">
           <MeshChunk>torso04_zone</MeshChunk>
+          <Layer>1</Layer>
+          <VisibleLayers Type="ActivityBehaviorRequestCondition" Count="0" />
+          <VisibilityConditions Type="SCItemClothingVisibilityConditionParams" Count="0" />
+        </SCItemClothingMeshChunkParams>
+        <SCItemClothingMeshChunkParams Type="SCItemClothingMeshChunkParams">
+          <MeshChunk>hips_zone</MeshChunk>
           <Layer>1</Layer>
           <VisibleLayers Type="ActivityBehaviorRequestCondition" Count="0" />
           <VisibilityConditions Type="SCItemClothingVisibilityConditionParams" Count="0" />
@@ -853,7 +859,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Paints</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />

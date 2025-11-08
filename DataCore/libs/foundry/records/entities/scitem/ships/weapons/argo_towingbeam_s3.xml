@@ -1441,15 +1441,15 @@
             <allowedDetachTypes Type="SItemPortDefTypes" Count="3">
               <SItemPortDefTypes Type="SItemPortDefTypes">
                 <Type>TractorBeam</Type>
-                <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+                <SubTypes Type="SpeedThreshold" Count="0" />
               </SItemPortDefTypes>
               <SItemPortDefTypes Type="SItemPortDefTypes">
                 <Type>TowingBeam</Type>
-                <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+                <SubTypes Type="SpeedThreshold" Count="0" />
               </SItemPortDefTypes>
               <SItemPortDefTypes Type="SItemPortDefTypes">
                 <Type>Turret</Type>
-                <SubTypes Type="StatusEffectBuffMacro" Count="1">
+                <SubTypes Type="SpeedThreshold" Count="1">
                   <EnumChoice>PDCTurret</EnumChoice>
                 </SubTypes>
               </SItemPortDefTypes>
@@ -2051,8 +2051,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
-        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsOverride Type="StatusCost" Count="0" />
+        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -2192,7 +2192,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Barrel</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2286,7 +2286,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>FiringMechanism</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2380,7 +2380,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>PowerArray</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2474,7 +2474,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Ventilation</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>

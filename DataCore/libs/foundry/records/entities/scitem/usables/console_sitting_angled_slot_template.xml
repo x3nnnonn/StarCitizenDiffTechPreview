@@ -1326,7 +1326,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>RemovableChip</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2115,14 +2115,14 @@
             </SInfractionGameplayTrigger>
             <SDestroyAttachedItemGameplayTrigger Type="SDestroyAttachedItemGameplayTrigger">
               <itemPort PointsTo="ptr:7" />
-              <itemTypes Type="SpeedThreshold" Count="0" />
-              <itemSubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <itemTypes Type="StatusEffectValue" Count="0" />
+              <itemSubTypes Type="SpeedThreshold" Count="0" />
               <damageAttachedItem>True</damageAttachedItem>
             </SDestroyAttachedItemGameplayTrigger>
             <SDestroyAttachedItemGameplayTrigger Type="SDestroyAttachedItemGameplayTrigger">
               <itemPort PointsTo="ptr:7" />
-              <itemTypes Type="SpeedThreshold" Count="0" />
-              <itemSubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <itemTypes Type="StatusEffectValue" Count="0" />
+              <itemSubTypes Type="SpeedThreshold" Count="0" />
               <damageAttachedItem>False</damageAttachedItem>
             </SDestroyAttachedItemGameplayTrigger>
             <SChangeInteractionStateGameplayTrigger Type="SChangeInteractionStateGameplayTrigger">
@@ -2147,14 +2147,14 @@
           <gameplayTriggers Type="SBaseInteractionGameplayTrigger" Count="3">
             <SDestroyAttachedItemGameplayTrigger Type="SDestroyAttachedItemGameplayTrigger">
               <itemPort PointsTo="ptr:7" />
-              <itemTypes Type="SpeedThreshold" Count="0" />
-              <itemSubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <itemTypes Type="StatusEffectValue" Count="0" />
+              <itemSubTypes Type="SpeedThreshold" Count="0" />
               <damageAttachedItem>True</damageAttachedItem>
             </SDestroyAttachedItemGameplayTrigger>
             <SDestroyAttachedItemGameplayTrigger Type="SDestroyAttachedItemGameplayTrigger">
               <itemPort PointsTo="ptr:7" />
-              <itemTypes Type="SpeedThreshold" Count="0" />
-              <itemSubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <itemTypes Type="StatusEffectValue" Count="0" />
+              <itemSubTypes Type="SpeedThreshold" Count="0" />
               <damageAttachedItem>False</damageAttachedItem>
             </SDestroyAttachedItemGameplayTrigger>
             <SChangeInteractionStateGameplayTrigger Type="SChangeInteractionStateGameplayTrigger">
@@ -2170,14 +2170,14 @@
             </SChangeInteractionStateGameplayTrigger>
             <SDestroyAttachedItemGameplayTrigger Type="SDestroyAttachedItemGameplayTrigger">
               <itemPort PointsTo="ptr:7" />
-              <itemTypes Type="SpeedThreshold" Count="0" />
-              <itemSubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <itemTypes Type="StatusEffectValue" Count="0" />
+              <itemSubTypes Type="SpeedThreshold" Count="0" />
               <damageAttachedItem>True</damageAttachedItem>
             </SDestroyAttachedItemGameplayTrigger>
             <SDestroyAttachedItemGameplayTrigger Type="SDestroyAttachedItemGameplayTrigger">
               <itemPort PointsTo="ptr:7" />
-              <itemTypes Type="SpeedThreshold" Count="0" />
-              <itemSubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <itemTypes Type="StatusEffectValue" Count="0" />
+              <itemSubTypes Type="SpeedThreshold" Count="0" />
               <damageAttachedItem>False</damageAttachedItem>
             </SDestroyAttachedItemGameplayTrigger>
           </gameplayTriggers>

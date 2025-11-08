@@ -4,7 +4,7 @@
     <fixedFPS>1</fixedFPS>
   </update>
   <ignition Type="FireHazardGlobalIgnition">
-    <globalIgnitionChanceMultiplier>0.2</globalIgnitionChanceMultiplier>
+    <globalIgnitionChanceMultiplier>0.05</globalIgnitionChanceMultiplier>
     <explosionChanceMultiplier Type="ActivityBehaviorRequestCondition" Count="6">
       <Single>0.03</Single>
       <Single>0.01</Single>
@@ -14,10 +14,10 @@
       <Single>0</Single>
     </explosionChanceMultiplier>
     <projectileChanceMultiplier Type="ActivityBehaviorRequestCondition" Count="6">
-      <Single>0</Single>
       <Single>0.01</Single>
+      <Single>0.07</Single>
       <Single>0</Single>
-      <Single>0.3</Single>
+      <Single>0.5</Single>
       <Single>0</Single>
       <Single>0</Single>
     </projectileChanceMultiplier>
@@ -31,18 +31,18 @@
     </collisionChanceMultiplier>
     <fallbackChanceMultiplier Type="ActivityBehaviorRequestCondition" Count="6">
       <Single>0</Single>
+      <Single>0.07</Single>
       <Single>0</Single>
-      <Single>0</Single>
-      <Single>0</Single>
+      <Single>0.5</Single>
       <Single>0</Single>
       <Single>0</Single>
     </fallbackChanceMultiplier>
     <globalFlashIgnitionThresholdMultiplier>2.5</globalFlashIgnitionThresholdMultiplier>
     <damageTypeIgnitionModifiers Type="ActivityBehaviorRequestCondition" Count="6">
       <Single>0.01</Single>
-      <Single>0.01</Single>
+      <Single>0.07</Single>
       <Single>0</Single>
-      <Single>0</Single>
+      <Single>0.5</Single>
       <Single>0</Single>
       <Single>0</Single>
     </damageTypeIgnitionModifiers>
@@ -66,8 +66,9 @@
     <waterVapor ReferencedFile="file://./../../../../../libs/foundry/records/roomsystem/gasparams/hydrogendioxide.xml" />
   </smoke>
   <damageToHealth Type="FireHazardGlobalDamageToHealthParams">
-    <minimumDamageTemperature>100</minimumDamageTemperature>
-    <baseDamage>20</baseDamage>
+    <minimumDamageTemperature>200</minimumDamageTemperature>
+    <baseDamage>5</baseDamage>
+    <referenceHealth>100</referenceHealth>
     <curveAngle>9</curveAngle>
     <curveOffset>6</curveOffset>
   </damageToHealth>

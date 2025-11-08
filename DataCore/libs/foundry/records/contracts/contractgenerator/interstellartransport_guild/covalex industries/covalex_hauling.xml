@@ -13859,15 +13859,12 @@
         </ContractLegacy>
       </legacyContracts>
     </ContractGeneratorHandler_Legacy>
-    <ContractGeneratorHandler_List Type="ContractGeneratorHandler_List">
+    <ContractGeneratorHandler_Career Type="ContractGeneratorHandler_Career">
       <notForRelease>False</notForRelease>
       <workInProgress>False</workInProgress>
       <debugName>Covalex Hauling Interstellar</debugName>
       <defaultAvailability Type="ContractAvailability">
-        <prerequisites Type="ContractPrerequisiteBase" Count="2">
-          <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-            <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
-          </ContractPrerequisite_Locality>
+        <prerequisites Type="ContractPrerequisiteBase" Count="1">
           <ContractPrerequisite_Reputation Type="ContractPrerequisite_Reputation">
             <includePrerequisiteWhenSharing>False</includePrerequisiteWhenSharing>
             <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_covalexshipping.xml" />
@@ -13974,9 +13971,12 @@
         <modifierOverrides Type="BaseMissionModifier" Count="0" />
         <missionTypeOverride ReferencedFile="file://./../../../../../../../libs/foundry/records/missiontype/pu/hauling_interstellar.xml" />
       </contractParams>
-      <contracts Type="Contract" Count="16">
-        <Contract Type="Contract">
-          <id>cb68fa7f-4254-4ee9-993b-1e00973d8831</id>
+      <introContracts Type="Contract" Count="0" />
+      <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_covalexshipping.xml" />
+      <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/reputationscope_hauling.xml" />
+      <contracts Type="CareerContract" Count="16">
+        <CareerContract Type="CareerContract">
+          <id>c3d7f66e-ca09-45f7-97de-0e9121f58639</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_AToB_Interstellar_Bulk_Ag_Med_Iod</debugName>
@@ -14115,7 +14115,7 @@
                     </HaulingOrderContent_Resource>
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.MedicalSupplies" RecordId="d5506a24-5729-4354-81fb-0959173357c4" />
-                      <maxContainerSize>6</maxContainerSize>
+                      <maxContainerSize>16</maxContainerSize>
                       <minSCU>96</minSCU>
                       <maxSCU>96</maxSCU>
                     </HaulingOrderContent_Resource>
@@ -14154,7 +14154,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -14178,18 +14178,20 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>36</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>e451315c-2953-4ba6-b180-3eba1c97a234</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>416b5ed7-5e08-47e4-afa7-da00eef0a5fe</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_AToB_Interstellar_Bulk_Plas_Scr_Cob</debugName>
@@ -14328,7 +14330,7 @@
                     </HaulingOrderContent_Resource>
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.Scrap" RecordId="dae3efcb-f82e-4c2a-b24b-81f2be8daa51" />
-                      <maxContainerSize>6</maxContainerSize>
+                      <maxContainerSize>16</maxContainerSize>
                       <minSCU>96</minSCU>
                       <maxSCU>96</maxSCU>
                     </HaulingOrderContent_Resource>
@@ -14367,7 +14369,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -14391,21 +14393,23 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>35</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>62ea04ff-c49b-4de6-9e15-7d153eb05c04</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>0b400963-0b00-456a-bbc9-c036063cb6d8</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
-          <debugName>HaulCargo_AToB_Interstellar_Bulk_Plas_ShipAm_RMC_NEO</debugName>
+          <debugName>HaulCargo_AToB_Interstellar_Bulk_Plas_ShipAm_RMC_LARIN</debugName>
           <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_atob_override.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
@@ -14552,7 +14556,7 @@
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
-                      <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.Neograph" RecordId="c184c595-78c9-4e19-8e27-5ae16e166f20" />
+                      <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.Laranite" RecordId="7f4599b0-a2b2-4178-8c7e-13292054ab20" />
                       <maxContainerSize>2</maxContainerSize>
                       <minSCU>18</minSCU>
                       <maxSCU>0</maxSCU>
@@ -14586,7 +14590,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandnyx.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -14610,21 +14614,23 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>33</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Ship_could_get_damaged_Could_lose_cargo_4</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>6f840211-4cc0-4b13-a491-f897078e24a6</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>64609b77-29e3-44d0-99df-c78a093851e1</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
-          <debugName>HaulCargo_AToB_Interstellar_Bulk_ProFoo_TherFoam_FreFood_CarSilk</debugName>
+          <debugName>HaulCargo_AToB_Interstellar_Bulk_ProFoo_TherFoam_FreFood</debugName>
           <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_atob_override.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
@@ -14751,29 +14757,23 @@
                 <missionVariableName>HaulingOrders</missionVariableName>
                 <extendedTextToken />
                 <value Type="MissionPropertyValue_HaulingOrders">
-                  <haulingOrderContent Type="HaulingOrderContentBase" Count="4">
+                  <haulingOrderContent Type="HaulingOrderContentBase" Count="3">
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.ProcessedFood" RecordId="accacd33-3a1a-4ec7-8b4a-14b9f028047c" />
-                      <maxContainerSize>24</maxContainerSize>
-                      <minSCU>192</minSCU>
+                      <maxContainerSize>8</maxContainerSize>
+                      <minSCU>144</minSCU>
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.Thermalfoam" RecordId="6e8c18c9-f6cd-4311-805e-6daeaef4a26d" />
-                      <maxContainerSize>16</maxContainerSize>
-                      <minSCU>64</minSCU>
+                      <maxContainerSize>8</maxContainerSize>
+                      <minSCU>32</minSCU>
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.FreshFood" RecordId="096618a0-1f7d-48db-9c6a-9ac459386527" />
-                      <maxContainerSize>16</maxContainerSize>
-                      <minSCU>48</minSCU>
-                      <maxSCU>0</maxSCU>
-                    </HaulingOrderContent_Resource>
-                    <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
-                      <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.Carbonsilk" RecordId="7df4bf83-34e8-451b-bfb6-e17149daf57e" />
-                      <maxContainerSize>2</maxContainerSize>
-                      <minSCU>20</minSCU>
+                      <maxContainerSize>4</maxContainerSize>
+                      <minSCU>168</minSCU>
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                   </haulingOrderContent>
@@ -14805,7 +14805,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandnyx.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -14829,21 +14829,23 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>33</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Ship_could_get_damaged_Could_lose_cargo_4</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>05141f6f-9a8a-4639-b223-c4cd14d7b2b8</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>4b91c6f3-360f-4fe6-b704-6c664a950d75</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
-          <debugName>HaulCargo_AToB_Interstellar_Bulk_PreIce_Tung_Lara_Cob</debugName>
+          <debugName>HaulCargo_AToB_Interstellar_Bulk_PreIce_Tung_Lara</debugName>
           <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_atob_override.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
@@ -14970,7 +14972,7 @@
                 <missionVariableName>HaulingOrders</missionVariableName>
                 <extendedTextToken />
                 <value Type="MissionPropertyValue_HaulingOrders">
-                  <haulingOrderContent Type="HaulingOrderContentBase" Count="4">
+                  <haulingOrderContent Type="HaulingOrderContentBase" Count="3">
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.Pressurized_Ice" RecordId="f9f3251a-8e48-408a-b957-f1e3d5d3e213" />
                       <maxContainerSize>24</maxContainerSize>
@@ -14986,13 +14988,7 @@
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.Laranite" RecordId="7f4599b0-a2b2-4178-8c7e-13292054ab20" />
                       <maxContainerSize>16</maxContainerSize>
-                      <minSCU>96</minSCU>
-                      <maxSCU>0</maxSCU>
-                    </HaulingOrderContent_Resource>
-                    <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
-                      <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.Cobalt" RecordId="c6b26962-9a6c-4ee8-b8cd-494828e0876f" />
-                      <maxContainerSize>4</maxContainerSize>
-                      <minSCU>48</minSCU>
+                      <minSCU>80</minSCU>
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                   </haulingOrderContent>
@@ -15024,7 +15020,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandnyx.xml" />
+              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/nyx.xml" />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -15048,18 +15044,20 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>27</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Ship_could_get_damaged_Could_lose_cargo_4</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>c1916d71-9b32-4266-b12f-4d801631e686</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>7f658b85-c9dc-4877-b81b-b1341c7de428</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_AToB_Interstellar_Bulk_tita_Hydro_Merc_Agri</debugName>
@@ -15243,7 +15241,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandnyx.xml" />
+              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/nyx.xml" />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -15267,21 +15265,23 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>29</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Ship_could_get_damaged_Could_lose_cargo_4</riskOfLoss>
+              <gameKnowledge>Expert_understanding_FPS_flight_professions_5</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>d30d5d80-f8c4-442e-830d-d3abb93e2f9f</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>5d268648-079b-4673-8c25-fa9286f5493f</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
-          <debugName>HaulCargo_AToB_Interstellar_Bulk_Quart_DisSpir_Stim_OrganMass_Dymantium</debugName>
+          <debugName>HaulCargo_AToB_Interstellar_Bulk_Quart_DisSpir_Stim_OrganMass</debugName>
           <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_atob_override.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
@@ -15408,7 +15408,7 @@
                 <missionVariableName>HaulingOrders</missionVariableName>
                 <extendedTextToken />
                 <value Type="MissionPropertyValue_HaulingOrders">
-                  <haulingOrderContent Type="HaulingOrderContentBase" Count="5">
+                  <haulingOrderContent Type="HaulingOrderContentBase" Count="4">
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.Quartz" RecordId="35121003-f1af-481a-b16f-7f48d8af0efb" />
                       <maxContainerSize>24</maxContainerSize>
@@ -15429,14 +15429,8 @@
                     </HaulingOrderContent_Resource>
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.OrganiMass" RecordId="7f72bf18-3334-4e60-837d-d51d9fa745cd" />
-                      <maxContainerSize>8</maxContainerSize>
-                      <minSCU>56</minSCU>
-                      <maxSCU>0</maxSCU>
-                    </HaulingOrderContent_Resource>
-                    <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
-                      <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.Dymantium" RecordId="53513e3d-93cc-4079-b87b-cf20a4692661" />
-                      <maxContainerSize>8</maxContainerSize>
-                      <minSCU>24</minSCU>
+                      <maxContainerSize>4</maxContainerSize>
+                      <minSCU>28</minSCU>
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                   </haulingOrderContent>
@@ -15468,7 +15462,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -15492,21 +15486,23 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>34</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>0ad4ddf8-fe32-4cf7-a09c-d323fff01428</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>61967331-20e5-409b-9a75-f7aa0253c4fe</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
-          <debugName>HaulCargo_AToB_Interstellar_Bulk_Iron_Copper_CM_Atlas</debugName>
+          <debugName>HaulCargo_AToB_Interstellar_Bulk_Iron_Copper_Atlas</debugName>
           <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_atob_override.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
@@ -15633,7 +15629,7 @@
                 <missionVariableName>HaulingOrders</missionVariableName>
                 <extendedTextToken />
                 <value Type="MissionPropertyValue_HaulingOrders">
-                  <haulingOrderContent Type="HaulingOrderContentBase" Count="4">
+                  <haulingOrderContent Type="HaulingOrderContentBase" Count="3">
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.Iron" RecordId="f386a33c-ac9a-400a-a7b8-fe1fc7c8d270" />
                       <maxContainerSize>24</maxContainerSize>
@@ -15644,12 +15640,6 @@
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.Copper" RecordId="a789f57a-e12b-4bcd-8132-e0c03d84fc89" />
                       <maxContainerSize>24</maxContainerSize>
                       <minSCU>192</minSCU>
-                      <maxSCU>0</maxSCU>
-                    </HaulingOrderContent_Resource>
-                    <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
-                      <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.ConstructionMaterials" RecordId="98aa6a70-80e7-41d7-9128-9692053d57a2" />
-                      <maxContainerSize>16</maxContainerSize>
-                      <minSCU>80</minSCU>
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
@@ -15687,7 +15677,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandnyx.xml" />
+              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/nyx.xml" />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -15711,18 +15701,20 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>29</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Ship_could_get_damaged_Could_lose_cargo_4</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>ca8633bd-6966-4848-9a45-f372c668569e</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>4292f5a2-bc07-4df4-b3f7-cf3a43acbdd5</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_AToB_Interstellar_Bulk_Arg_PlasFu_PreIce_Atlas</debugName>
@@ -15930,18 +15922,20 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>31</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Ship_could_get_damaged_Could_lose_cargo_4</riskOfLoss>
+              <gameKnowledge>Expert_understanding_FPS_flight_professions_5</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>8088d10b-d555-49f3-a0c7-c5b82323edde</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>69a17b80-b5cd-4644-8598-f6bdea857fe3</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_AToB_Interstellar_Bulk_Ammon_PlasFu_Arg_PreIce_CM</debugName>
@@ -16131,7 +16125,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -16155,18 +16149,20 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>37</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>95df2c38-f849-4928-8961-bfa970bfb4ff</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>b398f60a-f591-4462-a2c2-5f22df911639</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_AToB_Interstellar_Bulk_Quar_Carb_Copp_DisSpir_OrgaMass</debugName>
@@ -16356,7 +16352,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -16380,22 +16376,24 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>37</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>5f4231b2-77a3-4476-a2ea-bddbecff4271</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>aa2255c8-c9a9-4875-963a-80a1ee7debe1</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_MultiToSingle_Interstellar_Large_preIce_AggSup_Scr_FreFoo</debugName>
-          <template />
+          <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_singletomulti_1to4.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
               <ContractStringParam Type="ContractStringParam">
@@ -16410,7 +16408,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="26">
+            <propertyOverrides Type="MissionProperty" Count="14">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName />
                 <extendedTextToken>CargoRouteToken</extendedTextToken>
@@ -16724,530 +16722,6 @@
                   <options Type="MissionPropertyValueOption_Tags" Count="0" />
                 </value>
               </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DropoffLocation1_ShipsToSpawn_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>DropOff1EnemyShips</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="3">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="5">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.3069fb30-e0e6-4fd1-a25b-13152bf970f3" RecordId="3069fb30-e0e6-4fd1-a25b-13152bf970f3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f9e10d57-6c91-4228-8d40-a9d56b7483c6" RecordId="f9e10d57-6c91-4228-8d40-a9d56b7483c6" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.536ade67-65b6-4203-b381-750f63e0b9ba" RecordId="536ade67-65b6-4203-b381-750f63e0b9ba" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>3</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>0.33</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="5">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e1d90840-d3c2-469c-9df4-6c2b9f44aa9c" RecordId="e1d90840-d3c2-469c-9df4-6c2b9f44aa9c" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.55204549-7fe8-46df-957a-e36f704a88d3" RecordId="55204549-7fe8-46df-957a-e36f704a88d3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.536ade67-65b6-4203-b381-750f63e0b9ba" RecordId="536ade67-65b6-4203-b381-750f63e0b9ba" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>2</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>0.33</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="5">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dfe438a4-43d9-44c9-9780-b18b4e1d0521" RecordId="dfe438a4-43d9-44c9-9780-b18b4e1d0521" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.667143a8-2114-4a67-9263-a716d502654d" RecordId="667143a8-2114-4a67-9263-a716d502654d" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.536ade67-65b6-4203-b381-750f63e0b9ba" RecordId="536ade67-65b6-4203-b381-750f63e0b9ba" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>1</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>0.33</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DropoffLocation1_MaxShips_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>3</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DropoffLocation1_PercentageChanceOfEncounter_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>60</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DropoffLocation2_ShipsToSpawn_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>DropOff2EnemyShips</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="3">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="5">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.3069fb30-e0e6-4fd1-a25b-13152bf970f3" RecordId="3069fb30-e0e6-4fd1-a25b-13152bf970f3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f9e10d57-6c91-4228-8d40-a9d56b7483c6" RecordId="f9e10d57-6c91-4228-8d40-a9d56b7483c6" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.536ade67-65b6-4203-b381-750f63e0b9ba" RecordId="536ade67-65b6-4203-b381-750f63e0b9ba" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>3</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>0.33</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="5">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e1d90840-d3c2-469c-9df4-6c2b9f44aa9c" RecordId="e1d90840-d3c2-469c-9df4-6c2b9f44aa9c" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.55204549-7fe8-46df-957a-e36f704a88d3" RecordId="55204549-7fe8-46df-957a-e36f704a88d3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.536ade67-65b6-4203-b381-750f63e0b9ba" RecordId="536ade67-65b6-4203-b381-750f63e0b9ba" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>2</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>0.33</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="5">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dfe438a4-43d9-44c9-9780-b18b4e1d0521" RecordId="dfe438a4-43d9-44c9-9780-b18b4e1d0521" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.667143a8-2114-4a67-9263-a716d502654d" RecordId="667143a8-2114-4a67-9263-a716d502654d" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.536ade67-65b6-4203-b381-750f63e0b9ba" RecordId="536ade67-65b6-4203-b381-750f63e0b9ba" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>1</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>0.33</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DropoffLocation2_MaxShips_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>3</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DropoffLocation2_PercentageChanceOfEncounter_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>70</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DropoffLocation3_ShipsToSpawn_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>DropOff3EnemyShips</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="3">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="5">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.3069fb30-e0e6-4fd1-a25b-13152bf970f3" RecordId="3069fb30-e0e6-4fd1-a25b-13152bf970f3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f9e10d57-6c91-4228-8d40-a9d56b7483c6" RecordId="f9e10d57-6c91-4228-8d40-a9d56b7483c6" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.536ade67-65b6-4203-b381-750f63e0b9ba" RecordId="536ade67-65b6-4203-b381-750f63e0b9ba" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>3</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>0.33</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="5">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e1d90840-d3c2-469c-9df4-6c2b9f44aa9c" RecordId="e1d90840-d3c2-469c-9df4-6c2b9f44aa9c" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.55204549-7fe8-46df-957a-e36f704a88d3" RecordId="55204549-7fe8-46df-957a-e36f704a88d3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.536ade67-65b6-4203-b381-750f63e0b9ba" RecordId="536ade67-65b6-4203-b381-750f63e0b9ba" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>2</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>0.33</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="5">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dfe438a4-43d9-44c9-9780-b18b4e1d0521" RecordId="dfe438a4-43d9-44c9-9780-b18b4e1d0521" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.667143a8-2114-4a67-9263-a716d502654d" RecordId="667143a8-2114-4a67-9263-a716d502654d" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.536ade67-65b6-4203-b381-750f63e0b9ba" RecordId="536ade67-65b6-4203-b381-750f63e0b9ba" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>1</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>0.33</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DropoffLocation3_MaxShips_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>3</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DropoffLocation3_PercentageChanceOfEncounter_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>60</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DropoffLocation4_ShipsToSpawn_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>DropOff1EnemyShips</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="3">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="5">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.3069fb30-e0e6-4fd1-a25b-13152bf970f3" RecordId="3069fb30-e0e6-4fd1-a25b-13152bf970f3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f9e10d57-6c91-4228-8d40-a9d56b7483c6" RecordId="f9e10d57-6c91-4228-8d40-a9d56b7483c6" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.536ade67-65b6-4203-b381-750f63e0b9ba" RecordId="536ade67-65b6-4203-b381-750f63e0b9ba" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>3</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>0.33</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="5">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e1d90840-d3c2-469c-9df4-6c2b9f44aa9c" RecordId="e1d90840-d3c2-469c-9df4-6c2b9f44aa9c" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.55204549-7fe8-46df-957a-e36f704a88d3" RecordId="55204549-7fe8-46df-957a-e36f704a88d3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.536ade67-65b6-4203-b381-750f63e0b9ba" RecordId="536ade67-65b6-4203-b381-750f63e0b9ba" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>2</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>0.33</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="5">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dfe438a4-43d9-44c9-9780-b18b4e1d0521" RecordId="dfe438a4-43d9-44c9-9780-b18b4e1d0521" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.667143a8-2114-4a67-9263-a716d502654d" RecordId="667143a8-2114-4a67-9263-a716d502654d" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.536ade67-65b6-4203-b381-750f63e0b9ba" RecordId="536ade67-65b6-4203-b381-750f63e0b9ba" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>1</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>0.33</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DropoffLocation4_MaxShips_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>3</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DropoffLocation4_PercentageChanceOfEncounter_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>70</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
-                </value>
-              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -17255,7 +16729,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -17279,18 +16753,20 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>96</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Hard_PvE_or_Easy_PvP_action_5</mechanicalSkill>
+              <mentalLoad>Extremely_hard_to_manage_alone_6</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>ad72fead-7b42-48eb-9745-4dcadac75363</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>2701ce42-2812-4ee2-b170-250a73d3c82a</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_SingleToMulti_Interstellar_Bulk_OrganiMass</debugName>
@@ -17416,7 +16892,7 @@
                   <logErrorOnSearchFail>True</logErrorOnSearchFail>
                 </value>
               </MissionProperty>
-              <MissionProperty Type="MissionProperty">
+              <MissionProperty Pointer="ptr:4" Type="MissionProperty">
                 <missionVariableName>DropoffLocation2</missionVariableName>
                 <extendedTextToken>Destination2</extendedTextToken>
                 <value Type="MissionPropertyValue_Location">
@@ -17446,7 +16922,7 @@
                 <value Type="MissionPropertyValue_Location">
                   <matchConditions Type="BaseDataSetMatchCondition" Count="2">
                     <DataSetMatchCondition_ExcludeProperty Type="DataSetMatchCondition_ExcludeProperty">
-                      <excludedProperty PointsTo="ptr:2" />
+                      <excludedProperty PointsTo="ptr:4" />
                     </DataSetMatchCondition_ExcludeProperty>
                     <DataSetMatchCondition_TagSearch Type="DataSetMatchCondition_TagSearch">
                       <tagSearch Type="TagSearchTerm" Count="1">
@@ -17475,7 +16951,7 @@
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.OrganiMass" RecordId="7f72bf18-3334-4e60-837d-d51d9fa745cd" />
                       <maxContainerSize>16</maxContainerSize>
-                      <minSCU>96</minSCU>
+                      <minSCU>44</minSCU>
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                   </haulingOrderContent>
@@ -17489,7 +16965,7 @@
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.OrganiMass" RecordId="7f72bf18-3334-4e60-837d-d51d9fa745cd" />
                       <maxContainerSize>16</maxContainerSize>
-                      <minSCU>32</minSCU>
+                      <minSCU>44</minSCU>
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                   </haulingOrderContent>
@@ -17503,7 +16979,7 @@
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.OrganiMass" RecordId="7f72bf18-3334-4e60-837d-d51d9fa745cd" />
                       <maxContainerSize>16</maxContainerSize>
-                      <minSCU>32</minSCU>
+                      <minSCU>40</minSCU>
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                   </haulingOrderContent>
@@ -17535,7 +17011,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonpyronyx.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -17559,18 +17035,20 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>61</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>0c93cea5-2f95-4a51-85ac-3bc63469e475</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>d437b432-f18b-4cd8-b932-c9e3e72b1d34</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_AToB_Interstellar_Bulk_Ag_Med_Iodine</debugName>
@@ -17748,7 +17226,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -17772,18 +17250,20 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>36</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>1b51204e-630e-4e3e-aab0-9bfcb6daa25a</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>c4de1ea8-9853-4caf-9e49-a6f35e0a6c72</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_AToB_Interstellar_Bulk_Plas_Scra_Cob</debugName>
@@ -17895,7 +17375,7 @@
                       <tagSearch Type="TagSearchTerm" Count="1">
                         <TagSearchTerm Type="TagSearchTerm">
                           <positiveTags Type="Tag" Count="2">
-                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6d22c51e-04b0-46ac-8008-d3d33b5877b3" RecordId="6d22c51e-04b0-46ac-8008-d3d33b5877b3" />
+                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.71df7590-0f63-4fed-a3c5-26c6b8405360" RecordId="71df7590-0f63-4fed-a3c5-26c6b8405360" />
                             <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4d1faea9-c795-41ab-94b0-a2d1885a3355" RecordId="4d1faea9-c795-41ab-94b0-a2d1885a3355" />
                           </positiveTags>
                           <negativeTags Type="Tag" Count="0" />
@@ -17961,7 +17441,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -17985,15 +17465,23 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
-            <difficulty />
+            <timeToComplete>35</timeToComplete>
+            <difficulty Type="ContractDifficulty">
+              <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
+            </difficulty>
           </contractResults>
-        </Contract>
-        <Contract Type="Contract">
-          <id>b239b08e-ddad-4c77-b743-6dc8a831706a</id>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
+        <CareerContract Type="CareerContract">
+          <id>c10d9de6-bb8e-4cce-9fa0-ad0ed691a94e</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
-          <debugName>HaulCargo_AToB_Interstellar_Bulk_Plas_ShipAmm_RMC_NEo</debugName>
+          <debugName>HaulCargo_AToB_Interstellar_Bulk_Plas_ShipAmm_RMC</debugName>
           <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_atob_override.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
@@ -18120,7 +17608,7 @@
                 <missionVariableName>HaulingOrders</missionVariableName>
                 <extendedTextToken />
                 <value Type="MissionPropertyValue_HaulingOrders">
-                  <haulingOrderContent Type="HaulingOrderContentBase" Count="4">
+                  <haulingOrderContent Type="HaulingOrderContentBase" Count="3">
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.PlasmaFuel" RecordId="de9f4d03-6b60-429d-9b26-9f2308bae973" />
                       <maxContainerSize>24</maxContainerSize>
@@ -18137,12 +17625,6 @@
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.RMC" RecordId="a0e6c4cf-face-4f52-a020-dfa869607901" />
                       <maxContainerSize>8</maxContainerSize>
                       <minSCU>72</minSCU>
-                      <maxSCU>0</maxSCU>
-                    </HaulingOrderContent_Resource>
-                    <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
-                      <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.Neograph" RecordId="c184c595-78c9-4e19-8e27-5ae16e166f20" />
-                      <maxContainerSize>2</maxContainerSize>
-                      <minSCU>18</minSCU>
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                   </haulingOrderContent>
@@ -18174,7 +17656,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandnyx.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -18198,18 +17680,20 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>30</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Ship_could_get_damaged_Could_lose_cargo_4</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
-        </Contract>
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank6.xml" />
+        </CareerContract>
       </contracts>
-    </ContractGeneratorHandler_List>
+    </ContractGeneratorHandler_Career>
     <ContractGeneratorHandler_Career Type="ContractGeneratorHandler_Career">
       <notForRelease>True</notForRelease>
       <workInProgress>False</workInProgress>

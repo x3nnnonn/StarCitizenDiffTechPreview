@@ -159,6 +159,7 @@
     </SEntityInteractableParams>
     <SCItemSeatDashboardParams Type="SCItemSeatDashboardParams">
       <canTogglePowerForObservedItems>False</canTogglePowerForObservedItems>
+      <ignorePowerResults>True</ignorePowerResults>
       <PowerOnline>1</PowerOnline>
       <dashboardInteractions Type="SDashboardInteractionParams">
         <flightReady />
@@ -382,7 +383,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />

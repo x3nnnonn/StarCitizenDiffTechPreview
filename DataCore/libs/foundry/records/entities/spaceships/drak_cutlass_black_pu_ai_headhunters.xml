@@ -112,8 +112,8 @@
       <vehicleImagePath />
       <vehicleCareer>@vehicle_focus_multirole</vehicleCareer>
       <vehicleCareerRef ReferencedFile="file://./../../../../../libs/foundry/records/vehicle/careers/multirole.xml" />
-      <vehicleRole>@vehicle_class_mediumfightermediumfreight</vehicleRole>
-      <vehicleRoleRef ReferencedFile="file://./../../../../../libs/foundry/records/vehicle/roles/mediumfightermediumfreight.xml" />
+      <vehicleRole>@vehicle_class_lightfreight_mediumfighter</vehicleRole>
+      <vehicleRoleRef ReferencedFile="file://./../../../../../libs/foundry/records/vehicle/roles/lightfreightmediumfighter.xml" />
       <maxBoundingBoxSize Type="Vec3">
         <x>26.5</x>
         <y>37.5</y>
@@ -222,7 +222,8 @@
         <y>0</y>
         <z>0</z>
       </landingRotationOffset>
-      <fusePenetrationDamageMultiplier>0.3658537</fusePenetrationDamageMultiplier>
+      <fusePenetrationDamageMultiplier>0.001</fusePenetrationDamageMultiplier>
+      <componentPenetrationDamageMultiplier>0.5</componentPenetrationDamageMultiplier>
     </VehicleComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
       <loadout Type="SItemPortLoadoutManualParams">
@@ -4639,7 +4640,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>DockingCollar</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -4840,7 +4841,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AirTrafficController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5215,7 +5216,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>LifeSupportGenerator</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -6072,12 +6073,12 @@
       </adapters>
     </AINavigationDynamicTriggerComponent>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="ActorStatusUIData" Count="2">
+      <perceptionTypes Type="HealthIconData" Count="2">
         <EnumChoice>Vehicle</EnumChoice>
         <EnumChoice>Spaceship</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusUIWarning" Count="0" />
+      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
       <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
       <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />

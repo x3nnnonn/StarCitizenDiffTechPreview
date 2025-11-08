@@ -109,7 +109,7 @@
                             <SpawnDescription_Ship Type="SpawnDescription_Ship">
                               <tags Type="TagList">
                                 <tags Type="Tag" Count="7">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dbc351a7-f131-49d9-94ad-4e27796ae08f" RecordId="dbc351a7-f131-49d9-94ad-4e27796ae08f" />
+                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.17cc697a-727f-44ba-8781-1a9883cc9ca3" RecordId="17cc697a-727f-44ba-8781-1a9883cc9ca3" />
                                   <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.37e51a3d-afb0-4f2a-9528-01d9e2db5a76" RecordId="37e51a3d-afb0-4f2a-9528-01d9e2db5a76" />
                                   <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4b9a647c-91f4-4732-b572-912ac03e73f2" RecordId="4b9a647c-91f4-4732-b572-912ac03e73f2" />
                                   <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.663ecb92-85d2-47c7-9fe6-b4a76d84791a" RecordId="663ecb92-85d2-47c7-9fe6-b4a76d84791a" />
@@ -253,10 +253,23 @@
             <missionTypeOverride />
           </paramOverrides>
           <subContracts Type="SubContract" Count="0" />
-          <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
+          <additionalPrerequisites Type="ContractPrerequisiteBase" Count="2">
             <ContractPrerequisite_Location Type="ContractPrerequisite_Location">
               <locationAvailable />
             </ContractPrerequisite_Location>
+            <ContractPrerequisite_CompletedContractTags Type="ContractPrerequisite_CompletedContractTags">
+              <includePrerequisiteWhenSharing>False</includePrerequisiteWhenSharing>
+              <requiredCompletedContractTags Type="TagList">
+                <tags Type="Tag" Count="0" />
+              </requiredCompletedContractTags>
+              <requiredCountValue>1</requiredCountValue>
+              <excludedCompletedContractTags Type="TagList">
+                <tags Type="Tag" Count="1">
+                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.aee09f10-3192-4de8-98e4-109bc5767fab" RecordId="aee09f10-3192-4de8-98e4-109bc5767fab" />
+                </tags>
+              </excludedCompletedContractTags>
+              <excludedCountValue>1</excludedCountValue>
+            </ContractPrerequisite_CompletedContractTags>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
             <maxInstances>-1</maxInstances>
@@ -382,7 +395,7 @@
                             <SpawnDescription_Ship Type="SpawnDescription_Ship">
                               <tags Type="TagList">
                                 <tags Type="Tag" Count="7">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dbc351a7-f131-49d9-94ad-4e27796ae08f" RecordId="dbc351a7-f131-49d9-94ad-4e27796ae08f" />
+                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.17cc697a-727f-44ba-8781-1a9883cc9ca3" RecordId="17cc697a-727f-44ba-8781-1a9883cc9ca3" />
                                   <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.37e51a3d-afb0-4f2a-9528-01d9e2db5a76" RecordId="37e51a3d-afb0-4f2a-9528-01d9e2db5a76" />
                                   <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4b9a647c-91f4-4732-b572-912ac03e73f2" RecordId="4b9a647c-91f4-4732-b572-912ac03e73f2" />
                                   <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.663ecb92-85d2-47c7-9fe6-b4a76d84791a" RecordId="663ecb92-85d2-47c7-9fe6-b4a76d84791a" />
@@ -586,7 +599,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_citizensforprosperity.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_50.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_100.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_CalculatedReward Type="ContractResult_CalculatedReward">
@@ -674,7 +687,7 @@
                             <SpawnDescription_Ship Type="SpawnDescription_Ship">
                               <tags Type="TagList">
                                 <tags Type="Tag" Count="7">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dbc351a7-f131-49d9-94ad-4e27796ae08f" RecordId="dbc351a7-f131-49d9-94ad-4e27796ae08f" />
+                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.17cc697a-727f-44ba-8781-1a9883cc9ca3" RecordId="17cc697a-727f-44ba-8781-1a9883cc9ca3" />
                                   <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.37e51a3d-afb0-4f2a-9528-01d9e2db5a76" RecordId="37e51a3d-afb0-4f2a-9528-01d9e2db5a76" />
                                   <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4b9a647c-91f4-4732-b572-912ac03e73f2" RecordId="4b9a647c-91f4-4732-b572-912ac03e73f2" />
                                   <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.663ecb92-85d2-47c7-9fe6-b4a76d84791a" RecordId="663ecb92-85d2-47c7-9fe6-b4a76d84791a" />
@@ -966,7 +979,7 @@
                             <SpawnDescription_Ship Type="SpawnDescription_Ship">
                               <tags Type="TagList">
                                 <tags Type="Tag" Count="7">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dbc351a7-f131-49d9-94ad-4e27796ae08f" RecordId="dbc351a7-f131-49d9-94ad-4e27796ae08f" />
+                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.07a23b5f-4945-41f7-b8a5-bfba1f138f26" RecordId="07a23b5f-4945-41f7-b8a5-bfba1f138f26" />
                                   <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.37e51a3d-afb0-4f2a-9528-01d9e2db5a76" RecordId="37e51a3d-afb0-4f2a-9528-01d9e2db5a76" />
                                   <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4b9a647c-91f4-4732-b572-912ac03e73f2" RecordId="4b9a647c-91f4-4732-b572-912ac03e73f2" />
                                   <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.663ecb92-85d2-47c7-9fe6-b4a76d84791a" RecordId="663ecb92-85d2-47c7-9fe6-b4a76d84791a" />
@@ -1875,7 +1888,7 @@
           <contractLifeTime />
           <contractPlugins Type="SContractPlugin_Base" Count="0" />
           <contractResults Type="ContractResults">
-            <contractResults Type="ContractResultBase" Count="3">
+            <contractResults Type="ContractResultBase" Count="2">
               <ContractResult_CalculatedReward Type="ContractResult_CalculatedReward">
                 <missionResults Type="ActivityBehaviorRequestCondition" Count="5">
                   <Boolean>True</Boolean>
@@ -1896,21 +1909,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_citizensforprosperity.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_200.xml" />
-                </contractResultReputationAmounts>
-              </ContractResult_LegacyReputation>
-              <ContractResult_LegacyReputation Type="ContractResult_LegacyReputation">
-                <missionResults Type="ActivityBehaviorRequestCondition" Count="5">
-                  <Boolean>True</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                </missionResults>
-                <contractResultReputationAmounts Type="SReputationAmountParams">
-                  <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_citizensforprosperity.xml" />
-                  <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_50.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/reputationrewardamount_positive_250.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
             </contractResults>

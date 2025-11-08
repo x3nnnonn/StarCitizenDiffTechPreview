@@ -178,7 +178,7 @@
       <defaultCamDistance>0.4</defaultCamDistance>
     </SCRTTCameraParams>
     <SCommunicationUserComponentParams Type="SCommunicationUserComponentParams">
-      <voiceBundle />
+      <voiceBundle ReferencedFile="file://./../../../../../libs/foundry/records/voicebundle/genericvoicebundles/pu_gennpc_male.xml" />
       <voiceSingle />
       <communicationConfig ReferencedFile="file://./../../../../../libs/foundry/records/communicationconfig/communicationformissions/mc_testcommstriggerconfig.xml" />
       <contextualDialog />

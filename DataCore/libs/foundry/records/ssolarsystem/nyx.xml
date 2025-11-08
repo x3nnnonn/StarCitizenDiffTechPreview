@@ -2,7 +2,7 @@
 <SSolarSystem.Nyx RecordId="db28aec7-9815-41bd-8200-46240692dcbb" Type="SSolarSystem">
   <Name>Nyx</Name>
   <landingZoneInventory />
-  <DefaultLocation />
+  <DefaultLocation ReferencedFile="file://./../../../../libs/foundry/records/starmap/pu/system/nyx/delamar/landingzone/nyx_levski.xml" />
   <SolarSystemRecord />
   <galacticPosition Type="Vec3">
     <x>20</x>
@@ -10,13 +10,13 @@
     <z>-17.2174</z>
   </galacticPosition>
   <organicFallbackBedrockTint Type="RGB">
-    <r>0.5</r>
-    <g>0.5</g>
-    <b>0.5</b>
+    <r>0.14</r>
+    <g>0.16</g>
+    <b>0.22</b>
   </organicFallbackBedrockTint>
   <organicFallbackSoilTint Type="RGB">
-    <r>0.5</r>
-    <g>0.5</g>
-    <b>0.5</b>
+    <r>0.14</r>
+    <g>0.16</g>
+    <b>0.22</b>
   </organicFallbackSoilTint>
 </SSolarSystem.Nyx>

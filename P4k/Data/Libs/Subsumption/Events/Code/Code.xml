@@ -52,6 +52,7 @@
   <File Name="OnDetectedByRadar.xml" CRC32="0x07A9407B" Size="537" CompressionType="100" Encrypted="False" />
   <File Name="OnDisruptionPerceived.xml" CRC32="0xD037814F" Size="1728" CompressionType="100" Encrypted="False" />
   <File Name="OnDistracted.xml" CRC32="0x2F13E10D" Size="594" CompressionType="100" Encrypted="False" />
+  <File Name="OnDisturbancePerceived.xml" CRC32="0x5CC90DB9" Size="3193" CompressionType="100" Encrypted="False" />
   <File Name="OnEnemiesGone.xml" CRC32="0x1DAF2990" Size="490" CompressionType="100" Encrypted="False" />
   <File Name="OnEnteredGreetingRange.xml" CRC32="0xBB0E60E3" Size="1098" CompressionType="100" Encrypted="False" />
   <File Name="OnEnterPilotSeat.xml" CRC32="0xF7D3FD96" Size="439" CompressionType="100" Encrypted="False" />
@@ -62,12 +63,14 @@
   <File Name="OnFiringRangeFinished.xml" CRC32="0xE264C0C1" Size="2039" CompressionType="100" Encrypted="False" />
   <File Name="OnFlightControllerControlGained.xml" CRC32="0xA6796448" Size="454" CompressionType="100" Encrypted="False" />
   <File Name="OnFlightControllerControlLost.xml" CRC32="0x7D041AEE" Size="452" CompressionType="100" Encrypted="False" />
+  <File Name="OnForceReactionRequestStagger.xml" CRC32="0x56567F1A" Size="1316" CompressionType="100" Encrypted="False" />
   <File Name="OnFriendlyBulletHitHeard.xml" CRC32="0x7F3ED7D4" Size="1343" CompressionType="100" Encrypted="False" />
   <File Name="OnFriendlyCallToArmsHeard.xml" CRC32="0x84885B83" Size="1308" CompressionType="100" Encrypted="False" />
   <File Name="OnFriendlyCombat.xml" CRC32="0x4E2EECF5" Size="1329" CompressionType="100" Encrypted="False" />
   <File Name="OnFriendlyCombatMedicRequestedExpletive.xml" CRC32="0xC747DE96" Size="1363" CompressionType="100" Encrypted="False" />
   <File Name="OnFriendlyDeadSeen.xml" CRC32="0x0614E8FC" Size="595" CompressionType="100" Encrypted="False" />
   <File Name="OnFriendlyDownedFound.xml" CRC32="0xE99CE758" Size="1716" CompressionType="100" Encrypted="False" />
+  <File Name="OnFriendlyDownedFoundExpletive.xml" CRC32="0x0F6BE9CA" Size="1349" CompressionType="100" Encrypted="False" />
   <File Name="OnFriendlyExplosionHeard.xml" CRC32="0x0C7F0E4B" Size="1341" CompressionType="100" Encrypted="False" />
   <File Name="OnFriendlyHeard.xml" CRC32="0x301CE509" Size="1332" CompressionType="100" Encrypted="False" />
   <File Name="OnFriendlyIncapacitatedSeen.xml" CRC32="0x17338B38" Size="1339" CompressionType="100" Encrypted="False" />
@@ -136,6 +139,7 @@
   <File Name="OnMalfunctionRecovered.xml" CRC32="0x4193E73B" Size="543" CompressionType="100" Encrypted="False" />
   <File Name="OnMalfunctionStart.xml" CRC32="0xE403642F" Size="539" CompressionType="100" Encrypted="False" />
   <File Name="OnMeleeAttackHit.xml" CRC32="0xFC1F0E6E" Size="1326" CompressionType="100" Encrypted="False" />
+  <File Name="OnMissileEvaded.xml" CRC32="0x3CA5567C" Size="1325" CompressionType="100" Encrypted="False" />
   <File Name="OnMissileHitByMe.xml" CRC32="0x5954FE21" Size="1149" CompressionType="100" Encrypted="False" />
   <File Name="OnMissileLaunched.xml" CRC32="0x106BF3A4" Size="1677" CompressionType="100" Encrypted="False" />
   <File Name="OnNeutralArmedPlayerSeen.xml" CRC32="0xC8183B18" Size="606" CompressionType="100" Encrypted="False" />
@@ -177,6 +181,7 @@
   <File Name="OnPlayerSit.xml" CRC32="0xAAB3F82B" Size="434" CompressionType="100" Encrypted="False" />
   <File Name="OnQuickSelectionWheelCancelled.xml" CRC32="0x09C66016" Size="614" CompressionType="100" Encrypted="False" />
   <File Name="OnRammedByVehicle.xml" CRC32="0xE2799D7B" Size="1156" CompressionType="100" Encrypted="False" />
+  <File Name="OnRawForceReactionImpulse.xml" CRC32="0x8B9E81AC" Size="2068" CompressionType="100" Encrypted="False" />
   <File Name="OnReactionToTargetChanged.xml" CRC32="0x6CF49641" Size="1341" CompressionType="100" Encrypted="False" />
   <File Name="OnRestrainedWakeup.xml" CRC32="0x607093A1" Size="602" CompressionType="100" Encrypted="False" />
   <File Name="OnRevived.xml" CRC32="0x1421C8B0" Size="1322" CompressionType="100" Encrypted="False" />
@@ -189,11 +194,16 @@
   <File Name="OnShipPoweredOff.xml" CRC32="0xCB8495B1" Size="1163" CompressionType="100" Encrypted="False" />
   <File Name="OnShipPoweredOn.xml" CRC32="0xEE089293" Size="1162" CompressionType="100" Encrypted="False" />
   <File Name="OnShipTakeOff.xml" CRC32="0x49577660" Size="1288" CompressionType="100" Encrypted="False" />
+  <File Name="OnShipWeaponFireStarted.xml" CRC32="0x7207E22A" Size="575" CompressionType="100" Encrypted="False" />
+  <File Name="OnShipWeaponFireStopped.xml" CRC32="0xB7D14EC5" Size="575" CompressionType="100" Encrypted="False" />
   <File Name="OnStaredAt.xml" CRC32="0xA13CA4E8" Size="1300" CompressionType="100" Encrypted="False" />
   <File Name="OnStartAimedAt.xml" CRC32="0x1FBC6CA9" Size="1341" CompressionType="100" Encrypted="False" />
   <File Name="OnStopAimedAt.xml" CRC32="0xCEFE57AD" Size="599" CompressionType="100" Encrypted="False" />
   <File Name="OnSubTargetDestroyed.xml" CRC32="0xAEE5CEFF" Size="1336" CompressionType="100" Encrypted="False" />
   <File Name="OnSubTargetDetached.xml" CRC32="0x78F8E3FF" Size="1335" CompressionType="100" Encrypted="False" />
+  <File Name="OnTakedownFailed.xml" CRC32="0x08551F83" Size="1326" CompressionType="100" Encrypted="False" />
+  <File Name="OnTakedownStart.xml" CRC32="0x78FF152A" Size="1325" CompressionType="100" Encrypted="False" />
+  <File Name="OnTargetedHealthChanged.xml" CRC32="0xA4F6261B" Size="1670" CompressionType="100" Encrypted="False" />
   <File Name="OnTargetEnteredMeleeRange.xml" CRC32="0x11749E51" Size="448" CompressionType="100" Encrypted="False" />
   <File Name="OnTargetEnteredNearbyRange.xml" CRC32="0x2802530D" Size="449" CompressionType="100" Encrypted="False" />
   <File Name="OnTargetLeftMeleeRange.xml" CRC32="0x271B2996" Size="445" CompressionType="100" Encrypted="False" />

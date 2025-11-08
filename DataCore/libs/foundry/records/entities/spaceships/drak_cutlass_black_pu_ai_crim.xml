@@ -10,14 +10,14 @@
     <b>0</b>
   </defaultEditorColor>
   <entityDensityClass ReferencedFile="file://./../../../../../libs/foundry/records/densityclasses/spaceshipdensityclass.xml" />
-  <tags Type="Tag" Count="14">
+  <tags Type="Tag" Count="15">
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5f12dd31-4ff9-41a5-b5e2-916270351ba9" RecordId="5f12dd31-4ff9-41a5-b5e2-916270351ba9" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.95b8cab3-5230-46f9-92e6-8e021978f543" RecordId="95b8cab3-5230-46f9-92e6-8e021978f543" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6374bb62-de4e-410a-96a3-a1156dce4802" RecordId="6374bb62-de4e-410a-96a3-a1156dce4802" />
+    <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.503443c0-b6d1-4539-b493-688117334ff1" RecordId="503443c0-b6d1-4539-b493-688117334ff1" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.9314b308-b5dd-44ce-8e81-61e1764cbd57" RecordId="9314b308-b5dd-44ce-8e81-61e1764cbd57" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ef734509-be28-47c9-87df-2775db104d38" RecordId="ef734509-be28-47c9-87df-2775db104d38" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5474b937-655b-4e79-a63a-66828f8649a5" RecordId="5474b937-655b-4e79-a63a-66828f8649a5" />
-    <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.503443c0-b6d1-4539-b493-688117334ff1" RecordId="503443c0-b6d1-4539-b493-688117334ff1" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.09aae79b-4136-450e-833e-d53a8675075e" RecordId="09aae79b-4136-450e-833e-d53a8675075e" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6adffd04-ad2f-46e7-97e7-fad5212973e1" RecordId="6adffd04-ad2f-46e7-97e7-fad5212973e1" />
@@ -25,6 +25,7 @@
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.10b9a7e9-4152-4978-8f8b-69378ada9c9c" RecordId="10b9a7e9-4152-4978-8f8b-69378ada9c9c" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a45f6533-982c-45dc-97ea-0166a3560617" RecordId="a45f6533-982c-45dc-97ea-0166a3560617" />
     <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.c08564a2-68d2-4eb1-903b-e3c3ecf12ac1" RecordId="c08564a2-68d2-4eb1-903b-e3c3ecf12ac1" />
+    <Tag RecordReference="file://./../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4d10c323-3c61-472c-834e-fcaa0c408ec9" RecordId="4d10c323-3c61-472c-834e-fcaa0c408ec9" />
   </tags>
   <StaticEntityClassData Type="EntityClassStaticDataParams" Count="7">
     <EntityUIDisplayParams Type="EntityUIDisplayParams">
@@ -114,8 +115,8 @@
       <vehicleImagePath />
       <vehicleCareer>@vehicle_focus_multirole</vehicleCareer>
       <vehicleCareerRef ReferencedFile="file://./../../../../../libs/foundry/records/vehicle/careers/multirole.xml" />
-      <vehicleRole>@vehicle_class_mediumfightermediumfreight</vehicleRole>
-      <vehicleRoleRef ReferencedFile="file://./../../../../../libs/foundry/records/vehicle/roles/mediumfightermediumfreight.xml" />
+      <vehicleRole>@vehicle_class_lightfreight_mediumfighter</vehicleRole>
+      <vehicleRoleRef ReferencedFile="file://./../../../../../libs/foundry/records/vehicle/roles/lightfreightmediumfighter.xml" />
       <maxBoundingBoxSize Type="Vec3">
         <x>26.5</x>
         <y>37.5</y>
@@ -224,7 +225,8 @@
         <y>0</y>
         <z>0</z>
       </landingRotationOffset>
-      <fusePenetrationDamageMultiplier>0.3658537</fusePenetrationDamageMultiplier>
+      <fusePenetrationDamageMultiplier>0.001</fusePenetrationDamageMultiplier>
+      <componentPenetrationDamageMultiplier>0.5</componentPenetrationDamageMultiplier>
     </VehicleComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
       <loadout Type="SItemPortLoadoutManualParams">
@@ -4655,7 +4657,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>DockingCollar</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -4856,7 +4858,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AirTrafficController</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5231,7 +5233,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>LifeSupportGenerator</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -6088,12 +6090,12 @@
       </adapters>
     </AINavigationDynamicTriggerComponent>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="ActorStatusUIData" Count="2">
+      <perceptionTypes Type="HealthIconData" Count="2">
         <EnumChoice>Vehicle</EnumChoice>
         <EnumChoice>Spaceship</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusUIWarning" Count="0" />
+      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
       <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
       <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />

@@ -1,0 +1,148 @@
+<ObjectContainer sourceLevel="data/levels/!oc/pu/loc/mod/station/nyx/int/module/security">
+ <Layers>
+  <Layer fullname="base/security/security_24x32x16_001_base" externalLayerLevelDir="data/levels/!oc/pu/loc/mod/station/nyx/int/module/security/Layers/" externalLayerParentDir="base/security/" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/security/Layers/base/security/security_24x32x16_001_base.lyr" ParentGUID="{4F46CA1F-DC41-4A58-A371-65A8B13E55DF}" layerHash="785028943">
+   <Layer name="ai" layerHash="3029658538" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/security/Layers/base/security/security_24x32x16_001_base/ai.lyr">
+    <Object name="Customs_Red_01-001" type="AreaBox" guid="4cda02cc-db04-a81b-94cb-5ad26de3e59e" tags=""/>
+   </Layer>
+   <Layer name="cave" layerHash="3775658801" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/security/Layers/base/security/security_24x32x16_001_base/cave.lyr">
+    <Object name="angular_01_plt_e" type="Brush" guid="45d2d0d9-3563-fb08-0031-ed0d7c79e7ae"/>
+    <Object name="angular_01_plt_c" type="Brush" guid="4f40951f-bb65-2c11-b1cb-f49850b4768a"/>
+    <Object name="angular_01_grdc_a-004" type="Brush" guid="4adffab0-7a7b-5017-4db5-7a071f914d82"/>
+    <Object name="angular_01_grdc_a-002" type="Brush" guid="4faa8fe6-827c-081a-1af2-e414f8082595"/>
+    <Object name="angular_01_plt_f" type="Brush" guid="4cd29238-5286-9b1d-398e-8c530b5dd3b4"/>
+    <Object name="angular_01_plt_a" type="Brush" guid="42a53aac-0dc9-6322-1ec1-4942db2dad84"/>
+    <Object name="angular_01_plt_a-003" type="Brush" guid="48c125ab-e7ca-2c28-6398-3909186c33ac"/>
+    <Object name="angular_01_plt_b-001" type="Brush" guid="4acc80ec-b436-6f28-22bb-7500670da1bf"/>
+    <Object name="angular_01_plt_b-002" type="Brush" guid="4705f1c7-d582-b728-0cf5-876d90c48e8a"/>
+    <Object name="angular_01_plt_f-003" type="Brush" guid="4a46166d-d8d5-c12a-9b9b-4ffa6be30ea6"/>
+    <Object name="angular_01_plt_c-003" type="Brush" guid="4a5b46c4-1e2e-ee31-fa35-c0d942bb1fb9"/>
+    <Object name="angular_01_plr_destr_a" type="Brush" guid="4908a5f4-e53c-f240-92bc-37f42ac67998"/>
+    <Object name="angular_01_grdc_a-006" type="Brush" guid="47163868-b32b-1c53-d9b0-44b9c14302be"/>
+    <Object name="angular_01_plt_b-003" type="Brush" guid="4987b7b0-f7b9-2f54-8316-41a4aff6eb87"/>
+    <Object name="angular_01_plt_a-001" type="Brush" guid="4e697d9e-4d6f-2662-ca2b-02a86253dabb"/>
+    <Object name="angular_01_pil_b-001" type="Brush" guid="4e2d9271-92fc-7d7a-20ca-54741552e484"/>
+    <Object name="angular_01_plt_f-004" type="Brush" guid="443a1ed6-6fb0-3089-c003-98244eff18b0"/>
+    <Object name="angular_01_plt_b" type="Brush" guid="4d639656-2a89-cd9c-9190-7ba1deb3da9c"/>
+    <Object name="angular_01_grdc_a-005" type="Brush" guid="42062ca0-44fa-9b9d-54f3-ccfc107ae281"/>
+    <Object name="angular_01_pil_b" type="Brush" guid="494c89fd-455d-2fa2-5d25-9238161979ab"/>
+    <Object name="angular_01_plt_c-001" type="Brush" guid="4d767175-a3a4-45a2-21d3-8ad5516cf8ba"/>
+    <Object name="angular_01_plr_destr_b" type="Brush" guid="4e86c2f0-5cae-3fa3-03b9-a93aba5968b7"/>
+    <Object name="angular_01_plt_a-005" type="Brush" guid="43e6f35a-dd43-8aa8-b04d-5bc6bfba3ba1"/>
+    <Object name="angular_01_bld_c-001" type="Brush" guid="4818e148-57f6-e7ad-0886-36f8b5649aaf"/>
+    <Object name="angular_01_bld_destr_a" type="Brush" guid="40a7e5bc-5e52-73b4-9a5f-6e223f439799"/>
+    <Object name="angular_01_grdc_a" type="Brush" guid="402fef4e-4e0e-bcb5-631a-e39dd7133691"/>
+    <Object name="angular_01_pil_b-002" type="Brush" guid="45e5af72-d088-1cba-450b-11555bda35a2"/>
+    <Object name="angular_01_plt_f-002" type="Brush" guid="49cb530b-5040-7bbf-a426-21703092cabb"/>
+    <Object name="angular_01_grdc_a-003" type="Brush" guid="4e99067c-d0f6-28c5-7f45-561b1b235989"/>
+    <Object name="angular_01_plt_a-004" type="Brush" guid="4803c9a9-e3f3-a5c8-a8e3-f9c233b3988b"/>
+    <Object name="angular_01_plt_e-001" type="Brush" guid="4d61337b-cca3-70da-368a-78a6b55eecbd"/>
+    <Object name="angular_01_bld_c" type="Brush" guid="417c9d83-11e9-01dc-13d5-f90e7f2ab987"/>
+    <Object name="angular_01_plt_c-002" type="Brush" guid="4e71cb52-0c03-7ee3-5377-c4808aa07186"/>
+    <Object name="angular_01_plt_c-004" type="Brush" guid="419d1d38-0980-e1e8-2a74-0117d054e5a5"/>
+    <Object name="angular_01_plt_a-002" type="Brush" guid="47781a29-3244-8ef1-62a6-5b27c5f7f392"/>
+    <Object name="angular_01_grdc_a-001" type="Brush" guid="43c3dfd0-9826-58f2-ad05-c8e49ebd16b0"/>
+   </Layer>
+   <Layer name="geo" layerHash="92040300" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/security/Layers/base/security/security_24x32x16_001_base/geo.lyr">
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-121" type="Brush" guid="428b662a-f848-0001-1f86-3c8b126c21b1"/>
+    <Object name="wall_roomlg_side_base_16x01x16_a-305" type="Brush" guid="432ade01-d770-8c04-47e7-96f2b8daea8d"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-143" type="Brush" guid="41c18d6b-1dbe-db05-77d4-3a92308e3a8c"/>
+    <Object name="railing_open_straight_04x0025x01125_a-041" type="Brush" guid="4be8d4c4-5952-ba0a-01d3-ffa83d287c99"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-156" type="Brush" guid="47555ecd-1dd1-030e-27e0-cdc7d211bb85"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-071" type="Brush" guid="43ee20ad-a2ef-2c0f-38da-1a3ec3464996"/>
+    <Object name="wall_roomlg_side_base_16x01x16_a-574" type="Brush" guid="4b489878-36a2-de11-7ac7-3d40a43b8bbf"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2808" type="Brush" guid="4fca6d87-f517-2313-83b7-1c5dacc6e8a9"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-165" type="Brush" guid="42300f2e-551b-8e13-c183-0f5e0d088082"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2801" type="Brush" guid="41907035-4a44-621c-b776-e083fd90f181"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2789" type="Brush" guid="4c9424e7-7764-de1e-b116-ea9a07b66996"/>
+    <Object name="walkway_edge_02x02x01_a-037" type="Brush" guid="43bb2efe-324c-a021-8018-4b335ede56a9"/>
+    <Object name="roomlg_gantry_end_04x01x03_a-061" type="Brush" guid="43f74611-b09c-4223-c54c-e068e305b8b7"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-116" type="Brush" guid="441def97-751e-5f29-e43c-3aaeee1ceca3"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2790" type="Brush" guid="46cd1cfd-a743-9329-997c-15ee0f4b61a6"/>
+    <Object name="walkway_center_04x04x01_b-175" type="Brush" guid="4c6f6623-af8a-b92f-c58c-f6610107969d"/>
+    <Object name="walkway_center_04x04x01_b-185" type="Brush" guid="48e561ed-dc8c-9d30-f11e-d8625aba86ae"/>
+    <Object name="walkway_edge_02x02x01_a-151" type="Brush" guid="441977a6-37ea-9032-dce9-ef60e328d5a8"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2791" type="Brush" guid="416d8b85-6281-d333-da80-eb4059da3cbb"/>
+    <Object name="walkway_edge_02x02x01_a-048" type="Brush" guid="4d2343a6-2172-4b3e-7f7b-d8f20b1739be"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-123" type="Brush" guid="4b6305c9-acd2-8b3f-d44f-dbbb2cc35e98"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-145" type="Brush" guid="4c3705b6-f4b6-e446-de85-abc9091082b4"/>
+    <Object name="walkway_center_04x04x01_b-478" type="Brush" guid="4f9bd33b-eb9e-cf49-4e8f-b2c824ae24a4"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2788" type="Brush" guid="44be6bbd-c2ff-e849-65bd-bd952631b589"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-168" type="Brush" guid="4586c8ee-c6a8-3e4c-a528-7c1053c04387"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-144" type="Brush" guid="4864b2ca-1882-265d-4f80-3b575047cb91"/>
+    <Object name="walkway_center_04x04x01_b-007" type="Brush" guid="4a71a0cc-c89e-4c60-5b7e-21facb6b48b3"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-070" type="Brush" guid="4a96c730-f9d8-8a62-6f0e-c2976737449f"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-146" type="Brush" guid="44e6021d-9ddf-d167-cd01-ecfea86daf93"/>
+    <Object name="railing_open_straight_04x0025x01125_a-015" type="Brush" guid="4de7195d-751f-e068-34ee-17aaee32da9b"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-115" type="Brush" guid="4da2efb1-1afe-036c-7c91-1ed13db6599f"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-166" type="Brush" guid="4995f3ef-cb0e-196d-d4b8-d1a57ee925a6"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2807" type="Brush" guid="45adb46c-27bf-4a6f-8f37-2c1b51bfb38a"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2794" type="Brush" guid="4630f5dd-9602-b86f-fbf1-5468383a8bb6"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-140" type="Brush" guid="474b587a-28a8-2375-d248-c2e8bdb86687"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-162" type="Brush" guid="4694c3bf-a13a-4675-0cc0-852b0b2c5c92"/>
+    <Object name="walkway_center_04x04x01_b-410" type="Brush" guid="429979bb-1ff3-9b75-cc98-01f977349d92"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-151" type="Brush" guid="40ded886-3449-ce78-03c7-fa93066b61b1"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2805" type="Brush" guid="47a45edc-0c2a-6e79-4f9c-ca419ea2eb90"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-152" type="Brush" guid="4acababc-c823-d67c-8b56-48e63415f19b"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-292" type="Brush" guid="42093198-3a2d-4f85-6f11-9a639b7f3e92"/>
+    <Object name="walkway_center_04x04x01_b-405" type="Brush" guid="4d3a5bf2-6994-ee86-c10c-95da293bc1ba"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2793" type="Brush" guid="4d1122b4-c8d5-6c89-03f3-3b49095db2a0"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2797" type="Brush" guid="4c6b14d2-3759-f28a-5901-d8c0c97b2eb3"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-161" type="Brush" guid="4e7c41c7-cc9c-128c-50d8-9bc1b435ab9e"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2806" type="Brush" guid="4a1d3d9d-f36d-cd8f-625f-47a6e7bf0da2"/>
+    <Object name="wall_roomlg_side_base_16x01x16_a-573" type="Brush" guid="4312bcb7-bf39-9991-908c-e65d8c611a8e"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-077" type="Brush" guid="46432f31-df1f-0894-c4c4-390c767a03ab"/>
+    <Object name="railing_open_straight_04x0025x01125_a-011" type="Brush" guid="4716afdc-6008-6295-d698-8a1d911bb788"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-164" type="Brush" guid="46e4aa50-9685-9995-e921-896d49cbbfb1"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-163" type="Brush" guid="4f95598b-55bd-ce98-8076-32c7ff66e290"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-124" type="Brush" guid="468d3162-24bc-7799-7d36-05280f926ba8"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-158" type="Brush" guid="4914dea8-f87c-83a1-bfae-693485e0fca5"/>
+    <Object name="Group016" type="Group" guid="45df6023-430d-dbaa-1f0e-6862c9b13184"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-155" type="Brush" guid="4dfa0794-5c5e-a3ab-5f87-3f23db800b92"/>
+    <Object name="walkway_center_04x04x01_b-003" type="Brush" guid="4a73e9bd-53e7-ebb0-c4ac-fcd2130a55b3"/>
+    <Object name="wall_roomlg_side_base_16x01x16_a-569" type="Brush" guid="400bd3bd-8e94-ebb3-37cc-302702a85b95"/>
+    <Object name="railing_open_straight_04x0025x01125_a-012" type="Brush" guid="437418f5-6c9e-0bb4-aa2c-6d55b8a4779e"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2802" type="Brush" guid="43c3a3c9-4194-6fb5-c59e-177ce5a5a5a8"/>
+    <Object name="walkway_center_04x04x01_b-411" type="Brush" guid="42ae77e3-0538-82b6-a66c-9ec1a086e7bd"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2804" type="Brush" guid="4b94c78f-cd34-d1b6-b80b-1f932a339cba"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2803" type="Brush" guid="4caa98fe-e52d-f7b7-7ac0-6f7f33847aab"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-149" type="Brush" guid="4aea469c-9dac-5abb-b5a7-58da345bb9a0"/>
+    <Object name="walkway_center_04x04x01_b-452" type="Brush" guid="44019b02-c154-fdc1-a91b-a4776edd9eb3"/>
+    <Object name="railing_open_straight_04x0025x01125_a-014" type="Brush" guid="493eb887-912c-3cc3-d06b-8b926e8c83a8"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-150" type="Brush" guid="4fd12a36-b17b-84c5-47f6-ebc04d52d393"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-119" type="Brush" guid="43ac882a-5e15-76c6-d17b-b0397a8383b3"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2740" type="Brush" guid="4b7ca015-abe9-adc6-53db-ed69fdc4f893"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2800" type="Brush" guid="4c2393c3-df57-a5c7-7467-8e43c5f0feb7"/>
+    <Object name="roomlg_gantry_end_04x01x03_a-059" type="Brush" guid="4ee1e3b7-6704-acc7-8fea-ca793be4bf8e"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-111" type="Brush" guid="416aeaf4-9114-23c8-afa3-9ca32c550b8d"/>
+    <Object name="walkway_edge_02x02x01_a-149" type="Brush" guid="42116351-a0ed-5eca-f9dd-53b81b1f51be"/>
+    <Object name="railing_open_straight_04x0025x01125_a-062" type="Brush" guid="49b72d17-4725-f5ce-f28e-25621fd21bba"/>
+    <Object name="railing_open_straight_04x0025x01125_a-047" type="Brush" guid="45640079-bfb4-45cf-ec9b-1ee0388da6ab"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2739" type="Brush" guid="4dd9ddd7-fe10-6ccf-e4ff-a1775eb339b2"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-148" type="Brush" guid="49e5ab25-5e1a-d3d0-cd6f-250169282e90"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2796" type="Brush" guid="4dee3df6-9239-11d2-12b1-2871fe625983"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-142" type="Brush" guid="4e5984a3-27bc-83d4-6352-50014e4520b2"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-159" type="Brush" guid="4686c31c-8613-10d8-1ab7-a3f035caf798"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2787" type="Brush" guid="4c932fd5-ea8e-64db-a43f-c464adc906b9"/>
+    <Object name="walkway_center_04x04x01_b-002" type="Brush" guid="4a32b467-77a4-01dc-dc54-448a6765e787"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-117" type="Brush" guid="47f1cb73-f913-5fe2-fdde-96863308bda2"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-109" type="Brush" guid="411669b5-e0b2-30e8-b581-e408a764fd9e"/>
+    <Object name="walkway_center_04x04x01_b-024" type="Brush" guid="491f0fd1-c935-b1e8-4177-ee37e040fe9f"/>
+    <Object name="walkway_center_04x04x01_b-477" type="Brush" guid="44dd8f33-428e-60ea-4e42-471b4810ab83"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2799" type="Brush" guid="47fde21b-39ce-68ed-5d0b-ce1008fa659a"/>
+    <Object name="roomlg_wall_straight_mid_04x01x08_c-154" type="Brush" guid="4409e657-d7a6-c5ed-63f3-ff4efd9ce0ae"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2798" type="Brush" guid="442a9ab9-ba95-0fef-ae3c-e48a8be78e9f"/>
+    <Object name="roomlg_pipe_straight_08x02x02_a-2792" type="Brush" guid="4601b92d-9844-0cf2-cb23-4bcde7e72290"/>
+    <Object name="walkway_edge_02x02x01_a-150" type="Brush" guid="4b5d4501-d6fc-15f5-e58a-19a42c7cc6b4"/>
+    <Object name="walkway_edge_02x02x01_a-040" type="Brush" guid="4f0f89c2-8c8e-fff5-65e0-0f726f3249b1"/>
+    <Object name="wall_roomlg_side_base_16x01x16_a-577" type="Brush" guid="47a939a9-40f0-19f9-4f72-03ced761e38f"/>
+    <Object name="walkway_center_04x04x01_b-401" type="Brush" guid="436b695c-9574-b8f9-94c0-cb8c339e07bc"/>
+   </Layer>
+   <Layer name="vis" layerHash="531506665" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/security/Layers/base/security/security_24x32x16_001_base/vis.lyr">
+    <Object name="GenericShape" type="GenericShape" guid="402fac8c-36f0-3238-1ba3-99d4bfbb58a4" tags=""/>
+   </Layer>
+   <Object name="tagpoints-001" type="ObjectContainer" guid="41f29727-5738-2c4e-6065-e717cc389fa2" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
+   <Object name="tagpoints" type="ObjectContainer" guid="43f49f86-8a57-1852-7b09-528b902682bb" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
+   <Object name="security_24x32x16_001_base_OCP" type="ObjectContainerPivot" guid="40a82302-bf17-d48a-5f7e-842785db63ae" tags=""/>
+  </Layer>
+ </Layers>
+</ObjectContainer>

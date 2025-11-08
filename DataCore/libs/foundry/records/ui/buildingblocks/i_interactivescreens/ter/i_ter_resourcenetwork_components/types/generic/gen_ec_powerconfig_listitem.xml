@@ -16788,7 +16788,7 @@
       <heldCursor>Auto</heldCursor>
     </BuildingBlocks_DisplayWidget>
   </library>
-  <operations Type="BuildingBlocks_Node" Count="63">
+  <operations Type="BuildingBlocks_Node" Count="65">
     <BuildingBlocks_BindingsStringField Type="BuildingBlocks_BindingsStringField">
       <widget PointsTo="ptr:24" />
       <field>ParamInput0</field>
@@ -17103,6 +17103,16 @@
       <parameter>ParamInput8</parameter>
       <defaultValue />
     </BuildingBlocks_BindingsStringComponentParameter>
+    <BuildingBlocks_BindingsBooleanComponentParameter Pointer="ptr:63" Type="BuildingBlocks_BindingsBooleanComponentParameter">
+      <name>PowerWarning</name>
+      <parameter>ParamInput4</parameter>
+      <defaultValue>False</defaultValue>
+    </BuildingBlocks_BindingsBooleanComponentParameter>
+    <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
+      <widget PointsTo="ptr:8" />
+      <field>ParamInput0</field>
+      <input PointsTo="ptr:63" />
+    </BuildingBlocks_BindingsBooleanField>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

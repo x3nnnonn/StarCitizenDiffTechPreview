@@ -911,8 +911,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
-        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsOverride Type="StatusCost" Count="0" />
+        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -1060,6 +1060,7 @@
     </SAnimationControllerParams>
     <SCItemSeatDashboardParams Type="SCItemSeatDashboardParams">
       <canTogglePowerForObservedItems>False</canTogglePowerForObservedItems>
+      <ignorePowerResults>True</ignorePowerResults>
       <PowerOnline>1</PowerOnline>
       <dashboardInteractions Type="SDashboardInteractionParams">
         <flightReady />
@@ -1747,7 +1748,7 @@
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
-          <Flags />
+          <Flags>$uneditable</Flags>
           <Tags Type="Tag" Count="0" />
           <OnAttachTags Type="Tag" Count="0" />
           <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
@@ -1786,13 +1787,13 @@
           <Types Type="SItemPortDefTypes" Count="2">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponGun</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Gun</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>GunTurret</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -1847,7 +1848,7 @@
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
-          <Flags />
+          <Flags>$uneditable</Flags>
           <Tags Type="Tag" Count="0" />
           <OnAttachTags Type="Tag" Count="0" />
           <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
@@ -1886,13 +1887,13 @@
           <Types Type="SItemPortDefTypes" Count="2">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponGun</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Gun</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>GunTurret</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -1986,13 +1987,13 @@
           <Types Type="SItemPortDefTypes" Count="2">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponGun</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Gun</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>GunTurret</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2086,13 +2087,13 @@
           <Types Type="SItemPortDefTypes" Count="2">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponGun</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Gun</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>GunTurret</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2186,7 +2187,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Room</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2278,7 +2279,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2370,7 +2371,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2462,7 +2463,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2554,7 +2555,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2655,7 +2656,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />

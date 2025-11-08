@@ -444,7 +444,7 @@
   <File Name="ENVS_ProceduralPlanetaryAudio_VolcanicObject.bnk" CRC32="0x07D7EC85" Size="9538" CompressionType="0" Encrypted="False" />
   <File Name="Game_Audio.bnk" CRC32="0xCCDDBA39" Size="664" CompressionType="0" Encrypted="False" />
   <File Name="Game_Global.bnk" CRC32="0x49543BBE" Size="4224" CompressionType="0" Encrypted="False" />
-  <File Name="Init.bnk" CRC32="0x7C1A9D83" Size="158456" CompressionType="0" Encrypted="False" />
+  <File Name="Init.bnk" CRC32="0x7A311AB0" Size="158852" CompressionType="0" Encrypted="False" />
   <File Name="INT_GEN.bnk" CRC32="0x848AEA5B" Size="48" CompressionType="0" Encrypted="False" />
   <File Name="MCAN_Airlocks_HT.bnk" CRC32="0xD7DC06E6" Size="3791" CompressionType="0" Encrypted="False" />
   <File Name="MCAN_Airlocks_LT.bnk" CRC32="0xE8B7CE85" Size="8174" CompressionType="0" Encrypted="False" />
@@ -502,7 +502,7 @@
   <File Name="Mining_Switch_Mode.bnk" CRC32="0x1FEE3EDA" Size="876" CompressionType="0" Encrypted="False" />
   <File Name="MVML_Mining_Laser_GRIN_ROC.bnk" CRC32="0xEC689CA1" Size="7064" CompressionType="0" Encrypted="False" />
   <File Name="MVVC_Volatile_Cargo.bnk" CRC32="0xF095FB89" Size="3095" CompressionType="0" Encrypted="False" />
-  <File Name="MXGS_Global_Music.bnk" CRC32="0xF079AC72" Size="1659756" CompressionType="0" Encrypted="False" />
+  <File Name="MXGS_Global_Music.bnk" CRC32="0x09801747" Size="1591270" CompressionType="0" Encrypted="False" />
   <File Name="MXGS_Mode_AC_DFM_Music_Triggers.bnk" CRC32="0xED750BD4" Size="412" CompressionType="0" Encrypted="False" />
   <File Name="MXGS_Mode_AC_Racing_Music_Triggers.bnk" CRC32="0xE0158313" Size="188" CompressionType="0" Encrypted="False" />
   <File Name="MXGS_Mode_SM_Control_Music_Triggers.bnk" CRC32="0x211C1C9D" Size="508" CompressionType="0" Encrypted="False" />
@@ -530,6 +530,7 @@
   <File Name="SSAM_ANVL_Gladiator.bnk" CRC32="0x10357069" Size="4278" CompressionType="0" Encrypted="False" />
   <File Name="SSAM_ANVL_Hornet_Mk2.bnk" CRC32="0xF82C5123" Size="2219" CompressionType="0" Encrypted="False" />
   <File Name="SSAM_ANVL_Hornet.bnk" CRC32="0x631E9696" Size="2754" CompressionType="0" Encrypted="False" />
+  <File Name="SSAM_ANVL_Paladin.bnk" CRC32="0x5965FF3E" Size="6131" CompressionType="0" Encrypted="False" />
   <File Name="SSAM_ANVL_Pisces.bnk" CRC32="0x6BF9B5A6" Size="9335" CompressionType="0" Encrypted="False" />
   <File Name="SSAM_ANVL_Terrapin.bnk" CRC32="0xE0F64347" Size="3734" CompressionType="0" Encrypted="False" />
   <File Name="SSAM_ANVL_Valkyrie.bnk" CRC32="0x5272AE5E" Size="11795" CompressionType="0" Encrypted="False" />
@@ -560,6 +561,7 @@
   <File Name="SSAM_ESPR_Prowler.bnk" CRC32="0xDDA4FDC1" Size="8225" CompressionType="0" Encrypted="False" />
   <File Name="SSAM_ESPR_Talon.bnk" CRC32="0xD01B456F" Size="2000" CompressionType="0" Encrypted="False" />
   <File Name="SSAM_GAMA_Syulen.bnk" CRC32="0x09F36E1B" Size="3239" CompressionType="0" Encrypted="False" />
+  <File Name="SSAM_GLSN_Shiv.bnk" CRC32="0x1178E2B3" Size="8710" CompressionType="0" Encrypted="False" />
   <File Name="SSAM_KRIG_P52_Merlin.bnk" CRC32="0x734F539E" Size="2765" CompressionType="0" Encrypted="False" />
   <File Name="SSAM_KRIG_Wolf.bnk" CRC32="0x902300B7" Size="1931" CompressionType="0" Encrypted="False" />
   <File Name="SSAM_MISC_Freelancer.bnk" CRC32="0x6BADE85D" Size="5310" CompressionType="0" Encrypted="False" />
@@ -807,6 +809,7 @@
   <File Name="SSPB_VNCL_Glaive.bnk" CRC32="0x1882116D" Size="6728" CompressionType="0" Encrypted="False" />
   <File Name="SSPB_VNCL_Scythe.bnk" CRC32="0x275AC5D6" Size="6577" CompressionType="0" Encrypted="False" />
   <File Name="SSPB_VNCL_Shared.bnk" CRC32="0x004F363D" Size="3537" CompressionType="0" Encrypted="False" />
+  <File Name="SSPB_VNCL_Stinger_Passby.bnk" CRC32="0x9F417FAA" Size="2630" CompressionType="0" Encrypted="False" />
   <File Name="SSPB_XIAN_Shared.bnk" CRC32="0x26858726" Size="6794" CompressionType="0" Encrypted="False" />
   <File Name="SSQD_QDrive.bnk" CRC32="0x9E50E824" Size="27751" CompressionType="0" Encrypted="False" />
   <File Name="SSQT_Quantum_Travel.bnk" CRC32="0xFF900339" Size="7058" CompressionType="0" Encrypted="False" />
@@ -1063,8 +1066,9 @@
   <File Name="SSTB_XNAA_SanTokYai_MAV.bnk" CRC32="0xAFADCBFE" Size="44392" CompressionType="0" Encrypted="False" />
   <File Name="SSTB_XNAA_SanTokYai_Primary.bnk" CRC32="0x3BF1BD2D" Size="307976" CompressionType="0" Encrypted="False" />
   <File Name="SSTB_XNAA_SanTokYai_Retro.bnk" CRC32="0x876DE819" Size="46525" CompressionType="0" Encrypted="False" />
+  <File Name="SSTH_ANVL_Paladin.bnk" CRC32="0x92093B6D" Size="9593" CompressionType="0" Encrypted="False" />
   <File Name="SSTH_GLSN_Shiv.bnk" CRC32="0x596E4626" Size="13448" CompressionType="0" Encrypted="False" />
-  <File Name="SSTH_KRIG_Wolf.bnk" CRC32="0xDB693F80" Size="14325" CompressionType="0" Encrypted="False" />
+  <File Name="SSTH_KRIG_Wolf.bnk" CRC32="0xCCC9E679" Size="14313" CompressionType="0" Encrypted="False" />
   <File Name="SSTH_RSI_Apollo.bnk" CRC32="0x354360E1" Size="13664" CompressionType="0" Encrypted="False" />
   <File Name="SSTH_VNCL_Stinger.bnk" CRC32="0x06C6A711" Size="17428" CompressionType="0" Encrypted="False" />
   <File Name="SSTM_AEGS_Avenger.bnk" CRC32="0x987AFDC7" Size="9023" CompressionType="0" Encrypted="False" />
@@ -1550,9 +1554,6 @@
   <File Name="WPFA_BEHR_SMG_P8SC_Handling.bnk" CRC32="0xF1FBB457" Size="2871" CompressionType="0" Encrypted="False" />
   <File Name="WPFA_BEHR_SMG_P8SC_Reload.bnk" CRC32="0xFDC68AF9" Size="2258" CompressionType="0" Encrypted="False" />
   <File Name="WPFA_BEHR_Sniper_P6LR.bnk" CRC32="0x431CE02E" Size="25082" CompressionType="0" Encrypted="False" />
-  <File Name="WPFA_GLSN_Rifle_Firing.bnk" CRC32="0x14D3D76C" Size="20372" CompressionType="0" Encrypted="False" />
-  <File Name="WPFA_GLSN_Rifle_Handling.bnk" CRC32="0xA5FB1904" Size="4227" CompressionType="0" Encrypted="False" />
-  <File Name="WPFA_GLSN_Rifle_Reload.bnk" CRC32="0x05121255" Size="1707" CompressionType="0" Encrypted="False" />
   <File Name="WPFA_GMNI_LMG_F55_Firing.bnk" CRC32="0xF1628C48" Size="12375" CompressionType="0" Encrypted="False" />
   <File Name="WPFA_GMNI_LMG_F55_Handling.bnk" CRC32="0xEDF2013B" Size="2064" CompressionType="0" Encrypted="False" />
   <File Name="WPFA_GMNI_LMG_F55_Reload.bnk" CRC32="0x392542E3" Size="1702" CompressionType="0" Encrypted="False" />
@@ -1610,9 +1611,9 @@
   <File Name="WPFA_LBCO_Pistol_Yubarev_Handling.bnk" CRC32="0xF5627BC9" Size="7418" CompressionType="0" Encrypted="False" />
   <File Name="WPFA_LBCO_Sniper_Atzkav_Firing.bnk" CRC32="0xCE936E6A" Size="10487" CompressionType="0" Encrypted="False" />
   <File Name="WPFA_LBCO_Sniper_Atzkav_Handling.bnk" CRC32="0xA1B1D999" Size="9917" CompressionType="0" Encrypted="False" />
-  <File Name="WPFA_NONE_Pistol_Firing.bnk" CRC32="0x6D8158BB" Size="10170" CompressionType="0" Encrypted="False" />
+  <File Name="WPFA_NONE_Pistol_Firing.bnk" CRC32="0x370D3A07" Size="10175" CompressionType="0" Encrypted="False" />
   <File Name="WPFA_NONE_Pistol_Handling.bnk" CRC32="0x6FF44F3F" Size="3415" CompressionType="0" Encrypted="False" />
-  <File Name="WPFA_NONE_Pistol_Reload.bnk" CRC32="0x42847FDC" Size="1710" CompressionType="0" Encrypted="False" />
+  <File Name="WPFA_NONE_Pistol_Reload.bnk" CRC32="0x702B7FCD" Size="1705" CompressionType="0" Encrypted="False" />
   <File Name="WPFA_NONE_Rocket_Launcher_Firing.bnk" CRC32="0x9305880A" Size="10632" CompressionType="0" Encrypted="False" />
   <File Name="WPFA_NONE_Rocket_Launcher_Handling.bnk" CRC32="0x179EDABF" Size="3037" CompressionType="0" Encrypted="False" />
   <File Name="WPFA_NONE_Rocket_Launcher_Reload.bnk" CRC32="0xB983A599" Size="2051" CompressionType="0" Encrypted="False" />
@@ -1680,109 +1681,110 @@
   <File Name="WPGT_GRIN_Salvage_Gun_Salvage.bnk" CRC32="0x878AB75A" Size="3023" CompressionType="0" Encrypted="False" />
   <File Name="WPGT_GRIN_Tractor_Beam_Firing.bnk" CRC32="0xDE40E423" Size="5335" CompressionType="0" Encrypted="False" />
   <File Name="WPGT_GRIN_Tractor_Beam_Handling.bnk" CRC32="0xD8081506" Size="3661" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_AMRS_LaserCannon_S1.bnk" CRC32="0x5541DC0E" Size="16015" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_AMRS_LaserCannon_S2.bnk" CRC32="0x3BE21884" Size="15990" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_AMRS_LaserCannon_S3.bnk" CRC32="0x3DD568F7" Size="16015" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_AMRS_LaserCannon_S4.bnk" CRC32="0x89B0ABB4" Size="8664" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_AMRS_LaserCannon_S5.bnk" CRC32="0xA7E1DDCE" Size="16352" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_AMRS_LaserCannon_S6.bnk" CRC32="0x73D6BD26" Size="16352" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_AMRS_ScatterGun_S3.bnk" CRC32="0xFE92A6F8" Size="8695" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_APAR_BallisticGatling_S4.bnk" CRC32="0x0512ED41" Size="23956" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_APAR_BallisticGatling_S6.bnk" CRC32="0xCDC84EFD" Size="23912" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_APAR_BallisticScattergun_S1.bnk" CRC32="0xF8834593" Size="8897" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_APAR_BallisticScattergun_S2.bnk" CRC32="0x57047D5A" Size="8787" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_APAR_BallisticScattergun_S3.bnk" CRC32="0x20741725" Size="8792" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_APAR_MassDriverCannon_S2.bnk" CRC32="0xA4957917" Size="7559" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ASAD_Distortion_Repeater_S1.bnk" CRC32="0x85500093" Size="11643" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ASAD_Distortion_Repeater_S2.bnk" CRC32="0x357B69CB" Size="11788" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ASAD_Distortion_Repeater_S3.bnk" CRC32="0xA3318306" Size="11788" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BANU_TachyonCannon_S1.bnk" CRC32="0x782B4B4E" Size="7481" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BANU_TachyonCannon_S2.bnk" CRC32="0xCFE3CEBB" Size="7506" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BANU_TachyonCannon_S3.bnk" CRC32="0x2AE2DED8" Size="7506" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_BallisticCannon_S4.bnk" CRC32="0x64267679" Size="8058" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_BallisticGatling_Hornet_S5.bnk" CRC32="0x49A6A146" Size="13526" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_BallisticGatling_S4.bnk" CRC32="0xF20FB69D" Size="19773" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_BallisticGatling_S7.bnk" CRC32="0x3CFB09D7" Size="19338" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_BallisticRepeater_S1.bnk" CRC32="0x0BBF73A6" Size="18242" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_BallisticRepeater_S2.bnk" CRC32="0xB4E5FBA1" Size="18207" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_BallisticRepeater_S3.bnk" CRC32="0x489F73F0" Size="18237" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_DistortionCannon_S2.bnk" CRC32="0x52FD588D" Size="7514" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_DistortionRepeater_S2.bnk" CRC32="0x4BDA5F4F" Size="9017" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_JavelinBallisticCannon_S7.bnk" CRC32="0x9836376B" Size="10172" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_LaserCannon_S1.bnk" CRC32="0xF411D740" Size="17470" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_LaserCannon_S2.bnk" CRC32="0xE02AC47B" Size="17623" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_LaserCannon_S3.bnk" CRC32="0x03508227" Size="17628" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_LaserCannon_S4.bnk" CRC32="0x6B8B2B2C" Size="8426" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_LaserCannon_S5.bnk" CRC32="0x5A958B4D" Size="8431" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_LaserCannon_S6.bnk" CRC32="0xF532B1F0" Size="8431" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_LaserCannon_S7.bnk" CRC32="0xD227BA10" Size="11964" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_LaserCannon_S8.bnk" CRC32="0x4CD0504F" Size="9052" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_LaserCannon_S9.bnk" CRC32="0x0AD14B7F" Size="12619" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_LaserRepeater_S10.bnk" CRC32="0x27ADC3E6" Size="34534" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_BEHR_LaserRepeater_VNG_S2.bnk" CRC32="0x6E4A5B3C" Size="17380" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_AMRS_LaserCannon_S1.bnk" CRC32="0xB317C862" Size="16015" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_AMRS_LaserCannon_S2.bnk" CRC32="0x6A336B33" Size="15990" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_AMRS_LaserCannon_S3.bnk" CRC32="0x054ECC75" Size="16015" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_AMRS_LaserCannon_S4.bnk" CRC32="0xC30C5C01" Size="8664" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_AMRS_LaserCannon_S5.bnk" CRC32="0x9858F64A" Size="16352" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_AMRS_LaserCannon_S6.bnk" CRC32="0x4D47933E" Size="16352" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_AMRS_ScatterGun_S3.bnk" CRC32="0xBE6484C4" Size="8695" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_APAR_BallisticGatling_S4.bnk" CRC32="0xB77EE2E7" Size="23956" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_APAR_BallisticGatling_S6.bnk" CRC32="0x25A7A916" Size="23912" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_APAR_BallisticScattergun_S1.bnk" CRC32="0xC1700591" Size="8897" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_APAR_BallisticScattergun_S2.bnk" CRC32="0xD14ABD28" Size="8787" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_APAR_BallisticScattergun_S3.bnk" CRC32="0xD498F37A" Size="8792" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_APAR_MassDriverCannon_S2.bnk" CRC32="0x7FB46F9D" Size="7559" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ASAD_Distortion_Repeater_S1.bnk" CRC32="0x9A635F68" Size="11631" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ASAD_Distortion_Repeater_S2.bnk" CRC32="0x12B82E21" Size="11776" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ASAD_Distortion_Repeater_S3.bnk" CRC32="0xCE523A85" Size="11776" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BANU_TachyonCannon_S1.bnk" CRC32="0xD33CB3DF" Size="7481" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BANU_TachyonCannon_S2.bnk" CRC32="0xAAAE7F21" Size="7506" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BANU_TachyonCannon_S3.bnk" CRC32="0xDF3854E3" Size="7506" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_BallisticCannon_S4.bnk" CRC32="0xE30BE090" Size="8058" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_BallisticGatling_Hornet_S5.bnk" CRC32="0x240C6EA5" Size="13526" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_BallisticGatling_S4.bnk" CRC32="0x8B5F7C07" Size="19773" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_BallisticGatling_S7.bnk" CRC32="0xAF4B2126" Size="19338" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_BallisticRepeater_S1.bnk" CRC32="0xEF32B3FC" Size="18230" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_BallisticRepeater_S2.bnk" CRC32="0x54B80747" Size="18195" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_BallisticRepeater_S3.bnk" CRC32="0x574A7DBA" Size="18225" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_DistortionCannon_S2.bnk" CRC32="0x9E979BF9" Size="7514" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_DistortionRepeater_S2.bnk" CRC32="0xD76FB088" Size="9005" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_JavelinBallisticCannon_S7.bnk" CRC32="0xC8073825" Size="10172" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_LaserCannon_S1.bnk" CRC32="0x07E88CDA" Size="17470" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_LaserCannon_S2.bnk" CRC32="0xF7400FDE" Size="17623" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_LaserCannon_S3.bnk" CRC32="0xF844A940" Size="17628" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_LaserCannon_S4.bnk" CRC32="0x05B57AC0" Size="8426" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_LaserCannon_S5.bnk" CRC32="0xCDE721EC" Size="8431" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_LaserCannon_S6.bnk" CRC32="0xC61D7617" Size="8431" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_LaserCannon_S7.bnk" CRC32="0xA91881DF" Size="11964" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_LaserCannon_S8.bnk" CRC32="0xABCE141A" Size="9052" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_LaserCannon_S9.bnk" CRC32="0x8372CCDB" Size="12619" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_LaserRepeater_S10.bnk" CRC32="0x8D10C4E8" Size="34522" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_BEHR_LaserRepeater_VNG_S2.bnk" CRC32="0x8781F08C" Size="17368" CompressionType="0" Encrypted="False" />
   <File Name="WPHA_BRRA_LaserCannon_AutomatedTurret_ASD.bnk" CRC32="0x4B64521C" Size="5942" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ESPR_BallisticCannon_S1.bnk" CRC32="0x771F8D67" Size="7394" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ESPR_BallisticCannon_S2.bnk" CRC32="0xB0ADB721" Size="7394" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ESPR_BallisticCannon_S3.bnk" CRC32="0xBC252F11" Size="7394" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ESPR_BallisticCannon_S4.bnk" CRC32="0x690DD153" Size="7606" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ESPR_BallisticCannon_S5.bnk" CRC32="0x53747551" Size="7636" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ESPR_BallisticCannon_S6.bnk" CRC32="0x5FC5C1C7" Size="8366" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ESPR_LaserCannon_S1.bnk" CRC32="0x13CB7475" Size="7094" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ESPR_LaserCannon_S2.bnk" CRC32="0xCF622282" Size="7104" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ESPR_LaserCannon_S3.bnk" CRC32="0xD10AA457" Size="7079" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ESPR_LaserCannon_S4.bnk" CRC32="0xD819A3FC" Size="7331" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ESPR_LaserCannon_S5.bnk" CRC32="0x723DF592" Size="7331" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_ESPR_LaserCannon_S6.bnk" CRC32="0xD262A9DB" Size="7331" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_GATS_BallisticCannon_S2.bnk" CRC32="0xE518D2AC" Size="7458" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_GATS_BallisticCannon_S3.bnk" CRC32="0x3C5DB84A" Size="7575" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_GATS_BallisticGatling_S1.bnk" CRC32="0x8068CF2A" Size="27956" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_GATS_BallisticGatling_S2.bnk" CRC32="0xC7B16257" Size="27805" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_GATS_BallisticGatling_S3.bnk" CRC32="0xC8693192" Size="23374" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ESPR_BallisticCannon_S1.bnk" CRC32="0xDD77EF3F" Size="7394" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ESPR_BallisticCannon_S2.bnk" CRC32="0xE5B3BB24" Size="7394" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ESPR_BallisticCannon_S3.bnk" CRC32="0x72C76D09" Size="7394" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ESPR_BallisticCannon_S4.bnk" CRC32="0x0B8FA489" Size="7606" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ESPR_BallisticCannon_S5.bnk" CRC32="0x3CEAEE68" Size="7636" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ESPR_BallisticCannon_S6.bnk" CRC32="0x0DB6DBE1" Size="8366" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ESPR_LaserCannon_S1.bnk" CRC32="0x25687B96" Size="7094" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ESPR_LaserCannon_S2.bnk" CRC32="0x190195C8" Size="7104" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ESPR_LaserCannon_S3.bnk" CRC32="0xFB834CFA" Size="7079" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ESPR_LaserCannon_S4.bnk" CRC32="0x5C8ABE69" Size="7331" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ESPR_LaserCannon_S5.bnk" CRC32="0x9EA077E1" Size="7331" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_ESPR_LaserCannon_S6.bnk" CRC32="0xC40FAD00" Size="7331" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_GATS_BallisticCannon_S2.bnk" CRC32="0xEEBEA478" Size="7458" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_GATS_BallisticCannon_S3.bnk" CRC32="0x5B1F3B4E" Size="7575" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_GATS_BallisticGatling_S1.bnk" CRC32="0x9F46C2F6" Size="27956" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_GATS_BallisticGatling_S2.bnk" CRC32="0x02179AAD" Size="27805" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_GATS_BallisticGatling_S3.bnk" CRC32="0x91E34F0D" Size="23374" CompressionType="0" Encrypted="False" />
   <File Name="WPHA_HRST_Exodus.bnk" CRC32="0x8F1B5BE9" Size="5005" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_HRST_LaserRepeater_S1.bnk" CRC32="0x3B78BCEF" Size="14994" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_HRST_LaserRepeater_S2.bnk" CRC32="0x8422AC34" Size="14999" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_HRST_LaserRepeater_S3.bnk" CRC32="0x5C921B78" Size="14974" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_HRST_LaserRepeater_S4.bnk" CRC32="0xFD27B644" Size="14984" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_HRST_LaserRepeater_S5.bnk" CRC32="0x0D070DB5" Size="15004" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_HRST_LaserRepeater_S6.bnk" CRC32="0x2F9A5E53" Size="14999" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_HRST_LaserRepeater_S1.bnk" CRC32="0x396D3E21" Size="14982" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_HRST_LaserRepeater_S2.bnk" CRC32="0xBC9A1F4F" Size="14987" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_HRST_LaserRepeater_S3.bnk" CRC32="0x3AC8C991" Size="14962" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_HRST_LaserRepeater_S4.bnk" CRC32="0xC3FC3A5D" Size="14972" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_HRST_LaserRepeater_S5.bnk" CRC32="0x6B8A45B0" Size="14992" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_HRST_LaserRepeater_S6.bnk" CRC32="0x01955809" Size="14987" CompressionType="0" Encrypted="False" />
   <File Name="WPHA_HRST_LaserRepeater_Shared.bnk" CRC32="0xEACFF94D" Size="48" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_HRST_LaserScatterGun_S1.bnk" CRC32="0x542B2C17" Size="8813" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_HRST_LaserScatterGun_S2.bnk" CRC32="0xD07AA7FF" Size="8778" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_HRST_LaserScatterGun_S3.bnk" CRC32="0x42A6EF2C" Size="9088" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_HRST_LaserScatterGun_S1.bnk" CRC32="0x6D912ACF" Size="8813" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_HRST_LaserScatterGun_S2.bnk" CRC32="0x35E4C648" Size="8778" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_HRST_LaserScatterGun_S3.bnk" CRC32="0xE5AECAED" Size="9088" CompressionType="0" Encrypted="False" />
   <File Name="WPHA_HRST_LaserScatterGun_Shared.bnk" CRC32="0x5864B6E0" Size="48" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_JOKR_DistortionCannon_S1.bnk" CRC32="0x9015DE85" Size="19161" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KBAR_BallisticCannon_S1.bnk" CRC32="0x664B9CBB" Size="8384" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KBAR_BallisticCannon_S2.bnk" CRC32="0x5316FA57" Size="8609" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KBAR_BallisticCannon_S3.bnk" CRC32="0xD00B89B5" Size="8444" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KLWE_LaserRepeater_ATLS.bnk" CRC32="0xCE393744" Size="11970" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KLWE_LaserRepeater_S1.bnk" CRC32="0x2E9E5EC6" Size="22262" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KLWE_LaserRepeater_S2.bnk" CRC32="0xBC465253" Size="18773" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KLWE_LaserRepeater_S3.bnk" CRC32="0x57BDD244" Size="18310" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KLWE_LaserRepeater_S4.bnk" CRC32="0x00E0E2AC" Size="20566" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KLWE_LaserRepeater_S5.bnk" CRC32="0xC93CC586" Size="20493" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KLWE_LaserRepeater_S6.bnk" CRC32="0x2F173093" Size="20503" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KLWE_MassDriveCannon_S10.bnk" CRC32="0xF151F221" Size="10779" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KLWE_MassDriverCannon_S1.bnk" CRC32="0x0170495A" Size="7375" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KLWE_MassDriverCannon_S2.bnk" CRC32="0x52839DEB" Size="7395" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KLWE_MassDriverCannon_S3.bnk" CRC32="0x3521A18D" Size="7395" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KRIG_BallisticGatling_S3.bnk" CRC32="0x01D71126" Size="21355" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KRIG_BallisticGatling_S4.bnk" CRC32="0xB0EEC1E5" Size="15986" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KRIG_LaserCannon_S3.bnk" CRC32="0x17C0E530" Size="8384" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KRON_LaserCannon_S1.bnk" CRC32="0x767EB5F7" Size="7567" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KRON_LaserCannon_S2.bnk" CRC32="0x07B87A04" Size="7572" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_KRON_LaserCannon_S3.bnk" CRC32="0xBD77FB97" Size="7572" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_MXOX_NeutronCannon_S1.bnk" CRC32="0x2989C2D6" Size="8043" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_MXOX_NeutronCannon_S2.bnk" CRC32="0x75B00E6A" Size="9172" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_MXOX_NeutronRepeater_S1.bnk" CRC32="0xB1FA2B63" Size="9077" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_MXOX_NeutronRepeater_S2.bnk" CRC32="0x00A5E58D" Size="9062" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_MXOX_NeutronRepeater_S3.bnk" CRC32="0x1956CBE1" Size="9072" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_NOVA_BallisticCannon_S5.bnk" CRC32="0x80C277AC" Size="11850" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_PRAR_DistortionScattergun_S4.bnk" CRC32="0xB17928A4" Size="8321" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_PRAR_DistortionScattergun_S5.bnk" CRC32="0xE7BFDAD5" Size="8266" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_PRAR_DistortionScattergun_S6.bnk" CRC32="0xD8C611CA" Size="8561" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_RSI_Meteor_BallisticCannon_S5.bnk" CRC32="0xA083F529" Size="8465" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_TOAG_LaserGatling_S2.bnk" CRC32="0x024C94C1" Size="14412" CompressionType="0" Encrypted="False" />
-  <File Name="WPHA_VNCL.bnk" CRC32="0x748435C4" Size="14349" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_JOKR_DistortionCannon_S1.bnk" CRC32="0xE436B05C" Size="19161" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KBAR_BallisticCannon_S1.bnk" CRC32="0xF48DB502" Size="8384" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KBAR_BallisticCannon_S2.bnk" CRC32="0x9F8A7C3C" Size="8609" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KBAR_BallisticCannon_S3.bnk" CRC32="0xFA455AD4" Size="8444" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KLWE_LaserRepeater_ATLS.bnk" CRC32="0x2A175380" Size="11958" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KLWE_LaserRepeater_S1.bnk" CRC32="0x7FE7F2FF" Size="22250" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KLWE_LaserRepeater_S2.bnk" CRC32="0x8CD60C19" Size="18761" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KLWE_LaserRepeater_S3.bnk" CRC32="0x3CFDABE8" Size="18298" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KLWE_LaserRepeater_S4.bnk" CRC32="0xC21A8031" Size="20554" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KLWE_LaserRepeater_S5.bnk" CRC32="0x739EEC79" Size="20481" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KLWE_LaserRepeater_S6.bnk" CRC32="0x1798D314" Size="20491" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KLWE_MassDriveCannon_S10.bnk" CRC32="0xF51AB1DE" Size="10779" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KLWE_MassDriverCannon_S1.bnk" CRC32="0x89E949F9" Size="7375" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KLWE_MassDriverCannon_S2.bnk" CRC32="0xEA75BBFE" Size="7395" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KLWE_MassDriverCannon_S3.bnk" CRC32="0xD08B0FFC" Size="7395" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KRIG_BallisticGatling_S3.bnk" CRC32="0x98708637" Size="21355" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KRIG_BallisticGatling_S4.bnk" CRC32="0x25F2AE9E" Size="15986" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KRIG_LaserCannon_S3.bnk" CRC32="0xDCA19411" Size="8384" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KRON_LaserCannon_S1.bnk" CRC32="0xEA28B13D" Size="7567" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KRON_LaserCannon_S2.bnk" CRC32="0xBD326720" Size="7572" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_KRON_LaserCannon_S3.bnk" CRC32="0x95467868" Size="7572" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_MXOX_NeutronCannon_S1.bnk" CRC32="0x59ACAB98" Size="8043" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_MXOX_NeutronCannon_S2.bnk" CRC32="0xA8F36947" Size="9172" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_MXOX_NeutronRepeater_S1.bnk" CRC32="0xC86872AC" Size="9065" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_MXOX_NeutronRepeater_S2.bnk" CRC32="0xFF25BC82" Size="9050" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_MXOX_NeutronRepeater_S3.bnk" CRC32="0x4FF450B1" Size="9060" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_NOVA_BallisticCannon_S5.bnk" CRC32="0x34DEFADB" Size="11850" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_PRAR_DistortionScattergun_S4.bnk" CRC32="0xACC1B81E" Size="8321" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_PRAR_DistortionScattergun_S5.bnk" CRC32="0x2C367E0E" Size="8266" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_PRAR_DistortionScattergun_S6.bnk" CRC32="0xF5D0ED99" Size="8561" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_RSI_BallisticCannon_S8.bnk" CRC32="0x78381DF1" Size="8878" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_RSI_Meteor_BallisticCannon_S5.bnk" CRC32="0x9A591E5D" Size="8465" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_TOAG_LaserGatling_S2.bnk" CRC32="0xB9A538C3" Size="14412" CompressionType="0" Encrypted="False" />
+  <File Name="WPHA_VNCL.bnk" CRC32="0x406AC63D" Size="14349" CompressionType="0" Encrypted="False" />
   <File Name="WPHD_DryFire.bnk" CRC32="0x8F02F4EF" Size="5240" CompressionType="0" Encrypted="False" />
   <File Name="WPHH_HitListener.bnk" CRC32="0x047BB178" Size="15665" CompressionType="0" Encrypted="False" />
   <File Name="WPHI_Impact_Ballistic.bnk" CRC32="0xB6F7D0BF" Size="18799" CompressionType="0" Encrypted="False" />
@@ -1791,12 +1793,12 @@
   <File Name="WPHI_Impact_Laser.bnk" CRC32="0x64636B16" Size="13693" CompressionType="0" Encrypted="False" />
   <File Name="WPHI_Impact_MassDriver.bnk" CRC32="0x79151F35" Size="3356" CompressionType="0" Encrypted="False" />
   <File Name="WPHI_Impact_Neutron.bnk" CRC32="0x81DF03E3" Size="10268" CompressionType="0" Encrypted="False" />
-  <File Name="WPHI_Impact_Nova_Tank.bnk" CRC32="0x36BDD703" Size="12189" CompressionType="0" Encrypted="False" />
+  <File Name="WPHI_Impact_Nova_Tank.bnk" CRC32="0xEB01FE77" Size="12195" CompressionType="0" Encrypted="False" />
   <File Name="WPHI_Impact_Plasma.bnk" CRC32="0x50D45706" Size="7537" CompressionType="0" Encrypted="False" />
   <File Name="WPHI_Impact_Tachyon.bnk" CRC32="0xAFAE716C" Size="10491" CompressionType="0" Encrypted="False" />
   <File Name="WPHO_Overheat.bnk" CRC32="0x5478EC6F" Size="3591" CompressionType="0" Encrypted="False" />
   <File Name="WPHP_Projectile_Loop.bnk" CRC32="0x34ED0090" Size="2674" CompressionType="0" Encrypted="False" />
-  <File Name="WPHR_Report_Planetary.bnk" CRC32="0x2D0CD2A9" Size="13333" CompressionType="0" Encrypted="False" />
+  <File Name="WPHR_Report_Planetary.bnk" CRC32="0x817AE10A" Size="13334" CompressionType="0" Encrypted="False" />
   <File Name="WPHT_Turret_GRIN_ROC_DS.bnk" CRC32="0x36C1D791" Size="5133" CompressionType="0" Encrypted="False" />
   <File Name="WPHT_Turret_Nova_Tank.bnk" CRC32="0x2D1303B7" Size="5076" CompressionType="0" Encrypted="False" />
   <File Name="WPHT_Turret_Storm_Tank.bnk" CRC32="0x845A79A8" Size="4176" CompressionType="0" Encrypted="False" />

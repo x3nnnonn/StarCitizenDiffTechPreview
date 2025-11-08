@@ -4,7 +4,7 @@
   <minimumDistinctElements>2</minimumDistinctElements>
   <compositionArray Type="MineableCompositionPart" Count="6">
     <MineableCompositionPart Type="MineableCompositionPart">
-      <mineableElement />
+      <mineableElement ReferencedFile="file://./../../../../../libs/foundry/records/mining/mineableelements/torite_ore.xml" />
       <minPercentage>30</minPercentage>
       <maxPercentage>70</maxPercentage>
       <probability>1</probability>
@@ -18,7 +18,7 @@
       <curveExponent>1</curveExponent>
     </MineableCompositionPart>
     <MineableCompositionPart Type="MineableCompositionPart">
-      <mineableElement />
+      <mineableElement ReferencedFile="file://./../../../../../libs/foundry/records/mining/mineableelements/lindinium_ore.xml" />
       <minPercentage>20</minPercentage>
       <maxPercentage>50</maxPercentage>
       <probability>0.3</probability>

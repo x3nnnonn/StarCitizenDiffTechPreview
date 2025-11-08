@@ -6,7 +6,7 @@
     <z>0</z>
   </size>
   <coordinateMethod>aspectOverridesWidth</coordinateMethod>
-  <embeddedStyles Type="BuildingBlocks_StyleEntry" Count="11">
+  <embeddedStyles Type="BuildingBlocks_StyleEntry" Count="12">
     <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
       <name>Animate Current Page In</name>
       <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
@@ -153,9 +153,12 @@
         <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
           <name>New Condition List</name>
           <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-            <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-              <tag RecordReference="file://./../../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.cb38972b-217c-4bc9-908f-2fa358c5deda" RecordId="cb38972b-217c-4bc9-908f-2fa358c5deda" />
-            </BuildingBlocks_StyleSelectorConditionTag>
+            <BuildingBlocks_StyleSelectorConditionAnyOfTag Type="BuildingBlocks_StyleSelectorConditionAnyOfTag">
+              <tags Type="Tag" Count="2">
+                <Tag RecordReference="file://./../../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.cb38972b-217c-4bc9-908f-2fa358c5deda" RecordId="cb38972b-217c-4bc9-908f-2fa358c5deda" />
+                <Tag RecordReference="file://./../../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0c37d312-80ea-4d72-b56c-67edcd181488" RecordId="0c37d312-80ea-4d72-b56c-67edcd181488" />
+              </tags>
+            </BuildingBlocks_StyleSelectorConditionAnyOfTag>
           </conditions>
         </BuildingBlocks_StyleConditionList>
       </conditionsList>
@@ -607,6 +610,33 @@
           <field>PivotY</field>
           <value>0.5</value>
         </BuildingBlocks_FieldModifierNumber>
+      </modifiers>
+      <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+    </BuildingBlocks_StyleEntry>
+    <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+      <name>ChangeColor - UI DESIGNERS REPLACE BEFORE Engi release</name>
+      <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+        <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+          <name>Parent is in warning</name>
+          <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+            <BuildingBlocks_StyleSelectorConditionParent Type="BuildingBlocks_StyleSelectorConditionParent">
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                  <tag RecordReference="file://./../../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0c37d312-80ea-4d72-b56c-67edcd181488" RecordId="0c37d312-80ea-4d72-b56c-67edcd181488" />
+                </BuildingBlocks_StyleSelectorConditionTag>
+              </conditions>
+            </BuildingBlocks_StyleSelectorConditionParent>
+          </conditions>
+        </BuildingBlocks_StyleConditionList>
+      </conditionsList>
+      <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
+        <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
+          <field>BackgroundColor</field>
+          <color Type="BuildingBlocks_ColorStyle">
+            <color>Critical</color>
+            <alpha>1</alpha>
+          </color>
+        </BuildingBlocks_FieldModifierColor>
       </modifiers>
       <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
     </BuildingBlocks_StyleEntry>

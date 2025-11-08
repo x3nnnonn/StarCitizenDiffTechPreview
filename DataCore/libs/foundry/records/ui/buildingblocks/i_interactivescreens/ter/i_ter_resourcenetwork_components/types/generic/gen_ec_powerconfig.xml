@@ -8784,7 +8784,12 @@
       <stylesheetOverride />
       <canvas ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/ui/buildingblocks/i_interactivescreens/ter/i_ter_resourcenetwork_components/ec_powerconfig_listitem.xml" />
       <sizingMethod>Size</sizingMethod>
-      <paramInputValues Type="BuildingBlocks_ComponentParameterInputBase" Count="0" />
+      <paramInputValues Type="BuildingBlocks_ComponentParameterInputBase" Count="1">
+        <BuildingBlocks_ComponentParameterInputBoolean Type="BuildingBlocks_ComponentParameterInputBoolean">
+          <parameter>ParamInput0</parameter>
+          <value>True</value>
+        </BuildingBlocks_ComponentParameterInputBoolean>
+      </paramInputValues>
     </BuildingBlocks_WidgetCanvas>
     <BuildingBlocks_WidgetCanvas Pointer="ptr:11" Type="BuildingBlocks_WidgetCanvas">
       <name>SystemsStackLayout</name>

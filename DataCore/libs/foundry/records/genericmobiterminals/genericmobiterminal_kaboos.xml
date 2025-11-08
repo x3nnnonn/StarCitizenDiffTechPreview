@@ -267,7 +267,11 @@
       <defaultInstalledApps Type="mobiGlasDefaultAppEntry" Count="2">
         <mobiGlasDefaultAppEntry Type="mobiGlasDefaultAppEntry">
           <defaultMobiGlasApp ReferencedFile="file://./../../../../libs/foundry/records/ui/mobiglas/mobiglasapps/datapadapps/datapad_emailapp.xml" />
-          <defaultAppData Type="MobiGlasAppData" Count="0" />
+          <defaultAppData Type="MobiGlasAppData" Count="3">
+            <MobiGlasAppData ReferencedFile="file://./../../../../libs/foundry/records/ui/mobiglas/mobiglasapps/appdata/emails/email_preludetonyx_asteroid_004.xml" />
+            <MobiGlasAppData ReferencedFile="file://./../../../../libs/foundry/records/ui/mobiglas/mobiglasapps/appdata/emails/email_preludetonyx_asteroid_002.xml" />
+            <MobiGlasAppData ReferencedFile="file://./../../../../libs/foundry/records/ui/mobiglas/mobiglasapps/appdata/emails/email_preludetonyx_asteroid_003.xml" />
+          </defaultAppData>
         </mobiGlasDefaultAppEntry>
         <mobiGlasDefaultAppEntry Type="mobiGlasDefaultAppEntry">
           <defaultMobiGlasApp ReferencedFile="file://./../../../../libs/foundry/records/ui/mobiglas/mobiglasapps/datapadapps/datapad_filesapp.xml" />

@@ -24,7 +24,7 @@
   </loadingScreenInfo>
   <shardPersistenceEnabled>False</shardPersistenceEnabled>
   <enableCustomization>True</enableCustomization>
-  <validNetworkTypes Type="StatusMaskedRetriggerSetupPreset" Count="0" />
+  <validNetworkTypes Type="LinkedStatPassValueBase" Count="0" />
   <filters Type="GameModeFilter" Count="10">
     <GameModeFilter Type="GameModeFilter">
       <id>Released</id>
@@ -395,7 +395,7 @@
     <respawnTimeKilled>5</respawnTimeKilled>
     <pressXToRespawn>False</pressXToRespawn>
     <allowForceRespawnSuicide>True</allowForceRespawnSuicide>
-    <characterGenerationParams />
+    <characterGenerationParams ReferencedFile="file://./../../../../libs/foundry/records/gamemode/defaultcharactergenerationparams.xml" />
   </spawning>
   <spectator />
   <statsRecording />

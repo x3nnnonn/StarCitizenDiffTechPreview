@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-16"?>
+<TagDefinition version="2">
+  <Imports>
+    <Import filename="Animations/Mannequin/ADB/usable/usable_common_tags.xml" />
+    <Import filename="Animations/Mannequin/ADB/usable/use_channel_tags.xml" />
+    <Import filename="Animations/Mannequin/ADB/usable/usable_action_tags.xml" />
+    <Import filename="Animations/Mannequin/ADB/NPCs/perceptionTags_common.xml" />
+  </Imports>
+  <Tags>
+    <Group name="PerceptionAction">
+      <Tag name="radioCommunication" />
+    </Group>
+  </Tags>
+</TagDefinition>

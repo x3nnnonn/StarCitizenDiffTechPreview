@@ -180,8 +180,9 @@
                     <DataSetMatchCondition_TagSearch Type="DataSetMatchCondition_TagSearch">
                       <tagSearch Type="TagSearchTerm" Count="1">
                         <TagSearchTerm Type="TagSearchTerm">
-                          <positiveTags Type="Tag" Count="1">
+                          <positiveTags Type="Tag" Count="2">
                             <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.23106cf6-d09f-4e6b-8845-3235dace6f2d" RecordId="23106cf6-d09f-4e6b-8845-3235dace6f2d" />
+                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4d1faea9-c795-41ab-94b0-a2d1885a3355" RecordId="4d1faea9-c795-41ab-94b0-a2d1885a3355" />
                           </positiveTags>
                           <negativeTags Type="Tag" Count="0" />
                         </TagSearchTerm>
@@ -202,7 +203,7 @@
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.AltruciaToxin_unprocessed" RecordId="ee845b46-a156-47f7-a58a-22f9b77b9c2b" />
                       <maxContainerSize>16</maxContainerSize>
-                      <minSCU>64</minSCU>
+                      <minSCU>48</minSCU>
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
@@ -222,7 +223,7 @@
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.AltruciaToxin_unprocessed" RecordId="ee845b46-a156-47f7-a58a-22f9b77b9c2b" />
                       <maxContainerSize>16</maxContainerSize>
-                      <minSCU>64</minSCU>
+                      <minSCU>48</minSCU>
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
@@ -241,7 +242,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -265,13 +266,13 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>42</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Hard_PvE_or_Easy_PvP_action_5</mechanicalSkill>
+              <mentalLoad>Like_spinning_10_plates_at_once_5</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
           <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank1.xml" />
@@ -282,7 +283,7 @@
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_SingleToMulti_Interstellar_Bulk_ShipAmm_Hydro_Med</debugName>
-          <template />
+          <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_singletomulti_1to2_combatencounter.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
               <ContractStringParam Type="ContractStringParam">
@@ -767,7 +768,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -791,13 +792,13 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>60</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Hard_PvE_or_Easy_PvP_action_5</mechanicalSkill>
+              <mentalLoad>Like_spinning_10_plates_at_once_5</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
           <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank1.xml" />
@@ -808,7 +809,7 @@
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_AToB_Interstellar_Bulk_Agri_MedSup_Iod</debugName>
-          <template />
+          <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_atob_override_combatencounter.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
               <ContractStringParam Type="ContractStringParam">
@@ -943,7 +944,7 @@
                     </HaulingOrderContent_Resource>
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.MedicalSupplies" RecordId="d5506a24-5729-4354-81fb-0959173357c4" />
-                      <maxContainerSize>6</maxContainerSize>
+                      <maxContainerSize>16</maxContainerSize>
                       <minSCU>96</minSCU>
                       <maxSCU>96</maxSCU>
                     </HaulingOrderContent_Resource>
@@ -1040,7 +1041,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -1064,13 +1065,13 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>36</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Moments_of_concentration_required_4</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
           <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank1.xml" />
@@ -1081,7 +1082,7 @@
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_AToB_Interstellar_Bulk_Plas_Scr_Cob</debugName>
-          <template />
+          <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_atob_override_combatencounter.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
               <ContractStringParam Type="ContractStringParam">
@@ -1216,7 +1217,7 @@
                     </HaulingOrderContent_Resource>
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.Scrap" RecordId="dae3efcb-f82e-4c2a-b24b-81f2be8daa51" />
-                      <maxContainerSize>6</maxContainerSize>
+                      <maxContainerSize>16</maxContainerSize>
                       <minSCU>96</minSCU>
                       <maxSCU>96</maxSCU>
                     </HaulingOrderContent_Resource>
@@ -1340,7 +1341,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -1364,13 +1365,13 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>38</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Normal_PvE_only_action_4</mechanicalSkill>
+              <mentalLoad>Moments_of_concentration_required_4</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
           <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank1.xml" />
@@ -1381,7 +1382,7 @@
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_AToB_Interstellar_Bulk_Ammon_PlasFu_Arg_PreIce_CM</debugName>
-          <template />
+          <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_atob_override_combatencounter.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
               <ContractStringParam Type="ContractStringParam">
@@ -1679,7 +1680,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -1703,13 +1704,13 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>41</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Hard_PvE_or_Easy_PvP_action_5</mechanicalSkill>
+              <mentalLoad>Like_spinning_10_plates_at_once_5</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
           <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank1.xml" />
@@ -1887,7 +1888,7 @@
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.RantaDung" RecordId="5cc98bf3-8edd-4184-9e47-2ff40e4c556b" />
                       <maxContainerSize>2</maxContainerSize>
-                      <minSCU>10</minSCU>
+                      <minSCU>7</minSCU>
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                   </haulingOrderContent>
@@ -1913,7 +1914,7 @@
                     <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
                       <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.RantaDung" RecordId="5cc98bf3-8edd-4184-9e47-2ff40e4c556b" />
                       <maxContainerSize>2</maxContainerSize>
-                      <minSCU>10</minSCU>
+                      <minSCU>7</minSCU>
                       <maxSCU>0</maxSCU>
                     </HaulingOrderContent_Resource>
                   </haulingOrderContent>
@@ -1926,7 +1927,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandpyro.xml" />
+              <localityAvailable />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -1950,13 +1951,13 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>44</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Routine_light_work_3</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
           <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank1.xml" />
@@ -1967,7 +1968,7 @@
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>HaulCargo_AToB_Interstellar_Bulk_DistSp_Dia_FresFoo_Gol_Aphor</debugName>
-          <template />
+          <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_atob_override_combatencounter.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
               <ContractStringParam Type="ContractStringParam">
@@ -2219,7 +2220,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stantonandnyx.xml" />
+              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/pyroandnyx.xml" />
             </ContractPrerequisite_Locality>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
@@ -2243,13 +2244,13 @@
               </ContractResult_CalculatedReward>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>0</timeToComplete>
+            <timeToComplete>34</timeToComplete>
             <difficulty Type="ContractDifficulty">
               <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Hands_free_gaming_1</mechanicalSkill>
-              <mentalLoad>AFK_gaming_1</mentalLoad>
-              <riskOfLoss>Safe_and_sound_zzzz_1</riskOfLoss>
-              <gameKnowledge>Noob_gaming_or_tutorial_1</gameKnowledge>
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Moments_of_concentration_required_4</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
           <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/delivery/reputationstanding_hauling_rank1.xml" />
@@ -32567,7 +32568,221 @@
         <modifierOverrides Type="BaseMissionModifier" Count="0" />
         <missionTypeOverride ReferencedFile="file://./../../../../../../../libs/foundry/records/missiontype/pu/hauling_planetary.xml" />
       </contractParams>
-      <introContracts Type="Contract" Count="0" />
+      <introContracts Type="Contract" Count="1">
+        <Contract Type="Contract">
+          <id>db9d9b2d-d850-4df1-ab0f-7fa2261e8f62</id>
+          <notForRelease>False</notForRelease>
+          <workInProgress>False</workInProgress>
+          <debugName>RedWind_Pyro_SupplyGrade_RegionA_CFP_StationToTradepost_Carbon_CargoHauling_AtoB_Intro</debugName>
+          <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_atob_supply_carbon.xml" />
+          <paramOverrides Type="ContractParamOverrides">
+            <stringParamOverrides Type="ContractStringParam" Count="2">
+              <ContractStringParam Type="ContractStringParam">
+                <param>Title</param>
+                <value>@RedWind_HaulCargo_title_intro</value>
+              </ContractStringParam>
+              <ContractStringParam Type="ContractStringParam">
+                <param>Description</param>
+                <value>@RedWind_HaulCargo_desc_intro</value>
+              </ContractStringParam>
+            </stringParamOverrides>
+            <boolParamOverrides Type="ContractBoolParam" Count="0" />
+            <intParamOverrides Type="ContractIntParam" Count="0" />
+            <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
+            <propertyOverrides Type="MissionProperty" Count="6">
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>CargoRouteToken</extendedTextToken>
+                <value Type="MissionPropertyValue_StringHash">
+                  <options Type="MissionPropertyValueOption_StringHash" Count="1">
+                    <MissionPropertyValueOption_StringHash Type="MissionPropertyValueOption_StringHash">
+                      <textId>@HaulCargo_CargoRoute_Planetary</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value />
+                    </MissionPropertyValueOption_StringHash>
+                  </options>
+                </value>
+              </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>CargoGradeToken</extendedTextToken>
+                <value Type="MissionPropertyValue_StringHash">
+                  <options Type="MissionPropertyValueOption_StringHash" Count="1">
+                    <MissionPropertyValueOption_StringHash Type="MissionPropertyValueOption_StringHash">
+                      <textId>@HaulCargo_CargoGrade_Supply</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value />
+                    </MissionPropertyValueOption_StringHash>
+                  </options>
+                </value>
+              </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>MissionMaxSCUSize</extendedTextToken>
+                <value Type="MissionPropertyValue_StringHash">
+                  <options Type="MissionPropertyValueOption_StringHash" Count="1">
+                    <MissionPropertyValueOption_StringHash Type="MissionPropertyValueOption_StringHash">
+                      <textId>@FreightElevator_8SCU</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value />
+                    </MissionPropertyValueOption_StringHash>
+                  </options>
+                </value>
+              </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName>PickupLocation_BP</missionVariableName>
+                <extendedTextToken>Location</extendedTextToken>
+                <value Type="MissionPropertyValue_Location">
+                  <matchConditions Type="BaseDataSetMatchCondition" Count="1">
+                    <DataSetMatchCondition_TagSearch Type="DataSetMatchCondition_TagSearch">
+                      <tagSearch Type="TagSearchTerm" Count="1">
+                        <TagSearchTerm Type="TagSearchTerm">
+                          <positiveTags Type="Tag" Count="3">
+                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ff32dc1e-0fd0-4704-aadc-1a47b30af6e3" RecordId="ff32dc1e-0fd0-4704-aadc-1a47b30af6e3" />
+                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.d468664d-6097-42c8-988e-0ccb0533f93e" RecordId="d468664d-6097-42c8-988e-0ccb0533f93e" />
+                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.812520ca-5f0a-4e88-9649-91237b1e4e51" RecordId="812520ca-5f0a-4e88-9649-91237b1e4e51" />
+                          </positiveTags>
+                          <negativeTags Type="Tag" Count="1">
+                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.222be9c8-ef55-402f-9d71-39b732ebf078" RecordId="222be9c8-ef55-402f-9d71-39b732ebf078" />
+                          </negativeTags>
+                        </TagSearchTerm>
+                      </tagSearch>
+                      <tagType>General</tagType>
+                    </DataSetMatchCondition_TagSearch>
+                  </matchConditions>
+                  <resourceTags Type="Tag" Count="0" />
+                  <resourcePriority>Contract</resourcePriority>
+                  <logErrorOnSearchFail>True</logErrorOnSearchFail>
+                </value>
+              </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName>DropoffLocation_BP</missionVariableName>
+                <extendedTextToken>Destination</extendedTextToken>
+                <value Type="MissionPropertyValue_Location">
+                  <matchConditions Type="BaseDataSetMatchCondition" Count="1">
+                    <DataSetMatchCondition_TagSearch Type="DataSetMatchCondition_TagSearch">
+                      <tagSearch Type="TagSearchTerm" Count="1">
+                        <TagSearchTerm Type="TagSearchTerm">
+                          <positiveTags Type="Tag" Count="6">
+                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.d468664d-6097-42c8-988e-0ccb0533f93e" RecordId="d468664d-6097-42c8-988e-0ccb0533f93e" />
+                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.458b9c78-641a-4aec-9e2b-b7723635ba90" RecordId="458b9c78-641a-4aec-9e2b-b7723635ba90" />
+                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.82b1b566-155d-4732-a867-4389512b4eb9" RecordId="82b1b566-155d-4732-a867-4389512b4eb9" />
+                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e2bbeaec-58b4-4e16-83c3-8e4ee6c41552" RecordId="e2bbeaec-58b4-4e16-83c3-8e4ee6c41552" />
+                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.812520ca-5f0a-4e88-9649-91237b1e4e51" RecordId="812520ca-5f0a-4e88-9649-91237b1e4e51" />
+                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.d4d579d4-8588-442d-a842-41deb074ed5a" RecordId="d4d579d4-8588-442d-a842-41deb074ed5a" />
+                          </positiveTags>
+                          <negativeTags Type="Tag" Count="1">
+                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.78231d49-cb07-4731-ab56-93a3ea0e2ebc" RecordId="78231d49-cb07-4731-ab56-93a3ea0e2ebc" />
+                          </negativeTags>
+                        </TagSearchTerm>
+                      </tagSearch>
+                      <tagType>General</tagType>
+                    </DataSetMatchCondition_TagSearch>
+                  </matchConditions>
+                  <resourceTags Type="Tag" Count="0" />
+                  <resourcePriority>Contract</resourcePriority>
+                  <logErrorOnSearchFail>True</logErrorOnSearchFail>
+                </value>
+              </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ReputationRank</extendedTextToken>
+                <value Type="MissionPropertyValue_StringHash">
+                  <options Type="MissionPropertyValueOption_StringHash" Count="1">
+                    <MissionPropertyValueOption_StringHash Type="MissionPropertyValueOption_StringHash">
+                      <textId>@RepStanding_TransportGuild_Rank2</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>@RepStanding_TransportGuild_Rank2</value>
+                    </MissionPropertyValueOption_StringHash>
+                  </options>
+                </value>
+              </MissionProperty>
+            </propertyOverrides>
+            <modifierOverrides Type="BaseMissionModifier" Count="0" />
+            <missionTypeOverride />
+          </paramOverrides>
+          <subContracts Type="SubContract" Count="0" />
+          <additionalPrerequisites Type="ContractPrerequisiteBase" Count="2">
+            <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
+              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/pyro_regions/regiona.xml" />
+            </ContractPrerequisite_Locality>
+            <ContractPrerequisite_Reputation Type="ContractPrerequisite_Reputation">
+              <includePrerequisiteWhenSharing>False</includePrerequisiteWhenSharing>
+              <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_citizensforprosperity.xml" />
+              <scope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
+              <exclude>True</exclude>
+              <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/faction_reputation_pyro/reputationstanding_factionrep_negativerep.xml" />
+              <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/faction_reputation_pyro/reputationstanding_factionrep_negativerep.xml" />
+            </ContractPrerequisite_Reputation>
+          </additionalPrerequisites>
+          <generationParams Type="ContractGenerationParams_Legacy">
+            <maxInstances>1</maxInstances>
+            <maxInstancesPerPlayer>-1</maxInstancesPerPlayer>
+            <respawnTime>5</respawnTime>
+            <respawnTimeVariation>2</respawnTimeVariation>
+          </generationParams>
+          <contractLifeTime />
+          <contractPlugins Type="SContractPlugin_Base" Count="0" />
+          <contractResults Type="ContractResults">
+            <contractResults Type="ContractResultBase" Count="3">
+              <ContractResult_CalculatedReward Type="ContractResult_CalculatedReward">
+                <missionResults Type="ActivityBehaviorRequestCondition" Count="5">
+                  <Boolean>True</Boolean>
+                  <Boolean>False</Boolean>
+                  <Boolean>False</Boolean>
+                  <Boolean>False</Boolean>
+                  <Boolean>False</Boolean>
+                </missionResults>
+              </ContractResult_CalculatedReward>
+              <ContractResult_LegacyReputation Type="ContractResult_LegacyReputation">
+                <missionResults Type="ActivityBehaviorRequestCondition" Count="5">
+                  <Boolean>True</Boolean>
+                  <Boolean>False</Boolean>
+                  <Boolean>False</Boolean>
+                  <Boolean>False</Boolean>
+                  <Boolean>False</Boolean>
+                </missionResults>
+                <contractResultReputationAmounts Type="SReputationAmountParams">
+                  <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_redwindlinehaul.xml" />
+                  <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/reputationscope_hauling.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationrewardamount_positive_xxs.xml" />
+                </contractResultReputationAmounts>
+              </ContractResult_LegacyReputation>
+              <ContractResult_LegacyReputation Type="ContractResult_LegacyReputation">
+                <missionResults Type="ActivityBehaviorRequestCondition" Count="5">
+                  <Boolean>True</Boolean>
+                  <Boolean>False</Boolean>
+                  <Boolean>False</Boolean>
+                  <Boolean>False</Boolean>
+                  <Boolean>False</Boolean>
+                </missionResults>
+                <contractResultReputationAmounts Type="SReputationAmountParams">
+                  <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_redwindlinehaul.xml" />
+                  <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/reputationscope_affinity.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_50.xml" />
+                </contractResultReputationAmounts>
+              </ContractResult_LegacyReputation>
+            </contractResults>
+            <contractBuyInAmount>0</contractBuyInAmount>
+            <timeToComplete>35</timeToComplete>
+            <difficulty Type="ContractDifficulty">
+              <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/logistics.xml" />
+              <mechanicalSkill>Easy_PvE_only_action_3</mechanicalSkill>
+              <mentalLoad>Moments_of_concentration_required_4</mentalLoad>
+              <riskOfLoss>Player_might_die_Ship_could_explode_5</riskOfLoss>
+              <gameKnowledge>Flight_mechanics_fly_dock_quantum_3</gameKnowledge>
+            </difficulty>
+          </contractResults>
+        </Contract>
+      </introContracts>
       <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_redwindlinehaul.xml" />
       <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/reputationscope_hauling.xml" />
       <contracts Type="CareerContract" Count="80">
@@ -52923,7 +53138,7 @@
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>Redwind_Intro</debugName>
-          <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_atob_small_shipammo.xml" />
+          <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/haulcargo_atob_override.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
               <ContractStringParam Type="ContractStringParam">
@@ -52943,7 +53158,7 @@
             </boolParamOverrides>
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="6">
+            <propertyOverrides Type="MissionProperty" Count="7">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName />
                 <extendedTextToken>CargoRouteToken</extendedTextToken>
@@ -52980,7 +53195,7 @@
                 <value Type="MissionPropertyValue_StringHash">
                   <options Type="MissionPropertyValueOption_StringHash" Count="1">
                     <MissionPropertyValueOption_StringHash Type="MissionPropertyValueOption_StringHash">
-                      <textId>@FreightElevator_32SCU</textId>
+                      <textId>@FreightElevator_4SCU</textId>
                       <weighting>1</weighting>
                       <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
                       <dependentProperties Type="DependentMissionProperty" Count="0" />
@@ -52990,7 +53205,7 @@
                 </value>
               </MissionProperty>
               <MissionProperty Type="MissionProperty">
-                <missionVariableName>PickupLocation_BP</missionVariableName>
+                <missionVariableName>PickupLocation</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
                 <value Type="MissionPropertyValue_Location">
                   <matchConditions Type="BaseDataSetMatchCondition" Count="1">
@@ -53015,7 +53230,7 @@
                 </value>
               </MissionProperty>
               <MissionProperty Type="MissionProperty">
-                <missionVariableName>DropoffLocation_BP</missionVariableName>
+                <missionVariableName>DropoffLocation</missionVariableName>
                 <extendedTextToken>Destination</extendedTextToken>
                 <value Type="MissionPropertyValue_Location">
                   <matchConditions Type="BaseDataSetMatchCondition" Count="1">
@@ -53050,6 +53265,20 @@
                       <value>@RepStanding_TransportGuild_Rank6</value>
                     </MissionPropertyValueOption_StringHash>
                   </options>
+                </value>
+              </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName>HaulingOrders</missionVariableName>
+                <extendedTextToken />
+                <value Type="MissionPropertyValue_HaulingOrders">
+                  <haulingOrderContent Type="HaulingOrderContentBase" Count="1">
+                    <HaulingOrderContent_Resource Type="HaulingOrderContent_Resource">
+                      <resource RecordReference="file://./../../../../../../../libs/foundry/records/resourcetypedatabase/resourcetypedatabase.xml" RecordName="ResourceType.ShipAmmunition" RecordId="984c2ac5-70dc-43be-85a2-15b8db95dcd2" />
+                      <maxContainerSize>4</maxContainerSize>
+                      <minSCU>6</minSCU>
+                      <maxSCU>0</maxSCU>
+                    </HaulingOrderContent_Resource>
+                  </haulingOrderContent>
                 </value>
               </MissionProperty>
             </propertyOverrides>

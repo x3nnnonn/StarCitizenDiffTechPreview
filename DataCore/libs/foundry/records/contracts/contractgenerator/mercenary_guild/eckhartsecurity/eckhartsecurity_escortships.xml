@@ -556,28 +556,28 @@
       <introContracts Type="Contract" Count="0" />
       <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_eckhartsecurity.xml" />
       <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-      <contracts Type="CareerContract" Count="7">
+      <contracts Type="CareerContract" Count="6">
         <CareerContract Type="CareerContract">
-          <id>d6333a1a-01a8-4254-84b6-3017c6669360</id>
+          <id>0e553862-8699-40f6-9ff1-fca8e2fe0662</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
-          <debugName>EckhartSecurity_EscortShips_Nyx_Intro</debugName>
+          <debugName>EckhartSecurity_EscortShips_Nyx_VeryEasy</debugName>
           <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/defendlocationspace_hangar.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
               <ContractStringParam Type="ContractStringParam">
                 <param>Title</param>
-                <value>@Eckhart_EscortShips_Intro_title</value>
+                <value>@Eckhart_EscortShips_VE_title</value>
               </ContractStringParam>
               <ContractStringParam Type="ContractStringParam">
                 <param>Description</param>
-                <value>@Eckhart_EscortShips_Intro_desc</value>
+                <value>@Eckhart_EscortShips_VE_desc</value>
               </ContractStringParam>
             </stringParamOverrides>
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="35">
+            <propertyOverrides Type="MissionProperty" Count="36">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>DefendLocationWrapper_MissionLocation_BP</missionVariableName>
                 <extendedTextToken>DefendLocationWrapperLocation</extendedTextToken>
@@ -1526,1064 +1526,9 @@
                   </options>
                 </value>
               </MissionProperty>
-            </propertyOverrides>
-            <modifierOverrides Type="BaseMissionModifier" Count="0" />
-            <missionTypeOverride />
-          </paramOverrides>
-          <subContracts Type="SubContract" Count="0" />
-          <additionalPrerequisites Type="ContractPrerequisiteBase" Count="0" />
-          <generationParams Type="ContractGenerationParams_Legacy">
-            <maxInstances>-1</maxInstances>
-            <maxInstancesPerPlayer>1</maxInstancesPerPlayer>
-            <respawnTime>5</respawnTime>
-            <respawnTimeVariation>5</respawnTimeVariation>
-          </generationParams>
-          <contractLifeTime Type="ContractLifeTime">
-            <instanceLifeTime>20</instanceLifeTime>
-            <instanceLifeTimeVariation>10</instanceLifeTimeVariation>
-          </contractLifeTime>
-          <contractPlugins Type="SContractPlugin_Base" Count="0" />
-          <contractResults Type="ContractResults">
-            <contractResults Type="ContractResultBase" Count="4">
-              <ContractResult_CalculatedReward Type="ContractResult_CalculatedReward">
-                <missionResults Type="ActivityBehaviorRequestCondition" Count="5">
-                  <Boolean>True</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                </missionResults>
-              </ContractResult_CalculatedReward>
-              <ContractResult_LegacyReputation Type="ContractResult_LegacyReputation">
-                <missionResults Type="ActivityBehaviorRequestCondition" Count="5">
-                  <Boolean>True</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                </missionResults>
-                <contractResultReputationAmounts Type="SReputationAmountParams">
-                  <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_eckhartsecurity.xml" />
-                  <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
-                </contractResultReputationAmounts>
-              </ContractResult_LegacyReputation>
-              <ContractResult_Item Type="ContractResult_Item">
-                <missionResults Type="ActivityBehaviorRequestCondition" Count="5">
-                  <Boolean>True</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                </missionResults>
-                <entityClass ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/scitem/carryables/1h/carryable_1h_cy_physical_currency_scrip_merc_1.xml" />
-                <amount>2</amount>
-                <sendToPlayerHomeLocation>True</sendToPlayerHomeLocation>
-                <awardOnlyToMissionOwner>True</awardOnlyToMissionOwner>
-                <targetLocation />
-                <notification Type="RewardNotification">
-                  <enabled>True</enabled>
-                  <enablePrompt>False</enablePrompt>
-                  <awardNotification>@Mission_Reward_Notification</awardNotification>
-                  <multiAwardNotification>@Mission_MultiReward_Notification</multiAwardNotification>
-                  <selectionPrompt>@ShipSelector_Label_Retrieve</selectionPrompt>
-                  <shipKioskDestination>@BrightSky_Objective_Marker</shipKioskDestination>
-                  <freightElevatorDestination>@area_name_FreightElevator</freightElevatorDestination>
-                  <freightElevatorCannotRetrieve>@TheCollector_Reward_Notification_FailedRetrieval</freightElevatorCannotRetrieve>
-                  <rewardExtendedTextToken>reward</rewardExtendedTextToken>
-                  <destinationLocationExtendedTextToken>destination</destinationLocationExtendedTextToken>
-                  <kioskDestinationExtendedTextToken>kioskType</kioskDestinationExtendedTextToken>
-                  <rewardAmountExtendedTextToken>rewardAmount</rewardAmountExtendedTextToken>
-                  <musicWwiseEvent Type="GlobalResourceAudio">
-                    <audioTrigger />
-                  </musicWwiseEvent>
-                </notification>
-              </ContractResult_Item>
-              <ContractResult_CompletionTags Type="ContractResult_CompletionTags">
-                <missionResults Type="ActivityBehaviorRequestCondition" Count="5">
-                  <Boolean>True</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                  <Boolean>False</Boolean>
-                </missionResults>
-                <completionTags Type="ContractResult_CompletionTag" Count="1">
-                  <ContractResult_CompletionTag Type="ContractResult_CompletionTag">
-                    <count>1</count>
-                    <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.d7402a2f-fa7b-4009-9354-6a6a98523365" RecordId="d7402a2f-fa7b-4009-9354-6a6a98523365" />
-                  </ContractResult_CompletionTag>
-                </completionTags>
-              </ContractResult_CompletionTags>
-            </contractResults>
-            <contractBuyInAmount>0</contractBuyInAmount>
-            <timeToComplete>21</timeToComplete>
-            <difficulty Type="ContractDifficulty">
-              <difficultyProfile ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contractdifficultyprofiles/general.xml" />
-              <mechanicalSkill>Zero_risk_of_action_2</mechanicalSkill>
-              <mentalLoad>Requires_minimal_thought_2</mentalLoad>
-              <riskOfLoss>Barely_even_breaking_a_sweat_2</riskOfLoss>
-              <gameKnowledge>FPS_mechanics_walk_shoot_mobiGlass_2</gameKnowledge>
-            </difficulty>
-          </contractResults>
-          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/faction_reputation_pyro/reputationstanding_factionrep_rank0.xml" />
-          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/faction_reputation_pyro/reputationstanding_factionrep_rank6.xml" />
-        </CareerContract>
-        <CareerContract Type="CareerContract">
-          <id>0e553862-8699-40f6-9ff1-fca8e2fe0662</id>
-          <notForRelease>False</notForRelease>
-          <workInProgress>False</workInProgress>
-          <debugName>EckhartSecurity_EscortShips_Nyx_VeryEasy</debugName>
-          <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/defendlocationspace_hangar.xml" />
-          <paramOverrides Type="ContractParamOverrides">
-            <stringParamOverrides Type="ContractStringParam" Count="2">
-              <ContractStringParam Type="ContractStringParam">
-                <param>Title</param>
-                <value>@Eckhart_EscortShips_VE_title</value>
-              </ContractStringParam>
-              <ContractStringParam Type="ContractStringParam">
-                <param>Description</param>
-                <value>@Eckhart_EscortShips_VE_desc</value>
-              </ContractStringParam>
-            </stringParamOverrides>
-            <boolParamOverrides Type="ContractBoolParam" Count="0" />
-            <intParamOverrides Type="ContractIntParam" Count="0" />
-            <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="35">
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DefendLocationWrapper_MissionLocation_BP</missionVariableName>
-                <extendedTextToken>DefendLocationWrapperLocation</extendedTextToken>
-                <value Type="MissionPropertyValue_Location">
-                  <matchConditions Type="BaseDataSetMatchCondition" Count="1">
-                    <DataSetMatchCondition_TagSearch Type="DataSetMatchCondition_TagSearch">
-                      <tagSearch Type="TagSearchTerm" Count="1">
-                        <TagSearchTerm Type="TagSearchTerm">
-                          <positiveTags Type="Tag" Count="3">
-                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.65ae3316-b395-41e0-883f-c0506882953c" RecordId="65ae3316-b395-41e0-883f-c0506882953c" />
-                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f00b6f01-7245-437d-9c41-da6a00e2df43" RecordId="f00b6f01-7245-437d-9c41-da6a00e2df43" />
-                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4d00c0d8-9120-4d10-9925-9ef20e42ea9a" RecordId="4d00c0d8-9120-4d10-9925-9ef20e42ea9a" />
-                          </positiveTags>
-                          <negativeTags Type="Tag" Count="1">
-                            <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5fd33d68-c698-4323-b923-eecf7ced11c0" RecordId="5fd33d68-c698-4323-b923-eecf7ced11c0" />
-                          </negativeTags>
-                        </TagSearchTerm>
-                      </tagSearch>
-                      <tagType>General</tagType>
-                    </DataSetMatchCondition_TagSearch>
-                  </matchConditions>
-                  <resourceTags Type="Tag" Count="1">
-                    <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6804b0a9-b01d-4c9a-8063-67784bd0f021" RecordId="6804b0a9-b01d-4c9a-8063-67784bd0f021" />
-                  </resourceTags>
-                  <resourcePriority>Contract</resourcePriority>
-                  <logErrorOnSearchFail>True</logErrorOnSearchFail>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DefendLocationWrapper_EnemyShips_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>DefendLocationWrapperEnemyShips</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="1">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="9">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a7d46fa-68cc-4c1e-9e4d-73af17c3f3ea" RecordId="6a7d46fa-68cc-4c1e-9e4d-73af17c3f3ea" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" RecordId="1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.77650871-5f6d-4de5-9a60-2268df7dbae3" RecordId="77650871-5f6d-4de5-9a60-2268df7dbae3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a45f6533-982c-45dc-97ea-0166a3560617" RecordId="a45f6533-982c-45dc-97ea-0166a3560617" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ea9a5d42-f879-433f-bef4-1775b16d097b" RecordId="ea9a5d42-f879-433f-bef4-1775b16d097b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.076afa9c-f5ae-4d2c-a946-593ecef1ad78" RecordId="076afa9c-f5ae-4d2c-a946-593ecef1ad78" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5cb6cdbd-af2d-4887-95f3-8a06021a9147" RecordId="5cb6cdbd-af2d-4887-95f3-8a06021a9147" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2b3c1abe-4aee-4073-a3a7-4db00fd15422" RecordId="2b3c1abe-4aee-4073-a3a7-4db00fd15422" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>2</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>1</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DefnedLocationWrapper_PriorityObjective01Time_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>300</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>DefnedLocationWrapper_PriorityObjective02Time_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>300</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipToLandingArea_UseHangarDoor_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Boolean">
-                  <value>True</value>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipToLandingArea_InitialEnemiesBool_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Boolean">
-                  <value>False</value>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipToLandingArea_InitialEnemies_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>InitialEnemies</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="1">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="10">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a7d46fa-68cc-4c1e-9e4d-73af17c3f3ea" RecordId="6a7d46fa-68cc-4c1e-9e4d-73af17c3f3ea" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" RecordId="1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.77650871-5f6d-4de5-9a60-2268df7dbae3" RecordId="77650871-5f6d-4de5-9a60-2268df7dbae3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a45f6533-982c-45dc-97ea-0166a3560617" RecordId="a45f6533-982c-45dc-97ea-0166a3560617" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ea9a5d42-f879-433f-bef4-1775b16d097b" RecordId="ea9a5d42-f879-433f-bef4-1775b16d097b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.076afa9c-f5ae-4d2c-a946-593ecef1ad78" RecordId="076afa9c-f5ae-4d2c-a946-593ecef1ad78" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5cb6cdbd-af2d-4887-95f3-8a06021a9147" RecordId="5cb6cdbd-af2d-4887-95f3-8a06021a9147" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2b3c1abe-4aee-4073-a3a7-4db00fd15422" RecordId="2b3c1abe-4aee-4073-a3a7-4db00fd15422" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>2</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>1</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipToLandingArea_EscortShip_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>EscortShip</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="2">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="1">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="15">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5f12dd31-4ff9-41a5-b5e2-916270351ba9" RecordId="5f12dd31-4ff9-41a5-b5e2-916270351ba9" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.434af56b-80a5-4e0d-a004-fe22c07ebacd" RecordId="434af56b-80a5-4e0d-a004-fe22c07ebacd" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ad431728-41cf-4a07-a83b-dbb80f7c0c10" RecordId="ad431728-41cf-4a07-a83b-dbb80f7c0c10" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.17cc697a-727f-44ba-8781-1a9883cc9ca3" RecordId="17cc697a-727f-44ba-8781-1a9883cc9ca3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dfe438a4-43d9-44c9-9780-b18b4e1d0521" RecordId="dfe438a4-43d9-44c9-9780-b18b4e1d0521" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.37e51a3d-afb0-4f2a-9528-01d9e2db5a76" RecordId="37e51a3d-afb0-4f2a-9528-01d9e2db5a76" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.c8bc58c3-3f60-4fc7-8422-0f73a31d43ee" RecordId="c8bc58c3-3f60-4fc7-8422-0f73a31d43ee" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2a1e6a7a-5f31-4f60-9dc6-d54e07d1826b" RecordId="2a1e6a7a-5f31-4f60-9dc6-d54e07d1826b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4b9a647c-91f4-4732-b572-912ac03e73f2" RecordId="4b9a647c-91f4-4732-b572-912ac03e73f2" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.076afa9c-f5ae-4d2c-a946-593ecef1ad78" RecordId="076afa9c-f5ae-4d2c-a946-593ecef1ad78" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5cb6cdbd-af2d-4887-95f3-8a06021a9147" RecordId="5cb6cdbd-af2d-4887-95f3-8a06021a9147" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a67501bd-8b98-4535-bed5-a7870b0c5059" RecordId="a67501bd-8b98-4535-bed5-a7870b0c5059" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4198e153-f43f-4102-abda-80993f7b282e" RecordId="4198e153-f43f-4102-abda-80993f7b282e" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2b3c1abe-4aee-4073-a3a7-4db00fd15422" RecordId="2b3c1abe-4aee-4073-a3a7-4db00fd15422" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.50b41aba-18b8-4564-803b-b385abec4b19" RecordId="50b41aba-18b8-4564-803b-b385abec4b19" />
-                                </tags>
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>1</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>1</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="1">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="9">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" RecordId="1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.77650871-5f6d-4de5-9a60-2268df7dbae3" RecordId="77650871-5f6d-4de5-9a60-2268df7dbae3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a45f6533-982c-45dc-97ea-0166a3560617" RecordId="a45f6533-982c-45dc-97ea-0166a3560617" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ea9a5d42-f879-433f-bef4-1775b16d097b" RecordId="ea9a5d42-f879-433f-bef4-1775b16d097b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.076afa9c-f5ae-4d2c-a946-593ecef1ad78" RecordId="076afa9c-f5ae-4d2c-a946-593ecef1ad78" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5cb6cdbd-af2d-4887-95f3-8a06021a9147" RecordId="5cb6cdbd-af2d-4887-95f3-8a06021a9147" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2b3c1abe-4aee-4073-a3a7-4db00fd15422" RecordId="2b3c1abe-4aee-4073-a3a7-4db00fd15422" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>1</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>1</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipToLandingArea_EscortReinforcementChance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>1</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipToLandingArea_EscortReinforcementsWave01_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>EscortReinforcementsWave01</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="1">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="9">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" RecordId="1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.55204549-7fe8-46df-957a-e36f704a88d3" RecordId="55204549-7fe8-46df-957a-e36f704a88d3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a45f6533-982c-45dc-97ea-0166a3560617" RecordId="a45f6533-982c-45dc-97ea-0166a3560617" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ea9a5d42-f879-433f-bef4-1775b16d097b" RecordId="ea9a5d42-f879-433f-bef4-1775b16d097b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.076afa9c-f5ae-4d2c-a946-593ecef1ad78" RecordId="076afa9c-f5ae-4d2c-a946-593ecef1ad78" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5cb6cdbd-af2d-4887-95f3-8a06021a9147" RecordId="5cb6cdbd-af2d-4887-95f3-8a06021a9147" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2b3c1abe-4aee-4073-a3a7-4db00fd15422" RecordId="2b3c1abe-4aee-4073-a3a7-4db00fd15422" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>1</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>1</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipToLandingArea_ERWave01MinDistance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>18000</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipToLandingArea_ERWave01MaxDistance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>19000</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipToLandingArea_EscortReinforcementsWave02_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>EscortReinforcementsWave02</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="1">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="9">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" RecordId="1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.55204549-7fe8-46df-957a-e36f704a88d3" RecordId="55204549-7fe8-46df-957a-e36f704a88d3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a45f6533-982c-45dc-97ea-0166a3560617" RecordId="a45f6533-982c-45dc-97ea-0166a3560617" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ea9a5d42-f879-433f-bef4-1775b16d097b" RecordId="ea9a5d42-f879-433f-bef4-1775b16d097b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.076afa9c-f5ae-4d2c-a946-593ecef1ad78" RecordId="076afa9c-f5ae-4d2c-a946-593ecef1ad78" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5cb6cdbd-af2d-4887-95f3-8a06021a9147" RecordId="5cb6cdbd-af2d-4887-95f3-8a06021a9147" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2b3c1abe-4aee-4073-a3a7-4db00fd15422" RecordId="2b3c1abe-4aee-4073-a3a7-4db00fd15422" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>1</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>1</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipToLandingArea_ERWave02MinDistance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>12000</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipToLandingArea_ERWave02MaxDistance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>13000</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipToLandingArea_EscortReinforcementsWave03_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>EscortReinforcementsWave03</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="1">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="9">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" RecordId="1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.55204549-7fe8-46df-957a-e36f704a88d3" RecordId="55204549-7fe8-46df-957a-e36f704a88d3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a45f6533-982c-45dc-97ea-0166a3560617" RecordId="a45f6533-982c-45dc-97ea-0166a3560617" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ea9a5d42-f879-433f-bef4-1775b16d097b" RecordId="ea9a5d42-f879-433f-bef4-1775b16d097b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.076afa9c-f5ae-4d2c-a946-593ecef1ad78" RecordId="076afa9c-f5ae-4d2c-a946-593ecef1ad78" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5cb6cdbd-af2d-4887-95f3-8a06021a9147" RecordId="5cb6cdbd-af2d-4887-95f3-8a06021a9147" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2b3c1abe-4aee-4073-a3a7-4db00fd15422" RecordId="2b3c1abe-4aee-4073-a3a7-4db00fd15422" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>1</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>1</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipToLandingArea_ERWave03MinDistance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>8000</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipToLandingArea_ERWave03MaxDistance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>7000</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_UseHangarDoor_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Boolean">
-                  <value>True</value>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_InitialEnemiesBool_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Boolean">
-                  <value>True</value>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_InitialEnemies_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>InitialEnemies</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="1">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="10">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a7d46fa-68cc-4c1e-9e4d-73af17c3f3ea" RecordId="6a7d46fa-68cc-4c1e-9e4d-73af17c3f3ea" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" RecordId="1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.77650871-5f6d-4de5-9a60-2268df7dbae3" RecordId="77650871-5f6d-4de5-9a60-2268df7dbae3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a45f6533-982c-45dc-97ea-0166a3560617" RecordId="a45f6533-982c-45dc-97ea-0166a3560617" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ea9a5d42-f879-433f-bef4-1775b16d097b" RecordId="ea9a5d42-f879-433f-bef4-1775b16d097b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.076afa9c-f5ae-4d2c-a946-593ecef1ad78" RecordId="076afa9c-f5ae-4d2c-a946-593ecef1ad78" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5cb6cdbd-af2d-4887-95f3-8a06021a9147" RecordId="5cb6cdbd-af2d-4887-95f3-8a06021a9147" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2b3c1abe-4aee-4073-a3a7-4db00fd15422" RecordId="2b3c1abe-4aee-4073-a3a7-4db00fd15422" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>2</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>1</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_EscortShip_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>EscortShip</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="1">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="14">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5f12dd31-4ff9-41a5-b5e2-916270351ba9" RecordId="5f12dd31-4ff9-41a5-b5e2-916270351ba9" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.434af56b-80a5-4e0d-a004-fe22c07ebacd" RecordId="434af56b-80a5-4e0d-a004-fe22c07ebacd" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ad431728-41cf-4a07-a83b-dbb80f7c0c10" RecordId="ad431728-41cf-4a07-a83b-dbb80f7c0c10" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.17cc697a-727f-44ba-8781-1a9883cc9ca3" RecordId="17cc697a-727f-44ba-8781-1a9883cc9ca3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dfe438a4-43d9-44c9-9780-b18b4e1d0521" RecordId="dfe438a4-43d9-44c9-9780-b18b4e1d0521" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.37e51a3d-afb0-4f2a-9528-01d9e2db5a76" RecordId="37e51a3d-afb0-4f2a-9528-01d9e2db5a76" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.bf95b54f-012a-41cb-929c-9b3a304c5a0b" RecordId="bf95b54f-012a-41cb-929c-9b3a304c5a0b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.c8bc58c3-3f60-4fc7-8422-0f73a31d43ee" RecordId="c8bc58c3-3f60-4fc7-8422-0f73a31d43ee" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2a1e6a7a-5f31-4f60-9dc6-d54e07d1826b" RecordId="2a1e6a7a-5f31-4f60-9dc6-d54e07d1826b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4b9a647c-91f4-4732-b572-912ac03e73f2" RecordId="4b9a647c-91f4-4732-b572-912ac03e73f2" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.076afa9c-f5ae-4d2c-a946-593ecef1ad78" RecordId="076afa9c-f5ae-4d2c-a946-593ecef1ad78" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5cb6cdbd-af2d-4887-95f3-8a06021a9147" RecordId="5cb6cdbd-af2d-4887-95f3-8a06021a9147" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a67501bd-8b98-4535-bed5-a7870b0c5059" RecordId="a67501bd-8b98-4535-bed5-a7870b0c5059" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2b3c1abe-4aee-4073-a3a7-4db00fd15422" RecordId="2b3c1abe-4aee-4073-a3a7-4db00fd15422" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.50b41aba-18b8-4564-803b-b385abec4b19" RecordId="50b41aba-18b8-4564-803b-b385abec4b19" />
-                                </tags>
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>1</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>1</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_EscortReinforcementChance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>1</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_EscortReinforcementsWave01_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>EscortReinforcementsWave01</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="1">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="9">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" RecordId="1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.55204549-7fe8-46df-957a-e36f704a88d3" RecordId="55204549-7fe8-46df-957a-e36f704a88d3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a45f6533-982c-45dc-97ea-0166a3560617" RecordId="a45f6533-982c-45dc-97ea-0166a3560617" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ea9a5d42-f879-433f-bef4-1775b16d097b" RecordId="ea9a5d42-f879-433f-bef4-1775b16d097b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.076afa9c-f5ae-4d2c-a946-593ecef1ad78" RecordId="076afa9c-f5ae-4d2c-a946-593ecef1ad78" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5cb6cdbd-af2d-4887-95f3-8a06021a9147" RecordId="5cb6cdbd-af2d-4887-95f3-8a06021a9147" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2b3c1abe-4aee-4073-a3a7-4db00fd15422" RecordId="2b3c1abe-4aee-4073-a3a7-4db00fd15422" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>1</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>1</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_ERWave01MinDistance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>6000</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_ERWave01MaxDistance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>7000</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_EscortReinforcementsWave02_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>EscortReinforcementsWave02</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="1">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="9">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" RecordId="1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.55204549-7fe8-46df-957a-e36f704a88d3" RecordId="55204549-7fe8-46df-957a-e36f704a88d3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a45f6533-982c-45dc-97ea-0166a3560617" RecordId="a45f6533-982c-45dc-97ea-0166a3560617" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ea9a5d42-f879-433f-bef4-1775b16d097b" RecordId="ea9a5d42-f879-433f-bef4-1775b16d097b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.076afa9c-f5ae-4d2c-a946-593ecef1ad78" RecordId="076afa9c-f5ae-4d2c-a946-593ecef1ad78" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5cb6cdbd-af2d-4887-95f3-8a06021a9147" RecordId="5cb6cdbd-af2d-4887-95f3-8a06021a9147" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2b3c1abe-4aee-4073-a3a7-4db00fd15422" RecordId="2b3c1abe-4aee-4073-a3a7-4db00fd15422" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>1</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>1</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_ERWave02MinDistance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>12000</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_ERWave02MaxDistance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>13000</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_EscortReinforcementsWave03_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>EscortReinforcementsWave03</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="1">
-                            <SpawnDescription_Ship Type="SpawnDescription_Ship">
-                              <tags Type="TagList">
-                                <tags Type="Tag" Count="9">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" RecordId="1c361447-b3d2-4f59-90dd-3f8b6f95c0aa" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b1f95343-7078-4f5e-83d0-95896dc4630b" RecordId="b1f95343-7078-4f5e-83d0-95896dc4630b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.55204549-7fe8-46df-957a-e36f704a88d3" RecordId="55204549-7fe8-46df-957a-e36f704a88d3" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a45f6533-982c-45dc-97ea-0166a3560617" RecordId="a45f6533-982c-45dc-97ea-0166a3560617" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ea9a5d42-f879-433f-bef4-1775b16d097b" RecordId="ea9a5d42-f879-433f-bef4-1775b16d097b" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.076afa9c-f5ae-4d2c-a946-593ecef1ad78" RecordId="076afa9c-f5ae-4d2c-a946-593ecef1ad78" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5cb6cdbd-af2d-4887-95f3-8a06021a9147" RecordId="5cb6cdbd-af2d-4887-95f3-8a06021a9147" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" RecordId="6a1ca4e4-ba87-47bc-901b-84de6dc3ab00" />
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2b3c1abe-4aee-4073-a3a7-4db00fd15422" RecordId="2b3c1abe-4aee-4073-a3a7-4db00fd15422" />
-                                </tags>
-                              </tags>
-                              <negativeTags Type="TagList">
-                                <tags Type="Tag" Count="1">
-                                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e03fa946-85d6-4eac-9ddb-d37542fbc310" RecordId="e03fa946-85d6-4eac-9ddb-d37542fbc310" />
-                                </tags>
-                              </negativeTags>
-                              <markupTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </markupTags>
-                              <entityTags Type="TagList">
-                                <tags Type="Tag" Count="0" />
-                              </entityTags>
-                              <concurrentAmount>1</concurrentAmount>
-                              <includeLocationAISpawnTags>False</includeLocationAISpawnTags>
-                              <nameProperty />
-                              <weight>1</weight>
-                              <initialDamageSettings />
-                            </SpawnDescription_Ship>
-                          </options>
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_ERWave03MinDistance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>17000</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_ERWave03MaxDistance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>18000</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_InterdictionChance_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_Float">
-                  <options Type="MissionPropertyValueOption_Float" Count="1">
-                    <MissionPropertyValueOption_Float Type="MissionPropertyValueOption_Float">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>0</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Float>
-                  </options>
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>EscortShipFromLandingArea_InterdictionShips_BP</missionVariableName>
-                <extendedTextToken />
-                <value Type="MissionPropertyValue_ShipSpawnDescriptions">
-                  <spawnDescriptions Type="SpawnDescription_ShipGroup" Count="1">
-                    <SpawnDescription_ShipGroup Type="SpawnDescription_ShipGroup">
-                      <Name>InterdictionShips_BP</Name>
-                      <embeddedName />
-                      <ships Type="SpawnDescription_ShipOptions" Count="1">
-                        <SpawnDescription_ShipOptions Type="SpawnDescription_ShipOptions">
-                          <options Type="SpawnDescription_Ship" Count="0" />
-                        </SpawnDescription_ShipOptions>
-                      </ships>
-                    </SpawnDescription_ShipGroup>
-                  </spawnDescriptions>
-                </value>
-              </MissionProperty>
               <MissionProperty Type="MissionProperty">
                 <missionVariableName />
-                <extendedTextToken>ScripAmount</extendedTextToken>
+                <extendedTextToken>ApprovalCode</extendedTextToken>
                 <value Type="MissionPropertyValue_Integer">
                   <options Type="MissionPropertyValueOption_Integer" Count="1">
                     <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
@@ -2591,8 +1536,8 @@
                       <weighting>1</weighting>
                       <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
                       <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>2</value>
-                      <variation>0</variation>
+                      <value>1000</value>
+                      <variation>8000</variation>
                     </MissionPropertyValueOption_Integer>
                   </options>
                 </value>
@@ -2650,7 +1595,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_eckhartsecurity.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_100.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -2718,7 +1663,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="35">
+            <propertyOverrides Type="MissionProperty" Count="36">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>DefendLocationWrapper_MissionLocation_BP</missionVariableName>
                 <extendedTextToken>DefendLocationWrapperLocation</extendedTextToken>
@@ -3962,6 +2907,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -4015,7 +2976,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_eckhartsecurity.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_100.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -4083,7 +3044,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="35">
+            <propertyOverrides Type="MissionProperty" Count="36">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>DefendLocationWrapper_MissionLocation_BP</missionVariableName>
                 <extendedTextToken>DefendLocationWrapperLocation</extendedTextToken>
@@ -5644,6 +4605,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -5697,7 +4674,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_eckhartsecurity.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_150.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -5765,7 +4742,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="35">
+            <propertyOverrides Type="MissionProperty" Count="36">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>DefendLocationWrapper_MissionLocation_BP</missionVariableName>
                 <extendedTextToken>DefendLocationWrapperLocation</extendedTextToken>
@@ -7303,6 +6280,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -7356,7 +6349,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_eckhartsecurity.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_200.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -7424,7 +6417,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="35">
+            <propertyOverrides Type="MissionProperty" Count="36">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>DefendLocationWrapper_MissionLocation_BP</missionVariableName>
                 <extendedTextToken>DefendLocationWrapperLocation</extendedTextToken>
@@ -8960,6 +7953,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -9013,7 +8022,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_eckhartsecurity.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/reputationrewardamount_positive_250.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -9081,7 +8090,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="35">
+            <propertyOverrides Type="MissionProperty" Count="36">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>DefendLocationWrapper_MissionLocation_BP</missionVariableName>
                 <extendedTextToken>DefendLocationWrapperLocation</extendedTextToken>
@@ -10654,6 +9663,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -10707,7 +9732,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_foxwellenforcement.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_300.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">

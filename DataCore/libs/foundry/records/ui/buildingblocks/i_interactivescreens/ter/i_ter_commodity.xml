@@ -2275,9 +2275,9 @@
                     <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
                       <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1d21c62c-0169-47eb-b715-2e6a64ce2ed3" RecordId="1d21c62c-0169-47eb-b715-2e6a64ce2ed3" />
                     </BuildingBlocks_StyleSelectorConditionTag>
-                    <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                    <BuildingBlocks_StyleSelectorConditionNotTag Type="BuildingBlocks_StyleSelectorConditionNotTag">
                       <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.797684dc-56d9-452f-9496-e0b7a2ae8dac" RecordId="797684dc-56d9-452f-9496-e0b7a2ae8dac" />
-                    </BuildingBlocks_StyleSelectorConditionTag>
+                    </BuildingBlocks_StyleSelectorConditionNotTag>
                   </breakConditions>
                   <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
                     <BuildingBlocks_StyleSelectorConditionNotTag Type="BuildingBlocks_StyleSelectorConditionNotTag">
@@ -4586,9 +4586,9 @@
                     <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
                       <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1d21c62c-0169-47eb-b715-2e6a64ce2ed3" RecordId="1d21c62c-0169-47eb-b715-2e6a64ce2ed3" />
                     </BuildingBlocks_StyleSelectorConditionTag>
-                    <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                    <BuildingBlocks_StyleSelectorConditionNotTag Type="BuildingBlocks_StyleSelectorConditionNotTag">
                       <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.797684dc-56d9-452f-9496-e0b7a2ae8dac" RecordId="797684dc-56d9-452f-9496-e0b7a2ae8dac" />
-                    </BuildingBlocks_StyleSelectorConditionTag>
+                    </BuildingBlocks_StyleSelectorConditionNotTag>
                   </breakConditions>
                   <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
                     <BuildingBlocks_StyleSelectorConditionNotTag Type="BuildingBlocks_StyleSelectorConditionNotTag">
@@ -7769,9 +7769,9 @@
                     <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
                       <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1d21c62c-0169-47eb-b715-2e6a64ce2ed3" RecordId="1d21c62c-0169-47eb-b715-2e6a64ce2ed3" />
                     </BuildingBlocks_StyleSelectorConditionTag>
-                    <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                    <BuildingBlocks_StyleSelectorConditionNotTag Type="BuildingBlocks_StyleSelectorConditionNotTag">
                       <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.797684dc-56d9-452f-9496-e0b7a2ae8dac" RecordId="797684dc-56d9-452f-9496-e0b7a2ae8dac" />
-                    </BuildingBlocks_StyleSelectorConditionTag>
+                    </BuildingBlocks_StyleSelectorConditionNotTag>
                   </breakConditions>
                   <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
                     <BuildingBlocks_StyleSelectorConditionNotTag Type="BuildingBlocks_StyleSelectorConditionNotTag">
@@ -7960,7 +7960,7 @@
     <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
       <brandIdentifier ReferencedFile="file://./../../../../../../../libs/foundry/records/ui/buildingblocks/styles/commoditybrands/commodity_uilo_c.xml" />
       <sharedStyles />
-      <entries Type="BuildingBlocks_StyleEntry" Count="33">
+      <entries Type="BuildingBlocks_StyleEntry" Count="34">
         <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
           <name>Global_Font</name>
           <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
@@ -9212,6 +9212,73 @@
               <field>PaddingTop</field>
               <value>0</value>
             </BuildingBlocks_FieldModifierNumber>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>BuySellTab_ButtonsDisabled</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
+            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
+              <name>New Condition List</name>
+              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="3">
+                <BuildingBlocks_StyleSelectorConditionAncestor Type="BuildingBlocks_StyleSelectorConditionAncestor">
+                  <breakConditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
+                    <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                      <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1d21c62c-0169-47eb-b715-2e6a64ce2ed3" RecordId="1d21c62c-0169-47eb-b715-2e6a64ce2ed3" />
+                    </BuildingBlocks_StyleSelectorConditionTag>
+                    <BuildingBlocks_StyleSelectorConditionNotTag Type="BuildingBlocks_StyleSelectorConditionNotTag">
+                      <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.797684dc-56d9-452f-9496-e0b7a2ae8dac" RecordId="797684dc-56d9-452f-9496-e0b7a2ae8dac" />
+                    </BuildingBlocks_StyleSelectorConditionNotTag>
+                  </breakConditions>
+                  <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                    <BuildingBlocks_StyleSelectorConditionNotTag Type="BuildingBlocks_StyleSelectorConditionNotTag">
+                      <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b567faeb-8da9-4d5f-a220-369531071389" RecordId="b567faeb-8da9-4d5f-a220-369531071389" />
+                    </BuildingBlocks_StyleSelectorConditionNotTag>
+                  </conditions>
+                </BuildingBlocks_StyleSelectorConditionAncestor>
+                <BuildingBlocks_StyleSelectorConditionType Type="BuildingBlocks_StyleSelectorConditionType">
+                  <type>Base</type>
+                </BuildingBlocks_StyleSelectorConditionType>
+                <BuildingBlocks_StyleSelectorConditionParent Type="BuildingBlocks_StyleSelectorConditionParent">
+                  <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
+                    <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
+                      <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.01b9d2b6-0edd-4d75-a0f2-ab3265675f87" RecordId="01b9d2b6-0edd-4d75-a0f2-ab3265675f87" />
+                    </BuildingBlocks_StyleSelectorConditionTag>
+                  </conditions>
+                </BuildingBlocks_StyleSelectorConditionParent>
+              </conditions>
+            </BuildingBlocks_StyleConditionList>
+          </conditionsList>
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="5">
+            <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
+              <field>SizeX</field>
+              <value>1</value>
+            </BuildingBlocks_FieldModifierNumber>
+            <BuildingBlocks_FieldModifierBoolean Type="BuildingBlocks_FieldModifierBoolean">
+              <field>EnableBackground</field>
+              <value>True</value>
+            </BuildingBlocks_FieldModifierBoolean>
+            <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
+              <field>BackgroundColor</field>
+              <color Type="BuildingBlocks_ColorStyle">
+                <color>Disabled</color>
+                <alpha>1</alpha>
+              </color>
+            </BuildingBlocks_FieldModifierColor>
+            <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
+              <field>BorderColorLeft</field>
+              <color Type="BuildingBlocks_ColorStyle">
+                <color>Accent1</color>
+                <alpha>0.3</alpha>
+              </color>
+            </BuildingBlocks_FieldModifierColor>
+            <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
+              <field>BorderColorRight</field>
+              <color Type="BuildingBlocks_ColorStyle">
+                <color>Accent1</color>
+                <alpha>0.3</alpha>
+              </color>
+            </BuildingBlocks_FieldModifierColor>
           </modifiers>
           <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
         </BuildingBlocks_StyleEntry>
@@ -15568,10 +15635,11 @@
     </BuildingBlocks_DisplayWidget>
     <BuildingBlocks_ComponentGeneralButton Pointer="ptr:26" Type="BuildingBlocks_ComponentGeneralButton">
       <name>BuySupplyTab_Button</name>
-      <styleTags Type="Tag" Count="3">
+      <styleTags Type="Tag" Count="4">
         <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4d8643a1-8980-48b5-ad03-7ea6a50dc845" RecordId="4d8643a1-8980-48b5-ad03-7ea6a50dc845" />
         <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.87689f97-ab0e-4da2-ac1f-374208652b80" RecordId="87689f97-ab0e-4da2-ac1f-374208652b80" />
         <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.01b9d2b6-0edd-4d75-a0f2-ab3265675f87" RecordId="01b9d2b6-0edd-4d75-a0f2-ab3265675f87" />
+        <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.20f04d29-1543-405a-969c-9efa19c39ef5" RecordId="20f04d29-1543-405a-969c-9efa19c39ef5" />
       </styleTags>
       <rendererType>Flash</rendererType>
       <rendererPolicy Type="BuildingBlocks_FlashRendererPolicy">
@@ -15909,10 +15977,11 @@
     </BuildingBlocks_ComponentGeneralButton>
     <BuildingBlocks_ComponentGeneralButton Pointer="ptr:28" Type="BuildingBlocks_ComponentGeneralButton">
       <name>SellDemandTab_Button</name>
-      <styleTags Type="Tag" Count="3">
+      <styleTags Type="Tag" Count="4">
         <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4d8643a1-8980-48b5-ad03-7ea6a50dc845" RecordId="4d8643a1-8980-48b5-ad03-7ea6a50dc845" />
         <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.87689f97-ab0e-4da2-ac1f-374208652b80" RecordId="87689f97-ab0e-4da2-ac1f-374208652b80" />
         <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.01b9d2b6-0edd-4d75-a0f2-ab3265675f87" RecordId="01b9d2b6-0edd-4d75-a0f2-ab3265675f87" />
+        <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.9fb92f44-f769-497f-b2d9-72da7ba77be9" RecordId="9fb92f44-f769-497f-b2d9-72da7ba77be9" />
       </styleTags>
       <rendererType>Flash</rendererType>
       <rendererPolicy Type="BuildingBlocks_FlashRendererPolicy">
@@ -31425,7 +31494,7 @@
     <BuildingBlocks_BindingsTagFromIntegerSwitch Pointer="ptr:27" Type="BuildingBlocks_BindingsTagFromIntegerSwitch">
       <values Type="BuildingBlocks_IntegerTagPair" Count="1">
         <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
-          <first>1</first>
+          <first>0</first>
           <second RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.797684dc-56d9-452f-9496-e0b7a2ae8dac" RecordId="797684dc-56d9-452f-9496-e0b7a2ae8dac" />
         </BuildingBlocks_IntegerTagPair>
       </values>
@@ -31435,7 +31504,7 @@
     <BuildingBlocks_BindingsTagFromIntegerSwitch Pointer="ptr:29" Type="BuildingBlocks_BindingsTagFromIntegerSwitch">
       <values Type="BuildingBlocks_IntegerTagPair" Count="1">
         <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
-          <first>0</first>
+          <first>1</first>
           <second RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.797684dc-56d9-452f-9496-e0b7a2ae8dac" RecordId="797684dc-56d9-452f-9496-e0b7a2ae8dac" />
         </BuildingBlocks_IntegerTagPair>
       </values>

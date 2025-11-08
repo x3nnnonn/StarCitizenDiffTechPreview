@@ -391,7 +391,7 @@
       </Interactable>
     </SEntityInteractableParams>
     <SInteractionStateMachineParams Type="SInteractionStateMachineParams">
-      <StateTypes Type="SInteractionStateType" Count="2">
+      <StateTypes Type="SInteractionStateType" Count="3">
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>Locker</StateTypeName>
           <bindingsMethod>None</bindingsMethod>
@@ -496,7 +496,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="1">
                 <SendItemResourceNetworkedStateEvent Type="SendItemResourceNetworkedStateEvent">
-                  <enable>False</enable>
+                  <enable>True</enable>
                 </SendItemResourceNetworkedStateEvent>
               </EnterEventDispatchers>
               <ExitEventDispatchers Type="EventDispatcher" Count="0" />
@@ -547,6 +547,93 @@
             </AggregateStateModifier>
           </StateModifiers>
         </SInteractionStateType>
+        <SInteractionStateType Type="SInteractionStateType">
+          <StateTypeName>Warning</StateTypeName>
+          <bindingsMethod>None</bindingsMethod>
+          <DefaultState />
+          <asopReset>False</asopReset>
+          <networkAuthority>Server</networkAuthority>
+          <States Type="SInteractionState" Count="2">
+            <SInteractionState Pointer="ptr:9" Type="SInteractionState">
+              <StateName>Warning</StateName>
+              <EnterStateEffectGroup />
+              <ExitStateEffectGroup />
+              <enterStateEffectTags Type="Tag" Count="1">
+                <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.c3ca3e12-5c26-450e-a1b5-fa170ec4703d" RecordId="c3ca3e12-5c26-450e-a1b5-fa170ec4703d" />
+              </enterStateEffectTags>
+              <exitStateEffectTags Type="Tag" Count="0" />
+              <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
+              <EnterStatePlaySequence />
+              <ExitStatePlaySequence />
+              <StateAutoChange />
+              <Interactions Type="SInteractionStateTransition" Count="0" />
+              <interactionPoints Type="SInteractionPointParams" Count="0" />
+              <stateTags Type="TagList">
+                <tags Type="Tag" Count="0" />
+              </stateTags>
+              <enterGeometryTags />
+              <entityTags Type="TagList">
+                <tags Type="Tag" Count="0" />
+              </entityTags>
+            </SInteractionState>
+            <SInteractionState Pointer="ptr:8" Type="SInteractionState">
+              <StateName>No warning</StateName>
+              <EnterStateEffectGroup />
+              <ExitStateEffectGroup />
+              <enterStateEffectTags Type="Tag" Count="0" />
+              <exitStateEffectTags Type="Tag" Count="0" />
+              <EnterEventDispatchers Type="EventDispatcher" Count="0" />
+              <ExitEventDispatchers Type="EventDispatcher" Count="0" />
+              <EnterStatePlaySequence />
+              <ExitStatePlaySequence />
+              <StateAutoChange />
+              <Interactions Type="SInteractionStateTransition" Count="0" />
+              <interactionPoints Type="SInteractionPointParams" Count="0" />
+              <stateTags Type="TagList">
+                <tags Type="Tag" Count="0" />
+              </stateTags>
+              <enterGeometryTags />
+              <entityTags Type="TagList">
+                <tags Type="Tag" Count="0" />
+              </entityTags>
+            </SInteractionState>
+          </States>
+          <StateModifiers Type="SStateModifier" Count="1">
+            <AggregateStateModifier Type="AggregateStateModifier">
+              <aggregateStateParams Type="AggregateStateParams" Count="5">
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="1">
+                    <SInteractionState PointsTo="ptr:6" />
+                  </aggregateStates>
+                  <state PointsTo="ptr:8" />
+                </AggregateStateParams>
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="1">
+                    <SInteractionState />
+                  </aggregateStates>
+                  <state PointsTo="ptr:9" />
+                </AggregateStateParams>
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="1">
+                    <SInteractionState />
+                  </aggregateStates>
+                  <state PointsTo="ptr:9" />
+                </AggregateStateParams>
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="1">
+                    <SInteractionState />
+                  </aggregateStates>
+                  <state PointsTo="ptr:9" />
+                </AggregateStateParams>
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="0" />
+                  <state PointsTo="ptr:8" />
+                </AggregateStateParams>
+              </aggregateStateParams>
+            </AggregateStateModifier>
+          </StateModifiers>
+        </SInteractionStateType>
       </StateTypes>
     </SInteractionStateMachineParams>
     <SEntityComponentEffects Type="SEntityComponentEffects">
@@ -558,7 +645,7 @@
         <lightEffects Type="EntityEffectSystem_LightCategory">
           <enabled>True</enabled>
           <allowMultipleTags>True</allowMultipleTags>
-          <tagEffects Type="EntityEffectSystem_LightTagEffect" Count="1">
+          <tagEffects Type="EntityEffectSystem_LightTagEffect" Count="2">
             <EntityEffectSystem_LightTagEffect Type="EntityEffectSystem_LightTagEffect">
               <name>Non Functional Red</name>
               <enabled>True</enabled>
@@ -617,6 +704,78 @@
               <propertyLinks Type="EntityEffectSystem_LightPropertyLink" Count="0" />
               <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6b616b29-201b-4d76-bf07-00fb90cd963d" RecordId="6b616b29-201b-4d76-bf07-00fb90cd963d" />
             </EntityEffectSystem_LightTagEffect>
+            <EntityEffectSystem_LightTagEffect Type="EntityEffectSystem_LightTagEffect">
+              <name>Warning ORange</name>
+              <enabled>True</enabled>
+              <color Type="RGB">
+                <r>0.9473065</r>
+                <g>0.4735315</g>
+                <b>0.00303527</b>
+              </color>
+              <useTemperature>False</useTemperature>
+              <colorTemperature>6500</colorTemperature>
+              <diffuseMultiplier>0.1</diffuseMultiplier>
+              <viewDistanceRatio>100</viewDistanceRatio>
+              <castShadow>False</castShadow>
+              <shadowQualityCap>Full</shadowQualityCap>
+              <maxShadowCastDistance>0</maxShadowCastDistance>
+              <ambient>False</ambient>
+              <softBulb>False</softBulb>
+              <fakeLight>False</fakeLight>
+              <affectsFog>True</affectsFog>
+              <affectsGI>True</affectsGI>
+              <affectThisAreaOnly>False</affectThisAreaOnly>
+              <holographic>False</holographic>
+              <visibleThirdPerson>True</visibleThirdPerson>
+              <visibleFirstPerson>True</visibleFirstPerson>
+              <distantImposter>True</distantImposter>
+              <visibleShadows>True</visibleShadows>
+              <lightImportance>Standard</lightImportance>
+              <lightType Type="EntityEffectSystem_LightType_PointLight">
+                <radius>0.25</radius>
+                <attenuationBulbSize>0</attenuationBulbSize>
+                <attenuationTweak>1</attenuationTweak>
+              </lightType>
+              <lightLink />
+              <flare Type="LightFlareParams">
+                <flareEnabled>False</flareEnabled>
+                <flare />
+                <flareFOV>360</flareFOV>
+                <flareScale>1</flareScale>
+                <attachToSun>False</attachToSun>
+              </flare>
+              <attachmentSettings Type="SEntityEffectSystem_Attachment_EntitySlot">
+                <offset Type="QuatT">
+                  <Rotation Type="Ang3">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>-90</z>
+                  </Rotation>
+                  <Position Type="Vec3">
+                    <x>0</x>
+                    <y>0.2</y>
+                    <z>0.14</z>
+                  </Position>
+                </offset>
+                <offsetParameter />
+              </attachmentSettings>
+              <propertyLinks Type="EntityEffectSystem_LightPropertyLink" Count="1">
+                <EntityEffectSystem_LightPropertyLink Type="EntityEffectSystem_LightPropertyLink">
+                  <modifiers Type="SEntityEffectSystem_PropertyModifier" Count="1">
+                    <SEntityEffectSystem_BlinkingModifier Type="SEntityEffectSystem_BlinkingModifier">
+                      <startDelay>0.5</startDelay>
+                      <minimumValue>0</minimumValue>
+                      <minimumDuration>0.25</minimumDuration>
+                      <maximumValue>5</maximumValue>
+                      <maximumDuration>1.5</maximumDuration>
+                    </SEntityEffectSystem_BlinkingModifier>
+                  </modifiers>
+                  <parameterName />
+                  <lightProperty>Intensity</lightProperty>
+                </EntityEffectSystem_LightPropertyLink>
+              </propertyLinks>
+              <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.c3ca3e12-5c26-450e-a1b5-fa170ec4703d" RecordId="c3ca3e12-5c26-450e-a1b5-fa170ec4703d" />
+            </EntityEffectSystem_LightTagEffect>
           </tagEffects>
           <triggerEffects Type="EntityEffectSystem_LightTriggerEffect" Count="0" />
         </lightEffects>
@@ -646,7 +805,7 @@
       <Ports Type="SItemPortDef" Count="3">
         <SItemPortDef Type="SItemPortDef">
           <Name>$slot_fuse_01</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_NameFuse_standard</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags />
@@ -688,7 +847,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Fuse</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -740,7 +899,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>$slot_fuse_02</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_NameFuse_standard</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags />
@@ -782,7 +941,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Fuse</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -834,7 +993,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>$slot_fuse_03</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_NameFuse_standard</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags />
@@ -876,7 +1035,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Fuse</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -977,7 +1136,7 @@
           <interaction PointsTo="ptr:2" />
           <taskEntries Type="SSequencerSequenceTaskEntryParams" Count="1">
             <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
-              <task PointsTo="ptr:8" />
+              <task PointsTo="ptr:10" />
               <postDelay>0</postDelay>
               <dependentTasks Type="SSequencerDefTaskParams" Count="0" />
               <haltOnFailure>True</haltOnFailure>
@@ -989,7 +1148,7 @@
           <interaction PointsTo="ptr:3" />
           <taskEntries Type="SSequencerSequenceTaskEntryParams" Count="1">
             <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
-              <task PointsTo="ptr:9" />
+              <task PointsTo="ptr:11" />
               <postDelay>0</postDelay>
               <dependentTasks Type="SSequencerDefTaskParams" Count="0" />
               <haltOnFailure>True</haltOnFailure>
@@ -1007,7 +1166,7 @@
       <AnimationJointControls />
       <AnimationControlActorIKs Type="AnimationControlActorIK" Count="0" />
       <AnimationTasks Type="SSequencerAnimationTaskParamsBase" Count="2">
-        <SSequencerSkeletonAnimationTaskParams Pointer="ptr:8" Type="SSequencerSkeletonAnimationTaskParams">
+        <SSequencerSkeletonAnimationTaskParams Pointer="ptr:10" Type="SSequencerSkeletonAnimationTaskParams">
           <animationName>open</animationName>
           <layerId>0</layerId>
           <looping>False</looping>
@@ -1016,7 +1175,7 @@
           <transitionType>Linear</transitionType>
           <normalizedStartTime>0</normalizedStartTime>
         </SSequencerSkeletonAnimationTaskParams>
-        <SSequencerSkeletonAnimationTaskParams Pointer="ptr:9" Type="SSequencerSkeletonAnimationTaskParams">
+        <SSequencerSkeletonAnimationTaskParams Pointer="ptr:11" Type="SSequencerSkeletonAnimationTaskParams">
           <animationName>close</animationName>
           <layerId>0</layerId>
           <looping>False</looping>

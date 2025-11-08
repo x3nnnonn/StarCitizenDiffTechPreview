@@ -18,10 +18,10 @@
     <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.d9846151-8bb6-4a18-970a-b6f1ea10c27f" RecordId="d9846151-8bb6-4a18-970a-b6f1ea10c27f" />
     <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.47b62b0f-e75b-4f8c-aadd-3326dce01228" RecordId="47b62b0f-e75b-4f8c-aadd-3326dce01228" />
     <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.c08564a2-68d2-4eb1-903b-e3c3ecf12ac1" RecordId="c08564a2-68d2-4eb1-903b-e3c3ecf12ac1" />
-    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.724dc411-665d-444e-bf19-d4e8ef02e061" RecordId="724dc411-665d-444e-bf19-d4e8ef02e061" />
+    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.111d40e6-1c8b-465b-ab5e-059ef8e86f31" RecordId="111d40e6-1c8b-465b-ab5e-059ef8e86f31" />
     <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.25f439d5-146b-4a61-a999-a486dfb68a49" RecordId="25f439d5-146b-4a61-a999-a486dfb68a49" />
     <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2cf3b9cd-9492-4d67-aae7-92ed6163180d" RecordId="2cf3b9cd-9492-4d67-aae7-92ed6163180d" />
-    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.111d40e6-1c8b-465b-ab5e-059ef8e86f31" RecordId="111d40e6-1c8b-465b-ab5e-059ef8e86f31" />
+    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.27302f50-8031-4b65-82b3-facdeb3a180f" RecordId="27302f50-8031-4b65-82b3-facdeb3a180f" />
   </tags>
   <StaticEntityClassData Type="EntityClassStaticDataParams" Count="2">
     <EntityUIDisplayParams Type="EntityUIDisplayParams">
@@ -114,17 +114,16 @@
       <deathBehaviour />
     </SActorComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
-      <loadout Type="SItemPortLoadoutOutfitParams">
+      <loadout Type="SItemPortLoadoutRandomGeneratedParams">
         <WearRange />
         <DirtRange />
         <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
-        <BaseLoadout Type="SItemPortLoadoutXMLParams">
-          <WearRange />
-          <DirtRange />
-          <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
-          <loadoutPath>Scripts/Loadouts/Character/Human/Clothing/NPC/Civilian/AIEmptyItemLoadout.xml</loadoutPath>
-        </BaseLoadout>
-        <Outfits Type="SItemPortLoadoutOutfitTagParams" Count="0" />
+        <GenerationSeed>0</GenerationSeed>
+        <LoadoutAssortments Type="SLoadoutAssortment" Count="3">
+          <SLoadoutAssortment />
+          <SLoadoutAssortment ReferencedFile="file://./../../../../../../libs/foundry/records/loadoutkits/pu_loadoutbundles/wear_and_dirt/dirt_light.xml" />
+          <SLoadoutAssortment ReferencedFile="file://./../../../../../../libs/foundry/records/loadoutkits/pu_loadoutbundles/wear_and_dirt/wear_dirt_medium.xml" />
+        </LoadoutAssortments>
       </loadout>
     </SEntityComponentDefaultLoadoutParams>
     <SGeometryResourceParams Type="SGeometryResourceParams">
@@ -489,15 +488,15 @@
     <SubsumptionEventReceiverComponentParams Type="SubsumptionEventReceiverComponentParams" />
     <SubsumptionComponentParams Type="SubsumptionComponentParams">
       <subsumptionMastergraph />
-      <subsumptionActivity>CivilianAdministrator</subsumptionActivity>
+      <subsumptionActivity>Civilian</subsumptionActivity>
       <mastergraphStateOverrides Type="SMastergraphStateOverride" Count="0" />
     </SubsumptionComponentParams>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="ActorStatusUIData" Count="1">
+      <perceptionTypes Type="HealthIconData" Count="1">
         <EnumChoice>Agent</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusUIWarning" Count="0" />
+      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="2">
         <SObservablePointDef Pointer="ptr:2" Type="SObservablePointDef">
           <helperName>Head</helperName>
@@ -531,7 +530,7 @@
       </observableExtensions>
     </SObservableComponentParams>
     <SCommunicationUserComponentParams Type="SCommunicationUserComponentParams">
-      <voiceBundle />
+      <voiceBundle ReferencedFile="file://./../../../../../../libs/foundry/records/voicebundle/nyxvoicebundles/pu_admin_nyx_male_bundle.xml" />
       <voiceSingle />
       <communicationConfig ReferencedFile="file://./../../../../../../libs/foundry/records/communicationconfig/communicationconfig.human.xml" />
       <contextualDialog />
@@ -2427,7 +2426,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Body</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />

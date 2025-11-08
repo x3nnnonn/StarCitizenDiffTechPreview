@@ -1,0 +1,855 @@
+<ObjectContainer sourceLevel="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001">
+ <Layers>
+  <Layer fullname="base/jorrits_lab_001" externalLayerLevelDir="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/" externalLayerParentDir="base/" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001.lyr" ParentGUID="{B7CCAA6F-5534-446C-BBAC-4B83C4D947DC}" layerHash="508774198">
+   <Layer name="ai" layerHash="2651685499" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/ai.lyr"/>
+   <Layer name="cover" layerHash="3026590362" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/cover.lyr"/>
+   <Layer name="decal" layerHash="1087875427" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/decal.lyr"/>
+   <Layer name="geo" layerHash="2225561766" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/geo.lyr">
+    <Layer name="cable" layerHash="3845359150" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/geo/cable.lyr"/>
+    <Layer name="ceiling" layerHash="2796394494" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/geo/ceiling.lyr"/>
+    <Layer name="floor" layerHash="3103686329" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/geo/floor.lyr"/>
+    <Layer name="hvac" layerHash="3573398911" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/geo/hvac.lyr"/>
+    <Layer name="pipe" layerHash="3757588901" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/geo/pipe.lyr"/>
+    <Layer name="railing" layerHash="1557727511" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/geo/railing.lyr"/>
+    <Layer name="wall" layerHash="450678231" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/geo/wall.lyr">
+     <Object name="util_ugf_wall_set_f_wall_connector_10m_a" type="Brush" guid="4457ebd9-3e7e-5fe9-3bdc-00201a375a9d"/>
+    </Layer>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-307" type="Brush" guid="4453dbff-2f0b-1400-34f8-9e8f36b7d78b"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-310" type="Brush" guid="45ca24a0-c96d-4300-8d74-4f03e4675ab8"/>
+    <Object name="util_ugf_wall_set_f_wall_transition_mid_8m_a" type="Brush" guid="4d92e8e2-1d7b-0701-04cb-4959c686ae9e"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-184" type="Brush" guid="44dbef8c-beac-d001-0c0b-55bd5c32e49f"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-139" type="Brush" guid="4a2b1464-186f-6303-ebfa-01b265fa7492"/>
+    <Object name="Decal-025" type="Decal" guid="45b83a95-cf37-6f04-958c-2f5ee8cc1ca3"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-035" type="Brush" guid="4492a19a-a5bf-9104-70ec-e5900ced1388"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-285" type="Brush" guid="4d2d3a12-1991-f004-793a-6d8daef216a8"/>
+    <Object name="util_ugf_floor_set_c_floor_04x01x0025_a-003" type="Brush" guid="40d77e9b-0c90-5905-67fe-1af4a0c1f0a7"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-339" type="Brush" guid="40e05ae1-7170-8605-c79a-ea962358d785"/>
+    <Object name="util_ugf_wall_set_f_wall_corner_in_1m_a-004" type="Brush" guid="4269486c-6967-9305-9ea8-b910b72bc1aa"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-011" type="Brush" guid="4979b5f2-4ede-9605-d97f-7499d9b76fa0"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_4m_a-002" type="Brush" guid="4bbd7886-12e9-a105-84de-883d02ced0a1"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_3m_a" type="Brush" guid="41875ecb-b09e-4306-264a-6f845eb0d98b"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-289" type="Brush" guid="46d4f02d-fd93-4506-c994-bb84ee14b4be"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_8m_a-009" type="Brush" guid="4c4714fb-58c2-4c06-01d2-20180534cf8f"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_2m_a-002" type="Brush" guid="4953fdd4-bad8-5806-c8e1-2ea61653e489"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-052" type="Brush" guid="44ef49a9-9e20-c106-77cd-a031d478bcb6"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_10m_a-002" type="Brush" guid="497ed10b-d8f8-e106-014b-53632709d0a4"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-256" type="Brush" guid="4fa917d2-b099-ce07-9583-38c04bfbc4ae"/>
+    <Object name="util_ugf_floor_set_c_floor_04x02x0025_a-011" type="Brush" guid="4952f591-5a21-f408-c0e6-754977a969ac"/>
+    <Object name="util_ugf_floor_set_c_floor_08x02x0025_a-001" type="Brush" guid="4e82bd36-d427-4409-7f3a-52e7dd348ebc"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-131" type="Brush" guid="44d11418-8666-ea09-2c14-75f81e8014be"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-028" type="Brush" guid="4f13dec4-14b3-f409-2d9a-93903fba6cbb"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-327" type="Brush" guid="4e9ca786-9330-520a-7108-550bcc4c0c8b"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-188" type="Brush" guid="4138002a-028f-e70a-bc40-fc12cb5148b4"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-287" type="Brush" guid="4b31f922-1e53-620b-3738-d8183bbca097"/>
+    <Object name="util_ugf_floor_set_c_floor_02x03x0025_a-003" type="Brush" guid="417e72ef-5a86-260c-5c08-00277bab58a0"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-003" type="Brush" guid="42be7066-4c6c-3b0c-996b-be2c8428d980"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-241" type="Brush" guid="432f6b75-a75f-da0c-0529-2cdbc5ab4aa2"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-126" type="Brush" guid="4d818bd3-da21-0b0e-7084-fa6021e1729a"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-260" type="Brush" guid="459d4c10-d7cc-8e0e-7829-489e7f6b4da3"/>
+    <Object name="vanduul_Male-001" type="Brush" guid="4c77e7af-baf3-400f-b7b6-530fb62c5aab"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-306" type="Brush" guid="4e1ddd93-2439-950f-d778-605241a149bb"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_1m_a" type="Brush" guid="4318428b-847b-a20f-32f1-a12e8399b4b3"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-018" type="Brush" guid="477233ac-9cf6-a40f-ffac-2dd9d0e67f8b"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-153" type="Brush" guid="4fcc4637-0704-d10f-3f88-7c7bab5791af"/>
+    <Object name="util_ugf_floor_set_c_floor_06x02x0025_a-002" type="Brush" guid="4d77331b-3bdd-f110-6c1c-fa294725fbbd"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-158" type="Brush" guid="4dcd4a5e-91bc-0f11-00dd-56b1c37e6bac"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-318" type="Brush" guid="49d4d444-34b9-8a12-cfaf-af758559dca8"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_1m_a-002" type="Brush" guid="4f5a3636-2a7f-e612-d664-44cb480358aa"/>
+    <Object name="util_ugf_floor_set_c_floor_04x02x0025_a-006" type="Brush" guid="4b172a24-8b44-3114-1354-21d01a8136b7"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-233" type="Brush" guid="4e5ba5f3-6d26-4117-1981-10f8034d2fa7"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-235" type="Brush" guid="4d5f7ec0-cfdd-5d17-53c8-4b1be95dae8b"/>
+    <Object name="util_ugf_floor_set_c_floor_08x02x0025_a-006" type="Brush" guid="428331e3-e806-3219-98ab-3c3981a79c89"/>
+    <Object name="Designer-11941" type="Designer" guid="46e1faea-ee48-5019-63f4-8663862aabaf"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-341" type="Brush" guid="4edbfca1-5d24-8319-4e00-38b19d4b8387"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-286" type="Brush" guid="49acf4f5-10c9-061a-d96d-c4710284eb89"/>
+    <Object name="Designer-11915" type="Designer" guid="435b6727-8817-221b-977f-7d567f26658b"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-089" type="Brush" guid="48fa6462-27a8-c71b-b2f9-6db365b7bfb8"/>
+    <Object name="util_ugf_trim_set_i_trim_straight_06m_a" type="Brush" guid="4906a034-7f0e-091c-fd93-58389238f3b3"/>
+    <Object name="util_ugf_floor_set_c_floor_04x01x0025_a-004" type="Brush" guid="4010025c-781a-6e1e-5339-d4e5ae0ae0b7"/>
+    <Object name="util_ugf_floor_set_c_floor_02x02x0025_a-001" type="Brush" guid="4db57061-3f3e-d91e-53eb-f0d2b0163c89"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-055" type="Brush" guid="46bf5841-06a9-8b1f-849c-9d0b77fdd592"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-073" type="Brush" guid="46ff55b4-4fe6-6f20-98d9-9d52e22bd18b"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-314" type="Brush" guid="459f4300-5c94-5722-3d3d-b092de1136bf"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-061" type="Brush" guid="4c4c27c1-bf26-5a23-e298-cbeb0f818cb2"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-058" type="Brush" guid="48e593b2-f283-9f23-493b-1afe047f4389"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-313" type="Brush" guid="474131c1-a1e5-a923-ee00-79b5e723f8ad"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-048" type="Brush" guid="4d0217b0-eda5-6824-5f22-437ef6ff81a8"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-179" type="Brush" guid="4aca09ed-fd92-3826-e416-820d74a2d786"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-154" type="Brush" guid="45edb29a-883b-6327-8922-e7eaf89c7794"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-059" type="Brush" guid="4dce8bff-7bfb-d127-6ef4-8ad920ec52b1"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-231" type="Brush" guid="492698ea-43a3-fe28-a7e1-c84c5dd399bf"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-271" type="Brush" guid="4c95262e-2f8d-9829-115b-381d55795593"/>
+    <Object name="util_ugf_floor_set_c_floor_08x03x0025_a-002" type="Brush" guid="41a4668e-06bf-c12a-857f-42bee4b9f2a5"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-165" type="Brush" guid="49fe2554-44b2-5a2b-d47e-909e7cdc4297"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-351" type="Brush" guid="4cf029ec-ef2c-a62c-a646-26bce41916a7"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-108" type="Brush" guid="4dde5ab8-f953-ae2c-5842-cce000fcd4b0"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-000" type="Brush" guid="4f3f59c9-4f3a-f22c-1ebb-40718b1f9fb0"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-118" type="Brush" guid="42a1ca39-a672-cc2d-3404-45f4b1d1318a"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-160" type="Brush" guid="40525966-c3da-302e-5f17-4df17ee3538f"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-163" type="Brush" guid="4e389278-9a8d-362e-fe50-0452b7b9e189"/>
+    <Object name="Designer-11924" type="Designer" guid="487d622c-41db-042f-ca00-ce47e878ceb8"/>
+    <Object name="util_ugf_floor_set_c_floor_04x01x0025_a-007" type="Brush" guid="4320b4a0-2f20-bb2f-766c-2868caf351b3"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-002" type="Brush" guid="4bfc277e-58bd-6f30-2ed1-844569ed7f88"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-259" type="Brush" guid="4738f7ee-25c8-ee30-74f0-07d321b27a82"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_8m_a-004" type="Brush" guid="4239c3a4-d82d-aa33-0195-976ead706096"/>
+    <Object name="util_ugf_floor_set_c_floor_04x01x0025_a-010" type="Brush" guid="417a3946-fca1-7f34-6a8b-53a13ce64799"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-166" type="Brush" guid="4ac7115f-4b75-6a35-b47b-3c6f10785d9b"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-049" type="Brush" guid="4dbd568f-26f7-cf36-3f88-db3081f715b9"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-088" type="Brush" guid="4263b621-f179-5737-4198-84e1e6c5a799"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-283" type="Brush" guid="4775a661-c57e-9a37-0ac2-dd368dffe392"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-097" type="Brush" guid="4d1c4356-d63e-e437-c149-fe573f69089c"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-037" type="Brush" guid="40e1a61b-58bb-0838-3b52-8575f496079c"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-054" type="Brush" guid="472449b8-c48d-1e38-943a-ef5c9743c69f"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_2m_a-001" type="Brush" guid="4b7dca85-2cd7-8039-212f-4c0e8a8b4582"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-101" type="Brush" guid="4c7e8994-e50f-d739-a1de-9e71b79f41a4"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-176" type="Brush" guid="4dcf20ed-13d3-dd39-c444-75e8042adcbc"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-130" type="Brush" guid="4953f801-b730-353b-753d-a3bfee1c79a7"/>
+    <Object name="Designer-11927" type="Designer" guid="4e6a0e5e-64b1-b33b-ffa2-972394a0deb8"/>
+    <Object name="util_ugf_floor_set_c_floor_04x01x0025_a-012" type="Brush" guid="47f111e2-756a-f03b-4d3b-09d16f309581"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-308" type="Brush" guid="460e9c6e-d19d-3b3c-4a60-618167efa3b0"/>
+    <Object name="util_ugf_wall_set_f_wall_corner_out_1m_a-004" type="Brush" guid="46d8ee06-451a-473c-d887-0b2e223e96ae"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-015" type="Brush" guid="4d0abc14-06c4-1d3d-d148-eca6d574fd84"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-042" type="Brush" guid="4e112ea1-113e-bc3d-172c-b042b6310ca2"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-008" type="Brush" guid="4b8cff4a-0152-753e-35ad-c06cf268a0ba"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-038" type="Brush" guid="45efcbbf-e302-c13e-58f9-a64500ecfda2"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-120" type="Brush" guid="49b248e7-c9b7-1e41-879d-bc4e287f8ebb"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-024" type="Brush" guid="41cfaf40-0161-cb41-09a0-3f8ea0922a81"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-317" type="Brush" guid="476aca93-4b3e-9842-f8df-e9fb350c2cbd"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-343" type="Brush" guid="43266cb5-9ac4-c043-1d66-389cbe3d8ab3"/>
+    <Object name="util_ugf_wall_set_f_wall_corner_out_1m_a-005" type="Brush" guid="416295d3-0f93-5c46-5c27-6927e6fbf185"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-051" type="Brush" guid="4a22d641-9da4-6247-ae2a-e8193ed8e1aa"/>
+    <Object name="util_ugf_floor_set_c_floor_10x02x0025_a-001" type="Brush" guid="4432ce40-5bc7-6d48-3a0d-c022ae8cde9c"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-121" type="Brush" guid="4c2db41a-f86e-cb48-3401-d14e9514a299"/>
+    <Object name="util_ugf_floor_set_c_floor_08x03x0025_a" type="Brush" guid="49ddce02-0609-a149-acda-cc4ac2f08f96"/>
+    <Object name="Group-VatTube-026" type="Group" guid="497a83cf-bdee-f249-3dc9-a0920b06b0b2"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-064" type="Brush" guid="4af35c1a-1b92-1a4a-9004-0542c3d7688f"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-347" type="Brush" guid="42be5bb0-d566-514b-c88f-b9e05bb55690"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-242" type="Brush" guid="4600073b-607d-434e-0379-d2d4c9c500ba"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-311" type="Brush" guid="4e20c13f-0003-b04e-a17e-b031af1a008d"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-178" type="Brush" guid="46b2991b-60d5-2750-178e-3cc2b05cc181"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_2m_a" type="Brush" guid="4d88cb8d-1742-1e51-7904-1fd0af87aab3"/>
+    <Object name="Designer-11916" type="Designer" guid="45a910b8-0ccf-8851-13a6-a34b44006b96"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-050" type="Brush" guid="4d0b2265-7d54-b351-c739-a74c30219bac"/>
+    <Object name="Designer-11939" type="Designer" guid="4698b1ee-737e-da51-5802-5a021319858e"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-319" type="Brush" guid="44e30ed5-47df-fa51-7aa1-db74c15bc389"/>
+    <Object name="util_ugf_wall_set_f_wall_corner_out_1m_a-006" type="Brush" guid="49b21363-9721-1752-cd3e-335909dd0fac"/>
+    <Object name="util_ugf_wall_set_f_wall_corner_in_1m_a-002" type="Brush" guid="4b2b84cf-b9f4-7252-353a-6f9b7a0810ac"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-135" type="Brush" guid="4224c7d8-b257-1e53-bbab-83bfc357f286"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-291" type="Brush" guid="44fec26f-7bef-1e53-0f27-30ab9b2c69a9"/>
+    <Object name="util_ugf_wall_set_f_wall_door_frame_6m_a" type="Brush" guid="4d653e4a-3ec3-ad54-0011-690e16ddd197"/>
+    <Object name="Designer-11918" type="Designer" guid="4aae8011-3301-df54-780a-3431305617bf"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-240" type="Brush" guid="48d5cb79-9312-2855-23b2-c35b9465898f"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_10m_a" type="Brush" guid="47979ebb-e1d3-3055-b263-c8852abd978c"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-324" type="Brush" guid="43922906-05bc-3255-e91c-dd885f0c0b98"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-164" type="Brush" guid="409945fe-57d9-9655-43e5-6625901f5cb2"/>
+    <Object name="Designer-11935" type="Designer" guid="4c213ce6-e153-4056-ac9d-49220fdaf494"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-274" type="Brush" guid="4ea09e07-9b22-8856-f362-4d9361993e84"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-173" type="Brush" guid="435e2591-c5d2-c956-69fc-68776177949d"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-087" type="Brush" guid="42730a36-493e-a957-227c-843d9e37bb90"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-114" type="Brush" guid="473bc91c-322e-1b58-2beb-cc327c4d5d92"/>
+    <Object name="Designer-11938" type="Designer" guid="4f691da2-aeaf-6c58-37c1-366516dc5591"/>
+    <Object name="Designer-11926" type="Designer" guid="4f89859b-61a8-9b58-2280-84ce0bcf1b87"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-265" type="Brush" guid="4f67875f-327e-e258-c735-7dadc363d49b"/>
+    <Object name="util_ugf_floor_set_c_floor_04x02x0025_a-001" type="Brush" guid="4d2e06b8-5c15-3759-b754-1ef6309d3ea4"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-345" type="Brush" guid="47152092-1e61-e559-f229-ced99164bd8b"/>
+    <Object name="util_ugf_floor_set_c_floor_04x02x0025_a-004" type="Brush" guid="457fa36b-f16a-a25a-4dc0-40d1eb1cbb86"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-022" type="Brush" guid="4ed49e1e-d9e3-cd5b-d212-26dae614c9b2"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-128" type="Brush" guid="4ba8cbf9-cff2-fd5b-1618-064a00e24fb4"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-145" type="Brush" guid="4eaf6b45-045e-b25c-c182-b10556cfba86"/>
+    <Object name="util_ugf_floor_set_c_floor_04x01x0025_a" type="Brush" guid="4a218ad6-ec92-b95c-902b-4ef5dd5e01b4"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_10m_a-006" type="Brush" guid="411daa4c-de7d-e25c-4607-2cd4c12640b4"/>
+    <Object name="Group-VatTube-025" type="Group" guid="49a6a057-0d33-e85d-ea4b-6c30e375f9ba"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-084" type="Brush" guid="454264dc-b69a-5c5f-7662-f5aa6610ab88"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-115" type="Brush" guid="4eaf606d-8f05-5560-aaa2-b06e13658880"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-014" type="Brush" guid="4421836b-2f46-0161-ccc5-cba1363fc589"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-280" type="Brush" guid="4f410eb6-1ffe-0561-7485-af7b79c618bd"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-046" type="Brush" guid="4f9b57cc-653f-1061-c394-85a01104f7bc"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-340" type="Brush" guid="4a8e8ae2-a504-9561-ddb3-3e3c3aabfd81"/>
+    <Object name="ext_stair_straight_04x02x01_a-044" type="Brush" guid="46b573af-c13c-7562-9168-482316f5eb86"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-074" type="Brush" guid="44202772-0a48-a162-a941-e600001b0f97"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_3m_a-001" type="Brush" guid="4cd9813c-870f-6e63-e8cc-e829e189699e"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-100" type="Brush" guid="4db380dc-a96b-bd65-b811-b04267839fb2"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_8m_a-008" type="Brush" guid="4441e68b-e772-d065-cdd0-92bd27665bbd"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-335" type="Brush" guid="4b1eb78d-60c5-6466-ce72-438fb7f261ab"/>
+    <Object name="util_ugf_trim_set_i_trim_straight_06m_a-002" type="Brush" guid="46db7a73-f1a3-9266-585e-48bc74935793"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-353" type="Brush" guid="468d9796-3a4f-9d66-8567-27f51410ce9c"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-312" type="Brush" guid="4898b0a2-ceb9-4967-a3cc-6258df192cb0"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-041" type="Brush" guid="445d8eae-3886-4e67-c7cd-a49328fa93b3"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-026" type="Brush" guid="44440a0e-8cbf-a467-0fb7-17a0383ce59d"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-237" type="Brush" guid="4745f023-41b4-1168-ba62-2ce4ffaaa88f"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-123" type="Brush" guid="416625ed-99cb-0a69-ece3-b16ede04dc91"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-334" type="Brush" guid="4ed89766-5a34-c169-91b5-47d9e1ae1d97"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-010" type="Brush" guid="451f35d6-74ab-3f6a-c969-709fbd176785"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-122" type="Brush" guid="4b55857b-8b76-b66a-0db2-d57fcb60128f"/>
+    <Object name="Designer-11933" type="Designer" guid="4f8ab308-1a7d-d76a-d827-d1f252cb4eb7"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-269" type="Brush" guid="45c18a02-9e29-1d6b-772f-e147ef432599"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-337" type="Brush" guid="4b8d8783-df9e-7e6b-5bb1-fc83ba93e08b"/>
+    <Object name="util_ugf_floor_set_c_floor_08x03x0025_a-003" type="Brush" guid="4cd249b7-3d85-e26c-13b7-6a48766dcab4"/>
+    <Object name="util_ugf_wall_set_f_wall_corner_out_1m_a-003" type="Brush" guid="40d78fc9-7f81-0e6d-627c-17cd53704d84"/>
+    <Object name="util_ugf_floor_set_c_floor_04x01x0025_a-011" type="Brush" guid="478c69e8-782d-446d-3ced-de53c0f2b29f"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-106" type="Brush" guid="4609c735-6e44-9f6d-1215-c9440aa75295"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-325" type="Brush" guid="4189e2d6-c9f5-e16d-8421-ec6859620dbe"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-320" type="Brush" guid="4a703736-69b4-306e-0821-78bf29be5783"/>
+    <Object name="util_ugf_floor_set_c_floor_08x02x0025_a-007" type="Brush" guid="4085049b-ae7b-1d70-29fb-f7b6c9732dab"/>
+    <Object name="util_ugf_floor_set_c_floor_04x02x0025_a-009" type="Brush" guid="49b71711-6f68-e871-17c9-0d5321bb3c95"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-107" type="Brush" guid="49b27004-08e3-f771-420f-cc3722d2c1a9"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-185" type="Brush" guid="46d06acc-da11-4172-6206-f7c5c20ef4a5"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-039" type="Brush" guid="49ddd637-e310-1f73-4e98-f16d442acc80"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-105" type="Brush" guid="40081eed-954d-c273-cbfc-a3be84a83bbc"/>
+    <Object name="util_ugf_wall_set_f_wall_corner_in_1m_a" type="Brush" guid="4360bd45-85d7-0274-c00f-9b9e2ab842ad"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-258" type="Brush" guid="461eebb2-4f89-2f74-3448-7d0f8bbb3ab3"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-045" type="Brush" guid="4bb1dbce-370a-3374-b3a0-cf1aa39548a8"/>
+    <Object name="util_ugf_floor_set_c_floor_04x01x0025_a-006" type="Brush" guid="4c1eddef-2c52-3f74-629d-03def6b8c896"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-278" type="Brush" guid="48a7500d-fa28-4774-ca1d-533194ffbba6"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-232" type="Brush" guid="4966e738-b4ac-ad75-8867-a6f20bbf0eb3"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_4m_a-001" type="Brush" guid="42a09fb5-7ce6-9c76-f5ef-af576f1d8581"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-349" type="Brush" guid="4d591286-bcca-ba76-3123-dc9f4bf00d85"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-328" type="Brush" guid="49991bee-4b84-5077-f03e-e357e6b627aa"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_3m_a-002" type="Brush" guid="46e4e249-5eb1-d077-20e7-4412a36c7c89"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-194" type="Brush" guid="433789a6-8cbb-bb78-d3d9-83b9cc3385ad"/>
+    <Object name="util_ugf_floor_set_c_floor_04x01x0025_a-009" type="Brush" guid="434df606-6668-3e79-73d5-b37dc7df3ca2"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-266" type="Brush" guid="433babc7-1876-6079-2809-09a4b5fd269a"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_10m_a-005" type="Brush" guid="4dfec98c-b7c1-207a-7cc8-77bbb033dcb4"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-113" type="Brush" guid="448a46a5-885a-327a-e1f5-fdd218e6628b"/>
+    <Object name="Designer-11920" type="Designer" guid="4fb1dc53-24dd-9b7c-aefd-29f18433ae95"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-137" type="Brush" guid="4ef82ca4-194a-b17c-8b7f-8a1f6a43629a"/>
+    <Object name="util_ugf_wall_set_f_wall_corner_out_1m_a-001" type="Brush" guid="40c18b2b-10f2-b27c-0858-09671698f29c"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-352" type="Brush" guid="4f3d8df2-0b05-ce7c-03d4-0ec9b4ac3487"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-342" type="Brush" guid="4b8e4d09-46dd-fc7c-c104-3555b2fb7c99"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-132" type="Brush" guid="460dc2c1-8fb3-547f-31a0-9c2b577a378a"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-329" type="Brush" guid="42857cee-7931-7d7f-4718-8049db9f07a9"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_10m_a-008" type="Brush" guid="4666e45c-1923-2a80-d1dc-5831d083c8be"/>
+    <Object name="Designer-11937" type="Designer" guid="4a3b7f24-13af-4480-d0da-6b278412ef9e"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-175" type="Brush" guid="45915872-9ae9-f880-efa3-d0d60d157895"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-071" type="Brush" guid="454864db-a22b-2b81-5c01-4e8d3a08c3bb"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-149" type="Brush" guid="477b2a2a-dd22-fe81-274c-37fbf27577ac"/>
+    <Object name="util_ugf_trim_set_i_trim_straight_06m_a-003" type="Brush" guid="4502f827-c74a-0182-28be-ff81e9d653aa"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-095" type="Brush" guid="4090679e-0881-9182-1b7c-36d61bc126ab"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-245" type="Brush" guid="42331eff-0e26-a282-8015-346dfa3c7fb4"/>
+    <Object name="Designer-11925" type="Designer" guid="43c0e6e0-1ff7-4283-79ea-9c5d6aedb691"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-288" type="Brush" guid="4ef6e9bf-7ea3-e084-cf69-aacf26d67181"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-005" type="Brush" guid="46afd7ab-987e-df85-fd7a-8a5c8e29a789"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-034" type="Brush" guid="4ae083b7-dc75-e185-abd6-f249127d3a8f"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-257" type="Brush" guid="4130ab36-d22f-1386-f458-f643df5ae299"/>
+    <Object name="util_ugf_floor_set_c_floor_06x02x0025_a" type="Brush" guid="4544b0a8-bc66-1088-9a73-112e40302fb5"/>
+    <Object name="Decal-027" type="Decal" guid="43fc9d62-f68a-5d88-df75-b0bb27bd8d97"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-189" type="Brush" guid="42b76f4d-6975-d088-6335-0aa6a2de3fb7"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-012" type="Brush" guid="4b08edd3-4464-d388-e17c-e442f0a71fb8"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-182" type="Brush" guid="47ae28bf-f16b-fb88-741d-4a7a1b4a5fa0"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-098" type="Brush" guid="46f1fc25-ca62-278a-fd09-708a8c9f0e88"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-067" type="Brush" guid="49abaaf2-d477-fd8a-d56d-6a8d8e6250aa"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-033" type="Brush" guid="41ceee67-3f1a-178c-7085-77b349d0e1a3"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-151" type="Brush" guid="4594c849-92ef-2f8c-25b3-b67eed50e986"/>
+    <Object name="Designer-11931" type="Designer" guid="43d799f2-62d6-0e8d-8525-25b2f6fd03bc"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-004" type="Brush" guid="45d67897-6552-ff8d-cde5-2badc2fac193"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-276" type="Brush" guid="4d3b7804-a3b3-768e-5698-8ace97cc56b3"/>
+    <Object name="util_ugf_floor_set_c_floor_08x02x0025_a" type="Brush" guid="45d2d8a8-3b33-aa8e-4812-6e6f83a8d681"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-282" type="Brush" guid="4eba9ccb-9b52-ae8e-8d2a-93f2ce982dae"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-161" type="Brush" guid="435a9e71-83aa-3590-a2ec-31773e8f0490"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-263" type="Brush" guid="479069cf-ba8d-5990-f0ae-5ebfabee73aa"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-093" type="Brush" guid="4f564e43-9e9e-8e90-7acb-aa8777be39a0"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-268" type="Brush" guid="47599e1b-d24f-d190-54d6-b3375076ad9f"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-262" type="Brush" guid="4d6ee19e-90ef-dd90-8e21-1f6192970faa"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-060" type="Brush" guid="4aebb902-e9e3-0791-013a-20a94190afbf"/>
+    <Object name="util_ugf_floor_set_c_floor_02x03x0025_a" type="Brush" guid="4633ae19-06ac-3091-9281-02b5ef7f169c"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_8m_a-005" type="Brush" guid="43dcf27d-b603-3891-e0de-d8b3aa750da3"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-255" type="Brush" guid="4217869f-e1f0-6d91-87ca-61d40903dead"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_10m_a-007" type="Brush" guid="46066c58-7167-f791-4f95-cac58fdb5499"/>
+    <Object name="util_ugf_floor_set_c_floor_08x02x0025_a-004" type="Brush" guid="416e777e-f422-4193-856c-22370f65e2ab"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_10m_a-004" type="Brush" guid="427576a6-3217-f893-aa74-c3d1e19078b2"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-143" type="Brush" guid="4e9432b0-179e-ab94-1a76-b8dbce379d86"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-027" type="Brush" guid="4b91970c-b2a9-f394-51bb-740350ef1f83"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_6m_a" type="Brush" guid="4da0d67a-e91b-7e95-be3b-0c3fae20dc98"/>
+    <Object name="util_ugf_trim_set_i_trim_straight_08m_a-003" type="Brush" guid="46eea120-18f0-b796-dae3-1260daa395bf"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-009" type="Brush" guid="4d54b802-f8a1-0b97-8024-fc0712978ca1"/>
+    <Object name="util_ugf_floor_set_c_floor_02x03x0025_a-001" type="Brush" guid="46ee57bc-e778-8097-8786-fa2fc14d3199"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_8m_a-007" type="Brush" guid="4d5eff50-a9de-c198-c968-77685ba8a583"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-290" type="Brush" guid="4f8f8663-b230-1499-ea21-8b96545de3a3"/>
+    <Object name="Designer-11940" type="Designer" guid="4eae39ff-615d-3099-4c19-477d084804b1"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-234" type="Brush" guid="40407481-4bea-fc99-32bf-7f80db4bdbbe"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-066" type="Brush" guid="4b8f10b0-98af-879a-3ada-0591682dfd9f"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-169" type="Brush" guid="44818d17-65b3-739b-2f95-eda5ef997585"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_3m_a-004" type="Brush" guid="4a4471d3-c9ef-839c-43ff-63888c1c0eac"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-041" type="Brush" guid="4c8aa554-9121-919c-086e-a5e853be43a3"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-099" type="Brush" guid="4d1cf4a2-fd37-a99c-e080-fff2ac329399"/>
+    <Object name="Group-926" type="Group" guid="45bba56b-6a7f-749d-7c7a-6e87b8a86898"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-350" type="Brush" guid="47769f4b-45eb-ff9d-1590-3dd4846bb089"/>
+    <Object name="util_ugf_floor_set_c_floor_10x02x0025_a" type="Brush" guid="45af52c3-0070-0a9e-ebc7-04b62684e596"/>
+    <Object name="Designer-11934" type="Designer" guid="44162ed5-cabb-2a9e-220c-3bf7bded2eb1"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_3m_a-007" type="Brush" guid="449b929d-bf01-c39e-8f55-f4c2ef775f8f"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_3m_a-005" type="Brush" guid="439069d3-30c0-3f9f-c4ef-8257ba30149d"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-150" type="Brush" guid="482efef6-ed74-729f-80f9-389a358516a6"/>
+    <Object name="Designer-11930" type="Designer" guid="4de3c771-b57b-83a0-5dc3-18b6d337069a"/>
+    <Object name="util_ugf_wall_set_f_wall_transition_mid_corner_in_2m_a" type="Brush" guid="499ffff6-a830-ffa0-aef1-cf973ce270af"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-152" type="Brush" guid="485f16f3-ec76-fea1-f2da-569656512b8a"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-065" type="Brush" guid="4e2b9f2f-9f20-afa2-59f1-4574d267e8b9"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-068" type="Brush" guid="43e1efa7-3fd7-c0a2-f90a-f176e598e9b4"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-321" type="Brush" guid="4a868390-d02d-cda2-b41e-cef465c5d484"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-027" type="Brush" guid="4621dbfa-6146-f5a3-f849-c8403bb1ac8e"/>
+    <Object name="util_ugf_floor_set_c_floor_02x03x0025_a-002" type="Brush" guid="413dc690-ac89-d2a4-3050-13a771c9879a"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-043" type="Brush" guid="40f5dbdd-7306-4da5-4483-69855cc022b9"/>
+    <Object name="util_ugf_wall_set_f_wall_corner_in_1m_a-005" type="Brush" guid="48473532-6356-72a5-dff1-b5bba6d087ae"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-316" type="Brush" guid="484b685d-5639-aca5-852b-1d0e431d5cb6"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-264" type="Brush" guid="4a75477b-bdea-5ea6-4311-cc6d935fb794"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-070" type="Brush" guid="4d2b4c16-3172-94a6-0e4e-24e44db2a092"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-029" type="Brush" guid="46f7ea12-811b-cba6-3a50-395a93b5b885"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_10m_a-001" type="Brush" guid="43af5fab-b626-0fa7-e364-2e4d48cf0a85"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-056" type="Brush" guid="430e6c92-c071-65a7-747c-dcc822eef9be"/>
+    <Object name="util_ugf_wall_set_f_wall_corner_out_1m_a-002" type="Brush" guid="40b89623-e5e4-59a8-0a0d-e7d80688b7a1"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-333" type="Brush" guid="463a005a-396a-eba8-4736-66472e8379b5"/>
+    <Object name="util_ugf_floor_set_c_floor_04x01x0025_a-005" type="Brush" guid="46720cef-c304-16a9-953c-36c9f13f8eaa"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-244" type="Brush" guid="410e1297-9da2-57a9-f7a1-ca457da5678e"/>
+    <Object name="util_ugf_floor_set_c_floor_04x01x0025_a-008" type="Brush" guid="4e85f058-1430-63a9-b7bc-6549ccff04b4"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-247" type="Brush" guid="4f9b4404-1397-9fa9-be7f-8c06396d388e"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-032" type="Brush" guid="4bf0edff-9cce-e5a9-cece-b80d8f61c180"/>
+    <Object name="Decal-026" type="Decal" guid="461626b8-6701-58aa-a622-a1fc35a07199"/>
+    <Object name="Designer-11928" type="Designer" guid="47a477fd-f76d-e3aa-7cff-a26e2e7bb49f"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-124" type="Brush" guid="4171de90-4dc6-0dab-2506-c4d8337d26b8"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_10m_a-009" type="Brush" guid="424aa28e-d064-8fab-1cc7-1129c1ee1791"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-147" type="Brush" guid="40f97ad6-c4e9-b3ab-498c-5b3a4f514f81"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-332" type="Brush" guid="4e7de006-3d98-e7ac-058d-0cddeec43baf"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-284" type="Brush" guid="4b047fbd-2785-40ad-402b-6cb313749697"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-279" type="Brush" guid="482f519b-5d58-2dae-fefa-7d34be43f980"/>
+    <Object name="util_ugf_floor_set_c_floor_04x01x0025_a-001" type="Brush" guid="41e3d9a6-3580-6fae-7d7d-d1fbdbe247b2"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-190" type="Brush" guid="42b1bca0-1e9c-6faf-4624-6af35ed737ab"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-146" type="Brush" guid="40a97eef-1180-96af-9a09-158e38810180"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_3m_a-003" type="Brush" guid="48a6e767-3db4-a7af-9a05-2c1378589e89"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-249" type="Brush" guid="4a36a09e-2597-b4af-97d9-a99eee5c4481"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-086" type="Brush" guid="41f737e9-8d1d-34b0-aec2-e34b135b60a5"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_1m_a-003" type="Brush" guid="49320046-0ef2-c8b0-9c4b-5fd464f289a6"/>
+    <Object name="util_ugf_floor_set_c_floor_06x02x0025_a-001" type="Brush" guid="4ba4de41-161f-a0b1-68c4-fe2aa976ca8d"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-156" type="Brush" guid="4257a255-828a-e8b1-5ebf-dcc6b788f5a3"/>
+    <Object name="util_ugf_wall_set_f_wall_corner_out_1m_a-007" type="Brush" guid="4d08aefa-ce82-62b2-1841-e2d649a418b7"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-338" type="Brush" guid="4342f35b-7a58-9bb2-2dc9-ce885c8b02b4"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-171" type="Brush" guid="468d9669-0787-a7b4-3d95-a9f707ce1e9d"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-170" type="Brush" guid="4b3e6140-503f-3db5-5981-029f826540a2"/>
+    <Object name="util_ugf_floor_set_c_floor_08x02x0025_a-005" type="Brush" guid="4298603f-afc9-b5b5-847d-df5c91cd3980"/>
+    <Object name="util_ugf_floor_set_c_floor_04x02x0025_a" type="Brush" guid="4dd94602-0042-c6b5-8dd1-79f7377d79ba"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-044" type="Brush" guid="451128de-8ac6-f9b5-ecf9-e89001b18b86"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_8m_a-003" type="Brush" guid="424b418c-acc1-02b6-8783-0c0af9af8a84"/>
+    <Object name="util_ugf_floor_set_c_floor_02x04x0025_a" type="Brush" guid="48699345-37ff-1bb6-75e9-db049cb4e3af"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-277" type="Brush" guid="461829cf-9239-4bb6-7dc9-7ca1da1b1f9b"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-033" type="Brush" guid="4a7a280a-3711-53b6-ae71-d6ceab08af9f"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-091" type="Brush" guid="45bdafc4-155a-b8b7-b06c-43ab05b2bdaa"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-239" type="Brush" guid="4e34e149-5803-d6b7-f5a3-7a7e5ece1aac"/>
+    <Object name="util_ugf_floor_set_c_floor_08x02x0025_a-003" type="Brush" guid="480a1310-af93-34b8-f9f5-586c6ffbaea4"/>
+    <Object name="Designer-11932" type="Designer" guid="410e5120-f4c1-38b8-abdd-1cb0eb110089"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-246" type="Brush" guid="4f88a98c-081c-cbb8-3a90-c7e2113642a6"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-254" type="Brush" guid="4a274ad5-4c52-3eb9-01f7-8d3123a18faa"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_10m_a-010" type="Brush" guid="46295235-2737-61b9-eb1e-a138f5e860b7"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-183" type="Brush" guid="459b46ce-e44c-9eb9-319e-adee7a2f539a"/>
+    <Object name="Designer-11919" type="Designer" guid="42efcd6e-9619-03ba-f050-5a955768188d"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-017" type="Brush" guid="44736f58-9e4c-baba-1acb-21d92553c68e"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-096" type="Brush" guid="476da32d-55f4-14bb-e317-ff6d16c841a5"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-013" type="Brush" guid="44ee11f9-db86-1cbb-83b6-19f3edd29eb9"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-127" type="Brush" guid="47575ddf-a556-62bc-023b-e50973652e83"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-330" type="Brush" guid="47a8d2ab-9779-69bc-fca5-a899334a7a99"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-326" type="Brush" guid="440d20ee-f14d-9bbc-4b00-bc2be26fe7a7"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-090" type="Brush" guid="482bb1b8-9212-22bd-8b43-6439468548a5"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-129" type="Brush" guid="481ffcce-cc14-52bd-564e-31b2d372b2a3"/>
+    <Object name="util_ugf_floor_set_c_floor_02x02x0025_a" type="Brush" guid="4f9beacb-b957-93bd-05d3-d00761782988"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-094" type="Brush" guid="49258bea-0d78-25be-c486-1853a36ceb91"/>
+    <Object name="util_ugf_wall_set_f_wall_corner_out_1m_a" type="Brush" guid="4132a970-beb7-7cbe-df47-c401ddb8fc84"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-155" type="Brush" guid="452cea94-efd0-51bf-c27a-b37fe5aa29a4"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_1m_a-001" type="Brush" guid="485d4bf9-28a7-aabf-b63b-08f6dbf1af80"/>
+    <Object name="Designer-11929" type="Designer" guid="4ca80e32-0aca-ccc0-7a62-b0534f20e1bb"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-305" type="Brush" guid="4394c1da-01e5-cec0-9f17-6b3381e0aa9c"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-270" type="Brush" guid="4b86ada4-2ac3-09c2-21bc-6edf18120397"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-040" type="Brush" guid="47f6a364-958e-c1c4-c4b7-21505ebfa5b7"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-031" type="Brush" guid="40a9945a-073e-e8c4-b193-29d55a5e7282"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-261" type="Brush" guid="46db4761-c577-48c6-8da7-7e4470c604ba"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-136" type="Brush" guid="4ec5afd4-9565-fbc6-8dff-c3ceeccc3186"/>
+    <Object name="util_ugf_trim_set_i_trim_straight_08m_a-001" type="Brush" guid="45760b5e-328a-8dc7-7d80-0c7138a59190"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-275" type="Brush" guid="453c27aa-9075-9dc8-d1b7-0d5896737383"/>
+    <Object name="util_ugf_wall_set_f_wall_transition_mid_8m_a-001" type="Brush" guid="4e5a178c-0a12-b2c8-6eec-140c88b8a89a"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-236" type="Brush" guid="4444ca32-8a90-50c9-44a7-07399036cb95"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-069" type="Brush" guid="4f422700-3764-b5c9-7a87-b76f22be2c95"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-252" type="Brush" guid="4732f79d-4a91-d5c9-1763-c6af7192ebb4"/>
+    <Object name="util_ugf_wall_set_f_wall_transition_mid_4m_a-001" type="Brush" guid="4b325b5d-d762-54ca-8cd4-3b6e6787a2ac"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-315" type="Brush" guid="4d9f8a4f-b862-11cb-bcbf-102d3eefc398"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-025" type="Brush" guid="4fdab613-8ee4-7ccb-ee9e-6a4de7c197b9"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-021" type="Brush" guid="48740bee-ff6d-c1cb-150e-afe03d10c294"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_4m_a-003" type="Brush" guid="4fc78801-8b88-03cc-cec7-493f7c3ffd9c"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-134" type="Brush" guid="49223e6a-d000-33cc-946c-ca9a0493a7bc"/>
+    <Object name="Designer-11917" type="Designer" guid="48f46f2a-8e5d-8fcc-3ccf-81caeb5cb49e"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-162" type="Brush" guid="4196f63c-5104-14cd-a490-f25ade64c39f"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-042" type="Brush" guid="445f9ddc-912c-20ce-c2c7-09742bed0b82"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-281" type="Brush" guid="40e29ff3-76f3-26cf-3592-fb818d728289"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-336" type="Brush" guid="4fc94cf8-8a74-3fcf-9839-fc0050985199"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-112" type="Brush" guid="41b924f9-2aff-a5cf-83d1-30f4df8bbea2"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-125" type="Brush" guid="47915acb-9dc3-95d0-d4f9-41f8fec38b90"/>
+    <Object name="Designer-11922" type="Designer" guid="4bbe2ee0-88d2-0bd2-8600-6b56630c248e"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-273" type="Brush" guid="4a0a5007-5664-a1d2-4ec0-03e904ea4ca2"/>
+    <Object name="util_ugf_floor_set_c_floor_04x02x0025_a-010" type="Brush" guid="4c9b177b-b9bd-58d3-d531-a4ab1ad8f7b4"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-172" type="Brush" guid="4b661d5e-64ed-7ad3-c7f0-afba59e894bb"/>
+    <Object name="util_ugf_floor_set_c_floor_04x02x0025_a-008" type="Brush" guid="447fda70-7c08-c4d3-6eb3-94d085388f84"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-142" type="Brush" guid="4f6febec-7839-ead3-2cc5-b5ec57b93293"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-331" type="Brush" guid="470d7ebf-d99b-52d4-1ab2-1bc51c3645b9"/>
+    <Object name="Group-VatTube-027" type="Group" guid="47f7d177-2a16-6dd4-f45f-f7e37e8a398f"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-141" type="Brush" guid="41b2126c-cce4-0dd5-b6d1-b57cb6e6a2b9"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-187" type="Brush" guid="4b7c1ced-122a-e3d5-f763-152fa48a5088"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-346" type="Brush" guid="4afb6e10-e735-abd6-384a-dc87505862a4"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-174" type="Brush" guid="4c3d3e2a-c5e5-d0d7-c0de-4bc337c7fa87"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-119" type="Brush" guid="4206821b-76ae-38d8-5c7b-80283f1feeb9"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-053" type="Brush" guid="4b4f27e2-5d61-abd8-25e5-1bc262dabb95"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-159" type="Brush" guid="4bfcdd21-80a0-49d9-99d1-852bc7f2c29a"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-344" type="Brush" guid="4913667e-d24c-08da-748f-06a779191bbd"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-031" type="Brush" guid="487fc2a6-5f32-79da-537c-24880203eea5"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-177" type="Brush" guid="4c607704-405a-dbda-73d6-7adcfa355d9f"/>
+    <Object name="ext_stair_straight_04x02x01_a-043" type="Brush" guid="47b3c4f5-492f-8adb-b1dd-80dc437bc0ac"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-148" type="Brush" guid="4b047bb1-fa51-aedb-4094-4e692e7d59b4"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-006" type="Brush" guid="4d1cc8e7-3616-0fdc-14c9-5d4a4312889f"/>
+    <Object name="util_ugf_floor_set_c_floor_04x01x0025_a-013" type="Brush" guid="417f9ea6-9bdc-6adc-5d2e-c04daa38cdbf"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-168" type="Brush" guid="48431bfa-9a31-f8dc-1256-3034ceccd4a9"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-348" type="Brush" guid="4c450b6c-bbd2-27dd-22d9-28334f758a97"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_10m_a-011" type="Brush" guid="4b68f62f-5076-3add-c804-f5598007a691"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_8m_a-002" type="Brush" guid="4cf749b2-4494-54dd-3e3b-4adda2da4792"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-243" type="Brush" guid="491fbcf6-6ec4-aadd-7962-74f62f133bb2"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-157" type="Brush" guid="4083fcea-dff0-e5dd-cca8-ed47e6278383"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-181" type="Brush" guid="46113aef-af29-b2df-bf6d-3086236d7686"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-250" type="Brush" guid="4d50be5b-2c65-c2e0-1736-0ea9185995a9"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_4m_a" type="Brush" guid="422dcca0-912e-c5e0-6bc1-7f49fdbcc8bc"/>
+    <Object name="util_ugf_trim_set_i_trim_straight_06m_a-001" type="Brush" guid="45824a58-c3c9-23e1-3025-ee60a14e8ebd"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-036" type="Brush" guid="485520fe-8d50-68e1-d228-cce65d9828a0"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-248" type="Brush" guid="427e63f7-ba94-c5e1-ef3e-efed9488759e"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-133" type="Brush" guid="4be74513-9438-6fe2-08c5-2bc0bbad2bab"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-309" type="Brush" guid="4e4f32d4-522d-92e2-20ca-78ca510377aa"/>
+    <Object name="util_ugf_floor_set_c_floor_08x02x0025_a-002" type="Brush" guid="40130020-04f1-36e3-f1c6-3fd12b432cbd"/>
+    <Object name="util_ugf_floor_set_c_floor_04x02x0025_a-005" type="Brush" guid="437cd67f-8859-49e3-b463-89a0c02fa28f"/>
+    <Object name="util_ugf_wall_set_f_wall_corner_in_1m_a-003" type="Brush" guid="48f21eab-2bd1-4ae3-99c9-9036660bc1bb"/>
+    <Object name="util_ugf_wall_set_f_wall_transition_mid_4m_a" type="Brush" guid="4d439ba3-1ca8-f2e3-cbf4-191cf33051a4"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-213" type="Brush" guid="47839160-d478-fbe3-23ee-2bfcbf91de93"/>
+    <Object name="util_ugf_floor_set_c_floor_02x01x0025_a-001" type="Brush" guid="48650eb4-22f3-a5e4-8cd2-1c5e93a3719c"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-110" type="Brush" guid="4ca16fa9-09d6-e0e4-881f-7dde298070a9"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-111" type="Brush" guid="4d88e63b-878b-94e5-c344-812023ba1495"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-138" type="Brush" guid="4a5da737-0176-cee5-44c5-baaf8b29caa3"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-075" type="Brush" guid="4727674c-4231-f4e5-eda2-6b4acf95f498"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-085" type="Brush" guid="4ba7a6a6-de98-5de6-bdc4-aaeaa4701995"/>
+    <Object name="util_ugf_floor_set_c_floor_04x01x0025_a-002" type="Brush" guid="47086f4e-75f0-2be7-11d9-928ef774fca7"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_10m_a-003" type="Brush" guid="4d45a47f-92be-8be8-3c08-593e0dda3a8e"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-117" type="Brush" guid="4bab2213-1dbd-dce8-4c3a-a653db2cc59a"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-103" type="Brush" guid="443221c3-1a06-07e9-c0ae-a2da9e43d981"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-040" type="Brush" guid="48edc141-b885-27e9-e8c6-ac52a5224d8b"/>
+    <Object name="Designer-11923" type="Designer" guid="4f22aa7f-1eee-65e9-d1e2-9f462fd99eaa"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-001" type="Brush" guid="4bf37d2f-ff8e-68e9-2473-03b7673fc09d"/>
+    <Object name="util_ugf_floor_set_c_floor_04x02x0025_a-012" type="Brush" guid="4556419d-6b6c-c4e9-5bd7-60db7e607ba4"/>
+    <Object name="util_ugf_wall_set_f_wall_corner_in_1m_a-001" type="Brush" guid="459c2415-49ae-f0e9-d286-7b0c992b9cb1"/>
+    <Object name="util_ugf_floor_set_c_floor_08x03x0025_a-001" type="Brush" guid="4c8a93c2-bc47-09ea-93a8-743f14ed81a6"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_3m_a-006" type="Brush" guid="42a0dc2e-5918-d1ea-70b8-fa38922618bf"/>
+    <Object name="util_ugf_floor_set_c_floor_08x02x0025_a-010" type="Brush" guid="491a4242-7b29-67ec-31bb-7f47ac7a089e"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_8m_a-001" type="Brush" guid="45e8a815-ca98-8aec-bed3-bbf00d5e6b8a"/>
+    <Object name="util_ugf_wall_set_f_wall_straight_8m_a" type="Brush" guid="42298b05-3821-0fed-1a29-2c77e5c1cb9d"/>
+    <Object name="util_ugf_floor_set_c_floor_02x01x0025_a" type="Brush" guid="48c98727-9588-24ed-8e10-f7b4dc508dad"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-057" type="Brush" guid="4665171c-889d-e9ee-0cd3-0bc4440af6ac"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-023" type="Brush" guid="44c86a77-3b33-1aef-43f7-6e5fb64b50b9"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-032" type="Brush" guid="49d22175-649e-90ef-a4be-f870dc390aba"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-253" type="Brush" guid="4e503a25-851d-b4ef-ee4b-0a5b431011b4"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-030" type="Brush" guid="4051bae4-d94d-3cf0-0d04-1bbb484ce084"/>
+    <Object name="util_ugf_trim_set_i_trim_straight_08m_a" type="Brush" guid="4a5be681-ceb8-a6f1-0c4f-2e95009d2391"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-109" type="Brush" guid="422a45f2-b36a-e6f1-5a8a-296e9f9ae181"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-167" type="Brush" guid="440a1015-1eb2-02f2-4066-1e354e9810a5"/>
+    <Object name="util_ugf_trim_set_i_trim_straight_08m_a-002" type="Brush" guid="44ae8a65-0907-39f2-a9df-ca0f9bc3d691"/>
+    <Object name="util_ugf_floor_set_c_floor_04x02x0025_a-007" type="Brush" guid="4bc3077d-2cb9-84f2-e557-71c5e4e59ca9"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-020" type="Brush" guid="4e8f5916-3495-86f2-1ece-f0d4eeae939d"/>
+    <Object name="util_ugf_floor_set_c_floor_08x02x0025_a-009" type="Brush" guid="4064d656-1b92-98f3-110d-fa200ee5bc90"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-016" type="Brush" guid="4bc42028-7669-f0f4-74e7-51b22c80d49e"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-267" type="Brush" guid="4b5d61ec-9fbc-48f5-76dc-3672e6409fa8"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-019" type="Brush" guid="44830299-c2d7-71f5-001d-ee4bd948a7ab"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-251" type="Brush" guid="4df25be3-0dca-dbf5-0cbe-a78bfe9548bc"/>
+    <Object name="Designer-11921" type="Designer" guid="49134ab2-03bb-14f7-41c2-29a6b9fe828c"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-062" type="Brush" guid="4d93a6d6-d2ee-40f7-13e6-cb136ad15788"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-104" type="Brush" guid="475eac0a-bc9d-86f7-5873-0de99cd50886"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-092" type="Brush" guid="4a07fc2f-0d7b-c7f7-0ee7-6306c422e2a4"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-026" type="Brush" guid="47b9a6a8-68e8-95f8-6c20-2e01d247faba"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-272" type="Brush" guid="4fe7b3b2-f5fd-c0f8-c9f5-aeb6b4cc08a7"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-144" type="Brush" guid="40cb85ec-6e42-4afa-0997-ac145525ac9f"/>
+    <Object name="util_ugf_trim_set_i_trim_straight_08m_a-004" type="Brush" guid="4f9fa5a8-bbbc-befa-cdaf-ba0ee374e6ad"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-102" type="Brush" guid="46652721-b1b8-d4fa-5354-fe2ec2e86cad"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-047" type="Brush" guid="43f28a67-9146-fefa-22fe-015187bccb84"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-186" type="Brush" guid="44f6ba35-576d-60fb-ca75-9b3aa617a7bc"/>
+    <Object name="util_ugf_floor_set_c_floor_04x02x0025_a-002" type="Brush" guid="468d3f7a-511c-f8fc-2825-a058e7cbbbb1"/>
+    <Object name="util_ugf_trim_set_i_trim_straight_08m_a-005" type="Brush" guid="4f4c6875-f9d2-36fe-f101-1a77ce677ba6"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-116" type="Brush" guid="4d1a2b2c-f91c-5bfe-32e6-2b82d517f0bf"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-072" type="Brush" guid="4efaf609-2d6b-d6fe-b8d7-ca92cd9ff990"/>
+    <Object name="util_ugf_floor_set_c_floor_10x08x0025_a-007" type="Brush" guid="4bb73489-794d-e1fe-ebd4-8a7fc49d0f95"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-191" type="Brush" guid="4c865819-f938-fafe-1710-ca3577248ab6"/>
+    <Object name="util_ugf_wall_set_g_wall_connector_10m_a-354" type="Brush" guid="4de402d3-0e76-86ff-98d0-2af54e6f5287"/>
+   </Layer>
+   <Layer name="gp" layerHash="1163205684" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/gp.lyr"/>
+   <Layer name="light" layerHash="3276933535" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/light.lyr">
+    <Object name="lamp_desk_1_sun-lght_a228" type="Brush" guid="4ff97ff4-a332-5b01-28fd-df59374d83ae"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_018" type="EnvironmentLight" guid="47a743c8-7891-7201-fa40-c4ab26f46182" tags=""/>
+    <Object name="scale_ref_walk_a-003" type="Brush" guid="4c982c06-4bd3-9a01-6017-f66ab84f5da0"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_013" type="Light" guid="4cdc21ab-8227-6902-7bf2-d8e808c9f3bc" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a170" type="Brush" guid="4a99cf30-6faa-d102-fe19-5a9515a7ef85"/>
+    <Object name="lamp_desk_1_sun-lght_a230" type="Brush" guid="4e6ac402-b313-7303-a466-488fb22b9485"/>
+    <Object name="lb_asd_science_int_jorrits_lab_002" type="LightBox" guid="426ed5a8-364a-0404-45e1-f044076f688e" tags=""/>
+    <Object name="ab_asd_science_int_jorrits_lab_006" type="AreaBox" guid="4ec111fc-59ff-3805-09a2-3aabc748bd91" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_indicator_bnc_1000k_003" type="Light" guid="47e47ab3-8d24-cb06-d72a-2612b38e4398" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a198" type="Brush" guid="42b50a27-77c5-e408-604e-c2d53dfbb3b9"/>
+    <Object name="lamp_desk_1_sun-lght_a171" type="Brush" guid="46acd7b4-fd77-8a09-56b5-db5a43c59db9"/>
+    <Object name="lt_asd_science_int_jorrits_lab_ceiling_glw_#d6f1ff_002" type="Light" guid="40251e89-af27-cc09-f81f-06d6073674be" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4349" type="Light" guid="4398d258-b3f1-530a-7e9c-13879772fe92" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_stair_bnc_#ffe7b9_001" type="Light" guid="40418656-4e29-910b-1b25-1f7fbffe8291" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4303" type="Light" guid="424f5747-fd3b-c10c-1259-f14e92d5b8b0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_bnc_8500k_005" type="Light" guid="468c10f0-4f4a-c30d-d643-19edb78dab8d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4291" type="Light" guid="46ecdd8b-07ef-3c0e-9dff-63c72e4c12b2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_011" type="Light" guid="4e0c113c-775d-3d0e-7975-51b4c659de9f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4342" type="Light" guid="401d17b8-e4ec-e00e-d02b-28323a940cbe" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_ceiling_glw_#d6f1ff_008" type="Light" guid="436ab89c-fb0d-2511-fcee-decd560395bc" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_013" type="EnvironmentLight" guid="47e92629-5dc7-8f11-f395-cb49aa396389" tags=""/>
+    <Object name="Light-4345" type="Light" guid="45466fee-7ea7-9811-1154-2b1a340dbda9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="fv_asd_science_int_jorrits_lab_005" type="FogVolume" guid="4d134582-223f-a411-2255-f40e9a13c09f" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_ceiling_glw_#d6f1ff_007" type="Light" guid="45dd4dfe-0ba5-c711-2f9e-76b75f752eb1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a231" type="Brush" guid="4c005551-74da-ae13-33e7-40b159825d92"/>
+    <Object name="Light-4344" type="Light" guid="460de51e-7dde-b213-71ac-7d81152f5694" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_indicator_bnc_1000k_008" type="Light" guid="4219a6ec-b20f-8515-d2c4-cc8364b76abe" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lb_asd_science_int_jorrits_lab_001" type="LightBox" guid="4a3fb16c-d9fc-2e16-e192-54fef4ae879f" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_ceiling_key_#91daff_001" type="Light" guid="4cef4a18-f7b3-3816-9d0e-355b5b4264be" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lb_asd_science_int_jorrits_lab_003" type="LightBox" guid="4abcefca-fe43-0118-a906-763a601f2db4" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_002" type="Light" guid="4f993be5-411f-2c19-bc52-0cde6a3f709e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a187" type="Brush" guid="4a0479c0-eb3c-291a-a3a1-eb78a606c79f"/>
+    <Object name="scale_ref_guard_a-003" type="Brush" guid="4950c3a6-ccf8-711a-fa65-22ebee86dab4"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_004" type="Light" guid="475752a7-936c-af1a-33fd-66982974439c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_logo_8000k_004" type="Light" guid="44634afd-b5ca-3e1b-660e-cc269bd988a6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_018" type="Light" guid="455f2c04-c1eb-611c-f3b0-d73e21e43f8c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_logo_8000k_003" type="Light" guid="42ec5188-66cd-8a1c-82b8-53fa13dfd7ab" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_013" type="Light" guid="4e3f1ea8-248c-a01c-0f61-5dfc5da478a0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lb_asd_science_int_jorrits_lab_006" type="LightBox" guid="43007c76-6cc1-b71c-70ad-f2e022ee7f96" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_wall_spc_6000k_001" type="Light" guid="410c6ec7-5deb-041f-53e2-9564a99af4ab" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_014" type="EnvironmentLight" guid="4cf3cf7e-07cb-2f20-bd7e-aa8a637b259c" tags=""/>
+    <Object name="lamp_desk_1_sun-lght_a165" type="Brush" guid="447c2817-3927-d121-33fe-a1608d38f8b8"/>
+    <Object name="Light-4304" type="Light" guid="44a82035-c714-d621-6e9f-00d50b39398b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a180" type="Brush" guid="4aac0e67-fc71-7b23-2216-6eb401636cb2"/>
+    <Object name="lt_asd_science_int_jorrits_lab_logo_8000k_002" type="Light" guid="421e843d-a859-6b24-8ee1-ff9d494a80b1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="fv_asd_science_int_jorrits_lab_008" type="FogVolume" guid="4ab94143-a6f1-dd24-993b-c98704219bae" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_wall_spc_6000k_002" type="Light" guid="4de7b7c0-6c76-2125-5a53-1f1fa89183be" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_stair_bnc_#ffe7b9_002" type="Light" guid="41c85e3e-ccd0-fa25-485a-3056aed792a0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_002" type="EnvironmentLight" guid="4844223e-e54a-4526-926d-d71f1e21e488" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_bnc_8500k_008" type="Light" guid="4af80e45-cfb4-2c27-7bd3-ae16eeb292b2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="scale_ref_pda_a-002" type="Brush" guid="441d64b9-269a-e428-c18c-d427ee2bfe93"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_020" type="Light" guid="48fbfd7e-00e0-e02b-1c6d-0e5c4e0a2fa8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4343" type="Light" guid="4320e522-525d-692c-dc0f-67c9b4dd0ca8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a174" type="Brush" guid="4bd9fbc8-88fc-c02c-e873-0ca3bd5f5d98"/>
+    <Object name="Light-4292" type="Light" guid="4b45c2b6-b61a-a12d-8158-3211fdf8c1ac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="l_ind_rfn_standing_bnce-024" type="Light" guid="41f7e1b8-e38e-c82d-ed7e-15231fd67895" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_logo_8000k_001" type="Light" guid="4e64bbea-81f3-e72d-0931-345978ca018b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_indicator_bnc_1000k_004" type="Light" guid="477f50d7-2790-6d2e-acb1-d9344837709c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a215" type="Brush" guid="4c490f31-2a51-b82e-da32-6674f0c144b9"/>
+    <Object name="lt_asd_science_int_jorrits_lab_ceiling_glw_#d6f1ff_004" type="Light" guid="41e7a36d-3426-122f-dfa9-21f559a988bd" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_001" type="Light" guid="4fd28020-8ee9-5c2f-7b76-415cc9db17b4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a219" type="Brush" guid="43ef4197-a0ed-9832-6f0e-cbe238a92985"/>
+    <Object name="lamp_desk_1_sun-lght_a221" type="Brush" guid="4c2c559d-8421-cb33-9cdb-5ffdfed710a8"/>
+    <Object name="lamp_desk_1_sun-lght_a184" type="Brush" guid="437f6207-45ea-0734-ca8c-8cfb34b04c90"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_bnc_8500k_001" type="Light" guid="46ca0473-d8f7-9234-818d-8c9e3c47b4ad" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4335" type="Light" guid="4f31cfa1-b931-bd35-f10e-a6f6f2f205a9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a166" type="Brush" guid="4bd420e2-9d4f-5436-eb78-8ed85ceacd83"/>
+    <Object name="scale_ref_pda_a-001" type="Brush" guid="41600d6f-5eb1-9136-78cb-1c931e3e2fa9"/>
+    <Object name="scale_ref_guard_a-002" type="Brush" guid="407bb240-1d2d-d336-e945-6a764735039e"/>
+    <Object name="lamp_desk_1_sun-lght_a209" type="Brush" guid="48081618-a30d-1838-89b2-52137525c39a"/>
+    <Object name="lamp_desk_1_sun-lght_a182" type="Brush" guid="43e899cd-3406-5239-ba52-02c87b794f97"/>
+    <Object name="lamp_desk_1_sun-lght_a204" type="Brush" guid="4ea464ae-c035-9439-691b-c2380e7eada2"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_bnc_8500k_003" type="Light" guid="40537f93-6cb8-b539-280d-74ae72087bae" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_014" type="Light" guid="4e0460ae-76c0-bb39-4871-9b9abb580293" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_wall_bnc_6000k_001" type="Light" guid="478d0673-8e4c-853b-e7be-0c1f69e5aa94" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_logo_8000k_005" type="Light" guid="480e416d-9f15-b93b-aa71-ab846ea43b96" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_010" type="EnvironmentLight" guid="4345bdad-0bf2-483c-73bd-47de44fa1088" tags=""/>
+    <Object name="scale_ref_walk_b-008" type="Brush" guid="4b23d374-c0c2-073d-2729-391d519bf690"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_016" type="EnvironmentLight" guid="42ce94c2-52a7-533e-ed17-7aead965a2bf" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_010" type="Light" guid="4c46d2db-26f2-ea3f-e841-fb9808e5d6a2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_005" type="Light" guid="4f8da824-8431-9840-56ed-92b595cd59a5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="fv_asd_science_int_jorrits_lab_003" type="FogVolume" guid="4df73739-1d27-4641-0641-0e4183390a88" tags=""/>
+    <Object name="scale_ref_guard_a-004" type="Brush" guid="4531ae8e-c9be-dd41-3bba-99561b7657b6"/>
+    <Object name="lamp_desk_1_sun-lght_a163" type="Brush" guid="4e7308ca-3337-7c42-dd9d-57e82d3e09ac"/>
+    <Object name="fv_asd_science_int_jorrits_lab_002" type="FogVolume" guid="42969e85-187e-8745-5b4b-808c2b2024b4" tags=""/>
+    <Object name="lamp_desk_1_sun-lght_a186" type="Brush" guid="4af0a284-e55a-ba45-96f6-3390304424b9"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_bnc_8500k_007" type="Light" guid="496e95e0-4b42-fa45-60a5-096f50bf6ab4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a197" type="Brush" guid="4ad65096-528a-7446-ffe2-1bc0d5de39a2"/>
+    <Object name="lamp_desk_1_sun-lght_a173" type="Brush" guid="459fa7fa-6c62-7846-2664-d4d2ab29b18f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_spc_1000k_006" type="Light" guid="476c1acf-6560-1c48-d265-9877db06c69d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4355" type="Light" guid="4332dae8-6e12-3c48-82bd-bd67c8765b8e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4333" type="Light" guid="43addb8f-c6ec-f449-9dc6-0961bbe31da4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a185" type="Brush" guid="4a4c700d-de5d-e64a-bf62-838391fca3a9"/>
+    <Object name="lt_asd_science_int_jorrits_lab_logo_8000k_010" type="Light" guid="41da031d-bb66-224e-7aec-68dd055420a9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a210" type="Brush" guid="4ac0160d-86fd-ca4e-0e4f-31d3fabcabba"/>
+    <Object name="lt_asd_science_int_jorrits_lab_logo_8000k_006" type="Light" guid="49081e4a-451a-184f-3f62-3b5f001e95a4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="ab_asd_science_int_jorrits_lab_002" type="AreaBox" guid="45382a19-6ed9-0852-5af3-1852455f879b" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_004" type="Light" guid="430c6ca8-c9e1-3456-0add-5a54fb8e568d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lg_asd_science_int_jorrits_lab_001" type="LightGroup" guid="4cb975e6-8c3b-5a59-f1cf-337be7a3e3a2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,60cc8ca1-8927-4e92-af99-9cd367e0595c,5b803369-07d1-470f-996a-9372ca50e617,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_001" type="Light" guid="498b7858-6b94-ad5d-8250-f4c09f409ab4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a213" type="Brush" guid="471ce177-e5da-a65e-1162-e8ca039b279f"/>
+    <Object name="lamp_desk_1_sun-lght_a159" type="Brush" guid="450e4e61-3ac6-e55e-4158-8878fe1ea597"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_spc_1000k_001" type="Light" guid="49905a4e-c9a9-f85e-8207-03fdf3e4d799" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4289" type="Light" guid="4bb49864-e4c0-1160-fa36-f3762837fa9d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a175" type="Brush" guid="4f399f25-9147-f962-80f6-d82993c8cb99"/>
+    <Object name="Light-4298" type="Light" guid="424701ad-7822-4964-73a3-e3ea97a6b48c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4353" type="Light" guid="4541bde8-28cc-9064-2ad1-bcb9fee019ba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="fv_asd_science_int_jorrits_lab_001" type="FogVolume" guid="4f4e5cd7-0dc9-f764-058a-71e78b0caeaa" tags=""/>
+    <Object name="lamp_desk_1_sun-lght_a183" type="Brush" guid="4eead0f3-5d99-3365-0df9-51868c7c5b87"/>
+    <Object name="lamp_desk_1_sun-lght_a158" type="Brush" guid="4d2e8298-2e16-ed67-ec14-2b7cebe6e68b"/>
+    <Object name="ab_asd_science_int_jorrits_lab_001" type="AreaBox" guid="47e4f0d0-c6c6-0568-ed41-58422fe88088" tags=""/>
+    <Object name="fv_asd_science_int_jorrits_lab_009" type="FogVolume" guid="46577590-463f-a069-1373-0a4113ddf4b9" tags=""/>
+    <Object name="lb_asd_science_int_jorrits_lab_004" type="LightBox" guid="41717c25-c07b-d469-2ead-0d14399d24ba" tags=""/>
+    <Object name="lamp_desk_1_sun-lght_a169" type="Brush" guid="4e5ce5e5-8112-666a-4b70-362691fb348e"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_bnc_8500k_002" type="Light" guid="4c9ef7d9-85cc-c56a-f293-46c007c12eb5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_009" type="Light" guid="4561cab5-920e-166b-586a-480225bc5395" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="scale_ref_guard_a-001" type="Brush" guid="4c70df3e-7f2a-756c-cc3a-d51715cec994"/>
+    <Object name="ab_asd_science_int_jorrits_lab_004" type="AreaBox" guid="4ba9bc88-ada6-116e-3776-0aab271fcb9e" tags=""/>
+    <Object name="ab_asd_science_int_jorrits_lab_007" type="AreaBox" guid="4b8b0b8f-3ef5-0e6f-ea9d-40fdf33f7995" tags=""/>
+    <Object name="lamp_desk_1_sun-lght_a177" type="Brush" guid="4c1ee040-4451-3770-b5b7-572fc57ecaa0"/>
+    <Object name="lt_asd_science_int_jorrits_lab_ceiling_glw_#d6f1ff_011" type="Light" guid="45aa7c7f-3f64-ed70-c999-d8cfc4d4f08e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_005" type="Light" guid="444d1f70-3ff3-5571-8ec6-f6700937eda3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_ceiling_glw_#d6f1ff_003" type="Light" guid="435bc35f-1c77-2173-2f04-6841cc202d9c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_bnc_8500k_006" type="Light" guid="469f792e-9a42-6776-c57a-30b7ff9af0bc" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="fv_asd_science_int_jorrits_lab_006" type="FogVolume" guid="4890e79c-a47a-df76-790b-39c3072c8f80" tags=""/>
+    <Object name="lamp_desk_1_sun-lght_a227" type="Brush" guid="4f882f36-2a67-2b77-8ab2-2502d949a488"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_015" type="EnvironmentLight" guid="482bc5b7-6614-d778-1289-20108ed326ac" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_logo_8000k_008" type="Light" guid="414e6432-a975-a67b-5650-237c6e442387" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_011" type="EnvironmentLight" guid="4caeeb74-ab2d-c87f-2f73-e5e1c8b45ebb" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_006" type="Light" guid="4f230958-3d8c-0380-f63a-f9d52475e2a1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_007" type="EnvironmentLight" guid="47b9ef64-dccf-a181-325b-487ceb0bdf8b" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_indicator_bnc_1000k_010" type="Light" guid="4304b7e6-d428-4b82-1264-97a21da23295" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_019" type="Light" guid="4c68472d-b5f4-7d82-a413-0c0e8051eebf" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a217" type="Brush" guid="4ffef6de-1296-f482-5b28-950b0ac7678e"/>
+    <Object name="scale_ref_walk_b-009" type="Brush" guid="4c633bdb-6a2a-8c83-2398-2bebfa09aaa8"/>
+    <Object name="lamp_desk_1_sun-lght_a162" type="Brush" guid="405c90c0-b9e7-2d84-7e83-5233b290f8bf"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_023" type="Light" guid="4fe94d4c-69cb-1886-21fd-bb79fcc6da97" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4347" type="Light" guid="42fd6745-3dbf-3b89-207b-51ad7d7d7892" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_ceiling_fog_#91daff_001" type="Light" guid="4cacfe1b-58fc-4a8a-bd21-cee1012029b5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4356" type="Light" guid="48319a16-7281-ad8a-6455-811a3e2964ab" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_003" type="EnvironmentLight" guid="4bab11c5-494b-1d8c-56f6-510ab7b689a4" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_logo_8000k_007" type="Light" guid="4b94e9cf-34e7-048d-e46a-6faa20d8e787" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4338" type="Light" guid="4b28ff7a-512c-b88d-2192-fe1d9917d29b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_indicator_bnc_1000k_009" type="Light" guid="44465037-a764-1a8e-5f55-14692851f597" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4294" type="Light" guid="4b29cbf2-bcac-318e-5ec0-fa2c13c840a4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_ceiling_glw_#d6f1ff_006" type="Light" guid="41720d62-4d34-8b8e-e900-37e971aa1e81" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_015" type="Light" guid="45fdd478-347d-868f-69af-eacd046f8395" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_009" type="Light" guid="470ae0d4-664c-bf90-9152-89e40a18569c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4346" type="Light" guid="4cc50141-b0cf-8f91-14c7-8c3d030ac783" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_spc_1000k_004" type="Light" guid="4dbe2ae2-b4aa-9391-9ce4-3291a1635695" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lb_asd_science_int_jorrits_lab_009" type="LightBox" guid="4d069a0e-1098-b991-dae6-645f7674ea87" tags=""/>
+    <Object name="lamp_desk_1_sun-lght_a226" type="Brush" guid="49a1d00a-6ea9-5492-22db-1f1a66a7d2ad"/>
+    <Object name="Light-4366" type="Light" guid="4a92df62-6a77-d993-0585-5940205259ac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lb_asd_science_int_jorrits_lab_005" type="LightBox" guid="440215b6-e594-de95-3b75-b40da4d3f69a" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_ceiling_fill_#91daff_001" type="Light" guid="48621f54-650c-6296-f12a-500bde981eb6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4337" type="Light" guid="44865a3b-4bc1-0a98-0807-0c71b6bd6f93" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="scale_ref_guard_a-005" type="Brush" guid="4dd39058-821d-6598-7b8c-ead236d6c599"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_bnc_8500k_004" type="Light" guid="436006be-b24b-7a98-e810-89b6b8fcbe99" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="scale_ref_railing_lean_a-001" type="Brush" guid="4ce0dfb1-9103-c898-1464-ecc13e01f598"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_007" type="Light" guid="47c7a7db-793c-4f99-a65b-b4c63504ae8c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_spc_1000k_003" type="Light" guid="4e450673-d9c8-a79a-5c4a-1646037f4180" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="scale_ref_stand_a-007" type="Brush" guid="4f94f049-b663-f29a-04d5-910c25c4b7ab"/>
+    <Object name="lamp_desk_1_sun-lght_a160" type="Brush" guid="44686308-2da0-df9b-9176-3e8086bf539e"/>
+    <Object name="lamp_desk_1_sun-lght_a161" type="Brush" guid="4b1b7eaa-dfde-a89c-205d-f6bfd5d6b9a4"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_017" type="Light" guid="4289e32f-f328-9b9d-e139-22eefdd885af" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="scale_ref_guard_a-006" type="Brush" guid="4c6ac470-8486-e89d-afe7-a166313c3887"/>
+    <Object name="lt_asd_science_int_jorrits_lab_indicator_bnc_1000k_002" type="Light" guid="41fd86a0-6675-a19f-853e-bcbb98451dbe" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a172" type="Brush" guid="4a90abcf-f247-c89f-d700-dbd40d9178bf"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_bnc_8500k_010" type="Light" guid="4218d2d6-d473-1fa2-fded-3a8d723b9494" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_indicator_bnc_1000k_011" type="Light" guid="40b023b6-7bdb-eba2-5322-304577f56c9a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_012" type="Light" guid="440600a0-bf2d-49a3-c729-697f459f48aa" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a181" type="Brush" guid="485d17f7-f175-eaa3-6fe6-2b75c3d2fe82"/>
+    <Object name="lt_asd_science_int_jorrits_lab_ceiling_glw_#d6f1ff_009" type="Light" guid="4924fb2e-fb68-3da4-6711-a86c104834a0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lb_asd_science_int_jorrits_lab_008" type="LightBox" guid="42b1cd71-2e27-5ea6-c829-70e6d347c9b5" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_indicator_bnc_1000k_006" type="Light" guid="46e498e1-4d78-7fa6-f776-6bfc383ce1b6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a225" type="Brush" guid="4a4f6232-c69f-02a8-5d20-80611fdb9980"/>
+    <Object name="Light-4332" type="Light" guid="4f5b6bc5-041e-5aa8-4832-7b9266057dab" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_spc_1000k_005" type="Light" guid="41869c82-0f3b-93a8-7f65-0d52a33a96aa" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a168" type="Brush" guid="4cc51e13-3c48-7ca9-bae9-b1c0614b8e80"/>
+    <Object name="fv_asd_science_int_jorrits_lab_007" type="FogVolume" guid="4632134f-3e76-1aaa-3524-a6fa0e107c8e" tags=""/>
+    <Object name="lamp_desk_1_sun-lght_a167" type="Brush" guid="444ffda9-d5cc-a1ab-a375-e88150b4b3a3"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_008" type="Light" guid="4441d147-68ea-f1ac-0759-af13eb8a07b3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="scale_ref_walk_a-004" type="Brush" guid="4bc45079-4b7f-daad-89b0-1e4720aadb8e"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_009" type="EnvironmentLight" guid="4d5c2fcd-a84b-e9ae-0b0a-05e9e1db42b1" tags=""/>
+    <Object name="lamp_desk_1_sun-lght_a212" type="Brush" guid="4feffad7-6587-f6af-dbfd-f678e985c3b0"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_003" type="Light" guid="43be81ba-8df6-58b2-e540-38e609d8fcb0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_004" type="EnvironmentLight" guid="4016b707-8d89-47b4-c943-35986df12087" tags=""/>
+    <Object name="Light-4348" type="Light" guid="4702739c-d255-b1b5-1d91-e4e50f51f693" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_006" type="EnvironmentLight" guid="404f02d7-d9e0-f2b8-795a-893ecf78a082" tags=""/>
+    <Object name="ab_asd_science_int_jorrits_lab_003" type="AreaBox" guid="4d040ddb-d05f-0db9-fa1d-8b7908e767a4" tags=""/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_005" type="EnvironmentLight" guid="45c3173f-1409-93b9-7060-f2d8d36e8fb2" tags=""/>
+    <Object name="lamp_desk_1_sun-lght_a223" type="Brush" guid="49adbd7e-4786-14ba-91d3-52955c0ff1ac"/>
+    <Object name="lamp_desk_1_sun-lght_a216" type="Brush" guid="4fd7a5b0-715f-4bba-111b-a381b9a105a1"/>
+    <Object name="lt_asd_science_int_jorrits_lab_indicator_bnc_1000k_005" type="Light" guid="4741bdf1-a021-19bb-61b2-8385c2e4ab93" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="ab_asd_science_int_jorrits_lab_005" type="AreaBox" guid="4e25db96-6173-78bb-0af6-7793b8f2cb87" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_012" type="Light" guid="42b34f5b-d2c4-eebb-4adf-311377f652ba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4331" type="Light" guid="48c4ee81-85a3-94bd-263d-fbc78e8891bf" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4336" type="Light" guid="4bac7c48-879e-01bf-1380-bb8a07f51ea8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_002" type="Light" guid="44c70ba6-8068-1ac1-97e8-90f0fa8dcfb7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="fv_asd_science_int_jorrits_lab_004" type="FogVolume" guid="44f39de5-12a5-1ac1-e6b6-a69a5b485c8d" tags=""/>
+    <Object name="Light-4365" type="Light" guid="497f5962-4f8a-77c1-a04e-a6919c8224a4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_001" type="EnvironmentLight" guid="47a83617-4d3f-edc1-1746-05ecca90fc99" tags=""/>
+    <Object name="lamp_desk_1_sun-lght_a199" type="Brush" guid="4f6b7c02-0952-10c2-a689-064347c1109a"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_016" type="Light" guid="420a614d-317e-1dc2-b38d-c6f1edcc969a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_spc_1000k_002" type="Light" guid="4f83c944-a2f4-89c2-36fc-527c041ea2a2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_008" type="Light" guid="4710d315-9904-6cc4-6c8b-f1b0c1bc3282" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a229" type="Brush" guid="4ede7207-0932-dec5-68f0-ea65ebc15694"/>
+    <Object name="Light-4334" type="Light" guid="4fdef4ea-d2a9-99c7-442f-9116213d519d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lb_asd_science_int_jorrits_lab_007" type="LightBox" guid="44bd4a97-940f-08c9-0eb0-dca22f6cbeac" tags=""/>
+    <Object name="lamp_desk_1_sun-lght_a164" type="Brush" guid="489b223a-64b9-8bca-3258-679d9c18c3b2"/>
+    <Object name="lamp_desk_1_sun-lght_a211" type="Brush" guid="45332a92-5a6a-b7cb-b75d-dc2b9f79bd89"/>
+    <Object name="Light-4299" type="Light" guid="41223653-de3c-6acc-c550-8a2269efefab" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4290" type="Light" guid="4583d9f4-a95a-a9cd-dc45-69a626b293b0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a214" type="Brush" guid="40393495-3b09-d4cd-da19-3b422c9133a1"/>
+    <Object name="lamp_desk_1_sun-lght_a218" type="Brush" guid="4b136ccb-b03a-5fce-9cf0-364bab749388"/>
+    <Object name="lamp_desk_1_sun-lght_a188" type="Brush" guid="4c215bbb-5341-02d0-ad19-1a6ea7413ea4"/>
+    <Object name="lt_asd_science_int_jorrits_lab_indicator_bnc_1000k_007" type="Light" guid="4c08e144-30fb-5fd0-b77b-312fd8d9f7a2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_ceiling_glw_#d6f1ff_010" type="Light" guid="46167ea7-eccd-49d1-afcc-ad0f96cbc689" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_ceiling_glw_#d6f1ff_001" type="Light" guid="460defc1-9c1c-53d1-c0d8-0615565b0aab" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4302" type="Light" guid="45152fb4-f9a5-94d1-32a7-3f315174cfac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4301" type="Light" guid="42babaa0-6429-e3d2-4f7c-0eb41edf0b87" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4354" type="Light" guid="45853037-32f2-e7d2-d38b-0555070b8ca0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_006" type="Light" guid="41de8142-7ba0-15d4-12bd-5039ae6d8998" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a178" type="Brush" guid="43599d33-6617-b2d4-9d18-5d3455c89a81"/>
+    <Object name="l_ind_rfn_standing_bnce-023" type="Light" guid="4459f3f4-e11a-15d9-b595-380070d223b5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_logo_8000k_009" type="Light" guid="43a6ddb1-2fc3-abdb-0efc-673ad6257e8b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4339" type="Light" guid="4ec8dc62-01d2-06dc-2424-8e7528a1828b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4340" type="Light" guid="49b37937-5272-7edd-c433-7b715ef3699e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a176" type="Brush" guid="455eb263-99d0-56de-12c2-be63cfd11f9a"/>
+    <Object name="lamp_desk_1_sun-lght_a220" type="Brush" guid="4d5019f8-95fe-b5de-9251-0a0216a24fbd"/>
+    <Object name="Light-4293" type="Light" guid="45741f2e-0c00-0ce0-3664-37e660db689c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="scale_ref_walk_a-001" type="Brush" guid="430757f5-850d-0ce0-4c28-f92012b3e6a2"/>
+    <Object name="Light-4351" type="Light" guid="43cd21c1-9867-41e2-b1b5-caf185e5c898" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a224" type="Brush" guid="47ee6848-9ada-02e3-b496-34474881e9a9"/>
+    <Object name="Light-4350" type="Light" guid="40b27f9e-bd99-2de3-4eb2-65e8fe115b92" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="scale_ref_walk_a-006" type="Brush" guid="4e7dc8ce-088f-3fe7-9e62-0d3e7d86d88a"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_017" type="EnvironmentLight" guid="4a2f167d-7035-06e8-96d9-94ff9b05049b" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_acnt_bnc_1000k_007" type="Light" guid="48b6b276-8fb6-fceb-53c4-ee14f84847a2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_wall_bnc_6000k_002" type="Light" guid="4833b92e-ba09-40ec-aaf6-baf2c844dcb4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_012" type="EnvironmentLight" guid="4e69fa20-352b-d7ec-f799-19a1b8408da7" tags=""/>
+    <Object name="scale_ref_walk_a-005" type="Brush" guid="40d48db8-cc79-8ced-4edc-3726dfd53bb0"/>
+    <Object name="lamp_desk_1_sun-lght_a222" type="Brush" guid="4bbf6e2c-f19a-01ee-eb80-652159d42e91"/>
+    <Object name="lt_asd_science_int_jorrits_lab_indicator_bnc_1000k_001" type="Light" guid="4b3f942c-3cc9-35ef-d7b9-56bafc3f37af" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_010" type="Light" guid="45745351-7b66-8bf0-5704-a3f073ed15b3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="scale_ref_walk_a-007" type="Brush" guid="46b0b696-6c50-aaf4-34c7-adc03966adaa"/>
+    <Object name="Light-4341" type="Light" guid="44dcdbf5-62f5-e1f4-bbeb-0939fd379ab7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_003" type="Light" guid="4966aa3a-cda2-10f5-e30e-938ed8fc3db2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_015" type="Light" guid="41ad9eb3-5919-d6f5-ac3d-340c0bbbc6b9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4352" type="Light" guid="4df5c406-2be4-85f6-6569-9fb50b121480" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_indicator_bnc_1000k_012" type="Light" guid="41dbe704-355f-98f8-9c82-a083dbd8b9a4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_asd_science_int_jorrits_lab_ceiling_glw_#d6f1ff_005" type="Light" guid="46c11680-5ecf-8dfb-afdd-03bce76de984" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="cg_asd_science_int_jorrits_lab_001" type="ColorGradient" guid="4dbfee11-bd1f-a6fb-4dcf-96db5840d088" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_014" type="Light" guid="4c87fbdd-7d2c-4bfc-8be4-e2c899e34abc" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lamp_desk_1_sun-lght_a179" type="Brush" guid="49f924dd-1a7b-66fd-b53a-49c1b543e7a7"/>
+    <Object name="scale_ref_walk_a-002" type="Brush" guid="45136309-0b99-85fd-7646-4f6c95881b90"/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_bnc_8500k_009" type="Light" guid="410fe857-e51c-a3fe-1c39-09aff371ab8c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="cm_asd_science_int_jorrits_lab_bkd_008" type="EnvironmentLight" guid="4cbf72ae-856f-0bff-dab3-f9f400b24688" tags=""/>
+    <Object name="lt_asd_science_int_jorrits_lab_strip_glw_8500k_011" type="Light" guid="4a00f6de-d24c-94ff-54f3-1910680872ac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+   </Layer>
+   <Layer name="oc" layerHash="2064966505" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/oc.lyr"/>
+   <Layer name="proc" layerHash="247468190" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/proc.lyr"/>
+   <Layer name="prop" layerHash="1703491112" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/prop.lyr">
+    <Object name="crate_pirate_cluster_004" type="Brush" guid="4588a1f3-dcd8-7a0c-2e60-d5cf745fc898"/>
+    <Object name="crate_pirate_cluster_02" type="Brush" guid="4839c47e-375a-602a-d860-f8e4c02d2882"/>
+    <Object name="crate_pirate_1_closed_a-005" type="Brush" guid="4f023a1d-4a35-ae43-3ef5-7ae8ed3c7ca8"/>
+    <Object name="crate_pirate_1_closed_a-004" type="Brush" guid="4a2b8022-d5e7-505a-43f2-f95cff4b2293"/>
+    <Object name="trolley_mobile_1_a-001" type="Brush" guid="420302b3-d383-6264-33bf-08e03f35b0b9"/>
+    <Object name="trolley_mobile_1_a" type="Brush" guid="40395789-9d5b-4268-a1cc-ef4cd2d108b5"/>
+    <Object name="crate_pirate_cluster_003" type="Brush" guid="4ca7b1dc-2324-2a7e-b2b8-deea7e43ef91"/>
+    <Object name="crate_pirate_1_closed_a-006" type="Brush" guid="431973af-7db5-2ca5-4e81-d0eed1cc9b9a"/>
+    <Object name="crate_pirate_cluster_01" type="Brush" guid="46bd33bd-55be-bbfc-b51c-d828a7c9219b"/>
+   </Layer>
+   <Layer name="sfx" layerHash="3187925209" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/sfx.lyr"/>
+   <Layer name="sys" layerHash="2258507497" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/sys.lyr">
+    <Object name="AreaBox_Room-012" type="AreaBox" guid="4cb68f05-7118-cf04-5c9e-28195b4f75b2" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="AreaBox_Room-021" type="AreaBox" guid="4db1579c-28c2-550d-6c7f-b00953b8b0a5" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="AreaBox_Room-014" type="AreaBox" guid="4f021094-ac03-bc18-b5b0-20b8bf0ca89d" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="RoomConnector-009" type="RoomConnector" guid="41db626c-980e-bb1c-9edd-af493e7553ba" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="Room_jorrits_lab_001-003" type="Room" guid="4cfd5150-24af-1120-1915-404fda595e81" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+    <Object name="AreaBox_Room-018" type="AreaBox" guid="4e9a010b-8627-8523-69d6-6c7bec1d24bf" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="RoomConnector-006" type="RoomConnector" guid="4ee2fbff-3b63-992b-20c5-4cc13dad6fb3" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="RoomConnector-010" type="RoomConnector" guid="4894b6fc-f85a-622e-ea02-698afb30398a" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="Room_jorrits_lab_001-009" type="Room" guid="493d2efd-c554-8538-26fd-939fd2925886" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+    <Object name="Room_jorrits_lab_001-004" type="Room" guid="4c68b062-39c7-243c-ed1f-84707c3444b3" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+    <Object name="RoomConnector-001" type="RoomConnector" guid="4c618c64-07e7-6d3e-b46d-fa1cad0296b1" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="AreaBox_Room-022" type="AreaBox" guid="4c576589-f0a9-6944-5983-e13b38f9c9b6" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="Room_jorrits_lab_001-001" type="Room" guid="455571bb-c270-b94b-5215-00e911e6ff97" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+    <Object name="RoomConnector-004" type="RoomConnector" guid="42d207dc-ca10-a84d-61d6-47794acc429f" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="Room_jorrits_lab_001-006" type="Room" guid="4531ec7a-22fb-364e-a07a-fa952c7e8db5" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+    <Object name="AreaBox_Room-001" type="AreaBox" guid="4a3a5a5d-c7e9-9461-f073-cfe4d8b28084" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="RoomConnector-003" type="RoomConnector" guid="478375a5-a49b-4374-98bc-b6b16ecff3a4" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="AreaBox_Room-008" type="AreaBox" guid="4ac10fea-a74c-6289-4909-d6ed588ffc9b" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="AreaBox_Room-015" type="AreaBox" guid="47bb852a-0d65-2c8a-61e6-d8c1a5efeaab" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="AreaBox_Room-005" type="AreaBox" guid="4496e681-972a-db8d-dd62-e2059b064f84" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="RoomConnector-008" type="RoomConnector" guid="4188462a-ef17-638f-b636-f53eb853d186" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="RoomConnector" type="RoomConnector" guid="4e52906e-69f7-7191-1045-9941219942b5" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="Room_jorrits_lab_001-011" type="Room" guid="488695c9-1118-5993-4c84-b22ac5df1297" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+    <Object name="AreaBox_Room-025" type="AreaBox" guid="4056f324-f5aa-b79d-224e-f4fa2d235f89" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="AreaBox_Room-024" type="AreaBox" guid="44a2ead4-00a5-cdae-3131-c955c622a29f" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="AreaBox_Room-019" type="AreaBox" guid="45ea6178-4639-0cb3-08ad-743aa4a49b9a" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="AreaBox_Room-003" type="AreaBox" guid="41d3fbd0-40cd-aab4-410e-4cd717d796bd" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="AreaBox_Room-002" type="AreaBox" guid="48ec2553-d2e3-6ac1-392e-9f2b49b93c85" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="Room_jorrits_lab_001-005" type="Room" guid="4282c773-50c8-a2c2-0b5f-bf238b4ccab3" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+    <Object name="AreaBox_Room-016" type="AreaBox" guid="415d8a84-723a-d0c4-083b-2d9f641cdda0" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="Room_jorrits_lab_001-010" type="Room" guid="4bc1a991-dbc9-d3c4-bd76-b69852d9aa83" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+    <Object name="AreaBox_Room-013" type="AreaBox" guid="46de2047-561b-c3c5-b536-24c7f18e88a3" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="Room_jorrits_lab_001-007" type="Room" guid="43d423c7-6794-eac7-645d-57317b5a628f" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+    <Object name="AreaBox_Room-017" type="AreaBox" guid="464a4689-8acb-5bc8-44f3-b1cc967de39c" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="Room_jorrits_lab_001-002" type="Room" guid="4efc9026-d5f3-adcc-f24a-451a46f8b1a0" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+    <Object name="RoomConnector-002" type="RoomConnector" guid="43d84b1f-e72d-f3cd-db6a-5c3897a62ba9" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="AreaBox_Room-023" type="AreaBox" guid="4e0dc100-a037-27d4-d598-03e66dc1e49c" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="RoomConnector-007" type="RoomConnector" guid="49d162b3-2ad9-43d5-6845-53703619cba1" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="AreaBox_Room-009" type="AreaBox" guid="4344e3db-d4c0-83d5-07c2-4f1ad91db68f" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="AreaBox_Room-020" type="AreaBox" guid="4d2a9f12-8b4c-20dd-773a-59c3ed2f2191" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="Room_jorrits_lab_001-012" type="Room" guid="4a374e5f-f470-78df-990d-a2798eb70a92" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+    <Object name="AreaBox_Room-004" type="AreaBox" guid="49894630-3af2-f7e0-1ff6-c6ad5b6fee9c" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="Room_jorrits_lab_001-008" type="Room" guid="478223c3-f935-dbe3-c602-392c19f8f285" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+    <Object name="AreaBox_Room-007" type="AreaBox" guid="42e7ee29-7bed-ece4-afaf-43761a4c098d" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="AreaBox_Room-006" type="AreaBox" guid="49d2fb0f-31df-eaec-e565-13995ea59489" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="RoomConnector-011" type="RoomConnector" guid="4bf95674-595f-1df8-51e1-7e929b43a0bf" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="AreaBox_Room-010" type="AreaBox" guid="4a8e17e0-00e8-98fd-aebf-fe8530b221bd" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="RoomConnector-005" type="RoomConnector" guid="493302df-4627-38fe-06fe-dc79cb0380be" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="AreaBox_Room-011" type="AreaBox" guid="46a96b56-b3c3-f5ff-f45d-e82784a7c2a0" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+   </Layer>
+   <Layer name="vfx" layerHash="256156865" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/vfx.lyr">
+    <Object name="Smoke_ALL.smoke_smoulder_4x4m_loop_006" type="ParticleEffect" guid="46dd0d4d-f22a-ff01-e592-b18f8e33aaa3" tags=""/>
+    <Object name="Smoke_ALL.smoke_smoulder_4x4m_loop_009" type="ParticleEffect" guid="430b5dac-8458-ef15-63b1-8c3988452d9d" tags=""/>
+    <Object name="Smoke_ALL.smoke_smoulder_4x4m_loop_004" type="ParticleEffect" guid="4695e329-71ad-8e2c-29ea-dbce2cbce496" tags=""/>
+    <Object name="Smoke_ALL.smoke_smoulder_4x4m_loop_010" type="ParticleEffect" guid="494584a3-4e4f-2e41-6e4f-9ecfdc354fa5" tags=""/>
+    <Object name="Smoke_ALL.smoke_smoulder_4x4m_loop_003" type="ParticleEffect" guid="454aa491-e86c-1a5e-4a69-25c81342dcb0" tags=""/>
+    <Object name="Smoke_ALL.smoke_smoulder_4x4m_loop_1" type="ParticleEffect" guid="4f977709-6c53-9267-34d0-d071529043ac" tags=""/>
+    <Object name="Smoke_ALL.smoke_smoulder_4x4m_loop_008" type="ParticleEffect" guid="4bfaa21f-65f9-7468-c91c-95379c8ab8b5" tags=""/>
+    <Object name="Smoke_ALL.smoke_haze_3x3m_loop_003" type="ParticleEffect" guid="4411126c-16d7-456d-348b-cd3715f3a9ac" tags=""/>
+    <Object name="Smoke_ALL.smoke_haze_3x3m_loop_004" type="ParticleEffect" guid="4ac96763-2fdc-739f-13c2-3e596bcd5699" tags=""/>
+    <Object name="Smoke_ALL.smoke_haze_3x3m_loop_1" type="ParticleEffect" guid="423fac7e-2ff9-cacb-da18-ac1db1582183" tags=""/>
+    <Object name="Smoke_ALL.smoke_smoulder_4x4m_loop_005" type="ParticleEffect" guid="452bc531-4aaf-add8-ed53-fd21828094ae" tags=""/>
+    <Object name="Smoke_ALL.smoke_haze_3x3m_loop_002" type="ParticleEffect" guid="4e294126-7204-17e5-07e3-c21266242a91" tags=""/>
+    <Object name="Smoke_ALL.smoke_smoulder_4x4m_loop_007" type="ParticleEffect" guid="4e99b351-6483-3def-30ef-d58f52916191" tags=""/>
+    <Object name="Smoke_ALL.smoke_smoulder_4x4m_loop_002" type="ParticleEffect" guid="4fc27a39-91c5-2cf3-0e44-0d8da566a496" tags=""/>
+   </Layer>
+   <Layer name="vis" layerHash="2351459500" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/jorrits_lab/jorrits_lab_001/Layers/base/jorrits_lab_001/vis.lyr">
+    <Object name="Portal-014" type="Portal" guid="4b648797-9056-7f0c-95c0-e24ecdcf4e98"/>
+    <Object name="VisArea-017" type="VisArea" guid="4691b8a3-b95b-6816-e215-16734a3b3183"/>
+    <Object name="VisArea-003" type="VisArea" guid="4e0f872a-fe2d-9016-20c0-6833751ddeb0"/>
+    <Object name="VisArea-009" type="VisArea" guid="41dc0d85-f314-2519-34bc-7f41252f76ab"/>
+    <Object name="VisArea-006" type="VisArea" guid="42d9b201-2741-8d23-3faf-a3600df512ac"/>
+    <Object name="VisArea-011" type="VisArea" guid="4c81431c-f171-752a-4377-6fe4883fa8a2"/>
+    <Object name="Portal-017" type="Portal" guid="4793dab7-dedb-cf2e-b67b-23e6a5ca0e9b"/>
+    <Object name="VisArea-013" type="VisArea" guid="4203cb6b-834d-cf34-c08f-931c541fbc9d"/>
+    <Object name="VisArea-008" type="VisArea" guid="487f89c5-34db-5743-47a7-a6a36cd49da7"/>
+    <Object name="Portal-015" type="Portal" guid="43d32879-4c40-cd4d-c9db-f87bf8ea95b1"/>
+    <Object name="VisArea-016" type="VisArea" guid="4bc353cf-c7fa-f54f-61a5-36188bb0ffa4"/>
+    <Object name="Portal-013" type="Portal" guid="4c3ac09b-62e7-bd5b-8e67-3a77d7c58a91"/>
+    <Object name="VisArea-014" type="VisArea" guid="4ecc740e-245c-ff5d-a775-2b47a4faca8d"/>
+    <Object name="Portal-004" type="Portal" guid="4a74cd58-f6c9-e769-0b41-945131af32bd"/>
+    <Object name="Portal-010" type="Portal" guid="42c47e4a-f01f-ee73-148a-55d41b463587"/>
+    <Object name="VisArea-015" type="VisArea" guid="4adc56d9-fcc5-d075-6fb8-426d9b16ffa5"/>
+    <Object name="Portal-003" type="Portal" guid="4ab56488-883b-6395-01d2-f017be6e5cbd"/>
+    <Object name="Portal-001" type="Portal" guid="4e418b1a-9fbe-df96-6401-d76d886cbeb0"/>
+    <Object name="Portal-006" type="Portal" guid="4530a3dc-81ee-24a3-f52d-0865d2ffeb93"/>
+    <Object name="VisArea" type="VisArea" guid="4da57872-c1b7-49a6-d33a-5bec414dc5af"/>
+    <Object name="Portal-009" type="Portal" guid="49f34a44-dd06-7ea8-2afe-885b7fffd0a8"/>
+    <Object name="Portal" type="Portal" guid="40bcd16b-c401-a4b2-eb9f-c72085b852ab"/>
+    <Object name="Portal-002" type="Portal" guid="4527e36d-275b-a3dd-669f-f03539081882"/>
+    <Object name="VisArea-012" type="VisArea" guid="455b0c32-cbda-cae3-1860-f96193eff493"/>
+    <Object name="Portal-016" type="Portal" guid="4210ee0a-b8f2-13e5-5868-4268320116bd"/>
+    <Object name="Portal-011" type="Portal" guid="4aadf04e-03b2-d4e5-e654-127324f6ba99"/>
+    <Object name="Portal-008" type="Portal" guid="4377d454-837d-80e9-bec8-83fbc9f932b8"/>
+    <Object name="Portal-005" type="Portal" guid="4aa44cb1-c5f0-e0ea-94cc-97e0d44bf9b3"/>
+    <Object name="Portal-007" type="Portal" guid="40cc189e-1d34-19f4-acfb-9881876ff0ba"/>
+    <Object name="VisArea-010" type="VisArea" guid="42d08d04-f296-2efc-6629-d11dad1379ab"/>
+   </Layer>
+   <Object name="oc_pivot_jorrits_lab_001" type="ObjectContainerPivot" guid="4542d134-2999-2945-d5cc-53d593f8beb3" tags=""/>
+  </Layer>
+ </Layers>
+</ObjectContainer>

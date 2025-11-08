@@ -37,8 +37,8 @@
     </missionModules>
     <missionLimits Type="LocationMissionLimit" Count="0" />
     <autoSpawnSettings Type="AutoSpawnSettings" Count="0" />
-    <isSecurityNetworkHost>False</isSecurityNetworkHost>
-    <defaultSecurityNetworkManifest />
+    <isSecurityNetworkHost>True</isSecurityNetworkHost>
+    <defaultSecurityNetworkManifest ReferencedFile="file://./../../../../../../../../libs/foundry/records/lawsystem/securitynetwork/manifests/nyx/snm_levski.xml" />
     <disabled>False</disabled>
     <entityClusterMember />
   </locationData>

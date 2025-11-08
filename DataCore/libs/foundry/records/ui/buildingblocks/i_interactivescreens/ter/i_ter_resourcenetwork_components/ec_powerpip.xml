@@ -352,7 +352,7 @@
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="66">
+  <operations Type="BuildingBlocks_Node" Count="70">
     <BuildingBlocks_BindingsNumberField Type="BuildingBlocks_BindingsNumberField">
       <widget PointsTo="ptr:1" />
       <field>ParamInput0</field>
@@ -823,6 +823,28 @@
       <inputL PointsTo="ptr:29" />
       <inputR />
       <value>6</value>
+    </BuildingBlocks_BindingsBooleanFromInteger>
+    <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput2</field>
+      <input PointsTo="ptr:51" />
+    </BuildingBlocks_BindingsBooleanField>
+    <BuildingBlocks_BindingsBooleanComponentParameter Pointer="ptr:52" Type="BuildingBlocks_BindingsBooleanComponentParameter">
+      <name>PowerWarning</name>
+      <parameter>ParamInput0</parameter>
+      <defaultValue>False</defaultValue>
+    </BuildingBlocks_BindingsBooleanComponentParameter>
+    <BuildingBlocks_BindingsBooleanEvaluateAnd Pointer="ptr:51" Type="BuildingBlocks_BindingsBooleanEvaluateAnd">
+      <inputs Type="BuildingBlocks_BindingsBooleanBase" Count="2">
+        <BuildingBlocks_BindingsBooleanComponentParameter PointsTo="ptr:52" />
+        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:53" />
+      </inputs>
+    </BuildingBlocks_BindingsBooleanEvaluateAnd>
+    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:53" Type="BuildingBlocks_BindingsBooleanFromInteger">
+      <type>Equal</type>
+      <inputL PointsTo="ptr:16" />
+      <inputR />
+      <value>9</value>
     </BuildingBlocks_BindingsBooleanFromInteger>
   </operations>
   <overrideDefaultTooltipCanvas />

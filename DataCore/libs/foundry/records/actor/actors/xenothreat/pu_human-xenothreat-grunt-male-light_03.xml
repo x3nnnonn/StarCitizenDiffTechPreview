@@ -10,7 +10,7 @@
     <b>0</b>
   </defaultEditorColor>
   <entityDensityClass ReferencedFile="file://./../../../../../../libs/foundry/records/densityclasses/npcdensityclass.xml" />
-  <tags Type="Tag" Count="12">
+  <tags Type="Tag" Count="13">
     <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.00ead468-9073-485b-a6df-ca6b94053603" RecordId="00ead468-9073-485b-a6df-ca6b94053603" />
     <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6720a467-90cd-479d-9b0f-897bc30c26be" RecordId="6720a467-90cd-479d-9b0f-897bc30c26be" />
     <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" RecordId="ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" />
@@ -23,6 +23,7 @@
     <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.bd6b903f-0d2d-4688-8329-db68c16fb0d1" RecordId="bd6b903f-0d2d-4688-8329-db68c16fb0d1" />
     <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.19c456c3-073c-4f21-b68c-112fa323aec8" RecordId="19c456c3-073c-4f21-b68c-112fa323aec8" />
     <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.25f439d5-146b-4a61-a999-a486dfb68a49" RecordId="25f439d5-146b-4a61-a999-a486dfb68a49" />
+    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.15d912ea-e14f-4133-ac39-7a2aa93684c2" RecordId="15d912ea-e14f-4133-ac39-7a2aa93684c2" />
   </tags>
   <StaticEntityClassData Type="EntityClassStaticDataParams" Count="2">
     <EntityUIDisplayParams Type="EntityUIDisplayParams">
@@ -530,11 +531,11 @@
       <mastergraphStateOverrides Type="SMastergraphStateOverride" Count="0" />
     </SubsumptionComponentParams>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="ActorStatusUIData" Count="1">
+      <perceptionTypes Type="HealthIconData" Count="1">
         <EnumChoice>Agent</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusUIWarning" Count="0" />
+      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="2">
         <SObservablePointDef Pointer="ptr:2" Type="SObservablePointDef">
           <helperName>Head</helperName>
@@ -568,7 +569,7 @@
       </observableExtensions>
     </SObservableComponentParams>
     <SCommunicationUserComponentParams Type="SCommunicationUserComponentParams">
-      <voiceBundle />
+      <voiceBundle ReferencedFile="file://./../../../../../../libs/foundry/records/voicebundle/genericvoicebundles/pu_genoutlaw_male_bundle.xml" />
       <voiceSingle />
       <communicationConfig ReferencedFile="file://./../../../../../../libs/foundry/records/communicationconfig/communicationconfig.human.xml" />
       <contextualDialog />
@@ -2462,7 +2463,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Body</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />

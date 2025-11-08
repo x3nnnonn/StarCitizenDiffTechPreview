@@ -430,11 +430,11 @@
       </mastergraphStateOverrides>
     </SubsumptionComponentParams>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="ActorStatusUIData" Count="1">
+      <perceptionTypes Type="HealthIconData" Count="1">
         <EnumChoice>Agent</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusUIWarning" Count="0" />
+      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="2">
         <SObservablePointDef Pointer="ptr:2" Type="SObservablePointDef">
           <helperName>Head</helperName>
@@ -1706,7 +1706,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Body</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1798,7 +1798,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Harvestable</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -1892,7 +1892,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Harvestable</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -1986,7 +1986,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Harvestable</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2080,7 +2080,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Harvestable</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2174,7 +2174,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Harvestable</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2268,7 +2268,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Harvestable</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2580,8 +2580,8 @@
               <onEntityAttachedState PointsTo="ptr:13" />
               <onEntityDetachedState PointsTo="ptr:15" />
               <onPortDestroyedState />
-              <itemTypes Type="SpeedThreshold" Count="0" />
-              <itemSubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <itemTypes Type="StatusEffectValue" Count="0" />
+              <itemSubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -2643,8 +2643,8 @@
               <onEntityAttachedState PointsTo="ptr:16" />
               <onEntityDetachedState PointsTo="ptr:18" />
               <onPortDestroyedState />
-              <itemTypes Type="SpeedThreshold" Count="0" />
-              <itemSubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <itemTypes Type="StatusEffectValue" Count="0" />
+              <itemSubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -2706,8 +2706,8 @@
               <onEntityAttachedState PointsTo="ptr:19" />
               <onEntityDetachedState PointsTo="ptr:21" />
               <onPortDestroyedState />
-              <itemTypes Type="SpeedThreshold" Count="0" />
-              <itemSubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <itemTypes Type="StatusEffectValue" Count="0" />
+              <itemSubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -2769,8 +2769,8 @@
               <onEntityAttachedState PointsTo="ptr:22" />
               <onEntityDetachedState PointsTo="ptr:24" />
               <onPortDestroyedState />
-              <itemTypes Type="SpeedThreshold" Count="0" />
-              <itemSubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <itemTypes Type="StatusEffectValue" Count="0" />
+              <itemSubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -2832,8 +2832,8 @@
               <onEntityAttachedState PointsTo="ptr:25" />
               <onEntityDetachedState PointsTo="ptr:27" />
               <onPortDestroyedState />
-              <itemTypes Type="SpeedThreshold" Count="0" />
-              <itemSubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <itemTypes Type="StatusEffectValue" Count="0" />
+              <itemSubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -2895,8 +2895,8 @@
               <onEntityAttachedState PointsTo="ptr:28" />
               <onEntityDetachedState PointsTo="ptr:30" />
               <onPortDestroyedState />
-              <itemTypes Type="SpeedThreshold" Count="0" />
-              <itemSubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <itemTypes Type="StatusEffectValue" Count="0" />
+              <itemSubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>

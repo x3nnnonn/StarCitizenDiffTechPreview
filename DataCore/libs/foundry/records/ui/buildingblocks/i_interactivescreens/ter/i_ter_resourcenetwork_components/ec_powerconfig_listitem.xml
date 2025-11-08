@@ -436,7 +436,7 @@
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="87">
+  <operations Type="BuildingBlocks_Node" Count="89">
     <BuildingBlocks_BindingsStringVariable Pointer="ptr:2" Type="BuildingBlocks_BindingsStringVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>itemIcon</binding>
@@ -1052,6 +1052,16 @@
       <field>ParamInput8</field>
       <input PointsTo="ptr:60" />
     </BuildingBlocks_BindingsStringField>
+    <BuildingBlocks_BindingsBooleanComponentParameter Pointer="ptr:61" Type="BuildingBlocks_BindingsBooleanComponentParameter">
+      <name>PowerWarning</name>
+      <parameter>ParamInput0</parameter>
+      <defaultValue>False</defaultValue>
+    </BuildingBlocks_BindingsBooleanComponentParameter>
+    <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput4</field>
+      <input PointsTo="ptr:61" />
+    </BuildingBlocks_BindingsBooleanField>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

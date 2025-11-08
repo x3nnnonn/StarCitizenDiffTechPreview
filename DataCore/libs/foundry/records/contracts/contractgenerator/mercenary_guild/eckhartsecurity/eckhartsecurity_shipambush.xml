@@ -239,7 +239,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="7">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>MissionLocation_BP</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -522,12 +522,42 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
           </paramOverrides>
           <subContracts Type="SubContract" Count="0" />
-          <additionalPrerequisites Type="ContractPrerequisiteBase" Count="0" />
+          <additionalPrerequisites Type="ContractPrerequisiteBase" Count="1">
+            <ContractPrerequisite_CompletedContractTags Type="ContractPrerequisite_CompletedContractTags">
+              <includePrerequisiteWhenSharing>False</includePrerequisiteWhenSharing>
+              <requiredCompletedContractTags Type="TagList">
+                <tags Type="Tag" Count="0" />
+              </requiredCompletedContractTags>
+              <requiredCountValue>1</requiredCountValue>
+              <excludedCompletedContractTags Type="TagList">
+                <tags Type="Tag" Count="1">
+                  <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.d7402a2f-fa7b-4009-9354-6a6a98523365" RecordId="d7402a2f-fa7b-4009-9354-6a6a98523365" />
+                </tags>
+              </excludedCompletedContractTags>
+              <excludedCountValue>1</excludedCountValue>
+            </ContractPrerequisite_CompletedContractTags>
+          </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
             <maxInstances>-1</maxInstances>
             <maxInstancesPerPlayer>1</maxInstancesPerPlayer>
@@ -561,7 +591,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_eckhartsecurity.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_100.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -644,7 +674,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="7">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>MissionLocation_BP</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -927,6 +957,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -990,7 +1036,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_eckhartsecurity.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_100.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -1040,7 +1086,7 @@
         </CareerContract>
         <CareerContract Type="CareerContract">
           <id>960021d3-7c9b-4f69-a893-93f007ff5bbe</id>
-          <notForRelease>False</notForRelease>
+          <notForRelease>True</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>EckhartSecurity_ShipAmbush_Nyx_VeryEasy_V</debugName>
           <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/shipambush.xml" />
@@ -1063,7 +1109,7 @@
               </ContractIntParam>
             </intParamOverrides>
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="7">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>MissionLocation_BP</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -1308,6 +1354,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -1371,7 +1433,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_eckhartsecurity.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_100.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -1439,7 +1501,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="7">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>MissionLocation_BP</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -1698,6 +1760,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -1751,7 +1829,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_foxwellenforcement.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_100.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -1801,7 +1879,7 @@
         </CareerContract>
         <CareerContract Type="CareerContract">
           <id>d0b1caa2-2b07-42c0-9c18-4fc3c3cd9aff</id>
-          <notForRelease>False</notForRelease>
+          <notForRelease>True</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>EckhartSecurity_ShipAmbush_Nyx_Easy_V</debugName>
           <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/shipambush.xml" />
@@ -1824,7 +1902,7 @@
               </ContractIntParam>
             </intParamOverrides>
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="7">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>MissionLocation_BP</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -2047,6 +2125,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -2100,7 +2194,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_foxwellenforcement.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_100.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -2168,7 +2262,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="7">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>MissionLocation_BP</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -2455,6 +2549,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -2508,7 +2618,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_foxwellenforcement.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_150.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -2558,7 +2668,7 @@
         </CareerContract>
         <CareerContract Type="CareerContract">
           <id>06ab6880-bb5f-44bd-82e2-64eaab1c99b9</id>
-          <notForRelease>False</notForRelease>
+          <notForRelease>True</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>EckhartSecurity_ShipAmbush_Nyx_Medium_V</debugName>
           <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/shipambush.xml" />
@@ -2581,7 +2691,7 @@
               </ContractIntParam>
             </intParamOverrides>
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="7">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>MissionLocation_BP</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -2802,6 +2912,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -2855,7 +2981,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_foxwellenforcement.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_150.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -2923,7 +3049,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="7">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>MissionLocation_BP</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -3326,6 +3452,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -3379,7 +3521,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_foxwellenforcement.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_200.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -3429,7 +3571,7 @@
         </CareerContract>
         <CareerContract Type="CareerContract">
           <id>b99ee889-f14d-4e1e-8143-205b2327fc50</id>
-          <notForRelease>False</notForRelease>
+          <notForRelease>True</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>EckhartSecurity_ShipAmbush_Nyx_Hard_V</debugName>
           <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/shipambush.xml" />
@@ -3452,7 +3594,7 @@
               </ContractIntParam>
             </intParamOverrides>
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="7">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>MissionLocation_BP</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -3677,6 +3819,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -3730,7 +3888,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_foxwellenforcement.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_25.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_200.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -3798,7 +3956,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="7">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>MissionLocation_BP</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -4171,6 +4329,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -4224,7 +4398,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_foxwellenforcement.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/reputationscope_security.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationrewardamount_positive_xl.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/reputationrewardamount_positive_250.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -4274,7 +4448,7 @@
         </CareerContract>
         <CareerContract Type="CareerContract">
           <id>9bdbd06e-8aa9-4ee9-a8a1-bc9a29f25b14</id>
-          <notForRelease>False</notForRelease>
+          <notForRelease>True</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>EckhartSecurity_ShipAmbush_Nyx_VeryHard_V</debugName>
           <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/shipambush.xml" />
@@ -4297,7 +4471,7 @@
               </ContractIntParam>
             </intParamOverrides>
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="7">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>MissionLocation_BP</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -4522,6 +4696,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -4575,7 +4765,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_foxwellenforcement.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/reputationscope_security.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationrewardamount_positive_xl.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/reputationrewardamount_positive_250.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -4643,7 +4833,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="7">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>MissionLocation_BP</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -4874,6 +5064,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -4927,7 +5133,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_foxwellenforcement.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/reputationscope_security.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationrewardamount_positive_xxl.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_300.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">
@@ -4977,7 +5183,7 @@
         </CareerContract>
         <CareerContract Type="CareerContract">
           <id>99c6bfd4-1a17-45ec-9241-3f105c0b0912</id>
-          <notForRelease>False</notForRelease>
+          <notForRelease>True</notForRelease>
           <workInProgress>False</workInProgress>
           <debugName>EckhartSecurity_ShipAmbush_Nyx_Super_V</debugName>
           <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/shipambush.xml" />
@@ -5000,7 +5206,7 @@
               </ContractIntParam>
             </intParamOverrides>
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="7">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>MissionLocation_BP</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -5227,6 +5433,22 @@
                   </options>
                 </value>
               </MissionProperty>
+              <MissionProperty Type="MissionProperty">
+                <missionVariableName />
+                <extendedTextToken>ApprovalCode</extendedTextToken>
+                <value Type="MissionPropertyValue_Integer">
+                  <options Type="MissionPropertyValueOption_Integer" Count="1">
+                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
+                      <textId>@LOC_UNINITIALIZED</textId>
+                      <weighting>1</weighting>
+                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
+                      <dependentProperties Type="DependentMissionProperty" Count="0" />
+                      <value>1000</value>
+                      <variation>8000</variation>
+                    </MissionPropertyValueOption_Integer>
+                  </options>
+                </value>
+              </MissionProperty>
             </propertyOverrides>
             <modifierOverrides Type="BaseMissionModifier" Count="0" />
             <missionTypeOverride />
@@ -5280,7 +5502,7 @@
                 <contractResultReputationAmounts Type="SReputationAmountParams">
                   <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_lawful_foxwellenforcement.xml" />
                   <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/reputationscope_security.xml" />
-                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationrewardamount_positive_xxl.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_300.xml" />
                 </contractResultReputationAmounts>
               </ContractResult_LegacyReputation>
               <ContractResult_Item Type="ContractResult_Item">

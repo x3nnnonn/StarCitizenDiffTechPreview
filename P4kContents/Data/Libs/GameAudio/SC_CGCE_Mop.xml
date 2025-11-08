@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-16"?>
+<ATLConfig atl_name="SC_CGCE_Mop">
+  <AudioTriggers>
+    <ATLTrigger atl_name="Play_CGCE_Bespoke_Bellosa_Mop_A">
+      <WwiseEvent wwise_duration_max="1.66614509" wwise_duration_min="1.66614509" wwise_duration_type="OneShot" wwise_name="Play_CGCE_Bespoke_Bellosa_Mop_A" wwise_radius_max="5" />
+      <RTPCDependees>
+        <ATLRTPCDependee atl_name="Occlusion_Amount" />
+        <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="MIX_SFX" />
+      </RTPCDependees>
+      <ATLPreload atl_name="SC_CGCE_Mop" />
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_CGCE_Bespoke_Bellosa_Mop_B">
+      <WwiseEvent wwise_duration_max="1.96723354" wwise_duration_min="1.96723354" wwise_duration_type="OneShot" wwise_name="Play_CGCE_Bespoke_Bellosa_Mop_B" wwise_radius_max="5" />
+      <RTPCDependees>
+        <ATLRTPCDependee atl_name="Occlusion_Amount" />
+        <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="MIX_SFX" />
+      </RTPCDependees>
+      <ATLPreload atl_name="SC_CGCE_Mop" />
+    </ATLTrigger>
+    <ATLTrigger atl_name="Play_CGCE_Bespoke_Bellosa_Mop_C">
+      <WwiseEvent wwise_duration_max="3.65047622" wwise_duration_min="3.65047622" wwise_duration_type="OneShot" wwise_name="Play_CGCE_Bespoke_Bellosa_Mop_C" wwise_radius_max="5" />
+      <RTPCDependees>
+        <ATLRTPCDependee atl_name="Occlusion_Amount" />
+        <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="MIX_SFX" />
+      </RTPCDependees>
+      <ATLPreload atl_name="SC_CGCE_Mop" />
+    </ATLTrigger>
+  </AudioTriggers>
+  <AudioPreloads>
+    <ATLPreloadRequest atl_name="SC_CGCE_Mop" atl_type="empty" path="Banks/">
+      <ATLPlatforms>
+        <Platform atl_config_group_name="default" atl_name="pc" />
+      </ATLPlatforms>
+      <ATLConfigGroup atl_name="default">
+        <WwiseFile wwise_name="CGCE_Mop.bnk" />
+      </ATLConfigGroup>
+    </ATLPreloadRequest>
+  </AudioPreloads>
+</ATLConfig>

@@ -48,8 +48,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
-        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsOverride Type="StatusCost" Count="0" />
+        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -271,7 +271,61 @@
               <Material Type="GlobalResourceMaterial">
                 <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_combat_medium_core_03_01.mtl</path>
               </Material>
-              <SimulationGeometry />
+              <SimulationGeometry Type="SSoftbodyGeometryParams">
+                <Geometry Type="GlobalResourceGeometry">
+                  <path>Objects/Characters/Human/female_v2/armor/srvl/f_srvl_combat_medium_cape_cage_03.skin</path>
+                </Geometry>
+                <SimulationParams Type="SEntitySoftExPhysicsControllerParams">
+                  <Mass>5</Mass>
+                  <compoundingAllowed>True</compoundingAllowed>
+                  <breakableParams />
+                  <gameCollisionClass />
+                  <spawnBoxScale>0.5</spawnBoxScale>
+                  <damping>0.03</damping>
+                  <stretchStiffness>0.7</stretchStiffness>
+                  <compressStiffness>0.01</compressStiffness>
+                  <bendingStiffness>0.01</bendingStiffness>
+                  <cosseratShearXStiffness>1</cosseratShearXStiffness>
+                  <cosseratShearYStiffness>1</cosseratShearYStiffness>
+                  <cosseratStretchStiffness>1</cosseratStretchStiffness>
+                  <cosseratBendXStiffness>1</cosseratBendXStiffness>
+                  <cosseratBendYStiffness>1</cosseratBendYStiffness>
+                  <cosseratTwistingStiffness>1</cosseratTwistingStiffness>
+                  <attachmentInfluence>1</attachmentInfluence>
+                  <maxDisplacementInfluence>1</maxDisplacementInfluence>
+                  <maxStretchAttach>1.25</maxStretchAttach>
+                  <tetraVolStiffness>1</tetraVolStiffness>
+                  <collisionGap>0.1</collisionGap>
+                  <collisionThicknessFactor>1.05</collisionThicknessFactor>
+                  <staticFriction>0.1</staticFriction>
+                  <dynamicFriction>0.1</dynamicFriction>
+                  <fixedStep>0.01667</fixedStep>
+                  <totalMass>5</totalMass>
+                  <relativeDeltaScale>0.3</relativeDeltaScale>
+                  <bindingOffset>0.005</bindingOffset>
+                  <enforceLength>True</enforceLength>
+                  <enforceBending>True</enforceBending>
+                  <enforceCosseratStrechShear>True</enforceCosseratStrechShear>
+                  <enforceCosseratBendTwist>True</enforceCosseratBendTwist>
+                  <enforceAttachment>True</enforceAttachment>
+                  <enforceMaxDisplacement>True</enforceMaxDisplacement>
+                  <enforceTetraVol>True</enforceTetraVol>
+                  <enableCollisions>True</enableCollisions>
+                  <enableFriction>True</enableFriction>
+                  <enableSelfCollision>True</enableSelfCollision>
+                  <normalizeParticleSize>True</normalizeParticleSize>
+                  <maxDisplacementRestrictToPositiveHemisphere>False</maxDisplacementRestrictToPositiveHemisphere>
+                  <iterations>2</iterations>
+                  <gridDim>14</gridDim>
+                  <lift>0.5</lift>
+                  <drag>0.5</drag>
+                  <windVariance>0.01</windVariance>
+                  <airResistance>0</airResistance>
+                  <waterResistance>0</waterResistance>
+                  <substepMode>FullSubstep_SingleCD</substepMode>
+                  <visualBindingMode>Planar</visualBindingMode>
+                </SimulationParams>
+              </SimulationGeometry>
               <Palette Type="TintPaletteRef">
                 <RootRecord />
                 <ChildPath />
@@ -279,7 +333,7 @@
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
-              <ProxyCDFPath>Objects/Characters/Human/female_v2/armor/srvl/f_srvl_combat_medium_core_03.cdf</ProxyCDFPath>
+              <ProxyCDFPath />
               <ModifiersPath />
               <AttachFlags>0</AttachFlags>
               <DeformerType>Standard</DeformerType>
@@ -358,7 +412,61 @@
               <Material Type="GlobalResourceMaterial">
                 <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_combat_medium_core_03_01.mtl</path>
               </Material>
-              <SimulationGeometry />
+              <SimulationGeometry Type="SSoftbodyGeometryParams">
+                <Geometry Type="GlobalResourceGeometry">
+                  <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_combat_medium_cape_cage_03.skin</path>
+                </Geometry>
+                <SimulationParams Type="SEntitySoftExPhysicsControllerParams">
+                  <Mass>5</Mass>
+                  <compoundingAllowed>True</compoundingAllowed>
+                  <breakableParams />
+                  <gameCollisionClass />
+                  <spawnBoxScale>0.5</spawnBoxScale>
+                  <damping>0.03</damping>
+                  <stretchStiffness>0.7</stretchStiffness>
+                  <compressStiffness>0.01</compressStiffness>
+                  <bendingStiffness>0.01</bendingStiffness>
+                  <cosseratShearXStiffness>1</cosseratShearXStiffness>
+                  <cosseratShearYStiffness>1</cosseratShearYStiffness>
+                  <cosseratStretchStiffness>1</cosseratStretchStiffness>
+                  <cosseratBendXStiffness>1</cosseratBendXStiffness>
+                  <cosseratBendYStiffness>1</cosseratBendYStiffness>
+                  <cosseratTwistingStiffness>1</cosseratTwistingStiffness>
+                  <attachmentInfluence>1</attachmentInfluence>
+                  <maxDisplacementInfluence>1</maxDisplacementInfluence>
+                  <maxStretchAttach>1.25</maxStretchAttach>
+                  <tetraVolStiffness>1</tetraVolStiffness>
+                  <collisionGap>0.1</collisionGap>
+                  <collisionThicknessFactor>1.05</collisionThicknessFactor>
+                  <staticFriction>0.1</staticFriction>
+                  <dynamicFriction>0.1</dynamicFriction>
+                  <fixedStep>0.01667</fixedStep>
+                  <totalMass>5</totalMass>
+                  <relativeDeltaScale>0.3</relativeDeltaScale>
+                  <bindingOffset>0.015</bindingOffset>
+                  <enforceLength>True</enforceLength>
+                  <enforceBending>True</enforceBending>
+                  <enforceCosseratStrechShear>True</enforceCosseratStrechShear>
+                  <enforceCosseratBendTwist>True</enforceCosseratBendTwist>
+                  <enforceAttachment>True</enforceAttachment>
+                  <enforceMaxDisplacement>True</enforceMaxDisplacement>
+                  <enforceTetraVol>True</enforceTetraVol>
+                  <enableCollisions>True</enableCollisions>
+                  <enableFriction>True</enableFriction>
+                  <enableSelfCollision>True</enableSelfCollision>
+                  <normalizeParticleSize>True</normalizeParticleSize>
+                  <maxDisplacementRestrictToPositiveHemisphere>False</maxDisplacementRestrictToPositiveHemisphere>
+                  <iterations>2</iterations>
+                  <gridDim>14</gridDim>
+                  <lift>0.5</lift>
+                  <drag>0.5</drag>
+                  <windVariance>0.01</windVariance>
+                  <airResistance>0</airResistance>
+                  <waterResistance>0</waterResistance>
+                  <substepMode>FullSubstep_SingleCD</substepMode>
+                  <visualBindingMode>Planar</visualBindingMode>
+                </SimulationParams>
+              </SimulationGeometry>
               <Palette Type="TintPaletteRef">
                 <RootRecord />
                 <ChildPath />
@@ -366,7 +474,7 @@
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
-              <ProxyCDFPath>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_combat_medium_core_03.cdf</ProxyCDFPath>
+              <ProxyCDFPath />
               <ModifiersPath />
               <AttachFlags>0</AttachFlags>
               <DeformerType>Standard</DeformerType>
@@ -455,7 +563,7 @@
     </SGeometryResourceParams>
     <SCItemPurchasableParams Type="SCItemPurchasableParams">
       <Display />
-      <displayName>@LOC_PLACEHOLDER</displayName>
+      <displayName>@item_Name_srvl_combat_medium_core_03_01_01</displayName>
       <displayType>@item_displayType_ArmorCore</displayType>
       <displayThumbnail />
       <allowTryOn>True</allowTryOn>
@@ -573,19 +681,19 @@
           <Types Type="SItemPortDefTypes" Count="3">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponPersonal</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Medium</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>FPS_Deployable</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Medium</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponPersonal</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Gadget</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -715,20 +823,20 @@
           <Types Type="SItemPortDefTypes" Count="3">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponPersonal</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="2">
+              <SubTypes Type="SpeedThreshold" Count="2">
                 <EnumChoice>Medium</EnumChoice>
                 <EnumChoice>Large</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>FPS_Deployable</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Medium</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponPersonal</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Gadget</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -912,7 +1020,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="2">
+              <SubTypes Type="SpeedThreshold" Count="2">
                 <EnumChoice>Magazine</EnumChoice>
                 <EnumChoice>Rocket</EnumChoice>
               </SubTypes>
@@ -1009,7 +1117,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="2">
+              <SubTypes Type="SpeedThreshold" Count="2">
                 <EnumChoice>Magazine</EnumChoice>
                 <EnumChoice>Rocket</EnumChoice>
               </SubTypes>
@@ -1106,7 +1214,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="2">
+              <SubTypes Type="SpeedThreshold" Count="2">
                 <EnumChoice>Magazine</EnumChoice>
                 <EnumChoice>Rocket</EnumChoice>
               </SubTypes>
@@ -1203,7 +1311,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="2">
+              <SubTypes Type="SpeedThreshold" Count="2">
                 <EnumChoice>Magazine</EnumChoice>
                 <EnumChoice>Rocket</EnumChoice>
               </SubTypes>
@@ -1300,7 +1408,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="2">
+              <SubTypes Type="SpeedThreshold" Count="2">
                 <EnumChoice>Magazine</EnumChoice>
                 <EnumChoice>Rocket</EnumChoice>
               </SubTypes>
@@ -1397,7 +1505,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="2">
+              <SubTypes Type="SpeedThreshold" Count="2">
                 <EnumChoice>Magazine</EnumChoice>
                 <EnumChoice>Rocket</EnumChoice>
               </SubTypes>
@@ -1494,13 +1602,13 @@
           <Types Type="SItemPortDefTypes" Count="2">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponPersonal</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Grenade</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>FPS_Deployable</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Small</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -1549,7 +1657,7 @@
                     <y>0</y>
                   </SpringTarget>
                   <ConeAngle>35</ConeAngle>
-                  <HingeRotation>180</HingeRotation>
+                  <HingeRotation>0</HingeRotation>
                   <Capsule Type="Vec2">
                     <x>0.05</x>
                     <y>0.035</y>
@@ -1628,13 +1736,13 @@
           <Types Type="SItemPortDefTypes" Count="2">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponPersonal</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Grenade</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>FPS_Deployable</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Small</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -1683,7 +1791,7 @@
                     <y>0</y>
                   </SpringTarget>
                   <ConeAngle>30</ConeAngle>
-                  <HingeRotation>180</HingeRotation>
+                  <HingeRotation>0</HingeRotation>
                   <Capsule Type="Vec2">
                     <x>0.05</x>
                     <y>0.035</y>
@@ -1762,13 +1870,13 @@
           <Types Type="SItemPortDefTypes" Count="2">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponPersonal</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Grenade</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>FPS_Deployable</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Small</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -1817,7 +1925,7 @@
                     <y>0</y>
                   </SpringTarget>
                   <ConeAngle>35</ConeAngle>
-                  <HingeRotation>180</HingeRotation>
+                  <HingeRotation>0</HingeRotation>
                   <Capsule Type="Vec2">
                     <x>0.05</x>
                     <y>0.035</y>
@@ -1897,7 +2005,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Armor_Backpack</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1991,7 +2099,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Gadget</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="0" />
+              <SubTypes Type="SpeedThreshold" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3121,7 +3229,7 @@
       <Thrusters Type="SCItemSuitThrusterParams" Count="8">
         <SCItemSuitThrusterParams Type="SCItemSuitThrusterParams">
           <HelperName>thruster_front_r_upper_override</HelperName>
-          <ActivationInputs Type="AnimationGraph_KeyFrame" Count="6">
+          <ActivationInputs Type="AnimationGraph_Track" Count="6">
             <EnumChoice>StrafeBack</EnumChoice>
             <EnumChoice>StrafeLeft</EnumChoice>
             <EnumChoice>StrafeDown</EnumChoice>
@@ -3132,7 +3240,7 @@
         </SCItemSuitThrusterParams>
         <SCItemSuitThrusterParams Type="SCItemSuitThrusterParams">
           <HelperName>thruster_front_l_upper_override</HelperName>
-          <ActivationInputs Type="AnimationGraph_KeyFrame" Count="6">
+          <ActivationInputs Type="AnimationGraph_Track" Count="6">
             <EnumChoice>StrafeBack</EnumChoice>
             <EnumChoice>StrafeRight</EnumChoice>
             <EnumChoice>StrafeDown</EnumChoice>
@@ -3143,7 +3251,7 @@
         </SCItemSuitThrusterParams>
         <SCItemSuitThrusterParams Type="SCItemSuitThrusterParams">
           <HelperName>thruster_front_l_bottom_override</HelperName>
-          <ActivationInputs Type="AnimationGraph_KeyFrame" Count="6">
+          <ActivationInputs Type="AnimationGraph_Track" Count="6">
             <EnumChoice>StrafeBack</EnumChoice>
             <EnumChoice>StrafeRight</EnumChoice>
             <EnumChoice>StrafeUp</EnumChoice>
@@ -3154,7 +3262,7 @@
         </SCItemSuitThrusterParams>
         <SCItemSuitThrusterParams Type="SCItemSuitThrusterParams">
           <HelperName>thruster_front_r_bottom_override</HelperName>
-          <ActivationInputs Type="AnimationGraph_KeyFrame" Count="6">
+          <ActivationInputs Type="AnimationGraph_Track" Count="6">
             <EnumChoice>StrafeBack</EnumChoice>
             <EnumChoice>StrafeLeft</EnumChoice>
             <EnumChoice>StrafeUp</EnumChoice>
@@ -3165,7 +3273,7 @@
         </SCItemSuitThrusterParams>
         <SCItemSuitThrusterParams Type="SCItemSuitThrusterParams">
           <HelperName>thruster_back_l_bottom_override</HelperName>
-          <ActivationInputs Type="AnimationGraph_KeyFrame" Count="6">
+          <ActivationInputs Type="AnimationGraph_Track" Count="6">
             <EnumChoice>StrafeForward</EnumChoice>
             <EnumChoice>StrafeRight</EnumChoice>
             <EnumChoice>StrafeUp</EnumChoice>
@@ -3176,7 +3284,7 @@
         </SCItemSuitThrusterParams>
         <SCItemSuitThrusterParams Type="SCItemSuitThrusterParams">
           <HelperName>thruster_back_r_bottom_override</HelperName>
-          <ActivationInputs Type="AnimationGraph_KeyFrame" Count="6">
+          <ActivationInputs Type="AnimationGraph_Track" Count="6">
             <EnumChoice>StrafeForward</EnumChoice>
             <EnumChoice>StrafeLeft</EnumChoice>
             <EnumChoice>StrafeUp</EnumChoice>
@@ -3187,7 +3295,7 @@
         </SCItemSuitThrusterParams>
         <SCItemSuitThrusterParams Type="SCItemSuitThrusterParams">
           <HelperName>thruster_back_r_upper_override</HelperName>
-          <ActivationInputs Type="AnimationGraph_KeyFrame" Count="6">
+          <ActivationInputs Type="AnimationGraph_Track" Count="6">
             <EnumChoice>StrafeForward</EnumChoice>
             <EnumChoice>StrafeLeft</EnumChoice>
             <EnumChoice>StrafeDown</EnumChoice>
@@ -3198,7 +3306,7 @@
         </SCItemSuitThrusterParams>
         <SCItemSuitThrusterParams Type="SCItemSuitThrusterParams">
           <HelperName>thruster_back_l_upper_override</HelperName>
-          <ActivationInputs Type="AnimationGraph_KeyFrame" Count="6">
+          <ActivationInputs Type="AnimationGraph_Track" Count="6">
             <EnumChoice>StrafeForward</EnumChoice>
             <EnumChoice>StrafeRight</EnumChoice>
             <EnumChoice>StrafeDown</EnumChoice>

@@ -10,7 +10,7 @@
     <b>0</b>
   </defaultEditorColor>
   <entityDensityClass ReferencedFile="file://./../../../../../../../libs/foundry/records/densityclasses/fpsitemsdensityclass.xml" />
-  <tags Type="Tag" Count="11">
+  <tags Type="Tag" Count="12">
     <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a0191226-abf0-4677-b249-c3111aa7222f" RecordId="a0191226-abf0-4677-b249-c3111aa7222f" />
     <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1a1c31a2-ea76-4907-8dfc-cb3e3b4d0b6d" RecordId="1a1c31a2-ea76-4907-8dfc-cb3e3b4d0b6d" />
     <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.077071be-c789-4dce-a10e-f53d57c9477c" RecordId="077071be-c789-4dce-a10e-f53d57c9477c" />
@@ -19,8 +19,9 @@
     <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.3100e55a-0610-4ebb-a2da-21458bb6b46a" RecordId="3100e55a-0610-4ebb-a2da-21458bb6b46a" />
     <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.d4c86c2f-b66a-421e-8469-506b99be9e47" RecordId="d4c86c2f-b66a-421e-8469-506b99be9e47" />
     <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.c959992f-d86d-4f77-8b70-609498aabec6" RecordId="c959992f-d86d-4f77-8b70-609498aabec6" />
+    <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.77a0d0c7-9c7b-4126-98bd-93fa03beae5d" RecordId="77a0d0c7-9c7b-4126-98bd-93fa03beae5d" />
     <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.386f5ab5-4bde-49ef-a1dd-a8a2b7d1060d" RecordId="386f5ab5-4bde-49ef-a1dd-a8a2b7d1060d" />
-    <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b7f29c2b-5910-41fd-b402-ecdfec8cfe0f" RecordId="b7f29c2b-5910-41fd-b402-ecdfec8cfe0f" />
+    <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.3ca4a941-d058-4afc-8ab6-ad2141107701" RecordId="3ca4a941-d058-4afc-8ab6-ad2141107701" />
     <Tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.d1fc00f6-b7d3-4a32-bad6-0599490db488" RecordId="d1fc00f6-b7d3-4a32-bad6-0599490db488" />
   </tags>
   <StaticEntityClassData Type="EntityClassStaticDataParams" Count="2">
@@ -46,8 +47,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
-        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsOverride Type="StatusCost" Count="0" />
+        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -108,7 +109,7 @@
         <SubType>Medium</SubType>
         <Size>2</Size>
         <Grade>1</Grade>
-        <Manufacturer />
+        <Manufacturer ReferencedFile="file://./../../../../../../../libs/foundry/records/scitemmanufacturer/unkn.xml" />
         <inheritParentManufacturer>False</inheritParentManufacturer>
         <Tags>stocked none_rifle_multi_01</Tags>
         <RequiredTags />
@@ -139,7 +140,7 @@
           <mannequinBaseTag />
         </mannequinTags>
         <inventoryOccupancyVolume Type="SMicroCargoUnit">
-          <microSCU>480</microSCU>
+          <microSCU>13000</microSCU>
         </inventoryOccupancyVolume>
         <inventoryOccupancyDimensions Type="Vec3">
           <x>0.0811</x>
@@ -2291,9 +2292,7 @@
       <secondaryAmmoContainers Type="SSecondaryAmmoContainerParams" Count="0" />
       <ShouldIgnorePrimaryAmmoContainer>False</ShouldIgnorePrimaryAmmoContainer>
       <onAmmoEmptyParams Type="SWeaponOnAmmoEmptyParams">
-        <attachmentsToHide Type="ActivityBehaviorRequestCondition" Count="1">
-          <String>bullet</String>
-        </attachmentsToHide>
+        <attachmentsToHide Type="ActivityBehaviorRequestCondition" Count="0" />
       </onAmmoEmptyParams>
       <geometryTags>Tint01</geometryTags>
       <defaultAdsCameraOffset Type="Vec3">
@@ -4559,7 +4558,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Magazine</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -4656,7 +4655,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>IronSight</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -4753,7 +4752,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>Barrel</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -4850,7 +4849,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="StatusEffectBuffMacro" Count="1">
+              <SubTypes Type="SpeedThreshold" Count="1">
                 <EnumChoice>BottomAttachment</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>

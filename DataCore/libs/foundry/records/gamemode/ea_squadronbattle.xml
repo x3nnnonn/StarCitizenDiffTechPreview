@@ -24,7 +24,7 @@
   </loadingScreenInfo>
   <shardPersistenceEnabled>False</shardPersistenceEnabled>
   <enableCustomization>True</enableCustomization>
-  <validNetworkTypes Type="StatusMaskedRetriggerSetupPreset" Count="2">
+  <validNetworkTypes Type="LinkedStatPassValueBase" Count="2">
     <EnumChoice>Online</EnumChoice>
     <EnumChoice>Custom</EnumChoice>
   </validNetworkTypes>
@@ -698,7 +698,7 @@
       </loadoutSetup>
       <eventLoadouts />
       <abilityLocks Type="ActivityBehaviorRequest" Count="0" />
-      <characterGenerationParams />
+      <characterGenerationParams ReferencedFile="file://./../../../../libs/foundry/records/gamemode/defaultcharactergenerationparams.xml" />
     </playerSpawnProperties>
     <vehicleSpawnProperties Type="SEAVehicleSpawnProperties">
       <allowVehicleSelectionScreen>True</allowVehicleSelectionScreen>

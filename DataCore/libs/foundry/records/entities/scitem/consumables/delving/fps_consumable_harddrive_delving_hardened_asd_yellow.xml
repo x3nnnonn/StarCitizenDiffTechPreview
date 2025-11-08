@@ -26,8 +26,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
-        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsOverride Type="StatusCost" Count="0" />
+        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -868,7 +868,7 @@
           <path>Objects/buildingsets/human/universal/prop/tech/chip/chip_hdd_1_hardened_a.mtl</path>
         </Material>
         <Palette Type="TintPaletteRef">
-          <RootRecord />
+          <RootRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/tintpalettes/brand/asd/asd_default_yellow_b.xml" />
           <ChildPath />
           <SwizzleOverride />
         </Palette>

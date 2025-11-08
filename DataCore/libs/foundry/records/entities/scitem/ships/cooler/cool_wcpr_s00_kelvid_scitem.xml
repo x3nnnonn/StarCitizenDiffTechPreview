@@ -171,8 +171,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="HealthIconStatusEffect" Count="0" />
-        <PhysFlagsColliderOverride Type="HealthIconStatusEffect" Count="0" />
+        <PhysFlagsOverride Type="StatusCost" Count="0" />
+        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -406,45 +406,21 @@
           <misfireProbabilityArray Type="SMisfireProbabilityParams" Count="0" />
         </SMisfireLevelParams>
         <SMisfireLevelParams Type="SMisfireLevelParams">
-          <misfireProbabilityArray Type="SMisfireProbabilityParams" Count="1">
-            <SMisfireProbabilityParams Type="SMisfireProbabilityParams">
-              <weight>0.5</weight>
-              <misfireArray Type="SMisfireEffect" Count="1">
-                <SDamageMisfireEffect PointsTo="ptr:1" />
-              </misfireArray>
-            </SMisfireProbabilityParams>
-          </misfireProbabilityArray>
+          <misfireProbabilityArray Type="SMisfireProbabilityParams" Count="0" />
         </SMisfireLevelParams>
         <SMisfireLevelParams Type="SMisfireLevelParams">
-          <misfireProbabilityArray Type="SMisfireProbabilityParams" Count="2">
+          <misfireProbabilityArray Type="SMisfireProbabilityParams" Count="1">
             <SMisfireProbabilityParams Type="SMisfireProbabilityParams">
-              <weight>1</weight>
+              <weight>5</weight>
               <misfireArray Type="SMisfireEffect" Count="1">
-                <SSpreadMisfireEffect PointsTo="ptr:2" />
-              </misfireArray>
-            </SMisfireProbabilityParams>
-            <SMisfireProbabilityParams Type="SMisfireProbabilityParams">
-              <weight>0.25</weight>
-              <misfireArray Type="SMisfireEffect" Count="1">
-                <SFireMisfireEffect PointsTo="ptr:3" />
+                <SFireMisfireEffect PointsTo="ptr:1" />
               </misfireArray>
             </SMisfireProbabilityParams>
           </misfireProbabilityArray>
         </SMisfireLevelParams>
       </misfireLevels>
-      <misfires Type="SMisfireEffect" Count="3">
-        <SSpreadMisfireEffect Pointer="ptr:2" Type="SSpreadMisfireEffect">
-          <effectTrigger />
-          <effectTag />
-        </SSpreadMisfireEffect>
-        <SDamageMisfireEffect Pointer="ptr:1" Type="SDamageMisfireEffect">
-          <effectTrigger />
-          <effectTag />
-          <damageValue Type="SMisfireDamageValue">
-            <health>15</health>
-          </damageValue>
-        </SDamageMisfireEffect>
-        <SFireMisfireEffect Pointer="ptr:3" Type="SFireMisfireEffect">
+      <misfires Type="SMisfireEffect" Count="1">
+        <SFireMisfireEffect Pointer="ptr:1" Type="SFireMisfireEffect">
           <effectTrigger />
           <effectTag />
         </SFireMisfireEffect>
@@ -774,7 +750,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:4" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:2" Type="SInteractionState">
               <StateName>Working</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -795,7 +771,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:5" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:3" Type="SInteractionState">
               <StateName>Destroyed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -835,12 +811,12 @@
             <SHealthStateModifier Type="SHealthStateModifier">
               <stateRanges Type="SRangeStateLevel" Count="2">
                 <SRangeStateLevel Type="SRangeStateLevel">
-                  <state PointsTo="ptr:4" />
+                  <state PointsTo="ptr:2" />
                   <min>0.01</min>
                   <max>1</max>
                 </SRangeStateLevel>
                 <SRangeStateLevel Type="SRangeStateLevel">
-                  <state PointsTo="ptr:5" />
+                  <state PointsTo="ptr:3" />
                   <min>0</min>
                   <max>0.01</max>
                 </SRangeStateLevel>
