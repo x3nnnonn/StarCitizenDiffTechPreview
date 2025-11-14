@@ -200,7 +200,190 @@
         </dependentChildTags>
       </LocationMissionLimit>
     </missionLimits>
-    <autoSpawnSettings Type="AutoSpawnSettings" Count="21">
+    <autoSpawnSettings Type="AutoSpawnSettings" Count="26">
+      <AutoSpawnSettings Type="AutoSpawnSettings">
+        <name>Laserhead: SC_AA</name>
+        <initialActivity>Sentry</initialActivity>
+        <positiveCharacterTags Type="TagList">
+          <tags Type="Tag" Count="3">
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" RecordId="ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ecfb92fe-5d2d-4fef-aa8f-2f09fcf42b6f" RecordId="ecfb92fe-5d2d-4fef-aa8f-2f09fcf42b6f" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b842eca9-0f28-491a-a26f-65e8685ad1dd" RecordId="b842eca9-0f28-491a-a26f-65e8685ad1dd" />
+          </tags>
+        </positiveCharacterTags>
+        <negativeCharacterTags Type="TagList">
+          <tags Type="Tag" Count="11">
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6f3b4f96-81e4-4cc4-a0b4-6ad150a66561" RecordId="6f3b4f96-81e4-4cc4-a0b4-6ad150a66561" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.9a372cf9-3c86-4033-a460-af36d937b3f0" RecordId="9a372cf9-3c86-4033-a460-af36d937b3f0" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4957d179-b61f-4cb0-af5a-5cd83d93b511" RecordId="4957d179-b61f-4cb0-af5a-5cd83d93b511" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.63d84127-4358-46b4-b9f9-8e8ec4f30c38" RecordId="63d84127-4358-46b4-b9f9-8e8ec4f30c38" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.29d66080-91fd-4367-9448-3c3a27d5fd8d" RecordId="29d66080-91fd-4367-9448-3c3a27d5fd8d" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.c794d559-c046-4255-8dc7-f7b2d2a8d4a5" RecordId="c794d559-c046-4255-8dc7-f7b2d2a8d4a5" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a558876f-deae-457d-b019-dedf49d04580" RecordId="a558876f-deae-457d-b019-dedf49d04580" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6c767e43-0977-4611-8203-028392efaefc" RecordId="6c767e43-0977-4611-8203-028392efaefc" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.193796e3-5e5e-4fbc-8785-a2613c6a5fb6" RecordId="193796e3-5e5e-4fbc-8785-a2613c6a5fb6" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.59b67174-e786-4115-8ed9-54b2d41fb2d8" RecordId="59b67174-e786-4115-8ed9-54b2d41fb2d8" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.9e90f124-ee0b-4263-a84d-2db7e0c17755" RecordId="9e90f124-ee0b-4263-a84d-2db7e0c17755" />
+          </tags>
+        </negativeCharacterTags>
+        <excludeShipCrew>True</excludeShipCrew>
+        <excludeSpawnGender>Female</excludeSpawnGender>
+        <minGroupSize>1</minGroupSize>
+        <maxGroupSize>4</maxGroupSize>
+        <maxConcurrentSpawns>4</maxConcurrentSpawns>
+        <maxSpawns>-1</maxSpawns>
+        <minSpawnDelay>720</minSpawnDelay>
+        <maxSpawnDelay>1080</maxSpawnDelay>
+        <inventoryItems Type="SpawnSettingsInventoryItem" Count="0" />
+        <closetPositiveTags Type="TagList">
+          <tags Type="Tag" Count="1">
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.be0ec4c1-1141-4f91-a0f6-f4e010a56765" RecordId="be0ec4c1-1141-4f91-a0f6-f4e010a56765" />
+          </tags>
+        </closetPositiveTags>
+        <closetNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </closetNegativeTags>
+        <roomPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </roomPositiveTags>
+        <roomNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </roomNegativeTags>
+        <defendAreaPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </defendAreaPositiveTags>
+        <defendAreaNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </defendAreaNegativeTags>
+        <scheduleAreaPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </scheduleAreaPositiveTags>
+        <scheduleAreaNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </scheduleAreaNegativeTags>
+        <entityTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </entityTags>
+        <factionOverride />
+        <missionAlliedMarker>False</missionAlliedMarker>
+        <isCritical>False</isCritical>
+      </AutoSpawnSettings>
+      <AutoSpawnSettings Type="AutoSpawnSettings">
+        <name>Laserhead: SC_AB</name>
+        <initialActivity>Sentry</initialActivity>
+        <positiveCharacterTags Type="TagList">
+          <tags Type="Tag" Count="3">
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" RecordId="ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ecfb92fe-5d2d-4fef-aa8f-2f09fcf42b6f" RecordId="ecfb92fe-5d2d-4fef-aa8f-2f09fcf42b6f" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b842eca9-0f28-491a-a26f-65e8685ad1dd" RecordId="b842eca9-0f28-491a-a26f-65e8685ad1dd" />
+          </tags>
+        </positiveCharacterTags>
+        <negativeCharacterTags Type="TagList">
+          <tags Type="Tag" Count="11">
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6f3b4f96-81e4-4cc4-a0b4-6ad150a66561" RecordId="6f3b4f96-81e4-4cc4-a0b4-6ad150a66561" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.9a372cf9-3c86-4033-a460-af36d937b3f0" RecordId="9a372cf9-3c86-4033-a460-af36d937b3f0" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4957d179-b61f-4cb0-af5a-5cd83d93b511" RecordId="4957d179-b61f-4cb0-af5a-5cd83d93b511" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.63d84127-4358-46b4-b9f9-8e8ec4f30c38" RecordId="63d84127-4358-46b4-b9f9-8e8ec4f30c38" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.29d66080-91fd-4367-9448-3c3a27d5fd8d" RecordId="29d66080-91fd-4367-9448-3c3a27d5fd8d" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.c794d559-c046-4255-8dc7-f7b2d2a8d4a5" RecordId="c794d559-c046-4255-8dc7-f7b2d2a8d4a5" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a558876f-deae-457d-b019-dedf49d04580" RecordId="a558876f-deae-457d-b019-dedf49d04580" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6c767e43-0977-4611-8203-028392efaefc" RecordId="6c767e43-0977-4611-8203-028392efaefc" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.193796e3-5e5e-4fbc-8785-a2613c6a5fb6" RecordId="193796e3-5e5e-4fbc-8785-a2613c6a5fb6" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.59b67174-e786-4115-8ed9-54b2d41fb2d8" RecordId="59b67174-e786-4115-8ed9-54b2d41fb2d8" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.9e90f124-ee0b-4263-a84d-2db7e0c17755" RecordId="9e90f124-ee0b-4263-a84d-2db7e0c17755" />
+          </tags>
+        </negativeCharacterTags>
+        <excludeShipCrew>True</excludeShipCrew>
+        <excludeSpawnGender>Female</excludeSpawnGender>
+        <minGroupSize>1</minGroupSize>
+        <maxGroupSize>2</maxGroupSize>
+        <maxConcurrentSpawns>2</maxConcurrentSpawns>
+        <maxSpawns>-1</maxSpawns>
+        <minSpawnDelay>720</minSpawnDelay>
+        <maxSpawnDelay>1080</maxSpawnDelay>
+        <inventoryItems Type="SpawnSettingsInventoryItem" Count="0" />
+        <closetPositiveTags Type="TagList">
+          <tags Type="Tag" Count="1">
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.07218a57-f88f-43d7-b4e1-b31d2fcfb1cc" RecordId="07218a57-f88f-43d7-b4e1-b31d2fcfb1cc" />
+          </tags>
+        </closetPositiveTags>
+        <closetNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </closetNegativeTags>
+        <roomPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </roomPositiveTags>
+        <roomNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </roomNegativeTags>
+        <defendAreaPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </defendAreaPositiveTags>
+        <defendAreaNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </defendAreaNegativeTags>
+        <scheduleAreaPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </scheduleAreaPositiveTags>
+        <scheduleAreaNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </scheduleAreaNegativeTags>
+        <entityTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </entityTags>
+        <factionOverride />
+        <missionAlliedMarker>False</missionAlliedMarker>
+        <isCritical>False</isCritical>
+      </AutoSpawnSettings>
+      <AutoSpawnSettings Type="AutoSpawnSettings">
+        <name>--------------------------------------------------------------------------------------------------------------------------</name>
+        <initialActivity />
+        <positiveCharacterTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </positiveCharacterTags>
+        <negativeCharacterTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </negativeCharacterTags>
+        <excludeShipCrew>True</excludeShipCrew>
+        <excludeSpawnGender>Female</excludeSpawnGender>
+        <minGroupSize>-1</minGroupSize>
+        <maxGroupSize>-1</maxGroupSize>
+        <maxConcurrentSpawns>1</maxConcurrentSpawns>
+        <maxSpawns>-1</maxSpawns>
+        <minSpawnDelay>-1</minSpawnDelay>
+        <maxSpawnDelay>-1</maxSpawnDelay>
+        <inventoryItems Type="SpawnSettingsInventoryItem" Count="0" />
+        <closetPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </closetPositiveTags>
+        <closetNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </closetNegativeTags>
+        <roomPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </roomPositiveTags>
+        <roomNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </roomNegativeTags>
+        <defendAreaPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </defendAreaPositiveTags>
+        <defendAreaNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </defendAreaNegativeTags>
+        <scheduleAreaPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </scheduleAreaPositiveTags>
+        <scheduleAreaNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </scheduleAreaNegativeTags>
+        <entityTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </entityTags>
+        <factionOverride />
+        <missionAlliedMarker>False</missionAlliedMarker>
+        <isCritical>False</isCritical>
+      </AutoSpawnSettings>
       <AutoSpawnSettings Type="AutoSpawnSettings">
         <name>Mining Junction 1: SC_BA -- SA_BA</name>
         <initialActivity>Sentry</initialActivity>
@@ -581,9 +764,7 @@
           <tags Type="Tag" Count="0" />
         </defendAreaNegativeTags>
         <scheduleAreaPositiveTags Type="TagList">
-          <tags Type="Tag" Count="1">
-            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.d5e29c44-63a4-46b7-9971-f9659ac3ecf1" RecordId="d5e29c44-63a4-46b7-9971-f9659ac3ecf1" />
-          </tags>
+          <tags Type="Tag" Count="0" />
         </scheduleAreaPositiveTags>
         <scheduleAreaNegativeTags Type="TagList">
           <tags Type="Tag" Count="0" />
@@ -650,9 +831,7 @@
           <tags Type="Tag" Count="0" />
         </defendAreaNegativeTags>
         <scheduleAreaPositiveTags Type="TagList">
-          <tags Type="Tag" Count="1">
-            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.e53e4352-84da-4307-a0ac-c5733a085855" RecordId="e53e4352-84da-4307-a0ac-c5733a085855" />
-          </tags>
+          <tags Type="Tag" Count="0" />
         </scheduleAreaPositiveTags>
         <scheduleAreaNegativeTags Type="TagList">
           <tags Type="Tag" Count="0" />
@@ -714,7 +893,7 @@
         <isCritical>False</isCritical>
       </AutoSpawnSettings>
       <AutoSpawnSettings Type="AutoSpawnSettings">
-        <name>Laserhead: SC_AA</name>
+        <name>Maintenance: SC_BD -- SA_BG</name>
         <initialActivity>Sentry</initialActivity>
         <positiveCharacterTags Type="TagList">
           <tags Type="Tag" Count="3">
@@ -741,15 +920,15 @@
         <excludeShipCrew>True</excludeShipCrew>
         <excludeSpawnGender>Female</excludeSpawnGender>
         <minGroupSize>1</minGroupSize>
-        <maxGroupSize>4</maxGroupSize>
-        <maxConcurrentSpawns>4</maxConcurrentSpawns>
+        <maxGroupSize>2</maxGroupSize>
+        <maxConcurrentSpawns>3</maxConcurrentSpawns>
         <maxSpawns>-1</maxSpawns>
         <minSpawnDelay>720</minSpawnDelay>
         <maxSpawnDelay>1080</maxSpawnDelay>
         <inventoryItems Type="SpawnSettingsInventoryItem" Count="0" />
         <closetPositiveTags Type="TagList">
           <tags Type="Tag" Count="1">
-            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.be0ec4c1-1141-4f91-a0f6-f4e010a56765" RecordId="be0ec4c1-1141-4f91-a0f6-f4e010a56765" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.56b95461-d43f-4f25-a288-1749f9596df0" RecordId="56b95461-d43f-4f25-a288-1749f9596df0" />
           </tags>
         </closetPositiveTags>
         <closetNegativeTags Type="TagList">
@@ -768,7 +947,9 @@
           <tags Type="Tag" Count="0" />
         </defendAreaNegativeTags>
         <scheduleAreaPositiveTags Type="TagList">
-          <tags Type="Tag" Count="0" />
+          <tags Type="Tag" Count="1">
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.67347776-e668-4461-9d58-d9234e5532fc" RecordId="67347776-e668-4461-9d58-d9234e5532fc" />
+          </tags>
         </scheduleAreaPositiveTags>
         <scheduleAreaNegativeTags Type="TagList">
           <tags Type="Tag" Count="0" />
@@ -781,7 +962,7 @@
         <isCritical>False</isCritical>
       </AutoSpawnSettings>
       <AutoSpawnSettings Type="AutoSpawnSettings">
-        <name>Laserhead: SC_AB</name>
+        <name>Maintenance: SC_BD -- SA_BH</name>
         <initialActivity>Sentry</initialActivity>
         <positiveCharacterTags Type="TagList">
           <tags Type="Tag" Count="3">
@@ -816,7 +997,7 @@
         <inventoryItems Type="SpawnSettingsInventoryItem" Count="0" />
         <closetPositiveTags Type="TagList">
           <tags Type="Tag" Count="1">
-            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.07218a57-f88f-43d7-b4e1-b31d2fcfb1cc" RecordId="07218a57-f88f-43d7-b4e1-b31d2fcfb1cc" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.56b95461-d43f-4f25-a288-1749f9596df0" RecordId="56b95461-d43f-4f25-a288-1749f9596df0" />
           </tags>
         </closetPositiveTags>
         <closetNegativeTags Type="TagList">
@@ -835,7 +1016,9 @@
           <tags Type="Tag" Count="0" />
         </defendAreaNegativeTags>
         <scheduleAreaPositiveTags Type="TagList">
-          <tags Type="Tag" Count="0" />
+          <tags Type="Tag" Count="1">
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.af5f28cc-2a7a-40b3-bf0f-bab675db22a4" RecordId="af5f28cc-2a7a-40b3-bf0f-bab675db22a4" />
+          </tags>
         </scheduleAreaPositiveTags>
         <scheduleAreaNegativeTags Type="TagList">
           <tags Type="Tag" Count="0" />
@@ -1285,7 +1468,7 @@
       </AutoSpawnSettings>
       <AutoSpawnSettings Type="AutoSpawnSettings">
         <name>Warehouse: SC_DA</name>
-        <initialActivity />
+        <initialActivity>Sentry</initialActivity>
         <positiveCharacterTags Type="TagList">
           <tags Type="Tag" Count="3">
             <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" RecordId="ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" />
@@ -1342,7 +1525,7 @@
       </AutoSpawnSettings>
       <AutoSpawnSettings Type="AutoSpawnSettings">
         <name>Warehouse: SC_DB</name>
-        <initialActivity />
+        <initialActivity>Sentry</initialActivity>
         <positiveCharacterTags Type="TagList">
           <tags Type="Tag" Count="3">
             <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" RecordId="ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" />
@@ -1399,7 +1582,7 @@
       </AutoSpawnSettings>
       <AutoSpawnSettings Type="AutoSpawnSettings">
         <name>Warehouse: SC_DC</name>
-        <initialActivity />
+        <initialActivity>Sentry</initialActivity>
         <positiveCharacterTags Type="TagList">
           <tags Type="Tag" Count="3">
             <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" RecordId="ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" />
@@ -1456,7 +1639,7 @@
       </AutoSpawnSettings>
       <AutoSpawnSettings Type="AutoSpawnSettings">
         <name>Warehouse: SC_DD</name>
-        <initialActivity />
+        <initialActivity>Sentry</initialActivity>
         <positiveCharacterTags Type="TagList">
           <tags Type="Tag" Count="3">
             <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" RecordId="ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" />
@@ -1500,6 +1683,114 @@
         </defendAreaNegativeTags>
         <scheduleAreaPositiveTags Type="TagList">
           <tags Type="Tag" Count="0" />
+        </scheduleAreaPositiveTags>
+        <scheduleAreaNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </scheduleAreaNegativeTags>
+        <entityTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </entityTags>
+        <factionOverride />
+        <missionAlliedMarker>False</missionAlliedMarker>
+        <isCritical>False</isCritical>
+      </AutoSpawnSettings>
+      <AutoSpawnSettings Type="AutoSpawnSettings">
+        <name>--------------------------------------------------------------------------------------------------------------------------</name>
+        <initialActivity />
+        <positiveCharacterTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </positiveCharacterTags>
+        <negativeCharacterTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </negativeCharacterTags>
+        <excludeShipCrew>True</excludeShipCrew>
+        <excludeSpawnGender>Female</excludeSpawnGender>
+        <minGroupSize>-1</minGroupSize>
+        <maxGroupSize>-1</maxGroupSize>
+        <maxConcurrentSpawns>1</maxConcurrentSpawns>
+        <maxSpawns>-1</maxSpawns>
+        <minSpawnDelay>-1</minSpawnDelay>
+        <maxSpawnDelay>-1</maxSpawnDelay>
+        <inventoryItems Type="SpawnSettingsInventoryItem" Count="0" />
+        <closetPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </closetPositiveTags>
+        <closetNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </closetNegativeTags>
+        <roomPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </roomPositiveTags>
+        <roomNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </roomNegativeTags>
+        <defendAreaPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </defendAreaPositiveTags>
+        <defendAreaNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </defendAreaNegativeTags>
+        <scheduleAreaPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </scheduleAreaPositiveTags>
+        <scheduleAreaNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </scheduleAreaNegativeTags>
+        <entityTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </entityTags>
+        <factionOverride />
+        <missionAlliedMarker>False</missionAlliedMarker>
+        <isCritical>False</isCritical>
+      </AutoSpawnSettings>
+      <AutoSpawnSettings Type="AutoSpawnSettings">
+        <name>Left Cave: SC_EA</name>
+        <initialActivity>Sentry</initialActivity>
+        <positiveCharacterTags Type="TagList">
+          <tags Type="Tag" Count="3">
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" RecordId="ac904ae7-ae1c-4438-99d1-2fe61ad73a1c" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ecfb92fe-5d2d-4fef-aa8f-2f09fcf42b6f" RecordId="ecfb92fe-5d2d-4fef-aa8f-2f09fcf42b6f" />
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6197204c-93b5-4756-b858-08311d6a2823" RecordId="6197204c-93b5-4756-b858-08311d6a2823" />
+          </tags>
+        </positiveCharacterTags>
+        <negativeCharacterTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </negativeCharacterTags>
+        <excludeShipCrew>True</excludeShipCrew>
+        <excludeSpawnGender>Female</excludeSpawnGender>
+        <minGroupSize>1</minGroupSize>
+        <maxGroupSize>4</maxGroupSize>
+        <maxConcurrentSpawns>4</maxConcurrentSpawns>
+        <maxSpawns>-1</maxSpawns>
+        <minSpawnDelay>720</minSpawnDelay>
+        <maxSpawnDelay>1080</maxSpawnDelay>
+        <inventoryItems Type="SpawnSettingsInventoryItem" Count="0" />
+        <closetPositiveTags Type="TagList">
+          <tags Type="Tag" Count="1">
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0495f0f1-5fd0-48b0-b44f-6dd32eb37e45" RecordId="0495f0f1-5fd0-48b0-b44f-6dd32eb37e45" />
+          </tags>
+        </closetPositiveTags>
+        <closetNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </closetNegativeTags>
+        <roomPositiveTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </roomPositiveTags>
+        <roomNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </roomNegativeTags>
+        <defendAreaPositiveTags Type="TagList">
+          <tags Type="Tag" Count="1">
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f2b512db-1a94-466d-b18d-3b53cbf4aa26" RecordId="f2b512db-1a94-466d-b18d-3b53cbf4aa26" />
+          </tags>
+        </defendAreaPositiveTags>
+        <defendAreaNegativeTags Type="TagList">
+          <tags Type="Tag" Count="0" />
+        </defendAreaNegativeTags>
+        <scheduleAreaPositiveTags Type="TagList">
+          <tags Type="Tag" Count="1">
+            <Tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.3fad1ba6-038a-49ec-95b1-ec43cc62ba3b" RecordId="3fad1ba6-038a-49ec-95b1-ec43cc62ba3b" />
+          </tags>
         </scheduleAreaPositiveTags>
         <scheduleAreaNegativeTags Type="TagList">
           <tags Type="Tag" Count="0" />

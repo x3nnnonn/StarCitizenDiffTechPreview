@@ -50,9 +50,9 @@
       <restoreOnClaim>True</restoreOnClaim>
       <shipInsuranceParams Type="ShipInsuranceParams">
         <shipEntityClassName>KRIG_L21_Wolf</shipEntityClassName>
-        <baseWaitTimeMinutes>4</baseWaitTimeMinutes>
-        <mandatoryWaitTimeMinutes>1</mandatoryWaitTimeMinutes>
-        <baseExpeditingFee>1710</baseExpeditingFee>
+        <baseWaitTimeMinutes>7</baseWaitTimeMinutes>
+        <mandatoryWaitTimeMinutes>1.75</mandatoryWaitTimeMinutes>
+        <baseExpeditingFee>6190</baseExpeditingFee>
       </shipInsuranceParams>
       <displayParams Type="SEntityInsuranceDisplayParams">
         <name>@LOC_PLACEHOLDER</name>
@@ -2795,6 +2795,9 @@
             <afterburnerStopLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStopLoop>
+            <timeSinceLastAfterburnerEnabledRtpc Type="AudioRtpc">
+              <rtpc />
+            </timeSinceLastAfterburnerEnabledRtpc>
             <thrusterStrengthSmoothedRtpc Type="AudioRtpc">
               <rtpc />
             </thrusterStrengthSmoothedRtpc>
@@ -2820,6 +2823,9 @@
             <afterburnerStopLoop Type="GlobalResourceAudio">
               <audioTrigger>Stop_SSTH_KRIG_Wolf_Primary_Afterburner_LP</audioTrigger>
             </afterburnerStopLoop>
+            <timeSinceLastAfterburnerEnabledRtpc Type="AudioRtpc">
+              <rtpc />
+            </timeSinceLastAfterburnerEnabledRtpc>
             <thrusterStrengthSmoothedRtpc Type="AudioRtpc">
               <rtpc />
             </thrusterStrengthSmoothedRtpc>
@@ -2851,6 +2857,9 @@
             <afterburnerStopLoop Type="GlobalResourceAudio">
               <audioTrigger>Stop_SSTH_KRIG_Wolf_Retro_Afterburner_LP</audioTrigger>
             </afterburnerStopLoop>
+            <timeSinceLastAfterburnerEnabledRtpc Type="AudioRtpc">
+              <rtpc />
+            </timeSinceLastAfterburnerEnabledRtpc>
             <thrusterStrengthSmoothedRtpc Type="AudioRtpc">
               <rtpc />
             </thrusterStrengthSmoothedRtpc>
@@ -5364,6 +5373,7 @@
       </InternalHardpointLinks>
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="8">
@@ -5433,7 +5443,7 @@
           <bindingsMethod>None</bindingsMethod>
           <DefaultState />
           <asopReset>False</asopReset>
-          <networkAuthority>Server</networkAuthority>
+          <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="4">
             <SInteractionState Pointer="ptr:5" Type="SInteractionState">
               <StateName>Retracted</StateName>

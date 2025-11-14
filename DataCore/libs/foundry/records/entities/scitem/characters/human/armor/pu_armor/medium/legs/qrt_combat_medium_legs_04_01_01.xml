@@ -292,7 +292,7 @@
               <EnableDecalProjection>False</EnableDecalProjection>
               <BBoxJoint />
               <BBoxRadius>0</BBoxRadius>
-              <Wear>0</Wear>
+              <Wear>0.25</Wear>
               <Dirt>0</Dirt>
               <Interference>0</Interference>
               <Damage>0</Damage>
@@ -308,7 +308,7 @@
                 <Tags>inventoryStoredEntity</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
-                    <path>Objects/Characters/Human/female_v2/armor/qrt/quirinus/f_qrt_combat_medium_legs_04_prop.cgf</path>
+                    <path>Objects/Characters/Human/male_v7/armor/qrt/quirinus/m_qrt_combat_medium_legs_04_prop.cgf</path>
                   </Geometry>
                   <Material Type="GlobalResourceMaterial">
                     <path>Objects/Characters/Human/male_v7/armor/qrt/quirinus/m_qrt_combat_medium_legs_04_01.mtl</path>
@@ -379,7 +379,7 @@
               <EnableDecalProjection>False</EnableDecalProjection>
               <BBoxJoint />
               <BBoxRadius>0</BBoxRadius>
-              <Wear>0</Wear>
+              <Wear>0.25</Wear>
               <Dirt>0</Dirt>
               <Interference>0</Interference>
               <Damage>0</Damage>
@@ -1251,6 +1251,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

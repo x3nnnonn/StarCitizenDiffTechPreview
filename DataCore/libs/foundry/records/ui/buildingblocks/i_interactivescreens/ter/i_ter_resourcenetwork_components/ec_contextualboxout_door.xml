@@ -435,7 +435,7 @@
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="12">
+  <operations Type="BuildingBlocks_Node" Count="17">
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
       <widget PointsTo="ptr:1" />
       <field>ParamInput2</field>
@@ -506,6 +506,35 @@
       <field>ParamInput0</field>
       <input PointsTo="ptr:4" />
     </BuildingBlocks_BindingsBooleanField>
+    <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput1</field>
+      <input PointsTo="ptr:8" />
+    </BuildingBlocks_BindingsBooleanField>
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:9" Type="BuildingBlocks_BindingsIntegerVariable">
+      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
+      <binding>statusList</binding>
+      <inheritsNamespace>True</inheritsNamespace>
+      <isPulled>False</isPulled>
+      <isWatched>False</isWatched>
+    </BuildingBlocks_BindingsIntegerVariable>
+    <BuildingBlocks_BindingsIntegerField Type="BuildingBlocks_BindingsIntegerField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput0</field>
+      <input PointsTo="ptr:9" />
+    </BuildingBlocks_BindingsIntegerField>
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:10" Type="BuildingBlocks_BindingsIntegerVariable">
+      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
+      <binding>statList</binding>
+      <inheritsNamespace>True</inheritsNamespace>
+      <isPulled>False</isPulled>
+      <isWatched>False</isWatched>
+    </BuildingBlocks_BindingsIntegerVariable>
+    <BuildingBlocks_BindingsIntegerField Type="BuildingBlocks_BindingsIntegerField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput1</field>
+      <input PointsTo="ptr:10" />
+    </BuildingBlocks_BindingsIntegerField>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

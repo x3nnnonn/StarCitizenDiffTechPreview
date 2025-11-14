@@ -2339,6 +2339,9 @@
             <afterburnerStopLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStopLoop>
+            <timeSinceLastAfterburnerEnabledRtpc Type="AudioRtpc">
+              <rtpc />
+            </timeSinceLastAfterburnerEnabledRtpc>
             <thrusterStrengthSmoothedRtpc Type="AudioRtpc">
               <rtpc />
             </thrusterStrengthSmoothedRtpc>
@@ -2364,6 +2367,9 @@
             <afterburnerStopLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStopLoop>
+            <timeSinceLastAfterburnerEnabledRtpc Type="AudioRtpc">
+              <rtpc />
+            </timeSinceLastAfterburnerEnabledRtpc>
             <thrusterStrengthSmoothedRtpc Type="AudioRtpc">
               <rtpc />
             </thrusterStrengthSmoothedRtpc>
@@ -2389,6 +2395,9 @@
             <afterburnerStopLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStopLoop>
+            <timeSinceLastAfterburnerEnabledRtpc Type="AudioRtpc">
+              <rtpc />
+            </timeSinceLastAfterburnerEnabledRtpc>
             <thrusterStrengthSmoothedRtpc Type="AudioRtpc">
               <rtpc />
             </thrusterStrengthSmoothedRtpc>
@@ -4660,6 +4669,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>True</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="8">
@@ -4729,7 +4739,7 @@
           <bindingsMethod>None</bindingsMethod>
           <DefaultState />
           <asopReset>False</asopReset>
-          <networkAuthority>Server</networkAuthority>
+          <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="3">
             <SInteractionState Pointer="ptr:23" Type="SInteractionState">
               <StateName>Normal</StateName>

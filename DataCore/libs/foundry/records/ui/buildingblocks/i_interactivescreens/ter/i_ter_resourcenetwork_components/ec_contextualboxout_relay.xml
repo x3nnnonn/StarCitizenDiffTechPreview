@@ -364,17 +364,22 @@
       <stylesheetOverride />
       <canvas ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/i_interactivescreens/ter/i_ter_resourcenetwork_components/types/generic/gen_ec_contextualboxout_relay.xml" />
       <sizingMethod>Size</sizingMethod>
-      <paramInputValues Type="BuildingBlocks_ComponentParameterInputBase" Count="0" />
+      <paramInputValues Type="BuildingBlocks_ComponentParameterInputBase" Count="1">
+        <BuildingBlocks_ComponentParameterInputLocalization Type="BuildingBlocks_ComponentParameterInputLocalization">
+          <parameter>ParamInput3</parameter>
+          <value>@engineering_ui_Item_Fuses</value>
+        </BuildingBlocks_ComponentParameterInputLocalization>
+      </paramInputValues>
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="10">
+  <operations Type="BuildingBlocks_Node" Count="14">
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
       <widget PointsTo="ptr:1" />
       <field>ParamInput0</field>
       <input PointsTo="ptr:2" />
     </BuildingBlocks_BindingsLocalizedField>
-    <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:8" Type="BuildingBlocks_BindingsLocalizedVariable">
+    <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:2" Type="BuildingBlocks_BindingsLocalizedVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>portName</binding>
       <inheritsNamespace>True</inheritsNamespace>
@@ -387,38 +392,26 @@
       <value>@LOC_FORWARDSLASH</value>
       <withSpace>False</withSpace>
     </BindingsOperations_LocalizationCombine>
-    <BindingsOperations_LocalizationCombine Pointer="ptr:7" Type="BindingsOperations_LocalizationCombine">
+    <BindingsOperations_LocalizationCombine Pointer="ptr:8" Type="BindingsOperations_LocalizationCombine">
       <inputL PointsTo="ptr:4" />
       <inputR PointsTo="ptr:5" />
       <value>@LOC_EMPTY</value>
-      <withSpace>False</withSpace>
-    </BindingsOperations_LocalizationCombine>
-    <BindingsOperations_LocalizationCombine Pointer="ptr:2" Type="BindingsOperations_LocalizationCombine">
-      <inputL PointsTo="ptr:6" />
-      <inputR PointsTo="ptr:7" />
-      <value>@LOC_EMPTY</value>
-      <withSpace>True</withSpace>
-    </BindingsOperations_LocalizationCombine>
-    <BindingsOperations_LocalizationCombine Pointer="ptr:6" Type="BindingsOperations_LocalizationCombine">
-      <inputL PointsTo="ptr:8" />
-      <inputR />
-      <value>@text_ui_units_colon</value>
       <withSpace>False</withSpace>
     </BindingsOperations_LocalizationCombine>
     <BuildingBlocks_BindingsLocalizedFromInteger Pointer="ptr:3" Type="BuildingBlocks_BindingsLocalizedFromInteger">
       <defaultNZeros>0</defaultNZeros>
       <nZeros />
       <withSeparators>False</withSeparators>
-      <input PointsTo="ptr:9" />
+      <input PointsTo="ptr:6" />
     </BuildingBlocks_BindingsLocalizedFromInteger>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:9" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:6" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>currentFuses</binding>
       <inheritsNamespace>True</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsIntegerVariable>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:10" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:7" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>maxFuses</binding>
       <inheritsNamespace>True</inheritsNamespace>
@@ -429,8 +422,47 @@
       <defaultNZeros>0</defaultNZeros>
       <nZeros />
       <withSeparators>False</withSeparators>
-      <input PointsTo="ptr:10" />
+      <input PointsTo="ptr:7" />
     </BuildingBlocks_BindingsLocalizedFromInteger>
+    <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput2</field>
+      <input PointsTo="ptr:8" />
+    </BuildingBlocks_BindingsLocalizedField>
+    <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput1</field>
+      <input PointsTo="ptr:9" />
+    </BuildingBlocks_BindingsLocalizedField>
+    <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:9" Type="BuildingBlocks_BindingsLocalizedVariable">
+      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
+      <binding>type</binding>
+      <inheritsNamespace>True</inheritsNamespace>
+      <isPulled>False</isPulled>
+      <isWatched>False</isWatched>
+    </BuildingBlocks_BindingsLocalizedVariable>
+    <BuildingBlocks_BindingsIntegerField Type="BuildingBlocks_BindingsIntegerField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput0</field>
+      <input PointsTo="ptr:6" />
+    </BuildingBlocks_BindingsIntegerField>
+    <BuildingBlocks_BindingsIntegerField Type="BuildingBlocks_BindingsIntegerField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput1</field>
+      <input PointsTo="ptr:10" />
+    </BuildingBlocks_BindingsIntegerField>
+    <BuildingBlocks_BindingsIntegerFromIntegerSwitch Pointer="ptr:10" Type="BuildingBlocks_BindingsIntegerFromIntegerSwitch">
+      <defaultValue>0</defaultValue>
+      <defaultOverride />
+      <values Type="BuildingBlocks_IntegerIntegerPair" Count="1">
+        <BuildingBlocks_IntegerIntegerPair Type="BuildingBlocks_IntegerIntegerPair">
+          <first>0</first>
+          <second>2</second>
+          <secondOverride />
+        </BuildingBlocks_IntegerIntegerPair>
+      </values>
+      <input PointsTo="ptr:6" />
+    </BuildingBlocks_BindingsIntegerFromIntegerSwitch>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

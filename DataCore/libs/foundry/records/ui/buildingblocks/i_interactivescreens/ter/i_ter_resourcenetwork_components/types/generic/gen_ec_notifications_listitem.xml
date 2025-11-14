@@ -1319,7 +1319,7 @@
       <inheritsAlpha>True</inheritsAlpha>
       <inheritsOverflow>False</inheritsOverflow>
       <alpha>1</alpha>
-      <layer>5</layer>
+      <layer>7</layer>
       <aspectRatioLibrary />
       <focusIndex>-1</focusIndex>
       <inlineStyles Type="BuildingBlocks_StyleEntry" Count="0" />
@@ -2274,7 +2274,7 @@
       <inheritsAlpha>True</inheritsAlpha>
       <inheritsOverflow>False</inheritsOverflow>
       <alpha>1</alpha>
-      <layer>5</layer>
+      <layer>7</layer>
       <aspectRatioLibrary />
       <focusIndex>-1</focusIndex>
       <inlineStyles Type="BuildingBlocks_StyleEntry" Count="0" />
@@ -2313,7 +2313,7 @@
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
       <widget PointsTo="ptr:11" />
       <field>IsActive</field>
-      <input PointsTo="ptr:12" />
+      <input />
     </BuildingBlocks_BindingsBooleanField>
     <BuildingBlocks_BindingsLocalizedComponentParameter Pointer="ptr:8" Type="BuildingBlocks_BindingsLocalizedComponentParameter">
       <name>Timestamp</name>
@@ -2350,7 +2350,7 @@
       <parameter>ParamInput1</parameter>
       <defaultValue>@LOC_EMPTY</defaultValue>
     </BuildingBlocks_BindingsLocalizedComponentParameter>
-    <BuildingBlocks_BindingsBooleanComponentParameter Pointer="ptr:12" Type="BuildingBlocks_BindingsBooleanComponentParameter">
+    <BuildingBlocks_BindingsBooleanComponentParameter Type="BuildingBlocks_BindingsBooleanComponentParameter">
       <name>ButtonVisibility</name>
       <parameter>ParamInput0</parameter>
       <defaultValue>False</defaultValue>

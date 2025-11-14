@@ -2442,9 +2442,9 @@
       <debugName>BitZeros_BlackBoxRecovery_Nyx_Career</debugName>
       <defaultAvailability Type="ContractAvailability">
         <prerequisites Type="ContractPrerequisiteBase" Count="1">
-          <ContractPrerequisite_Location Type="ContractPrerequisite_Location">
-            <locationAvailable />
-          </ContractPrerequisite_Location>
+          <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
+            <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/nyx.xml" />
+          </ContractPrerequisite_Locality>
         </prerequisites>
         <notifyOnAvailable>False</notifyOnAvailable>
         <maxPlayersPerInstance>1</maxPlayersPerInstance>
@@ -2517,7 +2517,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="9">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>PickupLocation_BP1</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -2595,22 +2595,6 @@
                     </DataSetMatchCondition_SpecificItemsDef>
                   </matchConditions>
                   <debugForceChosenItem />
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>NumberOfHaulingOrders</missionVariableName>
-                <extendedTextToken>NumberOfHaulingOrders</extendedTextToken>
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>1</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
                 </value>
               </MissionProperty>
               <MissionProperty Type="MissionProperty">
@@ -2757,7 +2741,7 @@
           </contractLifeTime>
           <contractPlugins Type="SContractPlugin_Base" Count="0" />
           <contractResults Type="ContractResults">
-            <contractResults Type="ContractResultBase" Count="2">
+            <contractResults Type="ContractResultBase" Count="3">
               <ContractResult_CompletionTags Type="ContractResult_CompletionTags">
                 <missionResults Type="ActivityBehaviorRequestCondition" Count="5">
                   <Boolean>True</Boolean>
@@ -2782,6 +2766,20 @@
                   <Boolean>False</Boolean>
                 </missionResults>
               </ContractResult_CalculatedReward>
+              <ContractResult_LegacyReputation Type="ContractResult_LegacyReputation">
+                <missionResults Type="ActivityBehaviorRequestCondition" Count="5">
+                  <Boolean>True</Boolean>
+                  <Boolean>False</Boolean>
+                  <Boolean>False</Boolean>
+                  <Boolean>False</Boolean>
+                  <Boolean>False</Boolean>
+                </missionResults>
+                <contractResultReputationAmounts Type="SReputationAmountParams">
+                  <factionReputation ReferencedFile="file://./../../../../../../../libs/foundry/records/factions/factionreputation/factionreputation_unlawful_bitzeros.xml" />
+                  <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
+                  <reward ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/rewards/missionrewards_reputation/reputationawards_pyro/repuationrewardamount_positive_100.xml" />
+                </contractResultReputationAmounts>
+              </ContractResult_LegacyReputation>
             </contractResults>
             <contractBuyInAmount>0</contractBuyInAmount>
             <timeToComplete>12</timeToComplete>
@@ -2816,7 +2814,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="9">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>PickupLocation_BP1</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -2894,22 +2892,6 @@
                     </DataSetMatchCondition_SpecificItemsDef>
                   </matchConditions>
                   <debugForceChosenItem />
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>NumberOfHaulingOrders</missionVariableName>
-                <extendedTextToken>NumberOfHaulingOrders</extendedTextToken>
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>1</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
                 </value>
               </MissionProperty>
               <MissionProperty Type="MissionProperty">
@@ -3114,7 +3096,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="9">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>PickupLocation_BP1</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -3192,22 +3174,6 @@
                     </DataSetMatchCondition_SpecificItemsDef>
                   </matchConditions>
                   <debugForceChosenItem />
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>NumberOfHaulingOrders</missionVariableName>
-                <extendedTextToken>NumberOfHaulingOrders</extendedTextToken>
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>1</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
                 </value>
               </MissionProperty>
               <MissionProperty Type="MissionProperty">
@@ -3412,7 +3378,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="9">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>PickupLocation_BP1</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -3490,22 +3456,6 @@
                     </DataSetMatchCondition_SpecificItemsDef>
                   </matchConditions>
                   <debugForceChosenItem />
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>NumberOfHaulingOrders</missionVariableName>
-                <extendedTextToken>NumberOfHaulingOrders</extendedTextToken>
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>1</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
                 </value>
               </MissionProperty>
               <MissionProperty Type="MissionProperty">
@@ -3710,7 +3660,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="9">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>PickupLocation_BP1</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -3788,22 +3738,6 @@
                     </DataSetMatchCondition_SpecificItemsDef>
                   </matchConditions>
                   <debugForceChosenItem />
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>NumberOfHaulingOrders</missionVariableName>
-                <extendedTextToken>NumberOfHaulingOrders</extendedTextToken>
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>1</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
                 </value>
               </MissionProperty>
               <MissionProperty Type="MissionProperty">
@@ -4008,7 +3942,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="9">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>PickupLocation_BP1</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -4086,22 +4020,6 @@
                     </DataSetMatchCondition_SpecificItemsDef>
                   </matchConditions>
                   <debugForceChosenItem />
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>NumberOfHaulingOrders</missionVariableName>
-                <extendedTextToken>NumberOfHaulingOrders</extendedTextToken>
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>1</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
                 </value>
               </MissionProperty>
               <MissionProperty Type="MissionProperty">
@@ -4333,7 +4251,7 @@
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
             <intParamOverrides Type="ContractIntParam" Count="0" />
             <propertyTagReplacement Type="ContractPropertyTagReplacement" Count="0" />
-            <propertyOverrides Type="MissionProperty" Count="9">
+            <propertyOverrides Type="MissionProperty" Count="8">
               <MissionProperty Type="MissionProperty">
                 <missionVariableName>PickupLocation_BP1</missionVariableName>
                 <extendedTextToken>Location</extendedTextToken>
@@ -4411,22 +4329,6 @@
                     </DataSetMatchCondition_SpecificItemsDef>
                   </matchConditions>
                   <debugForceChosenItem />
-                </value>
-              </MissionProperty>
-              <MissionProperty Type="MissionProperty">
-                <missionVariableName>NumberOfHaulingOrders</missionVariableName>
-                <extendedTextToken>NumberOfHaulingOrders</extendedTextToken>
-                <value Type="MissionPropertyValue_Integer">
-                  <options Type="MissionPropertyValueOption_Integer" Count="1">
-                    <MissionPropertyValueOption_Integer Type="MissionPropertyValueOption_Integer">
-                      <textId>@LOC_UNINITIALIZED</textId>
-                      <weighting>1</weighting>
-                      <DEBUG_forceChooseThisOption>False</DEBUG_forceChooseThisOption>
-                      <dependentProperties Type="DependentMissionProperty" Count="0" />
-                      <value>1</value>
-                      <variation>0</variation>
-                    </MissionPropertyValueOption_Integer>
-                  </options>
                 </value>
               </MissionProperty>
               <MissionProperty Type="MissionProperty">

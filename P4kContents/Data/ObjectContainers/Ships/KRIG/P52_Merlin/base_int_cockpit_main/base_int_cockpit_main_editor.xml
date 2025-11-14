@@ -2,9 +2,9 @@
  <Layers>
   <Layer fullname="Int_Cockpit" externalLayerLevelDir="data/levels/!ship_setup/krig/p52_merlin/Layers/" externalLayerParentDir="" externalLayerFilePath="data/levels/!ship_setup/krig/p52_merlin/Layers/Int_Cockpit.lyr" layerHash="2186616997">
    <Layer name="EXT_Lightgroups" layerHash="3633596000" externalLayerFilePath="data/levels/!ship_setup/krig/p52_merlin/Layers/Int_Cockpit/EXT_Lightgroups.lyr">
-    <Layer name="ext_Body_Headlights" layerHash="588872862" externalLayerFilePath="data/levels/!ship_setup/krig/p52_merlin/Layers/Int_Cockpit/EXT_Lightgroups/ext_Body_Headlights.lyr">
-     <Object name="Light-001" type="Light" guid="4f8709c1-2622-4014-fc28-5390d5fc5f92" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-     <Object name="Light-000" type="Light" guid="4a6eca6b-704e-7444-8a2d-2a82a4686283" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Layer name="ext_Body_Headlights" layerHash="1023273568" externalLayerFilePath="data/levels/!ship_setup/krig/p52_merlin/Layers/Int_Cockpit/EXT_Lightgroups/ext_Body_Headlights.lyr">
+     <Object name="Light-000" type="Light" guid="4f8709c1-2622-4014-fc28-5390d5fc5f92" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+     <Object name="Light-001" type="Light" guid="4a6eca6b-704e-7444-8a2d-2a82a4686283" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light-108" type="Light" guid="4a5e23d5-02f6-5a4b-d309-fd3e62779daf" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light-002" type="Light" guid="4fae7364-b846-744b-82f0-2dfcafe5e0b1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light-003" type="Light" guid="401559ea-314f-3057-a8c4-93d1b0981fb0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -94,21 +94,21 @@
      <Object name="Room_Cockpit_Room" type="Room_RN" guid="4284dd47-a272-e25e-32d0-61511f000184" tags="00ead468-9073-485b-a6df-ca6b94053603,afd66f73-2769-4e3f-b17c-a08c6dd1b361,a7c06cc7-a715-43b3-93b6-486483f26d18,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     </Layer>
     <Layer name="cockpit_audio" layerHash="3006442099" externalLayerFilePath="data/levels/!ship_setup/krig/p52_merlin/Layers/Int_Cockpit/_cockpit/cockpit_audio.lyr">
-     <Layer name="cockpit_audio_atmospherics" layerHash="1609141764" externalLayerFilePath="data/levels/!ship_setup/krig/p52_merlin/Layers/Int_Cockpit/_cockpit/cockpit_audio/cockpit_audio_atmospherics.lyr">
+     <Layer name="cockpit_audio_atmospherics" layerHash="2517518353" externalLayerFilePath="data/levels/!ship_setup/krig/p52_merlin/Layers/Int_Cockpit/_cockpit/cockpit_audio/cockpit_audio_atmospherics.lyr">
       <Object name="AudioEnvironmentFeedbackPoint-003" type="AudioEnvironmentFeedbackPoint" guid="44aefd31-75c8-ec3d-cc94-64351b8196b7" tags="04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
-      <Object name="AudioEnvironmentFeedbackPoint-002" type="AudioEnvironmentFeedbackPoint" guid="42d207c7-726d-1752-f185-f950f44651a0" tags="04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
+      <Object name="AudioEnvironmentFeedbackPoint-000" type="AudioEnvironmentFeedbackPoint" guid="42d207c7-726d-1752-f185-f950f44651a0" tags="04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
       <Object name="AudioEnvironmentFeedbackPoint-007" type="AudioEnvironmentFeedbackPoint" guid="4328a799-6205-935c-d830-f1ed532f2084" tags="04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
       <Object name="AudioEnvironmentFeedbackPoint-009" type="AudioEnvironmentFeedbackPoint" guid="4fef9eaa-af93-68be-a67a-86870c4118ad" tags="04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
       <Object name="AudioEnvironmentFeedbackPoint-008" type="AudioEnvironmentFeedbackPoint" guid="423e4d7b-b80a-a7f5-8999-223ec2e089b5" tags="04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
       <Object name="AudioEnvironmentFeedbackPoint-001" type="AudioEnvironmentFeedbackPoint" guid="49614299-fa39-a3fb-ddad-63973c637a8f" tags="04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      </Layer>
-     <Layer name="cockpit_audio_vibration" layerHash="1751466405" externalLayerFilePath="data/levels/!ship_setup/krig/p52_merlin/Layers/Int_Cockpit/_cockpit/cockpit_audio/cockpit_audio_vibration.lyr">
+     <Layer name="cockpit_audio_vibration" layerHash="3591485494" externalLayerFilePath="data/levels/!ship_setup/krig/p52_merlin/Layers/Int_Cockpit/_cockpit/cockpit_audio/cockpit_audio_vibration.lyr">
       <Object name="VibrationAudioPoint-001" type="VibrationAudioPoint" guid="4bcadb60-9802-9a2f-e65c-eb8a288b39b2" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-      <Object name="VibrationAudioPoint-002" type="VibrationAudioPoint" guid="4912b05e-e28d-725a-774d-8e52f238f2b3" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+      <Object name="VibrationAudioPoint-005" type="VibrationAudioPoint" guid="4912b05e-e28d-725a-774d-8e52f238f2b3" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
       <Object name="VibrationAudioPoint-006" type="VibrationAudioPoint" guid="442e8025-10ec-177d-7f75-c36c766519bf" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-      <Object name="VibrationAudioPoint-005" type="VibrationAudioPoint" guid="4a43cc93-90a5-d7b0-4229-ce83f1a6bcb8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-      <Object name="VibrationAudioPoint-003" type="VibrationAudioPoint" guid="40e04649-41b9-a9c1-dd6a-ccb8741bcab3" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-      <Object name="VibrationAudioPoint-004" type="VibrationAudioPoint" guid="49bcd9b7-a477-c5e9-6b95-8e46f6fea1b8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+      <Object name="VibrationAudioPoint-002" type="VibrationAudioPoint" guid="4a43cc93-90a5-d7b0-4229-ce83f1a6bcb8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+      <Object name="VibrationAudioPoint-004" type="VibrationAudioPoint" guid="40e04649-41b9-a9c1-dd6a-ccb8741bcab3" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+      <Object name="VibrationAudioPoint-003" type="VibrationAudioPoint" guid="49bcd9b7-a477-c5e9-6b95-8e46f6fea1b8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      </Layer>
     </Layer>
     <Layer name="cockpit_visarea" layerHash="2275910992" externalLayerFilePath="data/levels/!ship_setup/krig/p52_merlin/Layers/Int_Cockpit/_cockpit/cockpit_visarea.lyr">

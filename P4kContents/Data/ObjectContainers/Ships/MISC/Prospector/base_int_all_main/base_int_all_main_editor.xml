@@ -13,10 +13,10 @@
      <Object name="AudioEnvironmentFeedbackPoint-003" type="AudioEnvironmentFeedbackPoint" guid="400c8b92-bb0f-b363-2c23-7dc6e7c95e99" tags="849b8481-5893-4301-964e-4f39f3e27ad8,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="AudioEnvironmentFeedbackPoint-004" type="AudioEnvironmentFeedbackPoint" guid="4779b8e2-ffe7-4f7a-6359-f3d4258812b1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     </Layer>
-    <Layer name="Interior_AUDIO_Vibrations" layerHash="543560224" externalLayerFilePath="data/levels/!ship_setup/misc/prospector/Layers/Interior/Interior_AUDIO/Interior_AUDIO_Vibrations.lyr">
+    <Layer name="Interior_AUDIO_Vibrations" layerHash="1919823123" externalLayerFilePath="data/levels/!ship_setup/misc/prospector/Layers/Interior/Interior_AUDIO/Interior_AUDIO_Vibrations.lyr">
      <Object name="VibrationAudioPoint-000" type="VibrationAudioPoint" guid="4297994f-e77f-490b-d5b4-2a7ce38769a2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-     <Object name="VibrationAudioPoint-001" type="VibrationAudioPoint" guid="415743f0-14e8-bc15-1750-e84261242a8e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-     <Object name="VibrationAudioPoint-017" type="VibrationAudioPoint" guid="43969bc8-70c0-ef3a-404c-8588bb7dad88" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+     <Object name="VibrationAudioPoint-017" type="VibrationAudioPoint" guid="415743f0-14e8-bc15-1750-e84261242a8e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+     <Object name="VibrationAudioPoint-001" type="VibrationAudioPoint" guid="43969bc8-70c0-ef3a-404c-8588bb7dad88" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="VibrationAudioPoint-002" type="VibrationAudioPoint" guid="4fa4e423-8344-444c-dfb6-4890389fe691" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="VibrationAudioPoint-003" type="VibrationAudioPoint" guid="4026bba1-ea0d-9663-a6a2-d0f15d6ffeb4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="VibrationAudioPoint-005" type="VibrationAudioPoint" guid="4bcfaac5-a16b-5d70-b1ca-836d87237db3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -48,7 +48,7 @@
     <Object name="AS_Prospector_Cockpit" type="AreaShape" guid="400f800f-e2c2-7ede-c604-1a72d5f14783" tags="f1b1052f-f3b0-4f44-b809-96380bfc4e97"/>
    </Layer>
    <Layer name="Interior_LIGHT" layerHash="863988041" externalLayerFilePath="data/levels/!ship_setup/misc/prospector/Layers/Interior/Interior_LIGHT.lyr">
-    <Layer name="Interior_LIGHT_DEF" layerHash="2255209662" externalLayerFilePath="data/levels/!ship_setup/misc/prospector/Layers/Interior/Interior_LIGHT/Interior_LIGHT_DEF.lyr">
+    <Layer name="Interior_LIGHT_DEF" layerHash="2551506173" externalLayerFilePath="data/levels/!ship_setup/misc/prospector/Layers/Interior/Interior_LIGHT/Interior_LIGHT_DEF.lyr">
      <Object name="Light-115" type="Light" guid="4ec632e2-ba9d-6102-1faf-3d8bf5262ca4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="COCKPIT_CM-002" type="EnvironmentLight" guid="4b98e8a4-580c-6a05-abe7-d857914cebba" tags=""/>
      <Object name="Light-011" type="Light" guid="4793d60e-8835-a405-1ccb-74b19101c6ba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -95,7 +95,7 @@
      <Object name="Light-058" type="Light" guid="401384fd-bdf9-648e-a500-93bd1d735089" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light-111" type="Light" guid="421b3099-09b1-f190-18d2-c915f30d479b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light-060" type="Light" guid="43fbef3a-4eae-3595-e8f9-3d39beb03188" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-     <Object name="Light-185" type="Light" guid="449e37ac-b252-6b99-f867-9d44f9973b88" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+     <Object name="Light-109" type="Light" guid="449e37ac-b252-6b99-f867-9d44f9973b88" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light-033" type="Light" guid="47d1d1d5-1c23-c29c-10fb-74cb73ef558f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light-114" type="Light" guid="42fe4cb6-a873-d59d-0b2e-1d36375a40bb" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light-035" type="Light" guid="4df56561-a57d-139f-b8cf-795655f655b4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>

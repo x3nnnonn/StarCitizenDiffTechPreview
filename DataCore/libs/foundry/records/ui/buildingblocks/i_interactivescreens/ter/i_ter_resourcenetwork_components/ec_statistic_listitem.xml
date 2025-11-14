@@ -633,7 +633,7 @@
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="15">
+  <operations Type="BuildingBlocks_Node" Count="27">
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
       <widget PointsTo="ptr:1" />
       <field>ParamInput0</field>
@@ -667,7 +667,7 @@
       <field>ParamInput1</field>
       <input PointsTo="ptr:8" />
     </BuildingBlocks_BindingsStringField>
-    <BuildingBlocks_BindingsTagFromIntegerSwitch Pointer="ptr:8" Type="BuildingBlocks_BindingsTagFromIntegerSwitch">
+    <BuildingBlocks_BindingsTagFromIntegerSwitch Pointer="ptr:17" Type="BuildingBlocks_BindingsTagFromIntegerSwitch">
       <values Type="BuildingBlocks_IntegerTagPair" Count="4">
         <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
           <first>0</first>
@@ -683,20 +683,20 @@
         </BuildingBlocks_IntegerTagPair>
         <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
           <first>3</first>
-          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.deda167e-5e09-4274-b119-726a0ef5e107" RecordId="deda167e-5e09-4274-b119-726a0ef5e107" />
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e4b5bff-f062-4e27-9e6e-56e1573fbc57" RecordId="6e4b5bff-f062-4e27-9e6e-56e1573fbc57" />
         </BuildingBlocks_IntegerTagPair>
       </values>
       <defaultValue />
       <input PointsTo="ptr:9" />
     </BuildingBlocks_BindingsTagFromIntegerSwitch>
-    <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:2" Type="BuildingBlocks_BindingsLocalizedVariable">
+    <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:21" Type="BuildingBlocks_BindingsLocalizedVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>title</binding>
       <inheritsNamespace>True</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsLocalizedVariable>
-    <BuildingBlocks_BindingsStringVariable Pointer="ptr:3" Type="BuildingBlocks_BindingsStringVariable">
+    <BuildingBlocks_BindingsStringVariable Pointer="ptr:13" Type="BuildingBlocks_BindingsStringVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>icon</binding>
       <inheritsNamespace>True</inheritsNamespace>
@@ -739,6 +739,86 @@
       <inputFalse PointsTo="ptr:10" />
       <input PointsTo="ptr:12" />
     </BuildingBlocks_BindingsLocalizedFromBoolean>
+    <BindingsOperation_BooleanFromStringIsEmpty Pointer="ptr:15" Type="BindingsOperation_BooleanFromStringIsEmpty">
+      <input PointsTo="ptr:13" />
+    </BindingsOperation_BooleanFromStringIsEmpty>
+    <BuildingBlocks_BindingsStringFromBoolean Pointer="ptr:3" Type="BuildingBlocks_BindingsStringFromBoolean">
+      <isTrue />
+      <isFalse />
+      <inputTrue PointsTo="ptr:14" />
+      <inputFalse PointsTo="ptr:13" />
+      <input PointsTo="ptr:15" />
+    </BuildingBlocks_BindingsStringFromBoolean>
+    <BuildingBlocks_BindingsStringComponentParameter Pointer="ptr:14" Type="BuildingBlocks_BindingsStringComponentParameter">
+      <name>CustomIcon</name>
+      <parameter>ParamInput0</parameter>
+      <defaultValue />
+    </BuildingBlocks_BindingsStringComponentParameter>
+    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:16" Type="BuildingBlocks_BindingsIntegerComponentParameter">
+      <name>CustomState</name>
+      <parameter>ParamInput0</parameter>
+      <defaultValue>-1</defaultValue>
+    </BuildingBlocks_BindingsIntegerComponentParameter>
+    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:19" Type="BuildingBlocks_BindingsBooleanFromInteger">
+      <type>Equal</type>
+      <inputL PointsTo="ptr:16" />
+      <inputR />
+      <value>-1</value>
+    </BuildingBlocks_BindingsBooleanFromInteger>
+    <BuildingBlocks_BindingsStringFromBoolean Pointer="ptr:8" Type="BuildingBlocks_BindingsStringFromBoolean">
+      <isTrue />
+      <isFalse />
+      <inputTrue PointsTo="ptr:17" />
+      <inputFalse PointsTo="ptr:18" />
+      <input PointsTo="ptr:19" />
+    </BuildingBlocks_BindingsStringFromBoolean>
+    <BuildingBlocks_BindingsTagFromIntegerSwitch Pointer="ptr:18" Type="BuildingBlocks_BindingsTagFromIntegerSwitch">
+      <values Type="BuildingBlocks_IntegerTagPair" Count="4">
+        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
+          <first>0</first>
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7ef1cd98-c37b-46ca-b223-478c6e60eb6c" RecordId="7ef1cd98-c37b-46ca-b223-478c6e60eb6c" />
+        </BuildingBlocks_IntegerTagPair>
+        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
+          <first>1</first>
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7433af8c-10d7-4fdf-b4e2-6913641d442e" RecordId="7433af8c-10d7-4fdf-b4e2-6913641d442e" />
+        </BuildingBlocks_IntegerTagPair>
+        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
+          <first>2</first>
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e4b5bff-f062-4e27-9e6e-56e1573fbc57" RecordId="6e4b5bff-f062-4e27-9e6e-56e1573fbc57" />
+        </BuildingBlocks_IntegerTagPair>
+        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
+          <first>3</first>
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e4b5bff-f062-4e27-9e6e-56e1573fbc57" RecordId="6e4b5bff-f062-4e27-9e6e-56e1573fbc57" />
+        </BuildingBlocks_IntegerTagPair>
+      </values>
+      <defaultValue />
+      <input PointsTo="ptr:16" />
+    </BuildingBlocks_BindingsTagFromIntegerSwitch>
+    <BuildingBlocks_BindingsLocalizedComponentParameter Pointer="ptr:20" Type="BuildingBlocks_BindingsLocalizedComponentParameter">
+      <name>CustomTitle</name>
+      <parameter>ParamInput0</parameter>
+      <defaultValue>@LOC_EMPTY</defaultValue>
+    </BuildingBlocks_BindingsLocalizedComponentParameter>
+    <BindingsOperation_BooleanFromLocalizationIsEmpty Pointer="ptr:22" Type="BindingsOperation_BooleanFromLocalizationIsEmpty">
+      <input PointsTo="ptr:20" />
+    </BindingsOperation_BooleanFromLocalizationIsEmpty>
+    <BuildingBlocks_BindingsLocalizedFromBoolean Pointer="ptr:2" Type="BuildingBlocks_BindingsLocalizedFromBoolean">
+      <isTrue>@LOC_EMPTY</isTrue>
+      <isFalse>@LOC_EMPTY</isFalse>
+      <inputTrue PointsTo="ptr:21" />
+      <inputFalse PointsTo="ptr:20" />
+      <input PointsTo="ptr:22" />
+    </BuildingBlocks_BindingsLocalizedFromBoolean>
+    <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput0</field>
+      <input PointsTo="ptr:23" />
+    </BuildingBlocks_BindingsBooleanField>
+    <BuildingBlocks_BindingsBooleanComponentParameter Pointer="ptr:23" Type="BuildingBlocks_BindingsBooleanComponentParameter">
+      <name>ToggleValueVisibility</name>
+      <parameter>ParamInput0</parameter>
+      <defaultValue>True</defaultValue>
+    </BuildingBlocks_BindingsBooleanComponentParameter>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

@@ -1,4 +1,4 @@
-<ObjectContainer version="11" name="rs_entry_mic-l1" tags="" type="" editorBuildChangelist="10562704" entityCountPLA="0" entityCountALE="0" entityCountStatic="621" entityCountDynamic="18" entityCountUnique="0" minBounds="-290.4967545459902,-65.000000000000057,-11" maxBounds="81.499967000000012,483.92353518926649,18.36544535040349" gridRadius="87.992119" radius="565.31738" crcSOC="2851117605">
+<ObjectContainer version="11" name="rs_entry_mic-l1" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="621" entityCountDynamic="18" entityCountUnique="0" minBounds="-290.4967545459902,-65.000000000000057,-11" maxBounds="81.499967000000012,483.92353518926649,18.36544535040349" gridRadius="87.992119" radius="565.31738" crcSOC="3009732606">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="67a1429b-cb18-4ce7-bb11-a0c6206ebc96"/>
@@ -107,7 +107,7 @@
   <Child external="1" name="Data/objectcontainers/setup/elevator_setup/reststop/reststop_elev_atc.socpak" entityName="ObjectContainer_002_ElevatorGateway-003" label="elev_002_{02CE6541-ED5D-4DA0-AA58-A7CBAEBA9B6F}_ObjectContainer_002_ElevatorGateway-003_{2C5153C4-F3BE-4B58-B185-1EC2A95D3F07}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7" guid="4b58f3be-2c51-53c4-073f-5da9c21e85b1" pos="-19,-57.999979999999937,-1.9999999949504854e-06" rot="1,0,0,0"/>
   <Child external="1" name="Data/objectcontainers/setup/elevator_setup/reststop/reststop_elev_habs.socpak" entityName="ObjectContainer-029" label="hab_elev_001_{D0827274-80D9-452B-AFF1-405BA593CBAA}_ObjectContainer-029_{85B2B8FC-8395-4456-A3E0-9E1666FC0B6B}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7" guid="44568395-85b2-b8fc-6b0b-fc66169ee0a3" pos="-65.000018999999995,-3.9999500000000126,-2" rot="0,0,0,1"/>
  </ChildObjectContainers>
- <Health EntityCount="1123" OC_Count="28" StreamingRadius="2149.7144"/>
+ <Health EntityCount="1095" OC_Count="0" StreamingRadius="2149.7144"/>
  <StreamingOCs>
   <OC name="rs_entry_mic-l1.soc" tags="" staticEntityCount="621" guid="418cf990-6097-94d5-c7e1-c6953910c290" radius="565.31738"/>
  </StreamingOCs>

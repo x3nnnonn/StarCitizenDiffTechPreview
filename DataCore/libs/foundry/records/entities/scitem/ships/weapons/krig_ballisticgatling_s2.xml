@@ -19,12 +19,12 @@
   </StaticEntityClassData>
   <Components Type="DataForgeComponentParams" Count="18">
     <SHealthComponentParams Type="SHealthComponentParams">
-      <Health>47.6</Health>
+      <Health>50400</Health>
       <DamageCap>0</DamageCap>
       <DamageResistances Type="DamageResistance">
         <IgnoreMeleeDamage>False</IgnoreMeleeDamage>
         <PhysicalResistance Type="DamageResistanceEntry">
-          <Multiplier>1</Multiplier>
+          <Multiplier>0.6</Multiplier>
           <Threshold>0</Threshold>
           <DamageCap>0</DamageCap>
         </PhysicalResistance>
@@ -130,8 +130,8 @@
       </accumulators>
     </SDegradationParams>
     <SAmmoContainerComponentParams Type="SAmmoContainerComponentParams">
-      <initialAmmoCount>1542</initialAmmoCount>
-      <maxAmmoCount>1542</maxAmmoCount>
+      <initialAmmoCount>4626</initialAmmoCount>
+      <maxAmmoCount>4626</maxAmmoCount>
       <maxRestockCount>3</maxRestockCount>
       <lowAmmoWarningPercentage>0.1</lowAmmoWarningPercentage>
       <ammoParamsRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/ammoparams/vehicle/ammoparams.krig_ballisticgatling_s2_ammo.xml" />
@@ -2379,6 +2379,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

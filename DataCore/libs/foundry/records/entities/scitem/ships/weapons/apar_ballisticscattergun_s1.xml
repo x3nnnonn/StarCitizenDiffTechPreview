@@ -19,12 +19,12 @@
   </StaticEntityClassData>
   <Components Type="DataForgeComponentParams" Count="18">
     <SHealthComponentParams Type="SHealthComponentParams">
-      <Health>40</Health>
+      <Health>10200</Health>
       <DamageCap>0</DamageCap>
       <DamageResistances Type="DamageResistance">
         <IgnoreMeleeDamage>False</IgnoreMeleeDamage>
         <PhysicalResistance Type="DamageResistanceEntry">
-          <Multiplier>1</Multiplier>
+          <Multiplier>0.6</Multiplier>
           <Threshold>0</Threshold>
           <DamageCap>0</DamageCap>
         </PhysicalResistance>
@@ -130,8 +130,8 @@
       </accumulators>
     </SDegradationParams>
     <SAmmoContainerComponentParams Type="SAmmoContainerComponentParams">
-      <initialAmmoCount>680</initialAmmoCount>
-      <maxAmmoCount>680</maxAmmoCount>
+      <initialAmmoCount>2040</initialAmmoCount>
+      <maxAmmoCount>2040</maxAmmoCount>
       <maxRestockCount>3</maxRestockCount>
       <lowAmmoWarningPercentage>0.1</lowAmmoWarningPercentage>
       <ammoParamsRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/ammoparams/vehicle/ammoparams.apar_ballisticscattergun_s1_ammo.xml" />
@@ -2302,6 +2302,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

@@ -19,12 +19,12 @@
   </StaticEntityClassData>
   <Components Type="DataForgeComponentParams" Count="17">
     <SHealthComponentParams Type="SHealthComponentParams">
-      <Health>8650</Health>
+      <Health>14400</Health>
       <DamageCap>0</DamageCap>
       <DamageResistances Type="DamageResistance">
         <IgnoreMeleeDamage>False</IgnoreMeleeDamage>
         <PhysicalResistance Type="DamageResistanceEntry">
-          <Multiplier>1</Multiplier>
+          <Multiplier>0.6</Multiplier>
           <Threshold>0</Threshold>
           <DamageCap>0</DamageCap>
         </PhysicalResistance>
@@ -1379,8 +1379,8 @@
         <regenerationCooldown>1.62</regenerationCooldown>
         <regenerationCostPerBullet>1281</regenerationCostPerBullet>
         <requestedAmmoLoad>128130</requestedAmmoLoad>
-        <maxAmmoLoad>5</maxAmmoLoad>
-        <maxRegenPerSec>1.02</maxRegenPerSec>
+        <maxAmmoLoad>15</maxAmmoLoad>
+        <maxRegenPerSec>306</maxRegenPerSec>
       </weaponRegenConsumerParams>
       <fireOnAim>False</fireOnAim>
       <scopeZoomCurve Type="BezierCurve">
@@ -2348,6 +2348,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

@@ -12,80 +12,7 @@
     <entries Type="BuildingBlocks_StyleEntry" Count="0" />
   </defaultStyles>
   <style />
-  <brandStyles Type="BuildingBlocks_BrandStyles" Count="1">
-    <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
-      <brandIdentifier ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/s_aegs_env.xml" />
-      <sharedStyles />
-      <entries Type="BuildingBlocks_StyleEntry" Count="2">
-        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
-          <name>OverridePrimaryGhost</name>
-          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
-            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
-              <name>New Condition List</name>
-              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
-                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                  <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7f42e80d-f829-4874-9f7c-1651f1b2ef6d" RecordId="7f42e80d-f829-4874-9f7c-1651f1b2ef6d" />
-                </BuildingBlocks_StyleSelectorConditionTag>
-                <BuildingBlocks_StyleSelectorConditionAncestor Type="BuildingBlocks_StyleSelectorConditionAncestor">
-                  <breakConditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                    <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                      <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1d21c62c-0169-47eb-b715-2e6a64ce2ed3" RecordId="1d21c62c-0169-47eb-b715-2e6a64ce2ed3" />
-                    </BuildingBlocks_StyleSelectorConditionTag>
-                  </breakConditions>
-                  <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="0" />
-                </BuildingBlocks_StyleSelectorConditionAncestor>
-              </conditions>
-            </BuildingBlocks_StyleConditionList>
-          </conditionsList>
-          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
-            <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
-              <field>BackgroundColor</field>
-              <color Type="BuildingBlocks_ColorStyle">
-                <color>Base</color>
-                <alpha>0.2</alpha>
-              </color>
-            </BuildingBlocks_FieldModifierColor>
-          </modifiers>
-          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
-        </BuildingBlocks_StyleEntry>
-        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
-          <name>OverridePrimaryGhostHover</name>
-          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
-            <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
-              <name>New Condition List</name>
-              <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
-                <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                  <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7f42e80d-f829-4874-9f7c-1651f1b2ef6d" RecordId="7f42e80d-f829-4874-9f7c-1651f1b2ef6d" />
-                </BuildingBlocks_StyleSelectorConditionTag>
-                <BuildingBlocks_StyleSelectorConditionAncestor Type="BuildingBlocks_StyleSelectorConditionAncestor">
-                  <breakConditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                    <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                      <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1d21c62c-0169-47eb-b715-2e6a64ce2ed3" RecordId="1d21c62c-0169-47eb-b715-2e6a64ce2ed3" />
-                    </BuildingBlocks_StyleSelectorConditionTag>
-                  </breakConditions>
-                  <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                    <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                      <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b567faeb-8da9-4d5f-a220-369531071389" RecordId="b567faeb-8da9-4d5f-a220-369531071389" />
-                    </BuildingBlocks_StyleSelectorConditionTag>
-                  </conditions>
-                </BuildingBlocks_StyleSelectorConditionAncestor>
-              </conditions>
-            </BuildingBlocks_StyleConditionList>
-          </conditionsList>
-          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
-            <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
-              <field>BackgroundColor</field>
-              <color Type="BuildingBlocks_ColorStyle">
-                <color>Base</color>
-                <alpha>0.4</alpha>
-              </color>
-            </BuildingBlocks_FieldModifierColor>
-          </modifiers>
-          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
-        </BuildingBlocks_StyleEntry>
-      </entries>
-    </BuildingBlocks_BrandStyles>
-  </brandStyles>
+  <brandStyles Type="BuildingBlocks_BrandStyles" Count="0" />
   <entityPreviewScene Type="BuildingBlocks_PreviewSceneEntityRoot">
     <renderLayer>Default</renderLayer>
   </entityPreviewScene>
@@ -172,8 +99,8 @@
       </scale>
       <sizing Type="BuildingBlocks_Size">
         <width Type="BuildingBlocks_FixedOrRelativeValue">
-          <value>32</value>
-          <behavior>Auto</behavior>
+          <value>1</value>
+          <behavior>Percent</behavior>
         </width>
         <height Type="BuildingBlocks_FixedOrRelativeValue">
           <value>32</value>
@@ -425,7 +352,7 @@
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="8">
+  <operations Type="BuildingBlocks_Node" Count="9">
     <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:6" Type="BuildingBlocks_BindingsBooleanVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>connectionsFilter/active</binding>
@@ -445,7 +372,7 @@
       <field>ParamInput0</field>
       <input PointsTo="ptr:3" />
     </BuildingBlocks_BindingsStringField>
-    <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:7" Type="BuildingBlocks_BindingsBooleanVariable">
+    <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:4" Type="BuildingBlocks_BindingsBooleanVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>contextFilter/active</binding>
       <inheritsNamespace>True</inheritsNamespace>
@@ -453,7 +380,7 @@
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsBooleanVariable>
     <BuildingBlocks_BindingsTagFromBoolean Pointer="ptr:5" Type="BuildingBlocks_BindingsTagFromBoolean">
-      <isTrue RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.84d84dfd-4fd2-4e02-8824-ff0821dfb36a" RecordId="84d84dfd-4fd2-4e02-8824-ff0821dfb36a" />
+      <isTrue RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.2af3da9c-89e2-4594-bf00-e7b4c3e96b14" RecordId="2af3da9c-89e2-4594-bf00-e7b4c3e96b14" />
       <isFalse />
       <inputTrue />
       <inputFalse />
@@ -467,9 +394,14 @@
     <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:1" Type="BuildingBlocks_BindingsBooleanInvert">
       <input PointsTo="ptr:6" />
     </BuildingBlocks_BindingsBooleanInvert>
-    <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:4" Type="BuildingBlocks_BindingsBooleanInvert">
-      <input PointsTo="ptr:7" />
+    <BuildingBlocks_BindingsBooleanInvert Type="BuildingBlocks_BindingsBooleanInvert">
+      <input PointsTo="ptr:4" />
     </BuildingBlocks_BindingsBooleanInvert>
+    <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
+      <widget PointsTo="ptr:2" />
+      <field>ParamInput0</field>
+      <input PointsTo="ptr:4" />
+    </BuildingBlocks_BindingsBooleanField>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

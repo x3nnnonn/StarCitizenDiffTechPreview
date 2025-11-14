@@ -12,7 +12,7 @@
   <entityDensityClass />
   <tags Type="Tag" Count="0" />
   <StaticEntityClassData Type="EntityClassStaticDataParams" Count="0" />
-  <Components Type="DataForgeComponentParams" Count="8">
+  <Components Type="DataForgeComponentParams" Count="7">
     <SAttachableComponentParams Type="SAttachableComponentParams">
       <AttachDef Type="SItemDefinition">
         <Type>EnergyController</Type>
@@ -140,64 +140,6 @@
         </itemControlPriorities>
       </additionalItemControlPriorities>
     </ItemControllerComponentParams>
-    <ItemResourceComponentParams Type="ItemResourceComponentParams">
-      <isResourceNetworked>True</isResourceNetworked>
-      <isRelay>False</isRelay>
-      <filterParams />
-      <isConnectedToRoom>False</isConnectedToRoom>
-      <wirelessConnection>False</wirelessConnection>
-      <states Type="ItemResourceState" Count="1">
-        <ItemResourceState Type="ItemResourceState">
-          <name>Reflection</name>
-          <deltas Type="ItemResourceDeltaBase" Count="1">
-            <ItemResourceDeltaNetworkReflection Type="ItemResourceDeltaNetworkReflection">
-              <resource>Power</resource>
-              <binaryEvaluation>False</binaryEvaluation>
-            </ItemResourceDeltaNetworkReflection>
-          </deltas>
-          <linkedInteractionStates Type="ResourceLinkedInteractionState" Count="0" />
-          <signatureParams Type="ItemResourceSignatureParams">
-            <EMSignature Type="ItemResourceSignatureEntry">
-              <nominalSignature>0</nominalSignature>
-              <decayRate>0.15</decayRate>
-              <functionalityCurve />
-            </EMSignature>
-            <IRSignature Type="ItemResourceSignatureEntry">
-              <nominalSignature>0</nominalSignature>
-              <decayRate>0.15</decayRate>
-              <functionalityCurve />
-            </IRSignature>
-          </signatureParams>
-          <powerRanges Type="PowerRangeParams">
-            <low Type="ResourceRangeParams">
-              <start>0</start>
-              <modifier>1</modifier>
-              <registerRange>False</registerRange>
-            </low>
-            <medium Type="ResourceRangeParams">
-              <start>0</start>
-              <modifier>1</modifier>
-              <registerRange>False</registerRange>
-            </medium>
-            <high Type="ResourceRangeParams">
-              <start>0</start>
-              <modifier>1</modifier>
-              <registerRange>False</registerRange>
-            </high>
-          </powerRanges>
-        </ItemResourceState>
-      </states>
-      <controlParameters Type="ItemResourceControlParameterBase" Count="0" />
-      <controlBlocks Type="ItemResourceControlBlock" Count="0" />
-      <defaultPriority>50</defaultPriority>
-      <functionalityModifiers />
-      <powerPlantOverride />
-      <selfRepair Type="ItemResourceSelfRepairParams">
-        <maxRepairCount>1</maxRepairCount>
-        <timeToRepair>120</timeToRepair>
-        <healthRatio>0.2</healthRatio>
-      </selfRepair>
-    </ItemResourceComponentParams>
     <SEntityInteractableParams Type="SEntityInteractableParams">
       <Interactable Type="SInteractableParams">
         <SharedInteractions Type="SSharedInteractionParams" Count="0" />

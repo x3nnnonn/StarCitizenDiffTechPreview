@@ -1,4 +1,4 @@
-<ObjectContainer version="11" name="int_s1_dc_cvlx_s1dc06" tags="" type="Module OC" editorBuildChangelist="10562704" entityCountPLA="0" entityCountALE="0" entityCountStatic="29" entityCountDynamic="0" entityCountUnique="0" minBounds="-249.14989000000003,-407.43603075650168,-82" maxBounds="467.13007600000003,407.29385979710725,135.00009999999747" gridRadius="274.77377" radius="625.61829" crcSOC="2531233567">
+<ObjectContainer version="11" name="int_s1_dc_cvlx_s1dc06" tags="" type="Module OC" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="29" entityCountDynamic="0" entityCountUnique="0" minBounds="-249.14989000000003,-407.43603075650168,-82" maxBounds="467.13007600000003,407.29385979710725,135.00009999999747" gridRadius="274.77377" radius="625.61829" crcSOC="2531233567">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
@@ -197,7 +197,7 @@
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/conn/conn_base_12m.socpak" entityName="conn_base_12m-008" label="conn_base_12m-008_{24F34EF8-E855-4E7F-BA99-599114B9FB27}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="4e7fe855-24f3-4ef8-27fb-b914915999ba" pos="90,58,11" rot="1,0,0,0"/>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/side/ped/surf_ind_side_ped_002_occu_002.socpak" entityName="surf_ind_side_ped_002_occu_007" label="surf_ind_side_ped_002_occu_007_{0AAB02FC-B8F7-4E9D-ABE9-D4C3DA223721}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="4e9db8f7-0aab-02fc-2137-22dac3d4e9ab" pos="-17,-6,3" rot="1,0,0,0"/>
  </ChildObjectContainers>
- <Health EntityCount="10310" OC_Count="150" StreamingRadius="5814.624"/>
+ <Health EntityCount="10151" OC_Count="0" StreamingRadius="5814.624"/>
  <StreamingOCs>
   <OC name="int_s1_dc_cvlx_s1dc06.soc" tags="" staticEntityCount="29" guid="4c3290a7-d33e-c9b5-6c3b-487927119281" radius="625.61829"/>
  </StreamingOCs>

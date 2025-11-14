@@ -20,7 +20,7 @@
       <resourceNetworkItemType>Relay</resourceNetworkItemType>
     </SResourceNetworItemType>
   </StaticEntityClassData>
-  <Components Type="DataForgeComponentParams" Count="16">
+  <Components Type="DataForgeComponentParams" Count="17">
     <SAttachableComponentParams Type="SAttachableComponentParams">
       <AttachDef Type="SItemDefinition">
         <Type>Relay</Type>
@@ -505,7 +505,7 @@
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>Warning</StateTypeName>
           <bindingsMethod>None</bindingsMethod>
-          <DefaultState />
+          <DefaultState PointsTo="ptr:7" />
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
@@ -748,7 +748,7 @@
       <Ports Type="SItemPortDef" Count="1">
         <SItemPortDef Pointer="ptr:3" Type="SItemPortDef">
           <Name>$slot_fuse_01</Name>
-          <DisplayName>@item_NameFuse_standard</DisplayName>
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags />
@@ -870,6 +870,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />
@@ -922,5 +923,6 @@
       <defaultAnimation />
     </SAnimationControllerParams>
     <SAudioProxyParams Type="SAudioProxyParams" />
+    <DataForgeComponentParams />
   </Components>
 </EntityClassDefinition.RELAY_1slot_MRAI_Pulse>

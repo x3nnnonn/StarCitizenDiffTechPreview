@@ -19,12 +19,12 @@
   </StaticEntityClassData>
   <Components Type="DataForgeComponentParams" Count="18">
     <SHealthComponentParams Type="SHealthComponentParams">
-      <Health>28.3</Health>
+      <Health>14400</Health>
       <DamageCap>0</DamageCap>
       <DamageResistances Type="DamageResistance">
         <IgnoreMeleeDamage>False</IgnoreMeleeDamage>
         <PhysicalResistance Type="DamageResistanceEntry">
-          <Multiplier>1</Multiplier>
+          <Multiplier>0.6</Multiplier>
           <Threshold>0</Threshold>
           <DamageCap>0</DamageCap>
         </PhysicalResistance>
@@ -130,8 +130,8 @@
       </accumulators>
     </SDegradationParams>
     <SAmmoContainerComponentParams Type="SAmmoContainerComponentParams">
-      <initialAmmoCount>888</initialAmmoCount>
-      <maxAmmoCount>888</maxAmmoCount>
+      <initialAmmoCount>2664</initialAmmoCount>
+      <maxAmmoCount>2664</maxAmmoCount>
       <maxRestockCount>3</maxRestockCount>
       <lowAmmoWarningPercentage>0.1</lowAmmoWarningPercentage>
       <ammoParamsRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/ammoparams/vehicle/behr_ballisticrepeater_s1_ammo.xml" />
@@ -2452,6 +2452,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

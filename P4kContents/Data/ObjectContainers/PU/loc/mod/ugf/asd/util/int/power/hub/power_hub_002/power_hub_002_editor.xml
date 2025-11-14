@@ -88,10 +88,10 @@
      <Object name="AreaBox_Room_power_hub_021" type="AreaBox" guid="4cdffb2c-9f16-2cf6-9ebb-e770cbbefd86" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
      <Object name="AreaBox_Room_power_hub_017" type="AreaBox" guid="4f6c8723-4d13-d4ff-1a90-c0f912673eaa" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
     </Layer>
-    <Layer name="vis" layerHash="4212200573" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/power/hub/power_hub_001/Layers/base/power_hub_002/base/vis.lyr">
+    <Layer name="vis" layerHash="1853147443" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/power/hub/power_hub_001/Layers/base/power_hub_002/base/vis.lyr">
      <Object name="GenericShape-054" type="GenericShape" guid="4d9589a8-4c99-2c05-228d-96de8722eb83" tags=""/>
      <Object name="GenericShape-035" type="GenericShape" guid="430bd6af-f38c-f506-52f0-010af3d714a0" tags=""/>
-     <Object name="GenericShape-055" type="GenericShape" guid="4db44888-3c13-4c0a-b472-a1bc0ab5f6a6" tags=""/>
+     <Object name="GenericShape-000" type="GenericShape" guid="4db44888-3c13-4c0a-b472-a1bc0ab5f6a6" tags=""/>
      <Object name="GenericShape-049" type="GenericShape" guid="4753597b-490a-8c11-e067-2fda8a195c98" tags=""/>
      <Object name="open.asd_door_open_6m_002" type="Prefab" guid="426da450-c4bd-5716-7f10-02ecbd7aa492"/>
      <Object name="GenericShape-036" type="GenericShape" guid="45a67652-f7d4-6e16-f01c-3c5f78d5c1b1" tags=""/>
@@ -102,7 +102,7 @@
      <Object name="GenericShape-047" type="GenericShape" guid="4c574c1a-522c-4a3c-4549-af127b9e67bf" tags=""/>
      <Object name="GenericShape-004" type="GenericShape" guid="4abed6b2-4dd3-2c41-31cf-c7e1c6ceb084" tags=""/>
      <Object name="GenericShape-048" type="GenericShape" guid="41b40a74-90bc-ff4e-dc1c-4b3de9b14681" tags=""/>
-     <Object name="GenericShape-000" type="GenericShape" guid="458dde12-f7cd-f950-8ee8-a7665afe028e" tags=""/>
+     <Object name="GenericShape-055" type="GenericShape" guid="458dde12-f7cd-f950-8ee8-a7665afe028e" tags=""/>
      <Object name="GenericShape-044" type="GenericShape" guid="4e2d5cdb-8011-f154-2093-be29497d108c" tags=""/>
      <Object name="GenericShape-051" type="GenericShape" guid="452aa66e-662a-8a5a-44e3-788a659167b1" tags=""/>
      <Object name="GenericShape-039" type="GenericShape" guid="49020e9d-9e78-8469-406c-633581cf8aa1" tags=""/>
@@ -2441,7 +2441,7 @@
     <Layer name="gp" layerHash="3845179415" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/power/hub/power_hub_001/Layers/base/power_hub_002/entrance/gp.lyr"/>
    </Layer>
    <Layer name="howitzer" layerHash="2778848686" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/power/hub/power_hub_001/Layers/base/power_hub_002/howitzer.lyr">
-    <Layer name="dressing" layerHash="2485944358" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/power/hub/power_hub_001/Layers/base/power_hub_002/howitzer/dressing.lyr">
+    <Layer name="dressing" layerHash="757524818" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/power/hub/power_hub_001/Layers/base/power_hub_002/howitzer/dressing.lyr">
      <Object name="util_ugf_wall_set_f_wall_corner_out_2m_a-14507" type="Brush" guid="4e7feeb9-6d3c-a900-70ec-83a68e80bb8f"/>
      <Object name="asd_cave_tunnel_straight_10m-2124" type="Brush" guid="47055f1b-04a1-f300-69fc-d55741c13fbc"/>
      <Object name="asd_cave_tunnel_straight_10m-2299" type="Brush" guid="45642fcb-773f-0401-206e-5c6127b499be"/>
@@ -2575,7 +2575,7 @@
      <Object name="util_ugf_ext_fence_set_a_fence_01m_a-005" type="Brush" guid="4c709795-28d9-d83a-388b-124c1e70c398"/>
      <Object name="asd_cave_tunnel_straight_10m-2361" type="Brush" guid="4026e872-302e-0c3b-a754-17917aad2ea3"/>
      <Object name="asd_cave_tunnel_straight_10m-2138" type="Brush" guid="4a6e5587-059b-4a3c-b814-b7eec3e6aa81"/>
-     <Object name="Light-002" type="Light" guid="49df0675-c82f-063d-60f9-b2277d5054b4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+     <Object name="Light-000" type="Light" guid="49df0675-c82f-063d-60f9-b2277d5054b4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="asd_cave_tunnel_straight_10m-2051" type="Brush" guid="4a312f9b-04b3-713d-0eb3-3d7692cca796"/>
      <Object name="Light-73992" type="Light" guid="4a026319-c3ee-833d-2261-ca513dcfd1a6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="util_ugf_pillar_02x02x08_b-112" type="Brush" guid="4e56b75a-f9da-b23d-38f9-a146f6bb0892"/>

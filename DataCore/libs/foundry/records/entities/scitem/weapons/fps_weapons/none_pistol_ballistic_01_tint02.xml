@@ -3787,7 +3787,7 @@
           <entityTags Type="TagList">
             <tags Type="Tag" Count="0" />
           </entityTags>
-          <uiBindingsTag />
+          <uiBindingsTag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7484099b-acb0-433a-afad-bc40bb5d2b2f" RecordId="7484099b-acb0-433a-afad-bc40bb5d2b2f" />
           <aiShootingMode>Single</aiShootingMode>
           <switchFireModeAudioTrigger Type="GlobalResourceAudio">
             <audioTrigger />
@@ -4988,6 +4988,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

@@ -600,7 +600,7 @@
     <Object name="Decal-3380" type="Decal" guid="48e15de6-6841-9dfe-e46b-47c4ce952bb5"/>
     <Object name="Decal-3055" type="Decal" guid="453bd508-fd11-e5ff-ab4d-2981cf3a138e"/>
    </Layer>
-   <Layer name="geo" layerHash="214526149" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/lab/ship/lab_ship_001/Layers/overlay/science/science_aban/science_aban_001/geo.lyr">
+   <Layer name="geo" layerHash="2010932574" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/lab/ship/lab_ship_001/Layers/overlay/science/science_aban/science_aban_001/geo.lyr">
     <Layer name="cable" layerHash="620629620" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/lab/ship/lab_ship_001/Layers/overlay/science/science_aban/science_aban_001/geo/cable.lyr"/>
     <Layer name="hvac" layerHash="4068832796" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/lab/ship/lab_ship_001/Layers/overlay/science/science_aban/science_aban_001/geo/hvac.lyr"/>
     <Layer name="pipe" layerHash="3504272407" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/lab/ship/lab_ship_001/Layers/overlay/science/science_aban/science_aban_001/geo/pipe.lyr">
@@ -2273,7 +2273,7 @@
     <Object name="common_hvac_set_b_hvac_t_junction_005_a-036" type="Brush" guid="452ccfd4-df36-a69b-4612-99bce85dee8e"/>
     <Object name="common_hvac_set_a_hvac_straight_04m_a-045" type="Brush" guid="4a57e2fa-b5ae-e29b-7a2c-6687f0d0fd94"/>
     <Object name="common_hvac_set_a_hvac_straight_02m_a-062" type="Brush" guid="4f33b43b-595d-e99b-19c7-060a9d6163b5"/>
-    <Object name="roomsm_dancefloor_06x06-006" type="Brush" guid="4ed3a1ff-e610-119c-b3f2-c02ca5920d96"/>
+    <Object name="roomsm_dancefloor_06x06-007" type="Brush" guid="4ed3a1ff-e610-119c-b3f2-c02ca5920d96"/>
     <Object name="cable_straight_3_cable_2m_a-031" type="Brush" guid="4af6312e-e4ee-4c9c-db2d-cb38afa3cf9e"/>
     <Object name="util_pipe_a_str_support_b-175" type="Brush" guid="46c1b624-d253-539c-67cc-2d4b86235eaf"/>
     <Object name="common_pipe_set_c_pipe_straight_005_a-002" type="Brush" guid="428f7b01-1abc-539c-fb28-b33cab080a8d"/>
@@ -2799,7 +2799,7 @@
     <Object name="util_pipe_b_str_cap_a-092" type="Brush" guid="4731c529-ac9d-8dce-2572-d66362a042a9"/>
     <Object name="uee_lawless_prop_cableshanging_base_06-013" type="Brush" guid="4fadb1e8-53de-91ce-a9cb-91ba7e1636a0"/>
     <Object name="util_pipe_b_doublebracket_cap_b-053" type="Brush" guid="40c32ee1-dfa1-c9ce-b65b-63a82eb22989"/>
-    <Object name="RotationSimple-032" type="RotationSimple" guid="4df173ae-4881-fdce-dd65-8bef35cff0b1" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
+    <Object name="RotationSimple-048" type="RotationSimple" guid="4df173ae-4881-fdce-dd65-8bef35cff0b1" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
     <Object name="common_hvac_set_a_hvac_corner_005m_a-191" type="Brush" guid="4d2b92f0-860b-04cf-2cc7-f83b652a4db5"/>
     <Object name="util_pipe_a_cnr_1m_c-045" type="Brush" guid="487a238e-6d38-13cf-503d-9edfeb77d894"/>
     <Object name="util_ugf_ceiling_set_a_girder_02m_a-002" type="Brush" guid="46d65e2a-4a40-6dcf-4660-a2cb7b5a0e86"/>
@@ -3293,7 +3293,7 @@
     <Object name="lt_asd_ship_lab_001_topWall_key_5000k-012" type="Light" guid="48c6a00b-0a46-eb14-7435-e1aaa1803b9e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="l_asd_ship_lab_001_walllow_key_1000k-084" type="Light" guid="4e412e2d-2c0f-f914-9dc1-7d80e250ad95" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="l_asd_ship_lab_001_shiplight_down_bnce_#5e97d7-020" type="Light" guid="49228731-9f9f-3b15-5703-2bc5f4ce3585" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Ledge-210" type="LedgeObject" guid="4ad1c596-830a-6f16-b90c-d948d05db18c" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
+    <Object name="Ledge-211" type="LedgeObject" guid="4ad1c596-830a-6f16-b90c-d948d05db18c" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
     <Object name="l_asd_ship_lab_001_walllow_omni_1000k-071" type="Light" guid="4b5fb1b3-ed5b-c916-32c7-7404607d3986" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="util_ugf_ceiling_set_a_girder_64m_a-007" type="Brush" guid="4784a010-9400-cd16-a160-1b13f86fc19a"/>
     <Object name="l_asd_ship_lab_001_shiplight_down_bnce_#5e97d7-019" type="Light" guid="44dd635a-4f01-1517-0b1c-05e6b4655ea8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -3419,7 +3419,7 @@
     <Object name="crate_pirate_1_0125x0125x0125_a-054" type="Brush" guid="46c2cb40-5205-a86c-ec03-341f92c62c9e"/>
     <Object name="crate_pirate_1_0125x0125x0125_a-014" type="Brush" guid="4933d4a2-7774-da6c-f91a-ce6eef3cfdba"/>
     <Object name="cm_asd_lab_ship_001_probe-043" type="EnvironmentLight" guid="4174b1cb-952a-366d-b9bf-132abf859cbe" tags=""/>
-    <Object name="crate_dry_1_0125x0125x0125_stack_wind_b-013" type="Brush" guid="4ac73a7c-bd19-c86d-fc2d-5cdd2bfdb5a6"/>
+    <Object name="crate_dry_1_0125x0125x0125_stack_wind_b-012" type="Brush" guid="4ac73a7c-bd19-c86d-fc2d-5cdd2bfdb5a6"/>
     <Object name="l_asd_ship_lab_001_walllow_omni_1000k-065" type="Light" guid="4a72ac6f-c88a-bb71-bfff-f7045bade7b6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="l_asd_ship_lab_001_walllow_omni_1000k-050" type="Light" guid="46ea6967-a690-a072-37fa-178df66e0c81" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_landing_1_a-050" type="Brush" guid="49861ee2-1c6b-5c73-bdfc-b7c571e115bc"/>
@@ -3453,7 +3453,7 @@
     <Object name="light_wall_03_a-061" type="Brush" guid="4c5bed4d-028c-5481-10d4-339937adacb6"/>
     <Object name="l_asd_ship_lab_001_walllow_key_1000k-083" type="Light" guid="41c1a80a-2844-f281-997b-b4d116ad4496" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="crate_dry_1_0125x0125x0125_stack_wind_b-008" type="Brush" guid="4119b1e7-5ff0-8282-59d8-93e05a57a688"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-035" type="Brush" guid="49945524-d7fe-c182-10f1-b43ee259a69d"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-037" type="Brush" guid="49945524-d7fe-c182-10f1-b43ee259a69d"/>
     <Object name="lt_asd_ship_lab_001_topWall_fill_15000k-043" type="Light" guid="4fd3fbb1-1a7f-ea82-956f-ad6fe59a16ae" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="l_asd_ship_lab_001_walllow_key_1000k-051" type="Light" guid="4a2d6d34-6c37-8483-7df8-d8aa7547dc83" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_wall_03_a-082" type="Brush" guid="4d91d029-e404-a584-d110-a47afb467c8e"/>
@@ -3561,11 +3561,11 @@
     <Object name="light_wall_02_a-095" type="Brush" guid="4d054c51-8ae7-6abd-ee61-58c5f08eb39e"/>
     <Object name="light_wall_03_a-054" type="Brush" guid="4c03a099-a56f-f1bd-e544-fc490e7c1a98"/>
     <Object name="l_asd_ship_lab_001_wallmain_omni_1000k-031" type="Light" guid="4d3c7734-207e-00be-5a87-19832903daa9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-046" type="Brush" guid="4220bc25-fba7-5ebe-b45c-558f97228cbe"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-047" type="Brush" guid="4220bc25-fba7-5ebe-b45c-558f97228cbe"/>
     <Object name="l_asd_ship_lab_001_walllow_key_1000k-053" type="Light" guid="4c990df1-150d-65bf-ee29-954312d8deb5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="lt_asd_ship_lab_001_topWall_fill_15000k-028" type="Light" guid="4aa4edef-bf15-3bc0-fb91-dc9a3f886ebd" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="crate_pirate_1_0125x0125x0125_a-018" type="Brush" guid="430ad789-057c-93c0-99be-a75ffa19b49d"/>
-    <Object name="Ledge-211" type="LedgeObject" guid="4b69c548-7e07-08c2-fe27-96205abcd98f" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
+    <Object name="Ledge-210" type="LedgeObject" guid="4b69c548-7e07-08c2-fe27-96205abcd98f" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
     <Object name="light_wall_03_a-070" type="Brush" guid="47eef3b3-f533-c5c2-e7a1-82c8b04f57b1"/>
     <Object name="cm_asd_lab_ship_001_probe-030" type="EnvironmentLight" guid="4c9f3a2b-f6fd-b9c3-f42e-b02d1d9ea6bf" tags=""/>
     <Object name="lt_asd_ship_lab_001_topWall_key_15000k-039" type="Light" guid="4972db91-1191-c0c3-0f30-87ee3917f590" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -3597,7 +3597,7 @@
     <Object name="l_asd_ship_lab_001_walllow_key_1000k-082" type="Light" guid="405ff41f-4f63-86d2-cef6-de0bba1710b5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="l_asd_ship_lab_001_walllow_key_1000k-058" type="Light" guid="49457508-060e-8bd2-9304-33a4ffb205bf" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_wall_03_a-080" type="Brush" guid="47af90bd-f8f3-3bd4-85f9-70f5c4dfc98a"/>
-    <Object name="crate_dry_1_0125x0125x0125_stack_wind_b-012" type="Brush" guid="473037d6-b064-6ed4-fbe3-fd6543c18eb5"/>
+    <Object name="crate_dry_1_0125x0125x0125_stack_wind_b-013" type="Brush" guid="473037d6-b064-6ed4-fbe3-fd6543c18eb5"/>
     <Object name="lt_asd_ship_lab_001_topWall_key_15000k-028" type="Light" guid="49ff0596-5165-64d5-bbf7-699532dee6a2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="lt_asd_ship_lab_001_topWall_fill_15000k-045" type="Light" guid="41675cb6-a4ee-e5d5-1206-f6432eb9ec85" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_wall_02_a-118" type="Brush" guid="46bea6cb-9e28-d0d6-13ac-5a42e6a3c59f"/>
@@ -3663,7 +3663,7 @@
     <Object name="PrefabPivot-058" type="PrefabPivot" guid="4607f1cd-89b4-bb03-f6c9-f295a513f89b" tags=""/>
     <Object name="crate_pirate_1_0125x0125x0125_a-034" type="Brush" guid="4cecc8c8-a9fa-7904-4409-2d24eb7d27b1"/>
     <Object name="tarp_bundle_1_b-004" type="Brush" guid="4ce96f58-144e-f905-4bd6-5ab758eb808e"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-036" type="Brush" guid="4e84df38-9894-9006-8710-4056afd69593"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-035" type="Brush" guid="4e84df38-9894-9006-8710-4056afd69593"/>
     <Object name="cargo_rack_cap_1_a-002" type="Brush" guid="42ab730a-45c0-c406-b8e3-378f18ca4ea3"/>
     <Object name="LedgeObject-398" type="LedgeObject" guid="4e3152c3-04b3-8209-76f4-dd13f741f292" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
     <Object name="Cover.crates.cover_crouch_straight_03x015m_crates-012" type="Prefab" guid="41d13a33-25a3-5f0b-225c-14e3a36377a1"/>
@@ -3684,7 +3684,7 @@
     <Object name="l_drug_hang_glowstick_01_a_fogonly_light-001" type="Light" guid="44e8633a-6f57-2624-245b-9aa80aeaecaa" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="crate_pirate_1_0125x0125x0125_a-061" type="Brush" guid="4c09c192-09b6-7525-38c3-47292c5313aa"/>
     <Object name="Designer-19211" type="Designer" guid="47de67fd-30e9-1627-f0ed-79d297f4f1a5"/>
-    <Object name="crate_dry_1_0125x0125x0125_stack_a-011" type="Brush" guid="412283c1-ae18-c028-91ba-ec9f44defda5"/>
+    <Object name="crate_dry_1_0125x0125x0125_stack_a-010" type="Brush" guid="412283c1-ae18-c028-91ba-ec9f44defda5"/>
     <Object name="Ledge-213" type="LedgeObject" guid="451e8585-5c06-4e2c-03e6-a32e0cf11389" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
     <Object name="PrefabPivot-196" type="PrefabPivot" guid="4431f642-c1a7-1d2d-19ea-3353187565b4" tags=""/>
     <Object name="canister_gas_1_a-002" type="Brush" guid="42846357-33c2-1d2f-8d3d-15a897e54790"/>
@@ -3698,11 +3698,11 @@
     <Object name="Ledge-216" type="LedgeObject" guid="4c971ba8-4f7a-643c-e6b2-601789e14ba0" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
     <Object name="vat_tube_canister_1_a-016" type="Brush" guid="41fd6db8-5839-b53d-d044-88934fe8a387"/>
     <Object name="tank_water_3_waste_0125x0125x0125_a-014" type="Brush" guid="4260a8ec-fa0a-5b3e-aa94-dbe575e93cb3"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-037" type="Brush" guid="45dbbfe5-959a-1240-2b92-05f3d0910f97"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-055" type="Brush" guid="47f6ad10-24fd-3543-c335-3837c61bfc95"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-036" type="Brush" guid="45dbbfe5-959a-1240-2b92-05f3d0910f97"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-052" type="Brush" guid="47f6ad10-24fd-3543-c335-3837c61bfc95"/>
     <Object name="trolley_mobile_1_a-003" type="Brush" guid="498c4fb4-4dcc-5f44-69ed-7264720a8fac"/>
     <Object name="trolley_mobile_1_a-005" type="Brush" guid="41d62c01-5ba1-6644-b35a-7016bc8b14ab"/>
-    <Object name="crate_dry_1_0125x0125x0125_stack_a-010" type="Brush" guid="46155864-e589-ce44-8bf6-0de9be5d3ea8"/>
+    <Object name="crate_dry_1_0125x0125x0125_stack_a-011" type="Brush" guid="46155864-e589-ce44-8bf6-0de9be5d3ea8"/>
     <Object name="storage_cryo_girder_a-001" type="Brush" guid="4606dbea-8994-d844-682a-699793ed4ebc"/>
     <Object name="crate_dry_1_0125x0125x0125_c-022" type="Brush" guid="47a5f1f5-bee2-6b45-a31c-6abf9e3b93ae"/>
     <Object name="carpet_a-005" type="Brush" guid="42627c56-21df-6047-8797-81a451a60b82"/>
@@ -3710,7 +3710,7 @@
     <Object name="counter_laboratory_1_end_01x0075x01_a" type="Brush" guid="48c9bc58-6e45-3b4a-62ad-68aa7fdaf6a5"/>
     <Object name="desk_medical_draws_1_a-001" type="Brush" guid="4f37d03f-0773-664a-b33d-1a7346cbd490"/>
     <Object name="tank_water_3_0125x0125x0125_a-009" type="Brush" guid="4a13cc6d-0789-694a-72bc-4c4f43fff180"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-052" type="Brush" guid="4465af74-907c-7a4c-d90d-2a15ed789d99"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-055" type="Brush" guid="4465af74-907c-7a4c-d90d-2a15ed789d99"/>
     <Object name="canister_gas_3_a-002" type="Brush" guid="4f8e6928-7857-e14d-d576-57f4454302a6"/>
     <Object name="console_desk_2_frame_a" type="Brush" guid="4deae414-1bf3-1b50-a89e-947d67229286"/>
     <Object name="util_ugf_wall_set_f_wall_transition_end_1m_a-009" type="Brush" guid="4c96e1bb-55c5-0352-fc4c-e1996685f2aa"/>
@@ -3747,7 +3747,7 @@
     <Object name="crate_pirate_1_0125x0125x0125_a-045" type="Brush" guid="47d7980f-2cf8-ed74-c2ea-22c7ba7007bb"/>
     <Object name="Cover.rdwn_cargo_watertank_crouch_full_1x1_d" type="Prefab" guid="4215b917-06c9-b077-5e3d-f4b08c730095"/>
     <Object name="crate_dry_1_0125x0125x0125_stack_a-007" type="Brush" guid="45c4c183-4a8d-3c7c-ba90-2c938836db85"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-057" type="Brush" guid="49e80979-39f4-6c7c-beb8-465ca14a94af"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-058" type="Brush" guid="49e80979-39f4-6c7c-beb8-465ca14a94af"/>
     <Object name="crate_pirate_1_0125x0125x0125_a-040" type="Brush" guid="4311244f-8ac8-e27c-fe72-621edb926aa0"/>
     <Object name="trolley_mobile_1_a-004" type="Brush" guid="4a58c27f-5b2c-af7f-926a-aee96672d19a"/>
     <Object name="crate_pirate_1_closed_a-028" type="Brush" guid="4f4a035c-ec60-4b80-aeaf-bcb932ee54bc"/>
@@ -3835,13 +3835,13 @@
     <Object name="crate_pirate_1_console_a-002" type="Brush" guid="4b4b0d25-f4bf-62e1-aa08-3c51f3b08286"/>
     <Object name="vat_tube_canister_1_a-015" type="Brush" guid="4091a8dd-2d5f-60e3-3fdb-4061c79819a5"/>
     <Object name="drug.hang_glowstick_01_a" type="Prefab" guid="4a4ae334-ae24-73e3-8f96-3cd72456cba3"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-058" type="Brush" guid="4ffc7d07-a98f-b9e3-b3bc-a1732b31b897"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-057" type="Brush" guid="4ffc7d07-a98f-b9e3-b3bc-a1732b31b897"/>
     <Object name="storage_cryo_girder_a-011" type="Brush" guid="4cf6e2ff-a07d-80e6-95d5-35e99d7c01a4"/>
     <Object name="box_plastic_2_005x005x005_a_251" type="Brush" guid="42f8c95a-3515-14e8-1d9f-7be92b1a13b1"/>
     <Object name="crate_pirate_1_closed_a-030" type="Brush" guid="424a5da0-8824-a3e8-2ea2-051a32d31ca5"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-049" type="Brush" guid="4cdbd4b5-96c7-ffe8-847f-33a2e40779b1"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-046" type="Brush" guid="4cdbd4b5-96c7-ffe8-847f-33a2e40779b1"/>
     <Object name="crate_pirate_1_closed_a-029" type="Brush" guid="4f66814c-faf0-4cea-872d-a240026b1780"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-047" type="Brush" guid="447b2a06-7b6f-a1ee-b823-282d26085483"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-049" type="Brush" guid="447b2a06-7b6f-a1ee-b823-282d26085483"/>
     <Object name="crate_pirate_1_0125x0125x0125_a-060" type="Brush" guid="4882563e-629d-ebee-67b0-9a9849a46bba"/>
     <Object name="crate_dry_1_0125x0125x0125_c-025" type="Brush" guid="45b410f1-44b1-f4f1-6ea8-1caa0cfad990"/>
     <Object name="desk_divider_1_e-001" type="Brush" guid="40ba0d0a-0287-aff2-5973-f24153c814ab"/>
@@ -3871,20 +3871,20 @@
    <Layer name="sys" layerHash="1899966338" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/lab/ship/lab_ship_001/Layers/overlay/science/science_aban/science_aban_001/sys.lyr"/>
    <Layer name="vfx" layerHash="2378339510" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/lab/ship/lab_ship_001/Layers/overlay/science/science_aban/science_aban_001/vfx.lyr"/>
    <Layer name="vis" layerHash="2859551503" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/lab/ship/lab_ship_001/Layers/overlay/science/science_aban/science_aban_001/vis.lyr"/>
-   <Object name="LedgeObject-745" type="LedgeObject" guid="49cf530f-3ab8-6610-3934-1834b21ed594" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
-   <Object name="LedgeObject-744" type="LedgeObject" guid="4acf5e0e-3250-221d-dd7a-7ef15c3c24bd" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
+   <Object name="LedgeObject-746" type="LedgeObject" guid="49cf530f-3ab8-6610-3934-1834b21ed594" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
+   <Object name="LedgeObject-743" type="LedgeObject" guid="4acf5e0e-3250-221d-dd7a-7ef15c3c24bd" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
    <Object name="medical_canister_1_a-006" type="Brush" guid="41fe5339-cbf5-1039-2a4d-db6ce8c0ec9c"/>
    <Object name="box_fabric_1_005x005x005_a-000" type="Brush" guid="4c4e0ce1-037e-a53f-9b9b-f567a26226b3"/>
    <Object name="box_plastic_1_005x005x005_a_chair-001" type="Brush" guid="42e75d5e-71ba-9440-c7eb-9fa396db1a86"/>
    <Object name="storage_emergency_pack_a-003" type="Brush" guid="4eeff804-81b8-ef44-483b-e0812aee9e98"/>
-   <Object name="medical_canister_2_a-004" type="Brush" guid="494bc891-2a6c-ce49-54e7-f48ea1245482"/>
+   <Object name="medical_canister_2_a-003" type="Brush" guid="494bc891-2a6c-ce49-54e7-f48ea1245482"/>
    <Object name="medical_canister_1_a-005" type="Brush" guid="4bd1e0f2-08dc-fc51-d1c2-579b48432ab7"/>
    <Object name="pallet_metal_1_c-012" type="Brush" guid="4063b646-2666-4352-2881-fb7c5ef2069f"/>
    <Object name="pallet_metal_1_c-013" type="Brush" guid="43290fb6-b6f9-a153-0cdb-86b89f88f68d"/>
    <Object name="LedgeObject-617" type="LedgeObject" guid="427efc68-4f21-0254-7f3e-8f3554036cb3" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
    <Object name="Cover.rdwn_cargo_trolley_crouch_full_3x1_a" type="Prefab" guid="47834722-470a-1b58-bfc3-e9b5b5facab4"/>
    <Object name="box_plastic_4_weapon_closed_005x010x005_a-001" type="Brush" guid="4fed41c0-e1a3-a75a-7101-0b475d2aeda2"/>
-   <Object name="LedgeObject-743" type="LedgeObject" guid="4b7ab524-4f1d-695d-9a41-3476ee53a484" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
+   <Object name="LedgeObject-744" type="LedgeObject" guid="4b7ab524-4f1d-695d-9a41-3476ee53a484" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
    <Object name="LedgeObject-616" type="LedgeObject" guid="4da79993-22da-1c65-10df-1b2b533261a4" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
    <Object name="LedgeObject-615" type="LedgeObject" guid="40f6f384-4103-346c-dc66-2f689f95f6bb" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
    <Object name="tarp_bundle_1_a-005" type="Brush" guid="4df9d111-2785-376d-05a7-23e97f1babb5"/>
@@ -3894,11 +3894,11 @@
    <Object name="PrefabPivot-116" type="PrefabPivot" guid="48412984-0104-d88c-e115-920d8746c9b3" tags=""/>
    <Object name="box_plastic_2_005x005x005_a_250" type="Brush" guid="4ec9b71d-8d42-709c-4830-1157046a7a8a"/>
    <Object name="box_plastic_6_005x02x005_a-014" type="Brush" guid="4b321bb5-2cda-e89e-426b-ca4430f5f0a7"/>
-   <Object name="LedgeObject-746" type="LedgeObject" guid="4a8d6541-70b3-e5a1-0324-c2db0725fdb6" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
+   <Object name="LedgeObject-745" type="LedgeObject" guid="4a8d6541-70b3-e5a1-0324-c2db0725fdb6" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
    <Object name="LedgeObject-614" type="LedgeObject" guid="4dd9888b-ac9d-30a3-b736-cb20ccd947b3" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
    <Object name="box_plastic_4_weapon_closed_005x010x0025_a-001" type="Brush" guid="45601f62-3c79-a5b2-9a84-45190b5d4c8f"/>
    <Object name="box_plastic_9_a-001" type="Brush" guid="41072255-f669-85b8-30e8-6ab51ae642a4"/>
-   <Object name="medical_canister_2_a-003" type="Brush" guid="435327e7-c4df-56c6-dea2-0dc57fd58bb0"/>
+   <Object name="medical_canister_2_a-004" type="Brush" guid="435327e7-c4df-56c6-dea2-0dc57fd58bb0"/>
    <Object name="storage_cryo_trolley_b-001" type="Brush" guid="45f94d59-9b84-e9cd-61b7-a3c53a519285"/>
    <Object name="crate_metal_2_01x005x0025_a-003" type="Brush" guid="437e53b9-43d6-b4d5-b821-63e220b20a89"/>
    <Object name="Cover.rdwn_cargo_watertank_crouch_full_1x1_c" type="Prefab" guid="4505e83c-c70e-32d6-2f12-b1e259cded99"/>

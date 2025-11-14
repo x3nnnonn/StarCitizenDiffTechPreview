@@ -44,7 +44,7 @@
   <collisionType>Cutout</collisionType>
   <cacheAmount>0</cacheAmount>
   <scene Type="BuildingBlocks_WidgetBase" Count="1">
-    <BuildingBlocks_WidgetCanvas Type="BuildingBlocks_WidgetCanvas">
+    <BuildingBlocks_WidgetCanvas Pointer="ptr:1" Type="BuildingBlocks_WidgetCanvas">
       <name>canvas_Interchangeable</name>
       <styleTags Type="Tag" Count="0" />
       <rendererType>Flash</rendererType>
@@ -355,7 +355,18 @@
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="0" />
+  <operations Type="BuildingBlocks_Node" Count="2">
+    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:2" Type="BuildingBlocks_BindingsIntegerComponentParameter">
+      <name>CustomState</name>
+      <parameter>ParamInput0</parameter>
+      <defaultValue>2</defaultValue>
+    </BuildingBlocks_BindingsIntegerComponentParameter>
+    <BuildingBlocks_BindingsIntegerField Type="BuildingBlocks_BindingsIntegerField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput0</field>
+      <input PointsTo="ptr:2" />
+    </BuildingBlocks_BindingsIntegerField>
+  </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />
 </BuildingBlocks_Canvas.EC_Status_List>

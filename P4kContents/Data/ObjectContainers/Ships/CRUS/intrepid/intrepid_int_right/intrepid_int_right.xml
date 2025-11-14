@@ -1,4 +1,4 @@
-<ObjectContainer version="11" name="intrepid_int_right" tags="" type="" editorBuildChangelist="10562704" entityCountPLA="0" entityCountALE="0" entityCountStatic="46" entityCountDynamic="0" entityCountUnique="0" minBounds="-1.6424560546875,-3.3615360000000005,-3.338641" maxBounds="7.1101749999999999,7.5,4.661359" radius="15.228749" crcSOC="301661268">
+<ObjectContainer version="11" name="intrepid_int_right" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="46" entityCountDynamic="0" entityCountUnique="0" minBounds="-1.6424560546875,-3.3615360000000005,-3.338641" maxBounds="7.1101749999999999,7.5,4.661359" radius="15.228749" crcSOC="1624469128">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
@@ -44,9 +44,6 @@
    <Tag TagId="66ea4ff6-5c0a-41dc-a955-8a4b4116f6af"/>
    <Tag TagId="4f6d3311-73f3-450b-bb53-62ddc93f1fd3"/>
    <Tag TagId="c9c55c09-23f1-4f9d-859c-5692b986fd5a"/>
-   <Tag TagId="94b8e3ee-4692-4fe3-a73d-ebc73b9bb4f3"/>
-   <Tag TagId="02af2eee-b979-40e5-b999-68b976c05bbf"/>
-   <Tag TagId="039eb697-7307-409b-a176-a778de49a613"/>
    <Tag TagId="2f2df42c-c545-45af-b714-eb987d3cb985"/>
    <Tag TagId="b7792907-0b11-47e2-80f6-f2fe69400bfe"/>
    <Tag TagId="6cc436b2-e716-4427-9ab1-a9288605aee0"/>
@@ -57,6 +54,9 @@
    <Tag TagId="82f54d23-28da-45d4-ab45-e38909db4154"/>
    <Tag TagId="8f3e24f5-4877-4da5-8bf9-b4eae1911dfe"/>
    <Tag TagId="963fcc3e-0e87-4eb1-9481-d6c823d43910"/>
+   <Tag TagId="94b8e3ee-4692-4fe3-a73d-ebc73b9bb4f3"/>
+   <Tag TagId="02af2eee-b979-40e5-b999-68b976c05bbf"/>
+   <Tag TagId="039eb697-7307-409b-a176-a778de49a613"/>
   </Tags>
  </StaticEntityTags>
  <Health />
@@ -96,7 +96,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="1,1,0" type="Noattach" name="Port2_Room_RN_Crewquarters[CrewQuarters_Room_Atmo]" display_name="Port2_Room_RN_Crewquarters[CrewQuarters_Room_Atmo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="3,1,0" type="Noattach" name="Port2_Room_RN_bathroom[CrewQuarters_Room_Atmo]" display_name="Port2_Room_RN_bathroom[CrewQuarters_Room_Atmo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -106,7 +106,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="3,1,0" type="Noattach" name="Port3_Room_RN_bathroom[CrewQuarters_Room_Atmo]" display_name="Port3_Room_RN_bathroom[CrewQuarters_Room_Atmo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="1,1,0" type="Noattach" name="Port3_Room_RN_Crewquarters[CrewQuarters_Room_Atmo]" display_name="Port3_Room_RN_Crewquarters[CrewQuarters_Room_Atmo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -206,7 +206,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-0.74999899,1.25,-1" type="Noattach" name="Port13_Door_RN_RoomConnector_Breachable-001[CrewQuarters_Setup]" display_name="Port13_Door_RN_RoomConnector_Breachable-001[CrewQuarters_Setup]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.15625,-0.25,-1" type="Noattach" name="Port13_Door_RN_NoRoomConnector_CRUS_Intrepid_FridgeDoorRight[CrewQuarters_Setup]" display_name="Port13_Door_RN_NoRoomConnector_CRUS_Intrepid_FridgeDoorRight[CrewQuarters_Setup]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -216,7 +216,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.15625,-0.25,-1" type="Noattach" name="Port14_Door_RN_NoRoomConnector_CRUS_Intrepid_FridgeDoorRight[CrewQuarters_Setup]" display_name="Port14_Door_RN_NoRoomConnector_CRUS_Intrepid_FridgeDoorRight[CrewQuarters_Setup]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-0.74999899,1.25,-1" type="Noattach" name="Port14_Door_RN_RoomConnector_Breachable-001[CrewQuarters_Setup]" display_name="Port14_Door_RN_RoomConnector_Breachable-001[CrewQuarters_Setup]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>

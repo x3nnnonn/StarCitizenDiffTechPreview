@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <InteractionConditionPreset.EquipHelmet RecordId="df8e7b70-289d-42a9-848e-a0e1170fafe2" Type="InteractionConditionPreset">
-  <conditions Type="InteractionConditionParams" Count="5">
+  <conditions Type="InteractionConditionParams" Count="6">
     <InteractionConditionActorHasAttachedEntityTypes Type="InteractionConditionActorHasAttachedEntityTypes">
       <conditionDisplay Type="ConditionDisplayParams">
         <exclusiveDisplay>True</exclusiveDisplay>
@@ -110,7 +110,15 @@
         </secondCondition>
       </firstCondition>
       <secondCondition Type="InteractionConditionActorHasAttachedEntityTypes">
-        <conditionDisplay />
+        <conditionDisplay Type="ConditionDisplayParams">
+          <exclusiveDisplay>False</exclusiveDisplay>
+          <blockedText />
+          <blockedCursor />
+          <blockedColor />
+          <blockedHint />
+          <autoStoreOption />
+          <blockedInteractionAttemptMonologue />
+        </conditionDisplay>
         <conditionResult>Fail</conditionResult>
         <itemTypes Type="StatusEffectValue" Count="1">
           <EnumChoice>Char_Armor_Helmet</EnumChoice>
@@ -119,6 +127,32 @@
         <ignoreItemPorts Type="ActivityBehaviorRequestCondition" Count="0" />
       </secondCondition>
     </InteractionConditionOR>
+    <InteractionConditionActorHasAttachedEntityTypes Type="InteractionConditionActorHasAttachedEntityTypes">
+      <conditionDisplay Type="ConditionDisplayParams">
+        <exclusiveDisplay>False</exclusiveDisplay>
+        <blockedText Type="BlockedTextParams">
+          <blockedText>@interaction_condition_helmet_oneAtATime</blockedText>
+        </blockedText>
+        <blockedCursor />
+        <blockedColor />
+        <blockedHint />
+        <autoStoreOption />
+        <blockedInteractionAttemptMonologue />
+      </conditionDisplay>
+      <conditionResult>Fail</conditionResult>
+      <itemTypes Type="StatusEffectValue" Count="1">
+        <EnumChoice>Char_Armor_Helmet</EnumChoice>
+      </itemTypes>
+      <itemSubTypes Type="SpeedThreshold" Count="0" />
+      <ignoreItemPorts Type="ActivityBehaviorRequestCondition" Count="6">
+        <String>weapon_attach_hand_right</String>
+        <String>weapon_attach_hand_left</String>
+        <String>magic_pocket</String>
+        <String>inventory_pocket</String>
+        <String>inventory_pocket_2</String>
+        <String>helmethook_attach</String>
+      </ignoreItemPorts>
+    </InteractionConditionActorHasAttachedEntityTypes>
   </conditions>
   <conditionToHideParams Type="InteractionConditionParams" Count="3">
     <InteractionConditionEntityTags Type="InteractionConditionEntityTags">

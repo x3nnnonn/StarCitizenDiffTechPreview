@@ -642,7 +642,7 @@
               <visibleThirdPerson>True</visibleThirdPerson>
               <visibleFirstPerson>True</visibleFirstPerson>
               <distantImposter>False</distantImposter>
-              <visibleShadows>True</visibleShadows>
+              <visibleShadows>False</visibleShadows>
               <lightImportance>Standard</lightImportance>
               <lightType Type="EntityEffectSystem_LightType_PointLight">
                 <radius>3</radius>
@@ -819,7 +819,7 @@
               <fakeLight>False</fakeLight>
               <affectsFog>True</affectsFog>
               <affectsGI>True</affectsGI>
-              <affectThisAreaOnly>False</affectThisAreaOnly>
+              <affectThisAreaOnly>True</affectThisAreaOnly>
               <holographic>False</holographic>
               <visibleThirdPerson>True</visibleThirdPerson>
               <visibleFirstPerson>True</visibleFirstPerson>
@@ -872,7 +872,7 @@
               <colorTemperature>3500</colorTemperature>
               <diffuseMultiplier>0.05</diffuseMultiplier>
               <viewDistanceRatio>10</viewDistanceRatio>
-              <castShadow>True</castShadow>
+              <castShadow>False</castShadow>
               <shadowQualityCap>Full</shadowQualityCap>
               <maxShadowCastDistance>3</maxShadowCastDistance>
               <ambient>False</ambient>
@@ -880,7 +880,7 @@
               <fakeLight>False</fakeLight>
               <affectsFog>False</affectsFog>
               <affectsGI>False</affectsGI>
-              <affectThisAreaOnly>False</affectThisAreaOnly>
+              <affectThisAreaOnly>True</affectThisAreaOnly>
               <holographic>False</holographic>
               <visibleThirdPerson>True</visibleThirdPerson>
               <visibleFirstPerson>True</visibleFirstPerson>

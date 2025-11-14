@@ -181,7 +181,7 @@
           <bindingsMethod>None</bindingsMethod>
           <DefaultState />
           <asopReset>False</asopReset>
-          <networkAuthority>Server</networkAuthority>
+          <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="5">
             <SInteractionState Pointer="ptr:9" Type="SInteractionState">
               <StateName>DEFCON_01_Normal</StateName>
@@ -557,7 +557,7 @@
           <bindingsMethod>None</bindingsMethod>
           <DefaultState />
           <asopReset>False</asopReset>
-          <networkAuthority>Server</networkAuthority>
+          <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="3">
             <SInteractionState Pointer="ptr:10" Type="SInteractionState">
               <StateName>Normal</StateName>

@@ -1,4 +1,4 @@
-<ObjectContainer version="11" name="base_int_cockpit_main" tags="" type="" editorBuildChangelist="10562704" entityCountPLA="0" entityCountALE="0" entityCountStatic="38" entityCountDynamic="0" entityCountUnique="0" minBounds="-2.8053317070007324,-4.383462999997473,-2.5360822677612305" maxBounds="2.8053317070007324,9.4068174362182617,2.4722089767456055" radius="9.2271461" crcSOC="943566693">
+<ObjectContainer version="11" name="base_int_cockpit_main" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="38" entityCountDynamic="0" entityCountUnique="0" minBounds="-2.8053317070007324,-4.383462999997473,-2.5360822677612305" maxBounds="2.8053317070007324,9.4068174362182617,2.4722089767456055" radius="9.2271461" crcSOC="2689595994">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
@@ -84,7 +84,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.89060998,2.8984399,0.01564" type="Noattach" name="Port3_ControlPanel_Screen_DoorControl_Physical_Spartan-004[cockpit_SETUP]" display_name="Port3_ControlPanel_Screen_DoorControl_Physical_Spartan-004[cockpit_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.89060998,2.8984399,0.085929997" type="Noattach" name="Port3_ControlPanel_Screen_DoorControl_Physical_Spartan-000[cockpit_SETUP]" display_name="Port3_ControlPanel_Screen_DoorControl_Physical_Spartan-000[cockpit_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -94,7 +94,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.89060998,2.8984399,0.085929997" type="Noattach" name="Port4_ControlPanel_Screen_DoorControl_Physical_Spartan-000[cockpit_SETUP]" display_name="Port4_ControlPanel_Screen_DoorControl_Physical_Spartan-000[cockpit_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.89060998,2.8984399,0.01564" type="Noattach" name="Port4_ControlPanel_Screen_DoorControl_Physical_Spartan-004[cockpit_SETUP]" display_name="Port4_ControlPanel_Screen_DoorControl_Physical_Spartan-004[cockpit_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -104,7 +104,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.96095002,2.4375,0.49998" type="Noattach" name="Port5_Door_RN_RoomConnector_Breachable_OpenClose-000[cockpit_SETUP]" display_name="Port5_Door_RN_RoomConnector_Breachable_OpenClose-000[cockpit_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.95311999,2.4375,-0.3125" type="Noattach" name="Port5_Door_RN_RoomConnector_Breachable_OpenClose-001[cockpit_SETUP]" display_name="Port5_Door_RN_RoomConnector_Breachable_OpenClose-001[cockpit_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -114,7 +114,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.95311999,2.4375,-0.3125" type="Noattach" name="Port6_Door_RN_RoomConnector_Breachable_OpenClose-001[cockpit_SETUP]" display_name="Port6_Door_RN_RoomConnector_Breachable_OpenClose-001[cockpit_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.96095002,2.4375,0.49998" type="Noattach" name="Port6_Door_RN_RoomConnector_Breachable_OpenClose-000[cockpit_SETUP]" display_name="Port6_Door_RN_RoomConnector_Breachable_OpenClose-000[cockpit_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>

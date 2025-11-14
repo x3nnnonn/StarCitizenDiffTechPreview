@@ -1,4 +1,4 @@
-<ObjectContainer version="11" name="arch_int_cockpit_main" tags="" type="" editorBuildChangelist="10562704" entityCountPLA="0" entityCountALE="0" entityCountStatic="18" entityCountDynamic="0" entityCountUnique="0" minBounds="-2.391882760617591,-2.0377937473144527,-1.7687520299987793" maxBounds="2.2808343006108771,3.0100958617904645,1.8153417791290283" radius="3.8202634" crcSOC="2664088833">
+<ObjectContainer version="11" name="arch_int_cockpit_main" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="18" entityCountDynamic="0" entityCountUnique="0" minBounds="-2.391882760617591,-2.0377937473144527,-1.7687520299987793" maxBounds="2.2808343006108771,3.0100958617904645,1.8153417791290283" radius="3.8202634" crcSOC="2332095028">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
@@ -65,7 +65,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="2.2807343,0.20696138,-0.005869979" type="Noattach" name="Port4_LightGroup_Ext_Wing_Right_Archimedes[Archimedes_ext_Wing_Right_Lights]" display_name="Port4_LightGroup_Ext_Wing_Right_Archimedes[Archimedes_ext_Wing_Right_Lights]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-2.2811675,0.20696138,-0.005869979" type="Noattach" name="Port4_LightGroup_Ext_Wing_Left_Archimedes[Archimedes_ext_Wing_Left_Lights]" display_name="Port4_LightGroup_Ext_Wing_Left_Archimedes[Archimedes_ext_Wing_Left_Lights]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -75,7 +75,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-2.2811675,0.20696138,-0.005869979" type="Noattach" name="Port5_LightGroup_Ext_Wing_Left_Archimedes[Archimedes_ext_Wing_Left_Lights]" display_name="Port5_LightGroup_Ext_Wing_Left_Archimedes[Archimedes_ext_Wing_Left_Lights]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="2.2807343,0.20696138,-0.005869979" type="Noattach" name="Port5_LightGroup_Ext_Wing_Right_Archimedes[Archimedes_ext_Wing_Right_Lights]" display_name="Port5_LightGroup_Ext_Wing_Right_Archimedes[Archimedes_ext_Wing_Right_Lights]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>

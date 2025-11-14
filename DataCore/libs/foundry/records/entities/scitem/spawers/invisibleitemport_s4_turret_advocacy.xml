@@ -92,13 +92,20 @@
       </PhysType>
     </SEntityPhysicsControllerParams>
     <SSpawnerParams Type="SSpawnerParams">
-      <spawnRules Type="SSpawnOnStreamIn" />
+      <spawnRules Type="SSpawnOnDestroy">
+        <timeAfterDestroy>0</timeAfterDestroy>
+        <spawnOnDone>True</spawnOnDone>
+      </spawnRules>
       <despawnRules Type="SDespawnRules">
-        <rules Type="SDespawnRule" Count="0" />
+        <rules Type="SDespawnRule" Count="1">
+          <SDespawnRule_OnDestroyed Type="SDespawnRule_OnDestroyed">
+            <ruleDelaySeconds>600</ruleDelaySeconds>
+          </SDespawnRule_OnDestroyed>
+        </rules>
         <despawnDelaySeconds>0</despawnDelaySeconds>
       </despawnRules>
       <spawnOnGameStart>True</spawnOnGameStart>
-      <spawnWithinPlayerRange>False</spawnWithinPlayerRange>
+      <spawnWithinPlayerRange>True</spawnWithinPlayerRange>
       <clampSpawnPlayerCheckTime>0</clampSpawnPlayerCheckTime>
       <portRefillData Type="IndividualPortRefillData">
         <portRefillData Type="PortRefillData" Count="1">
@@ -115,7 +122,7 @@
       </prerequisite>
       <entitiesToSpawn Type="SSpawnEntity" Count="1">
         <SSpawnEntity Type="SSpawnEntity">
-          <entity ReferencedFile="file://./../../../../../../libs/foundry/records/entities/scitem/weapons/turret_unmanned/turret_automated_kbar_aa_ground_destructible_advocacy.xml" />
+          <entity ReferencedFile="file://./../../../../../../libs/foundry/records/entities/scitem/weapons/turret_unmanned/turret_automated_kbar_aa_ground_destructible_pu_securitynetwork.xml" />
           <spawnOffset Type="Vec3">
             <x>0</x>
             <y>0</y>
@@ -135,7 +142,7 @@
       <faction />
       <onRequestSpawn>False</onRequestSpawn>
       <spawnInMovement>False</spawnInMovement>
-      <untrackOnDetach>True</untrackOnDetach>
+      <untrackOnDetach>False</untrackOnDetach>
       <wildcardPorts Type="SItemPortDef" Count="0" />
       <spawnerTasks Type="SSequencerSpawnerTaskParams" Count="0" />
     </SSpawnerParams>
@@ -246,6 +253,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

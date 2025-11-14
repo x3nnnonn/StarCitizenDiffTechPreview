@@ -1,33 +1,34 @@
 <ObjectContainer sourceLevel="data/levels/!oc/pu/loc/mod/station/nyx/int/module/hab/hab_lobby">
  <Layers>
   <Layer fullname="overlay/levski/hab_lobby_12x73x08_001_levski_001" externalLayerLevelDir="data/levels/!oc/pu/loc/mod/station/nyx/int/module/hab/hab_lobby/Layers/" externalLayerParentDir="overlay/levski/" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/hab/hab_lobby/Layers/overlay/levski/hab_lobby_12x73x08_001_levski_001.lyr" ParentGUID="{D905FE04-0272-4B10-863E-E256CA57EBA8}" layerHash="2770246933">
-   <Layer name="branding" layerHash="2855097305" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/hab/hab_lobby/Layers/overlay/levski/hab_lobby_12x73x08_001_levski_001/branding.lyr">
+   <Layer name="branding" layerHash="1591372630" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/hab/hab_lobby/Layers/overlay/levski/hab_lobby_12x73x08_001_levski_001/branding.lyr">
     <Object name="lowtech_signage_1_1x1_a-002" type="Brush" guid="4f0f29ac-2e00-1705-a6d6-a66eae383a8b"/>
     <Object name="lowtech_signage_1_1x1_a-003" type="Brush" guid="46d429c2-cbf0-c61b-2b90-37c13c9630ac"/>
     <Object name="led_UP-002" type="Group" guid="414f5795-466d-141f-9911-8c2e9d042d96"/>
     <Object name="lowtech_lightbox_1_7x1_b-001" type="Brush" guid="4e1ee192-0515-7c23-251b-c31f49307399"/>
     <Object name="palevski_brnd_panel_sign_v-001" type="Brush" guid="4183136d-bafe-2524-6043-feba9ab912b9"/>
-    <Object name="led_NO_ENTRY-000" type="Group" guid="4e244162-e30b-252d-0158-f508a4826da1"/>
-    <Object name="nyx_brnd_kit_a_sign_7x1_clinic_a-001" type="Brush" guid="4f340c93-e87e-8a3c-d393-d7b324f310b7"/>
+    <Object name="no_entry_red-001" type="Group" guid="42f5a063-1f69-1f2b-9a97-1b77a4d98ea8"/>
+    <Object name="lowtech_lightbox_1_7x1_b-010" type="Brush" guid="4abb7c8c-639e-3d39-7f93-f1ef5272aab6"/>
     <Object name="lowtech_lightbox_1_7x1_b-003" type="Brush" guid="4fc9dd22-ee0b-c252-2024-09d9314845ac"/>
     <Object name="nyx_brnd_kit_a_sign_1x1_arrow_a-000" type="Brush" guid="4d30e1ca-eab7-e15a-d40c-2288f7a253b9"/>
-    <Object name="lowtech_lightbox_1_7x1_a-001" type="Brush" guid="4e1f3b0f-0a19-cc5c-bb84-ce5901e58cbb"/>
     <Object name="lowtech_lightbox_1_7x1_b-002" type="Brush" guid="476eaf5d-2f29-4d63-8b52-546d81e051a3"/>
-    <Object name="palevski_brnd_panel_sign_b-001" type="Brush" guid="42561845-40b9-177f-51f7-fadeb75fd4af"/>
     <Object name="palevski_brnd_panel_sign_f-001" type="Brush" guid="428d48e4-e95e-f37f-9cc2-a90e1c523ab0"/>
     <Object name="palevski_brnd_panel_sign_q-001" type="Brush" guid="41a75233-97f2-038e-9d15-48e139501f8b"/>
     <Object name="nyx_brnd_kit_a_sign_1x1_arrow_a-002" type="Brush" guid="4c09b348-94d1-9091-8a04-9cf669fe46a7"/>
     <Object name="nyx_brnd_kit_a_sign_1x1_arrow_a-001" type="Brush" guid="4393c78a-9426-43b9-6c36-567871bc2a8b"/>
+    <Object name="Light-001" type="Light" guid="40ef0829-edf4-e4b9-5e44-495894abeaad" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="nyx_brnd_kit_a_sign_service_a-006" type="Brush" guid="42438c3b-d8aa-cdba-0784-e788a5603b8d"/>
     <Object name="nyx_brnd_kit_a_sign_7x1_elevator_a-001" type="Brush" guid="41c510fe-73f7-cfbe-d542-f15fef4cc58a"/>
     <Object name="nyx_brnd_kit_a_sign_7x1_elevator_a-006" type="Brush" guid="43584ccd-e927-73ca-4128-fd619770fda8"/>
+    <Object name="no_entry_red_002" type="Group" guid="4c011735-6ce6-b1d6-0c36-6616bd2b2499"/>
     <Object name="lowtech_lightbox_1_7x1_b-004" type="Brush" guid="40565c77-cbb2-51ef-bb57-8bd0b59403a6"/>
     <Object name="led_UP-000" type="Group" guid="43cc68c7-056e-02f0-a6b6-47b553d000ba"/>
     <Object name="led_UP-001" type="Group" guid="4eec2d92-2ea1-e6f1-3071-9ce313f5e591"/>
     <Object name="nyx_brnd_kit_a_sign_7x1_elevator_a-000" type="Brush" guid="41361cc4-417d-21f5-542c-cce039ddcf95"/>
     <Object name="lowtech_signage_1_1x1_a-006" type="Brush" guid="446df546-27b5-b9f5-0002-798b90cb08bd"/>
-    <Object name="nyx_brnd_kit_a_sign_maintenance_a-001" type="Brush" guid="453f3a92-eb67-9bfa-7099-f48d966c10aa"/>
+    <Object name="nyx_brnd_kit_a_sign_noaccess_a" type="Brush" guid="453f3a92-eb67-9bfa-7099-f48d966c10aa"/>
    </Layer>
-   <Layer name="decal" layerHash="1092806943" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/hab/hab_lobby/Layers/overlay/levski/hab_lobby_12x73x08_001_levski_001/decal.lyr">
+   <Layer name="decal" layerHash="195917681" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/hab/hab_lobby/Layers/overlay/levski/hab_lobby_12x73x08_001_levski_001/decal.lyr">
     <Object name="Decal006-1019" type="Decal" guid="440282b7-4b9d-6000-7ec4-47d973bdc9af"/>
     <Object name="roomsm_b_signage_exit_a-094" type="Brush" guid="42a63654-e8cf-5e01-71c7-f766977976b3"/>
     <Object name="Decal002-215" type="Decal" guid="4b5831e2-b0a8-3a06-a9f0-d9b7d850adb3"/>
@@ -67,11 +68,11 @@
     <Object name="Decal002-218" type="Decal" guid="4c325647-f8c4-32fa-d315-ab26df9229aa"/>
    </Layer>
    <Layer name="geo" layerHash="3683141707" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/hab/hab_lobby/Layers/overlay/levski/hab_lobby_12x73x08_001_levski_001/geo.lyr"/>
-   <Layer name="gp" layerHash="2893045419" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/hab/hab_lobby/Layers/overlay/levski/hab_lobby_12x73x08_001_levski_001/gp.lyr">
-    <Object name="ObjectContainer-009" type="ObjectContainer" guid="408f53e2-403c-3f00-1f19-a22b8efaaf99" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
-    <Object name="ObjectContainer-010" type="ObjectContainer" guid="4013d9b4-760a-ca75-88d8-7b473ba04294" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
+   <Layer name="gp" layerHash="502208838" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/hab/hab_lobby/Layers/overlay/levski/hab_lobby_12x73x08_001_levski_001/gp.lyr">
+    <Object name="SoftLock_Terminal_Standard_Refinery" type="SoftLock_Terminal_Standard_Utili_FineTerminal" guid="496a1fcd-bdb4-0e65-ddb0-75f5c08e9c9f" tags="00ead468-9073-485b-a6df-ca6b94053603,01e14368-ff74-414f-866e-677b67512f23,849b8481-5893-4301-964e-4f39f3e27ad8,021cf2be-7655-4e7e-9ecc-3aa5f9a1ac9d,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
+    <Object name="SoftLock_Terminal_Standard_Refinery-001" type="SoftLock_Terminal_Standard_Utili_FineTerminal" guid="4370ccd3-d9a7-e0aa-89c7-e25013f35ca0" tags="00ead468-9073-485b-a6df-ca6b94053603,01e14368-ff74-414f-866e-677b67512f23,849b8481-5893-4301-964e-4f39f3e27ad8,021cf2be-7655-4e7e-9ecc-3aa5f9a1ac9d,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
    </Layer>
-   <Layer name="light" layerHash="1101284708" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/hab/hab_lobby/Layers/overlay/levski/hab_lobby_12x73x08_001_levski_001/light.lyr">
+   <Layer name="light" layerHash="3848514580" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/hab/hab_lobby/Layers/overlay/levski/hab_lobby_12x73x08_001_levski_001/light.lyr">
     <Object name="fv_lev_int_hab_lobby_12x73x08_001" type="FogVolume" guid="499da692-6d74-5f00-2f1e-946158142482" tags=""/>
     <Object name="WallMount_Light_Large_Cool-180" type="Brush" guid="4c0bedce-fc70-5704-dbf1-2d30c394db99"/>
     <Object name="lt_lev_int_hab_lobby_12x73x08_screen_bnc_001" type="Light" guid="495a2d29-60ce-1c08-cdb9-6a6410222394" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -92,7 +93,6 @@
     <Object name="ab_lev_int_hab_lobby_12x73x08_002" type="AreaBox" guid="45fa349c-02ce-602f-1377-b0a3214ec29c" tags=""/>
     <Object name="light_warm_generic_a-018" type="Brush" guid="4e4af235-5858-c630-cee2-e6fa8a071db3"/>
     <Object name="lt_lev_int_hab_lobby_12x73x08_doorway_uplight_bnc_003" type="Light" guid="40214558-ed0a-cd31-fd7e-5d6f18e9d4b0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="lt_lev_int_hab_lobby_12x73x08_sign_glw_005" type="Light" guid="44ffe52e-f2e5-4e33-30e2-d8721e3fb38e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="lt_lev_int_hab_lobby_12x73x08_doorway_fog_003" type="Light" guid="4035820d-55f9-7533-1394-8d9aae8034b4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="lt_lev_int_hab_lobby_12x73x08_stand_fog_001" type="Light" guid="47f5daa8-685f-0e35-95ab-48272bfccabe" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="lt_lev_int_hab_lobby_12x73x08_prop_uplight_bnc_002" type="Light" guid="47c6afb3-4497-7f35-80ae-4cabad20ecb1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>

@@ -1,4 +1,4 @@
-<ObjectContainer version="11" name="rs_entry_cru-leo1" tags="" type="Module OC" editorBuildChangelist="10584787" entityCountPLA="0" entityCountALE="0" entityCountStatic="789" entityCountDynamic="21" entityCountUnique="0" minBounds="-70.585533999999996,-70.875104999999962,-10" maxBounds="55.99999128024163,18.902422424252677,18.36544535040349" gridRadius="90.487732" radius="197.30293" crcSOC="1201544424">
+<ObjectContainer version="11" name="rs_entry_cru-leo1" tags="" type="Module OC" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="789" entityCountDynamic="21" entityCountUnique="0" minBounds="-70.585533999999996,-70.875104999999962,-10" maxBounds="55.99999128024163,18.902422424252677,18.36544535040349" gridRadius="90.487732" radius="197.30293" crcSOC="1310522759">
  <Connectors>
   <Connector Name="ProcConn_sideroom_001-003" Width="12" Depth="0" Height="4" ElementFloorNumber="-1" SortOrder="0" RelativePos="-37.000029000000005,-54.999987999999917,-1" RelativeRot="1,0,0,0">
    <ConnectionProperties SpecificElementsFiltersExcluding="0" SpecificElementsFilters="" IsFullConnection="0" AcceptsDoor="0"/>
@@ -421,6 +421,9 @@
   <InfoBox Width="4" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-55.999924999999998,-31.999941999999919,-1" RelativeRot="0,0,0,1">
    <DebugProperties ShowText="1"/>
   </InfoBox>
+  <InfoBox Width="12" Depth="0" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-8.000001000000001,-35.000008999999977,-1" RelativeRot="1,0,0,0">
+   <DebugProperties ShowText="1"/>
+  </InfoBox>
   <InfoBox Width="1" Depth="1" Height="2" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,b01343ff-5102-4902-87cb-12d729b39214,ae18c3eb-7e42-43ae-941c-3937ee523feb" RelativePos="27.463469999999916,-54.42403499999989,-1.75" RelativeRot="0.70710725,0,0,0.70710629">
    <DebugProperties ShowText="1"/>
   </InfoBox>
@@ -434,9 +437,6 @@
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="14" Depth="6" Height="6" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,4fa50bf4-b5b8-4d8a-8c79-d6ee63218f06,9f82d945-6aa2-47df-8fe1-1aa6869afeec" RelativePos="-45.000008920422303,-16.999896920304423,-1" RelativeRot="0.70710653,0,0,0.70710701">
-   <DebugProperties ShowText="1"/>
-  </InfoBox>
-  <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-8.0000120000000017,-29.000004999999987,-1" RelativeRot="1,0,0,0">
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="3" Depth="1.5" Height="2" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,2d46209e-9fe7-4b9b-8e06-0dea6e258060,b01343ff-5102-4902-87cb-12d729b39214,8d2015a9-fc53-4741-a181-34cb07d7bfaa" RelativePos="-67.482675999999998,-62.020088999999984,-1.7450000000000045" RelativeRot="0.70710653,0,0,-0.70710701">
@@ -466,9 +466,6 @@
   <InfoBox Width="1" Depth="1" Height="2" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,5d55ca14-cae4-4f74-a06c-2d7447118c3a,b01343ff-5102-4902-87cb-12d729b39214,8d2015a9-fc53-4741-a181-34cb07d7bfaa" RelativePos="-9.4311509999999998,-23.375,5.25" RelativeRot="1,0,-0,-1.7612991e-19">
    <DebugProperties ShowText="1"/>
   </InfoBox>
-  <InfoBox Width="12" Depth="0" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-59.999929000000002,-37.999942999999917,-1" RelativeRot="0,0,0,1">
-   <DebugProperties ShowText="1"/>
-  </InfoBox>
   <InfoBox Width="1.5" Depth="1" Height="0.40000001" ConstructTags="7755abd9-eef8-4e92-ac2a-9967abaaae19,34d4aae3-0246-4dcb-b1d3-e14053648e4d,4bcff037-feb2-412c-8d6a-2b379f85cc35,d6f8a20b-e16e-45a1-9f57-d022e2a1869c,5d55ca14-cae4-4f74-a06c-2d7447118c3a,a7ae19de-f398-4c02-ac10-396de58dc45a" RelativePos="23.750094000000001,-31.000014999999962,1.75" RelativeRot="0,0,-0.70710653,0.70710701">
    <DebugProperties ShowText="1"/>
   </InfoBox>
@@ -484,9 +481,6 @@
   <InfoBox Width="0.5" Depth="0.5" Height="1.5" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,a7b38bba-0653-4c03-91b7-abe99d288946,9a9a0623-9b5f-45a4-971a-ef5baa97d955" RelativePos="-57.899568000000002,-62.137756999999965,-1.7689609999999902" RelativeRot="0.70710653,0,0,0.70710701">
    <DebugProperties ShowText="1"/>
   </InfoBox>
-  <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-42.000012000003203,-16.999986999988778,0" RelativeRot="0.70710552,0,0,-0.70710802">
-   <DebugProperties ShowText="1"/>
-  </InfoBox>
   <InfoBox Width="0.69999999" Depth="1.25" Height="0.1" ConstructTags="7755abd9-eef8-4e92-ac2a-9967abaaae19,34d4aae3-0246-4dcb-b1d3-e14053648e4d,978e7bb7-dd4c-4907-a88c-ed50ce085da5,d6f8a20b-e16e-45a1-9f57-d022e2a1869c,2d46209e-9fe7-4b9b-8e06-0dea6e258060,74904713-f36a-4131-b051-45098c08b251" RelativePos="-47.156264,-22.499986999999919,2.3687490000000082" RelativeRot="-0.5,0.5,-0.5,0.5">
    <DebugProperties ShowText="1"/>
   </InfoBox>
@@ -494,6 +488,9 @@
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="2" Depth="3" Height="1.2" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,b01343ff-5102-4902-87cb-12d729b39214,9a9a0623-9b5f-45a4-971a-ef5baa97d955" RelativePos="24.2501,-24.00001599999996,-0.75" RelativeRot="0.70710754,0,0,0.70710599">
+   <DebugProperties ShowText="1"/>
+  </InfoBox>
+  <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="15.000000000003201,-18.000012000003153,-1" RelativeRot="0.70710653,0,0,0.70710701">
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="14" Depth="6" Height="6" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,2c1f50fc-e74d-4ae6-bb39-732b07654d56" RelativePos="-59.999926000000002,-34.999933999999939,-2" RelativeRot="1,0,0,0">
@@ -520,16 +517,13 @@
   <InfoBox Width="4" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,30e8ce37-3c18-4127-af9a-eef37bc16af6" RelativePos="-23.999904999999998,-25.499993999999901,-1" RelativeRot="1,0,0,0">
    <DebugProperties ShowText="1"/>
   </InfoBox>
+  <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-8.0000120000000017,-29.000004999999987,-1" RelativeRot="1,0,0,0">
+   <DebugProperties ShowText="1"/>
+  </InfoBox>
   <InfoBox Width="1.6" Depth="6" Height="1.5" ConstructTags="7755abd9-eef8-4e92-ac2a-9967abaaae19,34d4aae3-0246-4dcb-b1d3-e14053648e4d,e0185d46-3d02-4183-ab97-f0bf14d98765,d6f8a20b-e16e-45a1-9f57-d022e2a1869c,2d46209e-9fe7-4b9b-8e06-0dea6e258060,74904713-f36a-4131-b051-45098c08b251" RelativePos="25.024299779732097,-26.217560765748203,3.4993957517025933" RelativeRot="0.70710653,-0.70710701,1.004858e-14,1.00486e-14">
    <DebugProperties ShowText="1"/>
   </InfoBox>
-  <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="15.000000000003201,-18.000012000003153,-1" RelativeRot="0.70710653,0,0,0.70710701">
-   <DebugProperties ShowText="1"/>
-  </InfoBox>
   <InfoBox Width="1.25" Depth="0.69999999" Height="0.1" ConstructTags="7755abd9-eef8-4e92-ac2a-9967abaaae19,34d4aae3-0246-4dcb-b1d3-e14053648e4d,978e7bb7-dd4c-4907-a88c-ed50ce085da5,d6f8a20b-e16e-45a1-9f57-d022e2a1869c,5d55ca14-cae4-4f74-a06c-2d7447118c3a,a7ae19de-f398-4c02-ac10-396de58dc45a" RelativePos="23.750095000000002,-31.260014999999953,1.7499990000000025" RelativeRot="0,0,-0.70710653,0.70710701">
-   <DebugProperties ShowText="1"/>
-  </InfoBox>
-  <InfoBox Width="12" Depth="0" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-8.000001000000001,-35.000008999999977,-1" RelativeRot="1,0,0,0">
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="0.5" Depth="0.5" Height="1.5" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,a7b38bba-0653-4c03-91b7-abe99d288946,5d98d472-dbc6-4ef1-9e2d-eb6f7e5b96be" RelativePos="-33.505014000000003,-26.517142999999919,0.25499999999999545" RelativeRot="-0.0087271305,0,0,0.99996191">
@@ -562,9 +556,6 @@
   <InfoBox Width="1.5" Depth="1" Height="0.40000001" ConstructTags="7755abd9-eef8-4e92-ac2a-9967abaaae19,34d4aae3-0246-4dcb-b1d3-e14053648e4d,4bcff037-feb2-412c-8d6a-2b379f85cc35,d6f8a20b-e16e-45a1-9f57-d022e2a1869c,5d55ca14-cae4-4f74-a06c-2d7447118c3a,a7ae19de-f398-4c02-ac10-396de58dc45a" RelativePos="-33.249906000000003,-29.999989999999912,2.75" RelativeRot="0.70710653,-0.70710701,0,0">
    <DebugProperties ShowText="1"/>
   </InfoBox>
-  <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-37.000029000000005,-54.999992999999904,-1" RelativeRot="1,0,0,0">
-   <DebugProperties ShowText="1"/>
-  </InfoBox>
   <InfoBox Width="14" Depth="6" Height="6" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,dfd303e4-9fa7-40fe-a020-bba0420dc91a" RelativePos="-8.0000099999999996,-32,-2" RelativeRot="1,0,0,0">
    <DebugProperties ShowText="1"/>
   </InfoBox>
@@ -575,6 +566,9 @@
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="1.6" Depth="6" Height="1" ConstructTags="7755abd9-eef8-4e92-ac2a-9967abaaae19,34d4aae3-0246-4dcb-b1d3-e14053648e4d,86bfde50-c941-428c-ba27-ac64f530aa48,d6f8a20b-e16e-45a1-9f57-d022e2a1869c,2d46209e-9fe7-4b9b-8e06-0dea6e258060,74904713-f36a-4131-b051-45098c08b251" RelativePos="-31.97569844525427,-24.967537162601616,4.4993944690607464" RelativeRot="0.70710653,-0.70710701,-1.1641953e-20,-1.20163e-20">
+   <DebugProperties ShowText="1"/>
+  </InfoBox>
+  <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="19.999969,-56.000018999999952,-2" RelativeRot="1,0,0,0">
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="4" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-48.000008999995522,-13.999988000004464,0" RelativeRot="0.70710653,0,0,-0.70710701">
@@ -590,6 +584,9 @@
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="4" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,30e8ce37-3c18-4127-af9a-eef37bc16af6,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="15.50009467994046,-31.000012887068237,-1" RelativeRot="0.70710754,0,0,0.70710599">
+   <DebugProperties ShowText="1"/>
+  </InfoBox>
+  <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-42.000012000003203,-16.999986999988778,0" RelativeRot="0.70710552,0,0,-0.70710802">
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="3" Depth="2" Height="1" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,0d2d76c7-e161-4869-ade7-21d89750b0ea,b01343ff-5102-4902-87cb-12d729b39214" RelativePos="31.000098000000001,-22.375016999999957,-1.75" RelativeRot="0.70710653,0,0,-0.70710701">
@@ -613,9 +610,6 @@
   <InfoBox Width="6" Depth="6" Height="14" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,26624764-2cb8-4978-8df8-1f09c0024508,d551e0b5-91c9-42aa-8fb5-dd8776f986af" RelativePos="-63.999929999999999,-28.999947999999904,-10" RelativeRot="1,0,0,0">
    <DebugProperties ShowText="1"/>
   </InfoBox>
-  <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-15.000012000003199,-17.99999600000308,-1" RelativeRot="0.70710653,0,0,-0.70710701">
-   <DebugProperties ShowText="1"/>
-  </InfoBox>
   <InfoBox Width="14" Depth="22" Height="6" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,c5c4e169-3f5d-4fee-b9ab-1ef949b4a407" RelativePos="-56.999917041332502,-44.999993041332459,-2" RelativeRot="0.70710653,0,0,0.70710701">
    <DebugProperties ShowText="1"/>
   </InfoBox>
@@ -631,10 +625,10 @@
   <InfoBox Width="3" Depth="1.5" Height="2" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,b01343ff-5102-4902-87cb-12d729b39214,ae18c3eb-7e42-43ae-941c-3937ee523feb" RelativePos="-43.374889888765843,-38.74997099999996,-0.75" RelativeRot="-5.0103944e-07,0,0,1">
    <DebugProperties ShowText="1"/>
   </InfoBox>
-  <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="19.999969,-56.000018999999952,-2" RelativeRot="1,0,0,0">
+  <InfoBox Width="1.25" Depth="2" Height="0.60000002" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,35d8280e-ae8a-4460-8a96-7501a84cfe5e,74904713-f36a-4131-b051-45098c08b251,978e7bb7-dd4c-4907-a88c-ed50ce085da5" RelativePos="-8.0005130000000015,-55.000474814704489,2.3749873706030371" RelativeRot="0.70710659,-0.70710695,3.5156543e-08,-2.1287004e-08">
    <DebugProperties ShowText="1"/>
   </InfoBox>
-  <InfoBox Width="1.25" Depth="2" Height="0.60000002" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,35d8280e-ae8a-4460-8a96-7501a84cfe5e,74904713-f36a-4131-b051-45098c08b251,978e7bb7-dd4c-4907-a88c-ed50ce085da5" RelativePos="-8.0005130000000015,-55.000474814704489,2.3749873706030371" RelativeRot="0.70710659,-0.70710695,3.5156543e-08,-2.1287004e-08">
+  <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-37.000029000000005,-54.999992999999904,-1" RelativeRot="1,0,0,0">
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="0.5" Depth="0.5" Height="1.5" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,a7b38bba-0653-4c03-91b7-abe99d288946,5d98d472-dbc6-4ef1-9e2d-eb6f7e5b96be" RelativePos="23.494987000000002,-27.517168999999967,-0.74500000000000455" RelativeRot="-0.0087271305,0,0,0.99996191">
@@ -665,6 +659,9 @@
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="0.5" Depth="2" Height="0.1" ConstructTags="7755abd9-eef8-4e92-ac2a-9967abaaae19,34d4aae3-0246-4dcb-b1d3-e14053648e4d,978e7bb7-dd4c-4907-a88c-ed50ce085da5,d6f8a20b-e16e-45a1-9f57-d022e2a1869c,2d46209e-9fe7-4b9b-8e06-0dea6e258060,74904713-f36a-4131-b051-45098c08b251" RelativePos="-41.229854918391212,-22.416416435677547,2.1912507979188831" RelativeRot="0.65328169,-0.65328085,0.27059808,-0.27059901">
+   <DebugProperties ShowText="1"/>
+  </InfoBox>
+  <InfoBox Width="12" Depth="0" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-59.999929000000002,-37.999942999999917,-1" RelativeRot="0,0,0,1">
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="1" Depth="1" Height="1" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,b01343ff-5102-4902-87cb-12d729b39214" RelativePos="-16.482254999999999,-39.532391999999959,0.2499960000000101" RelativeRot="0.70710677,0,-0,-0.70710677">
@@ -736,6 +733,9 @@
   <InfoBox Width="12" Depth="0" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-59.999922000036001,-51.999970000036001,-1" RelativeRot="1,0,-0,-2e-06">
    <DebugProperties ShowText="1"/>
   </InfoBox>
+  <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-45.999915000003199,-44.99998599998878,-1" RelativeRot="0.70710552,0,0,-0.70710802">
+   <DebugProperties ShowText="1"/>
+  </InfoBox>
   <InfoBox Width="2" Depth="1" Height="1" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,b01343ff-5102-4902-87cb-12d729b39214,f0a8c0b2-57b1-4377-b266-36b498d07212" RelativePos="-40.499902000000006,-9.9999859999999217,0.25" RelativeRot="0.70710653,0,0,-0.70710701">
    <DebugProperties ShowText="1"/>
   </InfoBox>
@@ -746,6 +746,9 @@
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="1.25" Depth="0.69999999" Height="0.1" ConstructTags="7755abd9-eef8-4e92-ac2a-9967abaaae19,34d4aae3-0246-4dcb-b1d3-e14053648e4d,978e7bb7-dd4c-4907-a88c-ed50ce085da5,d6f8a20b-e16e-45a1-9f57-d022e2a1869c,5d55ca14-cae4-4f74-a06c-2d7447118c3a,a7ae19de-f398-4c02-ac10-396de58dc45a" RelativePos="-33.249906000000003,-29.739988999999923,2.7499990000000025" RelativeRot="0.70710653,-0.70710701,0,0">
+   <DebugProperties ShowText="1"/>
+  </InfoBox>
+  <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-15.000012000003199,-17.99999600000308,-1" RelativeRot="0.70710653,0,0,-0.70710701">
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="12" Depth="0" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-19.000017999999997,-18.000006000011467,-1" RelativeRot="0.70710653,0,0,-0.70710701">
@@ -857,9 +860,6 @@
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="12" Depth="6" Height="0.25" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,11ee1b8f-0412-4c70-be03-1bc602198f31,c98018bd-c1f2-46c7-b057-7d141116084e" RelativePos="33.000101999999998,-19.000014000000078,2" RelativeRot="-2.3395942e-24,-0.70710653,0.70710701,2.3396459e-24">
-   <DebugProperties ShowText="1"/>
-  </InfoBox>
-  <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,2a25d5a8-87b5-474d-b17f-0ace53c4c105,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="-45.999915000003199,-44.99998599998878,-1" RelativeRot="0.70710552,0,0,-0.70710802">
    <DebugProperties ShowText="1"/>
   </InfoBox>
   <InfoBox Width="12" Depth="1" Height="4" ConstructTags="34d4aae3-0246-4dcb-b1d3-e14053648e4d,7755abd9-eef8-4e92-ac2a-9967abaaae19,c77caf8f-0a0d-4f84-9c07-75c553cad28d,461ddbd7-12e4-4823-9ca3-99a05350fcc2" RelativePos="14.499997320062487,-18.000011320062413,-1" RelativeRot="0.70710653,0,0,0.70710701">
@@ -1595,7 +1595,7 @@
   <Child external="1" name="Data/objectcontainers/setup/elevator_setup/reststop/reststop_elev_habs.socpak" entityName="ObjectContainer-029" label="hab_elev_001_{F0F52255-A078-41E2-8EA6-DC57F0379E5C}_ObjectContainer-029_{87EFFEF5-0C41-44DB-BB26-7B0A98677D45}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7" guid="44db0c41-87ef-fef5-457d-67980a7b26bb" pos="-53.999926000000002,-31.999935999999934,-1" rot="0,0,0,1"/>
   <Child external="1" name="Data/objectcontainers/setup/elevator_setup/reststop/reststop_elev_atc.socpak" entityName="ObjectContainer_002_ElevatorGateway-005" label="elev_002_{5CDBB174-F811-4AA5-8429-D8323D0A13ED}_ObjectContainer_002_ElevatorGateway-005_{F8A512FB-079A-44EF-9E52-8494B120F121}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7" guid="44ef079a-f8a5-12fb-21f1-20b19484529e" pos="3.9999650000000004,-53.999982999999929,-1.9999999949504854e-06" rot="0.70710677,0,0,0.70710677"/>
  </ChildObjectContainers>
- <Health EntityCount="1147" OC_Count="26" StreamingRadius="2217.2705"/>
+ <Health EntityCount="1121" OC_Count="0" StreamingRadius="2217.2705"/>
  <StreamingOCs>
   <OC name="rs_entry_cru-leo1.soc" tags="" staticEntityCount="789" guid="4dc090fd-8e70-8422-40c7-0b782a740ea7" radius="197.30293"/>
  </StreamingOCs>

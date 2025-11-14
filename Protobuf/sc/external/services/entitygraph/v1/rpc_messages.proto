@@ -449,7 +449,10 @@ message UpdateEntitiesByStowContextRequestBody {
       .google.protobuf.Timestamp ownership_timestamp = 2;
     }
     message ParentUrnUpdate {
-      string parent_urn = 1;
+      oneof parent_urn_update {
+        string parent_urn = 1;
+        bool clear = 2;
+      }
     }
     message LocationUpdate {
       uint32 location_id = 1;

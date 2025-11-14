@@ -19,12 +19,12 @@
   </StaticEntityClassData>
   <Components Type="DataForgeComponentParams" Count="18">
     <SHealthComponentParams Type="SHealthComponentParams">
-      <Health>68</Health>
+      <Health>519000</Health>
       <DamageCap>0</DamageCap>
       <DamageResistances Type="DamageResistance">
         <IgnoreMeleeDamage>False</IgnoreMeleeDamage>
         <PhysicalResistance Type="DamageResistanceEntry">
-          <Multiplier>1</Multiplier>
+          <Multiplier>0.6</Multiplier>
           <Threshold>0</Threshold>
           <DamageCap>0</DamageCap>
         </PhysicalResistance>
@@ -1379,8 +1379,8 @@
         <regenerationCooldown>0.381</regenerationCooldown>
         <regenerationCostPerBullet>135</regenerationCostPerBullet>
         <requestedAmmoLoad>13500</requestedAmmoLoad>
-        <maxAmmoLoad>30</maxAmmoLoad>
-        <maxRegenPerSec>7.04</maxRegenPerSec>
+        <maxAmmoLoad>90</maxAmmoLoad>
+        <maxRegenPerSec>2112</maxRegenPerSec>
       </weaponRegenConsumerParams>
       <fireOnAim>False</fireOnAim>
       <scopeZoomCurve Type="BezierCurve">
@@ -1489,7 +1489,7 @@
                     <thirdPerson Type="GlobalResourceParticle">
                       <path>2ed9e817-eef4-608d-4c8b-1974540b7ee2|Spaceships/Weapons_Templates/template_neutron.template_neutron.muzzleflash_3rd_s1</path>
                     </thirdPerson>
-                    <helper>muzzle_out</helper>
+                    <helper>barrel_01_out</helper>
                     <triggerTag />
                     <modifierSource>None</modifierSource>
                     <delay>0</delay>
@@ -1765,7 +1765,7 @@
         <Tags />
         <Geometry Type="SGeometryDataParams">
           <Geometry Type="GlobalResourceGeometry">
-            <path>Objects\Spaceships\Weapons\Max_Ox\NN13_Neutron\Max_Ox_NN13_Neutron_Large.cga</path>
+            <path>Objects/Spaceships/Weapons/MXOX/mxox_neu_can_s1-3/mxox_neu_can_s2_01_a.cga</path>
           </Geometry>
           <Material Type="GlobalResourceMaterial">
             <path />
@@ -2363,6 +2363,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

@@ -1,9 +1,15 @@
 <ObjectContainer sourceLevel="data/levels/!oc/pu/loc/mod/station/nyx/int/module/market">
  <Layers>
   <Layer fullname="overlay/levski/market_vblocker_001_levski_001" externalLayerLevelDir="data/levels/!oc/pu/loc/mod/station/nyx/int/module/market/Layers/" externalLayerParentDir="overlay/levski/" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/market/Layers/overlay/levski/market_vblocker_001_levski_001.lyr" ParentGUID="{D905FE04-0272-4B10-863E-E256CA57EBA8}" layerHash="3434835793">
-   <Layer name="brand" layerHash="618184296" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/market/Layers/overlay/levski/market_vblocker_001_levski_001/brand.lyr">
-    <Object name="lowtech_lightbox_1_grand_barther_a" type="Brush" guid="4d618166-a7d3-6332-4196-2f2eb2d5b2a7"/>
-    <Object name="vt_levski_sign_4x1_grand_barther_a" type="Brush" guid="49a93c49-4402-12e4-15a6-e9df8aa001af"/>
+   <Layer name="brand" layerHash="1294364079" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/market/Layers/overlay/levski/market_vblocker_001_levski_001/brand.lyr">
+    <Object name="lowtech_lightbox_1_16x9_d" type="Brush" guid="40e3bab6-7a1f-c35b-a446-57afb625eeab"/>
+    <Object name="rulesoflife_b" type="Group" guid="4698f747-77e1-8aac-a944-ae53bc60fe8a"/>
+    <Object name="palevski_brnd_poster_hrztl_a-002" type="Brush" guid="491116a8-faf0-65ad-933c-efacfbb4a88b"/>
+    <Object name="rulesoflife_a" type="Group" guid="4b6b9343-7906-c7c3-4cf4-da0f82a12190"/>
+    <Object name="Decal-117" type="Decal" guid="4a2470d3-d52a-2ddc-c9d5-ced1e5d6f8be"/>
+    <Object name="lowtech_lightbox_1_16x9_d-001" type="Brush" guid="4c9a8526-831a-f3dc-e4a0-2aa6ba599293"/>
+    <Object name="palevski_brnd_poster_hrztl_a-001" type="Brush" guid="48968d27-a32c-2ce6-2e6f-d60ec1bc6eb7"/>
+    <Object name="Decal-116" type="Decal" guid="40a99468-7d99-78e6-cdcb-47eebfc6d691"/>
    </Layer>
    <Layer name="decal" layerHash="305799321" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/market/Layers/overlay/levski/market_vblocker_001_levski_001/decal.lyr">
     <Object name="Decal006-1317" type="Decal" guid="4f989806-8238-560a-0987-d6116fdaf7a0"/>
@@ -25,235 +31,134 @@
     <Object name="RoomConnector-000" type="RoomConnector" guid="4e7faaf4-099d-d46a-98d2-d32539d4b9be" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
     <Object name="Generator_Purple_Room-002" type="Room" guid="4c6150a7-6a32-4185-c1a6-9fa666cf6fbb" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
    </Layer>
-   <Layer name="light" layerHash="1405056721" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/market/Layers/overlay/levski/market_vblocker_001_levski_001/light.lyr">
-    <Object name="Light-3359" type="Light" guid="43bd88f1-a375-b700-8b64-b2034af7d586" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-131847" type="Light" guid="4ceb3431-df0f-de01-7c05-7ab1fb6f3182" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="light_a_pole_001x02x001-026" type="Brush" guid="4d53acfc-1e9d-f001-5fbb-7c6f767e2d84"/>
+   <Layer name="light" layerHash="892000783" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/market/Layers/overlay/levski/market_vblocker_001_levski_001/light.lyr">
     <Object name="Light-24398" type="Light" guid="464ccc23-317c-4d02-5dea-e7ded560019e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light_Omni_Fill_Warm-245" type="Light" guid="4676c9ac-34b5-5303-f046-110392fde487" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="light_a_pole_001x02x001-030" type="Brush" guid="46f77d44-590a-fc03-18eb-d02413982289"/>
     <Object name="Light-24322" type="Light" guid="4f16c759-73bd-3304-16f8-d65c8c8601ab" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-3372" type="Light" guid="46b39fd9-efad-5305-a9ed-f30c0678a191" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24385" type="Light" guid="40c5412d-d82e-8808-4f43-d105e19aabbb" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24374" type="Light" guid="418a13c4-5fe9-2809-3cca-16ff10d9cb89" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="CeilingLight_small_cool" type="Brush" guid="4c979c81-fdcb-180a-efdd-8db92b45d7b9"/>
     <Object name="fan_08x01x08_a_addon_logo_a-009" type="Brush" guid="4e65e716-37e0-850a-6df8-72f7387a7b8c"/>
     <Object name="Light_Omni_Fill_Warm-244" type="Light" guid="49a8af63-c7af-9c0a-61ca-fcf115b6a196" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light_Omni_Fill_Warm-251" type="Light" guid="45ffb8c6-8176-820b-92e0-c991cfa0b6a3" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-    <Object name="cm_levski_generator_market_probe_a-002" type="EnvironmentLight" guid="4e5e7c7e-8054-160c-d370-5dd74b177bae" tags=""/>
     <Object name="light_warm_ceiling_b-001" type="Brush" guid="44e1e78c-f287-360c-bd6d-7ca90cab6dad"/>
     <Object name="Light-1144-LightLinkController-011" type="Light" guid="4685bbfa-b54b-860d-0aa7-78085b2b0b8f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="light_a_pole_001x02x001-028" type="Brush" guid="44a9ff98-0f5d-940e-f65f-9d4602d0d189"/>
-    <Object name="cm_levski_generator_side_probe_a-002" type="EnvironmentLight" guid="48f8f8ad-6a5b-b20f-cdd6-758b6140c19a" tags=""/>
     <Object name="Light-131845" type="Light" guid="42dd05b4-dc31-dd0f-063a-fc9b74d9208a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24295" type="Light" guid="4f6710ff-1c64-7610-de91-278deeb860ba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Group-228" type="Group" guid="467f2610-b319-3311-7ccb-341297aaca83"/>
-    <Object name="Light-24301" type="Light" guid="44a4f86b-9c85-3911-a650-19360227e68c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="cm_levski_generator_market_transition_probe_001" type="EnvironmentLight" guid="4cff1161-98ca-3414-3ea2-c6bf37b67fa8" tags=""/>
-    <Object name="Light-24319" type="Light" guid="44660daf-8ad4-4516-240d-9d460f448ab0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_cold_ceiling_b-061" type="Brush" guid="4119cefd-a972-b217-d0f8-599d767a5b99"/>
-    <Object name="Light-3353" type="Light" guid="4f74c0ba-72af-831b-0077-0ade3233ccb6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24297" type="Light" guid="4d086b61-bd16-f21c-d7e9-5a0bdae73280" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24312" type="Light" guid="4c3de231-2a2b-941d-620a-b18cf0e81fa7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_f-181" type="Brush" guid="424ade41-a4ad-8a1e-fe87-387061e24a8d"/>
-    <Object name="Light_Omni_Fill_Warm-233" type="Light" guid="41d50681-7b92-9b1e-d9e3-96d9b1162194" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24291" type="Light" guid="408b43a7-4524-6a1f-6a74-bb28e66791ba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24268" type="Light" guid="41f80f69-6f1d-4220-ba06-9c95186907b2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="WallLight_a_warm-000" type="Brush" guid="4a0f03c8-785a-e021-7e50-bec16dd1838a"/>
-    <Object name="light_f-182" type="Brush" guid="4d55f5b5-3a2e-6123-c484-4a4fa5c5e1b7"/>
-    <Object name="Light-3381" type="Light" guid="4dc9a707-6d44-8025-5233-6f3261bf2e8b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24266" type="Light" guid="47849db1-86b1-a725-a398-a48af1f9dab4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24413" type="Light" guid="4522e71f-9f95-6b26-4124-318e3dba788e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="light_f-184" type="Brush" guid="4d6a20af-6492-9b26-f7f1-ced12a4c2f88"/>
     <Object name="light02" type="Group" guid="483f4561-84c3-7b29-67cc-30b4ce415faf"/>
     <Object name="light_cold_ceiling_b-055" type="Brush" guid="46ae46b4-efe3-2f2a-303a-e9af5af19091"/>
     <Object name="light_warm_generic_b-198" type="Brush" guid="4a992eae-b653-f92a-bfb8-cbe3990eff96"/>
     <Object name="Light-24304" type="Light" guid="48764dab-4839-352c-e1e8-22fa9da536a9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24263" type="Light" guid="4f4d28a1-f414-f92c-6d3e-d2e2e2923998" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24326" type="Light" guid="453a1a65-d308-992d-2764-64d88469568b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-3367" type="Light" guid="4f69be60-7b4d-ad2d-89a0-2651ada8b2b3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-3365" type="Light" guid="4f24a3ee-ee72-b42f-e175-8686ab4550ba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-3356" type="Light" guid="43b59577-73aa-a630-bdb9-829876b1c381" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-3156" type="Light" guid="43e2f4b4-bef4-7b31-a18d-f663fb0f2f94" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24382" type="Light" guid="4b2586db-427c-0d32-21db-d8ab9f043d98" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24401" type="Light" guid="4a98d4da-7d3a-6733-ae7c-289b018454a2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-131221" type="Light" guid="42c7917a-5486-ba33-9c24-4a9ebd1abd81" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-132258" type="Light" guid="450cc177-b0a7-fb34-e283-8ce4c0af35b0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24335" type="Light" guid="459e5144-46b6-7937-15a7-7ddd8f4ee3be" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_warm_generic_b-201" type="Brush" guid="4ea2e7df-8fa6-4638-ea22-d9086947dd9a"/>
-    <Object name="Light-24308" type="Light" guid="42df9952-d944-6638-c295-759a7e381998" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="cm_levski_market_entrance_probe_a-002" type="EnvironmentLight" guid="4968773b-8303-6739-d90d-c8b8093787a5" tags=""/>
-    <Object name="Light-24298" type="Light" guid="45ccef66-d709-2b3a-1f69-91d85dbc6dac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-3351" type="Light" guid="49ce6fd2-78d7-353f-bba8-25fdef346895" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="BuildingSets_Lowtech_Bravo_Lighting.AccentLights.Wall_MiningLight.Wall_MiningLight_Warm-023" type="Prefab" guid="4050ae31-f6d1-4f41-832b-e5337c01a1bc"/>
-    <Object name="Light-24339" type="Light" guid="4bdd9ef4-a198-b541-bead-37f327fa86ac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="WallMount_Light_Large_Cool-194" type="Brush" guid="4e42b68f-5419-af3a-37d3-014e0157bb84"/>
     <Object name="Light-24396" type="Light" guid="4889557a-b554-2342-cad1-fd7e91e8aebb" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light_Omni_Fill_Warm-000" type="Light" guid="489cc90d-c24f-e643-a95f-b1f2cbef478f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24353" type="Light" guid="45acda15-24c6-3344-ee01-9379690c258c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24343" type="Light" guid="4929fa1e-3f02-fa44-f771-567d106c6a92" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="WallLight_a_warm-131" type="Brush" guid="45df53d9-aadc-e045-e45e-2afe67299cae"/>
-    <Object name="Light-24386" type="Light" guid="4c82f556-2d40-5f46-9d90-0ee6d9a24fac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24404" type="Light" guid="4aaa2651-96dc-1147-d507-c8f0a3469094" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24332" type="Light" guid="43885e3a-6e7c-cc49-fc7a-5e62deb622a1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="lightingstand" type="Group" guid="40fafda1-b2e1-444a-7b87-3bb12fb2ff89"/>
     <Object name="Light-1007-LightLinkController-024" type="Light" guid="4175c981-4289-5e4a-dfcb-d90cf3b370aa" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24305" type="Light" guid="4b6a605a-c9ad-4e4c-a24c-72710af29c90" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_warm_generic_b-194" type="Brush" guid="40336e61-b668-834c-14d5-fe6dbcc83391"/>
     <Object name="Light-3371" type="Light" guid="4ad8babb-719e-504d-beff-f5feda2aaa8c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_lev_int_view_32x56x24_ceil_fog_009" type="Light" guid="4a686173-9dec-cd4d-cc91-9074033f3896" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light004" type="Group" guid="47dd2378-2889-d84d-b353-714b88b8319c"/>
-    <Object name="Light-24329" type="Light" guid="4db04d13-926e-2053-3765-78789a559b93" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-132199" type="Light" guid="4c4c4f18-b587-3d53-808a-06ff5d4b46a4" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-    <Object name="Light-131797" type="Light" guid="4fddf2f2-dd84-4053-db19-260cbd66bfad" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_lev_int_view_32x56x24_ceil_fog_012" type="Light" guid="4a7f0ea9-2b82-7150-43ba-7b9c14df28ad" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-131799" type="Light" guid="4656b614-b508-7653-23af-c1d7c0adf8b8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_cold_ceiling_b-065" type="Brush" guid="4a720315-c944-f355-ddbe-24e2d3db70bc"/>
     <Object name="Light-24393" type="Light" guid="46d05977-b601-e256-54f6-475a83f3ff81" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_f_lamp-331" type="Brush" guid="42380753-5545-1458-d73c-8dfbdca772a6"/>
     <Object name="WallLight_a_warm-129" type="Brush" guid="4c40fe05-e488-0059-265c-590de99501a7"/>
-    <Object name="Light-131801" type="Light" guid="4c3d774d-333a-9f5e-d7cc-354cf905b4ac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light_Omni_Fill_Warm-250" type="Light" guid="40c2456c-a793-045f-a81d-715044d69aab" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_lev_int_view_32x56x24_ceil_fill_007" type="Light" guid="4482d948-681c-3759-41c2-a50eaf75bab6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_lev_int_view_32x56x24_ceil_fog_011" type="Light" guid="45fae67e-662a-975a-e997-25049668feb1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_lev_int_view_32x56x24_ceil_fog_010" type="Light" guid="45be9dcd-e0ba-605b-ad76-4735eef865b5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24303" type="Light" guid="4f969641-c8e4-fb5f-db52-a260c4f11f9f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-3375" type="Light" guid="4616f334-0144-5061-49f1-7cc28cfeb0aa" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-3379" type="Light" guid="45401132-4399-0863-d1a2-e03103ce588d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="BuildingSets_Lowtech_Bravo_Lighting.AccentLights.Wall_MiningLight.Wall_MiningLight_Warm-020" type="Prefab" guid="49a5228a-678e-1063-2899-b26b93254495"/>
     <Object name="Light-lbtopgate-023" type="Light" guid="4e6453aa-e457-6263-3c77-1f69899ee481" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-3378" type="Light" guid="45d2f967-f170-5367-fade-2d82fdeb84b9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24365" type="Light" guid="4d50ab79-6347-9867-ba87-7d57e5eed2a5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-3384" type="Light" guid="4f3c1c6f-e0c2-6769-7161-c714080335a1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24384" type="Light" guid="4bd6d516-5a3a-2c6a-3f24-0668fcaaf7af" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24300" type="Light" guid="4f779964-5dfd-a66a-b7ef-c3585445d69a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light006" type="Group" guid="4884b916-f40f-216b-baa0-95aa87d29ab9"/>
-    <Object name="Light-131798" type="Light" guid="46c858a9-1ef2-376e-0eec-9e7b8c45b991" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24289" type="Light" guid="4f47a169-0fef-836f-3b4b-d2d603197aa6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24325" type="Light" guid="45c4ac1d-f953-bc70-5e0d-c3e5f393c694" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="light_a-213" type="Brush" guid="466f3baa-cfc1-d872-d84b-90960d6174b8"/>
     <Object name="Group-231" type="Group" guid="4397f186-c41a-f072-fd50-dd32772191b3"/>
     <Object name="Light-3366" type="Light" guid="4e0bfc30-fa17-f872-2cc9-a26f2223ae90" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-131222" type="Light" guid="4990d246-1fc0-fa73-2e79-d8ead90724a1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="WallLight_a_warm-130" type="Brush" guid="4722681e-c6d9-cf74-2b26-052c75314392"/>
     <Object name="seat_chair_1_a-015" type="Brush" guid="4d5364e8-fd74-0675-f234-95b531c7149a"/>
-    <Object name="Light-3350" type="Light" guid="4d464cbc-070f-1f75-19f8-dd795367ef96" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_a-008" type="Brush" guid="43838b23-56be-4575-3eb1-041c35583eaa"/>
-    <Object name="Light-3553" type="Light" guid="4527f827-67fb-9876-d2e9-9e59da6999bc" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="light_a_pole_001x02x001-027" type="Brush" guid="4ec2e854-24e6-b176-1361-099fd9ca17aa"/>
+    <Object name="WallMount_Light_Large_Cool-192" type="Brush" guid="484dbefd-747a-8275-e6c5-2a6fde69c2a5"/>
     <Object name="light_f_lamp-338" type="Brush" guid="48c48a79-924b-7378-e697-609928408db6"/>
-    <Object name="Light-24363" type="Light" guid="4040dd29-4b44-9b7a-8479-f2599c843392" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24397" type="Light" guid="477403bf-818d-a47b-3e1f-1be9b3813ea0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24336" type="Light" guid="49daa211-5098-d67b-ac5a-c0a6ab901689" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-3373" type="Light" guid="42864482-3d75-a07e-1e2c-50038d4268b5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="fv_levski_generator_fv_010" type="FogVolume" guid="4d3378e6-ed79-9b7f-43a2-cea5ea196ebc" tags=""/>
     <Object name="light_f_lamp-339" type="Brush" guid="4e803411-1c5f-1180-7200-e08dce0dee85"/>
     <Object name="light_cold_floor_c-001" type="Brush" guid="484f63bf-2637-3281-51cd-802493f58995"/>
     <Object name="Light-3370" type="Light" guid="413dd637-e162-0c82-4dc0-703e467e94a4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_warm_generic_b-202" type="Brush" guid="4cb95959-1722-bc83-8f9a-24a727b7a5a8"/>
     <Object name="light_f-196" type="Brush" guid="4547e48f-57dc-f883-8a0c-df6a8ee8ce8e"/>
-    <Object name="Light-131851" type="Light" guid="47f040cf-9608-d184-ba9f-560b1e0ee4b3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-3559" type="Light" guid="4ccc3459-6123-7289-40e2-3c19655d2a9a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Group-232" type="Group" guid="4a9fd03a-7204-2c8a-1273-9af787595d9f"/>
-    <Object name="Light-24299" type="Light" guid="4bf1d6ad-2673-208d-9bf9-9c9c15f22a93" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24391" type="Light" guid="4ce04ad9-aae8-768e-6842-c5ce7d8d538b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light_Omni_Fill_Warm-254" type="Light" guid="4990a4ee-3f59-b88e-e3fe-e8489cf5029f" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+    <Object name="lt_lev_int_view_32x56x24_ceil_fill_008" type="Light" guid="40ce86a4-b94a-5f8f-71b4-160ffa2b54a5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_warm_generic_b-195" type="Brush" guid="4d2919b7-8e56-658f-3416-0d847337c989"/>
     <Object name="Light-3386" type="Light" guid="4c438fe6-a69e-3990-5342-1ff96c3d1da1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Prefab115-022" type="Prefab" guid="4c321b6e-ecf2-f591-006f-a91ad45d26bc"/>
-    <Object name="light_f-197" type="Brush" guid="41ba873f-fa9a-a692-36be-a59cfc1d7489"/>
     <Object name="Light-24409" type="Light" guid="4549774a-bb74-ad92-971e-22ec5fd02295" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Group-230" type="Group" guid="436072d6-0cda-9594-5985-7f3d13b95c8b"/>
-    <Object name="Light-24355" type="Light" guid="4d8f090a-b69f-8995-bc1e-5e307a0c39bc" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24321" type="Light" guid="45a71429-e2e6-2d96-9484-0c954796cfb5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="light_f-198" type="Brush" guid="4dc194c6-0298-6396-dab2-9645478dd691"/>
-    <Object name="Light-24341" type="Light" guid="4499134e-de90-a796-ab5f-64da97fd51a9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="levski_hosp_light_magnetic_warm_1_a-012" type="Brush" guid="41512e00-05d7-f897-695a-be73ccec318f"/>
+    <Object name="WallMount_Light_Large_Cool-193" type="Brush" guid="4a520557-bc2d-f997-0981-2cdab583b597"/>
     <Object name="light_cold_ceiling_b-063" type="Brush" guid="4efcb2d6-3f34-399b-a7ed-401f5f85b79f"/>
-    <Object name="Light-24267" type="Light" guid="4fe18402-46d5-009d-61a9-7d138341959e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-3361" type="Light" guid="4a2d9fdf-ac5c-169d-e309-84ce8318c0b1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24361" type="Light" guid="44595aad-7ef4-aa9d-552d-30f8cfc9a7a1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-3364" type="Light" guid="42dd820c-0b35-d19f-f7a2-75e16b115eac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Group-229" type="Group" guid="48cfeec2-1e4b-50a0-b9bd-57fd3e3eb79a"/>
-    <Object name="Light-3354" type="Light" guid="4e21879c-e7e5-b4a2-2128-b6255472bba5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-3352" type="Light" guid="4738fbef-aa17-daa2-2bca-8ef52d8ed2ba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24265" type="Light" guid="40e8e52e-6888-8ca3-5977-710914255bbc" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24287" type="Light" guid="44f97f95-0ae2-14a4-0219-61983ab85ebf" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_f-220" type="Brush" guid="45b4c8ce-82a2-f1a4-dbaf-b9d3814a95b6"/>
     <Object name="light003" type="Group" guid="49b59c1a-fdd0-0fa6-2ce3-ea82ff975bb7"/>
     <Object name="WallLight_a_warm-126" type="Brush" guid="4ee34059-5b1c-30a6-6602-58c34c933eb9"/>
     <Object name="light_cold_ceiling_b-058" type="Brush" guid="49bfdba7-02cb-b5a6-c6d9-66b10b7c099a"/>
-    <Object name="Light-3349" type="Light" guid="444e348c-f3a2-c5a6-4517-99c70a42ae94" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="cm_levski_generator_lobby_probe_a-002" type="EnvironmentLight" guid="4c2906f5-22b1-14a9-1077-1a24f314dbbb" tags=""/>
-    <Object name="Light-3385" type="Light" guid="42b2bb09-4ecd-41a9-297a-ff86aaab1ba8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-3348" type="Light" guid="4a9e8244-b617-68ab-5c6c-786d2e2712a3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24337" type="Light" guid="4d140683-b380-ddab-e431-5091f7875cb7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24264" type="Light" guid="4592fb03-33db-0bac-1850-f693ef4a6891" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24316" type="Light" guid="45d1c679-f7e5-0fae-6bc3-1de9e32c34bc" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Steam_LINGER.steam_linger_16m_loop_1_gpu_decoupled-022" type="ParticleEffect" guid="43aff13e-c4fd-1cae-3b26-b985cc94daa2" tags=""/>
-    <Object name="Light-24333" type="Light" guid="4cbbf7c0-4793-ccae-9137-9ef426966683" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="fv_levski_generator_fv_012" type="FogVolume" guid="462fd17b-66ec-c9b1-2cdf-e70920529e8a" tags=""/>
     <Object name="Light-24311" type="Light" guid="44d55f91-ca2f-ddb3-a2e3-c525ae7b768a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-3549" type="Light" guid="46a7043c-5d14-87b5-4815-4757bfea69a6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light005" type="Group" guid="445dd7f9-b8b0-3fb6-c884-87eff0fbf791"/>
-    <Object name="fv_levski_generator_fv_009" type="FogVolume" guid="4eaad2b5-b4a1-68ba-249d-3cb7c90c4e85" tags=""/>
-    <Object name="Light-3161" type="Light" guid="4213b46b-6748-24bb-030c-b533ab7326a3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24389" type="Light" guid="430a795f-6467-92bb-b2e9-de8383ec5891" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_warm_generic_b-200" type="Brush" guid="40bf8374-e2a8-52bc-e6d9-74ead47caa86"/>
     <Object name="light_f-209" type="Brush" guid="4d473350-c617-a9be-51c3-8f9c54e1328d"/>
     <Object name="Light-24331" type="Light" guid="4d74b379-3c81-7fbf-db22-97ae07f643a6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-3376" type="Light" guid="48f57447-462a-a6c0-0377-c3c88779a699" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24345" type="Light" guid="4c04ed6c-cb6e-c1c0-c091-43a48ac2c09c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24269" type="Light" guid="4e698ce3-9dd9-b2c2-4a75-ee30c35fa5b8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="light_a-218" type="Brush" guid="456eeb17-7fb6-c9c6-a3d9-c5f3ba12d9b9"/>
-    <Object name="Light-24288" type="Light" guid="46d081f5-9aed-b8c9-40ed-c64d40b8ea84" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="grandbarter-001" type="Group" guid="4aa0bcf9-27d5-07c0-5790-3246f25e9a8a"/>
     <Object name="Light_Omni_Fill_Warm-001" type="Light" guid="47afa087-d5ff-e9c9-b62a-ef16d3dcada5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24349" type="Light" guid="4c048d4b-c83d-89ca-be06-8b864d8504af" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24320" type="Light" guid="46a553fd-2487-40cb-ae34-c96e0b53cca9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-3173" type="Light" guid="4f1cb2a4-1a8e-44cb-a48b-c9f20b38ddaf" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-131796" type="Light" guid="4ba962b2-cad4-c2cc-523b-4be4793c5f94" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-131802" type="Light" guid="4afd9560-22c1-f7cd-c50f-d986de0bd795" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24315" type="Light" guid="4a308440-5930-10cf-a325-e5fea45fb68f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-3363" type="Light" guid="4e8d7303-38d2-d9d1-252f-5ee94ba6d5b7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24373" type="Light" guid="481f7a67-759c-f6d1-42a0-4a1afe5549b5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24338" type="Light" guid="4e0f6259-0a75-42d3-abc9-aa10b37894a6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_a_pole_001x02x001-029" type="Brush" guid="48c61687-00c8-73d5-68f9-325f3019eabf"/>
-    <Object name="Light-24364" type="Light" guid="436e90f2-9ae2-7ad5-b02c-320f40c4a9ab" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_warm_generic_b-196" type="Brush" guid="498758fb-3711-8bd5-3e8c-c99479f43196"/>
-    <Object name="Light-3380" type="Light" guid="44c27d84-c11b-b1d6-378a-60cc41e3e4b6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="light_cold_ceiling_b-062" type="Brush" guid="43956c66-b165-b2d6-e93c-7f39269bfe8e"/>
     <Object name="light_f_lamp-354" type="Brush" guid="4f3dc75a-2c06-01d7-a638-52d34604c49c"/>
     <Object name="Light-24262" type="Light" guid="468e3fe0-a724-7fd7-4ae2-a6ece6608d8f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-131800" type="Light" guid="42a26d2b-fd3d-c9d8-da88-2f960ca1de86" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24327" type="Light" guid="40620328-8fab-c8d9-51dc-22c63ed6e9a8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="light_f-213" type="Brush" guid="4aee3cac-f2c7-44da-3309-34a746fa0081"/>
+    <Object name="WallMount_Light_Large_Cool-195" type="Brush" guid="4e509b11-ce77-1ada-664a-d262086192a9"/>
     <Object name="Light-24411" type="Light" guid="407b81a7-04f6-40db-49d1-4ccb52b32081" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light_Omni_Fill_Warm-252" type="Light" guid="4f05b98b-5508-6edb-edc8-dfafd24ba299" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="light_warm_generic_b-199" type="Brush" guid="47de93ff-5e4d-60de-a0b6-2c493bcb8287"/>
     <Object name="Light-131220" type="Light" guid="4fc32b07-2ccb-fade-26bf-97bb1a7a59a8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="light_f-215" type="Brush" guid="4c88134a-24e1-40df-d8f8-23259ee1eca0"/>
-    <Object name="Light-3377" type="Light" guid="45811f72-e34d-f6e1-8f9e-f1de1ef5e5a7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="cm_levski_generator_side_probe_b-002" type="EnvironmentLight" guid="4ec9bf1d-47e1-29e2-0751-870b6e050680" tags=""/>
-    <Object name="Light-24283" type="Light" guid="4f087def-84e8-53e2-4afb-a9bbbbf7e3b7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24403" type="Light" guid="47f2791f-e32c-05e4-1ce4-809815e25ea2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_lev_int_view_32x56x24_ceil_fill_009" type="Light" guid="44a8db8e-0dc7-33e2-3d93-db8b153009bc" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-3383" type="Light" guid="467aefb4-f6f3-88e5-d426-21d7fae2ff85" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-3157" type="Light" guid="4cd762b9-e41c-9ee9-7831-66386818c0aa" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24405" type="Light" guid="4ff34abc-8f7a-ebe9-4189-775cf92598ad" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24367" type="Light" guid="433685e4-33a1-6ceb-b3d2-a984048b9b82" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24370" type="Light" guid="4d5a2d21-29cc-7eeb-80cc-c536c262cf83" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-3159" type="Light" guid="411459bc-6b5d-55ed-15b7-ec6844cc6396" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24376" type="Light" guid="4e58411b-fcc6-68ef-d4b9-64da3ba461a9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24302" type="Light" guid="49d71f80-648c-3af1-31e2-b2b0a4242f8b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light_Omni_Fill_Warm-253" type="Light" guid="4ddb52ef-a136-12f4-2a3c-f0605cd7e6a6" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="fv_levski_generator_fv_011" type="FogVolume" guid="4037985c-3ee7-22f6-b028-dde1d245b48a" tags=""/>
-    <Object name="Light-551" type="Light" guid="4aeb6692-a8d3-9cf6-d9d8-5f22e52dbf82" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_cold_ceiling_broken_a" type="Brush" guid="4c487528-b625-a3f6-aaaa-23a0a744f397"/>
-    <Object name="Light-24342" type="Light" guid="4215bbdd-171c-09f7-2369-1eda70f457b7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24344" type="Light" guid="4e06dcc4-041d-adf7-ac3b-650706b8739a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-3155" type="Light" guid="46c84126-daef-b1f7-57b0-8bc1b4bae1ad" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-24369" type="Light" guid="4d9cfd7a-7cb3-52fa-7856-0cf6685e8ab9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_warm_generic_a-001" type="Brush" guid="4340ce08-110a-2cfb-2c75-19f12a5aa691"/>
-    <Object name="Light-24378" type="Light" guid="44c9c1c0-baf2-cefd-5ef9-9ea4e446f0a7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-24284" type="Light" guid="429d37b8-b9e8-e3fd-45e1-782b816775ad" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="light_warm_generic_b-197" type="Brush" guid="4f3b3f74-5df9-2afe-c8eb-8b6ace9370a8"/>
     <Object name="light_cold_ceiling_b-060" type="Brush" guid="4450e217-4302-85fe-d16f-cc50862df892"/>
     <Object name="light_cold_ceiling_b-064" type="Brush" guid="49874ed0-5897-bdfe-d173-e907dd803587"/>
     <Object name="Light-24406" type="Light" guid="485c4f8c-8d79-c5ff-05e4-7a32f17ddaac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
    </Layer>
-   <Layer name="prop" layerHash="2366022486" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/market/Layers/overlay/levski/market_vblocker_001_levski_001/prop.lyr">
+   <Layer name="prop" layerHash="4225245756" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/market/Layers/overlay/levski/market_vblocker_001_levski_001/prop.lyr">
     <Layer name="cable" layerHash="1316616078" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/market/Layers/overlay/levski/market_vblocker_001_levski_001/prop/cable.lyr">
      <Object name="cable_hanging_f-004" type="Brush" guid="4d19b40d-334f-8709-f43d-5f949b6e7a96"/>
      <Object name="cable_hanging_f-005" type="Brush" guid="4ed8d2a8-b165-0a13-d7f6-b879905b289e"/>
@@ -495,7 +400,7 @@
     <Object name="cable_straight_box_a-325" type="Brush" guid="41e791fc-3900-5b12-cf2e-b5aba2094dba"/>
     <Object name="cable_straight_box_a-326" type="Brush" guid="481ed037-9adf-9112-98f3-7956a0ccdd8f"/>
     <Object name="Light-lbtopgate-282" type="Light" guid="41a49979-0c11-8d15-085f-66c631c75db0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="shanty_fence_01x01x03_a-946" type="Brush" guid="4802138c-a4ed-191a-c5dd-2dbc86f86dbd"/>
+    <Object name="cable_straight_box_a-420" type="Brush" guid="4f06eaca-dd40-b717-2baf-6a4cee394e97"/>
     <Object name="grate_door_a-002" type="Brush" guid="40c3e827-ee84-ad1c-9cb7-d63339f53da0"/>
     <Object name="cable_straight_box_a-283" type="Brush" guid="4fa22a95-4854-0921-63f9-36ce2b5909a7"/>
     <Object name="cable_straight_box_a-318" type="Brush" guid="46b9b636-e3d8-a325-3d4f-421ba972d4a8"/>
@@ -510,7 +415,6 @@
     <Object name="floor_area_straight_08x08x01_a-3434" type="Brush" guid="4608a824-b46f-6239-f2d5-39442391a894"/>
     <Object name="bracket-002" type="Group" guid="4d50c479-7d2f-3b3c-1dc1-015da8c38d84"/>
     <Object name="cable_straight_04x01x02_c-004" type="Brush" guid="4cf43401-20e5-d33e-4592-4141d57cb0be"/>
-    <Object name="roomlg_addon_tarp_d-021" type="Brush" guid="48c20cde-cd5d-9b41-3192-5a251b87bab3"/>
     <Object name="crate_dry_1_0125x0125x0125_a-006" type="Brush" guid="4f4f17f1-30e7-3542-c8b0-33e8636798b3"/>
     <Object name="grate_door_a-003" type="Brush" guid="4da7b614-4370-ec46-3ccd-38ae0a9535bb"/>
     <Object name="cable_straight_box_a-337" type="Brush" guid="4cfee99f-b4a8-454d-d03a-9fe514441b8c"/>
@@ -518,7 +422,10 @@
     <Object name="cable_straight_box_a-355" type="Brush" guid="4286fdca-43e2-744f-1da3-6e1c15127ab5"/>
     <Object name="floor_area_straight_08x08x01_a-3129" type="Brush" guid="4163041f-4fae-fa51-7b08-bc5d648b0d81"/>
     <Object name="grate_celing_4x4_a-150" type="Brush" guid="45d44964-fe0c-f054-949a-f6584f425fa4"/>
-    <Object name="seat_chair_1_a-097" type="Brush" guid="4f0c4594-4f8b-5456-84b9-85cf065d1395"/>
+    <Object name="palevski_brnd_panel_sign_a-002" type="Brush" guid="481580c3-195d-b458-85cc-a005edf97ea8"/>
+    <Object name="Light-5069" type="Light" guid="407f6cf2-a555-0e5a-a9a3-91ec5125c089" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="roomlg_addon_fan_a-060" type="Brush" guid="4485398c-36eb-b45f-02d7-e4cf3a8c4391"/>
+    <Object name="Light-5070" type="Light" guid="40bd6e85-b914-4d60-803c-0dbc9dac7892" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="cable_straight_box_a-335" type="Brush" guid="424187cb-918a-4361-6688-69d8cf160f9f"/>
     <Object name="cable_straight_box_a-294" type="Brush" guid="4fb45320-c14e-fb61-bab7-748a81675181"/>
     <Object name="grate_door_a-005" type="Brush" guid="4002a2e2-4cbb-d062-e183-31862c2fd487"/>
@@ -527,13 +434,15 @@
     <Object name="walkway_folded_a-017" type="Brush" guid="4a6ac778-c2ee-b767-87ce-b68fa26b6ab4"/>
     <Object name="walkway_addon_railing_tape_a-022" type="Brush" guid="449f45fb-3e75-b46a-7507-f880774328ac"/>
     <Object name="shanty_fence_01x01x03_a-990" type="Brush" guid="4ff3ff00-3ac0-546e-8a59-d4024a264ca5"/>
+    <Object name="Decal-115" type="Decal" guid="4c7c33b1-5b82-a66f-d4ae-f09c6ad63fbd"/>
     <Object name="bracket-001" type="Group" guid="4783a752-24c9-4372-2524-6ac62f986aa6"/>
     <Object name="cable_straight_box_a-338" type="Brush" guid="45c893ae-2356-a473-602a-b08c68f13d94"/>
     <Object name="cable_hanging_h" type="Brush" guid="478dfd7a-2f3c-5278-0acf-d0bc3bcb56ba"/>
+    <Object name="cable_straight_box_a-415" type="Brush" guid="405fb780-185c-9e78-5ca3-0301baa3709c"/>
+    <Object name="floor_area_straight_08x08x01_a-2896" type="Brush" guid="46648787-d760-a878-930b-78741bf8c190"/>
     <Object name="cable_straight_box_a-354" type="Brush" guid="4a4b2b42-a55a-2e7e-624d-cb93c06d1b8d"/>
     <Object name="cable_straight_box_a-299" type="Brush" guid="4bc602d3-db7d-cc82-6570-15c81cb4d6b9"/>
     <Object name="cable_straight_box_a-317" type="Brush" guid="46bd439b-3486-2083-cafa-c523d86bddaa"/>
-    <Object name="panneau_grillage" type="Group" guid="41668fdf-d230-4083-c806-30833d1e7db9"/>
     <Object name="cable_straight_04x01x02_c-003" type="Brush" guid="4a63e6be-21e9-2584-6033-5f1966a0af98"/>
     <Object name="bracket" type="Group" guid="4a58f98d-efe9-c489-9cb1-1b24260a40ab"/>
     <Object name="light_a_pole_001x02x001-035" type="Brush" guid="4de7b763-5565-a792-fcf0-980cff9691be"/>
@@ -551,6 +460,7 @@
     <Object name="walkway_addon_railing_cable_e" type="Brush" guid="42947b0e-32da-4bae-6061-12e40ba303ad"/>
     <Object name="barrier_caution_005x005x0125_a-034" type="Brush" guid="45db71f2-d25f-0fb3-7584-c9bd5c3f63ac"/>
     <Object name="grate_door_a-004" type="Brush" guid="47389bcf-0fea-eeb5-3287-c93d6667d0be"/>
+    <Object name="Decal-114" type="Decal" guid="47aae08d-0189-6ab6-5ef6-0aa04e56a3a4"/>
     <Object name="cable_straight_box_a-357" type="Brush" guid="4e06fd87-b0a2-9db7-d8c7-fcf60abc50ae"/>
     <Object name="Light-640" type="Light" guid="43a94afa-0dd2-c2b7-04da-edb0a2a88aa7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="cable_straight_box_a-308" type="Brush" guid="48077429-2490-9dba-2a63-552fb8abb8ba"/>
@@ -565,6 +475,7 @@
     <Object name="cable_straight_box_a-310" type="Brush" guid="4ec80cf1-5ae3-9fda-9197-e1ab7b5fc0be"/>
     <Object name="cable_straight_box_a-365" type="Brush" guid="422d4e8c-f550-0edd-2b16-8eb185f5a682"/>
     <Object name="cable_straight_04x01x02_c-002" type="Brush" guid="454a1aea-2d96-01df-db24-4e463f4068b7"/>
+    <Object name="roomlg_addon_fan_a-096" type="Brush" guid="4f529a95-6855-a4df-0d3c-cb375941cdb2"/>
     <Object name="walkway_addon_railing_panel_a-028" type="Brush" guid="47a1b11e-071f-c7e4-2116-96b47b962aad"/>
     <Object name="cable_straight_box_a-348" type="Brush" guid="4ab95026-52cd-89e5-81e7-80939eb88daf"/>
     <Object name="floor_area_straight_08x08x01_a-3448" type="Brush" guid="4566e47c-f4d1-dee5-864c-7866714bb697"/>

@@ -1,4 +1,4 @@
-<ObjectContainer version="11" name="hangar_lrgfront_001" tags="" type="" editorBuildChangelist="10562704" entityCountPLA="0" entityCountALE="0" entityCountStatic="335" entityCountDynamic="6" entityCountUnique="0" minBounds="-100.6868192039837,-233.63200502988184,-73.904285904136486" maxBounds="80.000000215542912,7.8390278904116713,87.999496851814911" radius="487.89661" crcSOC="977357939">
+<ObjectContainer version="11" name="hangar_lrgfront_001" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="335" entityCountDynamic="6" entityCountUnique="0" minBounds="-100.6868192039837,-233.63200502988184,-73.904285904136486" maxBounds="80.000000215542912,7.8390278904116713,87.999496851814911" radius="487.89661" crcSOC="997174148">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
@@ -18,11 +18,11 @@
    <Tag TagId="afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
    <Tag TagId="60cc8ca1-8927-4e92-af99-9cd367e0595c"/>
    <Tag TagId="5b803369-07d1-470f-996a-9372ca50e617"/>
+   <Tag TagId="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3"/>
    <Tag TagId="0e515dc0-2cd7-4b2e-8578-f14a234f5eed"/>
    <Tag TagId="da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
    <Tag TagId="65c060b9-cf53-4706-93e7-9184a27cc9c1"/>
    <Tag TagId="75d84438-295e-409a-8a0f-9a530cc14218"/>
-   <Tag TagId="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3"/>
    <Tag TagId="5caff6ec-c71b-4e1c-b939-83263471611d"/>
    <Tag TagId="fb1b0b03-f91f-4b1a-8683-17a8e6b10296"/>
    <Tag TagId="a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
@@ -59,7 +59,7 @@
   <Child external="1" name="Data/objectcontainers/setup/elevator_setup/elev_hightech/elev_ht_dropoff.socpak" entityName="ObjectContainer-015" label="Prefab126_Prefab012-015_ObjectContainer-015_{F77326B3-07AC-45AF-9E6B-EE784226913E}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7" guid="45af07ac-f773-26b3-3e91-264278ee6b9e" pos="-63.64582390896976,-174.74998286121991,0.037456949707120657" rot="-0.70710737,-5.1451758e-07,-1.037027e-06,0.70710617"/>
   <Child external="1" name="Data/objectcontainers/setup/elevator_setup/playerhangar/playerhangar_elev_hangar_ht_gateway.socpak" entityName="playerhangar_elev_hangar_ht_gateway-030" label="Prefab002_Prefab002-007_playerhangar_elev_hangar_ht_gateway-030_{A12036E7-7F5E-4D6B-93A3-3149F08CF1DD}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7" guid="4d6b7f5e-a120-36e7-ddf1-8cf04931a393" pos="20.999904810509179,-201.75001815741416,1.4345045201480389e-05" rot="-0.70710677,2.7755576e-17,-5.5511151e-17,-0.70710677"/>
  </ChildObjectContainers>
- <Health EntityCount="230" OC_Count="2" StreamingRadius="1002.8909"/>
+ <Health EntityCount="228" OC_Count="0" StreamingRadius="1002.8909"/>
  <StreamingOCs>
   <OC name="hangar_lrgfront_001.soc" tags="" staticEntityCount="335" guid="409d396a-0a84-0825-6e9a-41616d6a338f" radius="487.89661"/>
  </StreamingOCs>

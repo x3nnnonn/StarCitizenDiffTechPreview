@@ -1308,8 +1308,8 @@
         <regenerationCooldown>0.882</regenerationCooldown>
         <regenerationCostPerBullet>109.1</regenerationCostPerBullet>
         <requestedAmmoLoad>40912</requestedAmmoLoad>
-        <maxAmmoLoad>47</maxAmmoLoad>
-        <maxRegenPerSec>6.3</maxRegenPerSec>
+        <maxAmmoLoad>141</maxAmmoLoad>
+        <maxRegenPerSec>189</maxRegenPerSec>
       </weaponRegenConsumerParams>
       <fireOnAim>False</fireOnAim>
       <scopeZoomCurve Type="BezierCurve">
@@ -2466,6 +2466,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

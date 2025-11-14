@@ -292,7 +292,7 @@
               <EnableDecalProjection>False</EnableDecalProjection>
               <BBoxJoint />
               <BBoxRadius>0</BBoxRadius>
-              <Wear>0</Wear>
+              <Wear>0.25</Wear>
               <Dirt>0</Dirt>
               <Interference>0</Interference>
               <Damage>0</Damage>
@@ -379,7 +379,7 @@
               <EnableDecalProjection>False</EnableDecalProjection>
               <BBoxJoint />
               <BBoxRadius>0</BBoxRadius>
-              <Wear>0</Wear>
+              <Wear>0.25</Wear>
               <Dirt>0</Dirt>
               <Interference>0</Interference>
               <Damage>0</Damage>
@@ -952,6 +952,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

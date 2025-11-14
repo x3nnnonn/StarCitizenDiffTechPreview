@@ -206,7 +206,7 @@
           <bindingsMethod>None</bindingsMethod>
           <DefaultState PointsTo="ptr:1" />
           <asopReset>False</asopReset>
-          <networkAuthority>Server</networkAuthority>
+          <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="6">
             <SInteractionState Pointer="ptr:1" Type="SInteractionState">
               <StateName>Override Disabled</StateName>

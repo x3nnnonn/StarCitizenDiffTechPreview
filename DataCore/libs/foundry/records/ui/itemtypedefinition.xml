@@ -54,7 +54,7 @@
       <name>@dfm_ui_Module_Title</name>
     </ItemTypeCategory>
   </categories>
-  <typeInfo Type="ItemTypeInfo" Count="188">
+  <typeInfo Type="ItemTypeInfo" Count="189">
     <ItemTypeInfo Type="ItemTypeInfo">
       <typeName>@LOC_PLACEHOLDER</typeName>
       <showInPlayerAssetManager>False</showInPlayerAssetManager>
@@ -330,6 +330,15 @@
       <showInPlayerAssetManager>True</showInPlayerAssetManager>
       <categoryMap Type="ItemTypeCategoryMap">
         <defaultCategory PointsTo="ptr:7" />
+        <exceptions Type="ItemTypeCategoryException" Count="0" />
+        <showInElectronicAccess>False</showInElectronicAccess>
+      </categoryMap>
+    </ItemTypeInfo>
+    <ItemTypeInfo Type="ItemTypeInfo">
+      <typeName>@LOC_PLACEHOLDER</typeName>
+      <showInPlayerAssetManager>False</showInPlayerAssetManager>
+      <categoryMap Type="ItemTypeCategoryMap">
+        <defaultCategory />
         <exceptions Type="ItemTypeCategoryException" Count="0" />
         <showInElectronicAccess>False</showInElectronicAccess>
       </categoryMap>

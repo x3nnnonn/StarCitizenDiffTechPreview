@@ -1,13 +1,12 @@
-<ObjectContainer version="11" name="ht_a_surfaceentrance_a_int" tags="" type="" editorBuildChangelist="10562704" entityCountPLA="0" entityCountALE="0" entityCountStatic="155" entityCountDynamic="4" entityCountUnique="0" minBounds="-38.776839843019843,-64.5,-3" maxBounds="141.25,2.0028319226798956,15.000520000000002" gridRadius="38.791931" radius="168.71613" crcSOC="1734844012">
+<ObjectContainer version="11" name="ht_a_surfaceentrance_a_int" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="155" entityCountDynamic="4" entityCountUnique="0" minBounds="-38.776839843019843,-64.5,-3" maxBounds="141.25,2.0028319226798956,15.000520000000002" gridRadius="38.791931" radius="168.71613" crcSOC="3386145205">
  <StaticEntityTags>
   <Tags>
-   <Tag TagId="3bf3635a-1bdc-4190-843c-60f251b7a2bd"/>
-   <Tag TagId="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
    <Tag TagId="00ead468-9073-485b-a6df-ca6b94053603"/>
    <Tag TagId="a7c06cc7-a715-43b3-93b6-486483f26d18"/>
    <Tag TagId="202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
    <Tag TagId="612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
    <Tag TagId="1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+   <Tag TagId="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
    <Tag TagId="da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
    <Tag TagId="afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
    <Tag TagId="29d0789d-a8f4-4abb-8185-689df8db5a42"/>
@@ -23,6 +22,7 @@
    <Tag TagId="7a7c7a33-383d-4b9c-803c-4e2eb6bb7a51"/>
    <Tag TagId="039eb697-7307-409b-a176-a778de49a613"/>
    <Tag TagId="a9842535-5d8f-460b-bc21-447a70025802"/>
+   <Tag TagId="3bf3635a-1bdc-4190-843c-60f251b7a2bd"/>
    <Tag TagId="6cc9c909-f0dc-4806-ada2-0914a3a6b060"/>
    <Tag TagId="dcdd3c0b-884d-4729-95b0-670dd01f05b5"/>
    <Tag TagId="fb1b0b03-f91f-4b1a-8683-17a8e6b10296"/>
@@ -77,7 +77,7 @@
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/common/garage/hightech_a/garage_med_001_newbab.socpak" entityName="ObjectContainerModifier-010" label="ObjectContainerModifier-010_{A9171BE6-4624-4879-B3F1-E6C56B5FECDB}" class="ObjectContainerModifier" classGuid="3f5343b3-4769-43a4-a0ba-496332c69c2c" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,be04333e-c17e-4e2b-83ad-470e3d8bfaa1,30ee12f0-3ed1-4d7b-9111-e989e2ee1589" guid="48794624-a917-1be6-dbec-5f6bc5e6f1b3" pos="-20,1.5,-1" rot="1,0,0,0"/>
   <Child external="1" name="Data/objectcontainers/setup/elevator_setup/newbab/newbab_gateway.socpak" entityName="ObjectContainerModifier-011" label="ObjectContainerModifier-011_{0E4A9CEF-633D-4977-89E3-5E99A4E17AE1}" class="ObjectContainerModifier" classGuid="3f5343b3-4769-43a4-a0ba-496332c69c2c" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,be04333e-c17e-4e2b-83ad-470e3d8bfaa1,30ee12f0-3ed1-4d7b-9111-e989e2ee1589" guid="4977633d-0e4a-9cef-e17a-e1a4995ee389" pos="5,-53.5,-1" rot="0.70710677,0,0,0.70710677"/>
  </ChildObjectContainers>
- <Health EntityCount="495" OC_Count="6" StreamingRadius="647.26788"/>
+ <Health EntityCount="489" OC_Count="0" StreamingRadius="647.26788"/>
  <StreamingOCs>
   <OC name="ht_a_surfaceentrance_a_int.soc" tags="" staticEntityCount="155" guid="46f837bc-b5b4-f027-1350-d8a91c7b0995" radius="168.71613"/>
  </StreamingOCs>

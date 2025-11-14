@@ -255,7 +255,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/tintpalettes/brand/habidash/hdh_hat_03_01_01.xml" />
+                <RootRecord />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -333,7 +333,7 @@
                 <Tags>TableDisplay</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
-                    <path />
+                    <path>Objects/Characters/Human/male_v7/clothing/frontier_fc/m_hdh_hat_03_display.cgf</path>
                   </Geometry>
                   <Material Type="GlobalResourceMaterial">
                     <path />
@@ -419,7 +419,7 @@
                 <Tags>Hanging</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
-                    <path />
+                    <path>Objects/Characters/Human/male_v7/clothing/earth_cc/m_cbd_hat_display_02.cgf</path>
                   </Geometry>
                   <Material Type="GlobalResourceMaterial">
                     <path />
@@ -506,7 +506,7 @@
                 <Tags>tableDisplay</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
-                    <path />
+                    <path>Objects/Characters/Human/male_v7/clothing/frontier_fc/m_hdh_hat_03_display.cgf</path>
                   </Geometry>
                   <Material Type="GlobalResourceMaterial">
                     <path />
@@ -592,7 +592,7 @@
                 <Tags>Hanging</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
-                    <path />
+                    <path>Objects/Characters/Human/male_v7/clothing/earth_cc/m_cbd_hat_display_02.cgf</path>
                   </Geometry>
                   <Material Type="GlobalResourceMaterial">
                     <path />
@@ -804,6 +804,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

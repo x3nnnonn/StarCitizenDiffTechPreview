@@ -19,7 +19,7 @@
   </StaticEntityClassData>
   <Components Type="DataForgeComponentParams" Count="18">
     <SHealthComponentParams Type="SHealthComponentParams">
-      <Health>2060</Health>
+      <Health>41200</Health>
       <DamageCap>0</DamageCap>
       <DamageResistances Type="DamageResistance">
         <IgnoreMeleeDamage>False</IgnoreMeleeDamage>
@@ -130,8 +130,8 @@
       </accumulators>
     </SDegradationParams>
     <SAmmoContainerComponentParams Type="SAmmoContainerComponentParams">
-      <initialAmmoCount>1267</initialAmmoCount>
-      <maxAmmoCount>1267</maxAmmoCount>
+      <initialAmmoCount>3801</initialAmmoCount>
+      <maxAmmoCount>3801</maxAmmoCount>
       <maxRestockCount>3</maxRestockCount>
       <lowAmmoWarningPercentage>0.1</lowAmmoWarningPercentage>
       <ammoParamsRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/ammoparams/vehicle/bengal_ballisticgatling_s6_ammo.xml" />
@@ -2467,6 +2467,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

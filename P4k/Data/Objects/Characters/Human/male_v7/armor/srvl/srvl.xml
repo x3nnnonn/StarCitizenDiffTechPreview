@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Directory Name="srvl">
   <File Name="m_srvl_combat_core_01.cdf" CRC32="0x6A60604B" Size="8057" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_combat_heavy_arms_03_01.mtl" CRC32="0x728696F6" Size="10293" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_arms_03_01.mtl" CRC32="0x9F921268" Size="10198" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_arms_03_lod1.skin" CRC32="0x1AF4CFC6" Size="2904" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_arms_03_lod1.skinm" CRC32="0xE1265CD5" Size="816840" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_arms_03_lod2.skin" CRC32="0x267BB99E" Size="2904" CompressionType="100" Encrypted="False" />
@@ -26,7 +26,7 @@
   <File Name="m_srvl_combat_heavy_arms_03_prop.cgfm" CRC32="0x6FDEAB18" Size="790272" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_arms_03.skin" CRC32="0x9ADA14EA" Size="2904" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_arms_03.skinm" CRC32="0xDFF794F9" Size="1100560" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_combat_heavy_core_03_01.mtl" CRC32="0x5A8ECABE" Size="10269" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_core_03_01.mtl" CRC32="0x0DDBF98C" Size="10125" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_core_03_lod1.skin" CRC32="0x3440C251" Size="6968" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_core_03_lod1.skinm" CRC32="0x41DF82D5" Size="1017368" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_core_03_lod2.skin" CRC32="0xBCF4C516" Size="6968" CompressionType="100" Encrypted="False" />
@@ -50,7 +50,10 @@
   <File Name="m_srvl_combat_heavy_core_03.cdf" CRC32="0x67FF58C9" Size="1943" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_core_03.skin" CRC32="0x5A798873" Size="6968" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_core_03.skinm" CRC32="0x76D62540" Size="1481896" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_combat_heavy_helmet_03_01.mtl" CRC32="0x3EA5EDCC" Size="11368" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_01.cdf" CRC32="0xDA669D4A" Size="632" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_01.mtl" CRC32="0x128AD9B8" Size="11464" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_02.cdf" CRC32="0x6C4B81EE" Size="640" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_03.cdf" CRC32="0x2FC421CE" Size="640" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03_lod1.skin" CRC32="0x3EBD62BF" Size="2096" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03_lod1.skinm" CRC32="0x17F79F00" Size="875304" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03_lod2.skin" CRC32="0xBB226E3E" Size="2096" CompressionType="100" Encrypted="False" />
@@ -61,17 +64,28 @@
   <File Name="m_srvl_combat_heavy_helmet_03_lod4.skinm" CRC32="0xE984FF48" Size="219432" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03_prop_lod1.cgf" CRC32="0x68B8D6BA" Size="168" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03_prop_lod1.cgfm" CRC32="0x861A0B5F" Size="552000" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_prop_lod1.skin" CRC32="0xA4F361F4" Size="1264" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_prop_lod1.skinm" CRC32="0x6CA2A561" Size="807176" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03_prop_lod2.cgf" CRC32="0x25558B94" Size="168" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03_prop_lod2.cgfm" CRC32="0x014CE75A" Size="346144" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_prop_lod2.skin" CRC32="0x7F357C72" Size="1264" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_prop_lod2.skinm" CRC32="0xC9B36D85" Size="481560" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03_prop_lod3.cgf" CRC32="0x2663E3FB" Size="168" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03_prop_lod3.cgfm" CRC32="0xD90A25F6" Size="207328" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_prop_lod3.skin" CRC32="0x53185ECF" Size="1256" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_prop_lod3.skinm" CRC32="0x3B2BC1BB" Size="288136" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03_prop_lod4.cgf" CRC32="0xD9BBE112" Size="168" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03_prop_lod4.cgfm" CRC32="0xE8A47FFA" Size="89792" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_prop_lod4.skin" CRC32="0x38DA9D29" Size="1240" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_prop_lod4.skinm" CRC32="0xDBD982B1" Size="201928" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03_prop.cgf" CRC32="0xA166BC25" Size="386320" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03_prop.cgfm" CRC32="0xC278CEC2" Size="863688" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_prop.skin" CRC32="0x296B7F63" Size="1264" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_prop.skinm" CRC32="0x4D247759" Size="1201480" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_helmet_03_skeleton.chr" CRC32="0xF551B26E" Size="1688" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03.skin" CRC32="0x998DF7C6" Size="2096" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_helmet_03.skinm" CRC32="0x370F08F6" Size="1298072" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_combat_heavy_legs_03_01.mtl" CRC32="0x3B9FE013" Size="7635" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_heavy_legs_03_01.mtl" CRC32="0xAC432578" Size="7604" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_legs_03_lod1.skin" CRC32="0x0C840B46" Size="14040" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_legs_03_lod1.skinm" CRC32="0x9EEFC9BC" Size="1258112" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_heavy_legs_03_lod2.skin" CRC32="0x75834320" Size="14040" CompressionType="100" Encrypted="False" />
@@ -267,7 +281,7 @@
   <File Name="m_srvl_combat_medium_arms_01.cdf" CRC32="0xD852F350" Size="1350" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_arms_01.skin" CRC32="0xBBC4FF26" Size="3080" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_arms_01.skinm" CRC32="0xB43BBD6C" Size="1351088" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_combat_medium_arms_02_01.mtl" CRC32="0xDFB9DDC8" Size="10514" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_arms_02_01.mtl" CRC32="0xFA00B25F" Size="10589" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_arms_02_lod1.skin" CRC32="0xE916D665" Size="3152" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_arms_02_lod1.skinm" CRC32="0x0CAF526D" Size="834240" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_arms_02_lod2.skin" CRC32="0xB47A4C00" Size="3152" CompressionType="100" Encrypted="False" />
@@ -292,7 +306,7 @@
   <File Name="m_srvl_combat_medium_arms_02_prop.cgfm" CRC32="0xF285A155" Size="711168" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_arms_02.skin" CRC32="0x5DE7627C" Size="3168" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_arms_02.skinm" CRC32="0xDEE2031D" Size="1320240" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_combat_medium_arms_03_01.mtl" CRC32="0xFD5EAC2E" Size="10583" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_arms_03_01.mtl" CRC32="0x4BF30E63" Size="10658" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_arms_03_lod1.skin" CRC32="0xFDF4F13C" Size="10592" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_arms_03_lod1.skinm" CRC32="0x905860CC" Size="781696" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_arms_03_lod2.skin" CRC32="0x6D8CDFF4" Size="10576" CompressionType="100" Encrypted="False" />
@@ -346,7 +360,7 @@
   <File Name="m_srvl_combat_medium_core_01_prop.cgfm" CRC32="0x0579059B" Size="929472" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_core_01.skin" CRC32="0x04F10D02" Size="4920" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_core_01.skinm" CRC32="0x5C268FE0" Size="1611864" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_combat_medium_core_02_01.mtl" CRC32="0x44FE00F6" Size="12718" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_core_02_01.mtl" CRC32="0x55B00888" Size="12719" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_core_02_lod1.skin" CRC32="0x0BAF5AEE" Size="5624" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_core_02_lod1.skinm" CRC32="0xA8F4DC90" Size="967000" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_core_02_lod2.skin" CRC32="0xCDDB7F9B" Size="5624" CompressionType="100" Encrypted="False" />
@@ -397,7 +411,7 @@
   <File Name="m_srvl_combat_medium_core_03_prop.cgfm" CRC32="0x216F801E" Size="907696" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_core_03.skin" CRC32="0xC0F736FF" Size="5768" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_core_03.skinm" CRC32="0xB07FD715" Size="1575280" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_combat_medium_helmet_01_01.mtl" CRC32="0x7C679C52" Size="11796" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_01_01.mtl" CRC32="0x42743CF4" Size="12126" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_01_lod1.skin" CRC32="0x5D9446B4" Size="1824" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_01_lod1.skinm" CRC32="0xE3FC8563" Size="981712" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_01_lod2.skin" CRC32="0xC2F18A16" Size="1824" CompressionType="100" Encrypted="False" />
@@ -432,7 +446,7 @@
   <File Name="m_srvl_combat_medium_helmet_01.cdf" CRC32="0x3008A4A2" Size="635" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_01.skin" CRC32="0x2EF93552" Size="1824" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_01.skinm" CRC32="0x05F8AFBB" Size="1487184" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_combat_medium_helmet_02_01.mtl" CRC32="0x97484003" Size="10134" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_02_01.mtl" CRC32="0x774D709E" Size="10220" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_02_lod1.skin" CRC32="0x73A84CA3" Size="1808" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_02_lod1.skinm" CRC32="0x64F9C4F0" Size="1081016" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_02_lod2.skin" CRC32="0x32222F1B" Size="1808" CompressionType="100" Encrypted="False" />
@@ -465,7 +479,7 @@
   <File Name="m_srvl_combat_medium_helmet_02.cdf" CRC32="0xC4681FC8" Size="635" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_02.skin" CRC32="0x94BE9606" Size="1808" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_02.skinm" CRC32="0x00CE8FA5" Size="1660360" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_combat_medium_helmet_03_01.mtl" CRC32="0x9D1BF06D" Size="10933" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_03_01.mtl" CRC32="0x12043922" Size="11240" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03_lod1.skin" CRC32="0x434BE94E" Size="1824" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03_lod1.skinm" CRC32="0xB37B4A73" Size="1059152" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03_lod2.skin" CRC32="0xE23C9564" Size="1824" CompressionType="100" Encrypted="False" />
@@ -476,14 +490,26 @@
   <File Name="m_srvl_combat_medium_helmet_03_lod4.skinm" CRC32="0xCB685F9D" Size="153768" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03_prop_lod1.cgf" CRC32="0x3FC1FDA2" Size="176" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03_prop_lod1.cgfm" CRC32="0x634AE0E0" Size="538864" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_03_prop_lod1.skin" CRC32="0x221A0562" Size="992" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_03_prop_lod1.skinm" CRC32="0x1C6EC1D1" Size="976096" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03_prop_lod2.cgf" CRC32="0x9A54CFF5" Size="176" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03_prop_lod2.cgfm" CRC32="0x6326FD6A" Size="340280" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_03_prop_lod2.skin" CRC32="0x5F13BC60" Size="992" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_03_prop_lod2.skinm" CRC32="0x80CFF576" Size="689672" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03_prop_lod3.cgf" CRC32="0x68D74080" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03_prop_lod3.cgfm" CRC32="0x9138760E" Size="184856" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_03_prop_lod3.skin" CRC32="0xDD676508" Size="976" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_03_prop_lod3.skinm" CRC32="0x60EDBA8A" Size="249672" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03_prop_lod4.cgf" CRC32="0x8C063429" Size="152" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03_prop_lod4.cgfm" CRC32="0xA0D6CEBA" Size="79880" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_03_prop_lod4.skin" CRC32="0x3525FFD4" Size="952" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_03_prop_lod4.skinm" CRC32="0xEEEBACD6" Size="141480" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03_prop.cgf" CRC32="0x46DE439A" Size="356520" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03_prop.cgfm" CRC32="0xAFC01554" Size="847808" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_03_prop.skin" CRC32="0x83FEFC8E" Size="992" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_03_prop.skinm" CRC32="0xB96F5B69" Size="1185760" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_03_skeleton.chr" CRC32="0x0D35F9A2" Size="1400" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_helmet_03.cdf" CRC32="0x93E726F9" Size="635" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03.skin" CRC32="0xF1B9BFDB" Size="1824" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_helmet_03.skinm" CRC32="0x847C52E1" Size="1282304" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_legs_01_01.mtl" CRC32="0xA4BDB8EC" Size="7161" CompressionType="100" Encrypted="False" />
@@ -510,7 +536,7 @@
   <File Name="m_srvl_combat_medium_legs_01.cdf" CRC32="0x22C22EC4" Size="7324" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_legs_01.skin" CRC32="0xF5A83EE7" Size="3640" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_legs_01.skinm" CRC32="0x94114ACD" Size="1398168" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_combat_medium_legs_02_01.mtl" CRC32="0x4451DAB2" Size="9175" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_legs_02_01.mtl" CRC32="0xE4400101" Size="9474" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_legs_02_lod1.skin" CRC32="0x69D36638" Size="3568" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_legs_02_lod1.skinm" CRC32="0x99B6A6C8" Size="666728" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_legs_02_lod2.skin" CRC32="0x92EA1D70" Size="3568" CompressionType="100" Encrypted="False" />
@@ -534,7 +560,7 @@
   <File Name="m_srvl_combat_medium_legs_02.cdf" CRC32="0x22C22EC4" Size="7324" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_legs_02.skin" CRC32="0x938AC70B" Size="3568" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_legs_02.skinm" CRC32="0x349961D5" Size="1033960" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_combat_medium_legs_03_01.mtl" CRC32="0xC99FAEEF" Size="9244" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_combat_medium_legs_03_01.mtl" CRC32="0x0B63E8D3" Size="9399" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_legs_03_lod1.skin" CRC32="0xC84BB325" Size="5360" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_legs_03_lod1.skinm" CRC32="0xC43847EB" Size="1186816" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_combat_medium_legs_03_lod2.skin" CRC32="0x7644395C" Size="5360" CompressionType="100" Encrypted="False" />
@@ -617,14 +643,26 @@
   <File Name="m_srvl_heavy_armor_helmet_01_lod4.skinm" CRC32="0xD879C485" Size="65080" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_heavy_armor_helmet_01_prop_lod1.cgf" CRC32="0x3C1E7DA6" Size="248" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_heavy_armor_helmet_01_prop_lod1.cgfm" CRC32="0xD76B96EE" Size="197088" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_heavy_armor_helmet_01_prop_lod1.skin" CRC32="0xA6831006" Size="1144" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_heavy_armor_helmet_01_prop_lod1.skinm" CRC32="0x4E4DF531" Size="407896" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_heavy_armor_helmet_01_prop_lod2.cgf" CRC32="0xEC71FFC7" Size="248" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_heavy_armor_helmet_01_prop_lod2.cgfm" CRC32="0x4EB4561D" Size="127464" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_heavy_armor_helmet_01_prop_lod2.skin" CRC32="0xD160EAF6" Size="1144" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_heavy_armor_helmet_01_prop_lod2.skinm" CRC32="0x72A0C93D" Size="198544" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_heavy_armor_helmet_01_prop_lod3.cgf" CRC32="0xF7392B16" Size="232" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_heavy_armor_helmet_01_prop_lod3.cgfm" CRC32="0xFD1FCF1D" Size="93080" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_heavy_armor_helmet_01_prop_lod3.skin" CRC32="0x3EB559B0" Size="1144" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_heavy_armor_helmet_01_prop_lod3.skinm" CRC32="0xE57CD751" Size="122816" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_heavy_armor_helmet_01_prop_lod4.cgf" CRC32="0xCFC35A82" Size="232" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_heavy_armor_helmet_01_prop_lod4.cgfm" CRC32="0xA54F655E" Size="41688" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_heavy_armor_helmet_01_prop_lod4.skin" CRC32="0xFBA09BCF" Size="1072" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_heavy_armor_helmet_01_prop_lod4.skinm" CRC32="0x0348C779" Size="60176" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_heavy_armor_helmet_01_prop.cgf" CRC32="0x0CAB8C44" Size="116624" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_heavy_armor_helmet_01_prop.cgfm" CRC32="0x3D3407EE" Size="299896" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_heavy_armor_helmet_01_prop.skin" CRC32="0xB2B90B6F" Size="1144" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_heavy_armor_helmet_01_prop.skinm" CRC32="0xB4D001B4" Size="557760" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_heavy_armor_helmet_01_skeleton.chr" CRC32="0x03C41CB1" Size="1400" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_heavy_armor_helmet_01.cdf" CRC32="0x0F22FC46" Size="632" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_heavy_armor_helmet_01.skin" CRC32="0x2B6BFF1C" Size="1976" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_heavy_armor_helmet_01.skinm" CRC32="0xC4A3C8B7" Size="600056" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_heavy_armor_legs_01_01_01.mtl" CRC32="0xED2D5C5C" Size="26038" CompressionType="100" Encrypted="False" />
@@ -652,16 +690,58 @@
   <File Name="m_srvl_heavy_armor_legs_01.skin" CRC32="0x1EE605F0" Size="4320" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_heavy_armor_legs_01.skinm" CRC32="0xC42DE8EA" Size="1095904" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_helmet_01_01.mtl" CRC32="0x425C039B" Size="14062" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_02.cdf" CRC32="0xD72A0B79" Size="593" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_helmet_01_02.mtl" CRC32="0x4495D8C1" Size="13980" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_03.cdf" CRC32="0x94A5AB59" Size="593" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_helmet_01_03.mtl" CRC32="0x3D6A837A" Size="13942" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_04.cdf" CRC32="0x5BE7BD48" Size="593" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_helmet_01_04.mtl" CRC32="0xE82D7884" Size="14008" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_05.cdf" CRC32="0x18681D68" Size="593" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_helmet_01_05.mtl" CRC32="0x57C4E3F8" Size="13993" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_06.cdf" CRC32="0xDCF8FD08" Size="593" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_helmet_01_06.mtl" CRC32="0x60F624D5" Size="14464" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_07.cdf" CRC32="0x9F775D28" Size="593" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_helmet_01_07.mtl" CRC32="0x2E875A51" Size="14085" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_lod1.skin" CRC32="0xC9A1A055" Size="2832" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_lod1.skinm" CRC32="0x98B4D019" Size="696584" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_lod2.skin" CRC32="0x6600839E" Size="2832" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_lod2.skinm" CRC32="0x350AABA5" Size="333464" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_lod3.skin" CRC32="0x51190290" Size="2832" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_lod3.skinm" CRC32="0xC224D7C8" Size="172672" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_lod4.skin" CRC32="0x01F57694" Size="2832" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_lod4.skinm" CRC32="0x8D1FA0C7" Size="87928" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_prop_lod1.skin" CRC32="0x406C7241" Size="2456" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_prop_lod1.skinm" CRC32="0xDCC78DB0" Size="612472" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_prop_lod2.skin" CRC32="0x9D3456C3" Size="2456" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_prop_lod2.skinm" CRC32="0x11CBEF06" Size="292744" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_prop_lod3.skin" CRC32="0xCF659B9F" Size="2456" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_prop_lod3.skinm" CRC32="0x2210D29B" Size="151216" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_prop_lod4.skin" CRC32="0xE2E30B28" Size="2456" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_prop_lod4.skinm" CRC32="0x62C597BB" Size="77224" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_helmet_01_hair_prop.skin" CRC32="0x09EB2DEC" Size="2456" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_helmet_01_hair_prop.skinm" CRC32="0x4FE34797" Size="1252648" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair_skeleton.chr" CRC32="0xF1D67B97" Size="3576" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_hair.mtl" CRC32="0xD41411DF" Size="1451" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_helmet_01_hair.skin" CRC32="0xB49A3422" Size="2832" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_helmet_01_hair.skinm" CRC32="0x65585C35" Size="1423640" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_lod1.skin" CRC32="0x01DAF4B9" Size="3632" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_lod1.skinm" CRC32="0xE2CD23A8" Size="1928664" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_lod2.skin" CRC32="0x04CD35DC" Size="3632" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_lod2.skinm" CRC32="0x3061C51A" Size="1156384" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_lod3.skin" CRC32="0x636F962B" Size="3632" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_lod3.skinm" CRC32="0xB6CD13DD" Size="758208" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_lod4.skin" CRC32="0x633B896A" Size="3608" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_lod4.skinm" CRC32="0xD86C599F" Size="312608" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_prop_lod1.skin" CRC32="0xD95E0665" Size="1360" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_prop_lod1.skinm" CRC32="0x34626DC5" Size="1790584" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_prop_lod2.skin" CRC32="0x2BB36288" Size="1360" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_prop_lod2.skinm" CRC32="0x25C7853D" Size="1071816" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_prop_lod3.skin" CRC32="0x5A59FA46" Size="1360" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_prop_lod3.skinm" CRC32="0x7E53A928" Size="700512" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_prop_lod4.skin" CRC32="0xEE5C3665" Size="1336" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_prop_lod4.skinm" CRC32="0x62DAE1E9" Size="289456" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_prop.skin" CRC32="0x37318008" Size="1360" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_helmet_01_prop.skinm" CRC32="0x7D57DA30" Size="3070952" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_helmet_01.cdf" CRC32="0x13BAEB19" Size="593" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_helmet_01.skin" CRC32="0x82AF28A2" Size="3632" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_helmet_01.skinm" CRC32="0xE1E3EEB0" Size="3298040" CompressionType="100" Encrypted="False" />
@@ -675,64 +755,54 @@
   <File Name="m_srvl_parasite_helmet_01_lod3.skinm" CRC32="0x2E240AB4" Size="280760" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_01_lod4.skin" CRC32="0x3291B3D1" Size="2736" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_01_lod4.skinm" CRC32="0x1C0F370C" Size="151552" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod1.cgf" CRC32="0x3405850A" Size="176" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod1.cgfm" CRC32="0x6E8BD967" Size="523792" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod1.skin" CRC32="0x300E60FD" Size="1720" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod1.skinm" CRC32="0xBE4581F0" Size="734640" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod2.cgf" CRC32="0xF537A632" Size="176" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod2.cgfm" CRC32="0xE465FA99" Size="324008" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod2.skin" CRC32="0x6D820FD4" Size="1720" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod2.skinm" CRC32="0xD94DCF0B" Size="441080" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod3.cgf" CRC32="0x8CC9FF22" Size="176" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod3.cgfm" CRC32="0x2C34727D" Size="239408" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod3.skin" CRC32="0x01881067" Size="1720" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod3.skinm" CRC32="0xE55C811E" Size="261648" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod4.cgf" CRC32="0x16DF6022" Size="176" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod4.cgfm" CRC32="0x81815305" Size="106080" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod4.skin" CRC32="0x195C5E27" Size="1712" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop_lod4.skinm" CRC32="0x408C0EE2" Size="137832" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_01_prop_lod1.skin" CRC32="0x1525D589" Size="1632" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_01_prop_lod1.skinm" CRC32="0x490D47D9" Size="678912" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_01_prop_lod2.skin" CRC32="0xDAD140EE" Size="1632" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_01_prop_lod2.skinm" CRC32="0xF6D000BF" Size="406496" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_01_prop_lod3.skin" CRC32="0x9EEC679D" Size="1632" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_01_prop_lod3.skinm" CRC32="0x2A9C0C25" Size="240624" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_01_prop_lod4.skin" CRC32="0xF75AF88A" Size="1624" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_01_prop_lod4.skinm" CRC32="0x76CF4BE6" Size="126744" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_01_prop.cdf" CRC32="0x23DF8041" Size="1688" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop.cgf" CRC32="0x09B2B51C" Size="402144" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop.cgfm" CRC32="0x8D9C707E" Size="861936" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop.skin" CRC32="0x5A3ED0D7" Size="1720" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01_prop.skinm" CRC32="0x5C15F435" Size="1255728" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_01_prop.skin" CRC32="0x7F1565A3" Size="1632" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_01_prop.skinm" CRC32="0x6A0B0CB2" Size="1163752" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_01_skeleton.chr" CRC32="0x966773C0" Size="2112" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_01.cdf" CRC32="0x86789092" Size="7628" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_01.cdf" CRC32="0x5534D141" Size="7101" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_01.skin" CRC32="0xF2598B57" Size="2744" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_01.skinm" CRC32="0x4569CCDD" Size="1347704" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_02_01_01.mtl" CRC32="0xE7886B6A" Size="12674" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_lod1.skin" CRC32="0x0023835F" Size="2568" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_lod1.skinm" CRC32="0xFEF45C9E" Size="1020856" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_lod2.skin" CRC32="0x397EDF0E" Size="2568" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_lod2.skinm" CRC32="0x814A1D35" Size="620872" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_lod3.skin" CRC32="0x1D905B1C" Size="2568" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_lod3.skinm" CRC32="0x02002CED" Size="375040" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_lod4.skin" CRC32="0x9F0536E3" Size="2552" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_lod4.skinm" CRC32="0x5C8994E8" Size="206488" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_lod1.skin" CRC32="0x37D9717F" Size="2760" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_lod1.skinm" CRC32="0x4ED944C0" Size="961152" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_lod2.skin" CRC32="0x0E842D2E" Size="2760" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_lod2.skinm" CRC32="0xB3936DC2" Size="583640" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_lod3.skin" CRC32="0x2A6AA93C" Size="2760" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_lod3.skinm" CRC32="0x527CD05E" Size="352104" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_lod4.skin" CRC32="0xB6BE1F3F" Size="2744" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_lod4.skinm" CRC32="0x029FD35E" Size="193792" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_02_prop_lod1.cgf" CRC32="0x40827738" Size="184" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_02_prop_lod1.cgfm" CRC32="0x284244F7" Size="564656" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_prop_lod1.skin" CRC32="0x11FD1122" Size="1736" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_prop_lod1.skinm" CRC32="0x3B023CCB" Size="961152" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_prop_lod1.skin" CRC32="0xE0EB3729" Size="1928" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_prop_lod1.skinm" CRC32="0xD1A2D4CB" Size="901448" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_02_prop_lod2.cgf" CRC32="0x29B4B105" Size="184" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_02_prop_lod2.cgfm" CRC32="0xF419D87E" Size="358432" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_prop_lod2.skin" CRC32="0xF57DAF4D" Size="1736" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_prop_lod2.skinm" CRC32="0xA2E62254" Size="583640" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_prop_lod2.skin" CRC32="0x046B8946" Size="1928" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_prop_lod2.skinm" CRC32="0x07F01F38" Size="546408" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_02_prop_lod3.cgf" CRC32="0x880FEBC2" Size="176" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_02_prop_lod3.cgfm" CRC32="0x31A5EA7D" Size="294144" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_prop_lod3.skin" CRC32="0xDE5FE224" Size="1736" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_prop_lod3.skinm" CRC32="0x1B7F4438" Size="352104" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_prop_lod3.skin" CRC32="0x2F49C42F" Size="1928" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_prop_lod3.skinm" CRC32="0xEE2301D5" Size="329168" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_02_prop_lod4.cgf" CRC32="0x90A1C9F5" Size="176" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_02_prop_lod4.cgfm" CRC32="0xFCCD8A70" Size="129600" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_prop_lod4.skin" CRC32="0x6559C8A1" Size="1720" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_prop_lod4.skinm" CRC32="0x73574311" Size="193792" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_prop_lod4.skin" CRC32="0xCD12A29A" Size="1912" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_prop_lod4.skinm" CRC32="0x6AB58A17" Size="181096" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_02_prop.cgf" CRC32="0xEE797D04" Size="414408" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_02_prop.cgfm" CRC32="0xC8BA3948" Size="895824" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_prop.skin" CRC32="0x14DFDE9B" Size="1736" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02_prop.skinm" CRC32="0x10702B3B" Size="1598584" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_prop.skin" CRC32="0xE5C9F890" Size="1928" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02_prop.skinm" CRC32="0x2BC3D441" Size="1502400" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_02_skeleton.chr" CRC32="0xCD2805C1" Size="2112" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_parasite_helmet_02.cdf" CRC32="0x7958E586" Size="623" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02.skin" CRC32="0x7BFFDD79" Size="2568" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_parasite_helmet_02.skinm" CRC32="0x03CF615E" Size="1694768" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02.skin" CRC32="0x4C052F59" Size="2760" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_parasite_helmet_02.skinm" CRC32="0x4FFFDC38" Size="1598584" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_undersuit_01_01_01.mtl" CRC32="0xC51A5482" Size="23424" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_undersuit_01_lod1.skin" CRC32="0x0A773C1A" Size="11064" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_undersuit_01_lod1.skinm" CRC32="0xEB9CBC65" Size="908296" CompressionType="100" Encrypted="False" />
@@ -758,7 +828,7 @@
   <File Name="m_srvl_undersuit_01_prop.cgfm" CRC32="0x79E42EF3" Size="920400" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_undersuit_01.skin" CRC32="0x3730DB22" Size="11064" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_undersuit_01.skinm" CRC32="0xEA4B4532" Size="1682912" CompressionType="100" Encrypted="False" />
-  <File Name="m_srvl_undersuit_02_01.mtl" CRC32="0xCDCBACD9" Size="10781" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02_01.mtl" CRC32="0xDDB08643" Size="10815" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_undersuit_02_lod1.skin" CRC32="0x9D21A44C" Size="10896" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_undersuit_02_lod1.skinm" CRC32="0x9A8C9465" Size="1262128" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_undersuit_02_lod2.skin" CRC32="0x49A702B2" Size="10896" CompressionType="100" Encrypted="False" />
@@ -769,6 +839,20 @@
   <File Name="m_srvl_undersuit_02_lod4.skinm" CRC32="0x6ACC2112" Size="189360" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_undersuit_02_lod5.skin" CRC32="0x14F38718" Size="10896" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_undersuit_02_lod5.skinm" CRC32="0xF2DDCDB6" Size="114976" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02_prop_lod1.cgf" CRC32="0xC93EFF22" Size="160" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02_prop_lod1.cgfm" CRC32="0x43DF9E96" Size="707040" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02_prop_lod2.cgf" CRC32="0x5E0A62D1" Size="160" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02_prop_lod2.cgfm" CRC32="0xC79DF068" Size="424792" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02_prop_lod3.cgf" CRC32="0x9FB07DA8" Size="160" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02_prop_lod3.cgfm" CRC32="0x60EC0F28" Size="324472" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02_prop_lod4.cgf" CRC32="0xC2A1D660" Size="160" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02_prop_lod4.cgfm" CRC32="0x84DCDC7E" Size="137464" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02_prop_lod5.cgf" CRC32="0xC9862A9E" Size="160" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02_prop_lod5.cgfm" CRC32="0x1C3D26FE" Size="110928" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02_prop.cgf" CRC32="0x986AB22D" Size="464264" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02_prop.cgfm" CRC32="0x1BAFA388" Size="1053984" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02.skin" CRC32="0x4A5D3A04" Size="10896" CompressionType="100" Encrypted="False" />
+  <File Name="m_srvl_undersuit_02.skinm" CRC32="0xDB42675B" Size="1810792" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_undersuit_helmet_01_01_01.mtl" CRC32="0x0BF72F4E" Size="9149" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_undersuit_helmet_01_lod1.cgf" CRC32="0x9B4BFBA3" Size="168" CompressionType="100" Encrypted="False" />
   <File Name="m_srvl_undersuit_helmet_01_lod1.cgfm" CRC32="0xC285C68C" Size="227608" CompressionType="100" Encrypted="False" />

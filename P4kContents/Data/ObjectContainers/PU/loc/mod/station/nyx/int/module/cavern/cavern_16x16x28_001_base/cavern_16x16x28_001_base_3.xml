@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Entities sorted="1">
+  <Entity Name="GravityBox-EVACavern-16x16x28-002" Radius="0" Pos="0,8,-9" EntityClass="GravityBox" EntityClassGUID="518ba9f6-b5aa-432a-823d-88030657cb9f" EntityCryGUID="4dec20eb-02d5-f626-ae07-1b38eac71787" CastShadowMinSpec="1">
+    <PropertiesDataCore>
+      <GravityBox __type="GravityBoxParams" active="1" uniform="1" fallOffInner="0.0" gravityMagnitude="0.0" filled="1">
+        <gravityDirection __type="Vec3" x="0.0" y="0.0" z="-1.0" />
+        <size __type="Vec3" x="16.0" y="16.0" z="18.0" />
+      </GravityBox>
+    </PropertiesDataCore>
+  </Entity>
+  <Entity Name="GravityBox-EVACavern-16x16x28-001" Radius="0" Pos="0,10,4" EntityClass="GravityBox" EntityClassGUID="518ba9f6-b5aa-432a-823d-88030657cb9f" EntityCryGUID="41fbe93d-4020-0327-39a1-f77598309c94" CastShadowMinSpec="1">
+    <PropertiesDataCore>
+      <GravityBox __type="GravityBoxParams" active="1" uniform="1" fallOffInner="0.0" gravityMagnitude="0.0" filled="1">
+        <gravityDirection __type="Vec3" x="0.0" y="0.0" z="-1.0" />
+        <size __type="Vec3" x="16.0" y="12.0" z="8.0" />
+      </GravityBox>
+    </PropertiesDataCore>
+  </Entity>
+</Entities>

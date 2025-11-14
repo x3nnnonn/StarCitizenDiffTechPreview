@@ -13,10 +13,10 @@
     <Object name="asd_building_002_ext_aban_001" type="ObjectContainer" guid="4ea60be1-f704-e525-e828-ce00c4f1f3ab" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
     <Object name="asd_building_002_ext" type="ObjectContainer" guid="436a8e4f-37bf-c8ec-555d-003c12c09583" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
    </Layer>
-   <Layer name="ext_sys" layerHash="869058772" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/layout/facility/asd_layout_facility_001/Layers/layout/asd_layout_facility_001/ext_sys.lyr">
+   <Layer name="ext_sys" layerHash="3081413579" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/layout/facility/asd_layout_facility_001/Layers/layout/asd_layout_facility_001/ext_sys.lyr">
     <Object name="PlanetAreaEntity-003" type="PlanetAreaEntity" guid="4ed164b0-99dc-ba25-9377-6efe799d009e" tags=""/>
-    <Object name="PlanetAreaEntity-001" type="PlanetAreaEntity" guid="4efd6d35-cdb4-b5cc-dec9-5c14251732a0" tags=""/>
-    <Object name="PlanetAreaEntity-000" type="PlanetAreaEntity" guid="424e965d-04fa-ebd8-0962-1b273127bd93" tags=""/>
+    <Object name="PlanetAreaEntity-000" type="PlanetAreaEntity" guid="4efd6d35-cdb4-b5cc-dec9-5c14251732a0" tags=""/>
+    <Object name="PlanetAreaEntity-001" type="PlanetAreaEntity" guid="424e965d-04fa-ebd8-0962-1b273127bd93" tags=""/>
     <Object name="PlanetAreaEntity-002" type="PlanetAreaEntity" guid="4dea156c-8b5d-9bdc-7614-79ab81318ca3" tags=""/>
    </Layer>
    <Layer name="transit" layerHash="1477986243" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/layout/facility/asd_layout_facility_001/Layers/layout/asd_layout_facility_001/transit.lyr">
@@ -35,8 +35,8 @@
      <Object name="GoToPointEntity-002" type="GoToPointEntity" guid="42e75405-54a2-fe40-b89d-ea7e8b60aa80" tags="be04333e-c17e-4e2b-83ad-470e3d8bfaa1"/>
      <Object name="layout_int_power_001" type="LocationHarvestableObjectContainer" guid="4d1cdc04-c2e6-9095-3ab4-db54c7bced93" tags="b5e7e39d-18cd-42d8-85b0-7862c0075765,503443c0-b6d1-4539-b493-688117334ff1,f4cc6e7e-9968-4a76-9ea0-734782664ab7,1875c48f-d66b-4661-8979-d3d72859f478,be04333e-c17e-4e2b-83ad-470e3d8bfaa1,30ee12f0-3ed1-4d7b-9111-e989e2ee1589,eac0031a-3373-451e-80cc-4148d13a213d"/>
     </Layer>
-    <Layer name="layout_int_science_oc" layerHash="1091828900" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/layout/facility/asd_layout_facility_001/Layers/layout/asd_layout_facility_001/transit/layout_int_science_oc.lyr">
-     <Object name="GoToPointEntity-003" type="GoToPointEntity" guid="4fb0e4e4-6d66-6a71-cf2b-7054fc98b98e" tags="be04333e-c17e-4e2b-83ad-470e3d8bfaa1"/>
+    <Layer name="layout_int_science_oc" layerHash="3698541417" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/layout/facility/asd_layout_facility_001/Layers/layout/asd_layout_facility_001/transit/layout_int_science_oc.lyr">
+     <Object name="GoToPointEntity-001" type="GoToPointEntity" guid="4fb0e4e4-6d66-6a71-cf2b-7054fc98b98e" tags="be04333e-c17e-4e2b-83ad-470e3d8bfaa1"/>
      <Object name="layout_int_science_001" type="LocationHarvestableObjectContainer" guid="4abd2fe1-1050-d3db-1874-0e62f5837cba" tags="b5e7e39d-18cd-42d8-85b0-7862c0075765,503443c0-b6d1-4539-b493-688117334ff1,f4cc6e7e-9968-4a76-9ea0-734782664ab7,1875c48f-d66b-4661-8979-d3d72859f478,be04333e-c17e-4e2b-83ad-470e3d8bfaa1,30ee12f0-3ed1-4d7b-9111-e989e2ee1589,eac0031a-3373-451e-80cc-4148d13a213d"/>
     </Layer>
     <Layer name="transit_lobby" layerHash="1126341028" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/layout/facility/asd_layout_facility_001/Layers/layout/asd_layout_facility_001/transit/transit_lobby.lyr">

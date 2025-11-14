@@ -4455,7 +4455,7 @@
       <paramInputValues Type="BuildingBlocks_ComponentParameterInputBase" Count="0" />
     </BuildingBlocks_WidgetCanvas>
   </library>
-  <operations Type="BuildingBlocks_Node" Count="12">
+  <operations Type="BuildingBlocks_Node" Count="14">
     <BuildingBlocks_BindingsBooleanComponentParameter Pointer="ptr:12" Type="BuildingBlocks_BindingsBooleanComponentParameter">
       <name>iscast</name>
       <parameter>ParamInput0</parameter>
@@ -4514,6 +4514,16 @@
     <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:18" Type="BuildingBlocks_BindingsIntegerComponentParameter">
       <name>erramount</name>
       <parameter>ParamInput2</parameter>
+      <defaultValue>0</defaultValue>
+    </BuildingBlocks_BindingsIntegerComponentParameter>
+    <BuildingBlocks_BindingsIntegerField Type="BuildingBlocks_BindingsIntegerField">
+      <widget PointsTo="ptr:13" />
+      <field>ParamInput3</field>
+      <input PointsTo="ptr:19" />
+    </BuildingBlocks_BindingsIntegerField>
+    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:19" Type="BuildingBlocks_BindingsIntegerComponentParameter">
+      <name>repairAmount</name>
+      <parameter>ParamInput3</parameter>
       <defaultValue>0</defaultValue>
     </BuildingBlocks_BindingsIntegerComponentParameter>
   </operations>

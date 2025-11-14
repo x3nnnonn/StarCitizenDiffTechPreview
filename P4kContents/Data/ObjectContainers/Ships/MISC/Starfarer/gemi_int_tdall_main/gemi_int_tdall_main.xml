@@ -1,9 +1,9 @@
-<ObjectContainer version="11" name="gemi_int_tdall_main" tags="" type="" editorBuildChangelist="10562704" entityCountPLA="0" entityCountALE="0" entityCountStatic="532" entityCountDynamic="0" entityCountUnique="0" minBounds="-14.345000000000001,-37.390999999999998,-8.1374000071525572" maxBounds="15.904999999999999,18.109000000000002,7.0131350000000001" radius="54.45982" crcSOC="2327765103">
+<ObjectContainer version="11" name="gemi_int_tdall_main" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="532" entityCountDynamic="0" entityCountUnique="0" minBounds="-14.345000000000001,-37.390999999999998,-8.1374000071525572" maxBounds="15.904999999999999,18.109000000000002,7.0131350000000001" radius="54.45982" crcSOC="2973855528">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
-   <Tag TagId="00ead468-9073-485b-a6df-ca6b94053603"/>
    <Tag TagId="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
+   <Tag TagId="00ead468-9073-485b-a6df-ca6b94053603"/>
    <Tag TagId="afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
    <Tag TagId="a7c06cc7-a715-43b3-93b6-486483f26d18"/>
    <Tag TagId="612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
@@ -36,15 +36,15 @@
    <Tag TagId="e0f9e2de-6b05-46df-b244-b98e64409a43"/>
    <Tag TagId="e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
    <Tag TagId="5ace9427-e331-45f9-9816-531026a2da04"/>
-   <Tag TagId="c730c7f8-4716-4e94-8ac3-5003214d758c"/>
-   <Tag TagId="65ed52ac-c293-4515-8d1d-d4d3fc339eb0"/>
-   <Tag TagId="2799c5ea-4290-45a9-b9f7-cca35bf0579e"/>
-   <Tag TagId="35aa6ec3-92f4-4d0e-aa21-55bcf8984c80"/>
+   <Tag TagId="afcc539f-18d8-4469-a870-976e0acf6231"/>
    <Tag TagId="b033ec04-7dbc-4625-9e47-bb337392e5ff"/>
    <Tag TagId="baccdb41-6bb9-4d88-9901-833ac71950dd"/>
    <Tag TagId="21e1ec30-5f8c-4ec7-918c-c4a26053c948"/>
    <Tag TagId="6c1cf7c3-1486-49e4-b300-4faddc18b78e"/>
-   <Tag TagId="afcc539f-18d8-4469-a870-976e0acf6231"/>
+   <Tag TagId="c730c7f8-4716-4e94-8ac3-5003214d758c"/>
+   <Tag TagId="65ed52ac-c293-4515-8d1d-d4d3fc339eb0"/>
+   <Tag TagId="2799c5ea-4290-45a9-b9f7-cca35bf0579e"/>
+   <Tag TagId="35aa6ec3-92f4-4d0e-aa21-55bcf8984c80"/>
    <Tag TagId="374966ef-a2c4-40d8-b38b-b172b449f18a"/>
    <Tag TagId="2083cffb-396a-4222-ba7c-f6d5bb054a3c"/>
    <Tag TagId="93a08fa2-634c-4621-b533-a65dc95f34d1"/>
@@ -110,7 +110,7 @@
    <TilePipeEntry name="AtmosphereOut" class="Output"/>
   </TilePipeEntries>
   <TileItemPortEntries>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="1.531249,-7.3125,3.03125" type="Noattach" name="Port0_Gadget_Cabinet_kegr_fire_extinguisher_NG-002[gemi_int_tdall_main]" display_name="Port0_Gadget_Cabinet_kegr_fire_extinguisher_NG-002[gemi_int_tdall_main]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-6.7773752,-9.3279591,1.76486" type="Noattach" name="Port0_Room_gemi_mntL[gemi_int_tdall_Atmosphere]" display_name="Port0_Room_gemi_mntL[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -120,7 +120,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-6.7773752,-9.3279591,1.76486" type="Noattach" name="Port1_Room_gemi_mntL[gemi_int_tdall_Atmosphere]" display_name="Port1_Room_gemi_mntL[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="3.268333,-16.953569,3.5140741" type="Noattach" name="Port1_Room_gemi_engine[gemi_int_tdall_Atmosphere]" display_name="Port1_Room_gemi_engine[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -140,7 +140,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="3.268333,-16.953569,3.5140741" type="Noattach" name="Port3_Room_gemi_engine[gemi_int_tdall_Atmosphere]" display_name="Port3_Room_gemi_engine[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-10.892578,-5.3204598,1.264151" type="Noattach" name="Port3_Room_gemi_crawlspaceL[gemi_int_tdall_Atmosphere]" display_name="Port3_Room_gemi_crawlspaceL[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -150,7 +150,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-2.5625,-6.09375,4.1875" type="Noattach" name="Port4_Gadget_Cabinet_kegr_fire_extinguisher_01_hightech_med_high-005[gemi_int_tdall_main]" display_name="Port4_Gadget_Cabinet_kegr_fire_extinguisher_01_hightech_med_high-005[gemi_int_tdall_main]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="4.249999,-18.3125,2.0625" type="Noattach" name="Port4_Gadget_Cabinet_kegr_fire_extinguisher_NG-003[gemi_int_tdall_main]" display_name="Port4_Gadget_Cabinet_kegr_fire_extinguisher_NG-003[gemi_int_tdall_main]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -160,7 +160,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-10.892578,-5.3204598,1.264151" type="Noattach" name="Port5_Room_gemi_crawlspaceL[gemi_int_tdall_Atmosphere]" display_name="Port5_Room_gemi_crawlspaceL[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="1.531249,-7.3125,3.03125" type="Noattach" name="Port5_Gadget_Cabinet_kegr_fire_extinguisher_NG-002[gemi_int_tdall_main]" display_name="Port5_Gadget_Cabinet_kegr_fire_extinguisher_NG-002[gemi_int_tdall_main]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -170,7 +170,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="8.638073,-16.265192,1.76486" type="Noattach" name="Port6_Room_gemi_engine-outer-left[gemi_int_tdall_Atmosphere]" display_name="Port6_Room_gemi_engine-outer-left[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-2.5625,-6.09375,4.1875" type="Noattach" name="Port6_Gadget_Cabinet_kegr_fire_extinguisher_01_hightech_med_high-005[gemi_int_tdall_main]" display_name="Port6_Gadget_Cabinet_kegr_fire_extinguisher_01_hightech_med_high-005[gemi_int_tdall_main]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -180,7 +180,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="4.249999,-18.3125,2.0625" type="Noattach" name="Port7_Gadget_Cabinet_kegr_fire_extinguisher_NG-003[gemi_int_tdall_main]" display_name="Port7_Gadget_Cabinet_kegr_fire_extinguisher_NG-003[gemi_int_tdall_main]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="8.638073,-16.265192,1.76486" type="Noattach" name="Port7_Room_gemi_engine-outer-left[gemi_int_tdall_Atmosphere]" display_name="Port7_Room_gemi_engine-outer-left[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -210,7 +210,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="5,12.944994,3" type="Noattach" name="Port10_Room_gemi_liftR_Lower[gemi_int_tdall_Atmosphere]" display_name="Port10_Room_gemi_liftR_Lower[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,0.98805797,1.76486" type="Noattach" name="Port10_Room_gemi_hub[gemi_int_tdall_Atmosphere]" display_name="Port10_Room_gemi_hub[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -220,7 +220,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,0.98805797,1.76486" type="Noattach" name="Port11_Room_gemi_hub[gemi_int_tdall_Atmosphere]" display_name="Port11_Room_gemi_hub[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="5,12.944994,3" type="Noattach" name="Port11_Room_gemi_liftR_Lower[gemi_int_tdall_Atmosphere]" display_name="Port11_Room_gemi_liftR_Lower[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -360,7 +360,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="6.8958111,-9.5183144,1.76486" type="Noattach" name="Port25_Room_gemi_mntR002[gemi_int_tdall_Atmosphere]" display_name="Port25_Room_gemi_mntR002[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-9.6599531,13,5" type="Noattach" name="Port25_Room_gemi_changing_room[gemi_int_tdall_Atmosphere]" display_name="Port25_Room_gemi_changing_room[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -370,7 +370,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-9.6599531,13,5" type="Noattach" name="Port26_Room_gemi_changing_room[gemi_int_tdall_Atmosphere]" display_name="Port26_Room_gemi_changing_room[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="6.8958111,-9.5183144,1.76486" type="Noattach" name="Port26_Room_gemi_mntR002[gemi_int_tdall_Atmosphere]" display_name="Port26_Room_gemi_mntR002[gemi_int_tdall_Atmosphere]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -440,7 +440,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-2.4693999,11.9488,4.5749998" type="Noattach" name="Port33_Door_Single_MISC_2_White-005[gemi_int_tdall_Geo]" display_name="Port33_Door_Single_MISC_2_White-005[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-5.1364632,15.397555,1.293178" type="Noattach" name="Port33_Door_Ship_Automatic_Advanced-013[gemi_int_tdall_Geo]" display_name="Port33_Door_Ship_Automatic_Advanced-013[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -450,7 +450,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-5.5,7.625,4.5749998" type="Noattach" name="Port34_Door_Single_MISC_2_White-004[gemi_int_tdall_Geo]" display_name="Port34_Door_Single_MISC_2_White-004[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="6.875,-12.375,1.625" type="Noattach" name="Port34_Door_Single_MISC_2-037[gemi_int_tdall_Geo]" display_name="Port34_Door_Single_MISC_2-037[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -460,7 +460,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-6.875,-12.375,1.625" type="Noattach" name="Port35_Door_Single_MISC_2-033[gemi_int_tdall_Geo]" display_name="Port35_Door_Single_MISC_2-033[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-8.4954004,-19.125,1.625" type="Noattach" name="Port35_Door_Single_MISC_2-036[gemi_int_tdall_Geo]" display_name="Port35_Door_Single_MISC_2-036[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -470,7 +470,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-5.1364632,15.397555,1.293178" type="Noattach" name="Port36_Door_Ship_Automatic_Advanced-013[gemi_int_tdall_Geo]" display_name="Port36_Door_Ship_Automatic_Advanced-013[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-6.875,-12.375,1.625" type="Noattach" name="Port36_Door_Single_MISC_2-033[gemi_int_tdall_Geo]" display_name="Port36_Door_Single_MISC_2-033[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -480,7 +480,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="6.875,-12.375,1.625" type="Noattach" name="Port37_Door_Single_MISC_2-037[gemi_int_tdall_Geo]" display_name="Port37_Door_Single_MISC_2-037[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-5.5,7.625,4.5749998" type="Noattach" name="Port37_Door_Single_MISC_2_White-004[gemi_int_tdall_Geo]" display_name="Port37_Door_Single_MISC_2_White-004[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -490,7 +490,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-8.4954004,-19.125,1.625" type="Noattach" name="Port38_Door_Single_MISC_2-036[gemi_int_tdall_Geo]" display_name="Port38_Door_Single_MISC_2-036[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-4.1547518,-4.9877548,-3.525492" type="Noattach" name="Port38_Door_Ship_Automatic_Advanced-014[gemi_int_tdall_Geo]" display_name="Port38_Door_Ship_Automatic_Advanced-014[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -500,7 +500,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="8.8388004,1.4972,1.4881999" type="Noattach" name="Port39_Door_Single_MISC_3-003[gemi_int_tdall_Geo]" display_name="Port39_Door_Single_MISC_3-003[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-7.8499999,15.55,4.5" type="Noattach" name="Port39_Door_Single_MISC_4_Female-002[gemi_int_tdall_Geo]" display_name="Port39_Door_Single_MISC_4_Female-002[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -510,7 +510,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="2.4693999,11.9488,4.5749998" type="Noattach" name="Port40_Door_Single_MISC_2_White-006[gemi_int_tdall_Geo]" display_name="Port40_Door_Single_MISC_2_White-006[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="3.3139,-13.625,1.6055" type="Noattach" name="Port40_Door_Single_MISC_2-039[gemi_int_tdall_Geo]" display_name="Port40_Door_Single_MISC_2-039[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -520,7 +520,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-4.1547518,-4.9877548,-3.525492" type="Noattach" name="Port41_Door_Ship_Automatic_Advanced-014[gemi_int_tdall_Geo]" display_name="Port41_Door_Ship_Automatic_Advanced-014[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="8.5,-19.125,1.625" type="Noattach" name="Port41_Door_Single_MISC_2-038[gemi_int_tdall_Geo]" display_name="Port41_Door_Single_MISC_2-038[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -530,7 +530,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="3.3139,-13.625,1.6055" type="Noattach" name="Port42_Door_Single_MISC_2-039[gemi_int_tdall_Geo]" display_name="Port42_Door_Single_MISC_2-039[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-3.3099,-13.625,1.6055" type="Noattach" name="Port42_Door_Single_MISC_2-040[gemi_int_tdall_Geo]" display_name="Port42_Door_Single_MISC_2-040[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -540,7 +540,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="8.5,-19.125,1.625" type="Noattach" name="Port43_Door_Single_MISC_2-038[gemi_int_tdall_Geo]" display_name="Port43_Door_Single_MISC_2-038[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-2.4693999,11.9488,4.5749998" type="Noattach" name="Port43_Door_Single_MISC_2_White-005[gemi_int_tdall_Geo]" display_name="Port43_Door_Single_MISC_2_White-005[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -550,7 +550,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-3.3099,-13.625,1.6055" type="Noattach" name="Port44_Door_Single_MISC_2-040[gemi_int_tdall_Geo]" display_name="Port44_Door_Single_MISC_2-040[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="8.8388004,1.4972,1.4881999" type="Noattach" name="Port44_Door_Single_MISC_3-003[gemi_int_tdall_Geo]" display_name="Port44_Door_Single_MISC_3-003[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -560,7 +560,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-7.8499999,15.55,4.5" type="Noattach" name="Port45_Door_Single_MISC_4_Female-002[gemi_int_tdall_Geo]" display_name="Port45_Door_Single_MISC_4_Female-002[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="2.4693999,11.9488,4.5749998" type="Noattach" name="Port45_Door_Single_MISC_2_White-006[gemi_int_tdall_Geo]" display_name="Port45_Door_Single_MISC_2_White-006[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -590,7 +590,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="4.1392641,-4.9867949,-3.5384829" type="Noattach" name="Port48_Door_Ship_Automatic_Advanced-015[gemi_int_tdall_Geo]" display_name="Port48_Door_Ship_Automatic_Advanced-015[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="2,-15.6885,1.66" type="Noattach" name="Port48_Door_Single_MISC_2-041[gemi_int_tdall_Geo]" display_name="Port48_Door_Single_MISC_2-041[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -600,7 +600,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="2,-15.6885,1.66" type="Noattach" name="Port49_Door_Single_MISC_2-041[gemi_int_tdall_Geo]" display_name="Port49_Door_Single_MISC_2-041[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="4.1392641,-4.9867949,-3.5384829" type="Noattach" name="Port49_Door_Ship_Automatic_Advanced-015[gemi_int_tdall_Geo]" display_name="Port49_Door_Ship_Automatic_Advanced-015[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -610,7 +610,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="5.127182,15.3793,1.266125" type="Noattach" name="Port50_Door_Ship_Automatic_Advanced-017[gemi_int_tdall_Geo]" display_name="Port50_Door_Ship_Automatic_Advanced-017[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-0.0020999999,-6.8738999,1.5362999" type="Noattach" name="Port50_Door_Ship_Automatic_Advanced-016[gemi_int_tdall_Geo]" display_name="Port50_Door_Ship_Automatic_Advanced-016[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -620,7 +620,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-0.0020999999,-6.8738999,1.5362999" type="Noattach" name="Port51_Door_Ship_Automatic_Advanced-016[gemi_int_tdall_Geo]" display_name="Port51_Door_Ship_Automatic_Advanced-016[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="5.127182,15.3793,1.266125" type="Noattach" name="Port51_Door_Ship_Automatic_Advanced-017[gemi_int_tdall_Geo]" display_name="Port51_Door_Ship_Automatic_Advanced-017[gemi_int_tdall_Geo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>

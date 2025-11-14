@@ -24,7 +24,7 @@
       <DamageResistances Type="DamageResistance">
         <IgnoreMeleeDamage>False</IgnoreMeleeDamage>
         <PhysicalResistance Type="DamageResistanceEntry">
-          <Multiplier>1</Multiplier>
+          <Multiplier>0.6</Multiplier>
           <Threshold>0</Threshold>
           <DamageCap>0</DamageCap>
         </PhysicalResistance>
@@ -1439,8 +1439,8 @@
         <regenerationCooldown>1.73</regenerationCooldown>
         <regenerationCostPerBullet>400</regenerationCostPerBullet>
         <requestedAmmoLoad>1300</requestedAmmoLoad>
-        <maxAmmoLoad>3</maxAmmoLoad>
-        <maxRegenPerSec>0.612</maxRegenPerSec>
+        <maxAmmoLoad>9</maxAmmoLoad>
+        <maxRegenPerSec>1836</maxRegenPerSec>
       </weaponRegenConsumerParams>
       <fireOnAim>False</fireOnAim>
       <scopeZoomCurve Type="BezierCurve">
@@ -2716,6 +2716,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

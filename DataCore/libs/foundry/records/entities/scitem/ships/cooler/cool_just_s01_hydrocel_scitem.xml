@@ -328,7 +328,7 @@
               <generation Type="ItemResourceDeltaAmount">
                 <resource>Coolant</resource>
                 <resourceAmountPerSecond Type="SStandardResourceUnit">
-                  <standardResourceUnits>18</standardResourceUnits>
+                  <standardResourceUnits>20</standardResourceUnits>
                 </resourceAmountPerSecond>
               </generation>
               <generatedComposition Type="ItemResourceComposition">
@@ -377,7 +377,7 @@
       </states>
       <controlParameters Type="ItemResourceControlParameterBase" Count="0" />
       <controlBlocks Type="ItemResourceControlBlock" Count="0" />
-      <defaultPriority>50</defaultPriority>
+      <defaultPriority>30</defaultPriority>
       <functionalityModifiers />
       <powerPlantOverride />
       <selfRepair Type="ItemResourceSelfRepairParams">

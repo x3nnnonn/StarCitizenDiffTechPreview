@@ -6,7 +6,7 @@
     <Object name="clinic_floor_001" type="Brush" guid="4bc10a88-25d9-d699-2582-0c2809fda68a"/>
    </Layer>
    <Layer name="connect" layerHash="2758161183" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/clinic/clinic_floor/Layers/base/clinic_floor/clinic_floor_001_base/connect.lyr"/>
-   <Layer name="geo" layerHash="1850514364" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/clinic/clinic_floor/Layers/base/clinic_floor/clinic_floor_001_base/geo.lyr">
+   <Layer name="geo" layerHash="1766302889" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/clinic/clinic_floor/Layers/base/clinic_floor/clinic_floor_001_base/geo.lyr">
     <Object name="walkway_edge_04x02x0025_a-094" type="Brush" guid="4c1f7ca9-09c9-6f00-6a3e-fc47f6da699a"/>
     <Object name="buildingsets/human/lowtech/bravo/int/bravo_int_component.roomlg.addon.beam.roomlg_addon_beam_straight_02x02x08_a-005" type="Prefab" guid="48f00d43-64ea-a600-5a90-cef60031c2a4"/>
     <Object name="floor_area_straight_08x08x01_a-1608" type="Brush" guid="43ac43f6-6f40-c600-4ee1-866cee89d8b1"/>
@@ -316,7 +316,7 @@
     <Object name="walkway_edge_04x02x0025_a-124" type="Brush" guid="41c9e88c-9779-ff47-a4fb-fd7dede121b5"/>
     <Object name="walkway_edge_04x02x0025_a-134" type="Brush" guid="4b6bd693-2ed9-2448-e1c3-73b287368da1"/>
     <Object name="floor_area_straight_08x08x01_a-2204" type="Brush" guid="474f9d8c-4974-5b48-010c-b36ca161088e"/>
-    <Object name="roomlg_addon_beam_straight_02x02x08_a-006" type="Brush" guid="43c02c82-490d-ad48-91ec-9f7cc5e74ea7"/>
+    <Object name="roomlg_addon_beam_straight_02x02x08_a-007" type="Brush" guid="43c02c82-490d-ad48-91ec-9f7cc5e74ea7"/>
     <Object name="floor_area_straight_08x08x01_a-2786" type="Brush" guid="41d8bfc4-95d0-e448-268f-55f1efaf599b"/>
     <Object name="floor_area_straight_08x08x01_a-2092" type="Brush" guid="442a49db-ff1f-fe48-cb3d-d3466d9db0bf"/>
     <Object name="floor_area_straight_08x08x01_a-2667" type="Brush" guid="4074c4db-2366-3749-f6c7-1625f8773d92"/>
@@ -1055,7 +1055,7 @@
     <Object name="floor_area_straight_08x08x01_a-2034" type="Brush" guid="41b05b66-6c6b-98f6-ee27-372aeb314994"/>
     <Object name="floor_area_straight_08x08x01_a-2236" type="Brush" guid="4d9294d7-7fcd-a6f6-53f0-5c2e5edf29a4"/>
     <Object name="floor_area_straight_08x08x01_a-1607" type="Brush" guid="4b450033-f219-b5f6-2d4e-5fdb6fae4c8c"/>
-    <Object name="roomlg_addon_beam_straight_02x02x08_a-007" type="Brush" guid="400d436b-4277-2ef7-d0eb-bba1cda358a3"/>
+    <Object name="roomlg_addon_beam_straight_02x02x08_a-006" type="Brush" guid="400d436b-4277-2ef7-d0eb-bba1cda358a3"/>
     <Object name="walkway_cornerout_02x02x0025_b-099" type="Brush" guid="4eb97a16-ff14-46f7-97b0-55882c8f86a9"/>
     <Object name="floor_area_straight_08x08x01_a-2043" type="Brush" guid="47f7a495-2c20-51f7-2793-52ec578c7c8f"/>
     <Object name="walkway_center_02x01x0025_a-325" type="Brush" guid="40e61d73-5826-78f7-03c7-e7fbf038c592"/>
@@ -1098,7 +1098,7 @@
     <Object name="AAA_Hospital_ClinicFloor" type="AudioAreaAmbience" guid="41281334-7944-c34d-880f-7c7ba950ff9d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     <Object name="AS_Hospital_ClinicFloor" type="AreaShape" guid="48070ebf-0c69-6cb1-c5c6-ad21e2407fb4" tags="f1b1052f-f3b0-4f44-b809-96380bfc4e97"/>
    </Layer>
-   <Layer name="sys" layerHash="895858846" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/clinic/clinic_floor/Layers/base/clinic_floor/clinic_floor_001_base/sys.lyr">
+   <Layer name="sys" layerHash="3388783391" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/clinic/clinic_floor/Layers/base/clinic_floor/clinic_floor_001_base/sys.lyr">
     <Object name="AreaBox_clinic_floor_001_base_005" type="AreaBox" guid="4e3c9f77-bbce-8b0c-bf14-6a03447ab992" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
     <Object name="AreaBox_clinic_floor_001_base_006" type="AreaBox" guid="42b635d6-c7b3-5919-7447-c72bef01ae96" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
     <Object name="FloorBox" type="AreaBox" guid="45f9231c-d7a1-bb4e-82d3-3c1aa8e5dc9b" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
@@ -1107,9 +1107,11 @@
     <Object name="AreaBox_clinic_floor_001_base_003" type="AreaBox" guid="45eca812-ac36-4555-1186-be8b4843b787" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
     <Object name="AreaBox_clinic_floor_001_base_007" type="AreaBox" guid="432310c2-979b-1874-59a0-057519b7f488" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
     <Object name="AreaBox_clinic_floor_001_base_008" type="AreaBox" guid="4607b783-9154-ea78-4c92-81256c68628d" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+    <Object name="AreaBox_clinic_floor_001_base" type="AreaBox" guid="4595ce25-24d9-e789-f05f-052fc9b6f4a6" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
     <Object name="AreaBox_clinic_floor_001_base_001" type="AreaBox" guid="4a74a75b-b499-558e-da11-d8a2c012b196" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
     <Object name="CaveR_Blue_Room" type="Room" guid="4244fbb7-e53c-7c8e-b093-ad40e93d1a98" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
     <Object name="CaveR_Pink_Room" type="Room" guid="4aec3618-8d8e-feb5-1dbe-90d50364009e" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+    <Object name="Room_clinic_floor_001_base_001" type="Room" guid="4f307c34-dd90-dad7-f230-063a8cb50f9e" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
     <Object name="AreaBox_clinic_floor_001_base_002" type="AreaBox" guid="4795799b-1ada-c6e1-043b-7f2a6f1eeea9" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
     <Object name="AreaBox_clinic_floor_001_base_004" type="AreaBox" guid="484710f1-1ce9-d4e5-b36f-7613822fee9f" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
     <Object name="FloorKillArea" type="AreaBox" guid="450a31fa-8e5b-b3e7-1e5f-5f13cfaed6a6" tags=""/>

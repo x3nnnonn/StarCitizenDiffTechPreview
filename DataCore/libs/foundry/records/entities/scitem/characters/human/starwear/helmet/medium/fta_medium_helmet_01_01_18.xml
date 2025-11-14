@@ -10,14 +10,18 @@
     <b>0</b>
   </defaultEditorColor>
   <entityDensityClass ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/densityclasses/fpsitemsdensityclass.xml" />
-  <tags Type="Tag" Count="9">
-    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.eca4cc23-79f7-4511-9cf1-1a832385383d" RecordId="eca4cc23-79f7-4511-9cf1-1a832385383d" />
-    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b97f2439-cde7-45f9-acc3-5eab75b0f84c" RecordId="b97f2439-cde7-45f9-acc3-5eab75b0f84c" />
+  <tags Type="Tag" Count="13">
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.8f77e0fc-4086-4d66-ae9e-8601b0a3c7f4" RecordId="8f77e0fc-4086-4d66-ae9e-8601b0a3c7f4" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.59ca5e36-b9a2-4459-ad0e-5745bcf5d899" RecordId="59ca5e36-b9a2-4459-ad0e-5745bcf5d899" />
-    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f3653dfe-343d-45d4-8b1b-56ed4e93922a" RecordId="f3653dfe-343d-45d4-8b1b-56ed4e93922a" />
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ba75cc73-a4c9-447a-9912-1fd8ccc7031b" RecordId="ba75cc73-a4c9-447a-9912-1fd8ccc7031b" />
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7fd80cf6-bce8-4499-a4a2-e1a8f3fefd7e" RecordId="7fd80cf6-bce8-4499-a4a2-e1a8f3fefd7e" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1caa8797-db36-48d0-9809-dd44e3270c31" RecordId="1caa8797-db36-48d0-9809-dd44e3270c31" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ba81fd42-eb1e-4948-9a92-6359133e16e2" RecordId="ba81fd42-eb1e-4948-9a92-6359133e16e2" />
-    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5558f6d3-adac-4797-ae75-d5863c21ff21" RecordId="5558f6d3-adac-4797-ae75-d5863c21ff21" />
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f3653dfe-343d-45d4-8b1b-56ed4e93922a" RecordId="f3653dfe-343d-45d4-8b1b-56ed4e93922a" />
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.31fd38bb-d5d3-424d-a473-dab5e85fd65d" RecordId="31fd38bb-d5d3-424d-a473-dab5e85fd65d" />
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a6c5f3ee-3547-410b-8b48-af7a4390fb5e" RecordId="a6c5f3ee-3547-410b-8b48-af7a4390fb5e" />
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b97f2439-cde7-45f9-acc3-5eab75b0f84c" RecordId="b97f2439-cde7-45f9-acc3-5eab75b0f84c" />
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.eca4cc23-79f7-4511-9cf1-1a832385383d" RecordId="eca4cc23-79f7-4511-9cf1-1a832385383d" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e0fa4e2-8cff-4f40-8444-e640beef3328" RecordId="6e0fa4e2-8cff-4f40-8444-e640beef3328" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.bed8e09b-a5f2-4f4e-9be9-ab618ebfbd58" RecordId="bed8e09b-a5f2-4f4e-9be9-ab618ebfbd58" />
   </tags>
@@ -36,7 +40,7 @@
       <trackerProperties Type="SObjectDataBankEntryTrackerParams" />
     </EntityUIDisplayParams>
   </StaticEntityClassData>
-  <Components Type="DataForgeComponentParams" Count="30">
+  <Components Type="DataForgeComponentParams" Count="31">
     <SEntityPhysicsControllerParams Type="SEntityPhysicsControllerParams">
       <PhysType Type="SEntityRigidPhysicsControllerParams">
         <Mass>5</Mass>
@@ -137,22 +141,22 @@
           <mannequinBaseTag />
         </mannequinTags>
         <inventoryOccupancyVolume Type="SMicroCargoUnit">
-          <microSCU>19000</microSCU>
+          <microSCU>17000</microSCU>
         </inventoryOccupancyVolume>
         <inventoryOccupancyDimensions Type="Vec3">
-          <x>0.244</x>
-          <y>0.298</y>
-          <z>0.335</z>
+          <x>0.24</x>
+          <y>0.272</y>
+          <z>0.317</z>
         </inventoryOccupancyDimensions>
         <inventoryOccupancyLocalBoundsMin Type="Vec3">
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
+          <x>-0.229</x>
+          <y>-0.237</y>
+          <z>-0.002</z>
         </inventoryOccupancyLocalBoundsMin>
         <inventoryOccupancyLocalBoundsMax Type="Vec3">
-          <x>0</x>
-          <y>0</y>
-          <z>0</z>
+          <x>0.229</x>
+          <y>0.229</y>
+          <z>0.352</z>
         </inventoryOccupancyLocalBoundsMax>
         <inventoryOccupancyDimensionsUIOverride Type="Vec3">
           <x>0.38</x>
@@ -222,7 +226,7 @@
                 <path>Objects/Characters/Human/male_v7/armor/fta/m_fta_medium_helmet_01_prop.cdf</path>
               </Geometry>
               <Material Type="GlobalResourceMaterial">
-                <path />
+                <path>Objects/Characters/Human/male_v7/armor/fta/m_fta_helmet_01_01_01.mtl</path>
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
@@ -1532,7 +1536,7 @@
                   </Material>
                   <SimulationGeometry />
                   <Palette Type="TintPaletteRef">
-                    <RootRecord />
+                    <RootRecord ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/tintpalettes/brand/alejo brothers/fta_medium_helmet_01_01_18.xml" />
                     <ChildPath />
                     <SwizzleOverride />
                   </Palette>
@@ -2576,7 +2580,7 @@
                   </Material>
                   <SimulationGeometry />
                   <Palette Type="TintPaletteRef">
-                    <RootRecord />
+                    <RootRecord ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/tintpalettes/brand/alejo brothers/fta_medium_helmet_01_01_18.xml" />
                     <ChildPath />
                     <SwizzleOverride />
                   </Palette>
@@ -2617,7 +2621,7 @@
                 <path>Objects/Characters/Human/male_v7/armor/fta/m_fta_medium_helmet_01_prop.cdf</path>
               </Geometry>
               <Material Type="GlobalResourceMaterial">
-                <path />
+                <path>Objects/Characters/Human/male_v7/armor/fta/m_fta_helmet_01_01_01.mtl</path>
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
@@ -2750,8 +2754,8 @@
         <MaxResistance>93</MaxResistance>
       </TemperatureResistance>
       <RadiationResistance Type="SCItemClothingRadiationResistanceParams">
-        <MaximumRadiationCapacity>50</MaximumRadiationCapacity>
-        <RadiationDissipationRate>5</RadiationDissipationRate>
+        <MaximumRadiationCapacity>26400</MaximumRadiationCapacity>
+        <RadiationDissipationRate>145.8</RadiationDissipationRate>
       </RadiationResistance>
     </SCItemClothingParams>
     <SItemPortContainerComponentParams Type="SItemPortContainerComponentParams">
@@ -3607,6 +3611,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />
@@ -4894,22 +4899,22 @@
       <suitAmbienceDef />
       <hitEffectLibName>playerhits_armour_light</hitEffectLibName>
       <remoteHitEffectLibName>playerhits_armour_light</remoteHitEffectLibName>
-      <actorAimLimits ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/actor/actorviewlimits/aimlimits/baseaimlimits.xml" />
+      <actorAimLimits ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/actor/actorviewlimits/aimlimits/aimlimits_armor_medium.xml" />
       <signatureParams Type="ItemSuitArmorSignatureParams" Count="2">
         <ItemSuitArmorSignatureParams Type="ItemSuitArmorSignatureParams">
           <signatureType>Infrared</signatureType>
-          <signatureEmission>0</signatureEmission>
+          <signatureEmission>6</signatureEmission>
           <signatureReductionWeighted>0</signatureReductionWeighted>
           <signatureReductionAbsolute>0</signatureReductionAbsolute>
         </ItemSuitArmorSignatureParams>
         <ItemSuitArmorSignatureParams Type="ItemSuitArmorSignatureParams">
           <signatureType>Electromagnetic</signatureType>
-          <signatureEmission>0</signatureEmission>
+          <signatureEmission>2</signatureEmission>
           <signatureReductionWeighted>0</signatureReductionWeighted>
           <signatureReductionAbsolute>0</signatureReductionAbsolute>
         </ItemSuitArmorSignatureParams>
       </signatureParams>
-      <restrictedMoveViewPenalty ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/moveviewrestrictionpenalties/armor/defaultmoveviewrestriction.xml" />
+      <restrictedMoveViewPenalty ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/moveviewrestrictionpenalties/armor/moveviewrestriction_armor_medium.xml" />
       <integrityMilestoneToBreak>0.1</integrityMilestoneToBreak>
     </SCItemSuitArmorParams>
     <SCItemSuitHelmetParams Type="SCItemSuitHelmetParams">
@@ -4930,8 +4935,8 @@
       <focalDistance>0.1</focalDistance>
       <transparencyPostEffectsExclusionRegion>0.1</transparencyPostEffectsExclusionRegion>
       <enableMFDCasts>True</enableMFDCasts>
-      <actorLookLimits ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/actor/actorviewlimits/looklimits/baselooklimits.xml" />
-      <restrictedMoveViewPenalty />
+      <actorLookLimits ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/actor/actorviewlimits/looklimits/looklimits_helmet_medium.xml" />
+      <restrictedMoveViewPenalty ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/moveviewrestrictionpenalties/armor/moveviewrestriction_armor_medium.xml" />
       <hasFirstPersonGeometry>False</hasFirstPersonGeometry>
       <animateOnEquip>False</animateOnEquip>
       <animateOnEquipDelay>0</animateOnEquipDelay>
@@ -5894,7 +5899,7 @@
       <linkToPort>False</linkToPort>
     </UIBindingsConsumerEntityComponentParams>
     <UIAudioComponentEntityComponentParams Type="UIAudioComponentEntityComponentParams">
-      <UIAudioDef ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/audio/ui/playervisor.xml" />
+      <UIAudioDef ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/audio/ui/playervisor_medium.xml" />
       <UIAudioManufacturers Type="UIAudioManufacturer" Count="0" />
       <useEntityClass ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/entities/scitem/holoui/entityclassdefinition.fps_holodisplay.xml" />
       <offset />
@@ -5928,5 +5933,98 @@
       <AnimationTasks Type="SSequencerAnimationTaskParamsBase" Count="0" />
       <defaultAnimation />
     </SAnimationControllerParams>
+    <SurfaceRaindropsComponentParams Type="SurfaceRaindropsComponentParams">
+      <enable>True</enable>
+      <surfaceParticleRtt Type="SurfaceParticleRTTParams">
+        <cameraFov>1</cameraFov>
+        <aspectRatio>1</aspectRatio>
+        <particleEffect Type="GlobalResourceParticle">
+          <path />
+        </particleEffect>
+        <sdfTexture>textures/vfx/sdf_textures/abstract/cells_sdf.dds</sdfTexture>
+      </surfaceParticleRtt>
+      <customEmitters Type="SurfaceRaindrops_Emitter" Count="2">
+        <SurfaceRaindrops_Emitter Type="SurfaceRaindrops_Emitter">
+          <particleEffect Type="GlobalResourceParticle">
+            <path>1112917b-0354-e979-1c7b-3b3a4956129c|RttEffects/rtt_water.Rain.Visor</path>
+          </particleEffect>
+          <linkedToSdf>True</linkedToSdf>
+          <humidityRange Type="Range">
+            <minimum>2</minimum>
+            <maximum>3</maximum>
+          </humidityRange>
+          <temperatureRange Type="Range">
+            <minimum>270</minimum>
+            <maximum>276</maximum>
+          </temperatureRange>
+          <fadeOutDuration>10</fadeOutDuration>
+        </SurfaceRaindrops_Emitter>
+        <SurfaceRaindrops_Emitter Type="SurfaceRaindrops_Emitter">
+          <particleEffect Type="GlobalResourceParticle">
+            <path>20d9556d-1334-7ed4-286d-5f33fe49fad2|RttEffects/rtt_water.Slush.Visor</path>
+          </particleEffect>
+          <linkedToSdf>True</linkedToSdf>
+          <humidityRange Type="Range">
+            <minimum>2</minimum>
+            <maximum>3</maximum>
+          </humidityRange>
+          <temperatureRange Type="Range">
+            <minimum>270</minimum>
+            <maximum>276</maximum>
+          </temperatureRange>
+          <fadeOutDuration>10</fadeOutDuration>
+        </SurfaceRaindrops_Emitter>
+      </customEmitters>
+      <wipeEffect Type="GlobalResourceParticle">
+        <path>86f21271-e157-9e53-0d76-a73264abb5e9|master/rtt_effects.water.all_substances.visor_wipe</path>
+      </wipeEffect>
+      <enableCloudCondensation>False</enableCloudCondensation>
+      <inactiveDuration>10</inactiveDuration>
+      <maximumSpeed>1</maximumSpeed>
+      <waterSprayHeightRange Type="Range">
+        <minimum>0.1</minimum>
+        <maximum>1</maximum>
+      </waterSprayHeightRange>
+      <waterSprayBaseDensity>0.2</waterSprayBaseDensity>
+      <acceleration Type="SurfaceRaindrops_Acceleration">
+        <speedMultiplier>0.5</speedMultiplier>
+        <maximumInfluenceSpeed>0.5</maximumInfluenceSpeed>
+        <rotationMultiplierSpeedRange Type="Range">
+          <minimum>0.1</minimum>
+          <maximum>1</maximum>
+        </rotationMultiplierSpeedRange>
+        <rotationMultiplierAxes Type="Vec3">
+          <x>1</x>
+          <y>1</y>
+          <z>1</z>
+        </rotationMultiplierAxes>
+        <maximumAcceleration>0.3</maximumAcceleration>
+        <helper />
+        <offset Type="QuatT">
+          <Rotation Type="Ang3">
+            <x>90</x>
+            <y>0</y>
+            <z>0</z>
+          </Rotation>
+          <Position Type="Vec3">
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </Position>
+        </offset>
+      </acceleration>
+      <occluderSettings Type="SurfaceRaindrops_Occluder">
+        <distanceToVisor>0.04</distanceToVisor>
+        <numberOfWaveSamples>10</numberOfWaveSamples>
+      </occluderSettings>
+      <overrideControls Type="SurfaceRaindrops_Override">
+        <enabled>False</enabled>
+        <useFlatVisor>False</useFlatVisor>
+        <density>0</density>
+        <rainEnabled>False</rainEnabled>
+        <snowEnabled>False</snowEnabled>
+      </overrideControls>
+      <renderNodeLoadoutEntries Type="SItemPortLoadoutEntryParams" Count="0" />
+    </SurfaceRaindropsComponentParams>
   </Components>
 </EntityClassDefinition.fta_medium_helmet_01_01_18>

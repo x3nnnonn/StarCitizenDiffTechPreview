@@ -750,7 +750,7 @@
           <bindingsMethod>None</bindingsMethod>
           <DefaultState />
           <asopReset>False</asopReset>
-          <networkAuthority>Server</networkAuthority>
+          <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="4">
             <SInteractionState Pointer="ptr:16" Type="SInteractionState">
               <StateName>LightsOn</StateName>
@@ -905,7 +905,7 @@
           <bindingsMethod>None</bindingsMethod>
           <DefaultState />
           <asopReset>False</asopReset>
-          <networkAuthority>Server</networkAuthority>
+          <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="2">
             <SInteractionState Pointer="ptr:17" Type="SInteractionState">
               <StateName>AlarmIdle</StateName>
@@ -956,13 +956,15 @@
               <onChangeStateTagStates Type="SLinkedInteractionStateTags" Count="3">
                 <SLinkedInteractionStateTags Type="SLinkedInteractionStateTags">
                   <stateTags Type="TagList">
-                    <tags Type="Tag" Count="1">
-                      <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.c601bb45-dc76-4bdc-976e-1254af800df5" RecordId="c601bb45-dc76-4bdc-976e-1254af800df5" />
+                    <tags Type="Tag" Count="3">
+                      <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4f631b3d-0f77-4d59-9105-4d565be46532" RecordId="4f631b3d-0f77-4d59-9105-4d565be46532" />
+                      <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f3f0850a-7573-426d-ae48-a8a5a03f4a95" RecordId="f3f0850a-7573-426d-ae48-a8a5a03f4a95" />
+                      <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a2b7e91-b79a-4417-98ee-c5d3982f7163" RecordId="6a2b7e91-b79a-4417-98ee-c5d3982f7163" />
                     </tags>
                   </stateTags>
                   <isANDList>False</isANDList>
                   <checkAllEntities>False</checkAllEntities>
-                  <state PointsTo="ptr:17" />
+                  <state PointsTo="ptr:12" />
                 </SLinkedInteractionStateTags>
                 <SLinkedInteractionStateTags Type="SLinkedInteractionStateTags">
                   <stateTags Type="TagList">
@@ -977,15 +979,15 @@
                 <SLinkedInteractionStateTags Type="SLinkedInteractionStateTags">
                   <stateTags Type="TagList">
                     <tags Type="Tag" Count="1">
-                      <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6a2b7e91-b79a-4417-98ee-c5d3982f7163" RecordId="6a2b7e91-b79a-4417-98ee-c5d3982f7163" />
+                      <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.c601bb45-dc76-4bdc-976e-1254af800df5" RecordId="c601bb45-dc76-4bdc-976e-1254af800df5" />
                     </tags>
                   </stateTags>
                   <isANDList>False</isANDList>
                   <checkAllEntities>False</checkAllEntities>
-                  <state PointsTo="ptr:12" />
+                  <state PointsTo="ptr:17" />
                 </SLinkedInteractionStateTags>
               </onChangeStateTagStates>
-              <nullEntityState />
+              <nullEntityState PointsTo="ptr:12" />
             </SLinkedInteractionStateChangedStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -1943,6 +1945,7 @@ Link this to Power Source</text>
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

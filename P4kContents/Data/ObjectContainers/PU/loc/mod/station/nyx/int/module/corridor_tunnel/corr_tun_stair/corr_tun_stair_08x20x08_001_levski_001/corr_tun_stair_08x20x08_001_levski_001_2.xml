@@ -1,0 +1,850 @@
+<?xml version="1.0" encoding="utf-16"?>
+<Entities sorted="1">
+  <Entity Name="ProceduralPointOfInterestProxy-218" Radius="0" Pos="4.2246820000000298,9.3366140000000541,3.4909490000000005" Rotate="0.60876131,0,0,-0.79335344" EntityClass="ProceduralPointOfInterestProxy" EntityClassGUID="71764f5f-174e-4b0c-ad4f-743f400ee48f" EntityCryGUID="4ffa7915-4d0e-a70d-1931-b6ef3fd99fb2" CastShadowMinSpec="1">
+    <PropertiesDataCore>
+      <EntityComponentPointOfInterest __type="EntityComponentPointOfInterestParams" lookAtType="Origin">
+        <customLookAtBBs __fullyInstanced="1" />
+      </EntityComponentPointOfInterest>
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="b7792907-0b11-47e2-80f6-f2fe69400bfe" />
+    </Tags>
+  </Entity>
+  <Entity Name="ProceduralPointOfInterestProxy-191" Radius="0" Pos="5.3832699999998113,13.366154000000051,4.0861910000000989" Rotate="0.60876131,0,0,-0.79335344" EntityClass="ProceduralPointOfInterestProxy" EntityClassGUID="71764f5f-174e-4b0c-ad4f-743f400ee48f" EntityCryGUID="4625dae3-1caa-017c-9caa-88ac17499db5" CastShadowMinSpec="1">
+    <PropertiesDataCore>
+      <EntityComponentPointOfInterest __type="EntityComponentPointOfInterestParams" lookAtType="Origin">
+        <customLookAtBBs __fullyInstanced="1" />
+      </EntityComponentPointOfInterest>
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="b7792907-0b11-47e2-80f6-f2fe69400bfe" />
+    </Tags>
+  </Entity>
+  <Entity Name="ProceduralPointOfInterestProxy-192" Radius="0" Pos="4.2881609999999455,9.4394270000000233,3.4909509999999955" Rotate="0.60876131,0,0,-0.79335344" EntityClass="ProceduralPointOfInterestProxy" EntityClassGUID="71764f5f-174e-4b0c-ad4f-743f400ee48f" EntityCryGUID="400920e3-bed1-b2c5-8693-cc6bf3cf1998" CastShadowMinSpec="1">
+    <PropertiesDataCore>
+      <EntityComponentPointOfInterest __type="EntityComponentPointOfInterestParams" lookAtType="Origin">
+        <customLookAtBBs __fullyInstanced="1" />
+      </EntityComponentPointOfInterest>
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="b7792907-0b11-47e2-80f6-f2fe69400bfe" />
+    </Tags>
+  </Entity>
+  <Entity Name="ProceduralPointOfInterestProxy-226" Radius="0" Pos="5.3832670000001599,13.366154000000051,4.0861879999999928" Rotate="0.60876131,0,0,-0.79335344" EntityClass="ProceduralPointOfInterestProxy" EntityClassGUID="71764f5f-174e-4b0c-ad4f-743f400ee48f" EntityCryGUID="404c378f-2e1f-93e5-75b6-a6f9f0ec0889" CastShadowMinSpec="1">
+    <PropertiesDataCore>
+      <EntityComponentPointOfInterest __type="EntityComponentPointOfInterestParams" lookAtType="Origin">
+        <customLookAtBBs __fullyInstanced="1" />
+      </EntityComponentPointOfInterest>
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="b7792907-0b11-47e2-80f6-f2fe69400bfe" />
+    </Tags>
+  </Entity>
+  <Entity Name="Light-332" Radius="5" Pos="4.5764970000000176,18.539985999999999,5.7819239999998899" Rotate="-0.48296288,-0.48296288,-0.37058991,0.62940991" EntityClass="Light" EntityClassGUID="4d9b25df-2a9b-4d6f-aaf0-d421bc8b7e60" EntityCryGUID="41202576-13d1-5f08-3569-57acb8d3b79c" CastShadowMinSpec="13">
+    <PropertiesDataCore>
+      <EntityComponentLight __type="LightComponentParams" active="1" lightType="Projector" importance="Standard" affectsThisAreaOnly="0" affectsFog="1" affectsObjects="1" useTemperature="0" distantImposter="1" ignoreLightFlickerEntities="0" affectGI="InheritAffectsObjects" enabledWithGI="Always">
+        <sizeParams __type="LightSizeParams" lightRadius="5.0" bulbRadius="0.5" planeWidth="1.0" planeHeight="1.0" />
+        <offState __type="LightStateParams_Off" presetTag="empty" />
+        <defaultState __type="LightStateParams_Default" intensity="2.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="0.462077" g="0.473532" b="0.215861" />
+        </defaultState>
+        <auxiliaryState __type="LightStateParams_Aux" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="LightStateParams_Emergency" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="LightStateParams_Cinematic" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <projectorParams __type="LightProjectorParams" texture="textures/lights/generic/rect_full_100.dds" FOV="130.0" focusedBeam="0" />
+        <shadowParams __type="LightShadowParams" shadowCasting="1" projectorNearPlane="0.0" constantBias="1.0" slopeBiasMultiplier="1.0" resolutionScale="1.0" maxShadowCastDist="35.0" disableScreenSpaceShadow="0" />
+        <styleParams __type="LightStyleParams" animationSpeed="1.0" animationPhase="0" randomAnimationPhase="0" lightanimation="empty" angularSpeed="0.0" />
+        <groupParams __type="LightGroupParams" flickerOn="0" temperatureTransition="0" transitionDelayId="-1" useRandomDelayId="0" />
+        <clipBoxParams __type="LightClipBoxParams" useClipBox="0" autoDetectClipBox="0" />
+        <fadeParams __type="LightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="LightMiscParams" specularMultiplier="1.0" fogMultiplier="1.0" glowMultiplier="1.0" planeSoftness="1.0" linkIgnoresColor="0" attenuationTweak="1.0" forceKeepEntity="0" />
+        <flareParams __type="LightFlareParams" flareEnabled="0" flare="empty" flareFOV="360.0" flareScale="1.0" attachToSun="0" />
+        <aiExtender __fullyInstanced="1" __baseType="ILightAIExtender" __type="&lt;NullPtr&gt;" />
+      </EntityComponentLight>
+      <LightAudioComponent __type="LightAudioComponentParams" enableAudio="0" attenuationScale="1.0" volume_db="0.0">
+        <playTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <stopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <luminanceRtpc __type="AudioRtpc" rtpc="empty" />
+      </LightAudioComponent>
+      <AudioPropagationComponent __type="AudioPropagationParams" audioEnvironment="empty" physicalOcclusionValueWhenClosed="1.0" physicalEncapsulationValue="1.0" />
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8" />
+    </Tags>
+    <RenderProxy AllowBakedRendering="1" />
+  </Entity>
+  <Entity Name="Light-1027" Radius="8" Pos="-1.980015000000094,4.4326650000000427,2.6659349999999904" Rotate="0.62721103,0.65328205,0.27059802,-0.32650504" EntityClass="Light" EntityClassGUID="4d9b25df-2a9b-4d6f-aaf0-d421bc8b7e60" EntityCryGUID="4def02ae-ecc3-ae12-7193-8ea4bd1caab5" CastShadowMinSpec="13">
+    <PropertiesDataCore>
+      <EntityComponentLight __type="LightComponentParams" active="1" lightType="Projector" importance="Standard" affectsThisAreaOnly="0" affectsFog="1" affectsObjects="1" useTemperature="0" distantImposter="1" ignoreLightFlickerEntities="0" affectGI="InheritAffectsObjects" enabledWithGI="Always">
+        <sizeParams __type="LightSizeParams" lightRadius="8.0" bulbRadius="0.1" planeWidth="0.15" planeHeight="0.6" />
+        <offState __type="LightStateParams_Off" presetTag="empty" />
+        <defaultState __type="LightStateParams_Default" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="0.450786" g="0.651406" b="0.590619" />
+        </defaultState>
+        <auxiliaryState __type="LightStateParams_Aux" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="LightStateParams_Emergency" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="LightStateParams_Cinematic" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <projectorParams __type="LightProjectorParams" texture="textures/lights/generic/rect_full_075.dds" FOV="120.0" focusedBeam="0" />
+        <shadowParams __type="LightShadowParams" shadowCasting="1" projectorNearPlane="0.0" constantBias="1.0" slopeBiasMultiplier="1.0" resolutionScale="1.0" maxShadowCastDist="5.0" disableScreenSpaceShadow="0" />
+        <styleParams __type="LightStyleParams" animationSpeed="1.0" animationPhase="0" randomAnimationPhase="0" lightanimation="empty" angularSpeed="0.0" />
+        <groupParams __type="LightGroupParams" flickerOn="0" temperatureTransition="0" transitionDelayId="-1" useRandomDelayId="0" />
+        <clipBoxParams __type="LightClipBoxParams" useClipBox="0" autoDetectClipBox="0" />
+        <fadeParams __type="LightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="LightMiscParams" specularMultiplier="1.0" fogMultiplier="1.0" glowMultiplier="1.0" planeSoftness="1.0" linkIgnoresColor="0" attenuationTweak="1.0" forceKeepEntity="0" />
+        <flareParams __type="LightFlareParams" flareEnabled="0" flare="empty" flareFOV="360.0" flareScale="1.0" attachToSun="0" />
+        <aiExtender __fullyInstanced="1" __baseType="ILightAIExtender" __type="&lt;NullPtr&gt;" />
+      </EntityComponentLight>
+      <LightAudioComponent __type="LightAudioComponentParams" enableAudio="1" attenuationScale="1.0" volume_db="0.0">
+        <playTrigger __type="GlobalResourceAudio" audioTrigger="Play_MCLT_Light_Tube_01" />
+        <stopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <luminanceRtpc __type="AudioRtpc" rtpc="empty" />
+      </LightAudioComponent>
+      <AudioPropagationComponent __type="AudioPropagationParams" audioEnvironment="empty" physicalOcclusionValueWhenClosed="1.0" physicalEncapsulationValue="1.0" />
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8" />
+    </Tags>
+    <RenderProxy AllowBakedRendering="1" />
+    <GeomLinks>
+      <LightGeomLink BrushID="25" />
+    </GeomLinks>
+  </Entity>
+  <Entity Name="Light-438" Radius="8" Pos="-2.2062920000000759,2.9493600000000697,3.2276400000000649" Rotate="0.65634179,0.68925875,0.18929492,-0.24146491" EntityClass="Light" EntityClassGUID="4d9b25df-2a9b-4d6f-aaf0-d421bc8b7e60" EntityCryGUID="454c0a43-3cfd-6c16-8b2f-ad307bd685ba" CastShadowMinSpec="13">
+    <PropertiesDataCore>
+      <EntityComponentLight __type="LightComponentParams" active="1" lightType="Projector" importance="Standard" affectsThisAreaOnly="0" affectsFog="1" affectsObjects="1" useTemperature="0" distantImposter="1" ignoreLightFlickerEntities="0" affectGI="InheritAffectsObjects" enabledWithGI="Always">
+        <sizeParams __type="LightSizeParams" lightRadius="8.0" bulbRadius="0.1" planeWidth="0.15" planeHeight="0.6" />
+        <offState __type="LightStateParams_Off" presetTag="empty" />
+        <defaultState __type="LightStateParams_Default" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="0.450786" g="0.651406" b="0.590619" />
+        </defaultState>
+        <auxiliaryState __type="LightStateParams_Aux" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="LightStateParams_Emergency" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="LightStateParams_Cinematic" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <projectorParams __type="LightProjectorParams" texture="textures/lights/generic/rect_full_075.dds" FOV="120.0" focusedBeam="0" />
+        <shadowParams __type="LightShadowParams" shadowCasting="1" projectorNearPlane="0.0" constantBias="1.0" slopeBiasMultiplier="1.0" resolutionScale="1.0" maxShadowCastDist="5.0" disableScreenSpaceShadow="0" />
+        <styleParams __type="LightStyleParams" animationSpeed="1.0" animationPhase="0" randomAnimationPhase="0" lightanimation="empty" angularSpeed="0.0" />
+        <groupParams __type="LightGroupParams" flickerOn="0" temperatureTransition="0" transitionDelayId="-1" useRandomDelayId="0" />
+        <clipBoxParams __type="LightClipBoxParams" useClipBox="0" autoDetectClipBox="0" />
+        <fadeParams __type="LightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="LightMiscParams" specularMultiplier="1.0" fogMultiplier="1.0" glowMultiplier="1.0" planeSoftness="1.0" linkIgnoresColor="0" attenuationTweak="1.0" forceKeepEntity="0" />
+        <flareParams __type="LightFlareParams" flareEnabled="0" flare="empty" flareFOV="360.0" flareScale="1.0" attachToSun="0" />
+        <aiExtender __fullyInstanced="1" __baseType="ILightAIExtender" __type="&lt;NullPtr&gt;" />
+      </EntityComponentLight>
+      <LightAudioComponent __type="LightAudioComponentParams" enableAudio="1" attenuationScale="1.0" volume_db="0.0">
+        <playTrigger __type="GlobalResourceAudio" audioTrigger="Play_MCLT_Light_Tube_01" />
+        <stopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <luminanceRtpc __type="AudioRtpc" rtpc="empty" />
+      </LightAudioComponent>
+      <AudioPropagationComponent __type="AudioPropagationParams" audioEnvironment="empty" physicalOcclusionValueWhenClosed="1.0" physicalEncapsulationValue="1.0" />
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8" />
+    </Tags>
+    <RenderProxy AllowBakedRendering="1" />
+  </Entity>
+  <Entity Name="cm_levski_TunnelsRight_front_probe_b_003" Radius="10.307764" Pos="-0.18668000000002394,0.71642199999996592,2.274932999999919" Rotate="0.60876131,0,0,-0.79335344" EntityClass="EnvironmentLight" EntityClassGUID="411e7307-ea79-48a1-b828-40e95a8b7072" EntityCryGUID="4bb60c5a-6f7d-543a-2829-f0cd4dbe06ab" CastShadowMinSpec="1">
+    <PropertiesDataCore>
+      <EntityComponentEnvironmentLight __type="EnvironmentLightComponentParams" active="1" affectsThisAreaOnly="0" distantGI="0" useGBuffer="1" sortPriority="44">
+        <runtimeParams __type="EnvironmentLightRuntimeParams" enable="1" enableShadows="1" sunShadowCascadeSize="0" numDiffuseBounce="0" runtimeGBuffer="1" />
+        <sizeParams __type="EnvironmentLightSizeParams" sizeX="10.0" sizeY="15.0" sizeZ="10.0" global="0" />
+        <defaultState __type="EnvironmentLightStateParams_Default" intensity="1.0" presetTag="empty">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </defaultState>
+        <auxiliaryState __type="EnvironmentLightStateParams_Aux" intensity="1.0" presetTag="empty">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="EnvironmentLightStateParams_Emergency" intensity="1.0" presetTag="empty">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="EnvironmentLightStateParams_Cinematic" intensity="1.0" presetTag="empty">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <groupParams __type="EnvironmentLightGroupParams" transitionDelayId="-1" />
+        <projectionParams __type="EnvironmentLightProjectionParams" boxProject="0" boxSizeZ="10.0" boxSizeX="10.0" boxSizeY="10.0" />
+        <fadeParams __type="EnvironmentLightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="EnvironmentLightMiscParams" useClipBox="0" specularMultiplier="1.0" attenuationFalloffMax="0.3" cubemapTexture="empty" />
+      </EntityComponentEnvironmentLight>
+    </PropertiesDataCore>
+    <RenderProxy AllowBakedRendering="1" />
+    <EntityComponentEnvironmentLight FireAreaGUID="4e9c043a-4150-bf5a-4205-408afbeb429b,4077488d-f3ed-e9ee-6ce8-0fbc79cb67a5" />
+  </Entity>
+  <Entity Name="Light-1709" Radius="8" Pos="5.0578879999998207,10.807532999999921,5.5157059999999092" Rotate="0.098146982,-0.18280996,0.0067339987,0.97821385" EntityClass="Light" EntityClassGUID="4d9b25df-2a9b-4d6f-aaf0-d421bc8b7e60" EntityCryGUID="448fa691-1131-f85a-736c-933b29a83894" CastShadowMinSpec="13">
+    <PropertiesDataCore>
+      <EntityComponentLight __type="LightComponentParams" active="1" lightType="Projector" importance="Standard" affectsThisAreaOnly="1" affectsFog="1" affectsObjects="1" useTemperature="0" distantImposter="1" ignoreLightFlickerEntities="0" affectGI="InheritAffectsObjects" enabledWithGI="Always">
+        <sizeParams __type="LightSizeParams" lightRadius="8.0" bulbRadius="0.5" planeWidth="1.0" planeHeight="1.0" />
+        <offState __type="LightStateParams_Off" presetTag="empty" />
+        <defaultState __type="LightStateParams_Default" intensity="0.1" presetTag="empty" lightStyle="0" temperature="4500.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </defaultState>
+        <auxiliaryState __type="LightStateParams_Aux" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="LightStateParams_Emergency" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="LightStateParams_Cinematic" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <projectorParams __type="LightProjectorParams" texture="textures/lights/generic/spot_075.dds" FOV="120.0" focusedBeam="0" />
+        <shadowParams __type="LightShadowParams" shadowCasting="0" projectorNearPlane="0.0" constantBias="1.0" slopeBiasMultiplier="1.0" resolutionScale="1.0" maxShadowCastDist="0.0" disableScreenSpaceShadow="0" />
+        <styleParams __type="LightStyleParams" animationSpeed="1.0" animationPhase="0" randomAnimationPhase="0" lightanimation="empty" angularSpeed="0.0" />
+        <groupParams __type="LightGroupParams" flickerOn="0" temperatureTransition="0" transitionDelayId="-1" useRandomDelayId="0" />
+        <clipBoxParams __type="LightClipBoxParams" useClipBox="0" autoDetectClipBox="0" />
+        <fadeParams __type="LightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="LightMiscParams" specularMultiplier="1.0" fogMultiplier="1.0" glowMultiplier="1.0" planeSoftness="1.0" linkIgnoresColor="0" attenuationTweak="1.0" forceKeepEntity="0" />
+        <flareParams __type="LightFlareParams" flareEnabled="0" flare="empty" flareFOV="360.0" flareScale="1.0" attachToSun="0" />
+        <aiExtender __fullyInstanced="1" __baseType="ILightAIExtender" __type="&lt;NullPtr&gt;" />
+      </EntityComponentLight>
+      <LightAudioComponent __type="LightAudioComponentParams" enableAudio="0" attenuationScale="1.0" volume_db="0.0">
+        <playTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <stopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <luminanceRtpc __type="AudioRtpc" rtpc="empty" />
+      </LightAudioComponent>
+      <AudioPropagationComponent __type="AudioPropagationParams" audioEnvironment="empty" physicalOcclusionValueWhenClosed="1.0" physicalEncapsulationValue="1.0" />
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8" />
+    </Tags>
+    <RenderProxy AllowBakedRendering="1" />
+  </Entity>
+  <Entity Name="Light-763" Radius="8" Pos="5.0578900000000431,10.807532999999921,5.5157099999998991" Rotate="0.098146982,-0.18280996,0.0067339987,0.97821385" EntityClass="Light" EntityClassGUID="4d9b25df-2a9b-4d6f-aaf0-d421bc8b7e60" EntityCryGUID="4a5e10ef-da21-8d6f-b599-c4d6bba47288" CastShadowMinSpec="13">
+    <PropertiesDataCore>
+      <EntityComponentLight __type="LightComponentParams" active="1" lightType="Projector" importance="Standard" affectsThisAreaOnly="1" affectsFog="1" affectsObjects="1" useTemperature="0" distantImposter="1" ignoreLightFlickerEntities="0" affectGI="InheritAffectsObjects" enabledWithGI="Always">
+        <sizeParams __type="LightSizeParams" lightRadius="8.0" bulbRadius="0.5" planeWidth="1.0" planeHeight="1.0" />
+        <offState __type="LightStateParams_Off" presetTag="empty" />
+        <defaultState __type="LightStateParams_Default" intensity="0.1" presetTag="empty" lightStyle="0" temperature="4500.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </defaultState>
+        <auxiliaryState __type="LightStateParams_Aux" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="LightStateParams_Emergency" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="LightStateParams_Cinematic" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <projectorParams __type="LightProjectorParams" texture="textures/lights/generic/spot_075.dds" FOV="120.0" focusedBeam="0" />
+        <shadowParams __type="LightShadowParams" shadowCasting="0" projectorNearPlane="0.0" constantBias="1.0" slopeBiasMultiplier="1.0" resolutionScale="1.0" maxShadowCastDist="0.0" disableScreenSpaceShadow="0" />
+        <styleParams __type="LightStyleParams" animationSpeed="1.0" animationPhase="0" randomAnimationPhase="0" lightanimation="empty" angularSpeed="0.0" />
+        <groupParams __type="LightGroupParams" flickerOn="0" temperatureTransition="0" transitionDelayId="-1" useRandomDelayId="0" />
+        <clipBoxParams __type="LightClipBoxParams" useClipBox="0" autoDetectClipBox="0" />
+        <fadeParams __type="LightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="LightMiscParams" specularMultiplier="1.0" fogMultiplier="1.0" glowMultiplier="1.0" planeSoftness="1.0" linkIgnoresColor="0" attenuationTweak="1.0" forceKeepEntity="0" />
+        <flareParams __type="LightFlareParams" flareEnabled="0" flare="empty" flareFOV="360.0" flareScale="1.0" attachToSun="0" />
+        <aiExtender __fullyInstanced="1" __baseType="ILightAIExtender" __type="&lt;NullPtr&gt;" />
+      </EntityComponentLight>
+      <LightAudioComponent __type="LightAudioComponentParams" enableAudio="0" attenuationScale="1.0" volume_db="0.0">
+        <playTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <stopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <luminanceRtpc __type="AudioRtpc" rtpc="empty" />
+      </LightAudioComponent>
+      <AudioPropagationComponent __type="AudioPropagationParams" audioEnvironment="empty" physicalOcclusionValueWhenClosed="1.0" physicalEncapsulationValue="1.0" />
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8" />
+    </Tags>
+    <RenderProxy AllowBakedRendering="1" />
+  </Entity>
+  <Entity Name="Light-2248" Radius="6" Pos="4.5927769999998418,18.190665999999965,6.6771900000001096" Rotate="0.70710677,0,0,-0.70710677" EntityClass="Light" EntityClassGUID="4d9b25df-2a9b-4d6f-aaf0-d421bc8b7e60" EntityCryGUID="473637f5-f3bd-0f71-e032-f1cfcb675986" CastShadowMinSpec="13">
+    <PropertiesDataCore>
+      <EntityComponentLight __type="LightComponentParams" active="1" lightType="SoftOmni" importance="Standard" affectsThisAreaOnly="1" affectsFog="1" affectsObjects="1" useTemperature="0" distantImposter="1" ignoreLightFlickerEntities="0" affectGI="InheritAffectsObjects" enabledWithGI="Always">
+        <sizeParams __type="LightSizeParams" lightRadius="6.0" bulbRadius="0.5" planeWidth="1.0" planeHeight="1.0" />
+        <offState __type="LightStateParams_Off" presetTag="empty" />
+        <defaultState __type="LightStateParams_Default" intensity="0.5" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="0.3564" g="0.223228" b="0.059511" />
+        </defaultState>
+        <auxiliaryState __type="LightStateParams_Aux" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="LightStateParams_Emergency" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="LightStateParams_Cinematic" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <projectorParams __type="LightProjectorParams" texture="empty" FOV="100.0" focusedBeam="0" />
+        <shadowParams __type="LightShadowParams" shadowCasting="0" projectorNearPlane="0.0" constantBias="1.0" slopeBiasMultiplier="1.0" resolutionScale="1.0" maxShadowCastDist="0.0" disableScreenSpaceShadow="0" />
+        <styleParams __type="LightStyleParams" animationSpeed="1.0" animationPhase="0" randomAnimationPhase="0" lightanimation="empty" angularSpeed="0.0" />
+        <groupParams __type="LightGroupParams" flickerOn="0" temperatureTransition="0" transitionDelayId="-1" useRandomDelayId="0" />
+        <clipBoxParams __type="LightClipBoxParams" useClipBox="0" autoDetectClipBox="0" />
+        <fadeParams __type="LightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="LightMiscParams" specularMultiplier="1.0" fogMultiplier="1.0" glowMultiplier="1.0" planeSoftness="1.0" linkIgnoresColor="0" attenuationTweak="1.0" forceKeepEntity="0" />
+        <flareParams __type="LightFlareParams" flareEnabled="0" flare="empty" flareFOV="360.0" flareScale="1.0" attachToSun="0" />
+        <aiExtender __fullyInstanced="1" __baseType="ILightAIExtender" __type="&lt;NullPtr&gt;" />
+      </EntityComponentLight>
+      <LightAudioComponent __type="LightAudioComponentParams" enableAudio="0" attenuationScale="1.0" volume_db="0.0">
+        <playTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <stopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <luminanceRtpc __type="AudioRtpc" rtpc="empty" />
+      </LightAudioComponent>
+      <AudioPropagationComponent __type="AudioPropagationParams" audioEnvironment="empty" physicalOcclusionValueWhenClosed="1.0" physicalEncapsulationValue="1.0" />
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8" />
+    </Tags>
+    <RenderProxy AllowBakedRendering="1" />
+  </Entity>
+  <Entity Name="Light-754" Radius="8" Pos="-3.0190419999998994,18.106381000000056,6.9574270000000524" Rotate="0.67767489,0.59948492,0.33319294,-0.26524898" EntityClass="Light" EntityClassGUID="4d9b25df-2a9b-4d6f-aaf0-d421bc8b7e60" EntityCryGUID="41a82395-6a79-95af-6c10-fa0167464fa6" CastShadowMinSpec="13">
+    <PropertiesDataCore>
+      <EntityComponentLight __type="LightComponentParams" active="1" lightType="Projector" importance="Standard" affectsThisAreaOnly="1" affectsFog="1" affectsObjects="1" useTemperature="0" distantImposter="1" ignoreLightFlickerEntities="0" affectGI="InheritAffectsObjects" enabledWithGI="Always">
+        <sizeParams __type="LightSizeParams" lightRadius="8.0" bulbRadius="0.1" planeWidth="0.15" planeHeight="0.6" />
+        <offState __type="LightStateParams_Off" presetTag="empty" />
+        <defaultState __type="LightStateParams_Default" intensity="2.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="0.450786" g="0.651406" b="0.590619" />
+        </defaultState>
+        <auxiliaryState __type="LightStateParams_Aux" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="LightStateParams_Emergency" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="LightStateParams_Cinematic" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <projectorParams __type="LightProjectorParams" texture="textures/lights/generic/rect_full_075.dds" FOV="130.0" focusedBeam="0" />
+        <shadowParams __type="LightShadowParams" shadowCasting="1" projectorNearPlane="0.0" constantBias="1.0" slopeBiasMultiplier="1.0" resolutionScale="1.0" maxShadowCastDist="15.0" disableScreenSpaceShadow="0" />
+        <styleParams __type="LightStyleParams" animationSpeed="1.0" animationPhase="0" randomAnimationPhase="0" lightanimation="empty" angularSpeed="0.0" />
+        <groupParams __type="LightGroupParams" flickerOn="0" temperatureTransition="0" transitionDelayId="-1" useRandomDelayId="0" />
+        <clipBoxParams __type="LightClipBoxParams" useClipBox="0" autoDetectClipBox="0" />
+        <fadeParams __type="LightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="LightMiscParams" specularMultiplier="1.0" fogMultiplier="1.0" glowMultiplier="1.0" planeSoftness="1.0" linkIgnoresColor="0" attenuationTweak="1.0" forceKeepEntity="0" />
+        <flareParams __type="LightFlareParams" flareEnabled="0" flare="Lowtech_Bravo_Flares.Generic.3_GenericCoolBloom" flareFOV="360.0" flareScale="1.0" attachToSun="0" />
+        <aiExtender __fullyInstanced="1" __baseType="ILightAIExtender" __type="&lt;NullPtr&gt;" />
+      </EntityComponentLight>
+      <LightAudioComponent __type="LightAudioComponentParams" enableAudio="1" attenuationScale="1.0" volume_db="0.0">
+        <playTrigger __type="GlobalResourceAudio" audioTrigger="Play_MCLT_Light_Tube_01" />
+        <stopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <luminanceRtpc __type="AudioRtpc" rtpc="empty" />
+      </LightAudioComponent>
+      <AudioPropagationComponent __type="AudioPropagationParams" audioEnvironment="empty" physicalOcclusionValueWhenClosed="1.0" physicalEncapsulationValue="1.0" />
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8" />
+    </Tags>
+    <RenderProxy AllowBakedRendering="1" />
+    <GeomLinks>
+      <LightGeomLink BrushID="26" />
+    </GeomLinks>
+  </Entity>
+  <Entity Name="Light-753" Radius="8" Pos="-2.6231540000001132,15.135281000000077,6.9266529999999875" Rotate="0.67767489,0.59948492,0.33319294,-0.26524898" EntityClass="Light" EntityClassGUID="4d9b25df-2a9b-4d6f-aaf0-d421bc8b7e60" EntityCryGUID="4a81c5f9-d3cd-5fb5-2d91-b7b2de0d1f97" CastShadowMinSpec="13">
+    <PropertiesDataCore>
+      <EntityComponentLight __type="LightComponentParams" active="1" lightType="Projector" importance="Standard" affectsThisAreaOnly="1" affectsFog="1" affectsObjects="1" useTemperature="0" distantImposter="1" ignoreLightFlickerEntities="0" affectGI="InheritAffectsObjects" enabledWithGI="Always">
+        <sizeParams __type="LightSizeParams" lightRadius="8.0" bulbRadius="0.1" planeWidth="0.15" planeHeight="0.6" />
+        <offState __type="LightStateParams_Off" presetTag="empty" />
+        <defaultState __type="LightStateParams_Default" intensity="2.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="0.450786" g="0.651406" b="0.590619" />
+        </defaultState>
+        <auxiliaryState __type="LightStateParams_Aux" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="LightStateParams_Emergency" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="LightStateParams_Cinematic" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <projectorParams __type="LightProjectorParams" texture="textures/lights/generic/rect_full_075.dds" FOV="130.0" focusedBeam="0" />
+        <shadowParams __type="LightShadowParams" shadowCasting="1" projectorNearPlane="0.0" constantBias="1.0" slopeBiasMultiplier="1.0" resolutionScale="1.0" maxShadowCastDist="15.0" disableScreenSpaceShadow="0" />
+        <styleParams __type="LightStyleParams" animationSpeed="1.0" animationPhase="0" randomAnimationPhase="0" lightanimation="empty" angularSpeed="0.0" />
+        <groupParams __type="LightGroupParams" flickerOn="0" temperatureTransition="0" transitionDelayId="-1" useRandomDelayId="0" />
+        <clipBoxParams __type="LightClipBoxParams" useClipBox="0" autoDetectClipBox="0" />
+        <fadeParams __type="LightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="LightMiscParams" specularMultiplier="1.0" fogMultiplier="1.0" glowMultiplier="1.0" planeSoftness="1.0" linkIgnoresColor="0" attenuationTweak="1.0" forceKeepEntity="0" />
+        <flareParams __type="LightFlareParams" flareEnabled="0" flare="Lowtech_Bravo_Flares.Generic.3_GenericCoolBloom" flareFOV="360.0" flareScale="1.0" attachToSun="0" />
+        <aiExtender __fullyInstanced="1" __baseType="ILightAIExtender" __type="&lt;NullPtr&gt;" />
+      </EntityComponentLight>
+      <LightAudioComponent __type="LightAudioComponentParams" enableAudio="1" attenuationScale="1.0" volume_db="0.0">
+        <playTrigger __type="GlobalResourceAudio" audioTrigger="Play_MCLT_Light_Tube_01" />
+        <stopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <luminanceRtpc __type="AudioRtpc" rtpc="empty" />
+      </LightAudioComponent>
+      <AudioPropagationComponent __type="AudioPropagationParams" audioEnvironment="empty" physicalOcclusionValueWhenClosed="1.0" physicalEncapsulationValue="1.0" />
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8" />
+    </Tags>
+    <RenderProxy AllowBakedRendering="1" />
+    <GeomLinks>
+      <LightGeomLink BrushID="32" />
+    </GeomLinks>
+  </Entity>
+  <Entity Name="Light-940" Radius="8" Pos="3.1105120000001989,2.9963020000000142,4.0229420000000573" Rotate="0.098146982,-0.18280996,0.0067339987,0.97821385" EntityClass="Light" EntityClassGUID="4d9b25df-2a9b-4d6f-aaf0-d421bc8b7e60" EntityCryGUID="43521857-c1f8-c5c6-f0e9-ead2ed1275b4" CastShadowMinSpec="13">
+    <PropertiesDataCore>
+      <EntityComponentLight __type="LightComponentParams" active="1" lightType="Projector" importance="Standard" affectsThisAreaOnly="0" affectsFog="1" affectsObjects="1" useTemperature="0" distantImposter="1" ignoreLightFlickerEntities="0" affectGI="InheritAffectsObjects" enabledWithGI="Always">
+        <sizeParams __type="LightSizeParams" lightRadius="8.0" bulbRadius="0.5" planeWidth="1.0" planeHeight="1.0" />
+        <offState __type="LightStateParams_Off" presetTag="empty" />
+        <defaultState __type="LightStateParams_Default" intensity="0.1" presetTag="empty" lightStyle="0" temperature="4500.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </defaultState>
+        <auxiliaryState __type="LightStateParams_Aux" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="LightStateParams_Emergency" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="LightStateParams_Cinematic" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <projectorParams __type="LightProjectorParams" texture="textures/lights/generic/spot_075.dds" FOV="120.0" focusedBeam="0" />
+        <shadowParams __type="LightShadowParams" shadowCasting="0" projectorNearPlane="0.0" constantBias="1.0" slopeBiasMultiplier="1.0" resolutionScale="1.0" maxShadowCastDist="0.0" disableScreenSpaceShadow="0" />
+        <styleParams __type="LightStyleParams" animationSpeed="1.0" animationPhase="0" randomAnimationPhase="0" lightanimation="empty" angularSpeed="0.0" />
+        <groupParams __type="LightGroupParams" flickerOn="0" temperatureTransition="0" transitionDelayId="-1" useRandomDelayId="0" />
+        <clipBoxParams __type="LightClipBoxParams" useClipBox="0" autoDetectClipBox="0" />
+        <fadeParams __type="LightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="LightMiscParams" specularMultiplier="1.0" fogMultiplier="1.0" glowMultiplier="1.0" planeSoftness="1.0" linkIgnoresColor="0" attenuationTweak="1.0" forceKeepEntity="0" />
+        <flareParams __type="LightFlareParams" flareEnabled="0" flare="empty" flareFOV="360.0" flareScale="1.0" attachToSun="0" />
+        <aiExtender __fullyInstanced="1" __baseType="ILightAIExtender" __type="&lt;NullPtr&gt;" />
+      </EntityComponentLight>
+      <LightAudioComponent __type="LightAudioComponentParams" enableAudio="0" attenuationScale="1.0" volume_db="0.0">
+        <playTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <stopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <luminanceRtpc __type="AudioRtpc" rtpc="empty" />
+      </LightAudioComponent>
+      <AudioPropagationComponent __type="AudioPropagationParams" audioEnvironment="empty" physicalOcclusionValueWhenClosed="1.0" physicalEncapsulationValue="1.0" />
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8" />
+    </Tags>
+    <RenderProxy AllowBakedRendering="1" />
+    <GeomLinks>
+      <LightGeomLink BrushID="60" />
+    </GeomLinks>
+  </Entity>
+  <Entity Name="Light-511" Radius="5" Pos="0.33420599999999467,20.310519000000113,6.0354549999999563" Rotate="0.65115309,0.292164,0.31601602,-0.62511903" EntityClass="Light" EntityClassGUID="4d9b25df-2a9b-4d6f-aaf0-d421bc8b7e60" EntityCryGUID="4da9e871-4f02-23d8-2fb8-7f36926cb9a4" CastShadowMinSpec="13">
+    <PropertiesDataCore>
+      <EntityComponentLight __type="LightComponentParams" active="1" lightType="Projector" importance="Standard" affectsThisAreaOnly="0" affectsFog="1" affectsObjects="1" useTemperature="0" distantImposter="1" ignoreLightFlickerEntities="0" affectGI="InheritAffectsObjects" enabledWithGI="Always">
+        <sizeParams __type="LightSizeParams" lightRadius="5.0" bulbRadius="0.5" planeWidth="1.0" planeHeight="1.0" />
+        <offState __type="LightStateParams_Off" presetTag="empty" />
+        <defaultState __type="LightStateParams_Default" intensity="2.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="0.462077" g="0.473532" b="0.215861" />
+        </defaultState>
+        <auxiliaryState __type="LightStateParams_Aux" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="LightStateParams_Emergency" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="LightStateParams_Cinematic" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <projectorParams __type="LightProjectorParams" texture="textures/lights/generic/rect_full_100.dds" FOV="130.0" focusedBeam="0" />
+        <shadowParams __type="LightShadowParams" shadowCasting="1" projectorNearPlane="0.0" constantBias="1.0" slopeBiasMultiplier="1.0" resolutionScale="1.0" maxShadowCastDist="35.0" disableScreenSpaceShadow="0" />
+        <styleParams __type="LightStyleParams" animationSpeed="1.0" animationPhase="0" randomAnimationPhase="0" lightanimation="empty" angularSpeed="0.0" />
+        <groupParams __type="LightGroupParams" flickerOn="0" temperatureTransition="0" transitionDelayId="-1" useRandomDelayId="0" />
+        <clipBoxParams __type="LightClipBoxParams" useClipBox="0" autoDetectClipBox="0" />
+        <fadeParams __type="LightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="LightMiscParams" specularMultiplier="1.0" fogMultiplier="1.0" glowMultiplier="1.0" planeSoftness="1.0" linkIgnoresColor="0" attenuationTweak="1.0" forceKeepEntity="0" />
+        <flareParams __type="LightFlareParams" flareEnabled="0" flare="empty" flareFOV="360.0" flareScale="1.0" attachToSun="0" />
+        <aiExtender __fullyInstanced="1" __baseType="ILightAIExtender" __type="&lt;NullPtr&gt;" />
+      </EntityComponentLight>
+      <LightAudioComponent __type="LightAudioComponentParams" enableAudio="0" attenuationScale="1.0" volume_db="0.0">
+        <playTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <stopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <luminanceRtpc __type="AudioRtpc" rtpc="empty" />
+      </LightAudioComponent>
+      <AudioPropagationComponent __type="AudioPropagationParams" audioEnvironment="empty" physicalOcclusionValueWhenClosed="1.0" physicalEncapsulationValue="1.0" />
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8" />
+    </Tags>
+    <RenderProxy AllowBakedRendering="1" />
+  </Entity>
+  <Entity Name="Light-1728" Radius="6" Pos="4.5927740000001904,18.190665999999965,6.6771839999998974" Rotate="0.70710677,0,0,-0.70710677" EntityClass="Light" EntityClassGUID="4d9b25df-2a9b-4d6f-aaf0-d421bc8b7e60" EntityCryGUID="46838066-8fc8-3cde-da9a-7458d3e98aa6" CastShadowMinSpec="13">
+    <PropertiesDataCore>
+      <EntityComponentLight __type="LightComponentParams" active="1" lightType="SoftOmni" importance="Standard" affectsThisAreaOnly="1" affectsFog="1" affectsObjects="1" useTemperature="0" distantImposter="1" ignoreLightFlickerEntities="0" affectGI="InheritAffectsObjects" enabledWithGI="Always">
+        <sizeParams __type="LightSizeParams" lightRadius="6.0" bulbRadius="0.5" planeWidth="1.0" planeHeight="1.0" />
+        <offState __type="LightStateParams_Off" presetTag="empty" />
+        <defaultState __type="LightStateParams_Default" intensity="0.5" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="0.3564" g="0.223228" b="0.059511" />
+        </defaultState>
+        <auxiliaryState __type="LightStateParams_Aux" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="LightStateParams_Emergency" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="LightStateParams_Cinematic" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <projectorParams __type="LightProjectorParams" texture="empty" FOV="100.0" focusedBeam="0" />
+        <shadowParams __type="LightShadowParams" shadowCasting="0" projectorNearPlane="0.0" constantBias="1.0" slopeBiasMultiplier="1.0" resolutionScale="1.0" maxShadowCastDist="0.0" disableScreenSpaceShadow="0" />
+        <styleParams __type="LightStyleParams" animationSpeed="1.0" animationPhase="0" randomAnimationPhase="0" lightanimation="empty" angularSpeed="0.0" />
+        <groupParams __type="LightGroupParams" flickerOn="0" temperatureTransition="0" transitionDelayId="-1" useRandomDelayId="0" />
+        <clipBoxParams __type="LightClipBoxParams" useClipBox="0" autoDetectClipBox="0" />
+        <fadeParams __type="LightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="LightMiscParams" specularMultiplier="1.0" fogMultiplier="1.0" glowMultiplier="1.0" planeSoftness="1.0" linkIgnoresColor="0" attenuationTweak="1.0" forceKeepEntity="0" />
+        <flareParams __type="LightFlareParams" flareEnabled="0" flare="empty" flareFOV="360.0" flareScale="1.0" attachToSun="0" />
+        <aiExtender __fullyInstanced="1" __baseType="ILightAIExtender" __type="&lt;NullPtr&gt;" />
+      </EntityComponentLight>
+      <LightAudioComponent __type="LightAudioComponentParams" enableAudio="0" attenuationScale="1.0" volume_db="0.0">
+        <playTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <stopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <luminanceRtpc __type="AudioRtpc" rtpc="empty" />
+      </LightAudioComponent>
+      <AudioPropagationComponent __type="AudioPropagationParams" audioEnvironment="empty" physicalOcclusionValueWhenClosed="1.0" physicalEncapsulationValue="1.0" />
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8" />
+    </Tags>
+    <RenderProxy AllowBakedRendering="1" />
+  </Entity>
+  <Entity Name="cm_levski_TunnelsRight_front_probe_a" Radius="10.828204" Pos="0.50941800000009607,15.462684000000081,5.1746419999999489" Rotate="0.61566108,0,0,-0.78801107" EntityClass="EnvironmentLight" EntityClassGUID="411e7307-ea79-48a1-b828-40e95a8b7072" EntityCryGUID="411d8f92-8671-e4e1-0b1b-02d80bb019a5" CastShadowMinSpec="1">
+    <PropertiesDataCore>
+      <EntityComponentEnvironmentLight __type="EnvironmentLightComponentParams" active="1" affectsThisAreaOnly="1" distantGI="0" useGBuffer="1" sortPriority="42">
+        <runtimeParams __type="EnvironmentLightRuntimeParams" enable="1" enableShadows="1" sunShadowCascadeSize="0" numDiffuseBounce="0" runtimeGBuffer="1" />
+        <sizeParams __type="EnvironmentLightSizeParams" sizeX="15.0" sizeY="10.0" sizeZ="12.0" global="0" />
+        <defaultState __type="EnvironmentLightStateParams_Default" intensity="0.5" presetTag="empty">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </defaultState>
+        <auxiliaryState __type="EnvironmentLightStateParams_Aux" intensity="1.0" presetTag="empty">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="EnvironmentLightStateParams_Emergency" intensity="1.0" presetTag="empty">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="EnvironmentLightStateParams_Cinematic" intensity="1.0" presetTag="empty">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <groupParams __type="EnvironmentLightGroupParams" transitionDelayId="-1" />
+        <projectionParams __type="EnvironmentLightProjectionParams" boxProject="0" boxSizeZ="10.0" boxSizeX="10.0" boxSizeY="10.0" />
+        <fadeParams __type="EnvironmentLightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="EnvironmentLightMiscParams" useClipBox="0" specularMultiplier="1.0" attenuationFalloffMax="0.2" cubemapTexture="empty" />
+      </EntityComponentEnvironmentLight>
+    </PropertiesDataCore>
+    <RenderProxy AllowBakedRendering="1" />
+    <EntityComponentEnvironmentLight FireAreaGUID="4e9c043a-4150-bf5a-4205-408afbeb429b,4077488d-f3ed-e9ee-6ce8-0fbc79cb67a5" />
+  </Entity>
+  <Entity Name="Light-1715" Radius="8" Pos="-0.41883400000006077,11.43748800000003,5.1298509999999169" Rotate="0.55564785,0.7247228,0.3282319,-0.24144594" EntityClass="Light" EntityClassGUID="4d9b25df-2a9b-4d6f-aaf0-d421bc8b7e60" EntityCryGUID="41d6b2e1-05cf-47e9-f418-a10fd8d5d6a2" CastShadowMinSpec="13">
+    <PropertiesDataCore>
+      <EntityComponentLight __type="LightComponentParams" active="1" lightType="Projector" importance="Standard" affectsThisAreaOnly="1" affectsFog="1" affectsObjects="1" useTemperature="0" distantImposter="1" ignoreLightFlickerEntities="0" affectGI="InheritAffectsObjects" enabledWithGI="Always">
+        <sizeParams __type="LightSizeParams" lightRadius="8.0" bulbRadius="0.1" planeWidth="0.15" planeHeight="0.6" />
+        <offState __type="LightStateParams_Off" presetTag="empty" />
+        <defaultState __type="LightStateParams_Default" intensity="2.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="0.450786" g="0.651406" b="0.590619" />
+        </defaultState>
+        <auxiliaryState __type="LightStateParams_Aux" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="LightStateParams_Emergency" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="LightStateParams_Cinematic" intensity="1.0" presetTag="empty" lightStyle="0" temperature="6600.0">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <projectorParams __type="LightProjectorParams" texture="textures/lights/generic/rect_full_075.dds" FOV="130.0" focusedBeam="0" />
+        <shadowParams __type="LightShadowParams" shadowCasting="1" projectorNearPlane="0.0" constantBias="1.0" slopeBiasMultiplier="1.0" resolutionScale="1.0" maxShadowCastDist="15.0" disableScreenSpaceShadow="0" />
+        <styleParams __type="LightStyleParams" animationSpeed="1.0" animationPhase="0" randomAnimationPhase="0" lightanimation="empty" angularSpeed="0.0" />
+        <groupParams __type="LightGroupParams" flickerOn="0" temperatureTransition="0" transitionDelayId="-1" useRandomDelayId="0" />
+        <clipBoxParams __type="LightClipBoxParams" useClipBox="0" autoDetectClipBox="0" />
+        <fadeParams __type="LightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="LightMiscParams" specularMultiplier="1.0" fogMultiplier="1.0" glowMultiplier="1.0" planeSoftness="1.0" linkIgnoresColor="0" attenuationTweak="1.0" forceKeepEntity="0" />
+        <flareParams __type="LightFlareParams" flareEnabled="0" flare="Lowtech_Bravo_Flares.Generic.3_GenericCoolBloom" flareFOV="360.0" flareScale="1.0" attachToSun="0" />
+        <aiExtender __fullyInstanced="1" __baseType="ILightAIExtender" __type="&lt;NullPtr&gt;" />
+      </EntityComponentLight>
+      <LightAudioComponent __type="LightAudioComponentParams" enableAudio="1" attenuationScale="1.0" volume_db="0.0">
+        <playTrigger __type="GlobalResourceAudio" audioTrigger="Play_MCLT_Light_Tube_01" />
+        <stopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateDefaultStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateAuxiliaryStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateEmergencyStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <lightGroupStateCinematicStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <luminanceRtpc __type="AudioRtpc" rtpc="empty" />
+      </LightAudioComponent>
+      <AudioPropagationComponent __type="AudioPropagationParams" audioEnvironment="empty" physicalOcclusionValueWhenClosed="1.0" physicalEncapsulationValue="1.0" />
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8" />
+    </Tags>
+    <RenderProxy AllowBakedRendering="1" />
+    <GeomLinks>
+      <LightGeomLink BrushID="27" />
+    </GeomLinks>
+  </Entity>
+  <Entity Name="cm_levski_TunnelsRight_front_probe_a-001" Radius="13.490738" Pos="1.9844560000001366,9.0596190000001116,3.9451610000000983" Rotate="0.60876131,0,0,-0.79335344" EntityClass="EnvironmentLight" EntityClassGUID="411e7307-ea79-48a1-b828-40e95a8b7072" EntityCryGUID="46dccc14-9a13-dcf4-7ae2-5b2402bff996" CastShadowMinSpec="1">
+    <PropertiesDataCore>
+      <EntityComponentEnvironmentLight __type="EnvironmentLightComponentParams" active="1" affectsThisAreaOnly="1" distantGI="0" useGBuffer="1" sortPriority="42">
+        <runtimeParams __type="EnvironmentLightRuntimeParams" enable="1" enableShadows="1" sunShadowCascadeSize="0" numDiffuseBounce="0" runtimeGBuffer="1" />
+        <sizeParams __type="EnvironmentLightSizeParams" sizeX="22.0" sizeY="10.0" sizeZ="12.0" global="0" />
+        <defaultState __type="EnvironmentLightStateParams_Default" intensity="1.0" presetTag="empty">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </defaultState>
+        <auxiliaryState __type="EnvironmentLightStateParams_Aux" intensity="1.0" presetTag="empty">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </auxiliaryState>
+        <emergencyState __type="EnvironmentLightStateParams_Emergency" intensity="1.0" presetTag="empty">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </emergencyState>
+        <cinematicState __type="EnvironmentLightStateParams_Cinematic" intensity="1.0" presetTag="empty">
+          <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        </cinematicState>
+        <groupParams __type="EnvironmentLightGroupParams" transitionDelayId="-1" />
+        <projectionParams __type="EnvironmentLightProjectionParams" boxProject="0" boxSizeZ="10.0" boxSizeX="10.0" boxSizeY="10.0" />
+        <fadeParams __type="EnvironmentLightFadeParams" minDistance="0.0" minFade="0.0" maxDistance="0.0" maxFade="0.0" />
+        <miscParams __type="EnvironmentLightMiscParams" useClipBox="0" specularMultiplier="1.0" attenuationFalloffMax="0.2" cubemapTexture="empty" />
+      </EntityComponentEnvironmentLight>
+    </PropertiesDataCore>
+    <RenderProxy AllowBakedRendering="1" />
+    <EntityComponentEnvironmentLight FireAreaGUID="4e9c043a-4150-bf5a-4205-408afbeb429b,4077488d-f3ed-e9ee-6ce8-0fbc79cb67a5" />
+  </Entity>
+  <Entity Name="AAA_Corridor_Tun_Stair_08x20x08_001" Radius="0" Pos="0.09375,-3.5,3.09375" EntityClass="AudioAreaAmbience" EntityClassGUID="590303e4-a3e3-49fc-a02b-c9f02663a506" EntityCryGUID="42fdd444-82b3-bd08-bbc5-94235f3f52ad" CastShadowMinSpec="1">
+    <PropertiesDataCore>
+      <AudioAreaAmbience __type="AudioAreaAmbienceComponentParams" isEnabled="1" audioEnvironment="empty" audioSwitch="empty" audioSwitchStateInside="empty" audioSwitchStateNear="empty" audioSwitchStateFar="empty" fadeDistance="5.0" environmentFadeDistance="5.0" audioSignature="0.0" positionFadeDistance="5.0" pitch="0.0" volume="0.0" atsVolumeOffset="0.0" isManagedAudioObject="1">
+        <audioPlayTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <audioStopTrigger __type="GlobalResourceAudio" audioTrigger="empty" />
+        <areaFadeRTPC __type="AudioRtpc" rtpc="area_fade_distance" />
+      </AudioAreaAmbience>
+      <EntityAudioControllerRtpcSubscriber __type="EntityAudioControllerRtpcSubscriberParams">
+        <rtpcs __fullyInstanced="1" />
+        <rtpcLists __fullyInstanced="1" />
+      </EntityAudioControllerRtpcSubscriber>
+    </PropertiesDataCore>
+    <Tags>
+      <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8" />
+    </Tags>
+  </Entity>
+  <Entity Name="AS_Corridor_Tun_Stair_08x20x08_001" Radius="51.03455" Pos="10.84375,-23.78125,-9.1875" EntityClass="AreaShape" EntityClassGUID="268254b5-2f97-41c0-91e3-8741edd2064c" EntityCryGUID="4655f33f-945c-bfbb-4e34-5b1952900a95" CastShadowMinSpec="1">
+    <PropertiesDataCore />
+    <AreaComponent Id="0" Group="0" Priority="0">
+      <Segment index="0" transform_ls="Q : 1,0,0,0 | T : 0,0,0" segmentFlags="2" Type="Shape" Height="24">
+        <Points>
+          <Point Pos="0,0,0" />
+          <Point Pos="-4.78125,0,0" />
+          <Point Pos="-8.9375,0,0" />
+          <Point Pos="-16.875,-0.03125,0" />
+          <Point Pos="-16.84375,22.84375,0" />
+          <Point Pos="-16.875,27.8125,0" />
+          <Point Pos="-16.875,40.875,0" />
+          <Point Pos="-16.3125,45.03125,0" />
+          <Point Pos="-14.53125,45.03125,0" />
+          <Point Pos="-7.71875,45.03125,0" />
+          <Point Pos="-6.125,45.03125,0" />
+          <Point Pos="-4.5625,42.90625,0" />
+          <Point Pos="-3.25,34.3125,0" />
+          <Point Pos="-6.4375,23.65625,0" />
+          <Point Pos="-1.1875,23.4375,0" />
+          <Point Pos="0.84375,23.5,0" />
+          <Point Pos="0.8125,21.0625,0" />
+          <Point Pos="0.84375,17.5,0" />
+          <Point Pos="0.84375,14.5625,0" />
+          <Point Pos="0.03125,14.875,0" />
+        </Points>
+        <SoundData>
+          <Side0 ObstructSound="1" />
+          <Side1 ObstructSound="0" />
+          <Side2 ObstructSound="1" />
+          <Side3 ObstructSound="1" />
+          <Side4 ObstructSound="1" />
+          <Side5 ObstructSound="1" />
+          <Side6 ObstructSound="1" />
+          <Side7 ObstructSound="1" />
+          <Side8 ObstructSound="0" />
+          <Side9 ObstructSound="1" />
+          <Side10 ObstructSound="1" />
+          <Side11 ObstructSound="1" />
+          <Side12 ObstructSound="1" />
+          <Side13 ObstructSound="1" />
+          <Side14 ObstructSound="1" />
+          <Side15 ObstructSound="1" />
+          <Side16 ObstructSound="0" />
+          <Side17 ObstructSound="1" />
+          <Side18 ObstructSound="1" />
+          <Side19 ObstructSound="1" />
+          <Side20 ObstructSound="1" />
+          <Side21 ObstructSound="1" />
+        </SoundData>
+      </Segment>
+      <Entities>
+        <Entity EntityCryGUID="42fdd444-82b3-bd08-bbc5-94235f3f52ad" />
+      </Entities>
+    </AreaComponent>
+    <Tags>
+      <Tag TagId="f1b1052f-f3b0-4f44-b809-96380bfc4e97" />
+    </Tags>
+    <AreaComponent Id="0" Group="0" Priority="0">
+      <Segment index="0" transform_ls="Q : 1,0,0,0 | T : 0,0,0" segmentFlags="2" Type="Shape" Height="24">
+        <Points>
+          <Point Pos="0,0,0" />
+          <Point Pos="-4.78125,0,0" />
+          <Point Pos="-8.9375,0,0" />
+          <Point Pos="-16.875,-0.03125,0" />
+          <Point Pos="-16.84375,22.84375,0" />
+          <Point Pos="-16.875,27.8125,0" />
+          <Point Pos="-16.875,40.875,0" />
+          <Point Pos="-16.3125,45.03125,0" />
+          <Point Pos="-14.53125,45.03125,0" />
+          <Point Pos="-7.71875,45.03125,0" />
+          <Point Pos="-6.125,45.03125,0" />
+          <Point Pos="-4.5625,42.90625,0" />
+          <Point Pos="-3.25,34.3125,0" />
+          <Point Pos="-6.4375,23.65625,0" />
+          <Point Pos="-1.1875,23.4375,0" />
+          <Point Pos="0.84375,23.5,0" />
+          <Point Pos="0.8125,21.0625,0" />
+          <Point Pos="0.84375,17.5,0" />
+          <Point Pos="0.84375,14.5625,0" />
+          <Point Pos="0.03125,14.875,0" />
+        </Points>
+        <SoundData>
+          <Side0 ObstructSound="1" />
+          <Side1 ObstructSound="0" />
+          <Side2 ObstructSound="1" />
+          <Side3 ObstructSound="1" />
+          <Side4 ObstructSound="1" />
+          <Side5 ObstructSound="1" />
+          <Side6 ObstructSound="1" />
+          <Side7 ObstructSound="1" />
+          <Side8 ObstructSound="0" />
+          <Side9 ObstructSound="1" />
+          <Side10 ObstructSound="1" />
+          <Side11 ObstructSound="1" />
+          <Side12 ObstructSound="1" />
+          <Side13 ObstructSound="1" />
+          <Side14 ObstructSound="1" />
+          <Side15 ObstructSound="1" />
+          <Side16 ObstructSound="0" />
+          <Side17 ObstructSound="1" />
+          <Side18 ObstructSound="1" />
+          <Side19 ObstructSound="1" />
+          <Side20 ObstructSound="1" />
+          <Side21 ObstructSound="1" />
+        </SoundData>
+      </Segment>
+      <Entities>
+        <Entity EntityCryGUID="42fdd444-82b3-bd08-bbc5-94235f3f52ad" />
+      </Entities>
+    </AreaComponent>
+  </Entity>
+  <Entity Name="fv_levski_TunnelsRight_front_fogvolume_005" Radius="13.490738" Pos="1.9573930000001383,9.0547739999999521,3.8055090000000291" Rotate="0.60876131,0,0,-0.79335344" EntityClass="FogVolume" EntityClassGUID="5ef9c3b6-e030-440e-9c29-3bb8da6f7ad4" EntityCryGUID="4cab4cae-d87b-b533-fa3f-00f15661ea92" CastShadowMinSpec="1">
+    <PropertiesDataCore>
+      <FogVolume __type="FogVolumeComponentParams" active="1" volumeType="1" hdrDynamic="2.0" useGlobalFogColor="0" globalDensity="0.1" densityOffset="1.0" fallOffDirLong="0.0" fallOffDirLati="90.0" fallOffShift="0.0" fallOffScale="1.0" softEdges="0.2" rampStart="1.0" rampEnd="10.0" rampInfluence="0.9" densityNoiseScale="0.0" densityNoiseOffset="1.0" densityNoiseTimeFrequency="0.0" densityNoiseWindInfluence="0.1" affectsThisAreaOnly="0" maxDistance="60.0">
+        <size __type="Vec3" x="22.0" y="10.0" z="12.0" />
+        <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        <densityNoiseSize __type="Vec3" x="1.0" y="1.0" z="1.0" />
+      </FogVolume>
+    </PropertiesDataCore>
+    <RenderProxy AllowBakedRendering="1" />
+    <FogVolume FogVolumeHash="2572519612" />
+  </Entity>
+  <Entity Name="fv_levski_TunnelsRight_front_fogvolume_1" Radius="13.490738" Pos="1.9573949999999058,9.0547739999999521,3.8055110000000241" Rotate="0.60876131,0,0,-0.79335344" EntityClass="FogVolume" EntityClassGUID="5ef9c3b6-e030-440e-9c29-3bb8da6f7ad4" EntityCryGUID="41f8453c-19f9-5896-d7bb-98c9c3b8cdab" CastShadowMinSpec="1">
+    <PropertiesDataCore>
+      <FogVolume __type="FogVolumeComponentParams" active="1" volumeType="1" hdrDynamic="2.0" useGlobalFogColor="0" globalDensity="0.1" densityOffset="1.0" fallOffDirLong="0.0" fallOffDirLati="90.0" fallOffShift="0.0" fallOffScale="1.0" softEdges="0.2" rampStart="1.0" rampEnd="10.0" rampInfluence="0.9" densityNoiseScale="0.0" densityNoiseOffset="1.0" densityNoiseTimeFrequency="0.0" densityNoiseWindInfluence="0.1" affectsThisAreaOnly="0" maxDistance="60.0">
+        <size __type="Vec3" x="22.0" y="10.0" z="12.0" />
+        <color __type="RGB" r="1.0" g="1.0" b="1.0" />
+        <densityNoiseSize __type="Vec3" x="1.0" y="1.0" z="1.0" />
+      </FogVolume>
+    </PropertiesDataCore>
+    <RenderProxy AllowBakedRendering="1" />
+    <FogVolume FogVolumeHash="2292287757" />
+  </Entity>
+</Entities>

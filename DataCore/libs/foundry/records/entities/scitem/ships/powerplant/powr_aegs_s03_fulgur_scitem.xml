@@ -492,7 +492,7 @@
           <effectTag />
           <explosionChance>0.2</explosionChance>
           <explosionCountdown>87</explosionCountdown>
-          <degradationAdditionalRollsFactor>10</degradationAdditionalRollsFactor>
+          <degradationAdditionalRollsFactor>0</degradationAdditionalRollsFactor>
           <criticalMalfunctionStates Type="SCriticalMalfunctionStates">
             <safeState PointsTo="ptr:3" />
             <selfDestructState PointsTo="ptr:4" />
@@ -859,6 +859,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

@@ -1,12 +1,12 @@
-<ObjectContainer sourceLevel="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern">
+<ObjectContainer sourceLevel="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern">
  <Layers>
-  <Layer fullname="base/cavern/cavern_40x80x40_003_base" externalLayerLevelDir="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/" externalLayerParentDir="base/cavern/" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base.lyr" ParentGUID="{4F46CA1F-DC41-4A58-A371-65A8B13E55DF}" layerHash="3408459211">
-   <Layer name="ai" layerHash="881543927" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/ai.lyr"/>
-   <Layer name="cover" layerHash="4096005633" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/cover.lyr"/>
-   <Layer name="decal" layerHash="322954879" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/decal.lyr"/>
-   <Layer name="geo" layerHash="4231436887" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/geo.lyr">
-    <Layer name="ceiling" layerHash="3672776327" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/geo/ceiling.lyr"/>
-    <Layer name="floor" layerHash="4043624298" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/geo/floor.lyr">
+  <Layer fullname="base/cavern/cavern_40x80x40_003_base" externalLayerLevelDir="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/" externalLayerParentDir="base/cavern/" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base.lyr" ParentGUID="{4F46CA1F-DC41-4A58-A371-65A8B13E55DF}" layerHash="3408459211">
+   <Layer name="ai" layerHash="881543927" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/ai.lyr"/>
+   <Layer name="cover" layerHash="4096005633" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/cover.lyr"/>
+   <Layer name="decal" layerHash="322954879" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/decal.lyr"/>
+   <Layer name="geo" layerHash="4231436887" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/geo.lyr">
+    <Layer name="ceiling" layerHash="3672776327" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/geo/ceiling.lyr"/>
+    <Layer name="floor" layerHash="4043624298" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/geo/floor.lyr">
      <Object name="lt_delta_stair_straight_04x08_a-033" type="Brush" guid="47449d08-6d2b-0103-2853-9fecba5f2785"/>
      <Object name="lt_delta_stair_straight_04x08_a-112" type="Brush" guid="4f17a163-f704-5303-32d5-50fb6a46b099"/>
      <Object name="lt_delta_stair_straight_04x08_a-087" type="Brush" guid="400c08bb-03ee-8812-b1bb-5e6da01a3f9c"/>
@@ -74,15 +74,15 @@
      <Object name="lt_delta_stair_straight_04x08_a-042" type="Brush" guid="40680195-6704-a1f3-bacf-cc86d63df19d"/>
      <Object name="lt_delta_stair_straight_04x08_a-061" type="Brush" guid="44645eca-36ee-f9fe-3bd3-8dbcf762889e"/>
     </Layer>
-    <Layer name="pipes" layerHash="1841600700" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/geo/pipes.lyr"/>
-    <Layer name="rocks" layerHash="1465387342" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/geo/rocks.lyr">
-     <Layer name="dressing_rocks" layerHash="1493556560" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/geo/rocks/dressing_rocks.lyr"/>
+    <Layer name="pipes" layerHash="1841600700" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/geo/pipes.lyr"/>
+    <Layer name="rocks" layerHash="1465387342" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/geo/rocks.lyr">
+     <Layer name="dressing_rocks" layerHash="1493556560" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/geo/rocks/dressing_rocks.lyr"/>
      <Object name="cavern_40x80x40_003_04" type="Brush" guid="438454d7-a679-316d-3e80-2840e3f8a791"/>
      <Object name="cavern_40x80x40_003_01" type="Brush" guid="4ee23eb4-28ee-3dac-7527-c974d90b5b8e"/>
      <Object name="cavern_40x80x40_003_02" type="Brush" guid="46a86388-23f5-c4c7-dd1a-0c8c4485cc94"/>
      <Object name="cavern_40x80x40_003_03" type="Brush" guid="46ccab99-4fba-23ee-ee99-6b0367204dac"/>
     </Layer>
-    <Layer name="wall" layerHash="271897059" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/geo/wall.lyr">
+    <Layer name="wall" layerHash="271897059" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/geo/wall.lyr">
      <Object name="Designer-614" type="Designer" guid="4b32d7ed-7012-dc11-45b0-039ac029fa84"/>
      <Object name="Designer-611" type="Designer" guid="4221bdc0-c24f-621b-2e8b-c3616552f682"/>
      <Object name="Designer-617" type="Designer" guid="4e0daf9b-8d94-b31c-b453-b3dd5dd45582"/>
@@ -105,26 +105,26 @@
      <Object name="Designer-602" type="Designer" guid="4192f1ca-9538-3ae3-421a-c2d6c453eaa7"/>
     </Layer>
    </Layer>
-   <Layer name="gp" layerHash="2412738448" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/gp.lyr">
+   <Layer name="gp" layerHash="2412738448" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/gp.lyr">
     <Object name="outlaw_camp_20x18x10_001_base-001" type="ObjectContainer" guid="4f955dd2-67bb-cc1a-f2de-b6c150537098" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
     <Object name="mining_drone_turret_001_b-001" type="Brush" guid="4ae29dc5-d035-0b1e-191a-5afff99d48ab"/>
     <Object name="mining_drone_right_leg_003_a-001" type="Brush" guid="4c4dc48b-773d-db62-92f3-3fd61e5d8789"/>
     <Object name="mining_drone_right_leg_002_a-001" type="Brush" guid="4767128f-5575-4974-15f7-5c325c9f97b5"/>
     <Object name="outlaw_camp_16x08x05_001_base-001" type="ObjectContainer" guid="41a7cd85-1355-1676-6c3d-b6b4ffeb25b4" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
-    <Object name="rckcrkr_sparkplug_drone_slot_a-002" type="rckcrkr_sparkplug_drone_slot_a" guid="4b100ef9-a1c9-de81-c790-3c125a1ca9bd" tags="99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,f774812b-80b5-4199-b0a3-246b2d25c610"/>
+    <Object name="rckcrkr_sparkplug_drone_slot_a-002" type="rckcrkr_sparkplug_drone_slot_a" guid="4b100ef9-a1c9-de81-c790-3c125a1ca9bd" tags="849b8481-5893-4301-964e-4f39f3e27ad8,f774812b-80b5-4199-b0a3-246b2d25c610,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     <Object name="mining_drone_left_leg_003_b-001" type="Brush" guid="49d8a093-29b0-67c5-2ead-414b10362f89"/>
     <Object name="mining_drone_left_leg_003_a-001" type="Brush" guid="4e5daa16-81d4-c8d3-608c-3d27ab63309f"/>
    </Layer>
-   <Layer name="light" layerHash="2779202368" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/light.lyr">
+   <Layer name="light" layerHash="2068050421" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/light.lyr">
     <Object name="Light-4432" type="Light" guid="4f829b6e-2b8a-6600-43b6-8ae88d097296" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-4635" type="Light" guid="4f6d8472-04f0-5c02-c8ca-7f0b1827e0ac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-001" type="Light" guid="4f6d8472-04f0-5c02-c8ca-7f0b1827e0ac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4436" type="Light" guid="49d15ba3-9f59-310c-8889-5be1711ad1b5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4438" type="Light" guid="4e2181ea-1771-8c1d-7723-48d206211aa5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4426" type="Light" guid="4f61b8c4-1e9c-f424-432d-280a28187fa2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4434" type="Light" guid="4be2953e-9ecc-6a27-1abc-3a43367750bb" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4437" type="Light" guid="41160afe-d636-9c49-2d79-3e1fb7589890" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4430" type="Light" guid="470ae4de-f4c5-394e-9df2-4bd2330efdb9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-4636" type="Light" guid="47bf39ca-13a1-a872-cc32-ec02ef54eaa3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4419" type="Light" guid="47bf39ca-13a1-a872-cc32-ec02ef54eaa3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4427" type="Light" guid="46a58a6e-285b-3d76-e4e2-f269d6079f8a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4429" type="Light" guid="4dfa4e94-fa2a-3f8c-1119-b6c9f14888ac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4431" type="Light" guid="43bff9f5-1fd3-0f98-b9da-cf06bbc95fb0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -132,7 +132,7 @@
     <Object name="Light-4423" type="Light" guid="4fd00eae-1597-7da2-1cda-a7c68a736896" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4425" type="Light" guid="4fe87714-14b2-fcc0-f9a7-b921a8598e87" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4428" type="Light" guid="47ffd7e0-4de8-75c7-3bc4-d5ea96a5c2aa" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Light-4637" type="Light" guid="4da7c4d4-ca0a-c8d2-b152-2c06266e8c8e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Light-4420" type="Light" guid="4da7c4d4-ca0a-c8d2-b152-2c06266e8c8e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4424" type="Light" guid="4cefb299-fc29-e1d6-5f55-46b94eb4c098" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4435" type="Light" guid="418bca5d-7d30-14e3-ad79-126423dca1a0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4433" type="Light" guid="4e89987a-7167-bde7-699c-22daca7493a5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -140,9 +140,9 @@
     <Object name="Light-4439" type="Light" guid="4699454e-7dc7-a0fc-4409-66f303c420a0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-4422" type="Light" guid="4dbbec0f-586e-4fff-a8a8-64dcf1e7f099" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
    </Layer>
-   <Layer name="oc" layerHash="1787477922" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/oc.lyr"/>
-   <Layer name="proc" layerHash="734001937" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/proc.lyr"/>
-   <Layer name="prop" layerHash="993147191" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/prop.lyr">
+   <Layer name="oc" layerHash="1787477922" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/oc.lyr"/>
+   <Layer name="proc" layerHash="734001937" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/proc.lyr"/>
+   <Layer name="prop" layerHash="993147191" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/prop.lyr">
     <Object name="mining_drone_right_leg_003_c" type="Brush" guid="4934319f-3ab4-1b07-4ee5-c08724de4696"/>
     <Object name="util_common_prop_scaffold_base_a-006" type="Brush" guid="44262c91-f523-8a07-7aab-44358e87518e"/>
     <Object name="lt_delta_walkway_straight_06x02_a-211" type="Brush" guid="4dbb047f-1969-6115-afed-9661a4424787"/>
@@ -151,34 +151,34 @@
     <Object name="util_common_prop_scaffold_base_a-003" type="Brush" guid="45632f7d-2947-1239-30fd-6d29f991bf98"/>
     <Object name="util_common_prop_scaffold_base_a-009" type="Brush" guid="487070d2-08c3-e83c-43e5-16100adcde9d"/>
     <Object name="lt_delta_walkway_straight_06x02_a-212" type="Brush" guid="4e7667fc-6fcc-f23e-4c4d-20ed7d7af8a3"/>
-    <Object name="lt_delta_walkway_straight_06x02_a-463" type="Brush" guid="4a4b068a-2619-3b40-83f8-3909647f88a1"/>
+    <Object name="lt_delta_walkway_straight_06x02_a-351" type="Brush" guid="4a4b068a-2619-3b40-83f8-3909647f88a1"/>
     <Object name="mining_drone_turret_001_d" type="Brush" guid="44005004-7e51-6c46-7dff-4481eab58db9"/>
     <Object name="lt_delta_walkway_straight_06x02_a-207" type="Brush" guid="4dc91b91-299d-454f-5467-eed0b001b689"/>
-    <Object name="PrefabPivot-002" type="PrefabPivot" guid="4d22837d-8751-a658-5c21-08dfd1e678bd" tags=""/>
+    <Object name="PrefabPivot" type="PrefabPivot" guid="4d22837d-8751-a658-5c21-08dfd1e678bd" tags=""/>
     <Object name="mining_drone_left_leg_002_a-001" type="Brush" guid="4954f482-b805-9562-a780-ddee470361b7"/>
-    <Object name="lt_delta_walkway_straight_06x02_a-465" type="Brush" guid="426f430b-ed01-2370-9e99-78979e827db8"/>
+    <Object name="lt_delta_walkway_straight_06x02_a-426" type="Brush" guid="426f430b-ed01-2370-9e99-78979e827db8"/>
     <Object name="lt_delta_walkway_straight_06x02_a-214" type="Brush" guid="4f9a3b25-1c31-5870-d3ec-4c92e638b790"/>
     <Object name="util_common_prop_scaffold_base_a-010" type="Brush" guid="44f104b0-08b7-9f76-2023-36fc9d363a8c"/>
     <Object name="lt_delta_walkway_straight_06x02_a-209" type="Brush" guid="4f5791db-29dd-118b-55a1-460a32e09492"/>
     <Object name="util_common_prop_scaffold_base_a-008" type="Brush" guid="43029a8c-e433-2a98-be71-ecdee2f0da8d"/>
-    <Object name="lt_delta_walkway_straight_06x02_a-466" type="Brush" guid="43d2b1e6-8e04-21a1-3079-659d1a8ef58a"/>
+    <Object name="lt_delta_walkway_straight_06x02_a-428" type="Brush" guid="43d2b1e6-8e04-21a1-3079-659d1a8ef58a"/>
     <Object name="util_common_prop_scaffold_base_a-004" type="Brush" guid="487fc4b6-8df4-7aaa-4963-aeee10fc91a6"/>
     <Object name="mining_drone_right_leg_002_a-002" type="Brush" guid="42b9a61e-8672-06ad-4e52-7150185cf39c"/>
-    <Object name="lt_delta_walkway_straight_06x02_a-467" type="Brush" guid="4bfd76e7-5139-00b3-1b0c-b5a8780833b4"/>
+    <Object name="lt_delta_walkway_straight_06x02_a-425" type="Brush" guid="4bfd76e7-5139-00b3-1b0c-b5a8780833b4"/>
     <Object name="lt_delta_walkway_straight_06x02_a-210" type="Brush" guid="48d477da-a505-37b7-6ce2-f76efdc652ad"/>
-    <Object name="lt_delta_walkway_straight_06x02_a-464" type="Brush" guid="4ec5032a-41c2-debc-b536-60360df2c897"/>
+    <Object name="lt_delta_walkway_straight_06x02_a-427" type="Brush" guid="4ec5032a-41c2-debc-b536-60360df2c897"/>
     <Object name="util_common_prop_scaffold_base_a-007" type="Brush" guid="46109ced-da1c-45bd-71fc-5051fe6a4c9d"/>
     <Object name="lt_delta_walkway_straight_06x02_a-213" type="Brush" guid="46883277-4736-1cc6-f22b-71d187074db2"/>
     <Object name="util_common_prop_scaffold_base_a-002" type="Brush" guid="43fe77d5-2e02-3cd9-4fbd-dbd7d76961af"/>
-    <Object name="lt_delta_walkway_straight_06x02_a-462" type="Brush" guid="460dd5b4-955b-9be2-f9a1-f1d97a5a3d91"/>
+    <Object name="lt_delta_walkway_straight_06x02_a-429" type="Brush" guid="460dd5b4-955b-9be2-f9a1-f1d97a5a3d91"/>
     <Object name="util_common_prop_scaffold_base_a-005" type="Brush" guid="4a535547-3ce0-0cf0-8a5f-52f9b1642e95"/>
     <Object name="lt_delta_walkway_straight_06x02_a-208" type="Brush" guid="448e8ef4-960a-cbf3-c4b9-26294c70f8a4"/>
     <Object name="mining_drone.mining_drone_001_a" type="Prefab" guid="43a0935c-86af-54f8-8e89-b4f235766d9a"/>
    </Layer>
-   <Layer name="sfx" layerHash="2072540891" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/sfx.lyr"/>
-   <Layer name="sys" layerHash="2440050931" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/sys.lyr"/>
-   <Layer name="vfx" layerHash="3766229844" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/vfx.lyr"/>
-   <Layer name="vis" layerHash="26815918" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/vis.lyr">
+   <Layer name="sfx" layerHash="2072540891" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/sfx.lyr"/>
+   <Layer name="sys" layerHash="2440050931" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/sys.lyr"/>
+   <Layer name="vfx" layerHash="3766229844" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/vfx.lyr"/>
+   <Layer name="vis" layerHash="2152510528" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_003_base/vis.lyr">
     <Object name="GenericShape-081" type="GenericShape" guid="47685d35-1f9f-e624-5833-e9126b950a9a" tags=""/>
     <Object name="GenericShape-089" type="GenericShape" guid="4037712b-57c8-2c35-0128-e3611cf23daa" tags=""/>
     <Object name="GenericShape-084" type="GenericShape" guid="42762c20-ed57-d773-985b-7545c7d94083" tags=""/>
@@ -187,7 +187,7 @@
     <Object name="GenericShape-088" type="GenericShape" guid="49c613b2-f84d-3784-a239-5884e320478e" tags=""/>
     <Object name="GenericShape-075" type="GenericShape" guid="4b2bc62e-4bcf-3185-cfb3-7905ec83b690" tags=""/>
     <Object name="GenericShape-087" type="GenericShape" guid="4888bf43-3b40-f48f-5ef1-90a9f9f4eebb" tags=""/>
-    <Object name="GenericShape-093" type="GenericShape" guid="49b03978-bec0-509c-ee0b-cddcbb9b858b" tags=""/>
+    <Object name="GenericShape-079" type="GenericShape" guid="49b03978-bec0-509c-ee0b-cddcbb9b858b" tags=""/>
     <Object name="GenericShape-083" type="GenericShape" guid="4c74f527-123d-22be-b43d-130299b3ebb1" tags=""/>
     <Object name="GenericShape-082" type="GenericShape" guid="4b41457e-94b9-dff1-c02e-213c09801bbc" tags=""/>
    </Layer>

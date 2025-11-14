@@ -581,7 +581,7 @@
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>Warning</StateTypeName>
           <bindingsMethod>None</bindingsMethod>
-          <DefaultState />
+          <DefaultState PointsTo="ptr:10" />
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
@@ -830,7 +830,7 @@
       <Ports Type="SItemPortDef" Count="2">
         <SItemPortDef Pointer="ptr:3" Type="SItemPortDef">
           <Name>$slot_fuse_01</Name>
-          <DisplayName>@item_NameFuse_standard</DisplayName>
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags />
@@ -946,7 +946,7 @@
         </SItemPortDef>
         <SItemPortDef Pointer="ptr:6" Type="SItemPortDef">
           <Name>$slot_fuse_02</Name>
-          <DisplayName>@item_NameFuse_standard</DisplayName>
+          <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags />
@@ -1068,6 +1068,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

@@ -133,11 +133,11 @@
     <Object name="pv_lp_asd_pwr_wall_aux_prefabpivot-001" type="PrefabPivot" guid="4b54402b-c66b-eb51-4991-baf8f9612987" tags=""/>
     <Object name="common_light_panel_set_b_rectangle_00125x01m_a-008" type="Brush" guid="4828c2ae-24f3-7556-05fc-af1ec4656b94"/>
     <Object name="lt_asd_delv_corr_elev_20x20_004_power_aban_001_light-019" type="Light" guid="48825880-88f4-6157-93a7-0474523bf7a0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="lt_lp_asd_pwr_wall_aux_a_light-004" type="Light" guid="40ddd325-07d0-785e-36d4-580adc875ba8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_lp_asd_pwr_wall_aux_a_light-003" type="Light" guid="40ddd325-07d0-785e-36d4-580adc875ba8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="pv_lp_asd_pwr_wall_aux_prefabpivot" type="PrefabPivot" guid="46db9bec-a74b-8767-82d0-93cf592ffa9c" tags=""/>
     <Object name="power_int.wall.lp_asd_pwr_wall_aux_a-002" type="Prefab" guid="485e659b-5aa8-4a6c-734d-eadfe3f4fe9d"/>
     <Object name="lt_asd_delv_corr_elev_20x20_004_power_aban_001_light-005" type="Light" guid="45f4e9c7-33cd-de86-90c3-5719edfabfb8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="lt_lp_asd_pwr_wall_aux_a_light-003" type="Light" guid="4b75b0e1-7455-4397-ecb8-17eb22935ba4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="lt_lp_asd_pwr_wall_aux_a_light-004" type="Light" guid="4b75b0e1-7455-4397-ecb8-17eb22935ba4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="ugf_surf_wb_lobby_pillar_lg_1091" type="Brush" guid="45a60e72-6f5d-36a0-033d-1c1c11e40f8e"/>
     <Object name="light_floor_1_a-001" type="Brush" guid="4c897eb3-e954-c2a2-fc31-f4f14ea73fa0"/>
     <Object name="lb_asd_corridor_straight_10x10m_002_lightbox-004" type="LightBox" guid="45fecec6-a8ce-99aa-1eb4-a4265af3c094" tags=""/>
@@ -156,7 +156,7 @@
    </Layer>
    <Layer name="oc" layerHash="719547981" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/corridor/straight/corridor_straight_10x10m_001/Layers/overlay/power/power_aban/power_aban_002/oc.lyr"/>
    <Layer name="proc" layerHash="694471872" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/corridor/straight/corridor_straight_10x10m_001/Layers/overlay/power/power_aban/power_aban_002/proc.lyr"/>
-   <Layer name="prop" layerHash="1804437891" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/corridor/straight/corridor_straight_10x10m_001/Layers/overlay/power/power_aban/power_aban_002/prop.lyr">
+   <Layer name="prop" layerHash="3171149995" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/corridor/straight/corridor_straight_10x10m_001/Layers/overlay/power/power_aban/power_aban_002/prop.lyr">
     <Object name="addon_greeble_f-003" type="Brush" guid="4253aa1f-2fc8-1200-4e13-6f4eaeab6a87"/>
     <Object name="crate_dry_1_0125x0125x0125_a" type="Brush" guid="45e8eb75-9ec5-4b02-ddbf-6fad69e88d8b"/>
     <Object name="common_cable_tray_set_a_cable_tray_corner_01m_a-006" type="Brush" guid="45a8d143-def8-b602-4ec8-be6123dd3483"/>
@@ -166,8 +166,8 @@
     <Object name="cable_straight_3_cable_2m_a-007" type="Brush" guid="47d2b971-82ef-010b-1c0a-6ed4d3f71f8b"/>
     <Object name="util_pipe_b_str_2m_a-045" type="Brush" guid="4edee407-ce83-fe0d-2f14-965a6e005fab"/>
     <Object name="addon_greeble_fan_b-669" type="Brush" guid="455cae0a-e5d8-750e-c600-7dbb2fc13b94"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-019" type="Brush" guid="419baade-e09b-3e16-7712-932a50a4b3a6"/>
     <Object name="crate_dry_1_00625x00625x00625_a-003" type="Brush" guid="4c352fdf-8373-2c1d-cd1d-1aa504bc1fab"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-023" type="Brush" guid="4e53fda2-aaef-4520-441d-fe9a65523e85"/>
     <Object name="util_pipe_b_cnr_05m_a-029" type="Brush" guid="49f0a484-1dc8-8b22-4de7-78e6fbd89ea1"/>
     <Object name="util_pipe_b_str_2m_a-051" type="Brush" guid="4e3f8ee4-00c1-d322-5893-3aec66f2de93"/>
     <Object name="Cover.crates.cover_crouch_pile_01x01m_crates" type="Prefab" guid="48bf9597-d13e-7625-1e00-6879f7b6528c"/>
@@ -190,28 +190,29 @@
     <Object name="util_pipe_b_str_2m_a-064" type="Brush" guid="48f24b08-dd81-d24b-4319-4d84756ce493"/>
     <Object name="util_pipe_b_cnr_05m_a-024" type="Brush" guid="421b60ec-b05e-f24c-03e6-addf5f94319a"/>
     <Object name="common_cable_tray_set_a_cable_tray_corner_01m_a-009" type="Brush" guid="4f0c8114-6ae0-144f-1674-47aa8186eeb7"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-028" type="Brush" guid="47a1d55c-39cc-5c4f-ad26-e77e3e93f4bc"/>
     <Object name="util_pipe_b_str_2m_a-070" type="Brush" guid="4f4b26ab-6ff7-c64f-668e-6ba919bd70a0"/>
     <Object name="common_cable_tray_set_a_cable_tray_t_junction_01m_a-016" type="Brush" guid="41dfb962-1b56-8057-dd9e-6b253b5ead89"/>
     <Object name="addon_greeble_fan_b-695" type="Brush" guid="4a18293e-2312-a661-5c39-6c789b4bfd80"/>
-    <Object name="crate_dry_1_0125x0125x0125_stack_a-005" type="Brush" guid="433e906f-cbda-1c65-77fb-e9a8b46f839f"/>
     <Object name="cable_straight_3_cable_2m_a-008" type="Brush" guid="498843e9-bd4d-fa65-ac19-f25235184887"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-028" type="Brush" guid="479f0b0b-9816-4266-e9ad-e261e0f717aa"/>
     <Object name="addon_greeble_fan_b-665" type="Brush" guid="44e02cef-e1b1-4867-4221-e8e12f6a148a"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-019" type="Brush" guid="44e921db-7e11-5969-96bf-31fa6ff4b08e"/>
     <Object name="addon_greeble_fan_b-668" type="Brush" guid="4250e1d0-42e8-7a6a-8752-0e9645de48b0"/>
     <Object name="CoverSurface009-051" type="AICoverSurface" guid="4e90f1f7-5188-8d6c-57d4-7338efd7bcaa" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
-    <Object name="Ledge-207" type="LedgeObject" guid="40bb1a1b-e067-c477-0345-d4252b978885" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
     <Object name="util_pipe_b_str_2m_a-074" type="Brush" guid="4f70b1ef-2fb4-907b-d72e-5961538d4d92"/>
     <Object name="util_pipe_b_str_2m_a-057" type="Brush" guid="44b904d3-cb60-5f7e-3af5-63743131de99"/>
     <Object name="util_pipe_b_cnr_05m_a-027" type="Brush" guid="4c711dab-e8b6-777e-b8aa-29a9c2b7c7bd"/>
+    <Object name="Ledge-207" type="LedgeObject" guid="4ded118e-de5f-a17e-e811-afc147bea5be" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
     <Object name="common_cable_tray_set_a_cable_tray_corner_01m_a-008" type="Brush" guid="4101791b-e9e1-4480-7156-169cadcd789c"/>
     <Object name="util_pipe_b_str_2m_a-043" type="Brush" guid="42bd32a6-616d-4880-77e0-c25b957d13b9"/>
+    <Object name="crate_dry_1_0125x0125x0125_stack_a-005" type="Brush" guid="45ebc880-381d-2781-f783-d85cb888f788"/>
     <Object name="cable_straight_3_cable_2m_a-006" type="Brush" guid="475d3c59-f348-c481-1b0f-b8c14884fb82"/>
     <Object name="util_pipe_b_str_2m_a-073" type="Brush" guid="43109a6f-4f15-4385-cc12-aa8d7fcce099"/>
+    <Object name="PrefabPivot-000" type="PrefabPivot" guid="479997e6-dfd9-d785-00f8-c2d9dd4ac685" tags=""/>
     <Object name="crate_dry_1_0125x00625x00625_a-001" type="Brush" guid="43b68ecc-f154-ae86-4190-13615cce8998"/>
     <Object name="util_pipe_b_str_2m_a-072" type="Brush" guid="49994786-5a3b-9f8a-f43e-899d2ae6f4bc"/>
     <Object name="addon_greeble_fan_b-684" type="Brush" guid="4fed5184-e362-458b-277c-9f4f148256b4"/>
     <Object name="util_pipe_b_str_2m_a-067" type="Brush" guid="41e07f10-b240-548e-bc4d-415db32468a8"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-017" type="Brush" guid="4d40706b-44f2-a38f-fbf0-b083f76982b5"/>
     <Object name="crate_pirate_1_0125x0125x0125_a-012" type="Brush" guid="43b1b78e-b09e-9e92-821a-7805d8647a88"/>
     <Object name="util_pipe_b_str_2m_a-058" type="Brush" guid="4f6e18c9-f29a-1294-9e42-f69442bf928d"/>
     <Object name="util_pipe_b_str_2m_a-055" type="Brush" guid="4813868c-0da1-6b94-2ff6-baddba1fa7a7"/>
@@ -219,6 +220,7 @@
     <Object name="util_pipe_b_str_2m_a-065" type="Brush" guid="4bcc7785-93a4-0697-e258-5df403c9759d"/>
     <Object name="common_cable_tray_set_a_cable_tray_t_junction_01m_a-015" type="Brush" guid="4cb96468-cf0d-9498-9813-65a3b7a257b3"/>
     <Object name="util_pipe_b_str_2m_a-041" type="Brush" guid="416df76b-5122-299a-1118-a365f9add7a7"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-025" type="Brush" guid="455e7af0-726d-f99a-bb36-f0090a7627ab"/>
     <Object name="addon_greeble_fan_b-681" type="Brush" guid="4236e360-0eaa-929d-7e6a-8f56387cb19a"/>
     <Object name="crate_dry_1_00625x00625x00625_a-001" type="Brush" guid="4ce61837-c391-979e-5815-223d448f979b"/>
     <Object name="crate_pirate_1_0125x0125x0125_a-011" type="Brush" guid="4c5abbdd-54c5-e99e-8468-4c932b86f7b8"/>
@@ -242,6 +244,7 @@
     <Object name="common_cable_tray_set_a_cable_tray_straight_04m_a-014" type="Brush" guid="485ca0a9-1686-a5b6-bc97-bcfbbb4419ab"/>
     <Object name="util_pipe_b_str_2m_a-047" type="Brush" guid="467767c5-a2b9-19b7-9a2a-3d2f03d51486"/>
     <Object name="common_cable_tray_set_a_cable_tray_straight_04m_a-011" type="Brush" guid="404ad91d-5fbb-2fb7-bcde-a9e7063fa096"/>
+    <Object name="crate_pirate_1_0125x0125x0125_a-017" type="Brush" guid="4ee994c7-114d-dfb7-39c1-1c3e5b34d2ac"/>
     <Object name="util_pipe_b_str_2m_a-042" type="Brush" guid="4ee501bb-2eb6-f0b7-2dd6-98c2d55fc397"/>
     <Object name="util_pipe_b_str_2m_a-076" type="Brush" guid="44ce55f1-38de-80b8-ea3c-50c0e1f1b6a8"/>
     <Object name="addon_greeble_fan_b-662" type="Brush" guid="4e756137-defb-ddb8-daa3-816ee083b38e"/>
@@ -263,7 +266,6 @@
     <Object name="common_cable_tray_set_a_cable_tray_corner_01m_a-007" type="Brush" guid="480a80cc-92e4-25d8-b666-3428b5b891be"/>
     <Object name="common_cable_tray_set_a_cable_tray_t_junction_01m_a-019" type="Brush" guid="42d647e6-9d4d-33db-3431-941616a7ab96"/>
     <Object name="arccorp_floorcable_02" type="Brush" guid="473d9aa0-5212-32dc-f4df-fa20a15bd6b6"/>
-    <Object name="PrefabPivot-000" type="PrefabPivot" guid="452df7c5-0d97-41dd-c3aa-58a54e9cf3ac" tags=""/>
     <Object name="addon_greeble_fan_b-661" type="Brush" guid="418cbe73-6a50-14e0-5951-b3b0004ac0bd"/>
     <Object name="util_pipe_b_str_2m_a-063" type="Brush" guid="412e79b7-9769-78e0-9b61-8c43571bfb95"/>
     <Object name="util_pipe_b_str_2m_a-044" type="Brush" guid="42eec61a-8840-e4e0-1271-be032bcf8f94"/>
@@ -277,12 +279,10 @@
     <Object name="util_pipe_b_str_2m_a-054" type="Brush" guid="438d226b-8a53-faf0-c75b-cbc5f01344a2"/>
     <Object name="addon_greeble_fan_b-675" type="Brush" guid="43598872-8175-5ef1-90c5-3d50d66b9ca6"/>
     <Object name="util_pipe_b_cnr_05m_a-031" type="Brush" guid="49e2028c-da6c-70f2-9e1c-f082d6b099ba"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-023" type="Brush" guid="4d0fed59-1d44-eaf2-261f-855e44caa3a0"/>
     <Object name="util_pipe_b_str_2m_a-048" type="Brush" guid="4947a498-b73c-5ef8-d843-47c5b3d62bbc"/>
     <Object name="util_pipe_b_str_2m_a-071" type="Brush" guid="45776b39-1e59-89f9-4229-6678f711eb84"/>
     <Object name="common_cable_tray_set_a_cable_tray_t_junction_01m_a-014" type="Brush" guid="4c7edc1e-85e9-19fc-58ad-2123bcfec596"/>
     <Object name="util_pipe_b_str_2m_a-061" type="Brush" guid="4e92acc6-2a91-5bfc-54cb-422775bd3c88"/>
-    <Object name="crate_pirate_1_0125x0125x0125_a-025" type="Brush" guid="47827f54-8e96-83ff-3ea1-b7398b04e1a4"/>
    </Layer>
    <Layer name="sfx" layerHash="2406487898" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/corridor/straight/corridor_straight_10x10m_001/Layers/overlay/power/power_aban/power_aban_002/sfx.lyr"/>
    <Layer name="sys" layerHash="1295393207" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/corridor/straight/corridor_straight_10x10m_001/Layers/overlay/power/power_aban/power_aban_002/sys.lyr"/>

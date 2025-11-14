@@ -9,39 +9,7 @@
   <embeddedStyles Type="BuildingBlocks_StyleEntry" Count="0" />
   <defaultStyles Type="BuildingBlocks_DefaultStyles">
     <sharedStyles />
-    <entries Type="BuildingBlocks_StyleEntry" Count="1">
-      <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
-        <name>Icon_Base</name>
-        <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
-          <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
-            <name>New Condition List</name>
-            <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
-              <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f530a994-2947-4fba-bd86-c4046c471ba2" RecordId="f530a994-2947-4fba-bd86-c4046c471ba2" />
-              </BuildingBlocks_StyleSelectorConditionTag>
-              <BuildingBlocks_StyleSelectorConditionAncestor Type="BuildingBlocks_StyleSelectorConditionAncestor">
-                <breakConditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.8b9ef179-6e50-456f-a67f-21de88e96f51" RecordId="8b9ef179-6e50-456f-a67f-21de88e96f51" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </breakConditions>
-                <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="0" />
-              </BuildingBlocks_StyleSelectorConditionAncestor>
-            </conditions>
-          </BuildingBlocks_StyleConditionList>
-        </conditionsList>
-        <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
-          <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
-            <field>FillColor</field>
-            <color Type="BuildingBlocks_ColorStyle">
-              <color>Base</color>
-              <alpha>1</alpha>
-            </color>
-          </BuildingBlocks_FieldModifierColor>
-        </modifiers>
-        <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
-      </BuildingBlocks_StyleEntry>
-    </entries>
+    <entries Type="BuildingBlocks_StyleEntry" Count="0" />
   </defaultStyles>
   <style />
   <brandStyles Type="BuildingBlocks_BrandStyles" Count="0" />
@@ -131,8 +99,8 @@
       </scale>
       <sizing Type="BuildingBlocks_Size">
         <width Type="BuildingBlocks_FixedOrRelativeValue">
-          <value>32</value>
-          <behavior>Auto</behavior>
+          <value>1</value>
+          <behavior>Percent</behavior>
         </width>
         <height Type="BuildingBlocks_FixedOrRelativeValue">
           <value>32</value>
@@ -378,14 +346,14 @@
       <urlOptional />
       <urlPostfix />
       <stylesheetOverride />
-      <canvas ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/i_interactivescreens/ter/i_ter_resourcenetwork_components/types/generic/gen_ec_status_listitem.xml" />
+      <canvas ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/i_interactivescreens/ter/i_ter_resourcenetwork_components/types/generic/gen_ec_statistic_listitem.xml" />
       <sizingMethod>Size</sizingMethod>
       <paramInputValues Type="BuildingBlocks_ComponentParameterInputBase" Count="0" />
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="4">
-    <BuildingBlocks_BindingsStringVariable Pointer="ptr:2" Type="BuildingBlocks_BindingsStringVariable">
+  <operations Type="BuildingBlocks_Node" Count="14">
+    <BuildingBlocks_BindingsStringVariable Pointer="ptr:4" Type="BuildingBlocks_BindingsStringVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>icon</binding>
       <inheritsNamespace>True</inheritsNamespace>
@@ -409,6 +377,95 @@
       <field>ParamInput0</field>
       <input PointsTo="ptr:3" />
     </BuildingBlocks_BindingsLocalizedField>
+    <BuildingBlocks_BindingsStringComponentParameter Pointer="ptr:5" Type="BuildingBlocks_BindingsStringComponentParameter">
+      <name>CustomIcon</name>
+      <parameter>ParamInput0</parameter>
+      <defaultValue />
+    </BuildingBlocks_BindingsStringComponentParameter>
+    <BindingsOperation_BooleanFromStringIsEmpty Pointer="ptr:6" Type="BindingsOperation_BooleanFromStringIsEmpty">
+      <input PointsTo="ptr:4" />
+    </BindingsOperation_BooleanFromStringIsEmpty>
+    <BuildingBlocks_BindingsStringFromBoolean Pointer="ptr:2" Type="BuildingBlocks_BindingsStringFromBoolean">
+      <isTrue />
+      <isFalse />
+      <inputTrue PointsTo="ptr:5" />
+      <inputFalse PointsTo="ptr:4" />
+      <input PointsTo="ptr:6" />
+    </BuildingBlocks_BindingsStringFromBoolean>
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:7" Type="BuildingBlocks_BindingsIntegerVariable">
+      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
+      <binding>state</binding>
+      <inheritsNamespace>True</inheritsNamespace>
+      <isPulled>False</isPulled>
+      <isWatched>False</isWatched>
+    </BuildingBlocks_BindingsIntegerVariable>
+    <BuildingBlocks_BindingsTagFromIntegerSwitch Pointer="ptr:10" Type="BuildingBlocks_BindingsTagFromIntegerSwitch">
+      <values Type="BuildingBlocks_IntegerTagPair" Count="4">
+        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
+          <first>0</first>
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7ef1cd98-c37b-46ca-b223-478c6e60eb6c" RecordId="7ef1cd98-c37b-46ca-b223-478c6e60eb6c" />
+        </BuildingBlocks_IntegerTagPair>
+        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
+          <first>1</first>
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7433af8c-10d7-4fdf-b4e2-6913641d442e" RecordId="7433af8c-10d7-4fdf-b4e2-6913641d442e" />
+        </BuildingBlocks_IntegerTagPair>
+        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
+          <first>2</first>
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e4b5bff-f062-4e27-9e6e-56e1573fbc57" RecordId="6e4b5bff-f062-4e27-9e6e-56e1573fbc57" />
+        </BuildingBlocks_IntegerTagPair>
+        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
+          <first>3</first>
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e4b5bff-f062-4e27-9e6e-56e1573fbc57" RecordId="6e4b5bff-f062-4e27-9e6e-56e1573fbc57" />
+        </BuildingBlocks_IntegerTagPair>
+      </values>
+      <defaultValue />
+      <input PointsTo="ptr:7" />
+    </BuildingBlocks_BindingsTagFromIntegerSwitch>
+    <BuildingBlocks_BindingsStringField Type="BuildingBlocks_BindingsStringField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput1</field>
+      <input PointsTo="ptr:8" />
+    </BuildingBlocks_BindingsStringField>
+    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:9" Type="BuildingBlocks_BindingsIntegerComponentParameter">
+      <name>CustomState</name>
+      <parameter>ParamInput0</parameter>
+      <defaultValue>-1</defaultValue>
+    </BuildingBlocks_BindingsIntegerComponentParameter>
+    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:12" Type="BuildingBlocks_BindingsBooleanFromInteger">
+      <type>Equal</type>
+      <inputL PointsTo="ptr:9" />
+      <inputR />
+      <value>-1</value>
+    </BuildingBlocks_BindingsBooleanFromInteger>
+    <BuildingBlocks_BindingsTagFromIntegerSwitch Pointer="ptr:11" Type="BuildingBlocks_BindingsTagFromIntegerSwitch">
+      <values Type="BuildingBlocks_IntegerTagPair" Count="4">
+        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
+          <first>0</first>
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7ef1cd98-c37b-46ca-b223-478c6e60eb6c" RecordId="7ef1cd98-c37b-46ca-b223-478c6e60eb6c" />
+        </BuildingBlocks_IntegerTagPair>
+        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
+          <first>1</first>
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7433af8c-10d7-4fdf-b4e2-6913641d442e" RecordId="7433af8c-10d7-4fdf-b4e2-6913641d442e" />
+        </BuildingBlocks_IntegerTagPair>
+        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
+          <first>2</first>
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e4b5bff-f062-4e27-9e6e-56e1573fbc57" RecordId="6e4b5bff-f062-4e27-9e6e-56e1573fbc57" />
+        </BuildingBlocks_IntegerTagPair>
+        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
+          <first>3</first>
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.deda167e-5e09-4274-b119-726a0ef5e107" RecordId="deda167e-5e09-4274-b119-726a0ef5e107" />
+        </BuildingBlocks_IntegerTagPair>
+      </values>
+      <defaultValue />
+      <input PointsTo="ptr:9" />
+    </BuildingBlocks_BindingsTagFromIntegerSwitch>
+    <BuildingBlocks_BindingsStringFromBoolean Pointer="ptr:8" Type="BuildingBlocks_BindingsStringFromBoolean">
+      <isTrue />
+      <isFalse />
+      <inputTrue PointsTo="ptr:10" />
+      <inputFalse PointsTo="ptr:11" />
+      <input PointsTo="ptr:12" />
+    </BuildingBlocks_BindingsStringFromBoolean>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

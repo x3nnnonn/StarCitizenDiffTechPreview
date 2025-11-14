@@ -60,7 +60,7 @@
   <blockTravel>False</blockTravel>
   <onlyShowWhenParentSelected>False</onlyShowWhenParentSelected>
   <overrideShowInAllZones>NoOverride</overrideShowInAllZones>
-  <overridePermanent>NoOverride</overridePermanent>
+  <overridePermanent>True</overridePermanent>
   <minimumDisplaySize>0.002</minimumDisplaySize>
   <overrideRotationSpeed>False</overrideRotationSpeed>
   <overrideRotationSpeedValue>0</overrideRotationSpeedValue>
@@ -77,7 +77,7 @@
   <asteroidRings Type="StarMapAsteroidRing" Count="0" />
   <quantumTravelData Type="StarMapQuantumTravelDataParams">
     <obstructionRadius>0</obstructionRadius>
-    <arrivalRadius>80000</arrivalRadius>
+    <arrivalRadius>60000</arrivalRadius>
     <arrivalPointDetectionOffset>20000</arrivalPointDetectionOffset>
     <adoptionRadius>0</adoptionRadius>
     <subPointRadiusMultiplier>1.5</subPointRadiusMultiplier>
@@ -91,7 +91,7 @@
         <densityMultiplier_clusterUpperObjectCountDGS>1</densityMultiplier_clusterUpperObjectCountDGS>
         <densityMultiplier_clusterUpperObjectCountPersistence>1</densityMultiplier_clusterUpperObjectCountPersistence>
         <densityMultiplier_clusterPersistenceTimeout>1</densityMultiplier_clusterPersistenceTimeout>
-        <timeMultiplier_vehicleUnattendedCleanup>0.5</timeMultiplier_vehicleUnattendedCleanup>
+        <timeMultiplier_vehicleUnattendedCleanup>0.25</timeMultiplier_vehicleUnattendedCleanup>
       </densityOverwritesManual>
     </densityClassOverwrites>
     <densityClassLifetimeOverrides Type="SStarMapDensityClassLifetimeOverrideEntry" Count="0" />

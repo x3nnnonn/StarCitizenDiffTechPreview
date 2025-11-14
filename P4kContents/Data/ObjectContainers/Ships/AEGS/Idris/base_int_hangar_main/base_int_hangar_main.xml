@@ -1,38 +1,26 @@
-<ObjectContainer version="11" name="base_int_hangar_main" tags="" type="" editorBuildChangelist="10562704" entityCountPLA="0" entityCountALE="0" entityCountStatic="1013" entityCountDynamic="0" entityCountUnique="0" minBounds="-538.95330810546875,-530.63505834960938,-355.51304516601562" maxBounds="538.7330322265625,518.39625268554687,489.06053271484376" radius="592.77588" crcSOC="2741872237">
+<ObjectContainer version="11" name="base_int_hangar_main" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="1013" entityCountDynamic="0" entityCountUnique="0" minBounds="-538.95330810546875,-530.63505834960938,-355.51304516601562" maxBounds="538.7330322265625,518.39625268554687,489.06053271484376" radius="592.77588" crcSOC="1988725968">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
    <Tag TagId="00ead468-9073-485b-a6df-ca6b94053603"/>
    <Tag TagId="29242b33-8519-4c00-b8ae-fb9b74273b62"/>
    <Tag TagId="43af619d-c16a-4148-9f06-00ee9b64dcb7"/>
-   <Tag TagId="da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
    <Tag TagId="d9e80a58-7dae-4825-8206-e65dc12eeed1"/>
+   <Tag TagId="da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
    <Tag TagId="47d6dedb-48fa-45fa-a7c1-edb62971b62b"/>
    <Tag TagId="67a1429b-cb18-4ce7-bb11-a0c6206ebc96"/>
-   <Tag TagId="c4ec8876-3979-4a9d-9d1c-83375094c9b7"/>
-   <Tag TagId="afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
-   <Tag TagId="fb1b0b03-f91f-4b1a-8683-17a8e6b10296"/>
-   <Tag TagId="a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
-   <Tag TagId="d88a4dd7-8289-4a29-b8c2-59fdaf276c93"/>
-   <Tag TagId="e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
    <Tag TagId="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4"/>
+   <Tag TagId="a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
    <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8"/>
    <Tag TagId="612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
    <Tag TagId="04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
    <Tag TagId="f1b1052f-f3b0-4f44-b809-96380bfc4e97"/>
-   <Tag TagId="009b77f0-af48-4e4d-8759-994c930de504"/>
-   <Tag TagId="b5e7e39d-18cd-42d8-85b0-7862c0075765"/>
-   <Tag TagId="6bd5ceb2-696b-43ff-b37e-1844e72debcc"/>
-   <Tag TagId="eac0031a-3373-451e-80cc-4148d13a213d"/>
+   <Tag TagId="c4ec8876-3979-4a9d-9d1c-83375094c9b7"/>
+   <Tag TagId="afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+   <Tag TagId="fb1b0b03-f91f-4b1a-8683-17a8e6b10296"/>
+   <Tag TagId="d88a4dd7-8289-4a29-b8c2-59fdaf276c93"/>
+   <Tag TagId="e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
    <Tag TagId="2f2df42c-c545-45af-b714-eb987d3cb985"/>
-   <Tag TagId="94b8e3ee-4692-4fe3-a73d-ebc73b9bb4f3"/>
-   <Tag TagId="02af2eee-b979-40e5-b999-68b976c05bbf"/>
-   <Tag TagId="0e515dc0-2cd7-4b2e-8578-f14a234f5eed"/>
-   <Tag TagId="039eb697-7307-409b-a176-a778de49a613"/>
-   <Tag TagId="e0f9e2de-6b05-46df-b244-b98e64409a43"/>
-   <Tag TagId="3c334cf1-f6f8-48c4-a4d8-10efb25f786c"/>
-   <Tag TagId="202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
-   <Tag TagId="1a1f10a2-894c-45ca-93d2-4785233c5250"/>
    <Tag TagId="bbd9eea0-5707-4b11-a135-6a5906f2ceb7"/>
    <Tag TagId="c938811c-8a1f-48e7-8915-450dd21b964c"/>
    <Tag TagId="41db8611-1277-49ba-a713-ee4a2c02a0da"/>
@@ -51,6 +39,14 @@
    <Tag TagId="2e959878-62fe-49c4-87e8-1ef8177fbfa5"/>
    <Tag TagId="963fcc3e-0e87-4eb1-9481-d6c823d43910"/>
    <Tag TagId="8f3e24f5-4877-4da5-8bf9-b4eae1911dfe"/>
+   <Tag TagId="94b8e3ee-4692-4fe3-a73d-ebc73b9bb4f3"/>
+   <Tag TagId="02af2eee-b979-40e5-b999-68b976c05bbf"/>
+   <Tag TagId="0e515dc0-2cd7-4b2e-8578-f14a234f5eed"/>
+   <Tag TagId="039eb697-7307-409b-a176-a778de49a613"/>
+   <Tag TagId="e0f9e2de-6b05-46df-b244-b98e64409a43"/>
+   <Tag TagId="3c334cf1-f6f8-48c4-a4d8-10efb25f786c"/>
+   <Tag TagId="202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
+   <Tag TagId="1a1f10a2-894c-45ca-93d2-4785233c5250"/>
    <Tag TagId="aff36b77-bc7d-467f-809b-f7b534068819"/>
    <Tag TagId="539dee91-f4da-43b9-9e50-ce0d6b48618f"/>
    <Tag TagId="01dd48c6-525c-4613-844a-8468df8d99f1"/>
@@ -64,6 +60,10 @@
    <Tag TagId="0dbb162e-2786-4dfa-93ea-6a37715edbcd"/>
    <Tag TagId="2a808312-c8fc-4b66-86e2-0368e24cc669"/>
    <Tag TagId="76610398-8476-420a-b99b-75ba620c9b4b"/>
+   <Tag TagId="009b77f0-af48-4e4d-8759-994c930de504"/>
+   <Tag TagId="b5e7e39d-18cd-42d8-85b0-7862c0075765"/>
+   <Tag TagId="6bd5ceb2-696b-43ff-b37e-1844e72debcc"/>
+   <Tag TagId="eac0031a-3373-451e-80cc-4148d13a213d"/>
    <Tag TagId="d5ea6091-4b17-4f69-883c-4232deb75d01"/>
    <Tag TagId="b7792907-0b11-47e2-80f6-f2fe69400bfe"/>
    <Tag TagId="4bb55465-3793-44e9-b0ed-583bd4425b70"/>
@@ -96,10 +96,7 @@
    <Tag TagId="84ee3196-9be9-490f-9902-e0953e270965"/>
    <Tag TagId="632d7f73-4302-4268-8cd8-30572518a6a4"/>
    <Tag TagId="7b9607cd-ec2d-4f09-931a-3adf07abfbcb"/>
-   <Tag TagId="075acd60-81a2-47d9-874e-0395e7b57e2f"/>
-   <Tag TagId="05622fda-b78a-4b64-8bb9-d3cb7b5bff04"/>
-   <Tag TagId="b76bd66d-d2c5-46e5-b93f-f23bb747bb2f"/>
-   <Tag TagId="562724bb-05e5-4ea5-b079-416583e411b8"/>
+   <Tag TagId="a9ca340f-8b34-4a45-a651-9dff92a988e1"/>
    <Tag TagId="d6841691-d537-4186-bc3f-e427a614353c"/>
    <Tag TagId="10b64af5-7441-46ad-8c79-0b16ee55bfbc"/>
    <Tag TagId="ea5c8699-3948-427d-b09c-d5df35f9bf4f"/>
@@ -107,10 +104,11 @@
    <Tag TagId="d1dd79bb-bb60-46f9-9c81-2b924a34d7d5"/>
    <Tag TagId="a8bf3817-8ea0-4c4f-ae93-25192bb1c6d9"/>
    <Tag TagId="9c81177f-945f-4e50-8b43-62bff3a7c4d1"/>
-   <Tag TagId="a9ca340f-8b34-4a45-a651-9dff92a988e1"/>
+   <Tag TagId="075acd60-81a2-47d9-874e-0395e7b57e2f"/>
+   <Tag TagId="05622fda-b78a-4b64-8bb9-d3cb7b5bff04"/>
+   <Tag TagId="b76bd66d-d2c5-46e5-b93f-f23bb747bb2f"/>
+   <Tag TagId="562724bb-05e5-4ea5-b079-416583e411b8"/>
    <Tag TagId="7971770f-5c20-4e4f-a528-1f826293c215"/>
-   <Tag TagId="29d0789d-a8f4-4abb-8185-689df8db5a42"/>
-   <Tag TagId="30ee12f0-3ed1-4d7b-9111-e989e2ee1589"/>
    <Tag TagId="6cc9c909-f0dc-4806-ada2-0914a3a6b060"/>
    <Tag TagId="dcdd3c0b-884d-4729-95b0-670dd01f05b5"/>
    <Tag TagId="14249ee2-2d94-4fe2-8d3e-2cffbdba26c3"/>
@@ -118,7 +116,9 @@
    <Tag TagId="c9c55c09-23f1-4f9d-859c-5692b986fd5a"/>
    <Tag TagId="0b5b67c9-364e-445f-b9d0-359730a4b71c"/>
    <Tag TagId="6e5999fa-d96b-479c-99e6-cfcf604e8d99"/>
+   <Tag TagId="30ee12f0-3ed1-4d7b-9111-e989e2ee1589"/>
    <Tag TagId="86a8d554-7883-4899-b464-9963af08031a"/>
+   <Tag TagId="29d0789d-a8f4-4abb-8185-689df8db5a42"/>
    <Tag TagId="60cc8ca1-8927-4e92-af99-9cd367e0595c"/>
    <Tag TagId="5b803369-07d1-470f-996a-9372ca50e617"/>
    <Tag TagId="f260d54e-4fc2-4ac0-bea4-ca8ee3bfe289"/>
@@ -373,7 +373,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-20.25,59,13.125" type="Noattach" name="Port9_Door_RN_RoomConnector_Template-043[Hangar_Design]" display_name="Port9_Door_RN_RoomConnector_Template-043[Hangar_Design]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="20.25,59,13.125" type="Noattach" name="Port9_Door_RN_RoomConnector_Template-044[Hangar_Design]" display_name="Port9_Door_RN_RoomConnector_Template-044[Hangar_Design]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -383,7 +383,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="19.75,56.150002,14.37" type="Noattach" name="Port10_Hangar_Door_Fore_Starboard_DoorPanel_Inner[Hangar_Design]" display_name="Port10_Hangar_Door_Fore_Starboard_DoorPanel_Inner[Hangar_Design]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="20.25,36,13.125" type="Noattach" name="Port10_Door_RN_RoomConnector_Template-045[Hangar_Design]" display_name="Port10_Door_RN_RoomConnector_Template-045[Hangar_Design]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -393,7 +393,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="20.25,36,13.125" type="Noattach" name="Port11_Door_RN_RoomConnector_Template-045[Hangar_Design]" display_name="Port11_Door_RN_RoomConnector_Template-045[Hangar_Design]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="19.75,56.150002,14.37" type="Noattach" name="Port11_Hangar_Door_Fore_Starboard_DoorPanel_Inner[Hangar_Design]" display_name="Port11_Hangar_Door_Fore_Starboard_DoorPanel_Inner[Hangar_Design]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -403,7 +403,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="20.25,59,13.125" type="Noattach" name="Port12_Door_RN_RoomConnector_Template-044[Hangar_Design]" display_name="Port12_Door_RN_RoomConnector_Template-044[Hangar_Design]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-20.25,59,13.125" type="Noattach" name="Port12_Door_RN_RoomConnector_Template-043[Hangar_Design]" display_name="Port12_Door_RN_RoomConnector_Template-043[Hangar_Design]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -413,7 +413,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-20.25,36,13.125" type="Noattach" name="Port13_Door_RN_RoomConnector_Template-042[Hangar_Design]" display_name="Port13_Door_RN_RoomConnector_Template-042[Hangar_Design]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-21.59,32.75,14.3644" type="Noattach" name="Port13_Hangar_Door_Aft_Port_ControlPanel_Outer[Hangar_Design]" display_name="Port13_Hangar_Door_Aft_Port_ControlPanel_Outer[Hangar_Design]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -423,7 +423,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-21.59,32.75,14.3644" type="Noattach" name="Port14_Hangar_Door_Aft_Port_ControlPanel_Outer[Hangar_Design]" display_name="Port14_Hangar_Door_Aft_Port_ControlPanel_Outer[Hangar_Design]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-20.25,36,13.125" type="Noattach" name="Port14_Door_RN_RoomConnector_Template-042[Hangar_Design]" display_name="Port14_Door_RN_RoomConnector_Template-042[Hangar_Design]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>

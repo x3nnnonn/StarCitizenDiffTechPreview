@@ -151,7 +151,7 @@
           </Offset>
           <boneName>ANVL_Hornet_F7A_MK1</boneName>
           <shouldRequestNavMeshRegenerationOnLoad>False</shouldRequestNavMeshRegenerationOnLoad>
-          <resourceNetworkItemportName />
+          <resourceNetworkItemportName>hardpoint_relay</resourceNetworkItemportName>
         </SVehicleObjectContainerParams>
         <SVehicleObjectContainerParams Type="SVehicleObjectContainerParams">
           <fileName>ObjectContainers/Ships/ANVL/Hornet/f7amk1_int_cockpit_main.socpak</fileName>
@@ -170,7 +170,7 @@
           </Offset>
           <boneName>interior_cockpit</boneName>
           <shouldRequestNavMeshRegenerationOnLoad>False</shouldRequestNavMeshRegenerationOnLoad>
-          <resourceNetworkItemportName />
+          <resourceNetworkItemportName>hardpoint_relay</resourceNetworkItemportName>
         </SVehicleObjectContainerParams>
       </objectContainers>
       <physicsGrid Type="SVehiclePhysicsGridParams">
@@ -2245,6 +2245,9 @@
             <afterburnerStopLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStopLoop>
+            <timeSinceLastAfterburnerEnabledRtpc Type="AudioRtpc">
+              <rtpc />
+            </timeSinceLastAfterburnerEnabledRtpc>
             <thrusterStrengthSmoothedRtpc Type="AudioRtpc">
               <rtpc />
             </thrusterStrengthSmoothedRtpc>
@@ -2270,6 +2273,9 @@
             <afterburnerStopLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStopLoop>
+            <timeSinceLastAfterburnerEnabledRtpc Type="AudioRtpc">
+              <rtpc />
+            </timeSinceLastAfterburnerEnabledRtpc>
             <thrusterStrengthSmoothedRtpc Type="AudioRtpc">
               <rtpc />
             </thrusterStrengthSmoothedRtpc>
@@ -2295,6 +2301,9 @@
             <afterburnerStopLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStopLoop>
+            <timeSinceLastAfterburnerEnabledRtpc Type="AudioRtpc">
+              <rtpc />
+            </timeSinceLastAfterburnerEnabledRtpc>
             <thrusterStrengthSmoothedRtpc Type="AudioRtpc">
               <rtpc />
             </thrusterStrengthSmoothedRtpc>
@@ -4700,9 +4709,211 @@
       <PortTags>ANVL_Hornet_Base ANVL_Hornet_F7A_Mk1</PortTags>
       <RequiredItemTags />
       <InternalResourceLinks Type="SInternalResourceLink" Count="0" />
-      <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
-      <LinkAllItemsToResourceNetwork>True</LinkAllItemsToResourceNetwork>
+      <InternalHardpointLinks Type="SInternalHardpointLink" Count="50">
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_seat_access</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_seat_pilot</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_dashboard_pilot</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_self_destruct_pilot</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_power_plant</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_cooler_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_cooler_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_controller_shield</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_shield_generator_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_shield_generator_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_armor</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_controller_flight</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_radar</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_scanner</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_ping</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_engine_attach</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_thruster_bottom_back_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_thruster_bottom_back_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_thruster_bottom_front_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_thruster_bottom_front_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_thruster_top_front_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_thruster_top_front_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_thruster_top_back_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_thruster_top_back_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_fuel_intake_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_fuel_intake_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_fuel_tank_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_fuel_tank_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_quantum_drive</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_quantum_fuel_tank</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>landingpad_helper</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_class_4_nose</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_class_2_left_wing</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_class_2_right_wing</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_class_4_center</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_class_3_left_bay_door</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_class_3_left_bay_door_outer</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_class_3_left_bay_door_outer</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_class_3_right_bay_door</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_class_3_right_bay_door_outer</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>Intake_Hardpoint_CounterMeasure_Left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>Intake_Hardpoint_CounterMeasure_Right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_fuel_port</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_cockpit_flair</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_cockpit_flair_hang</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_cargo</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_lifesupport</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_countermeasure_left_02</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_countermeasure_right_02</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_personal_storage</port2>
+        </SInternalHardpointLink>
+      </InternalHardpointLinks>
+      <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="8">
@@ -4772,7 +4983,7 @@
           <bindingsMethod>None</bindingsMethod>
           <DefaultState />
           <asopReset>False</asopReset>
-          <networkAuthority>Server</networkAuthority>
+          <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="3">
             <SInteractionState Pointer="ptr:7" Type="SInteractionState">
               <StateName>Normal</StateName>

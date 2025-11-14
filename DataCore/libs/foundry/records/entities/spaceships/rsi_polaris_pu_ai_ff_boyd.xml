@@ -6990,6 +6990,9 @@
             <afterburnerStopLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStopLoop>
+            <timeSinceLastAfterburnerEnabledRtpc Type="AudioRtpc">
+              <rtpc />
+            </timeSinceLastAfterburnerEnabledRtpc>
             <thrusterStrengthSmoothedRtpc Type="AudioRtpc">
               <rtpc />
             </thrusterStrengthSmoothedRtpc>
@@ -7015,6 +7018,9 @@
             <afterburnerStopLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStopLoop>
+            <timeSinceLastAfterburnerEnabledRtpc Type="AudioRtpc">
+              <rtpc />
+            </timeSinceLastAfterburnerEnabledRtpc>
             <thrusterStrengthSmoothedRtpc Type="AudioRtpc">
               <rtpc />
             </thrusterStrengthSmoothedRtpc>
@@ -7040,6 +7046,9 @@
             <afterburnerStopLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStopLoop>
+            <timeSinceLastAfterburnerEnabledRtpc Type="AudioRtpc">
+              <rtpc />
+            </timeSinceLastAfterburnerEnabledRtpc>
             <thrusterStrengthSmoothedRtpc Type="AudioRtpc">
               <rtpc />
             </thrusterStrengthSmoothedRtpc>
@@ -10195,7 +10204,7 @@
             <Helper Type="SItemPortDefHelperNode">
               <Tags />
               <Helper Type="SItemPortDefHelper">
-                <Name />
+                <Name>rsi_polaris</Name>
                 <Offset Type="QuatT">
                   <Rotation Type="Ang3">
                     <x>60</x>
@@ -10204,8 +10213,8 @@
                   </Rotation>
                   <Position Type="Vec3">
                     <x>0</x>
-                    <y>-55.7515</y>
-                    <z>-2.6838</z>
+                    <y>-55.7398</y>
+                    <z>-2.677</z>
                   </Position>
                 </Offset>
                 <ItemOffsetHelperName />
@@ -10304,7 +10313,7 @@
             <Helper Type="SItemPortDefHelperNode">
               <Tags />
               <Helper Type="SItemPortDefHelper">
-                <Name />
+                <Name>rsi_polaris</Name>
                 <Offset Type="QuatT">
                   <Rotation Type="Ang3">
                     <x>60</x>
@@ -10312,9 +10321,9 @@
                     <z>90</z>
                   </Rotation>
                   <Position Type="Vec3">
-                    <x>7.739</x>
+                    <x>7.7591</x>
                     <y>-63.75</y>
-                    <z>-1.182</z>
+                    <z>-1.1709</z>
                   </Position>
                 </Offset>
                 <ItemOffsetHelperName />
@@ -10411,7 +10420,7 @@
             </constraintParams>
             <hangarPort>False</hangarPort>
             <Helper Type="SItemPortDefHelperNode">
-              <Tags />
+              <Tags>rsi_polaris</Tags>
               <Helper Type="SItemPortDefHelper">
                 <Name />
                 <Offset Type="QuatT">
@@ -10421,9 +10430,9 @@
                     <z>-90</z>
                   </Rotation>
                   <Position Type="Vec3">
-                    <x>-7.7424</x>
+                    <x>-7.7591</x>
                     <y>-63.75</y>
-                    <z>-1.1805</z>
+                    <z>-1.1709</z>
                   </Position>
                 </Offset>
                 <ItemOffsetHelperName />
@@ -10522,7 +10531,7 @@
             <Helper Type="SItemPortDefHelperNode">
               <Tags />
               <Helper Type="SItemPortDefHelper">
-                <Name />
+                <Name>rsi_polaris</Name>
                 <Offset Type="QuatT">
                   <Rotation Type="Ang3">
                     <x>60</x>
@@ -10530,9 +10539,9 @@
                     <z>-90</z>
                   </Rotation>
                   <Position Type="Vec3">
-                    <x>4.756</x>
-                    <y>-33.8905</y>
-                    <z>-4.5554</z>
+                    <x>4.7496</x>
+                    <y>-33.8764</y>
+                    <z>-4.5455</z>
                   </Position>
                 </Offset>
                 <ItemOffsetHelperName />
@@ -10631,7 +10640,7 @@
             <Helper Type="SItemPortDefHelperNode">
               <Tags />
               <Helper Type="SItemPortDefHelper">
-                <Name />
+                <Name>rsi_polaris</Name>
                 <Offset Type="QuatT">
                   <Rotation Type="Ang3">
                     <x>60</x>
@@ -10639,9 +10648,9 @@
                     <z>90</z>
                   </Rotation>
                   <Position Type="Vec3">
-                    <x>-4.7699</x>
-                    <y>-33.8905</y>
-                    <z>-4.5574</z>
+                    <x>-4.7496</x>
+                    <y>-33.8764</y>
+                    <z>-4.5455</z>
                   </Position>
                 </Offset>
                 <ItemOffsetHelperName />
@@ -15848,6 +15857,7 @@
       </InternalHardpointLinks>
       <LinkAllItemsToResourceNetwork>True</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="8">
@@ -15917,7 +15927,7 @@
           <bindingsMethod>None</bindingsMethod>
           <DefaultState />
           <asopReset>False</asopReset>
-          <networkAuthority>Server</networkAuthority>
+          <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="3">
             <SInteractionState Pointer="ptr:69" Type="SInteractionState">
               <StateName>Normal</StateName>

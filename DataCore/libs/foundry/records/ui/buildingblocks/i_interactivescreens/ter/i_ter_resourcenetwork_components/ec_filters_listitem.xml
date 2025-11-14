@@ -300,8 +300,8 @@
         <canInteract>False</canInteract>
         <disabled>False</disabled>
         <selected>False</selected>
-        <collideLeftClick>True</collideLeftClick>
-        <collideRightClick>True</collideRightClick>
+        <collideLeftClick>False</collideLeftClick>
+        <collideRightClick>False</collideRightClick>
         <collideMouseWheel>False</collideMouseWheel>
         <hitDetectionOffset>1</hitDetectionOffset>
         <propagateInteractionStates>False</propagateInteractionStates>
@@ -335,7 +335,7 @@
       <inheritsAlpha>True</inheritsAlpha>
       <inheritsOverflow>False</inheritsOverflow>
       <alpha>1</alpha>
-      <layer>10</layer>
+      <layer>5</layer>
       <aspectRatioLibrary />
       <focusIndex>-1</focusIndex>
       <inlineStyles Type="BuildingBlocks_StyleEntry" Count="0" />
@@ -352,31 +352,17 @@
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="12">
+  <operations Type="BuildingBlocks_Node" Count="8">
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
       <widget PointsTo="ptr:1" />
       <field>ParamInput0</field>
       <input PointsTo="ptr:2" />
     </BuildingBlocks_BindingsLocalizedField>
-    <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:2" Type="BuildingBlocks_BindingsLocalizedVariable">
-      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
-      <binding>name</binding>
-      <inheritsNamespace>True</inheritsNamespace>
-      <isPulled>False</isPulled>
-      <isWatched>False</isWatched>
-    </BuildingBlocks_BindingsLocalizedVariable>
     <BuildingBlocks_BindingsStringField Type="BuildingBlocks_BindingsStringField">
       <widget PointsTo="ptr:1" />
       <field>ParamInput1</field>
       <input PointsTo="ptr:3" />
     </BuildingBlocks_BindingsStringField>
-    <BuildingBlocks_BindingsStringVariable Pointer="ptr:3" Type="BuildingBlocks_BindingsStringVariable">
-      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
-      <binding>icon</binding>
-      <inheritsNamespace>True</inheritsNamespace>
-      <isPulled>False</isPulled>
-      <isWatched>False</isWatched>
-    </BuildingBlocks_BindingsStringVariable>
     <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:4" Type="BuildingBlocks_BindingsBooleanVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>trigger/active</binding>
@@ -387,39 +373,28 @@
     <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:5" Type="BuildingBlocks_BindingsBooleanInvert">
       <input PointsTo="ptr:4" />
     </BuildingBlocks_BindingsBooleanInvert>
-    <BuildingBlocks_BindingsBooleanEvaluateOr Pointer="ptr:7" Type="BuildingBlocks_BindingsBooleanEvaluateOr">
-      <inputs Type="BuildingBlocks_BindingsBooleanBase" Count="2">
-        <BuildingBlocks_BindingsBooleanInvert PointsTo="ptr:5" />
-        <BuildingBlocks_BindingsBooleanVariable PointsTo="ptr:6" />
-      </inputs>
-    </BuildingBlocks_BindingsBooleanEvaluateOr>
-    <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:6" Type="BuildingBlocks_BindingsBooleanVariable">
-      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
-      <binding>resourcenetworkui/contextFilter/active</binding>
-      <inheritsNamespace>False</inheritsNamespace>
-      <isPulled>False</isPulled>
-      <isWatched>False</isWatched>
-    </BuildingBlocks_BindingsBooleanVariable>
-    <BuildingBlocks_BindingsTagFromBoolean Pointer="ptr:8" Type="BuildingBlocks_BindingsTagFromBoolean">
+    <BuildingBlocks_BindingsTagFromBoolean Pointer="ptr:6" Type="BuildingBlocks_BindingsTagFromBoolean">
       <isTrue RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.84d84dfd-4fd2-4e02-8824-ff0821dfb36a" RecordId="84d84dfd-4fd2-4e02-8824-ff0821dfb36a" />
       <isFalse />
       <inputTrue />
       <inputFalse />
-      <input PointsTo="ptr:7" />
+      <input PointsTo="ptr:5" />
     </BuildingBlocks_BindingsTagFromBoolean>
-    <BuildingBlocks_BindingsBooleanInvert Pointer="ptr:9" Type="BuildingBlocks_BindingsBooleanInvert">
-      <input PointsTo="ptr:6" />
-    </BuildingBlocks_BindingsBooleanInvert>
     <BuildingBlocks_BindingsStringField Type="BuildingBlocks_BindingsStringField">
       <widget PointsTo="ptr:1" />
       <field>ParamInput0</field>
-      <input PointsTo="ptr:8" />
+      <input PointsTo="ptr:6" />
     </BuildingBlocks_BindingsStringField>
-    <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
-      <widget PointsTo="ptr:1" />
-      <field>ParamInput0</field>
-      <input PointsTo="ptr:9" />
-    </BuildingBlocks_BindingsBooleanField>
+    <BuildingBlocks_BindingsLocalizedComponentParameter Pointer="ptr:2" Type="BuildingBlocks_BindingsLocalizedComponentParameter">
+      <name>name</name>
+      <parameter>ParamInput0</parameter>
+      <defaultValue>@LOC_EMPTY</defaultValue>
+    </BuildingBlocks_BindingsLocalizedComponentParameter>
+    <BuildingBlocks_BindingsStringComponentParameter Pointer="ptr:3" Type="BuildingBlocks_BindingsStringComponentParameter">
+      <name>icon</name>
+      <parameter>ParamInput0</parameter>
+      <defaultValue />
+    </BuildingBlocks_BindingsStringComponentParameter>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

@@ -1249,8 +1249,8 @@
     </SCItemConsumableParams>
     <SCItemPurchasableParams Type="SCItemPurchasableParams">
       <Display />
-      <displayName>@LOC_PLACEHOLDER</displayName>
-      <displayType>@items_commodities_type_food</displayType>
+      <displayName>@Item_NameFlair_mug_stella_fortuna_1_a</displayName>
+      <displayType>@items_commodities_type_consumerGoods</displayType>
       <displayThumbnail />
       <allowTryOn>False</allowTryOn>
       <allowQuickBuy>True</allowQuickBuy>
@@ -1873,6 +1873,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />

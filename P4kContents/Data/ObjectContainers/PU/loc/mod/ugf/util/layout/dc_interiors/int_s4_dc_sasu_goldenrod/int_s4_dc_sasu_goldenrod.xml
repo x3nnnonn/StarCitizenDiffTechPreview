@@ -1,7 +1,6 @@
-<ObjectContainer version="11" name="int_s4_dc_sasu_goldenrod" tags="" type="Module OC" editorBuildChangelist="10562704" entityCountPLA="0" entityCountALE="0" entityCountStatic="29" entityCountDynamic="0" entityCountUnique="0" minBounds="-249.14989000000003,-407.43603075650168,-82" maxBounds="467.13007600000003,407.29385979710725,136.01999999955297" gridRadius="274.77377" radius="625.61829" crcSOC="3798862347">
+<ObjectContainer version="11" name="int_s4_dc_sasu_goldenrod" tags="" type="Module OC" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="29" entityCountDynamic="0" entityCountUnique="0" minBounds="-249.14989000000003,-407.43603075650168,-82" maxBounds="467.13007600000003,407.29385979710725,136.01999999955297" gridRadius="274.77377" radius="625.61829" crcSOC="3798862347">
  <StaticEntityTags>
   <Tags>
-   <Tag TagId="0d33e222-906e-4d09-8dd0-249ccebb45ca"/>
    <Tag TagId="2dcda648-03b0-46f1-9909-e288db07dc2d"/>
    <Tag TagId="d5cb8c87-d4f4-45b7-92ce-36eaff803d8e"/>
    <Tag TagId="225cbaa6-8818-4dcd-8d9b-878897901e89"/>
@@ -32,11 +31,12 @@
    <Tag TagId="81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
    <Tag TagId="d88a4dd7-8289-4a29-b8c2-59fdaf276c93"/>
    <Tag TagId="e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-   <Tag TagId="c9b662a6-07b4-4e59-9634-278333b00015"/>
    <Tag TagId="62d34779-fdfb-4814-9762-081bf2ba8087"/>
+   <Tag TagId="c9b662a6-07b4-4e59-9634-278333b00015"/>
    <Tag TagId="35973a83-edc1-4dc2-8599-ea1adf9be424"/>
    <Tag TagId="84ee3196-9be9-490f-9902-e0953e270965"/>
    <Tag TagId="29d0789d-a8f4-4abb-8185-689df8db5a42"/>
+   <Tag TagId="0d33e222-906e-4d09-8dd0-249ccebb45ca"/>
   </Tags>
  </StaticEntityTags>
  <ItemPorts version="1">
@@ -197,7 +197,7 @@
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/side/ped/surf_base_side_ped_002.socpak" entityName="surf_base_side_ped_108" label="surf_base_side_ped_108_{A64A4BF5-A4EA-4435-B94E-66F697927E0B}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="4435a4ea-a64a-4bf5-0b7e-9297f6664eb9" pos="67,-96,4" rot="0.70710677,0,0,-0.70710677"/>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/side/ped/loot/surf_ind_side_ped_002_occu_002_lt_low.socpak" entityName="surf_ind_side_ped_002_occu_002_lt_low-012" label="surf_ind_side_ped_002_occu_002_lt_low-012_{443962FC-2E64-4241-81B6-6AC6A75A8F65}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="42412e64-4439-62fc-658f-5aa7c66ab681" pos="-17,50,3" rot="1,0,0,0"/>
  </ChildObjectContainers>
- <Health EntityCount="10316" OC_Count="150" StreamingRadius="5814.6245"/>
+ <Health EntityCount="10157" OC_Count="0" StreamingRadius="5814.6245"/>
  <StreamingOCs>
   <OC name="int_s4_dc_sasu_goldenrod.soc" tags="" staticEntityCount="29" guid="43740377-d1d8-ac61-66f2-8a69124bb588" radius="625.61829"/>
  </StreamingOCs>

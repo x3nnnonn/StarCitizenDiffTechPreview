@@ -95,7 +95,7 @@
         <Tags />
         <Geometry Type="SGeometryDataParams">
           <Geometry Type="GlobalResourceGeometry">
-            <path>Objects/Spaceships/Components/Lifesupport/component_lifesupport_1_s02_a.cga</path>
+            <path>Objects/Spaceships/life_support/medium_component/tydt/life_tydt_s02.cga</path>
           </Geometry>
           <Material Type="GlobalResourceMaterial">
             <path />
@@ -772,6 +772,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
+      <doorsIgnorePower>False</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="0" />
