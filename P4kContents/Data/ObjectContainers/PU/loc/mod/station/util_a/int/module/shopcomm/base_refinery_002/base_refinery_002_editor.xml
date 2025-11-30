@@ -1,7 +1,7 @@
 <ObjectContainer sourceLevel="data/levels/!oc/pu/loc/mod/station/util_a/int/module/shopcomm">
  <Layers>
-  <Layer fullname="base/base_refinery_002" externalLayerLevelDir="data/levels/!oc/pu/loc/mod/station/util_a/int/module/shopcomm/Layers/" externalLayerParentDir="base/" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/util_a/int/module/shopcomm/Layers/base/base_refinery_002.lyr" ParentGUID="{51484D28-6F18-44B4-9C17-36A9A0EB5EE7}" layerHash="3306627847">
-   <Object name="MASTER_screen_16x9_MiningKiosk-000" type="MASTER_screen_16x9_MiningKiosk" guid="48c44cc6-24a6-4100-ff35-5ff52b5c16a6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,81614c51-55f6-4d7a-b08b-8711bbaba9b7,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,0c4b5053-d003-4e11-90b0-572c6c75887a,da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
+  <Layer fullname="base/base_refinery_002" externalLayerLevelDir="data/levels/!oc/pu/loc/mod/station/util_a/int/module/shopcomm/Layers/" externalLayerParentDir="base/" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/util_a/int/module/shopcomm/Layers/base/base_refinery_002.lyr" ParentGUID="{51484D28-6F18-44B4-9C17-36A9A0EB5EE7}" layerHash="3865821350">
+   <Object name="MASTER_screen_16x9_MiningKiosk-001" type="MASTER_screen_16x9_MiningKiosk" guid="48c44cc6-24a6-4100-ff35-5ff52b5c16a6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,81614c51-55f6-4d7a-b08b-8711bbaba9b7,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,0c4b5053-d003-4e11-90b0-572c6c75887a,da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
    <Object name="roomsm_floor_window_edge_a-199" type="Brush" guid="43d62456-ba3c-0a01-cbf0-e850c620ea9e"/>
    <Object name="roomsm_floor_window_edge_a-203" type="Brush" guid="4db926ee-e971-c803-12f2-a5c8d700048a"/>
    <Object name="roomsm_floor_window_edge_a-131" type="Brush" guid="4ada1e7b-0278-ec03-8662-faf36cc35088"/>
@@ -31,7 +31,7 @@
    <Object name="roomsm_floor_window_edge_a-084" type="Brush" guid="4490a9fa-4346-8a15-73b0-7d016b35c989"/>
    <Object name="CommentEntity-005" type="CommentEntity" guid="4b3038e0-9997-e116-68c8-8ab1dc1df2bb" tags=""/>
    <Object name="Designer-004" type="Designer" guid="48f6c8af-4c3f-ac18-9d73-bc3e72812ea6"/>
-   <Object name="door_navlink-005" type="door_navlink" guid="47bcfd95-d549-db18-4c9f-eb6ea24d29b7" tags="00ead468-9073-485b-a6df-ca6b94053603,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+   <Object name="door_navlink-001" type="door_navlink" guid="47bcfd95-d549-db18-4c9f-eb6ea24d29b7" tags="00ead468-9073-485b-a6df-ca6b94053603,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
    <Object name="mining_controltower_wall_straight_top_08x10x08_c-680" type="Brush" guid="4d2fc73e-8217-6119-162f-f202ada06884"/>
    <Object name="roomsm_floor_window_edge_a-101" type="Brush" guid="4d2a99f7-4367-6e19-83c1-3d895f0fd4a4"/>
    <Object name="airlock_monitor_1_01x01x01_a-020" type="Brush" guid="4baca00b-dd0a-8d19-d035-632da86f03b0"/>
@@ -62,7 +62,7 @@
    <Object name="roomsm_floor_window_edge_a-166" type="Brush" guid="4760a047-323a-a02d-72cc-1082bd2bc6b0"/>
    <Object name="CommentEntity-007" type="CommentEntity" guid="418cb56e-4b54-b32d-a7e1-0c839ff11d8d" tags=""/>
    <Object name="roomsm_floor_window_edge_a-081" type="Brush" guid="4216515b-8865-992e-99c1-3782df5c4497"/>
-   <Object name="door_navlink-001" type="door_navlink" guid="43a40bd7-0d47-0730-3fae-d9aafdd4b4b6" tags="00ead468-9073-485b-a6df-ca6b94053603,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+   <Object name="door_navlink-004" type="door_navlink" guid="43a40bd7-0d47-0730-3fae-d9aafdd4b4b6" tags="00ead468-9073-485b-a6df-ca6b94053603,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
    <Object name="roomsm_floor_window_edge_a-108" type="Brush" guid="483bd532-9c81-c131-84ad-f2bcc8245281"/>
    <Object name="roomsm_floor_window_edge_a-129" type="Brush" guid="4c9cbab9-9412-ec31-4e09-68e36a2f36b0"/>
    <Object name="roomsm_floor_window_edge_a-019" type="Brush" guid="4a4cc522-4ce8-f231-d45f-0ca5905dcebe"/>
@@ -120,7 +120,7 @@
    <Object name="roomsm_floor_window_edge_a-003" type="Brush" guid="4a75e27c-0fd4-b662-d92c-9acce305a4a9"/>
    <Object name="roomsm_floor_window_edge_a-090" type="Brush" guid="4e8cc215-0461-c662-b187-8e462b73fe93"/>
    <Object name="roomsm_floor_grate_01x04x0025_a-231" type="Brush" guid="4a6a4cf3-7bdd-bc63-d089-e1838d9c03bb"/>
-   <Object name="Ladder-001" type="Ladder" guid="42ece9cb-fc5f-8a64-a97b-fdfbf43f8d9e" tags="a200fe19-284b-47d5-a4c2-83adbc5814ea,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,00ead468-9073-485b-a6df-ca6b94053603,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,0a63a3b2-cce2-4ed9-a83d-59ab5aadb14e"/>
+   <Object name="Ladder-000" type="Ladder" guid="42ece9cb-fc5f-8a64-a97b-fdfbf43f8d9e" tags="a200fe19-284b-47d5-a4c2-83adbc5814ea,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,00ead468-9073-485b-a6df-ca6b94053603,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,0a63a3b2-cce2-4ed9-a83d-59ab5aadb14e"/>
    <Object name="roomsm_floor_window_edge_a-191" type="Brush" guid="4f3aad16-fcde-0865-b0d7-1e31cde58d9b"/>
    <Object name="roomsm_floor_window_edge_a-194" type="Brush" guid="442b7d72-9334-1a65-894a-f4d41f989b92"/>
    <Object name="mining_controltower_wall_straight_top_08x10x08_c-688" type="Brush" guid="48e99242-fa15-5e66-ad11-bb0386e30586"/>
@@ -236,7 +236,7 @@
    <Object name="roomsm_floor_window_edge_a-086" type="Brush" guid="41df6a82-e563-fcbf-6e43-c614e523418b"/>
    <Object name="roomsm_floor_window_edge_a-113" type="Brush" guid="4121ef0f-cfa7-2ec0-f692-d2ba15a021be"/>
    <Object name="mining_controltower_wall_straight_top_08x10x08_c-681" type="Brush" guid="4844c53b-f7a5-4dc0-83a3-97b7b4118a85"/>
-   <Object name="Ladder" type="Ladder" guid="4e942219-2b2a-d6c0-1621-81581aab16ad" tags="a200fe19-284b-47d5-a4c2-83adbc5814ea,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,00ead468-9073-485b-a6df-ca6b94053603,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,0a63a3b2-cce2-4ed9-a83d-59ab5aadb14e"/>
+   <Object name="Ladder-001" type="Ladder" guid="4e942219-2b2a-d6c0-1621-81581aab16ad" tags="a200fe19-284b-47d5-a4c2-83adbc5814ea,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,00ead468-9073-485b-a6df-ca6b94053603,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,0a63a3b2-cce2-4ed9-a83d-59ab5aadb14e"/>
    <Object name="roomsm_floor_window_edge_a-212" type="Brush" guid="49e202d2-15ea-f5c0-d5d7-e81a75610c87"/>
    <Object name="roomsm_floor_window_edge_a-068" type="Brush" guid="4bd16618-a93f-11c3-8e06-43bb21913190"/>
    <Object name="Light-035" type="Light" guid="44578f10-6620-20c3-ac33-a623d28cad99" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -254,7 +254,7 @@
    <Object name="roomsm_floor_window_edge_a-197" type="Brush" guid="45d0feb7-b92e-d0cc-a7a6-092ba0a64b8c"/>
    <Object name="roomsm_floor_window_edge_a-132" type="Brush" guid="47ecebd3-8ad7-63ce-c8a5-f2c78195a7a8"/>
    <Object name="roomsm_floor_window_edge_a-110" type="Brush" guid="4a35bf91-2a44-04cf-1b54-1a7599e139a0"/>
-   <Object name="MASTER_screen_16x9_MiningKiosk-002" type="MASTER_screen_16x9_MiningKiosk" guid="482ce820-4c9e-28d0-84d8-8230a4c2c89c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,81614c51-55f6-4d7a-b08b-8711bbaba9b7,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,0c4b5053-d003-4e11-90b0-572c6c75887a,da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
+   <Object name="MASTER_screen_16x9_MiningKiosk-000" type="MASTER_screen_16x9_MiningKiosk" guid="482ce820-4c9e-28d0-84d8-8230a4c2c89c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,81614c51-55f6-4d7a-b08b-8711bbaba9b7,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,0c4b5053-d003-4e11-90b0-572c6c75887a,da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
    <Object name="CommentEntity-004" type="CommentEntity" guid="4f2541f4-0c86-aad0-e5f6-b42108091791" tags=""/>
    <Object name="roomsm_floor_window_edge_a-023" type="Brush" guid="40c0d7fb-0e72-81d5-f8bb-3d3a18854aac"/>
    <Object name="roomsm_floor_window_edge_a-145" type="Brush" guid="40fc149e-6003-a0d6-d7a1-3fca358c5d9d"/>
@@ -282,7 +282,7 @@
    <Object name="rod_cargo_rail_2_a_02x01x02_06Ports" type="rod_cargo_rail_2_a_02x01x02_06Ports" guid="48fc8908-cc65-35e6-38d0-dc1cd7114983" tags="99b98536-c1a5-4062-b895-b0c5e4482a14,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
    <Object name="roomsm_floor_window_edge_a-075" type="Brush" guid="45e8df73-a7c6-37e6-2e60-79e2a2ddb5b0"/>
    <Object name="roomsm_floor_window_edge_a-114" type="Brush" guid="44a03ab1-c16d-81e6-78df-5637ddd578a3"/>
-   <Object name="MASTER_screen_16x9_MiningKiosk-001" type="MASTER_screen_16x9_MiningKiosk" guid="4ad33297-79bf-32e7-19bb-a0d96a211fac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,81614c51-55f6-4d7a-b08b-8711bbaba9b7,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,0c4b5053-d003-4e11-90b0-572c6c75887a,da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
+   <Object name="MASTER_screen_16x9_MiningKiosk-002" type="MASTER_screen_16x9_MiningKiosk" guid="4ad33297-79bf-32e7-19bb-a0d96a211fac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,81614c51-55f6-4d7a-b08b-8711bbaba9b7,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,0c4b5053-d003-4e11-90b0-572c6c75887a,da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
    <Object name="roomsm_floor_window_edge_a-156" type="Brush" guid="40eae2c4-f64d-b5e7-00fb-dfb44fc8919f"/>
    <Object name="roomsm_floor_window_edge_a-037" type="Brush" guid="4828fb25-0354-e6e7-5c85-c4ea65ea3ba3"/>
    <Object name="roomsm_floor_window_edge_a-008" type="Brush" guid="4a2e72f0-4d4f-0ce8-9d0e-9bb8a5f23a91"/>
@@ -306,7 +306,7 @@
    <Object name="roomsm_floor_window_edge_a-065" type="Brush" guid="48e571f7-d505-c9f8-bfee-1132cb82f9b3"/>
    <Object name="roomsm_floor_window_edge_a-168" type="Brush" guid="49443bc8-7004-c0f9-e2c1-f66d97323681"/>
    <Object name="roomsm_floor_window_edge_a-009" type="Brush" guid="4d3a7dc3-c9fc-e9fa-92e7-6d8b00b1edb1"/>
-   <Object name="door_navlink-004" type="door_navlink" guid="4da6adcd-68c7-16fb-3ebf-b253043e90bd" tags="00ead468-9073-485b-a6df-ca6b94053603,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+   <Object name="door_navlink-005" type="door_navlink" guid="4da6adcd-68c7-16fb-3ebf-b253043e90bd" tags="00ead468-9073-485b-a6df-ca6b94053603,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
    <Object name="roomsm_floor_window_edge_a-173" type="Brush" guid="4eeaf038-e3c8-67fb-1e50-f4255d8876a9"/>
    <Object name="roomsm_floor_window_edge_a-151" type="Brush" guid="4e9ff04c-b392-b9fb-44ef-dd59138363bd"/>
    <Object name="roomsm_floor_window_edge_a-207" type="Brush" guid="4ec3bac4-8f80-4bfc-2da4-0e777c92768d"/>

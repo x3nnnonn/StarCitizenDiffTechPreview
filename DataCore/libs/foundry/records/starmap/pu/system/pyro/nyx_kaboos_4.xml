@@ -12,7 +12,7 @@
   <type RecordReference="file://./../../../../../../../libs/foundry/records/starmap/starmapobjecttypes.xml" RecordName="StarMapObjectType.e207a1ec-1395-4c1c-8e51-b38c4420784c" RecordId="e207a1ec-1395-4c1c-8e51-b38c4420784c" />
   <radarProperties />
   <navIcon>Default</navIcon>
-  <parent />
+  <parent ReferencedFile="file://./../../../../../../../libs/foundry/records/starmap/pu/system/nyx/nyxstar.xml" />
   <isScannable>False</isScannable>
   <size>0.1</size>
   <hideInStarmap>True</hideInStarmap>
@@ -41,7 +41,14 @@
     <setEntityLocationOnEnter>True</setEntityLocationOnEnter>
     <exposeForPlayerCreatedMissions>False</exposeForPlayerCreatedMissions>
     <excludeFromLevelLoad>False</excludeFromLevelLoad>
-    <densityClassOverwrites />
+    <densityClassOverwrites Type="SEntityDensityClassOverwritesManual">
+      <densityOverwritesManual Type="SEntityDensityClassOverwrites">
+        <densityMultiplier_clusterUpperObjectCountDGS>1</densityMultiplier_clusterUpperObjectCountDGS>
+        <densityMultiplier_clusterUpperObjectCountPersistence>1</densityMultiplier_clusterUpperObjectCountPersistence>
+        <densityMultiplier_clusterPersistenceTimeout>1</densityMultiplier_clusterPersistenceTimeout>
+        <timeMultiplier_vehicleUnattendedCleanup>1.5</timeMultiplier_vehicleUnattendedCleanup>
+      </densityOverwritesManual>
+    </densityClassOverwrites>
     <densityClassLifetimeOverrides Type="SStarMapDensityClassLifetimeOverrideEntry" Count="0" />
   </locationParams>
   <locationImagePath />

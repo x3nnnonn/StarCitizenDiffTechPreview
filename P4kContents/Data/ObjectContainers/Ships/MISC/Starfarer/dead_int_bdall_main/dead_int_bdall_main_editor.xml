@@ -44,7 +44,7 @@
      <Object name="ATS_Brg_Escapepop_Elec-003" type="AudioTriggerSpot" guid="471dd542-5f0d-ffea-56f3-92f60aff2484" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="ATS_MntHub_Pipe-001" type="AudioTriggerSpot" guid="4a5d4651-cb08-6bf7-acb4-622e1157f084" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     </Layer>
-    <Layer name="brg_escapepod_ART" layerHash="1345536983" externalLayerFilePath="data/levels/!ship_setup/misc/starfarer_dead/Layers/BTM_DK/brg_escapepod/brg_escapepod_ART.lyr">
+    <Layer name="brg_escapepod_ART" layerHash="1581531264" externalLayerFilePath="data/levels/!ship_setup/misc/starfarer_dead/Layers/BTM_DK/brg_escapepod/brg_escapepod_ART.lyr">
      <Object name="escapepod_door-006" type="GeomEntity" guid="4d61d3b4-d898-000d-6d64-ce1ebf1642ac" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
      <Object name="escapepod-006" type="GeomEntity" guid="4f428b7e-a872-ca14-7607-7c6d8c6eabb6" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
      <Object name="door_escapepod-005" type="GeomEntity" guid="4a9f960d-91ab-561b-bb40-55eecd20039a" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
@@ -112,7 +112,7 @@
      <Object name="ATS_Cargo_access_before_stairwell_elec" type="AudioTriggerSpot" guid="4e74cf52-1078-e5f7-6ae7-de3c534c4eb9" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="AS_Crg_Access_Stairs_3_AudioBox" type="AreaShape" guid="41f2375e-c7e4-06f8-281f-d07fd766b099" tags=""/>
     </Layer>
-    <Layer name="crg_access_ART" layerHash="761718065" externalLayerFilePath="data/levels/!ship_setup/misc/starfarer_dead/Layers/BTM_DK/crg_access_/crg_access_ART.lyr">
+    <Layer name="crg_access_ART" layerHash="664560068" externalLayerFilePath="data/levels/!ship_setup/misc/starfarer_dead/Layers/BTM_DK/crg_access_/crg_access_ART.lyr">
      <Object name="crg_widebulkhead-020" type="Brush" guid="4c9a3a70-f023-a302-3378-f2530c7a6bb5"/>
      <Object name="crg_widebulkhead-032" type="Brush" guid="42fe11b3-e368-6103-7ee9-9e1bcdf24781"/>
      <Object name="mnt_eva_wallunit_top-005" type="GeomEntity" guid="427a7164-735c-e80b-042c-ed9d6b36f5a8" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
@@ -426,7 +426,7 @@
      <Object name="crg_doorway-004" type="Brush" guid="4ff7de84-df91-3ef2-252b-b1ff0e0e0590"/>
      <Object name="crg_floor_glass-001" type="Brush" guid="477d6c1c-e485-5af9-8f3b-a5959e362395"/>
     </Layer>
-    <Layer name="crg_cargo_bay_audio" layerHash="1368180673" externalLayerFilePath="data/levels/!ship_setup/misc/starfarer_dead/Layers/BTM_DK/crg_cargo_bay/crg_cargo_bay_audio.lyr">
+    <Layer name="crg_cargo_bay_audio" layerHash="151099734" externalLayerFilePath="data/levels/!ship_setup/misc/starfarer_dead/Layers/BTM_DK/crg_cargo_bay/crg_cargo_bay_audio.lyr">
      <Object name="ATS_cargo_bay_Elec" type="AudioTriggerSpot" guid="423a50d8-59df-8624-7788-2043f417e4be" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="AAA_Ambience_Base_CargoBay" type="AudioAreaAmbience" guid="4a30c206-7f5b-d62b-a8b6-536b36ad37aa" tags="04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="ATS_CargoBay_Pipe" type="AudioTriggerSpot" guid="46cc37df-a3d7-132f-c5e4-027c89ef1295" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -434,7 +434,7 @@
      <Object name="ASH_Mix_Deadzone_Combat_Space-001" type="AreaShape" guid="49ee7405-da8a-6d3f-e3c4-dc56d3af5283" tags=""/>
      <Object name="AAA_Mix_Deadzone_Combat_Space-001" type="AudioAreaAmbience" guid="49f8fb5b-1c58-b946-77af-116881dff683" tags="04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="ATS_CargoBay_Pipe-002" type="AudioTriggerSpot" guid="49236660-1d70-414a-e6e1-4986505f7ba0" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="AudioTriggerSpot-001" type="AudioTriggerSpot" guid="4bdec6d4-e915-644d-cac9-08535ec8b7b4" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="AudioTriggerSpot-000" type="AudioTriggerSpot" guid="4bdec6d4-e915-644d-cac9-08535ec8b7b4" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="ATS_cargo_bay_Elec-002" type="AudioTriggerSpot" guid="4d4e31cd-c7f1-3f5b-9ede-72948af18db3" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="ATS_CargoBay_BigPipes1" type="AudioTriggerSpot" guid="44622744-fc7f-c57e-641c-49b328ba2698" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="AS_Cargo_Bay_AudioBox" type="AreaShape" guid="49dcdc30-43c8-0f8b-de0a-602672bc7382" tags=""/>

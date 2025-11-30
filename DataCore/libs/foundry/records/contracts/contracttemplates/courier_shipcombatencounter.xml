@@ -325,8 +325,8 @@
             </pickUpTargetTypes>
             <dropOffTargetTypes Type="DeliveryTarget" Count="3">
               <DeliveryTarget ReferencedFile="file://./../../../../../libs/foundry/records/missiondata/deliverytargets/deliverytarget_itemport.xml" />
-              <DeliveryTarget ReferencedFile="file://./../../../../../libs/foundry/records/missiondata/deliverytargets/deliverytarget_locker_any.xml" />
               <DeliveryTarget ReferencedFile="file://./../../../../../libs/foundry/records/missiondata/deliverytargets/deliverytarget_freightelevator.xml" />
+              <DeliveryTarget ReferencedFile="file://./../../../../../libs/foundry/records/missiondata/deliverytargets/deliverytarget_locker_any.xml" />
             </dropOffTargetTypes>
             <haulingOrdersProperty PointsTo="ptr:12" />
           </HaulingOrder_Property>

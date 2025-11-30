@@ -49,8 +49,10 @@
         <ATLRTPCDependee atl_name="MDT_Ship_Thrusters_30s_Riser" />
         <ATLRTPCDependee atl_name="GP_Ship_Acceleration_Forward_Normalized" />
         <ATLRTPCDependee atl_name="SC_Local_Perspective" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_ANVL_F8C_Lightning_Retro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_ANVL_F8C_Lightning_Retro_Off_LP">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSTB_ANVL_F8C_Lightning_Retro_Off_LP" wwise_radius_max="0" />
@@ -96,8 +98,10 @@
         <ATLRTPCDependee atl_name="GP_Thrutsers_Meter_Afterburner_Retro" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Usage_Slow_Lerp" />
         <ATLRTPCDependee atl_name="GP_Ship_Linear_Real_Acceleration_LS" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_ANVL_F8C_Lightning_Retro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_ANVL_F8C_Lightning_Retro_Afterburner_Off_LP">
       <WwiseEvent wwise_duration_max="3.17838955" wwise_duration_min="2.35968566" wwise_duration_type="OneShot" wwise_name="Play_SSTB_ANVL_F8C_Lightning_Retro_Afterburner_Off_LP" wwise_radius_max="60" />
@@ -143,8 +147,10 @@
         <ATLRTPCDependee atl_name="GP_Ship_Acceleration_Forward_Normalized" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Meter_Retro_Misfire" />
         <ATLRTPCDependee atl_name="LFO_Ship_Thrusters_Detail" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_ANVL_F8C_Lightning_Retro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_ANVL_F8C_Lightning_Retro_LP">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTB_ANVL_F8C_Lightning_Retro_LP" wwise_radius_max="500" />
@@ -190,8 +196,10 @@
         <ATLRTPCDependee atl_name="GP_Thrutsers_Meter_Afterburner_Retro" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Usage_Slow_Lerp" />
         <ATLRTPCDependee atl_name="GP_Ship_Linear_Real_Acceleration_LS" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_ANVL_F8C_Lightning_Retro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_ANVL_F8C_Lightning_Retro_Afterburner_LP">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTB_ANVL_F8C_Lightning_Retro_Afterburner_LP" wwise_radius_max="60" />
@@ -237,8 +245,10 @@
         <ATLRTPCDependee atl_name="GP_Ship_Acceleration_Forward_Normalized" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Meter_Retro_Misfire" />
         <ATLRTPCDependee atl_name="LFO_Ship_Thrusters_Detail" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_ANVL_F8C_Lightning_Retro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_ANVL_F8C_Lightning_Retro_Turn_On">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSTB_ANVL_F8C_Lightning_Retro_Turn_On" wwise_radius_max="60" />
@@ -274,8 +284,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_ANVL_F8C_Lightning_Retro" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -288,4 +300,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

@@ -3053,7 +3053,7 @@
       <tooltipPolicy Type="BuildingBlocks_TooltipPolicy">
         <startDelay>0</startDelay>
         <duration>-1</duration>
-        <canvas />
+        <canvas ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/ui/buildingblocks/i_interactivescreens/ter/i_ter_resourcenetwork_components/ec_tooltip_lowercase.xml" />
         <text>@LOC_EMPTY</text>
         <positionOffset Type="Vec2">
           <x>16</x>
@@ -3209,8 +3209,8 @@
       </scale>
       <sizing Type="BuildingBlocks_Size">
         <width Type="BuildingBlocks_FixedOrRelativeValue">
-          <value>32</value>
-          <behavior>Auto</behavior>
+          <value>1</value>
+          <behavior>Percent</behavior>
         </width>
         <height Type="BuildingBlocks_FixedOrRelativeValue">
           <value>32</value>
@@ -3259,12 +3259,12 @@
         <back>0</back>
       </margin>
       <pivot Type="Vec3">
-        <x>1</x>
+        <x>0</x>
         <y>0.1</y>
         <z>0</z>
       </pivot>
       <anchor Type="Vec3">
-        <x>1</x>
+        <x>0</x>
         <y>1</y>
         <z>0</z>
       </anchor>
@@ -3468,7 +3468,7 @@
         <anchorToParentY>0.5</anchorToParentY>
         <scale>1</scale>
       </labelProperties>
-      <textAlignment>Right</textAlignment>
+      <textAlignment>Left</textAlignment>
       <verticalTextAlignment>Bottom</verticalTextAlignment>
       <colorStyleOverride />
       <fitToParent>False</fitToParent>
@@ -3505,7 +3505,7 @@
       <isActive>True</isActive>
       <affectsLayout>False</affectsLayout>
       <affectsAutosize>True</affectsAutosize>
-      <exportNode>True</exportNode>
+      <exportNode>False</exportNode>
       <position Type="Vec3">
         <x>0</x>
         <y>0</y>
@@ -4014,7 +4014,7 @@
       <tooltipPolicy Type="BuildingBlocks_TooltipPolicy">
         <startDelay>0</startDelay>
         <duration>-1</duration>
-        <canvas />
+        <canvas ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/ui/buildingblocks/i_interactivescreens/ter/i_ter_resourcenetwork_components/ec_tooltip.xml" />
         <text>@LOC_EMPTY</text>
         <positionOffset Type="Vec2">
           <x>16</x>
@@ -4916,7 +4916,7 @@
     </BuildingBlocks_BindingsLocalizedComponentParameter>
     <BuildingBlocks_BindingsLocalizedComponentParameter Pointer="ptr:25" Type="BuildingBlocks_BindingsLocalizedComponentParameter">
       <name>TooltipString</name>
-      <parameter>ParamInput2</parameter>
+      <parameter>ParamInput3</parameter>
       <defaultValue>@LOC_EMPTY</defaultValue>
     </BuildingBlocks_BindingsLocalizedComponentParameter>
     <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:31" Type="BuildingBlocks_BindingsIntegerComponentParameter">

@@ -41,8 +41,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMFS_HM_Material_Trash_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMFS_HM_Material_Trash_Down_NLPC">
       <WwiseEvent wwise_duration_max="4.01866674" wwise_duration_min="0.675" wwise_duration_type="OneShot" wwise_name="Play_CMFS_HM_Material_Trash_Down_NLPC" wwise_radius_max="50" />
@@ -88,8 +90,10 @@
         <ATLRTPCDependee atl_name="Foot_ID" />
         <ATLRTPCDependee atl_name="Actor_Acceleration" />
         <ATLRTPCDependee atl_name="Character_Rotation_Z" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMFS_HM_Material_Trash_NLPC" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -102,4 +106,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

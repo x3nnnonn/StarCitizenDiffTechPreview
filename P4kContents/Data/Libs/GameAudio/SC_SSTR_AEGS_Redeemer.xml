@@ -49,8 +49,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_AEGS_Redeemer_Retro_Thruster_Oneshot_Start">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_AEGS_Redeemer_Retro_Thruster_Oneshot_Start" wwise_radius_max="0" />
@@ -99,8 +101,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_AEGS_Redeemer_Retro_Thruster_Thrust_OneShot_End">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_AEGS_Redeemer_Retro_Thruster_Thrust_OneShot_End" wwise_radius_max="0" />
@@ -150,8 +154,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_AEGS_Redeemer_Retro_Thruster_Loop">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTR_AEGS_Redeemer_Retro_Thruster_Loop" wwise_radius_max="150" />
@@ -205,8 +211,10 @@
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
         <ATLRTPCDependee atl_name="DM_WPHD_Large_3p_Ducking_Meter" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_AEGS_Redeemer_Retro_Thruster_Thrust_OneShot_Start">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_AEGS_Redeemer_Retro_Thruster_Thrust_OneShot_Start" wwise_radius_max="0" />
@@ -256,8 +264,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_AEGS_Redeemer_Retro_Thruster_Oneshot_End">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_AEGS_Redeemer_Retro_Thruster_Oneshot_End" wwise_radius_max="0" />
@@ -309,8 +319,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_AEGS_Redeemer_Retro_Thruster_Thrust_OneShot_Start">
       <WwiseEvent wwise_duration_max="2.11324477" wwise_duration_min="2.06138515" wwise_duration_type="OneShot" wwise_name="Play_SSTR_AEGS_Redeemer_Retro_Thruster_Thrust_OneShot_Start" wwise_radius_max="150" />
@@ -360,8 +372,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_AEGS_Redeemer_Retro_Thruster_Loop">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_AEGS_Redeemer_Retro_Thruster_Loop" wwise_radius_max="0" />
@@ -415,8 +429,10 @@
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
         <ATLRTPCDependee atl_name="DM_WPHD_Large_3p_Ducking_Meter" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_AEGS_Redeemer_Retro_Thruster_Oneshot_Start">
       <WwiseEvent wwise_duration_max="2.87015057" wwise_duration_min="2.79971647" wwise_duration_type="OneShot" wwise_name="Play_SSTR_AEGS_Redeemer_Retro_Thruster_Oneshot_Start" wwise_radius_max="150" />
@@ -465,8 +481,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_AEGS_Redeemer_Retro_Thruster_Oneshot_End">
       <WwiseEvent wwise_duration_max="3.67937279" wwise_duration_min="3.58908" wwise_duration_type="OneShot" wwise_name="Play_SSTR_AEGS_Redeemer_Retro_Thruster_Oneshot_End" wwise_radius_max="150" />
@@ -518,8 +536,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTP_AEGS_Redeemer_Nutcracker_Oneshot_Start">
       <WwiseEvent wwise_duration_max="3.321625" wwise_duration_min="3.06883335" wwise_duration_type="OneShot" wwise_name="Play_SSTP_AEGS_Redeemer_Nutcracker_Oneshot_Start" wwise_radius_max="250" />
@@ -573,8 +593,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -587,4 +609,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

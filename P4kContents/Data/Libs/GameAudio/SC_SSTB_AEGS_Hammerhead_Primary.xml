@@ -53,8 +53,10 @@
         <ATLRTPCDependee atl_name="GP_Ship_Atmospheric_Density" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Player_Input" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Thruster_On" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Hammerhead_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Hammerhead_Primary_Afterburner_LP">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTB_AEGS_Hammerhead_Primary_Afterburner_LP" wwise_radius_max="300" />
@@ -104,8 +106,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Hammerhead_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Hammerhead_Primary_Off_LP">
       <WwiseEvent wwise_duration_max="11.6540947" wwise_duration_min="10.382617" wwise_duration_type="OneShot" wwise_name="Play_SSTB_AEGS_Hammerhead_Primary_Off_LP" wwise_radius_max="300" />
@@ -158,8 +162,10 @@
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="GP_Ship_Atmospheric_Density" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Player_Input" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Hammerhead_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTB_AEGS_Hammerhead_Primary_Afterburner_LP">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTB_AEGS_Hammerhead_Primary_Afterburner_LP" wwise_radius_max="0" />
@@ -209,8 +215,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Hammerhead_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTB_AEGS_Hammerhead_Primary_Thrusters">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTB_AEGS_Hammerhead_Primary_Thrusters" wwise_radius_max="0" />
@@ -268,8 +276,10 @@
         <ATLRTPCDependee atl_name="GP_Ship_Linear_Velocity_Length_Normalized_LS" />
         <ATLRTPCDependee atl_name="GP_Ship_Atmospheric_Density" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Player_Input" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Hammerhead_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Hammerhead_Primary_Turn_On">
       <WwiseEvent wwise_duration_max="12.1540947" wwise_duration_min="10.382617" wwise_duration_type="OneShot" wwise_name="Play_SSTB_AEGS_Hammerhead_Primary_Turn_On" wwise_radius_max="300" />
@@ -285,6 +295,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Hammerhead_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Hammerhead_Primary_Afterburner_On">
       <WwiseEvent wwise_duration_max="2.30519319" wwise_duration_min="1.90001881" wwise_duration_type="OneShot" wwise_name="Play_SSTB_AEGS_Hammerhead_Primary_Afterburner_On" wwise_radius_max="300" />
@@ -302,6 +313,7 @@
         <ATLRTPCDependee atl_name="Thruster_Time_Since_Last_Afterburner_Start" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Hammerhead_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Hammerhead_Primary_Afterburner_Off">
       <WwiseEvent wwise_duration_max="2.11892629" wwise_duration_min="1.88774848" wwise_duration_type="OneShot" wwise_name="Play_SSTB_AEGS_Hammerhead_Primary_Afterburner_Off" wwise_radius_max="300" />
@@ -319,6 +331,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Hammerhead_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTB_AEGS_Hammerhead_Primary_LP">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Stop_SSTB_AEGS_Hammerhead_Primary_LP" wwise_radius_max="60" />
@@ -372,8 +385,10 @@
         <ATLRTPCDependee atl_name="GP_Ship_Atmospheric_Density" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Player_Input" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Thruster_On" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Hammerhead_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Hammerhead_Primary_Turn_Off">
       <WwiseEvent wwise_duration_max="11.6540947" wwise_duration_min="10.382617" wwise_duration_type="OneShot" wwise_name="Play_SSTB_AEGS_Hammerhead_Primary_Turn_Off" wwise_radius_max="300" />
@@ -389,6 +404,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Hammerhead_Primary" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -401,4 +417,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

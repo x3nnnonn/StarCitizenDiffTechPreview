@@ -26,7 +26,7 @@
       <trackerProperties Type="SActorEntryTrackerParams" />
     </EntityUIDisplayParams>
   </StaticEntityClassData>
-  <Components Type="DataForgeComponentParams" Count="106">
+  <Components Type="DataForgeComponentParams" Count="105">
     <SDummyPlayerComponentParams Type="SDummyPlayerComponentParams">
       <character ReferencedFile="file://./../../../../../libs/foundry/records/character/character.player.xml" />
       <isAIControlled>False</isAIControlled>
@@ -615,12 +615,12 @@
       <mastergraphStateOverrides Type="SMastergraphStateOverride" Count="0" />
     </SubsumptionComponentParams>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="HealthIconData" Count="2">
+      <perceptionTypes Type="ActorStatusUIWarning" Count="2">
         <EnumChoice>Agent</EnumChoice>
         <EnumChoice>Player</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
+      <excludedSenses Type="ActorStatusPreset" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="2">
         <SObservablePointDef Pointer="ptr:2" Type="SObservablePointDef">
           <helperName>Head</helperName>
@@ -2201,7 +2201,6 @@
       <outfitHangerGroups Type="SOutfitHangerGroup" Count="0" />
       <coreInventoryItems Type="SCoreInventoryItem" Count="0" />
     </SEntityLootableContainerParams>
-    <DataForgeComponentParams />
     <SEntityAudioControllerParams Type="SEntityAudioControllerParams">
       <audioControllerEntityType>Actor</audioControllerEntityType>
       <randomSeedCount>4</randomSeedCount>
@@ -2408,7 +2407,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Body</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3067,30 +3066,24 @@
       <shipVelocityThroughRain Type="AudioRtpc">
         <rtpc>ProceduralPlanetAudio_Rain_Ship_Velocity</rtpc>
       </shipVelocityThroughRain>
-      <fireSpreadAudioTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
-      </fireSpreadAudioTrigger>
-      <fireSpreadAudioStopTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
-      </fireSpreadAudioStopTrigger>
       <fireMainAudioTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
+        <audioTrigger>Play_ENVA_Fire_Propagation</audioTrigger>
       </fireMainAudioTrigger>
       <fireMainAudioStopTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
+        <audioTrigger>Stop_ENVA_Fire_Propagation</audioTrigger>
       </fireMainAudioStopTrigger>
       <firePointAudioTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
+        <audioTrigger>Play_ENVP_Fire_Propagation</audioTrigger>
       </firePointAudioTrigger>
       <firePointAudioStopTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
+        <audioTrigger>Stop_ENVP_Fire_Propagation</audioTrigger>
       </firePointAudioStopTrigger>
       <fireRadiusRtpc Type="AudioRtpc">
-        <rtpc />
+        <rtpc>Fire_Propagation_Range</rtpc>
       </fireRadiusRtpc>
       <fireRadiusMaxValueToNormalize>10</fireRadiusMaxValueToNormalize>
       <fireStrengthRtpc Type="AudioRtpc">
-        <rtpc />
+        <rtpc>Fire_Propagation_Strength</rtpc>
       </fireStrengthRtpc>
       <fireFadeRtpc Type="AudioRtpc">
         <rtpc />
@@ -3110,6 +3103,18 @@
       <fireIgnitionStrengthRtpc Type="AudioRtpc">
         <rtpc />
       </fireIgnitionStrengthRtpc>
+      <startFireAlarmAudioTrigger Type="GlobalResourceAudio">
+        <audioTrigger />
+      </startFireAlarmAudioTrigger>
+      <stopFireAlarmAudioTrigger Type="GlobalResourceAudio">
+        <audioTrigger />
+      </stopFireAlarmAudioTrigger>
+      <startCriticalFailureAlarmAudioTrigger Type="GlobalResourceAudio">
+        <audioTrigger />
+      </startCriticalFailureAlarmAudioTrigger>
+      <stopCriticalFailureAlarmAudioTrigger Type="GlobalResourceAudio">
+        <audioTrigger />
+      </stopCriticalFailureAlarmAudioTrigger>
     </LocalPlayerAudioEnvironmentParams>
     <SCActorDNAComponentParams Type="SCActorDNAComponentParams">
       <DNA />
@@ -5054,7 +5059,7 @@
       <scoreboards Type="SScoreboard" Count="4">
         <SScoreboard Type="SScoreboard">
           <debugName>Objective Based Mode</debugName>
-          <validGameModes Type="SActorProceduralHandsRecoilCurveModifiersDef" Count="2">
+          <validGameModes Type="ActorProceduralRecoilConfig" Count="2">
             <EnumChoice>EA_TheatersOfWar</EnumChoice>
             <EnumChoice>EA_Control</EnumChoice>
           </validGameModes>
@@ -5093,7 +5098,7 @@
         </SScoreboard>
         <SScoreboard Type="SScoreboard">
           <debugName>Racing</debugName>
-          <validGameModes Type="SActorProceduralHandsRecoilCurveModifiersDef" Count="2">
+          <validGameModes Type="ActorProceduralRecoilConfig" Count="2">
             <EnumChoice>EA_ClassicRace</EnumChoice>
             <EnumChoice>EA_GravRace</EnumChoice>
           </validGameModes>
@@ -5132,7 +5137,7 @@
         </SScoreboard>
         <SScoreboard Type="SScoreboard">
           <debugName>Standard Deathmatch</debugName>
-          <validGameModes Type="SActorProceduralHandsRecoilCurveModifiersDef" Count="22">
+          <validGameModes Type="ActorProceduralRecoilConfig" Count="22">
             <EnumChoice>EA_BattleRoyale</EnumChoice>
             <EnumChoice>EA_FreeFlight</EnumChoice>
             <EnumChoice>EA_VanduulSwarm</EnumChoice>
@@ -5185,7 +5190,7 @@
         </SScoreboard>
         <SScoreboard Type="SScoreboard">
           <debugName>GunGame</debugName>
-          <validGameModes Type="SActorProceduralHandsRecoilCurveModifiersDef" Count="1">
+          <validGameModes Type="ActorProceduralRecoilConfig" Count="1">
             <EnumChoice>EA_FPSGunGame</EnumChoice>
           </validGameModes>
           <stats Type="SScoreboardStat" Count="5">

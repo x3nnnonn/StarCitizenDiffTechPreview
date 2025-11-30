@@ -75,9 +75,9 @@
       <entityAttachParams />
     </SAttachableComponentParams>
     <SCItemVehicleArmorParams Type="SCItemVehicleArmorParams">
-      <signalInfrared>1</signalInfrared>
-      <signalElectromagnetic>1</signalElectromagnetic>
-      <signalCrossSection>1</signalCrossSection>
+      <signalInfrared>1.1</signalInfrared>
+      <signalElectromagnetic>1.1</signalElectromagnetic>
+      <signalCrossSection>1.1</signalCrossSection>
       <damageMultiplier Type="DamageInfo">
         <DamagePhysical>0.8</DamagePhysical>
         <DamageEnergy>1</DamageEnergy>
@@ -99,7 +99,7 @@
       </armorPenetrationResistance>
     </SCItemVehicleArmorParams>
     <SHealthComponentParams Type="SHealthComponentParams">
-      <Health>0</Health>
+      <Health>640</Health>
       <DamageCap>0</DamageCap>
       <DamageResistances Type="DamageResistance">
         <IgnoreMeleeDamage>False</IgnoreMeleeDamage>

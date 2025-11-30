@@ -133,7 +133,7 @@
           </Offset>
           <boneName>hardpoint_int_main</boneName>
           <shouldRequestNavMeshRegenerationOnLoad>False</shouldRequestNavMeshRegenerationOnLoad>
-          <resourceNetworkItemportName />
+          <resourceNetworkItemportName>hardpoint_relay_cockpit</resourceNetworkItemportName>
         </SVehicleObjectContainerParams>
         <SVehicleObjectContainerParams Type="SVehicleObjectContainerParams">
           <fileName>ObjectContainers/Vehicles/GRIN/STV/exterior_lighting.socpak</fileName>
@@ -152,7 +152,7 @@
           </Offset>
           <boneName>hardpoint_int_main</boneName>
           <shouldRequestNavMeshRegenerationOnLoad>False</shouldRequestNavMeshRegenerationOnLoad>
-          <resourceNetworkItemportName />
+          <resourceNetworkItemportName>hardpoint_relay_cockpit</resourceNetworkItemportName>
         </SVehicleObjectContainerParams>
       </objectContainers>
       <physicsGrid Type="SVehiclePhysicsGridParams">
@@ -193,7 +193,7 @@
         <WearRange />
         <DirtRange />
         <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
-        <entries Type="SItemPortLoadoutEntryParams" Count="33">
+        <entries Type="SItemPortLoadoutEntryParams" Count="31">
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_paint</itemPortName>
             <entityClassName />
@@ -280,20 +280,6 @@
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_radar</itemPortName>
             <entityClassName>RADR_WLOP_S00_Denning</entityClassName>
-            <entityClassReference />
-            <inventoryContainer />
-            <loadout />
-          </SItemPortLoadoutEntryParams>
-          <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
-            <itemPortName>hardpoint_ping</itemPortName>
-            <entityClassName />
-            <entityClassReference />
-            <inventoryContainer />
-            <loadout />
-          </SItemPortLoadoutEntryParams>
-          <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
-            <itemPortName>hardpoint_scanner</itemPortName>
-            <entityClassName />
             <entityClassReference />
             <inventoryContainer />
             <loadout />
@@ -447,7 +433,7 @@
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_relay_cockpit</itemPortName>
-            <entityClassName>RELAY_2slot</entityClassName>
+            <entityClassName>RELAY_1slot_MRAI_Pulse</entityClassName>
             <entityClassReference />
             <inventoryContainer />
             <loadout />
@@ -1451,7 +1437,7 @@
         </Pipes>
       </masterController>
       <Ports Type="SItemPortDef" Count="4">
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:2" Type="SItemPortDef">
           <Name>hardpoint_controller_fuel</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
@@ -1778,12 +1764,12 @@
             <z>-1</z>
           </detachDirection>
         </SItemPortDef>
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:1" Type="SItemPortDef">
           <Name>hardpoint_relay_cockpit</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
-          <Flags>invisible uneditable</Flags>
+          <Flags>uneditable</Flags>
           <Tags Type="Tag" Count="0" />
           <OnAttachTags Type="Tag" Count="0" />
           <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
@@ -1822,7 +1808,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1830,17 +1816,17 @@
             <Helper Type="SItemPortDefHelperNode">
               <Tags />
               <Helper Type="SItemPortDefHelper">
-                <Name>GRIN_STV</Name>
+                <Name>hardpoint_radar</Name>
                 <Offset Type="QuatT">
                   <Rotation Type="Ang3">
-                    <x>0</x>
+                    <x>90</x>
                     <y>0</y>
-                    <z>0</z>
+                    <z>90</z>
                   </Rotation>
                   <Position Type="Vec3">
                     <x>0</x>
-                    <y>1.7187</y>
-                    <z>-0.375</z>
+                    <y>0</y>
+                    <z>0.2</z>
                   </Position>
                 </Offset>
                 <ItemOffsetHelperName />
@@ -1874,11 +1860,73 @@
       <PortFlags />
       <PortTags />
       <RequiredItemTags />
-      <InternalResourceLinks Type="SInternalResourceLink" Count="0" />
-      <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
-      <LinkAllItemsToResourceNetwork>True</LinkAllItemsToResourceNetwork>
+      <InternalResourceLinks Type="SInternalResourceLink" Count="1">
+        <SInternalResourceLink Type="SInternalResourceLink">
+          <port1 PointsTo="ptr:1" />
+          <port2 PointsTo="ptr:2" />
+        </SInternalResourceLink>
+      </InternalResourceLinks>
+      <InternalHardpointLinks Type="SInternalHardpointLink" Count="14">
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_seat_driver</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_dashboard_driver</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_wheel</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_light</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_comms</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_door</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_radar</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_energy</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_cooler</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_cooler</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_capacitor_assignment</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_seat_passenger</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_computer</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_power_plant</port2>
+        </SInternalHardpointLink>
+      </InternalHardpointLinks>
+      <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
-      <doorsIgnorePower>False</doorsIgnorePower>
+      <doorsIgnorePower>True</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="7">
@@ -2342,11 +2390,11 @@
       <entrancesRecord ReferencedFile="file://./../../../../../libs/foundry/records/ui/vehicleentrance/grin_stv.xml" />
     </EntranceDisplayComponentParams>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="HealthIconData" Count="1">
+      <perceptionTypes Type="ActorStatusUIWarning" Count="1">
         <EnumChoice>Vehicle</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
+      <excludedSenses Type="ActorStatusPreset" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
       <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
       <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />

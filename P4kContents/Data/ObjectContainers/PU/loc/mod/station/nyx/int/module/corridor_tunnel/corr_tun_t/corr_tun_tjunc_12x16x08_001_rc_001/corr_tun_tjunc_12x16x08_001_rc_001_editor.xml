@@ -1,4 +1,4 @@
-<ObjectContainer sourceLevel="data/levels/!oc/pu/loc/mod/station/nyx/int/module/corridor_tunnel/corr_tun_t">
+<ObjectContainer sourceLevel="data/levels/!oc/pu/loc/mod/station/nyx/int/module/corridor_tunnel/corr_tun_t/">
  <Layers>
   <Layer fullname="overlay/dungeon/rock_crack/corr_tun_tjunc_12x16x08_001_rc_001" externalLayerLevelDir="data/levels/!oc/pu/loc/mod/station/nyx/int/module/corridor_tunnel/corr_tun_t/Layers/" externalLayerParentDir="overlay/dungeon/rock_crack/" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/corridor_tunnel/corr_tun_t/Layers/overlay/dungeon/rock_crack/corr_tun_tjunc_12x16x08_001_rc_001.lyr" ParentGUID="{75882230-582B-4173-BED9-93B9E7FDBD0E}" layerHash="3041400703">
    <Layer name="ai" layerHash="3276366709" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/corridor_tunnel/corr_tun_t/Layers/overlay/dungeon/rock_crack/corr_tun_tjunc_12x16x08_001_rc_001/ai.lyr"/>
@@ -69,10 +69,7 @@
    <Layer name="proc" layerHash="1817404998" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/corridor_tunnel/corr_tun_t/Layers/overlay/dungeon/rock_crack/corr_tun_tjunc_12x16x08_001_rc_001/proc.lyr"/>
    <Layer name="prop" layerHash="1567860519" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/corridor_tunnel/corr_tun_t/Layers/overlay/dungeon/rock_crack/corr_tun_tjunc_12x16x08_001_rc_001/prop.lyr"/>
    <Layer name="sfx" layerHash="746223904" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/corridor_tunnel/corr_tun_t/Layers/overlay/dungeon/rock_crack/corr_tun_tjunc_12x16x08_001_rc_001/sfx.lyr"/>
-   <Layer name="sys" layerHash="919385064" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/corridor_tunnel/corr_tun_t/Layers/overlay/dungeon/rock_crack/corr_tun_tjunc_12x16x08_001_rc_001/sys.lyr">
-    <Object name="AreaBox_corr_tjunc_12x16x08_001" type="AreaBox" guid="4fabcefe-e6aa-8f8a-8004-0bf4547b42a7" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
-    <Object name="Room_corr_tjunc_12x16x08_001" type="Room" guid="4d63df77-cb13-e590-a4e3-18275b131aa7" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
-   </Layer>
+   <Layer name="sys" layerHash="82171910" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/corridor_tunnel/corr_tun_t/Layers/overlay/dungeon/rock_crack/corr_tun_tjunc_12x16x08_001_rc_001/sys.lyr"/>
    <Layer name="vfx" layerHash="570207126" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/corridor_tunnel/corr_tun_t/Layers/overlay/dungeon/rock_crack/corr_tun_tjunc_12x16x08_001_rc_001/vfx.lyr"/>
    <Layer name="vis" layerHash="1017986853" externalLayerFilePath="data/levels/!oc/pu/loc/mod/station/nyx/int/module/corridor_tunnel/corr_tun_t/Layers/overlay/dungeon/rock_crack/corr_tun_tjunc_12x16x08_001_rc_001/vis.lyr"/>
    <Object name="oc_pivot_corr_str_tun_08x08x04_001_dung_crack_006" type="ObjectContainerPivot" guid="43ec0e5e-3b41-2150-aef0-0a73439b7c9e" tags=""/>

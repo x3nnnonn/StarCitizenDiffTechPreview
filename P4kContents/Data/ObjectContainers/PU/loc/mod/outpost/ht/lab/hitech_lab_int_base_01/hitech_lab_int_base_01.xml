@@ -1,4 +1,4 @@
-<ObjectContainer version="11" name="hitech_lab_int_base_01" tags="" type="Default OC" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="208" entityCountDynamic="0" entityCountUnique="0" minBounds="-34.500344656482866,33,-0.50457727909088135" maxBounds="2029.9456978189473,134.5,25.093948358396844" radius="2031.8014" crcSOC="2231617350">
+<ObjectContainer version="11" name="hitech_lab_int_base_01" tags="" type="Default OC" editorBuildChangelist="10717593" entityCountPLA="0" entityCountALE="0" entityCountStatic="208" entityCountDynamic="0" entityCountUnique="0" minBounds="-34.500344656482866,33,-0.50457727909088135" maxBounds="2029.9456978189473,134.5,25.093948358396844" radius="2031.8014" crcSOC="3345602419">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="47d6dedb-48fa-45fa-a7c1-edb62971b62b"/>
@@ -37,8 +37,8 @@
    <Tag TagId="1a1f10a2-894c-45ca-93d2-4785233c5250"/>
    <Tag TagId="2d9cda94-661b-48bd-a2a7-26b06eddd420"/>
    <Tag TagId="7d7fe7a5-19a0-40e1-a056-a722fc39ae18"/>
-   <Tag TagId="a7c06cc7-a715-43b3-93b6-486483f26d18"/>
    <Tag TagId="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+   <Tag TagId="a7c06cc7-a715-43b3-93b6-486483f26d18"/>
    <Tag TagId="e78f2f16-149c-4ac8-941b-004481b8fe9e"/>
    <Tag TagId="c043edb6-1ca7-4e34-94b4-76079f5505eb"/>
   </Tags>
@@ -59,7 +59,7 @@
    <TilePipeEntry name="AtmosphereOut" class="Output"/>
   </TilePipeEntries>
   <TileItemPortEntries>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-26,84,14" type="Noattach" name="Port0_Room_FoyerOverlook[int_001_sys]" display_name="Port0_Room_FoyerOverlook[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="44.375,105.25,10" type="Noattach" name="Port0_Room_LabsBackCorridor-002[int_001_sys]" display_name="Port0_Room_LabsBackCorridor-002[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -69,7 +69,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="44.375,105.25,10" type="Noattach" name="Port1_Room_LabsBackCorridor-002[int_001_sys]" display_name="Port1_Room_LabsBackCorridor-002[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="45,119,10" type="Noattach" name="Port1_Room_LabsBackCorridor-001[int_001_sys]" display_name="Port1_Room_LabsBackCorridor-001[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -79,7 +79,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-29.5,105.75,12.5" type="Noattach" name="Port2_Room_LabsOverlookStairwell[int_001_sys]" display_name="Port2_Room_LabsOverlookStairwell[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-26,84,14" type="Noattach" name="Port2_Room_FoyerOverlook[int_001_sys]" display_name="Port2_Room_FoyerOverlook[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -89,7 +89,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="45,119,10" type="Noattach" name="Port3_Room_LabsBackCorridor-001[int_001_sys]" display_name="Port3_Room_LabsBackCorridor-001[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-29.5,105.75,12.5" type="Noattach" name="Port3_Room_LabsOverlookStairwell[int_001_sys]" display_name="Port3_Room_LabsOverlookStairwell[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -289,7 +289,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="5.5,66.25,7" type="Noattach" name="Port23_Room_HabitationCorridor[int_001_sys]" display_name="Port23_Room_HabitationCorridor[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-0.25,71.25,12.125" type="Noattach" name="Port23_Room_HabitationCorridor-001[int_001_sys]" display_name="Port23_Room_HabitationCorridor-001[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -299,7 +299,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-0.25,71.25,12.125" type="Noattach" name="Port24_Room_HabitationCorridor-001[int_001_sys]" display_name="Port24_Room_HabitationCorridor-001[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="5.5,66.25,7" type="Noattach" name="Port24_Room_HabitationCorridor[int_001_sys]" display_name="Port24_Room_HabitationCorridor[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -359,7 +359,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="6.125,130.25,10" type="Noattach" name="Port30_Room_LabsReception-004[int_001_sys]" display_name="Port30_Room_LabsReception-004[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="4.375,119.25,14" type="Noattach" name="Port30_Room_LabsLabSmall[int_001_sys]" display_name="Port30_Room_LabsLabSmall[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -369,7 +369,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="4.375,119.25,14" type="Noattach" name="Port31_Room_LabsLabSmall[int_001_sys]" display_name="Port31_Room_LabsLabSmall[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="6.125,130.25,10" type="Noattach" name="Port31_Room_LabsReception-004[int_001_sys]" display_name="Port31_Room_LabsReception-004[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -429,7 +429,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-25.5,69,12" type="Noattach" name="Port37_Room_CommunalStairwell[int_001_sys]" display_name="Port37_Room_CommunalStairwell[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="6.5,112.5,10" type="Noattach" name="Port37_Room_LabsReception[int_001_sys]" display_name="Port37_Room_LabsReception[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -439,7 +439,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="6.5,112.5,10" type="Noattach" name="Port38_Room_LabsReception[int_001_sys]" display_name="Port38_Room_LabsReception[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-25.5,69,12" type="Noattach" name="Port38_Room_CommunalStairwell[int_001_sys]" display_name="Port38_Room_CommunalStairwell[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -469,7 +469,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="35.125,124.875,9.5764322" type="Noattach" name="Port41_Room_LabsBackCorridor-003[int_001_sys]" display_name="Port41_Room_LabsBackCorridor-003[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="50,58.125,14" type="Noattach" name="Port41_Room_HabitationEntrance[int_001_sys]" display_name="Port41_Room_HabitationEntrance[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -489,7 +489,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="50,58.125,14" type="Noattach" name="Port43_Room_HabitationEntrance[int_001_sys]" display_name="Port43_Room_HabitationEntrance[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="35.125,124.875,9.5764322" type="Noattach" name="Port43_Room_LabsBackCorridor-003[int_001_sys]" display_name="Port43_Room_LabsBackCorridor-003[int_001_sys]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>

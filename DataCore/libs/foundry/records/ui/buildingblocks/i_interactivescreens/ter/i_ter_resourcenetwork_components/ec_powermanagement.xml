@@ -1139,7 +1139,7 @@
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="48">
+  <operations Type="BuildingBlocks_Node" Count="50">
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
       <widget PointsTo="ptr:1" />
       <field>ParamInput0</field>
@@ -1438,6 +1438,18 @@
       </exceptions>
       <input PointsTo="ptr:34" />
     </BuildingBlocks_BindingsBooleanFromIntegerSwitch>
+    <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:35" Type="BuildingBlocks_BindingsLocalizedVariable">
+      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
+      <binding>/resourceNetworkUI/presets/presetslist/[/resourceNetworkUI/presets/selected]/title</binding>
+      <inheritsNamespace>True</inheritsNamespace>
+      <isPulled>False</isPulled>
+      <isWatched>False</isWatched>
+    </BuildingBlocks_BindingsLocalizedVariable>
+    <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput1</field>
+      <input PointsTo="ptr:35" />
+    </BuildingBlocks_BindingsLocalizedField>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

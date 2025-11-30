@@ -296,7 +296,7 @@
           <minTemperature>0</minTemperature>
           <overheatTemperature>100</overheatTemperature>
           <coolingPerSecond>35.6</coolingPerSecond>
-          <temperatureAfterOverheatFix>99</temperatureAfterOverheatFix>
+          <temperatureAfterOverheatFix>0</temperatureAfterOverheatFix>
           <timeTillCoolingStarts>0.364</timeTillCoolingStarts>
           <overheatFixTime>1.74</overheatFixTime>
           <temperatureCurveParams />
@@ -1460,7 +1460,7 @@
                   <projectileType>Primary</projectileType>
                 </launchParams>
                 <fireRate>750</fireRate>
-                <heatPerShot>2.85</heatPerShot>
+                <heatPerShot>0.8</heatPerShot>
                 <wearPerShot>2.12E-06</wearPerShot>
                 <recoil ReferencedFile="file://./../../../../../../../libs/foundry/records/weaponproceduralrecoil/shiprecoil/klwe_laserrepeater_s3_rapid.xml" />
                 <misfire />
@@ -1558,7 +1558,7 @@
                   <projectileType>Primary</projectileType>
                 </launchParams>
                 <fireRate>750</fireRate>
-                <heatPerShot>2.85</heatPerShot>
+                <heatPerShot>0.8</heatPerShot>
                 <wearPerShot>2.12E-06</wearPerShot>
                 <recoil ReferencedFile="file://./../../../../../../../libs/foundry/records/weaponproceduralrecoil/shiprecoil/klwe_laserrepeater_s3_rapid.xml" />
                 <misfire />
@@ -1971,8 +1971,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -2112,7 +2112,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Barrel</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2206,7 +2206,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>FiringMechanism</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2300,7 +2300,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>PowerArray</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2394,7 +2394,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Ventilation</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2469,7 +2469,7 @@
           <max>1</max>
           <default>1</default>
           <scalingMinimum>True</scalingMinimum>
-          <affectedResources Type="BuildingBlocks_BindingsNumberFromIntegerSwitch" Count="1">
+          <affectedResources Type="BuildingBlocks_BindingsNumberAtan2" Count="1">
             <EnumChoice>Power</EnumChoice>
           </affectedResources>
         </ItemThrottleParams>

@@ -2,7 +2,7 @@
  <Layers>
   <Layer fullname="Interior/Int_SOC_Right" externalLayerLevelDir="data/levels/!ship_setup/crus/intrepid/Layers/" externalLayerParentDir="Interior/" externalLayerFilePath="data/levels/!ship_setup/crus/intrepid/Layers/Interior/Int_SOC_Right.lyr" ParentGUID="{CA628620-0998-43A8-B60B-9C5C26F61A92}" layerHash="1267260018">
    <Layer name="CrewQuarters" layerHash="423523929" externalLayerFilePath="data/levels/!ship_setup/crus/intrepid/Layers/Interior/Int_SOC_Right/CrewQuarters.lyr">
-    <Layer name="CrewQuarters_Art" layerHash="3182645928" externalLayerFilePath="data/levels/!ship_setup/crus/intrepid/Layers/Interior/Int_SOC_Right/CrewQuarters/CrewQuarters_Art.lyr">
+    <Layer name="CrewQuarters_Art" layerHash="3626035305" externalLayerFilePath="data/levels/!ship_setup/crus/intrepid/Layers/Interior/Int_SOC_Right/CrewQuarters/CrewQuarters_Art.lyr">
      <Object name="crus_intrepid_pipe_07d_0-5m_a-010" type="Brush" guid="43dc20cf-ef22-d703-a9e8-54a7ea3b1f9c"/>
      <Object name="crus_intrepid_pipe_red_07d_90_s1_a-004" type="Brush" guid="46f8050e-c03e-b304-ba31-6ee1e7e7c8bb"/>
      <Object name="crus_intrepid_pipe_07d_45_s1_a-001" type="Brush" guid="417b0142-7ca3-d40b-38a3-16eb616576b9"/>
@@ -67,7 +67,7 @@
      <Object name="crus_intrepid_pipe_07d_0-5m_a-011" type="Brush" guid="44c12304-c44c-d6f6-5e36-f6764fcb8290"/>
      <Object name="crus_intrepid_pipe_07d_1m_a-001" type="Brush" guid="4cce4c39-8326-fcf8-6330-36d6447c1b8e"/>
     </Layer>
-    <Layer name="CrewQuarters_Lighting" layerHash="3001985443" externalLayerFilePath="data/levels/!ship_setup/crus/intrepid/Layers/Interior/Int_SOC_Right/CrewQuarters/CrewQuarters_Lighting.lyr">
+    <Layer name="CrewQuarters_Lighting" layerHash="1729910618" externalLayerFilePath="data/levels/!ship_setup/crus/intrepid/Layers/Interior/Int_SOC_Right/CrewQuarters/CrewQuarters_Lighting.lyr">
      <Object name="hab_cubemap_suitlocker" type="EnvironmentLight" guid="49da895b-8d4a-9e04-7002-26d223bcce91" tags=""/>
      <Object name="LT_habs_storage_03" type="Light" guid="4313ae70-ce97-a605-78f9-3cedf5dc13ba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LT_habs_suit_floor_02" type="Light" guid="436c2765-5f2a-2108-35d9-e8dc96f683ba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -87,7 +87,7 @@
      <Object name="LT_habs_bulkhead_project_05" type="Light" guid="42e6fe2e-2151-cb35-a009-0291673fa88c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LT_habs_bulkhead_project_03" type="Light" guid="49d32c79-1a09-053a-808c-f85573d73b8f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LT_habs_bulkhead_link_01" type="Light" guid="448d60d0-64a8-013c-79d9-c4588c36ea96" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-     <Object name="ChipSet_DEFCON-001" type="ChipSet_DEFCON" guid="417d2d2f-5d22-b745-1256-3c4cfc8acf9f" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+     <Object name="ChipSet_DEFCON-001" type="ChipSet_DEFCON" guid="417d2d2f-5d22-b745-1256-3c4cfc8acf9f" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="LT_habs_entrance" type="Light" guid="45f935af-1d85-5947-c289-e3e67b1382b6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="hab_cubemap_suitlocker-002" type="EnvironmentLight" guid="44133d43-48c7-9d4b-e441-c07917faa288" tags=""/>
      <Object name="LT_habs_bulkhead_project_02" type="Light" guid="4edff50a-6c5a-ad4e-390f-9585c8306583" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -138,7 +138,7 @@
      <Object name="AAA_CRUS_Intrepid_Crew_Quarters" type="AudioAreaAmbience" guid="4ba0dd14-9236-f883-b818-85bfd4513eab" tags="849b8481-5893-4301-964e-4f39f3e27ad8,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="AS_CRUS_Intrepid_Crew_Quarters" type="AreaShape" guid="47be8745-5000-2ded-24ad-181e4b549ea3" tags="f1b1052f-f3b0-4f44-b809-96380bfc4e97"/>
     </Layer>
-    <Layer name="CrewQuarters_Setup" layerHash="3242064538" externalLayerFilePath="data/levels/!ship_setup/crus/intrepid/Layers/Interior/Int_SOC_Right/CrewQuarters/CrewQuarters_Setup.lyr">
+    <Layer name="CrewQuarters_Setup" layerHash="331371407" externalLayerFilePath="data/levels/!ship_setup/crus/intrepid/Layers/Interior/Int_SOC_Right/CrewQuarters/CrewQuarters_Setup.lyr">
      <Object name="CameraSource-001" type="Camera" guid="420624e6-8968-121f-d95d-4181ad6203b8" tags="47d6dedb-48fa-45fa-a7c1-edb62971b62b,67a1429b-cb18-4ce7-bb11-a0c6206ebc96"/>
      <Object name="ControlPanel_Screen_DoorControl-002" type="ControlPanel_Screen_DoorControl" guid="4465fb59-bfd7-e136-211b-031fb512ae80" tags="849b8481-5893-4301-964e-4f39f3e27ad8,009b77f0-af48-4e4d-8759-994c930de504,b5e7e39d-18cd-42d8-85b0-7862c0075765,6bd5ceb2-696b-43ff-b37e-1844e72debcc,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,eac0031a-3373-451e-80cc-4148d13a213d,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="Bed_Single_CRUS_Intrepid_Right" type="Bed_Single_CRUS_Intrepid_Right" guid="4d872ce8-c6dd-e338-08b9-9e6f31c8b1bb" tags="7ef48629-79f5-414f-b380-1b26872f4d07,cdc83f65-f030-4d70-971a-cc5616add182,00ead468-9073-485b-a6df-ca6b94053603,a0dd0042-684b-4888-bba6-0572202ae70e,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,924525e6-78c7-4183-ac07-910b61726852,94c03220-8983-4152-9a49-9c8b425f1ad7,63cd0e66-990f-4ac9-9ac9-2aa7f370dfa7,7a010f63-d394-43dd-8eae-2b7d3aa8edbc,66ea4ff6-5c0a-41dc-a955-8a4b4116f6af,4f6d3311-73f3-450b-bb53-62ddc93f1fd3,c9c55c09-23f1-4f9d-859c-5692b986fd5a"/>

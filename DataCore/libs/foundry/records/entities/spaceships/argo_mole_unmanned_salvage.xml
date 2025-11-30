@@ -228,7 +228,7 @@
         <y>0</y>
         <z>0</z>
       </landingRotationOffset>
-      <fusePenetrationDamageMultiplier>0.1363636</fusePenetrationDamageMultiplier>
+      <fusePenetrationDamageMultiplier>0.05</fusePenetrationDamageMultiplier>
       <componentPenetrationDamageMultiplier>0.6</componentPenetrationDamageMultiplier>
     </VehicleComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
@@ -2855,6 +2855,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -2883,6 +2886,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -2911,6 +2917,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -4791,7 +4800,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>DockingCollar</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -4905,7 +4914,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AirTrafficController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5019,7 +5028,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5111,7 +5120,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5203,7 +5212,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5295,7 +5304,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5387,7 +5396,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5479,7 +5488,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>LifeSupportGenerator</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5571,7 +5580,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -5665,7 +5674,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -5759,7 +5768,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -5853,7 +5862,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -5947,7 +5956,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -6041,7 +6050,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -6135,7 +6144,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -6229,7 +6238,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -6323,7 +6332,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -6417,7 +6426,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -6511,7 +6520,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -6605,7 +6614,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -6699,7 +6708,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -6793,7 +6802,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -6887,7 +6896,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -6981,7 +6990,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Container</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Cargo</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -7039,7 +7048,7 @@
       <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
       <LinkAllItemsToResourceNetwork>True</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
-      <doorsIgnorePower>False</doorsIgnorePower>
+      <doorsIgnorePower>True</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="8">
@@ -7455,12 +7464,12 @@
       </adapters>
     </AINavigationDynamicTriggerComponent>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="HealthIconData" Count="2">
+      <perceptionTypes Type="ActorStatusUIWarning" Count="2">
         <EnumChoice>Vehicle</EnumChoice>
         <EnumChoice>Spaceship</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
+      <excludedSenses Type="ActorStatusPreset" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
       <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
       <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />

@@ -20,8 +20,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_UICP_Control_Panels_Pyro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_UICP_Control_Panels_Pyro_Button">
       <WwiseEvent wwise_duration_max="0.442875" wwise_duration_min="0.43825" wwise_duration_type="OneShot" wwise_name="Play_UICP_Control_Panels_Pyro_Button" wwise_radius_max="5" />
@@ -31,6 +33,7 @@
         <ATLRTPCDependee atl_name="MIX_SFX" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_UICP_Control_Panels_Pyro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_UICP_Control_Panels_Pyro_Roll_In">
       <WwiseEvent wwise_duration_max="0.0984375" wwise_duration_min="0.0984375" wwise_duration_type="OneShot" wwise_name="Play_UICP_Control_Panels_Pyro_Roll_In" wwise_radius_max="5" />
@@ -40,6 +43,7 @@
         <ATLRTPCDependee atl_name="MIX_SFX" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_UICP_Control_Panels_Pyro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_UICP_Control_Panels_Pyro_Floor_Select">
       <WwiseEvent wwise_duration_max="0.25575" wwise_duration_min="0.17422916" wwise_duration_type="OneShot" wwise_name="Play_UICP_Control_Panels_Pyro_Floor_Select" wwise_radius_max="5" />
@@ -49,6 +53,7 @@
         <ATLRTPCDependee atl_name="MIX_SFX" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_UICP_Control_Panels_Pyro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_UICP_Control_Panels_Pyro_Confirmation">
       <WwiseEvent wwise_duration_max="0.5" wwise_duration_min="0.5" wwise_duration_type="OneShot" wwise_name="Play_UICP_Control_Panels_Pyro_Confirmation" wwise_radius_max="5" />
@@ -58,6 +63,7 @@
         <ATLRTPCDependee atl_name="MIX_SFX" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_UICP_Control_Panels_Pyro" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -70,4 +76,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

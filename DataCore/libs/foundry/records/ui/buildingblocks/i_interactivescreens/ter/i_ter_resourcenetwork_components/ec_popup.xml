@@ -360,7 +360,7 @@
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="5">
+  <operations Type="BuildingBlocks_Node" Count="11">
     <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:3" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>resourcenetworkui/presets/popupState</binding>
@@ -373,7 +373,7 @@
       <field>ParamInput0</field>
       <input PointsTo="ptr:2" />
     </BuildingBlocks_BindingsLocalizedField>
-    <BuildingBlocks_BindingsLocalizationFromIntegerSwitch Pointer="ptr:2" Type="BuildingBlocks_BindingsLocalizationFromIntegerSwitch">
+    <BuildingBlocks_BindingsLocalizationFromIntegerSwitch Pointer="ptr:6" Type="BuildingBlocks_BindingsLocalizationFromIntegerSwitch">
       <defaultValue>@LOC_EMPTY</defaultValue>
       <defaultOverride />
       <values Type="BuildingBlocks_IntegerLocalizedPair" Count="6">
@@ -424,6 +424,44 @@
       </exceptions>
       <input PointsTo="ptr:3" />
     </BuildingBlocks_BindingsBooleanFromIntegerSwitch>
+    <BindingsOperations_LocalizationCombine Pointer="ptr:7" Type="BindingsOperations_LocalizationCombine">
+      <inputL PointsTo="ptr:5" />
+      <inputR PointsTo="ptr:6" />
+      <value>@LOC_EMPTY</value>
+      <withSpace>True</withSpace>
+    </BindingsOperations_LocalizationCombine>
+    <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:5" Type="BuildingBlocks_BindingsLocalizedVariable">
+      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
+      <binding>/resourcenetworkui/presets/presetslist/[resourcenetworkui/presets/selected]/title</binding>
+      <inheritsNamespace>True</inheritsNamespace>
+      <isPulled>False</isPulled>
+      <isWatched>False</isWatched>
+    </BuildingBlocks_BindingsLocalizedVariable>
+    <BuildingBlocks_BindingsLocalizedFromBoolean Pointer="ptr:2" Type="BuildingBlocks_BindingsLocalizedFromBoolean">
+      <isTrue>@LOC_EMPTY</isTrue>
+      <isFalse>@LOC_EMPTY</isFalse>
+      <inputTrue PointsTo="ptr:6" />
+      <inputFalse PointsTo="ptr:7" />
+      <input PointsTo="ptr:8" />
+    </BuildingBlocks_BindingsLocalizedFromBoolean>
+    <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput1</field>
+      <input PointsTo="ptr:5" />
+    </BuildingBlocks_BindingsLocalizedField>
+    <BuildingBlocks_BindingsBooleanFromIntegerSwitch Pointer="ptr:9" Type="BuildingBlocks_BindingsBooleanFromIntegerSwitch">
+      <defaultValue>False</defaultValue>
+      <exceptions Type="ActivityBehaviorRequestCondition" Count="1">
+        <Int64>3</Int64>
+      </exceptions>
+      <input PointsTo="ptr:3" />
+    </BuildingBlocks_BindingsBooleanFromIntegerSwitch>
+    <BuildingBlocks_BindingsBooleanEvaluateOr Pointer="ptr:8" Type="BuildingBlocks_BindingsBooleanEvaluateOr">
+      <inputs Type="BuildingBlocks_BindingsBooleanBase" Count="2">
+        <BuildingBlocks_BindingsBooleanFromIntegerSwitch PointsTo="ptr:4" />
+        <BuildingBlocks_BindingsBooleanFromIntegerSwitch PointsTo="ptr:9" />
+      </inputs>
+    </BuildingBlocks_BindingsBooleanEvaluateOr>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

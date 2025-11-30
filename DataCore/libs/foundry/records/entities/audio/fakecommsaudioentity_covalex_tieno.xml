@@ -149,7 +149,7 @@
             <BuildingBlocksView Pointer="ptr:1" Type="BuildingBlocksView">
               <name>BaseView</name>
               <component Type="UIGraph_BuildingBlocksContextComponent">
-                <canvas />
+                <canvas ReferencedFile="file://./../../../../../libs/foundry/records/ui/buildingblocks/pu/fakecommsaudioscreens/fakecommsaudioscreen_covalex.xml" />
                 <isSystemViewInstance>False</isSystemViewInstance>
                 <canvasInstantiationMode>RootDeferred</canvasInstantiationMode>
               </component>
@@ -179,7 +179,7 @@
       <contextualDialog />
     </SCommunicationUserComponentParams>
     <SEntityComponentObjectMetadataParams Type="SEntityComponentObjectMetadataParams">
-      <name>@Name_ArcCorp_Rep_EllaTieno</name>
+      <name>@Name_Covalex_Rep_EllaTieno</name>
       <hasLocalBounds>False</hasLocalBounds>
       <isDynamic>False</isDynamic>
       <metadata Type="SObjectMetadataParams" Count="0" />

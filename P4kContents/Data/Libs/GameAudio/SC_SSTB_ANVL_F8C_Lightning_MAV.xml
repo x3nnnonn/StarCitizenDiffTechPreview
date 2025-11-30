@@ -54,8 +54,10 @@
         <ATLRTPCDependee atl_name="Listener_Atmospheric_Pressure" />
         <ATLRTPCDependee atl_name="GP_Ship_Velocity_Forward_Backward_Normalized" />
         <ATLRTPCDependee atl_name="SC_Local_Perspective" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_ANVL_F8C_Lightning_MAV" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_ANVL_F8C_Lightning_MAV_Off_LP">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSTB_ANVL_F8C_Lightning_MAV_Off_LP" wwise_radius_max="0" />
@@ -110,8 +112,10 @@
         <ATLRTPCDependee atl_name="GP_Ship_Atmospheric_Density" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Meter_MAV_Misfire" />
         <ATLRTPCDependee atl_name="LFO_Ship_Thrusters_Detail" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_ANVL_F8C_Lightning_MAV" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_ANVL_F8C_Lightning_MAV_LP">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTB_ANVL_F8C_Lightning_MAV_LP" wwise_radius_max="500" />
@@ -166,8 +170,10 @@
         <ATLRTPCDependee atl_name="Listener_Atmospheric_Pressure" />
         <ATLRTPCDependee atl_name="GP_Ship_Velocity_Forward_Backward_Normalized" />
         <ATLRTPCDependee atl_name="SC_Local_Perspective" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_ANVL_F8C_Lightning_MAV" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -180,4 +186,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

@@ -33,7 +33,7 @@
         <RequiredTags />
         <DisplayType />
         <Localization Type="SCItemLocalization">
-          <Name>@LOC_PLACEHOLDER</Name>
+          <Name>@item_TypeRelay</Name>
           <ShortName>@LOC_EMPTY</ShortName>
           <Description>@LOC_EMPTY</Description>
           <displayFeatures Type="SCExtendedLocalizationLevelParams">
@@ -85,7 +85,7 @@
     <ItemControlComponentParams Type="ItemControlComponentParams">
       <turnedOnByDefault>True</turnedOnByDefault>
       <forceOn>False</forceOn>
-      <asopSpawnState>None</asopSpawnState>
+      <asopSpawnState>On</asopSpawnState>
       <throttleParams Type="ItemThrottleParamsBase" Count="0" />
       <masterModeExclusionsOverride />
     </ItemControlComponentParams>

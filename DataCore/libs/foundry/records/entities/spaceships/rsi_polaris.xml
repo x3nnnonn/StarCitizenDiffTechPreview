@@ -277,7 +277,7 @@
         <y>0</y>
         <z>0</z>
       </landingRotationOffset>
-      <fusePenetrationDamageMultiplier>0.001</fusePenetrationDamageMultiplier>
+      <fusePenetrationDamageMultiplier>0.05</fusePenetrationDamageMultiplier>
       <componentPenetrationDamageMultiplier>0.8</componentPenetrationDamageMultiplier>
     </VehicleComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
@@ -285,7 +285,7 @@
         <WearRange />
         <DirtRange />
         <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
-        <entries Type="SItemPortLoadoutEntryParams" Count="193">
+        <entries Type="SItemPortLoadoutEntryParams" Count="194">
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_paint</itemPortName>
             <entityClassName />
@@ -1330,8 +1330,8 @@
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_controller_torpedo_missile</itemPortName>
-            <entityClassName>Controller_Missile</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/controller/controller_missile_polaris_torpedo.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
@@ -1421,6 +1421,13 @@
             <itemPortName>hardpoint_controller_turretseatright_weapon</itemPortName>
             <entityClassName>Controller_Weapon</entityClassName>
             <entityClassReference />
+            <inventoryContainer />
+            <loadout />
+          </SItemPortLoadoutEntryParams>
+          <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
+            <itemPortName>hardpoint_controller_turretseatright_missile</itemPortName>
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/controller/controller_missile.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
@@ -2527,8 +2534,8 @@
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_life_support</itemPortName>
-            <entityClassName>LFSP_S04_RSI_Polaris</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/lifesupport/lfsp_s04_rsi_polaris.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
@@ -6962,6 +6969,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -6990,6 +7000,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -7018,6 +7031,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -8293,7 +8309,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/iae/bis_2025/rsi_polaris_orange_black_orange.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -8492,7 +8508,7 @@
       <masterController Type="SItemPortMasterControllerParams">
         <Pipes Type="SEnergyPipeDefinition" Count="0" />
       </masterController>
-      <Ports Type="SItemPortDef" Count="57">
+      <Ports Type="SItemPortDef" Count="58">
         <SItemPortDef Type="SItemPortDef">
           <Name>hardpoint_controller_fuel</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
@@ -8646,7 +8662,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>DockingCollar</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -8738,7 +8754,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AirTrafficController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -8961,7 +8977,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9053,7 +9069,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9145,7 +9161,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9237,7 +9253,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9329,7 +9345,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9421,7 +9437,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9513,7 +9529,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9605,7 +9621,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9697,7 +9713,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9789,7 +9805,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9881,7 +9897,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -9973,7 +9989,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -10065,7 +10081,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>LifeSupportTank</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -10660,7 +10676,7 @@
         </SItemPortDef>
         <SItemPortDef Pointer="ptr:19" Type="SItemPortDef">
           <Name>hardpoint_pdc_top_01</Name>
-          <DisplayName>@port_PDC_01</DisplayName>
+          <DisplayName>@itemPort_port_PDT_01</DisplayName>
           <PortTags>PDC</PortTags>
           <RequiredPortTags>$PDC</RequiredPortTags>
           <Flags />
@@ -10719,7 +10735,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -10843,7 +10859,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -10967,7 +10983,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -11127,7 +11143,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AIModule</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -11177,7 +11193,7 @@
         </SItemPortDef>
         <SItemPortDef Pointer="ptr:23" Type="SItemPortDef">
           <Name>hardpoint_pdc_top_02</Name>
-          <DisplayName>@port_PDC_02</DisplayName>
+          <DisplayName>@itemPort_port_PDT_02</DisplayName>
           <PortTags>PDC</PortTags>
           <RequiredPortTags>$PDC</RequiredPortTags>
           <Flags />
@@ -11236,7 +11252,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -11360,7 +11376,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -11484,7 +11500,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -11644,7 +11660,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AIModule</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -11694,7 +11710,7 @@
         </SItemPortDef>
         <SItemPortDef Pointer="ptr:27" Type="SItemPortDef">
           <Name>hardpoint_pdc_top_03</Name>
-          <DisplayName>@port_PDC_03</DisplayName>
+          <DisplayName>@itemPort_port_PDT_03</DisplayName>
           <PortTags>PDC</PortTags>
           <RequiredPortTags>$PDC</RequiredPortTags>
           <Flags />
@@ -11753,7 +11769,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -11877,7 +11893,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -12001,7 +12017,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -12161,7 +12177,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AIModule</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -12211,7 +12227,7 @@
         </SItemPortDef>
         <SItemPortDef Pointer="ptr:31" Type="SItemPortDef">
           <Name>hardpoint_pdc_bottom_01</Name>
-          <DisplayName>@port_PDC_04</DisplayName>
+          <DisplayName>@itemPort_port_PDT_04</DisplayName>
           <PortTags>PDC</PortTags>
           <RequiredPortTags>$PDC</RequiredPortTags>
           <Flags />
@@ -12270,7 +12286,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -12394,7 +12410,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -12518,7 +12534,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -12678,7 +12694,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AIModule</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -12728,7 +12744,7 @@
         </SItemPortDef>
         <SItemPortDef Pointer="ptr:35" Type="SItemPortDef">
           <Name>hardpoint_pdc_bottom_02</Name>
-          <DisplayName>@port_PDC_05</DisplayName>
+          <DisplayName>@itemPort_port_PDT_05</DisplayName>
           <PortTags>PDC</PortTags>
           <RequiredPortTags>$PDC</RequiredPortTags>
           <Flags />
@@ -12787,7 +12803,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -12911,7 +12927,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -13035,7 +13051,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -13195,7 +13211,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AIModule</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -13245,7 +13261,7 @@
         </SItemPortDef>
         <SItemPortDef Pointer="ptr:39" Type="SItemPortDef">
           <Name>hardpoint_pdc_bottom_03</Name>
-          <DisplayName>@port_PDC_06</DisplayName>
+          <DisplayName>@itemPort_port_PDT_06</DisplayName>
           <PortTags>PDC</PortTags>
           <RequiredPortTags>$PDC</RequiredPortTags>
           <Flags />
@@ -13304,7 +13320,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -13428,7 +13444,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -13552,7 +13568,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -13712,7 +13728,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AIModule</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -13762,7 +13778,7 @@
         </SItemPortDef>
         <SItemPortDef Pointer="ptr:43" Type="SItemPortDef">
           <Name>hardpoint_pdc_bottom_04</Name>
-          <DisplayName>@port_PDC_07</DisplayName>
+          <DisplayName>@itemPort_port_PDT_07</DisplayName>
           <PortTags>PDC</PortTags>
           <RequiredPortTags>$PDC</RequiredPortTags>
           <Flags />
@@ -13821,7 +13837,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Turret</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -13945,7 +13961,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -14069,7 +14085,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -14229,7 +14245,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AIModule</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -14564,7 +14580,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Door</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -14678,7 +14694,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Door</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -14792,7 +14808,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Door</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -14906,7 +14922,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Door</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -14947,6 +14963,120 @@
                     <x>10</x>
                     <y>-32</y>
                     <z>-0.125</z>
+                  </Position>
+                </Offset>
+                <ItemOffsetHelperName />
+                <SimulationParams />
+              </Helper>
+              <SubHelpers Type="SItemPortDefHelperNode" Count="0" />
+            </Helper>
+          </AttachmentImplementation>
+          <Breakable Type="SItemPortBreakable">
+            <YoungsModulus>0</YoungsModulus>
+            <BreakStrain>0</BreakStrain>
+            <YieldStrain>0</YieldStrain>
+            <Breakable>False</Breakable>
+          </Breakable>
+          <interactions Type="SItemPortInteractionsParams">
+            <detach />
+            <allowPlaceInteractionFromInventory>False</allowPlaceInteractionFromInventory>
+            <placeInteractionBlockText>@interaction_condition_placeOnItemport_noMatchingItem</placeInteractionBlockText>
+          </interactions>
+          <linkedItemPorts Type="SItemPortDef" Count="0" />
+          <resourceLinkToParent>False</resourceLinkToParent>
+          <useHelperAsInteractionPointName>False</useHelperAsInteractionPointName>
+          <itemPortRules Type="SItemPortRuleDef" Count="0" />
+          <detachDirection Type="Vec3">
+            <x>0</x>
+            <y>0</y>
+            <z>-1</z>
+          </detachDirection>
+        </SItemPortDef>
+        <SItemPortDef Type="SItemPortDef">
+          <Name>hardpoint_controller_turretseatright_missile</Name>
+          <DisplayName>@LOC_EMPTY</DisplayName>
+          <PortTags />
+          <RequiredPortTags />
+          <Flags>invisible uneditable</Flags>
+          <Tags Type="Tag" Count="0" />
+          <OnAttachTags Type="Tag" Count="0" />
+          <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
+          <MinSize>0</MinSize>
+          <MaxSize>0</MaxSize>
+          <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
+          <defaultItem Type="SItemPortDefaultItemDef">
+            <itemPort />
+            <entityClass />
+            <childItems Type="SItemPortDefaultItemDef" Count="0" />
+          </defaultItem>
+          <gridBehavior>Both</gridBehavior>
+          <PitchLimit Type="Vec2">
+            <x>0</x>
+            <y>0</y>
+          </PitchLimit>
+          <YawLimit Type="Vec2">
+            <x>0</x>
+            <y>0</y>
+          </YawLimit>
+          <RollLimit Type="Vec2">
+            <x>0</x>
+            <y>0</y>
+          </RollLimit>
+          <InteractionPointSize>-1</InteractionPointSize>
+          <InteractionPointOffset Type="Vec3">
+            <x>0</x>
+            <y>0</y>
+            <z>0</z>
+          </InteractionPointOffset>
+          <DefaultWeaponGroup>UNDEFINED</DefaultWeaponGroup>
+          <AttachmentPoints Type="SItemPortAttachmentPoints" Count="0" />
+          <controllableTag>turretseatright</controllableTag>
+          <control Type="SCItemControlPriorities">
+            <itemControlPriorities Type="SCItemControlPriorityTable" Count="2">
+              <SCItemControlPriorityTable Type="SCItemControlPriorityTable">
+                <itemType>Missile</itemType>
+                <defaultPriority Type="SCItemControlPriorityNoControlValue" />
+                <tagPrioritiesTable Type="SCItemControlPriorityTag" Count="1">
+                  <SCItemControlPriorityTag Type="SCItemControlPriorityTag">
+                    <tag>torpedoSeat</tag>
+                    <priorityValue Type="SCItemControlPriorityCustomValue">
+                      <priority>20</priority>
+                    </priorityValue>
+                  </SCItemControlPriorityTag>
+                </tagPrioritiesTable>
+              </SCItemControlPriorityTable>
+              <SCItemControlPriorityTable Type="SCItemControlPriorityTable">
+                <itemType>MissileLauncher</itemType>
+                <defaultPriority Type="SCItemControlPriorityNoControlValue" />
+                <tagPrioritiesTable Type="SCItemControlPriorityTag" Count="1">
+                  <SCItemControlPriorityTag Type="SCItemControlPriorityTag">
+                    <tag>torpedoSeat</tag>
+                    <priorityValue Type="SCItemControlPriorityCustomValue">
+                      <priority>20</priority>
+                    </priorityValue>
+                  </SCItemControlPriorityTag>
+                </tagPrioritiesTable>
+              </SCItemControlPriorityTable>
+            </itemControlPriorities>
+          </control>
+          <Connections Type="SItemPortConnectionParam" Count="0" />
+          <Types Type="SItemPortDefTypes" Count="0" />
+          <Extension />
+          <AttachmentImplementation Type="SItemPortDefAttachmentImplementationBone">
+            <Helper Type="SItemPortDefHelperNode">
+              <Tags />
+              <Helper Type="SItemPortDefHelper">
+                <Name>rsi_polaris</Name>
+                <Offset Type="QuatT">
+                  <Rotation Type="Ang3">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </Rotation>
+                  <Position Type="Vec3">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
                   </Position>
                 </Offset>
                 <ItemOffsetHelperName />
@@ -15833,9 +15963,9 @@
           <port2>hardpoint_controller_shield</port2>
         </SInternalHardpointLink>
       </InternalHardpointLinks>
-      <LinkAllItemsToResourceNetwork>True</LinkAllItemsToResourceNetwork>
+      <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
-      <doorsIgnorePower>False</doorsIgnorePower>
+      <doorsIgnorePower>True</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="8">
@@ -16627,12 +16757,12 @@
       </adapters>
     </AINavigationDynamicTriggerComponent>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="HealthIconData" Count="2">
+      <perceptionTypes Type="ActorStatusUIWarning" Count="2">
         <EnumChoice>Vehicle</EnumChoice>
         <EnumChoice>Spaceship</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
+      <excludedSenses Type="ActorStatusPreset" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
       <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
       <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />

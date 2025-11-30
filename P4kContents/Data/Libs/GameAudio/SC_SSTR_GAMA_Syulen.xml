@@ -47,8 +47,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_GAMA_Syulen" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_GAMA_Syulen_Retro_Thruster_Thrust_OneShot_Start">
       <WwiseEvent wwise_duration_max="1" wwise_duration_min="1" wwise_duration_type="OneShot" wwise_name="Play_SSTR_GAMA_Syulen_Retro_Thruster_Thrust_OneShot_Start" wwise_radius_max="150" />
@@ -98,8 +100,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_GAMA_Syulen" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_GAMA_Syulen_Retro_Thruster_Loop">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_GAMA_Syulen_Retro_Thruster_Loop" wwise_radius_max="0" />
@@ -156,8 +160,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_GAMA_Syulen" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_GAMA_Syulen_Retro_Thruster_Loop">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTR_GAMA_Syulen_Retro_Thruster_Loop" wwise_radius_max="150" />
@@ -214,8 +220,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_GAMA_Syulen" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_GAMA_Syulen_Retro_Thruster_Thrust_OneShot_End">
       <WwiseEvent wwise_duration_max="1" wwise_duration_min="1" wwise_duration_type="OneShot" wwise_name="Play_SSTR_GAMA_Syulen_Retro_Thruster_Thrust_OneShot_End" wwise_radius_max="150" />
@@ -265,8 +273,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_GAMA_Syulen" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_GAMA_Syulen_Retro_Thruster_OneShot_End">
       <WwiseEvent wwise_duration_max="1" wwise_duration_min="1" wwise_duration_type="OneShot" wwise_name="Play_SSTR_GAMA_Syulen_Retro_Thruster_OneShot_End" wwise_radius_max="150" />
@@ -314,8 +324,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_GAMA_Syulen" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -328,4 +340,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

@@ -48,8 +48,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -3907,7 +3907,7 @@
               <frontalOscillationStrengthMultiplier>1</frontalOscillationStrengthMultiplier>
               <frontalOscillationDecayMultiplier>1</frontalOscillationDecayMultiplier>
               <frontalOscillationRandomnessMultiplier>1</frontalOscillationRandomnessMultiplier>
-              <animatedRecoilMultiplier>1</animatedRecoilMultiplier>
+              <animatedRecoilMultiplier>0</animatedRecoilMultiplier>
               <disableRecoil>False</disableRecoil>
               <headRotationMultiplier Type="Vec3">
                 <x>1</x>
@@ -4154,11 +4154,11 @@
             <damageMultiplier>1</damageMultiplier>
             <soundRadius>150</soundRadius>
             <spreadParams Type="SSpreadParams">
-              <min>2</min>
-              <max>4.5</max>
-              <firstAttack>0.77</firstAttack>
-              <attack>0.77</attack>
-              <decay>8</decay>
+              <min>0.5</min>
+              <max>2</max>
+              <firstAttack>0.4</firstAttack>
+              <attack>0.8</attack>
+              <decay>4.5</decay>
             </spreadParams>
             <projectileType>Primary</projectileType>
           </launchParams>
@@ -4311,7 +4311,7 @@
             <damageOverTimeMultiplier>1</damageOverTimeMultiplier>
             <projectileSpeedMultiplier>1</projectileSpeedMultiplier>
             <pellets>0</pellets>
-            <burstShots>6</burstShots>
+            <burstShots>8</burstShots>
             <ammoCost>0</ammoCost>
             <ammoCostMultiplier>1</ammoCostMultiplier>
             <heatGenerationMultiplier>1</heatGenerationMultiplier>
@@ -4543,10 +4543,10 @@
               <damageMultiplier>1</damageMultiplier>
               <soundRadius>150</soundRadius>
               <spreadParams Type="SSpreadParams">
-                <min>0.1</min>
-                <max>3.5</max>
-                <firstAttack>1.13</firstAttack>
-                <attack>1.02</attack>
+                <min>0.5</min>
+                <max>2</max>
+                <firstAttack>0.08</firstAttack>
+                <attack>0.08</attack>
                 <decay>8</decay>
               </spreadParams>
               <projectileType>Primary</projectileType>
@@ -5348,7 +5348,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Magazine</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -5445,7 +5445,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>IronSight</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -5542,7 +5542,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Barrel</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -5639,7 +5639,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>BottomAttachment</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>

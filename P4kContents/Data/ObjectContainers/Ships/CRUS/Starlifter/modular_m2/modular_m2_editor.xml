@@ -2,7 +2,7 @@
  <Layers>
   <Layer fullname="Starlifter_Interior/Modular_M2" externalLayerLevelDir="data/levels/!ship_setup/crus/starlifter/Layers/" externalLayerParentDir="Starlifter_Interior/" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_M2.lyr" ParentGUID="{BDEECEB8-449F-4167-A6AA-8FA910815C61}" layerHash="4104656722">
    <Layer name="Habitation_M2" layerHash="1882289481" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_M2/Habitation_M2.lyr">
-    <Layer name="Hab_M2_ART" layerHash="2238062409" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_M2/Habitation_M2/Hab_M2_ART.lyr">
+    <Layer name="Hab_M2_ART" layerHash="431371555" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_M2/Habitation_M2/Hab_M2_ART.lyr">
      <Object name="crus_starlifter_modularroom_wc_frame-011" type="Brush" guid="4022525a-e36d-8b00-dec7-0b3c165597a5"/>
      <Object name="crus_starlifter_modularroom_wall_cap_doorframe_2m_front-007" type="Brush" guid="462473fd-ebc7-8404-9d9c-2db0863df98c"/>
      <Object name="crus_starlifter_modularroom_extra02_small-025" type="Brush" guid="495065b4-e93e-2c07-efe7-ad63f2c127aa"/>
@@ -91,7 +91,7 @@
      <Object name="plant_cactus_1_s02_b-002" type="Brush" guid="44694ae6-d624-98e6-4b17-522d10bb5280"/>
      <Object name="personal_brush_1_a-002" type="Brush" guid="42c22691-cafb-d5f2-b20a-5f69197bf1a6"/>
     </Layer>
-    <Layer name="Hab_M2_LIGHTING" layerHash="1649515035" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_M2/Habitation_M2/Hab_M2_LIGHTING.lyr">
+    <Layer name="Hab_M2_LIGHTING" layerHash="384777477" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_M2/Habitation_M2/Hab_M2_LIGHTING.lyr">
      <Object name="Lt_Hab_Side_Rings-016" type="Light" guid="4dad24a9-9f5b-3e05-3c21-8cff0eba4eae" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_Hab_Side_Rings_EMSV-006" type="Light" guid="4b3d7a43-bef3-7707-7221-e3eb623d11be" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_Hab_Desk_B_FILL-002" type="Light" guid="428b871c-bf10-5c08-06f4-deec7e86f481" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -109,7 +109,7 @@
      <Object name="Lt_Hab_Center_Rings-012" type="Light" guid="44766828-8901-6630-1f6d-e88522d627bd" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_Hab_Wall_Corner-032" type="Light" guid="4c453e27-8ec5-8130-95d9-9d63453e7a97" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_Hab_Center_Rings-018" type="Light" guid="418c70ee-a5c5-2432-f4dd-1d12ea788bbe" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-     <Object name="ChipSet_DEFCON-007" type="ChipSet_DEFCON" guid="4677e5b2-b953-f233-c495-6809077d52ae" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+     <Object name="ChipSet_DEFCON-007" type="ChipSet_DEFCON" guid="4677e5b2-b953-f233-c495-6809077d52ae" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="Lt_Hab_Wall_Corner-040" type="Light" guid="4a36faaa-2981-6b36-89be-534d39e37e83" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="crus_starlifter_glow_small_a-027" type="Brush" guid="4dc661b5-bb68-fa37-7ad7-10b86bcd808c"/>
      <Object name="Lt_Hab_Steps-015" type="Light" guid="4d215a80-acc6-0938-4714-d478b419fdad" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -320,7 +320,7 @@
      <Object name="Portal_Hab_Rear-003" type="GenericShape" guid="41eb0561-30a6-7ebc-07b3-38e9725e19b8" tags=""/>
     </Layer>
    </Layer>
-   <Layer name="Modular_M2_ART" layerHash="596658287" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_M2/Modular_M2_ART.lyr">
+   <Layer name="Modular_M2_ART" layerHash="1302751652" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_M2/Modular_M2_ART.lyr">
     <Object name="crus_starlifter_modularroom_m2_decal12-001" type="Brush" guid="42604505-4e38-1a01-27f4-e1faeeed4f82"/>
     <Object name="crus_starlifter_modularroom_roof_addon-001" type="Brush" guid="4ae4bdfd-7577-340e-ce05-084a27fdb089"/>
     <Object name="crus_starlifter_modularroom_m2_decal11-001" type="Brush" guid="4a97a53e-6f6c-9410-77a9-8b752fca3bae"/>
@@ -391,7 +391,7 @@
     <Object name="bag_holdall_4_a-008" type="Brush" guid="44eb966c-b88f-d52d-98f8-e8b52463ac88"/>
     <Object name="bag_holdall_4_a-017" type="Brush" guid="40ab6f4b-0e7b-4ddf-2639-25ad873c4cbf"/>
    </Layer>
-   <Layer name="Modular_M2_LIGHTING" layerHash="2986376135" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_M2/Modular_M2_LIGHTING.lyr">
+   <Layer name="Modular_M2_LIGHTING" layerHash="1767914494" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_M2/Modular_M2_LIGHTING.lyr">
     <Object name="Lt_Wall_Tech_EndCap_On_EMSV" type="Light" guid="4aadc540-0ff0-c703-fee9-fba0eb7588ac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Mod_M2_Ceiling_JS_boxed-004" type="Light" guid="4529c6d4-4cb5-4506-a847-2d1db4a133a6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Mod_M2_JS_floor-007" type="Light" guid="46cf44e7-20e4-5e09-1991-6f1917e854a3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -490,7 +490,7 @@
     <Object name="Lt_Mod_Floor_Corner-002" type="Light" guid="43140fcb-207a-b4cd-1226-37d8509bcdb3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Mod_M2_JS_floor-006" type="Light" guid="422a67ea-1deb-cecd-7224-b307e3b4fa92" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Mod_M2_Ceiling_JS_Soft-004" type="Light" guid="448a3c19-69ae-86d1-3647-e0666968c3a0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="ChipSet_DEFCON-006" type="ChipSet_DEFCON" guid="4171c3aa-a2ac-e3d1-d782-e88879bfde94" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+    <Object name="ChipSet_DEFCON-006" type="ChipSet_DEFCON" guid="4171c3aa-a2ac-e3d1-d782-e88879bfde94" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     <Object name="Lt_Wall_Tech_EndCap_Flicker_EMSV" type="Light" guid="4b53f61b-f85a-52d2-0721-600a4c11cb91" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Mod_GreebleBox_Wall-002" type="Light" guid="4232dee8-8c6f-aad3-d6d0-7f78e5cf0288" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lb_Mod_GreebleBox-001" type="LightBox" guid="4b881887-dc8a-8fd5-6462-ff3f1c5256a7" tags=""/>

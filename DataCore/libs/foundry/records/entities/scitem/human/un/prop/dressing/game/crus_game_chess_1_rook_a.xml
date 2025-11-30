@@ -28,8 +28,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -96,9 +96,9 @@
         <RequiredTags />
         <DisplayType />
         <Localization Type="SCItemLocalization">
-          <Name>@LOC_PLACEHOLDER</Name>
+          <Name>@item_NameCRUS_game_chess_1_rook_a</Name>
           <ShortName>@LOC_EMPTY</ShortName>
-          <Description>@LOC_EMPTY</Description>
+          <Description>@item_DescCRUS_game_chess_1_a</Description>
           <displayFeatures Type="SCExtendedLocalizationLevelParams">
             <LogoSimplifiedWhite />
             <FrontendBackground />

@@ -267,7 +267,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:62" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:63" Type="SSharedInteractionParams">
             <Name>HideLocks</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -563,11 +563,11 @@
           </SInteractionPointParams>
         </InteractionPoints>
         <interactionTasks Type="SSequencerInteractionTask" Count="2">
-          <SSequencerInteractionTask Pointer="ptr:64" Type="SSequencerInteractionTask">
+          <SSequencerInteractionTask Pointer="ptr:65" Type="SSequencerInteractionTask">
             <interaction>CloseDoor</interaction>
             <triggerType>Self</triggerType>
           </SSequencerInteractionTask>
-          <SSequencerInteractionTask Pointer="ptr:65" Type="SSequencerInteractionTask">
+          <SSequencerInteractionTask Pointer="ptr:66" Type="SSequencerInteractionTask">
             <interaction>CheckCredentials</interaction>
             <triggerType>Self</triggerType>
           </SSequencerInteractionTask>
@@ -660,8 +660,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -1352,8 +1352,8 @@
           </States>
           <StateModifiers Type="SStateModifier" Count="1">
             <SLinkedInteractionStateChangedStateModifier Type="SLinkedInteractionStateChangedStateModifier">
-              <context Type="SEntityTraversalNodeContext">
-                <entityTraversalNode PointsTo="ptr:12" />
+              <context Type="SEntityTraversalTargetPathContext">
+                <targetPath PointsTo="ptr:28" />
               </context>
               <onChangeStateTagStates Type="SLinkedInteractionStateTags" Count="3">
                 <SLinkedInteractionStateTags Type="SLinkedInteractionStateTags">
@@ -2444,7 +2444,21 @@
       </StateTypes>
     </SInteractionStateMachineParams>
     <SEntityTraversingTreeParams Type="SEntityTraversingTreeParams">
-      <TraversingNodes Type="SEntityTraversingNodeBase" Count="1">
+      <TraversingNodes Type="SEntityTraversingNodeBase" Count="2">
+        <SEntityTraversingNodeBase Pointer="ptr:61" Type="SEntityTraversingNodeBase">
+          <name>EntityLink_Door</name>
+          <id />
+          <entityTraversingType Type="SEntityTraversingNodeTypeEntityLink">
+            <entityTag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5132c9bc-475d-4afc-a146-a778cb410717" RecordId="5132c9bc-475d-4afc-a146-a778cb410717" />
+          </entityTraversingType>
+          <executeNodes Type="SEntityTraversingExecuteNodeBase" Count="1">
+            <SInteractionLinkExecuteCreateInteractionLinkNode Type="SInteractionLinkExecuteCreateInteractionLinkNode">
+              <linkedInteractionName>Override</linkedInteractionName>
+              <localInteraction PointsTo="ptr:3" />
+            </SInteractionLinkExecuteCreateInteractionLinkNode>
+          </executeNodes>
+          <nextNodes Type="SEntityTraversingNodeBase" Count="0" />
+        </SEntityTraversingNodeBase>
         <SEntityTraversingNodeBase Type="SEntityTraversingNodeBase">
           <name>LookForParent</name>
           <id />
@@ -2486,7 +2500,7 @@
           <name>Door</name>
           <paths Type="SEntityTraversingTargetPath" Count="1">
             <SEntityTraversingTargetPath Type="SEntityTraversingTargetPath">
-              <node />
+              <node PointsTo="ptr:61" />
             </SEntityTraversingTargetPath>
           </paths>
         </SEntityTraversingTarget>
@@ -2581,9 +2595,9 @@
         <BuildingBlocksLayer Type="BuildingBlocksLayer">
           <layerName>MainRoot</layerName>
           <renderTarget>All</renderTarget>
-          <defaultView PointsTo="ptr:61" />
+          <defaultView PointsTo="ptr:62" />
           <views Type="BuildingBlocksView" Count="1">
-            <BuildingBlocksView Pointer="ptr:61" Type="BuildingBlocksView">
+            <BuildingBlocksView Pointer="ptr:62" Type="BuildingBlocksView">
               <name>DefaultView</name>
               <component Type="UIGraph_BuildingBlocksContextComponent">
                 <canvas ReferencedFile="file://./../../../../../../libs/foundry/records/ui/buildingblocks/i_interactivescreens/i_door/i_door_standard.xml" />
@@ -2662,7 +2676,7 @@
           <name>ui_HideLockControls</name>
           <defaultValue>False</defaultValue>
           <tasks Type="BoolUserVariableTask" Count="1">
-            <BoolUserVariableSetValueTask Pointer="ptr:63" Type="BoolUserVariableSetValueTask">
+            <BoolUserVariableSetValueTask Pointer="ptr:64" Type="BoolUserVariableSetValueTask">
               <name>hideLockControls</name>
               <value>True</value>
             </BoolUserVariableSetValueTask>
@@ -2805,10 +2819,10 @@
       <sequences Type="SSequencerDefSequenceParams" Count="3">
         <SReplicatedSequencerDefSequenceParams Type="SReplicatedSequencerDefSequenceParams">
           <name>HideLocks</name>
-          <interaction PointsTo="ptr:62" />
+          <interaction PointsTo="ptr:63" />
           <taskEntries Type="SSequencerSequenceTaskEntryParams" Count="1">
             <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
-              <task PointsTo="ptr:63" />
+              <task PointsTo="ptr:64" />
               <postDelay>0</postDelay>
               <dependentTasks Type="SSequencerDefTaskParams" Count="0" />
               <haltOnFailure>True</haltOnFailure>
@@ -2820,7 +2834,7 @@
           <interaction />
           <taskEntries Type="SSequencerSequenceTaskEntryParams" Count="1">
             <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
-              <task PointsTo="ptr:64" />
+              <task PointsTo="ptr:65" />
               <postDelay>0</postDelay>
               <dependentTasks Type="SSequencerDefTaskParams" Count="0" />
               <haltOnFailure>True</haltOnFailure>
@@ -2832,7 +2846,7 @@
           <interaction PointsTo="ptr:1" />
           <taskEntries Type="SSequencerSequenceTaskEntryParams" Count="1">
             <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
-              <task PointsTo="ptr:65" />
+              <task PointsTo="ptr:66" />
               <postDelay>0</postDelay>
               <dependentTasks Type="SSequencerDefTaskParams" Count="0" />
               <haltOnFailure>True</haltOnFailure>
@@ -2870,6 +2884,7 @@
         <y>0</y>
         <z>0</z>
       </lookAtOffset>
+      <preventForceReactions>False</preventForceReactions>
     </KioskInteractionEntityComponentParams>
   </Components>
 </EntityClassDefinition.ControlPanel_Screen_DoorControl_RN>

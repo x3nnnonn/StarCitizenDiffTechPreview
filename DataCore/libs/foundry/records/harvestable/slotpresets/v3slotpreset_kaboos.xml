@@ -232,7 +232,7 @@
             <subHarvestables Type="SubHarvestableSlot" Count="1">
               <SubHarvestableSlot Type="SubHarvestableSlot">
                 <harvestable />
-                <harvestableEntityClass />
+                <harvestableEntityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/lootables/lootable_container_weapons_small.xml" />
                 <harvestableSetup ReferencedFile="file://./../../../../../libs/foundry/records/harvestable/harvestablesetups/v3harvestablesetup_lootbox_30m.xml" />
                 <relativeProbability>1</relativeProbability>
                 <relativeProbabilityDeepest />
@@ -285,7 +285,7 @@
             <subHarvestables Type="SubHarvestableSlot" Count="1">
               <SubHarvestableSlot Type="SubHarvestableSlot">
                 <harvestable />
-                <harvestableEntityClass />
+                <harvestableEntityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/lootables/lootable_container_weapons_small.xml" />
                 <harvestableSetup ReferencedFile="file://./../../../../../libs/foundry/records/harvestable/harvestablesetups/v3harvestablesetup_lootbox_30m.xml" />
                 <relativeProbability>1</relativeProbability>
                 <relativeProbabilityDeepest />
@@ -338,7 +338,7 @@
             <subHarvestables Type="SubHarvestableSlot" Count="1">
               <SubHarvestableSlot Type="SubHarvestableSlot">
                 <harvestable />
-                <harvestableEntityClass />
+                <harvestableEntityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/lootables/lootable_container_weapons_small.xml" />
                 <harvestableSetup ReferencedFile="file://./../../../../../libs/foundry/records/harvestable/harvestablesetups/v3harvestablesetup_lootbox_30m.xml" />
                 <relativeProbability>1</relativeProbability>
                 <relativeProbabilityDeepest />
@@ -3323,7 +3323,7 @@
                     </advanced>
                   </lootConstraints>
                   <lootTable />
-                  <lootTableV3 ReferencedFile="file://./../../../../../libs/foundry/records/lootgeneration/loottables/v3loottable_helmet_event.xml" />
+                  <lootTableV3 ReferencedFile="file://./../../../../../libs/foundry/records/lootgeneration/loottables/v3loottable_event_helmet.xml" />
                 </lootConfig>
               </SubHarvestableSlot>
             </subHarvestables>
@@ -3376,7 +3376,7 @@
                     </advanced>
                   </lootConstraints>
                   <lootTable />
-                  <lootTableV3 ReferencedFile="file://./../../../../../libs/foundry/records/lootgeneration/loottables/v3loottable_core_event.xml" />
+                  <lootTableV3 ReferencedFile="file://./../../../../../libs/foundry/records/lootgeneration/loottables/v3loottable_event_core.xml" />
                 </lootConfig>
               </SubHarvestableSlot>
             </subHarvestables>
@@ -3429,7 +3429,7 @@
                     </advanced>
                   </lootConstraints>
                   <lootTable />
-                  <lootTableV3 ReferencedFile="file://./../../../../../libs/foundry/records/lootgeneration/loottables/v3loottable_arms_event.xml" />
+                  <lootTableV3 ReferencedFile="file://./../../../../../libs/foundry/records/lootgeneration/loottables/v3loottable_event_arms.xml" />
                 </lootConfig>
               </SubHarvestableSlot>
             </subHarvestables>
@@ -3482,7 +3482,7 @@
                     </advanced>
                   </lootConstraints>
                   <lootTable />
-                  <lootTableV3 ReferencedFile="file://./../../../../../libs/foundry/records/lootgeneration/loottables/v3loottable_legs_event.xml" />
+                  <lootTableV3 ReferencedFile="file://./../../../../../libs/foundry/records/lootgeneration/loottables/v3loottable_event_legs.xml" />
                 </lootConfig>
               </SubHarvestableSlot>
             </subHarvestables>
@@ -3535,7 +3535,7 @@
                     </advanced>
                   </lootConstraints>
                   <lootTable />
-                  <lootTableV3 ReferencedFile="file://./../../../../../libs/foundry/records/lootgeneration/loottables/v3loottable_backpack_event.xml" />
+                  <lootTableV3 ReferencedFile="file://./../../../../../libs/foundry/records/lootgeneration/loottables/v3loottable_event_backpack.xml" />
                 </lootConfig>
               </SubHarvestableSlot>
             </subHarvestables>
@@ -3555,22 +3555,12 @@
             <initialSlotsProbability>1</initialSlotsProbability>
             <initialSlotsProbabilityDeepest />
             <configRespawnTimeMultiplier>1</configRespawnTimeMultiplier>
-            <subHarvestables Type="SubHarvestableSlot" Count="2">
+            <subHarvestables Type="SubHarvestableSlot" Count="1">
               <SubHarvestableSlot Type="SubHarvestableSlot">
                 <harvestable />
-                <harvestableEntityClass />
+                <harvestableEntityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/usables/weapon_rack_1_none_special_ballistic_common_001.xml" />
                 <harvestableSetup ReferencedFile="file://./../../../../../libs/foundry/records/harvestable/harvestablesetups/v3harvestablesetup_storageunit_30m.xml" />
                 <relativeProbability>1</relativeProbability>
-                <relativeProbabilityDeepest />
-                <harvestableRespawnTimeMultiplier>1</harvestableRespawnTimeMultiplier>
-                <geometries Type="HarvestableGeometry" Count="0" />
-                <lootConfig />
-              </SubHarvestableSlot>
-              <SubHarvestableSlot Type="SubHarvestableSlot">
-                <harvestable />
-                <harvestableEntityClass />
-                <harvestableSetup ReferencedFile="file://./../../../../../libs/foundry/records/harvestable/harvestablesetups/v3harvestablesetup_storageunit_30m.xml" />
-                <relativeProbability>0.5</relativeProbability>
                 <relativeProbabilityDeepest />
                 <harvestableRespawnTimeMultiplier>1</harvestableRespawnTimeMultiplier>
                 <geometries Type="HarvestableGeometry" Count="0" />
@@ -3596,7 +3586,7 @@
             <subHarvestables Type="SubHarvestableSlot" Count="3">
               <SubHarvestableSlot Type="SubHarvestableSlot">
                 <harvestable />
-                <harvestableEntityClass />
+                <harvestableEntityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/usables/weapon_rack_1_none_special_ballistic_uncommon_001.xml" />
                 <harvestableSetup ReferencedFile="file://./../../../../../libs/foundry/records/harvestable/harvestablesetups/v3harvestablesetup_storageunit_30m.xml" />
                 <relativeProbability>1</relativeProbability>
                 <relativeProbabilityDeepest />
@@ -3606,7 +3596,7 @@
               </SubHarvestableSlot>
               <SubHarvestableSlot Type="SubHarvestableSlot">
                 <harvestable />
-                <harvestableEntityClass />
+                <harvestableEntityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/usables/weapon_rack_1_none_special_ballistic_uncommon_002.xml" />
                 <harvestableSetup ReferencedFile="file://./../../../../../libs/foundry/records/harvestable/harvestablesetups/v3harvestablesetup_storageunit_30m.xml" />
                 <relativeProbability>1</relativeProbability>
                 <relativeProbabilityDeepest />
@@ -3616,7 +3606,7 @@
               </SubHarvestableSlot>
               <SubHarvestableSlot Type="SubHarvestableSlot">
                 <harvestable />
-                <harvestableEntityClass />
+                <harvestableEntityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/usables/weapon_rack_1_none_special_ballistic_uncommon_003.xml" />
                 <harvestableSetup ReferencedFile="file://./../../../../../libs/foundry/records/harvestable/harvestablesetups/v3harvestablesetup_storageunit_30m.xml" />
                 <relativeProbability>1</relativeProbability>
                 <relativeProbabilityDeepest />
@@ -3868,7 +3858,7 @@
             <subHarvestables Type="SubHarvestableSlot" Count="1">
               <SubHarvestableSlot Type="SubHarvestableSlot">
                 <harvestable />
-                <harvestableEntityClass />
+                <harvestableEntityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/carryables/tractorbeamonly/carryable_tbo_fl_4scu_commodity_organic_vanduulcorpse.xml" />
                 <harvestableSetup ReferencedFile="file://./../../../../../libs/foundry/records/harvestable/harvestablesetups/v3harvestablesetup_looseitem_2h.xml" />
                 <relativeProbability>1</relativeProbability>
                 <relativeProbabilityDeepest />

@@ -12,6 +12,7 @@ message EntityGraphQuery {
   .sc.external.services.entitygraph.v1.EntityClassFilter entity_class_filter = 4;
   .sc.external.services.entitygraph.v1.EntitySortingArguments sort = 5;
   string language = 6;
+  string inventory_id = 7;
 }
 
 message EntityGraphStreamQuery {
@@ -177,6 +178,7 @@ message EdgeFilter {
 
 message SnapshotQuery {
   repeated .sc.external.services.entitygraph.v1.SnapshotQuery.DocumentQuery queries = 1;
+  string inventory_id = 2;
 
   message DocumentQuery {
     uint64 entity_id = 1;

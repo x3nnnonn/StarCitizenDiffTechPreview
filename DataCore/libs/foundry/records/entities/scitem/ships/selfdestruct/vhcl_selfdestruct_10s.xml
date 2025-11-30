@@ -19,15 +19,15 @@
         <SubType>UNDEFINED</SubType>
         <Size>1</Size>
         <Grade>1</Grade>
-        <Manufacturer ReferencedFile="file://./../../../../../../../libs/foundry/records/scitemmanufacturer/scitemmanufacturer.rsi.xml" />
-        <inheritParentManufacturer>False</inheritParentManufacturer>
+        <Manufacturer />
+        <inheritParentManufacturer>True</inheritParentManufacturer>
         <Tags>flightReady</Tags>
         <RequiredTags />
         <DisplayType />
         <Localization Type="SCItemLocalization">
-          <Name>@item_NameRSI_SelfDestruct</Name>
+          <Name>@item_TypeSelfDestruct</Name>
           <ShortName>@LOC_EMPTY</ShortName>
-          <Description>@item_DescRSI_SelfDestruct</Description>
+          <Description>@item_TypeSelfDestruct</Description>
           <displayFeatures Type="SCExtendedLocalizationLevelParams">
             <LogoSimplifiedWhite />
             <FrontendBackground />

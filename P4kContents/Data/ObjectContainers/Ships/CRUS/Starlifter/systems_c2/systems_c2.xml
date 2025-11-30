@@ -1,15 +1,17 @@
-<ObjectContainer version="11" name="systems_c2" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="143" entityCountDynamic="0" entityCountUnique="0" minBounds="-5.375,-8,-2" maxBounds="5.125,8,3.5999999046325684" radius="24.564648" crcSOC="4268767957">
+<ObjectContainer version="11" name="systems_c2" tags="" type="" editorBuildChangelist="10717593" entityCountPLA="0" entityCountALE="0" entityCountStatic="143" entityCountDynamic="0" entityCountUnique="0" minBounds="-5.375,-8,-2" maxBounds="5.125,8,3.5999999046325684" radius="24.564648" crcSOC="1160199672">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
    <Tag TagId="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
-   <Tag TagId="c4ec8876-3979-4a9d-9d1c-83375094c9b7"/>
-   <Tag TagId="da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
-   <Tag TagId="afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
-   <Tag TagId="1a1f10a2-894c-45ca-93d2-4785233c5250"/>
    <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8"/>
-   <Tag TagId="612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
+   <Tag TagId="c4ec8876-3979-4a9d-9d1c-83375094c9b7"/>
+   <Tag TagId="afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+   <Tag TagId="60cc8ca1-8927-4e92-af99-9cd367e0595c"/>
+   <Tag TagId="5b803369-07d1-470f-996a-9372ca50e617"/>
    <Tag TagId="04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+   <Tag TagId="612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
+   <Tag TagId="da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
+   <Tag TagId="1a1f10a2-894c-45ca-93d2-4785233c5250"/>
    <Tag TagId="009b77f0-af48-4e4d-8759-994c930de504"/>
    <Tag TagId="6bd5ceb2-696b-43ff-b37e-1844e72debcc"/>
    <Tag TagId="eac0031a-3373-451e-80cc-4148d13a213d"/>
@@ -39,8 +41,6 @@
    <Tag TagId="f9f7258f-dfe8-42ad-9cac-254bc0407017"/>
    <Tag TagId="fc07d57e-b372-4ff2-a586-785d63ca81c7"/>
    <Tag TagId="a7c06cc7-a715-43b3-93b6-486483f26d18"/>
-   <Tag TagId="60cc8ca1-8927-4e92-af99-9cd367e0595c"/>
-   <Tag TagId="5b803369-07d1-470f-996a-9372ca50e617"/>
    <Tag TagId="f1b1052f-f3b0-4f44-b809-96380bfc4e97"/>
   </Tags>
  </StaticEntityTags>
@@ -61,7 +61,7 @@
    <TilePipeEntry name="AtmosphereOut" class="Output"/>
   </TilePipeEntries>
   <TileItemPortEntries>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-0.375,16,-1.5" type="Noattach" name="Port0_Driver_LightControlChip-004[Systems_C2_LIGHTING]" display_name="Port0_Driver_LightControlChip-004[Systems_C2_LIGHTING]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,12,0" type="Noattach" name="Port0_LG_Systems[Systems_C2_LIGHTING]" display_name="Port0_LG_Systems[Systems_C2_LIGHTING]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -71,7 +71,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,12,0" type="Noattach" name="Port1_LG_Systems[Systems_C2_LIGHTING]" display_name="Port1_LG_Systems[Systems_C2_LIGHTING]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="1,13,-1" type="Noattach" name="Port1_Systems_C2_Room_RN[Systems_C2_Room_Atmo]" display_name="Port1_Systems_C2_Room_RN[Systems_C2_Room_Atmo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -81,7 +81,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="1,13,-1" type="Noattach" name="Port2_Systems_C2_Room_RN[Systems_C2_Room_Atmo]" display_name="Port2_Systems_C2_Room_RN[Systems_C2_Room_Atmo]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-0.375,16,-1.5" type="Noattach" name="Port2_Driver_LightControlChip-004[Systems_C2_LIGHTING]" display_name="Port2_Driver_LightControlChip-004[Systems_C2_LIGHTING]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -101,7 +101,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,10,-0.5" type="Noattach" name="Port4_Door_RN_NoRoomConnector_Template-003[Systems_C2_SETUP]" display_name="Port4_Door_RN_NoRoomConnector_Template-003[Systems_C2_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,18,-0.5" type="Noattach" name="Port4_Door_RN_NoRoomConnector_Template-003[Systems_C2_SETUP]" display_name="Port4_Door_RN_NoRoomConnector_Template-003[Systems_C2_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -111,7 +111,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,18,-0.5" type="Noattach" name="Port5_Door_RN_NoRoomConnector_Template-002[Systems_C2_SETUP]" display_name="Port5_Door_RN_NoRoomConnector_Template-002[Systems_C2_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,10,-0.5" type="Noattach" name="Port5_Door_RN_NoRoomConnector_Template-002[Systems_C2_SETUP]" display_name="Port5_Door_RN_NoRoomConnector_Template-002[Systems_C2_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>

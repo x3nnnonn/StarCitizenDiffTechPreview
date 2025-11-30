@@ -4,20 +4,20 @@
     <fixedFPS>1</fixedFPS>
   </update>
   <ignition Type="FireHazardGlobalIgnition">
-    <globalIgnitionChanceMultiplier>0.05</globalIgnitionChanceMultiplier>
+    <globalIgnitionChanceMultiplier>0</globalIgnitionChanceMultiplier>
     <explosionChanceMultiplier Type="ActivityBehaviorRequestCondition" Count="6">
-      <Single>0.03</Single>
-      <Single>0.01</Single>
       <Single>0</Single>
-      <Single>0.3</Single>
+      <Single>0</Single>
+      <Single>0</Single>
+      <Single>0</Single>
       <Single>0</Single>
       <Single>0</Single>
     </explosionChanceMultiplier>
     <projectileChanceMultiplier Type="ActivityBehaviorRequestCondition" Count="6">
-      <Single>0.01</Single>
-      <Single>0.07</Single>
       <Single>0</Single>
-      <Single>0.5</Single>
+      <Single>0</Single>
+      <Single>0</Single>
+      <Single>0</Single>
       <Single>0</Single>
       <Single>0</Single>
     </projectileChanceMultiplier>
@@ -31,18 +31,18 @@
     </collisionChanceMultiplier>
     <fallbackChanceMultiplier Type="ActivityBehaviorRequestCondition" Count="6">
       <Single>0</Single>
-      <Single>0.07</Single>
       <Single>0</Single>
-      <Single>0.5</Single>
+      <Single>0</Single>
+      <Single>0</Single>
       <Single>0</Single>
       <Single>0</Single>
     </fallbackChanceMultiplier>
-    <globalFlashIgnitionThresholdMultiplier>2.5</globalFlashIgnitionThresholdMultiplier>
+    <globalFlashIgnitionThresholdMultiplier>1</globalFlashIgnitionThresholdMultiplier>
     <damageTypeIgnitionModifiers Type="ActivityBehaviorRequestCondition" Count="6">
-      <Single>0.01</Single>
-      <Single>0.07</Single>
       <Single>0</Single>
-      <Single>0.5</Single>
+      <Single>0</Single>
+      <Single>0</Single>
+      <Single>0</Single>
       <Single>0</Single>
       <Single>0</Single>
     </damageTypeIgnitionModifiers>
@@ -54,6 +54,8 @@
     <maximumRadiationRadius>4</maximumRadiationRadius>
     <maximumConvectionDistance>10</maximumConvectionDistance>
     <standardConvectionTemperature>900</standardConvectionTemperature>
+    <surfaceAreaBurnRateCurveVoxels>1</surfaceAreaBurnRateCurveVoxels>
+    <surfaceAreaBurnRateCurveEntities>1</surfaceAreaBurnRateCurveEntities>
     <oxygenPressureRange Type="Range">
       <minimum>0.1</minimum>
       <maximum>0.15</maximum>
@@ -97,8 +99,8 @@
       <path>06d65372-7813-0c98-f8f8-8dfe391412f4|master/fire_hazard.Extinguishing.Extinguisher_emit_sphere</path>
     </defaultSphereExtinguishingEffect>
     <maximumSmokeEmission>100</maximumSmokeEmission>
-    <entityReferenceSize>5</entityReferenceSize>
-    <entityMinimumSize>1</entityMinimumSize>
+    <entityReferenceSize>3</entityReferenceSize>
+    <entityMinimumSize>2</entityMinimumSize>
   </defaultEffects>
   <lightParams Type="FireHazardGlobalLightParams">
     <lightColor Type="RGB">
@@ -153,11 +155,11 @@
   </particleSpawning>
   <fog Type="FireHazardFogParams">
     <softEdges>0</softEdges>
-    <densityOffset>0</densityOffset>
-    <densityMultiplier>100</densityMultiplier>
+    <densityOffset>20</densityOffset>
+    <densityMultiplier>50</densityMultiplier>
     <maximumDistance>35</maximumDistance>
-    <saturationDensity>2</saturationDensity>
-    <falloffSharpness>100</falloffSharpness>
+    <saturationDensity>1</saturationDensity>
+    <falloffSharpness>0</falloffSharpness>
     <noiseVolumeOffset>0.01</noiseVolumeOffset>
     <noise Type="FireHazardFogNoiseParams">
       <noiseFrequency Type="Vec3">

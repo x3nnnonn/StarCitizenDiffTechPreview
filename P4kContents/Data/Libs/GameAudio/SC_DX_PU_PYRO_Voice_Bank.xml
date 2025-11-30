@@ -22,242 +22,13 @@
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
     </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Decline_Payment_aNeutral_tPlayer_FromNeutral_IG_001_PaymentDeclinedVehicle" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="4.616375" wwise_duration_min="4.616375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Decline_Payment_aNeutral_tPlayer_FromNeutral_IG_001_PaymentDeclinedVehicle" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Approved_Departure_aNeutral_tPlayer_FromNeutral_IG_001_ExitApprovedSafe" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="1.566375" wwise_duration_min="1.566375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Approved_Departure_aNeutral_tPlayer_FromNeutral_IG_001_ExitApprovedSafe" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Farewell_aNeutral_tPlayer_FromNeutral_IG_001_ServiceCompleteConnection" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="2.366375" wwise_duration_min="2.366375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Farewell_aNeutral_tPlayer_FromNeutral_IG_001_ServiceCompleteConnection" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Give_Payment_aNeutral_tPlayer_FromNeutral_IG_001_PaymentAcceptedVehicle" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="4.366375" wwise_duration_min="4.366375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Give_Payment_aNeutral_tPlayer_FromNeutral_IG_001_PaymentAcceptedVehicle" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Assigned_Storage_aNeutral_tPlayer_FromNeutral_IG_001_VehicleStorageRequest" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="2.166375" wwise_duration_min="2.166375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Assigned_Storage_aNeutral_tPlayer_FromNeutral_IG_001_VehicleStorageRequest" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Inform_Arrival_Complete_aNeutral_tPlayer_FromNeutral_IG_001_YourVehicleIs" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="2.366375" wwise_duration_min="2.366375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Inform_Arrival_Complete_aNeutral_tPlayer_FromNeutral_IG_001_YourVehicleIs" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Inform_Banned_aNeutral_tPlayer_FromNeutral_IG_001_YouAreNot" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="5.366375" wwise_duration_min="5.366375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Inform_Banned_aNeutral_tPlayer_FromNeutral_IG_001_YouAreNot" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Inform_Vehicle_TooBig_aNeutral_tPlayer_FromNeutral_IG_001_VehicleStorageRequest" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="6.891375" wwise_duration_min="6.891375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Inform_Vehicle_TooBig_aNeutral_tPlayer_FromNeutral_IG_001_VehicleStorageRequest" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Inform_Zone_Closed_aNeutral_tPlayer_FromNeutral_IG_001_ErrorVehicleStorage" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="6.916375" wwise_duration_min="6.916375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Inform_Zone_Closed_aNeutral_tPlayer_FromNeutral_IG_001_ErrorVehicleStorage" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Request_Payment_aNeutral_tPlayer_FromNeutral_IG_001_VehicleStorageRequest" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="3.316375" wwise_duration_min="3.316375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Request_Payment_aNeutral_tPlayer_FromNeutral_IG_001_VehicleStorageRequest" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Request_Departure_aNeutral_tPlayer_FromNeutral_IG_001_ExitRequestAcknowledged" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="4.591375" wwise_duration_min="4.591375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Request_Departure_aNeutral_tPlayer_FromNeutral_IG_001_ExitRequestAcknowledged" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Inform_Storage_NotAvailable_aNeutral_tPlayer_FromNeutral_IG_001_StorageSpaceIs" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="7.166375" wwise_duration_min="7.166375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Inform_Storage_NotAvailable_aNeutral_tPlayer_FromNeutral_IG_001_StorageSpaceIs" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Impounded_Vehicle_aNeutral_tPlayer_FromNeutral_IG_001_YourVehicleHas" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="5.366375" wwise_duration_min="5.366375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Impounded_Vehicle_aNeutral_tPlayer_FromNeutral_IG_001_YourVehicleHas" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Inform_Storage_NotPossible_aNeutral_tPlayer_FromNeutral_IG_001_VehicleStorageRequest" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="6.391375" wwise_duration_min="6.391375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Inform_Storage_NotPossible_aNeutral_tPlayer_FromNeutral_IG_001_VehicleStorageRequest" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Inform_Vehicle_NotDetected_aNeutral_tPlayer_FromNeutral_IG_001_VehicleStorageRequest" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="5.616375" wwise_duration_min="5.616375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Inform_Vehicle_NotDetected_aNeutral_tPlayer_FromNeutral_IG_001_VehicleStorageRequest" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Warn_Storage_StorageTimeLimit_aNeutral_tPlayer_FromNeutral_IG_001_WarningRelocateYour" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="6.916375" wwise_duration_min="6.916375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Warn_Storage_StorageTimeLimit_aNeutral_tPlayer_FromNeutral_IG_001_WarningRelocateYour" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Stored_Vehicle_DepartTimeLimit_aNeutral_tPlayer_FromNeutral_IG_001_YourVehicleHas" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="5.641375" wwise_duration_min="5.641375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Stored_Vehicle_DepartTimeLimit_aNeutral_tPlayer_FromNeutral_IG_001_YourVehicleHas" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Request_Storage_aNeutral_tPlayer_FromNeutral_IG_001_VehicleStorageRequest" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="5.891375" wwise_duration_min="5.891375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Request_Storage_aNeutral_tPlayer_FromNeutral_IG_001_VehicleStorageRequest" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Warn_Storage_ArriveTimeLimit_aNeutral_tPlayer_FromNeutral_IG_001_WarningAssignedStorage" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="5.7175" wwise_duration_min="5.7175" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Warn_Storage_ArriveTimeLimit_aNeutral_tPlayer_FromNeutral_IG_001_WarningAssignedStorage" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Revoked_Storage_aNeutral_tPlayer_FromNeutral_IG_001_AssignedStorageSpace" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="6.391375" wwise_duration_min="6.391375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Revoked_Storage_aNeutral_tPlayer_FromNeutral_IG_001_AssignedStorageSpace" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Warn_Vehicle_Obstructing_aNeutral_tPlayer_FromNeutral_IG_001_WarningRelocateYour" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="5.641375" wwise_duration_min="5.641375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Warn_Vehicle_Obstructing_aNeutral_tPlayer_FromNeutral_IG_001_WarningRelocateYour" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Request_Storage_AlreadyGranted_aNeutral_tPlayer_FromNeutral_IG_001_ActiveVehicleStorage" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="4.841375" wwise_duration_min="4.841375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Request_Storage_AlreadyGranted_aNeutral_tPlayer_FromNeutral_IG_001_ActiveVehicleStorage" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_PYROATC01_M_ATC_Warn_Storage_DepartTimeLimit_aNeutral_tPlayer_FromNeutral_IG_001_WarningExitThe" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROATC01_M_SY">
-      <WwiseEvent wwise_duration_max="5.391375" wwise_duration_min="5.391375" wwise_duration_type="OneShot" wwise_name="Play_PU_PYROATC01_M_ATC_Warn_Storage_DepartTimeLimit_aNeutral_tPlayer_FromNeutral_IG_001_WarningExitThe" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
     <ATLTrigger atl_name="Play_PU_PYROCGOATC01_M_ATC_Warn_Deck_AlignTimeLimit_IG_001_AlignVehicleOr" path="Events/Dialogue/Persistent_Universe_Voice_Events/DX_PU_PYRO_VE/DX_PU_PYRO_Voice_Events_Live/PYROCGOATC01_M_SY">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_PU_PYROCGOATC01_M_ATC_Warn_Deck_AlignTimeLimit_IG_001_AlignVehicleOr" wwise_radius_max="50" />
       <RTPCDependees>
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -268,6 +39,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -278,6 +50,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -288,6 +61,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -298,6 +72,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -308,6 +83,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -318,6 +94,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -328,6 +105,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -338,6 +116,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -348,6 +127,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -358,6 +138,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -368,6 +149,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -378,6 +160,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -399,6 +182,7 @@
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -409,6 +193,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -419,6 +204,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -429,6 +215,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -439,6 +226,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -449,6 +237,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -459,6 +248,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -469,6 +259,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -479,6 +270,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -489,6 +281,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -499,6 +292,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -509,6 +303,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -519,6 +314,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -529,6 +325,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -539,6 +336,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -549,6 +347,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -559,6 +358,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -569,6 +369,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -579,6 +380,7 @@
         <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -590,6 +392,7 @@
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -601,186 +404,7 @@
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_003_YouAreNow">
-      <WwiseEvent wwise_duration_max="2.245104" wwise_duration_min="2.245104" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_003_YouAreNow" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_002_ImSorryYou">
-      <WwiseEvent wwise_duration_max="8.120791" wwise_duration_min="8.120791" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_002_ImSorryYou" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_002_YouAreNow">
-      <WwiseEvent wwise_duration_max="6.87541676" wwise_duration_min="6.87541676" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_002_YouAreNow" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_ItSeemsYour">
-      <WwiseEvent wwise_duration_max="5.875271" wwise_duration_min="5.875271" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_ItSeemsYour" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_StandByFor">
-      <WwiseEvent wwise_duration_max="4.247521" wwise_duration_min="4.247521" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_StandByFor" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_UnfortunatelyYourShip">
-      <WwiseEvent wwise_duration_max="6.263167" wwise_duration_min="6.263167" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_UnfortunatelyYourShip" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_PleaseVacateThe">
-      <WwiseEvent wwise_duration_max="4.624417" wwise_duration_min="4.624417" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_PleaseVacateThe" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_WelcomeToJump">
-      <WwiseEvent wwise_duration_max="6.11777067" wwise_duration_min="6.11777067" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_WelcomeToJump" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_ScansIndicateThe">
-      <WwiseEvent wwise_duration_max="4.66708326" wwise_duration_min="4.66708326" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_ScansIndicateThe" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_YouAreNow">
-      <WwiseEvent wwise_duration_max="5.852521" wwise_duration_min="5.852521" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_YouAreNow" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_YouAreLeaving">
-      <WwiseEvent wwise_duration_max="6.241104" wwise_duration_min="6.241104" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_YouAreLeaving" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_ThisJumpPoint">
-      <WwiseEvent wwise_duration_max="10.65225" wwise_duration_min="10.65225" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_ThisJumpPoint" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_YouHaveForfeited">
-      <WwiseEvent wwise_duration_max="3.28279161" wwise_duration_min="3.28279161" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_YouHaveForfeited" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_AttentionTheJump">
-      <WwiseEvent wwise_duration_max="8.627229" wwise_duration_min="8.627229" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_AttentionTheJump" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_ImSorryIt">
-      <WwiseEvent wwise_duration_max="4.51741648" wwise_duration_min="4.51741648" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_ImSorryIt" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_ImSorryYou">
-      <WwiseEvent wwise_duration_max="7.035792" wwise_duration_min="7.035792" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_ImSorryYou" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_HostileBehaviorWill">
-      <WwiseEvent wwise_duration_max="8.871166" wwise_duration_min="8.871166" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_HostileBehaviorWill" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
-      </RTPCDependees>
-      <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
-      <Tags />
-    </ATLTrigger>
-    <ATLTrigger atl_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_ICantGrant">
-      <WwiseEvent wwise_duration_max="7.105854" wwise_duration_min="7.105854" wwise_duration_type="OneShot" wwise_name="Play_PU_JPATC01_F_aNeutral_tPlayer_FromNeutral_IG_001_ICantGrant" wwise_radius_max="50" />
-      <RTPCDependees>
-        <ATLRTPCDependee atl_name="MIX_DX" />
-        <ATLRTPCDependee atl_name="Character_Loadout_Helmet_On" />
-        <ATLRTPCDependee atl_name="Listener_Volume" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -792,6 +416,7 @@
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -803,6 +428,7 @@
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -814,6 +440,7 @@
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -825,6 +452,7 @@
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -836,6 +464,7 @@
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -847,6 +476,7 @@
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -858,6 +488,7 @@
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -869,6 +500,7 @@
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -880,6 +512,7 @@
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />
@@ -891,6 +524,7 @@
         <ATLRTPCDependee atl_name="MIX_DX" />
         <ATLRTPCDependee atl_name="Listener_Volume" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_DX_PU_PYRO_Voice_Bank" />
       <Tags />

@@ -405,16 +405,16 @@
       <linkPlugs Type="Tag" Count="0" />
     </SInteractionLinkParams>
     <IFCSParams Type="IFCSParams">
-      <scmSpeed>252</scmSpeed>
+      <scmSpeed>254</scmSpeed>
       <boostSpeedForward>600</boostSpeedForward>
       <boostSpeedBackward>270</boostSpeedBackward>
       <maxSpeed>1400</maxSpeed>
       <maxSpeedPrecisionModeFullProximityAssist>10</maxSpeedPrecisionModeFullProximityAssist>
       <maxSpeedPrecisionModeZeroProximityAssist>30</maxSpeedPrecisionModeZeroProximityAssist>
       <maxAngularVelocity Type="Vec3">
-        <x>53.5</x>
-        <y>182</y>
-        <z>49.5</z>
+        <x>54</x>
+        <y>192</y>
+        <z>49</z>
       </maxAngularVelocity>
       <pitchYawLimiterType>Ellipsoid</pitchYawLimiterType>
       <linearLimiterType>NormalizedUniformWithMaxRadius</linearLimiterType>

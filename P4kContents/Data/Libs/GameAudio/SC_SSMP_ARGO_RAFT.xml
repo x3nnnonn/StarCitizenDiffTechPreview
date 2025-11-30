@@ -28,8 +28,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Corridor_Component_Shutters_Open_01">
       <WwiseEvent wwise_duration_max="5.015667" wwise_duration_min="5.015667" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Corridor_Component_Shutters_Open_01" wwise_radius_max="5" />
@@ -58,8 +60,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Retract_04">
       <WwiseEvent wwise_duration_max="2.91666675" wwise_duration_min="2.91666675" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Retract_04" wwise_radius_max="100" />
@@ -88,8 +92,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Deploy_03">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Deploy_03" wwise_radius_max="100" />
@@ -118,8 +124,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Door_Single_Windowed_Close_01">
       <WwiseEvent wwise_duration_max="4.768912" wwise_duration_min="4.12766743" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Door_Single_Windowed_Close_01" wwise_radius_max="5" />
@@ -148,8 +156,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Sink_Retract_01">
       <WwiseEvent wwise_duration_max="2.73822927" wwise_duration_min="2.73822927" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Sink_Retract_01" wwise_radius_max="5" />
@@ -178,8 +188,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Locker_Cabinet_Door_Close_01">
       <WwiseEvent wwise_duration_max="2.57607365" wwise_duration_min="2.29502082" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Locker_Cabinet_Door_Close_01" wwise_radius_max="5" />
@@ -208,8 +220,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Double_Door_Open_01">
       <WwiseEvent wwise_duration_max="3.15624738" wwise_duration_min="2.89429164" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Double_Door_Open_01" wwise_radius_max="5" />
@@ -238,8 +252,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Double_Door_Close_01">
       <WwiseEvent wwise_duration_max="3.25695157" wwise_duration_min="2.99493742" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Double_Door_Close_01" wwise_radius_max="5" />
@@ -268,8 +284,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Door_Single_Windowed_Open_01">
       <WwiseEvent wwise_duration_max="4.22828341" wwise_duration_min="3.7669723" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Door_Single_Windowed_Open_01" wwise_radius_max="5" />
@@ -298,8 +316,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Sink_Deploy_01">
       <WwiseEvent wwise_duration_max="2.6997292" wwise_duration_min="2.6997292" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Sink_Deploy_01" wwise_radius_max="5" />
@@ -310,6 +330,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Toilet_Seat_Deploy_01">
       <WwiseEvent wwise_duration_max="2.77364922" wwise_duration_min="2.77364922" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Toilet_Seat_Deploy_01" wwise_radius_max="5" />
@@ -320,6 +341,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Toilet_Seat_Retract_01">
       <WwiseEvent wwise_duration_max="2.596709" wwise_duration_min="2.596709" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Toilet_Seat_Retract_01" wwise_radius_max="5" />
@@ -330,6 +352,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Retract_01">
       <WwiseEvent wwise_duration_max="3.98437357" wwise_duration_min="3.448621" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Retract_01" wwise_radius_max="100" />
@@ -358,8 +381,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Access_Door_Single_Close_01">
       <WwiseEvent wwise_duration_max="2.63568425" wwise_duration_min="2.281281" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Access_Door_Single_Close_01" wwise_radius_max="5" />
@@ -388,8 +413,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Retract_02">
       <WwiseEvent wwise_duration_max="2.91666675" wwise_duration_min="2.91666675" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Retract_02" wwise_radius_max="100" />
@@ -418,8 +445,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Access_Door_Single_Open_01">
       <WwiseEvent wwise_duration_max="2.41877341" wwise_duration_min="2.09353685" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Access_Door_Single_Open_01" wwise_radius_max="5" />
@@ -448,8 +477,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Deploy_04">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Deploy_04" wwise_radius_max="100" />
@@ -478,8 +509,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Retract_03">
       <WwiseEvent wwise_duration_max="2.91666675" wwise_duration_min="2.91666675" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Retract_03" wwise_radius_max="100" />
@@ -508,8 +541,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Locker_Cabinet_Door_Open_01">
       <WwiseEvent wwise_duration_max="2.47077274" wwise_duration_min="2.20120835" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Locker_Cabinet_Door_Open_01" wwise_radius_max="5" />
@@ -538,8 +573,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Elevator_Double_Door_Open_01">
       <WwiseEvent wwise_duration_max="4.338744" wwise_duration_min="3.9786458" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Elevator_Double_Door_Open_01" wwise_radius_max="5" />
@@ -568,8 +605,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Pilot_Seat_Enter_01">
       <WwiseEvent wwise_duration_max="3.501229" wwise_duration_min="3.501229" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Pilot_Seat_Enter_01" wwise_radius_max="10" />
@@ -580,6 +619,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Toilet_Paper_Holder_Deploy_01">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Toilet_Paper_Holder_Deploy_01" wwise_radius_max="5" />
@@ -590,6 +630,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Toilet_Paper_Holder_Retract_01">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Toilet_Paper_Holder_Retract_01" wwise_radius_max="5" />
@@ -618,8 +659,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Tractor_Cannon_Seat_Enter_01">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Tractor_Cannon_Seat_Enter_01" wwise_radius_max="10" />
@@ -648,8 +691,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Deploy_02">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Deploy_02" wwise_radius_max="100" />
@@ -678,8 +723,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Corridor_Component_Door_Close_01">
       <WwiseEvent wwise_duration_max="4.63968754" wwise_duration_min="4.63968754" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Corridor_Component_Door_Close_01" wwise_radius_max="5" />
@@ -708,8 +755,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Corridor_Component_Shutters_Close_01">
       <WwiseEvent wwise_duration_max="5.01177073" wwise_duration_min="5.01177073" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Corridor_Component_Shutters_Close_01" wwise_radius_max="5" />
@@ -738,8 +787,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Corridor_Component_Door_Open_01">
       <WwiseEvent wwise_duration_max="4.393125" wwise_duration_min="4.393125" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Corridor_Component_Door_Open_01" wwise_radius_max="5" />
@@ -768,8 +819,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Deploy_01">
       <WwiseEvent wwise_duration_max="4.0315814" wwise_duration_min="3.489481" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_VTOL_Thruster_Deploy_01" wwise_radius_max="100" />
@@ -780,6 +833,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Airlock_Sealed_Door_Close_01">
       <WwiseEvent wwise_duration_max="7.154" wwise_duration_min="7.154" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Airlock_Sealed_Door_Close_01" wwise_radius_max="5" />
@@ -808,8 +862,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Airlock_Sealed_Door_Open_01">
       <WwiseEvent wwise_duration_max="8.399292" wwise_duration_min="8.399292" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Airlock_Sealed_Door_Open_01" wwise_radius_max="5" />
@@ -820,6 +876,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Pilot_Seat_Exit_01">
       <WwiseEvent wwise_duration_max="2.55083323" wwise_duration_min="2.55083323" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Pilot_Seat_Exit_01" wwise_radius_max="10" />
@@ -848,8 +905,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Tractor_Cannon_Seat_Exit_01">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Tractor_Cannon_Seat_Exit_01" wwise_radius_max="10" />
@@ -878,8 +937,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Lift_End">
       <WwiseEvent wwise_duration_max="2.67925024" wwise_duration_min="1.60612881" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Lift_End" wwise_radius_max="30" />
@@ -890,6 +951,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSMP_ARGO_RAFT_Lift_Loop">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSMP_ARGO_RAFT_Lift_Loop" wwise_radius_max="0" />
@@ -901,6 +963,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Lift_Gate_Open">
       <WwiseEvent wwise_duration_max="3.10489583" wwise_duration_min="3.10489583" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Lift_Gate_Open" wwise_radius_max="5" />
@@ -911,6 +974,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Lift_Gate_Close">
       <WwiseEvent wwise_duration_max="3.90883327" wwise_duration_min="3.90883327" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Lift_Gate_Close" wwise_radius_max="5" />
@@ -921,6 +985,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Lift_Loop">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSMP_ARGO_RAFT_Lift_Loop" wwise_radius_max="30" />
@@ -932,6 +997,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Lift_Start">
       <WwiseEvent wwise_duration_max="1.51418746" wwise_duration_min="1.51418746" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Lift_Start" wwise_radius_max="30" />
@@ -942,6 +1008,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Copilot_Seat_Exit_01">
       <WwiseEvent wwise_duration_max="2.55083323" wwise_duration_min="2.55083323" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Copilot_Seat_Exit_01" wwise_radius_max="10" />
@@ -970,8 +1037,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Copilot_Seat_Enter_01">
       <WwiseEvent wwise_duration_max="3.501229" wwise_duration_min="3.501229" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Copilot_Seat_Enter_01" wwise_radius_max="10" />
@@ -1000,8 +1069,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Restroom_Door_Close_01">
       <WwiseEvent wwise_duration_max="2.06906748" wwise_duration_min="1.84332955" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Restroom_Door_Close_01" wwise_radius_max="5" />
@@ -1030,8 +1101,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Restroom_Door_Open_01">
       <WwiseEvent wwise_duration_max="2.28722143" wwise_duration_min="2.03768277" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Restroom_Door_Open_01" wwise_radius_max="5" />
@@ -1060,8 +1133,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Pilot_Dashboard_Deploy_01">
       <WwiseEvent wwise_duration_max="1.43487763" wwise_duration_min="1.43487763" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Pilot_Dashboard_Deploy_01" wwise_radius_max="10" />
@@ -1090,8 +1165,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Pilot_Dashboard_Retract_01">
       <WwiseEvent wwise_duration_max="1.247486" wwise_duration_min="1.247486" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Pilot_Dashboard_Retract_01" wwise_radius_max="10" />
@@ -1120,8 +1197,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Copilot_Dashboard_Retract_01">
       <WwiseEvent wwise_duration_max="1.247486" wwise_duration_min="1.247486" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Copilot_Dashboard_Retract_01" wwise_radius_max="10" />
@@ -1150,8 +1229,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Copilot_Dashboard_Deploy_01">
       <WwiseEvent wwise_duration_max="1.43487763" wwise_duration_min="1.43487763" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Copilot_Dashboard_Deploy_01" wwise_radius_max="10" />
@@ -1180,8 +1261,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Landing_Gear_Deploy_01">
       <WwiseEvent wwise_duration_max="5.567354" wwise_duration_min="5.567354" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Landing_Gear_Deploy_01" wwise_radius_max="100" />
@@ -1192,6 +1275,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Landing_Gear_Retract_01">
       <WwiseEvent wwise_duration_max="6.71991634" wwise_duration_min="6.71991634" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Landing_Gear_Retract_01" wwise_radius_max="100" />
@@ -1220,8 +1304,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Elevator_Interfloor_Door_Close_01">
       <WwiseEvent wwise_duration_max="3.59760952" wwise_duration_min="3.59760952" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Elevator_Interfloor_Door_Close_01" wwise_radius_max="10" />
@@ -1232,6 +1318,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Elevator_Interfloor_Door_Open_01">
       <WwiseEvent wwise_duration_max="4.292943" wwise_duration_min="4.292943" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Elevator_Interfloor_Door_Open_01" wwise_radius_max="10" />
@@ -1242,6 +1329,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_VTOL_Movement_HACK_Loop">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_VTOL_Movement_HACK_Loop" wwise_radius_max="0" />
@@ -1272,8 +1360,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSMP_ARGO_RAFT_VTOL_Movement_HACK_01">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSMP_ARGO_RAFT_VTOL_Movement_HACK_01" wwise_radius_max="0" />
@@ -1304,8 +1394,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_VTOL_Movement_HACK_01">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSMP_ARGO_RAFT_VTOL_Movement_HACK_01" wwise_radius_max="100" />
@@ -1336,8 +1428,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Entrance_Door_Open_01">
       <WwiseEvent wwise_duration_max="5.02445841" wwise_duration_min="5.02445841" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Entrance_Door_Open_01" wwise_radius_max="10" />
@@ -1348,6 +1442,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Entrance_Door_Close_01">
       <WwiseEvent wwise_duration_max="5.28595829" wwise_duration_min="5.28595829" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Entrance_Door_Close_01" wwise_radius_max="10" />
@@ -1358,6 +1453,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Personal_Storage_Open_01">
       <WwiseEvent wwise_duration_max="2.403375" wwise_duration_min="2.403375" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Personal_Storage_Open_01" wwise_radius_max="5" />
@@ -1368,6 +1464,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ARGO_RAFT_Personal_Storage_Close_01">
       <WwiseEvent wwise_duration_max="2.09216666" wwise_duration_min="2.09216666" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ARGO_RAFT_Personal_Storage_Close_01" wwise_radius_max="5" />
@@ -1378,6 +1475,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ARGO_RAFT" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -1390,4 +1488,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

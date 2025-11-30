@@ -2676,13 +2676,13 @@
       </contractParams>
       <introContracts Type="Contract" Count="0" />
       <factionReputation />
-      <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/reputationscope_bounty.xml" />
+      <reputationScope ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/scopes/factionreputationscope.xml" />
       <contracts Type="CareerContract" Count="1">
         <CareerContract Type="CareerContract">
           <id>435f61ae-433e-9d9c-28f7-a6f6b8530895</id>
           <notForRelease>False</notForRelease>
           <workInProgress>False</workInProgress>
-          <debugName>NorthRock_Stanton3_HijackedShip_890J</debugName>
+          <debugName>NorthRock_HijackedShip_890J_Stanton</debugName>
           <template ReferencedFile="file://./../../../../../../../libs/foundry/records/contracts/contracttemplates/hijackedship_890j.xml" />
           <paramOverrides Type="ContractParamOverrides">
             <stringParamOverrides Type="ContractStringParam" Count="2">
@@ -2893,8 +2893,8 @@
               <gameKnowledge>Standard_understanding_FPS_flight_professions_4</gameKnowledge>
             </difficulty>
           </contractResults>
-          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/bounty/reputationstanding_bounty_applicant.xml" />
-          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/bounty/reputationstanding_bounty_masteragent.xml" />
+          <minStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/faction_reputation_pyro/reputationstanding_factionrep_rank0.xml" />
+          <maxStanding ReferencedFile="file://./../../../../../../../libs/foundry/records/reputation/standings/faction_reputation_pyro/reputationstanding_factionrep_rank6.xml" />
         </CareerContract>
       </contracts>
     </ContractGeneratorHandler_Career>

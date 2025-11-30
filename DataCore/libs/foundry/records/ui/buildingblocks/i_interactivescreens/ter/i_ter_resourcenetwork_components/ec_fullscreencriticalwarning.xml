@@ -357,7 +357,7 @@
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="16">
+  <operations Type="BuildingBlocks_Node" Count="18">
     <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:2" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>/resourceNetworkUI/criticalWarningState</binding>
@@ -473,6 +473,16 @@
       <value>@dfm_ac_ui_Seconds</value>
       <withSpace>True</withSpace>
     </BindingsOperations_LocalizationCombine>
+    <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
+      <widget PointsTo="ptr:3" />
+      <field>IsActive</field>
+      <input PointsTo="ptr:1" />
+    </BuildingBlocks_BindingsBooleanField>
+    <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
+      <widget PointsTo="ptr:3" />
+      <field>Instantiated</field>
+      <input PointsTo="ptr:1" />
+    </BuildingBlocks_BindingsBooleanField>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

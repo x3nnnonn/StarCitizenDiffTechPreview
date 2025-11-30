@@ -150,7 +150,7 @@
           </Offset>
           <boneName>hardpoint_dashboard_pilot</boneName>
           <shouldRequestNavMeshRegenerationOnLoad>False</shouldRequestNavMeshRegenerationOnLoad>
-          <resourceNetworkItemportName />
+          <resourceNetworkItemportName>hardpoint_relay_cockpit</resourceNetworkItemportName>
         </SVehicleObjectContainerParams>
       </objectContainers>
       <physicsGrid Type="SVehiclePhysicsGridParams">
@@ -187,7 +187,7 @@
         <y>0</y>
         <z>0</z>
       </landingRotationOffset>
-      <fusePenetrationDamageMultiplier>0.001</fusePenetrationDamageMultiplier>
+      <fusePenetrationDamageMultiplier>0.05</fusePenetrationDamageMultiplier>
       <componentPenetrationDamageMultiplier>0.4</componentPenetrationDamageMultiplier>
     </VehicleComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
@@ -195,7 +195,7 @@
         <WearRange />
         <DirtRange />
         <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
-        <entries Type="SItemPortLoadoutEntryParams" Count="56">
+        <entries Type="SItemPortLoadoutEntryParams" Count="54">
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_paint</itemPortName>
             <entityClassName />
@@ -205,22 +205,22 @@
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_seat_pilot</itemPortName>
-            <entityClassName>MISC_Razor_Seat_Pilot</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/seat/entityclassdefinition.misc_razor_seat_pilot.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_seat_access</itemPortName>
-            <entityClassName>MISC_Razor_SeatAccess</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/seataccess/entityclassdefinition.misc_razor_seataccess.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_dashboard_pilot</itemPortName>
-            <entityClassName>MISC_Razor_Dashboard_Pilot</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/dashboard/entityclassdefinition.misc_razor_dashboard_pilot.xml" />
             <inventoryContainer />
             <loadout Type="SItemPortLoadoutManualParams">
               <WearRange />
@@ -243,36 +243,36 @@
                 </SItemPortLoadoutEntryParams>
                 <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
                   <itemPortName>screen_mfd_mid</itemPortName>
-                  <entityClassName>Vehicle_Screen_MFD</entityClassName>
-                  <entityClassReference />
+                  <entityClassName />
+                  <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/displays/vehicle_screen_mfd.xml" />
                   <inventoryContainer />
                   <loadout />
                 </SItemPortLoadoutEntryParams>
                 <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
                   <itemPortName>screen_support_upper_left</itemPortName>
-                  <entityClassName>Vehicle_Screen_MFD_Holographic_MISC_Razor_L</entityClassName>
-                  <entityClassReference />
+                  <entityClassName />
+                  <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/displays/vehicle_screen_mfd_holographic_misc_razor_l.xml" />
                   <inventoryContainer />
                   <loadout />
                 </SItemPortLoadoutEntryParams>
                 <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
                   <itemPortName>screen_support_upper_right</itemPortName>
-                  <entityClassName>Vehicle_Screen_MFD_Holographic_MISC_Razor_R</entityClassName>
-                  <entityClassReference />
+                  <entityClassName />
+                  <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/displays/vehicle_screen_mfd_holographic_misc_razor_r.xml" />
                   <inventoryContainer />
                   <loadout />
                 </SItemPortLoadoutEntryParams>
                 <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
                   <itemPortName>screen_annunciator_left</itemPortName>
-                  <entityClassName>Vehicle_Screen_Physical_Holo</entityClassName>
-                  <entityClassReference />
+                  <entityClassName />
+                  <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/displays/vehicle_screen_physical_holo.xml" />
                   <inventoryContainer />
                   <loadout />
                 </SItemPortLoadoutEntryParams>
                 <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
                   <itemPortName>screen_annunciator_right</itemPortName>
-                  <entityClassName>Vehicle_Screen_Physical_Holo</entityClassName>
-                  <entityClassReference />
+                  <entityClassName />
+                  <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/displays/vehicle_screen_physical_holo.xml" />
                   <inventoryContainer />
                   <loadout />
                 </SItemPortLoadoutEntryParams>
@@ -281,120 +281,106 @@
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_controller_door</itemPortName>
-            <entityClassName>Controller_Door</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/controller/entityclassdefinition.controller_door.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_selfdestruct</itemPortName>
-            <entityClassName>VHCL_SelfDestruct_10s</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/selfdestruct/vhcl_selfdestruct_10s.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_controller_flight</itemPortName>
-            <entityClassName>Controller_Flight_MISC_Razor</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/controller/controller_flight_misc_razor.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_controller_light</itemPortName>
-            <entityClassName>Controller_Light</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/controller/entityclassdefinition.controller_light.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_controller_comms</itemPortName>
-            <entityClassName>Controller_Comms</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/controller/controller_comms.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_radar</itemPortName>
-            <entityClassName>RADR_NAVE_S01_SNSR6</entityClassName>
-            <entityClassReference />
-            <inventoryContainer />
-            <loadout />
-          </SItemPortLoadoutEntryParams>
-          <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
-            <itemPortName>hardpoint_scanner</itemPortName>
             <entityClassName />
-            <entityClassReference />
-            <inventoryContainer />
-            <loadout />
-          </SItemPortLoadoutEntryParams>
-          <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
-            <itemPortName>hardpoint_ping</itemPortName>
-            <entityClassName />
-            <entityClassReference />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/radar/radr_nave_s01_snsr6.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_controller_energy</itemPortName>
-            <entityClassName>Controller_Energy</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/controller/entityclassdefinition.controller_energy.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_powerplant</itemPortName>
-            <entityClassName>POWR_ACOM_S01_StarHeart_SCItem</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/powerplant/powr_acom_s01_starheart_scitem.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_controller_cooler</itemPortName>
-            <entityClassName>Controller_Cooler</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/controller/entityclassdefinition.controller_cooler.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_cooler_left</itemPortName>
-            <entityClassName>COOL_ACOM_S01_IcePlunge_SCItem</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/cooler/cool_acom_s01_iceplunge_scitem.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_cooler_right</itemPortName>
-            <entityClassName>COOL_ACOM_S01_IcePlunge_SCItem</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/cooler/cool_acom_s01_iceplunge_scitem.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_fuel_tank</itemPortName>
-            <entityClassName>HTNK_MISC_Razor</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/fueltanks/htnk_misc_razor.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_fuel_intake_left</itemPortName>
-            <entityClassName>INTK_MISC_Razor</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/fuel_intakes/intk_misc_razor.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_fuel_intake_right</itemPortName>
-            <entityClassName>INTK_MISC_Razor</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/fuel_intakes/intk_misc_razor.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_quantum_drive</itemPortName>
-            <entityClassName>QDRV_ACAS_S01_LightFire_SCItem</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/quantumdrive/qdrv_acas_s01_lightfire_scitem.xml" />
             <inventoryContainer />
             <loadout Type="SItemPortLoadoutManualParams">
               <WearRange />
@@ -403,8 +389,8 @@
               <entries Type="SItemPortLoadoutEntryParams" Count="1">
                 <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
                   <itemPortName>hardpoint_jump_drive</itemPortName>
-                  <entityClassName>JDRV_TARS_S01_Explorer_SCItem</entityClassName>
-                  <entityClassReference />
+                  <entityClassName />
+                  <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/jumpdrive/jdrv_tars_s01_explorer_scitem.xml" />
                   <inventoryContainer />
                   <loadout />
                 </SItemPortLoadoutEntryParams>
@@ -413,155 +399,155 @@
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_quantum_fuel_tank</itemPortName>
-            <entityClassName>QTNK_MISC_Razor</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/fueltanks/qtnk_misc_razor.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_controller_shield</itemPortName>
-            <entityClassName>Controller_Shield_MISC_Razor</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/controller/controller_shield_misc_razor.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_shield_generator_left</itemPortName>
-            <entityClassName>SHLD_YORM_S01_Targa_SCItem</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/shieldgenerator/shld_yorm_s01_targa_scitem.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_armour</itemPortName>
-            <entityClassName>ARMR_MISC_Razor</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/armor/armr_misc_razor.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_engine_left</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Main</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_main.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_engine_right</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Main</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_main.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_thruster_FL_top</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Vertical_Top</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_vertical_top.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_thruster_FL_side</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Lateral</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_lateral.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_thruster_FL_bottom</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Vertical_Bottom</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_vertical_bottom.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_thruster_RL_top</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Vertical_Top</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_vertical_top.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_thruster_RL_side</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Lateral</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_lateral.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_thruster_RL_bottom</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Vertical_Bottom</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_vertical_bottom.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_thruster_FR_top</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Vertical_Top</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_vertical_top.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_thruster_FR_side</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Lateral</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_lateral.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_thruster_FR_bottom</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Vertical_Bottom</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_vertical_bottom.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_thruster_RR_top</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Vertical_Top</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_vertical_top.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_thruster_RR_side</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Lateral</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_lateral.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_thruster_RR_bottom</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Vertical_Bottom</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_vertical_bottom.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_thruster_retro_left</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Retro</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_retro.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_thruster_retro_right</itemPortName>
-            <entityClassName>MISC_Razor_Thruster_Retro</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/thrusters/misc_razor_thruster_retro.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>landingpad_helper</itemPortName>
-            <entityClassName>Default_LandingSystem</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/landingsystem/default_landingsystem.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_controller_weapon</itemPortName>
-            <entityClassName>Controller_Weapon</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/controller/entityclassdefinition.controller_weapon.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
@@ -607,8 +593,8 @@
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_weapon_missilerack_left</itemPortName>
-            <entityClassName>MRCK_S01_BEHR_Single_S01</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/missile_racks/behr/mrck_s01_behr_single_s01.xml" />
             <inventoryContainer />
             <loadout Type="SItemPortLoadoutManualParams">
               <WearRange />
@@ -617,8 +603,8 @@
               <entries Type="SItemPortLoadoutEntryParams" Count="1">
                 <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
                   <itemPortName>missile_01_attach</itemPortName>
-                  <entityClassName>MISL_S01_IR_BEHR_Marksman</entityClassName>
-                  <entityClassReference />
+                  <entityClassName />
+                  <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/weapons/missiles/misl_s01_ir_behr_marksman.xml" />
                   <inventoryContainer />
                   <loadout />
                 </SItemPortLoadoutEntryParams>
@@ -627,8 +613,8 @@
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_weapon_missilerack_right</itemPortName>
-            <entityClassName>MRCK_S01_BEHR_Single_S01</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/missile_racks/behr/mrck_s01_behr_single_s01.xml" />
             <inventoryContainer />
             <loadout Type="SItemPortLoadoutManualParams">
               <WearRange />
@@ -637,8 +623,8 @@
               <entries Type="SItemPortLoadoutEntryParams" Count="1">
                 <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
                   <itemPortName>missile_01_attach</itemPortName>
-                  <entityClassName>MISL_S01_IR_BEHR_Marksman</entityClassName>
-                  <entityClassReference />
+                  <entityClassName />
+                  <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/weapons/missiles/misl_s01_ir_behr_marksman.xml" />
                   <inventoryContainer />
                   <loadout />
                 </SItemPortLoadoutEntryParams>
@@ -647,64 +633,64 @@
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_countermeasures_left</itemPortName>
-            <entityClassName>MISC_Razor_CML_Flare</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/countermeasures/misc_razor_cml_flare.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_countermeasures_right</itemPortName>
-            <entityClassName>MISC_Razor_CML_Chaff</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/countermeasures/misc_razor_cml_chaff.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_controller_missile</itemPortName>
-            <entityClassName>Controller_Missile</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/controller/controller_missile.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_controller_capacitor_assignment</itemPortName>
-            <entityClassName>Controller_CapacitorAssignment</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/controller/controller_capacitorassignment.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_controller_fuel</itemPortName>
-            <entityClassName>Controller_Fuel</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/controller/controller_fuel.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_fuel_port</itemPortName>
-            <entityClassName>DockingTube_Fuel_Ports_MISC_Razor</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/dockingport/dockingtube_fuel_ports_misc_razor.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_air_traffic_controller</itemPortName>
-            <entityClassName>MISC_Razor_ShipATCDataManager</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/atc/atc_docking/misc_razor_shipatcdatamanager.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_relay_cockpit</itemPortName>
-            <entityClassName>RELAY_2slot</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/relay/relay_2slot.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_lifesupport</itemPortName>
-            <entityClassName>LFSP_TYDT_S01_ComfortAir</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/lifesupport/lfsp_tydt_s01_comfortair.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
@@ -2056,6 +2042,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -2084,6 +2073,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -2112,6 +2104,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -3914,7 +3909,7 @@
         <Pipes Type="SEnergyPipeDefinition" Count="0" />
       </masterController>
       <Ports Type="SItemPortDef" Count="5">
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:2" Type="SItemPortDef">
           <Name>hardpoint_controller_fuel</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
@@ -4023,7 +4018,7 @@
             <z>-1</z>
           </detachDirection>
         </SItemPortDef>
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:3" Type="SItemPortDef">
           <Name>hardpoint_fuel_port</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags>Ship_Dock_Refuel</PortTags>
@@ -4067,7 +4062,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>DockingCollar</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -4137,7 +4132,7 @@
             <z>-1</z>
           </detachDirection>
         </SItemPortDef>
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:4" Type="SItemPortDef">
           <Name>hardpoint_air_traffic_controller</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
@@ -4181,7 +4176,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AirTrafficController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -4251,7 +4246,7 @@
             <z>-1</z>
           </detachDirection>
         </SItemPortDef>
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:1" Type="SItemPortDef">
           <Name>hardpoint_relay_cockpit</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
@@ -4295,7 +4290,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -4343,7 +4338,7 @@
             <z>-1</z>
           </detachDirection>
         </SItemPortDef>
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:5" Type="SItemPortDef">
           <Name>hardpoint_lifesupport</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
@@ -4434,11 +4429,209 @@
       <PortFlags />
       <PortTags>MISC_Razor</PortTags>
       <RequiredItemTags />
-      <InternalResourceLinks Type="SInternalResourceLink" Count="0" />
-      <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
-      <LinkAllItemsToResourceNetwork>True</LinkAllItemsToResourceNetwork>
+      <InternalResourceLinks Type="SInternalResourceLink" Count="4">
+        <SInternalResourceLink Type="SInternalResourceLink">
+          <port1 PointsTo="ptr:1" />
+          <port2 PointsTo="ptr:2" />
+        </SInternalResourceLink>
+        <SInternalResourceLink Type="SInternalResourceLink">
+          <port1 PointsTo="ptr:1" />
+          <port2 PointsTo="ptr:3" />
+        </SInternalResourceLink>
+        <SInternalResourceLink Type="SInternalResourceLink">
+          <port1 PointsTo="ptr:1" />
+          <port2 PointsTo="ptr:4" />
+        </SInternalResourceLink>
+        <SInternalResourceLink Type="SInternalResourceLink">
+          <port1 PointsTo="ptr:1" />
+          <port2 PointsTo="ptr:5" />
+        </SInternalResourceLink>
+      </InternalResourceLinks>
+      <InternalHardpointLinks Type="SInternalHardpointLink" Count="45">
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_seat_pilot</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_dashboard_pilot</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_door</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_selfdestruct</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_flight</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_light</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_comms</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_radar</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_energy</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_powerplant</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_cooler</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_cooler_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_cooler_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_fuel_tank</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_fuel_intake_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_fuel_intake_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_quantum_drive</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_quantum_fuel_tank</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_shield</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_shield_generator_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_engine_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_engine_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_FL_top</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_FL_side</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_FL_bottom</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_RL_top</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_RL_side</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_RL_bottom</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_FR_top</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_FR_side</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_FR_bottom</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_RR_top</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_RR_side</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_RR_bottom</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_retro_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_retro_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_weapon</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_weapon_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_weapon_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_weapon_missilerack_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_weapon_missilerack_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_countermeasures_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_countermeasures_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_missile</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_capacitor_assignment</port2>
+        </SInternalHardpointLink>
+      </InternalHardpointLinks>
+      <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
-      <doorsIgnorePower>False</doorsIgnorePower>
+      <doorsIgnorePower>True</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="8">
@@ -4510,7 +4703,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:1" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:6" Type="SInteractionState">
               <StateName>Normal</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -4533,7 +4726,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:2" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:7" Type="SInteractionState">
               <StateName>Aux/Warning</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -4557,7 +4750,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:3" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:8" Type="SInteractionState">
               <StateName>Critical</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -4837,12 +5030,12 @@
       </adapters>
     </AINavigationDynamicTriggerComponent>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="HealthIconData" Count="2">
+      <perceptionTypes Type="ActorStatusUIWarning" Count="2">
         <EnumChoice>Vehicle</EnumChoice>
         <EnumChoice>Spaceship</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
+      <excludedSenses Type="ActorStatusPreset" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
       <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
       <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />
@@ -4869,9 +5062,9 @@
       <shotAlertTime>1</shotAlertTime>
     </AnnunciatorProviderParams>
     <EntityComponentResourceNetworkUIProviderParams Type="EntityComponentResourceNetworkUIProviderParams">
-      <normalState PointsTo="ptr:1" />
-      <auxState PointsTo="ptr:2" />
-      <criticalState PointsTo="ptr:3" />
+      <normalState PointsTo="ptr:6" />
+      <auxState PointsTo="ptr:7" />
+      <criticalState PointsTo="ptr:8" />
     </EntityComponentResourceNetworkUIProviderParams>
     <AtmosphericFlightDataParams Type="AtmosphericFlightDataParams" />
     <PositionTrackerComponentParams Type="PositionTrackerComponentParams" />

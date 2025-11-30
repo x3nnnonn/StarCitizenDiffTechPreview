@@ -1,32 +1,20 @@
-<ObjectContainer sourceLevel="data/levels/!oc/pu/loc/flagship/nyx/levski_v2_ext">
+<ObjectContainer sourceLevel="Data/Levels/!oc/pu/loc/flagship/nyx/levski_v2_ext">
  <Layers>
-  <Layer fullname="Levski_v2_int" externalLayerLevelDir="data/levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/" externalLayerParentDir="" externalLayerFilePath="data/levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int.lyr" layerHash="3079926324">
-   <Layer name="levV2_atc" layerHash="3797105586" externalLayerFilePath="data/levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_atc.lyr">
-    <Object name="atc_util_a_001" type="ObjectContainer" guid="4aac9d0a-fc70-85a9-5e27-49b6392a4885" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
+  <Layer fullname="Levski_v2_int" externalLayerLevelDir="Data/Levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/" externalLayerParentDir="" externalLayerFilePath="Data/Levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int.lyr" layerHash="517321067">
+   <Layer name="levV2_atc" layerHash="155997570" externalLayerFilePath="Data/Levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_atc.lyr"/>
+   <Layer name="levV2_decks" layerHash="103006327" externalLayerFilePath="Data/Levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_decks.lyr">
+    <Object name="levski_v2_topdeck" type="ObjectContainer" guid="44d6c310-e760-531d-42de-5f4182df1c8e" tags="503443c0-b6d1-4539-b493-688117334ff1,f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
+    <Object name="levski_v2_bottomdeck" type="ObjectContainer" guid="4d105094-51ab-c834-09d9-ff91442c088e" tags="503443c0-b6d1-4539-b493-688117334ff1,f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
+    <Object name="refin_levski_001" type="ObjectContainer" guid="413c6f4b-3a1a-6a6b-9823-0a0cc4b69388" tags="503443c0-b6d1-4539-b493-688117334ff1,f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
+    <Object name="levski_v2_elevator" type="ObjectContainer" guid="442ff7cd-4330-3e9e-e12f-be45c7ecb78d" tags="503443c0-b6d1-4539-b493-688117334ff1,f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
+    <Object name="levski_v2_middeck" type="ObjectContainer" guid="454b47a0-9e18-c1e0-94be-ed6ac6d63197" tags="503443c0-b6d1-4539-b493-688117334ff1,f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
    </Layer>
-   <Layer name="levV2_decks" layerHash="1043413673" externalLayerFilePath="data/levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_decks.lyr">
-    <Object name="levski_v2_topdeck" type="ObjectContainer" guid="44d6c310-e760-531d-42de-5f4182df1c8e" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
-    <Object name="levski_v2_bottomdeck" type="ObjectContainer" guid="4d105094-51ab-c834-09d9-ff91442c088e" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
-    <Object name="refin_levski_001" type="ObjectContainer" guid="413c6f4b-3a1a-6a6b-9823-0a0cc4b69388" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
-    <Object name="levski_v2_elevator" type="ObjectContainer" guid="442ff7cd-4330-3e9e-e12f-be45c7ecb78d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
-    <Object name="levski_v2_middeck" type="ObjectContainer" guid="454b47a0-9e18-c1e0-94be-ed6ac6d63197" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
-   </Layer>
-   <Layer name="levV2_docking" layerHash="1268796663" externalLayerFilePath="data/levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_docking.lyr"/>
-   <Layer name="levV2_gp" layerHash="1661427435" externalLayerFilePath="data/levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_gp.lyr"/>
-   <Layer name="levV2_hangars" layerHash="1595394471" externalLayerFilePath="data/levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_hangars.lyr"/>
-   <Layer name="levV2_light" layerHash="1365284960" externalLayerFilePath="data/levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_light.lyr"/>
-   <Layer name="levV2_sys" layerHash="1465302896" externalLayerFilePath="data/levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_sys.lyr"/>
-   <Layer name="levV2_transit" layerHash="505634254" externalLayerFilePath="data/levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_transit.lyr">
-    <Object name="MW_LevskiLobby_to_UW1" type="TransitDestination" guid="40616595-71e7-0c5a-3227-c749c2352fb9" tags="d8f16dba-2746-4000-9862-db8acbbf99e0"/>
-    <Object name="elev_munworks_lrg_lz3" type="ObjectContainer" guid="42f807f3-f663-a368-213a-123709b44daf" tags="8a39f9f9-9d44-4588-9812-372e3c0aed02,f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
-    <Object name="elev_munworks_lrg_lz" type="ObjectContainer" guid="4dc5eaba-1f92-8c83-fd62-2dffabc45fa7" tags="af9e64e6-bd5b-48f8-914c-fd6506ae95cd,f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
-    <Object name="elev_munworks_lrg_lz1-001" type="ObjectContainer" guid="4dcebaca-35a5-36a1-dad1-72e990ddd587" tags="d8f16dba-2746-4000-9862-db8acbbf99e0,f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
-    <Object name="MW_LevskiLobby_to_UW2" type="TransitDestination" guid="4270ab74-c2f7-4fad-0abd-862cb2e47f90" tags="d0398a1f-e97b-45bd-9014-07e1ef3e7c69"/>
-    <Object name="elev_munworks_lrg_lz1" type="ObjectContainer" guid="4c2126b2-e663-5ede-13bb-1e5a591960ab" tags="d8f16dba-2746-4000-9862-db8acbbf99e0,f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
-    <Object name="MW_LevskiLobby_to_UW3" type="TransitDestination" guid="4df8c4c4-a2cd-b2de-e907-f179cb8f4eb2" tags="8a39f9f9-9d44-4588-9812-372e3c0aed02"/>
-    <Object name="MW_Overworld-TransitDestination-001" type="TransitDestination" guid="400334ad-03b3-abea-1010-b5e6954e16b1" tags="af9e64e6-bd5b-48f8-914c-fd6506ae95cd"/>
-    <Object name="elev_munworks_lrg_lz2" type="ObjectContainer" guid="4795be0a-2f23-1bf4-01a2-8e462b199e99" tags="d0398a1f-e97b-45bd-9014-07e1ef3e7c69,f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
-   </Layer>
+   <Layer name="levV2_docking" layerHash="1268796663" externalLayerFilePath="Data/Levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_docking.lyr"/>
+   <Layer name="levV2_gp" layerHash="1661427435" externalLayerFilePath="Data/Levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_gp.lyr"/>
+   <Layer name="levV2_hangars" layerHash="1595394471" externalLayerFilePath="Data/Levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_hangars.lyr"/>
+   <Layer name="levV2_light" layerHash="1365284960" externalLayerFilePath="Data/Levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_light.lyr"/>
+   <Layer name="levV2_sys" layerHash="1465302896" externalLayerFilePath="Data/Levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_sys.lyr"/>
+   <Layer name="levV2_transit" layerHash="3322440255" externalLayerFilePath="Data/Levels/!oc/pu/loc/flagship/nyx/levski_v2_ext/Layers/Levski_v2_int/levV2_transit.lyr"/>
    <Object name="Levski_V2_LZ_int_OCP" type="ObjectContainerPivot" guid="4a6c10b7-44fd-c2e0-a321-4118accfcf89" tags=""/>
   </Layer>
  </Layers>

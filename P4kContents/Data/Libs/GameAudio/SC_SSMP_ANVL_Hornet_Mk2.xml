@@ -10,6 +10,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_Canopy_Close">
       <WwiseEvent wwise_duration_max="3.901" wwise_duration_min="3.888" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_Canopy_Close" wwise_radius_max="50" />
@@ -38,8 +39,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_Ladder_Deploy">
       <WwiseEvent wwise_duration_max="3.5" wwise_duration_min="3.5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_Ladder_Deploy" wwise_radius_max="50" />
@@ -68,8 +71,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_Ladder_Retract">
       <WwiseEvent wwise_duration_max="3" wwise_duration_min="3" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_Ladder_Retract" wwise_radius_max="50" />
@@ -80,6 +85,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_MissileBay_Open">
       <WwiseEvent wwise_duration_max="1.1565" wwise_duration_min="0.9723542" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_MissileBay_Open" wwise_radius_max="50" />
@@ -108,8 +114,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_MissileBay_Close">
       <WwiseEvent wwise_duration_max="1.78931248" wwise_duration_min="1.612125" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_MissileBay_Close" wwise_radius_max="50" />
@@ -138,8 +146,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_LandingGear_Deploy">
       <WwiseEvent wwise_duration_max="4.24375" wwise_duration_min="4.24375" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_LandingGear_Deploy" wwise_radius_max="50" />
@@ -168,8 +178,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_LandingGear_Retract">
       <WwiseEvent wwise_duration_max="4" wwise_duration_min="4" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_LandingGear_Retract" wwise_radius_max="50" />
@@ -198,8 +210,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_CargoBay_Open">
       <WwiseEvent wwise_duration_max="2.87681246" wwise_duration_min="2.87681246" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_CargoBay_Open" wwise_radius_max="50" />
@@ -210,6 +224,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_CargoBay_Close">
       <WwiseEvent wwise_duration_max="3.67370844" wwise_duration_min="3.67370844" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_CargoBay_Close" wwise_radius_max="50" />
@@ -220,6 +235,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_LandingGear_Legs_Deploy">
       <WwiseEvent wwise_duration_max="4.24375" wwise_duration_min="4.24375" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_LandingGear_Legs_Deploy" wwise_radius_max="50" />
@@ -248,8 +264,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_LandingGear_Legs_Retract">
       <WwiseEvent wwise_duration_max="4" wwise_duration_min="4" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_LandingGear_Legs_Retract" wwise_radius_max="50" />
@@ -278,8 +296,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_LandingGear_Wings_Deploy">
       <WwiseEvent wwise_duration_max="1.91297913" wwise_duration_min="1.91297913" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_LandingGear_Wings_Deploy" wwise_radius_max="50" />
@@ -290,6 +310,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_LandingGear_Wings_Retract">
       <WwiseEvent wwise_duration_max="1.840875" wwise_duration_min="1.840875" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_LandingGear_Wings_Retract" wwise_radius_max="50" />
@@ -300,6 +321,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_Dashboard_Deploy">
       <WwiseEvent wwise_duration_max="1.27" wwise_duration_min="1.26797915" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_Dashboard_Deploy" wwise_radius_max="50" />
@@ -310,6 +332,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_ANVL_Hornet_Mk2_Dashboard_Retract">
       <WwiseEvent wwise_duration_max="1.19483328" wwise_duration_min="1.15316665" wwise_duration_type="OneShot" wwise_name="Play_SSMP_ANVL_Hornet_Mk2_Dashboard_Retract" wwise_radius_max="50" />
@@ -338,8 +361,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_ANVL_Hornet_Mk2" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -352,4 +377,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

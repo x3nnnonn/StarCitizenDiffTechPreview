@@ -513,14 +513,14 @@
     <Object name="decal_access_panel_black_a-2512" type="Brush" guid="4c0fa1ce-3ca0-83fe-7d1e-30f853f571ad"/>
     <Object name="bed_module_1_a-096" type="Brush" guid="42336e7e-970d-e0fe-7f97-8f202b69b4b0"/>
    </Layer>
-   <Layer name="hab_light_int" layerHash="3610574070" externalLayerFilePath="data/levels/!lighting/feature_tests/lightgroups/Layers/lightgroup_test_hab_outpost/hab_light_int.lyr">
+   <Layer name="hab_light_int" layerHash="3492995301" externalLayerFilePath="data/levels/!lighting/feature_tests/lightgroups/Layers/lightgroup_test_hab_outpost/hab_light_int.lyr">
     <Object name="l_005_d_hab_spot_light-001" type="Light" guid="492b16e5-6752-0702-5222-ff8506f6888b" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="light_ceiling_01_a-015" type="Brush" guid="44750c00-5a5f-7506-6feb-f44b7138d3be"/>
+    <Object name="roomsm_a_addon_side_decor_a-117" type="Brush" guid="43bbd9ae-1370-2708-698b-f6d251cc79a1"/>
     <Object name="l_tech_floor_fixture_01_a_light-012" type="Light" guid="4c12c9d8-9d5a-e00a-8046-314e4d2f868b" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="light_floor_01_a-007" type="Brush" guid="43f0bef0-d84b-ee0a-d9bf-544732c31dbf"/>
     <Object name="roomsm_a_ceiling_corner_06x06x0025_c_light_a-025" type="Brush" guid="4bdb613e-27c0-760e-ba9e-8260ca874fb5"/>
     <Object name="l_005_d_hab_strip_outer_light-003" type="Light" guid="442bd944-9502-720f-273e-d43557874bba" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-    <Object name="PrefabPivot048-006" type="PrefabPivot" guid="4e2d72da-7d0d-1a10-9011-f087b3280ab2" tags=""/>
     <Object name="Light-760" type="Light" guid="4d6e3336-5788-6810-6fa2-a74c85003aa5" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="roomsm_a_ceiling_corner_06x06x0025_c_light_a-030" type="Brush" guid="490a0a48-91ff-9011-2e75-d664be62419f"/>
     <Object name="fv_delta_005_d_hab_fogvolume_2" type="FogVolume" guid="437ef748-1e40-9111-9f51-32b1b0cfdfa6" tags=""/>
@@ -529,7 +529,6 @@
     <Object name="Light-059" type="Light" guid="4f270e5a-1647-3218-b0fd-e5d8c2a1e199" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="Light-060" type="Light" guid="416e7b51-2b33-4119-5cec-93fe49b12b9c" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_tech_stand_locker_spacesuit_01_a_light_2-001" type="Light" guid="4f729f2a-e89a-7e19-84dc-df67a77b6ca7" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-    <Object name="roomsm_a_addon_side_decor_a-024" type="Brush" guid="47455b6a-7e34-d41a-dde5-d6c85a76069b"/>
     <Object name="roomsm_a_ceiling_corner_06x06x0025_c_light_a-031" type="Brush" guid="4de34745-21cd-4520-a357-f3407a937380"/>
     <Object name="l_005_d_hab_strip_support_light-005" type="Light" guid="4ba5ad10-b8c8-5821-e2b5-e696717a45b5" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_005_d_hab_strip_outer_light-002" type="Light" guid="4ed9a532-985b-6321-a554-5669392adb9e" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -543,6 +542,7 @@
     <Object name="Light-073" type="Light" guid="4ed889ef-bfc1-452e-0381-dea7c47a48a9" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="lamp_desk_1_a-007" type="Brush" guid="415c30c0-1402-4135-5a8e-e637fd4fbda4"/>
     <Object name="Prefab109" type="Prefab" guid="447c0b7c-3528-5836-8511-8d194382448d"/>
+    <Object name="roomsm_a_addon_side_decor_a-024" type="Brush" guid="4d073bed-6281-7b36-c15c-03aa30b6098a"/>
     <Object name="lb_locker_spacesuit_lightbox-003" type="LightBox" guid="4ec5ad50-fd58-6b3a-deb0-337afc07619d" tags=""/>
     <Object name="Light-1001" type="Light" guid="4f47f91e-1204-bc3a-b8d3-45f7d0ab15a1" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="light_floor_01_a-011" type="Brush" guid="45459160-2f35-303c-6b20-cab818d061a4"/>
@@ -553,7 +553,6 @@
     <Object name="l_signage_airlock_glow_oxygen_light-001" type="Light" guid="4c1be029-8440-8644-330a-43aabf898aa3" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_005_d_hab_strip_support_light-007" type="Light" guid="4d4323d7-4bed-7045-267d-a94a59afc28c" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_005_d_hab_strip_inner_light-004" type="Light" guid="4bf15d72-6e60-a949-ba50-731484d671b8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-    <Object name="roomsm_a_addon_side_decor_a-005" type="Brush" guid="4f63c3f6-222e-e349-b3af-7478a74d919b"/>
     <Object name="light_hung_2_lamp_a-010" type="Brush" guid="468d693e-5753-c14b-bcd7-765a4c5524be"/>
     <Object name="l_signage_airlock_player_light-001" type="Light" guid="47979f61-388e-2052-7249-2f795eceb8a3" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="Light-062" type="Light" guid="4e70a05a-b969-1254-7b6b-67978c99e780" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -569,7 +568,6 @@
     <Object name="decal_hex_shape_black_d1-001" type="Brush" guid="4fc9a318-b469-e960-a1e4-85808c17caaf"/>
     <Object name="l_tech_stand_locker_spacesuit_01_a_light_2-002" type="Light" guid="4ef03d2c-bc40-5361-aef7-f0ac966727aa" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_005_d_hab_strip_inner_light-001" type="Light" guid="4d8be318-f262-ef61-1f86-cf5037b50ea2" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-    <Object name="roomsm_a_addon_side_decor_a-022" type="Brush" guid="4e7f17ff-59e9-0763-50c7-81809e725db4"/>
     <Object name="l_005_d_hab_spot_light-002" type="Light" guid="46db43e3-c8b5-2764-f895-0ded95bc46aa" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="decal_rm_nav_airlock-001" type="Brush" guid="45b2b04a-31f4-2d65-f3a8-99c21887c9bd"/>
     <Object name="roomsm_a_ceiling_corner_06x06x0025_c_light_a-018" type="Brush" guid="47ba5425-ebf4-3e65-97d1-d01d1bf7c498"/>
@@ -580,7 +578,6 @@
     <Object name="Light-086" type="Light" guid="41bac09d-89b0-386c-bf22-3047ef001d8c" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="Light-071" type="Light" guid="4eade947-eaed-6c6c-d772-e1e6245644a5" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_tech_floor_fixture_01_a_light-011" type="Light" guid="4e35a90b-46a1-cb6c-0638-fdd2010bf080" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-    <Object name="l_screen_d_link_light" type="Light" guid="4f020c80-d8f3-336e-a16d-27a43b89878f" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_signage_airlock_glow_radiation_light-001" type="Light" guid="43d80ff5-6d31-f070-bea4-91c4078e31a9" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="Light-069" type="Light" guid="4b0a42cb-e832-8a71-b35d-45ed53b9468b" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_tech_ceiling_fixture_01_a_light-007" type="Light" guid="4f5d685c-c496-8a72-4e93-696559c6c4ad" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -608,12 +605,10 @@
     <Object name="roomsm_a_ceiling_corner_06x06x0025_c_light_a-029" type="Brush" guid="44e5cb7c-de4e-2d90-9a08-8fc13f9504bb"/>
     <Object name="light_floor_01_a-004" type="Brush" guid="493b816d-93cf-4491-64dc-71b5c0375589"/>
     <Object name="Light-074" type="Light" guid="47a2dda6-a2bd-2492-8253-91cb8ea9f493" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-    <Object name="roomsm_a_addon_side_decor_a-117" type="Brush" guid="49eabccf-be28-4c92-3659-f619455adab2"/>
     <Object name="l_signage_airlock_glow_main_light-001" type="Light" guid="4fe0cd5f-fd0c-0595-4687-519c13900ca6" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="Light-087" type="Light" guid="41a9c205-602c-8496-ad1d-53bc861822a4" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="light_ceiling_01_a-011" type="Brush" guid="4c28fb92-7ab0-da97-6488-06e6d5f25ebe"/>
     <Object name="cm_probe_delta_005_d_hab_7" type="EnvironmentLight" guid="46c69610-414f-db97-5b7a-fef35c63e08f" tags=""/>
-    <Object name="l_screen_a_link_light" type="Light" guid="40b583f9-6ccb-fb97-ce32-64eb9434579f" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_tech_stand_locker_spacesuit_01_a_fogonly_light-002" type="Light" guid="45f14f9b-664c-ec98-5550-2c1ef516758b" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_tech_stand_locker_spacesuit_01_a_fogonly_light-003" type="Light" guid="4f13b56b-2920-6b99-4c13-55a6642787a8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="light_security_01_alarm-018" type="Brush" guid="47dbc975-0e77-6f99-8dd3-b23c9b970baa"/>
@@ -621,11 +616,13 @@
     <Object name="l_005_d_hab_strip_inner_light-003" type="Light" guid="41054bf1-14fa-eba1-c554-7242c7958baa" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="roomsm_a_ceiling_corner_06x06x0025_c_light_a-024" type="Brush" guid="4d66c520-4ccd-b0a3-efea-6a26c373b289"/>
     <Object name="roomsm_a_ceiling_corner_06x06x0025_c_light_a-021" type="Brush" guid="43b91a14-817e-12a4-caec-0e6cff89e892"/>
+    <Object name="PrefabPivot048-006" type="PrefabPivot" guid="48974a25-8735-44a4-eb52-4771aa4566be" tags=""/>
     <Object name="Light-070" type="Light" guid="4a0e7740-2889-e0a4-74a3-628beec35c9b" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-    <Object name="l_screen_a_light" type="Light" guid="432fd913-29ce-94a5-74c6-afbff76a94bd" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_005_d_hab_strip_support_light-004" type="Light" guid="4757da7e-9c2f-b3a5-691a-bdf94c98dea8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_signage_airlock_area_light-001" type="Light" guid="4b934f09-8ad9-01a7-427c-b518e6ab2bb8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+    <Object name="roomsm_a_addon_side_decor_a-005" type="Brush" guid="4f7ea00c-43aa-d3a7-3628-8f4874f70dac"/>
     <Object name="Prefab107-003" type="Prefab" guid="4af019ec-4400-efa7-161f-e0171601ccb9"/>
+    <Object name="PrefabPivot048-009" type="PrefabPivot" guid="4ab0e51e-b9b3-26a8-7016-f00817bfc6bd" tags=""/>
     <Object name="lb_prop_bed_lightbox-005" type="LightBox" guid="4ec88467-b620-a3a8-149f-58581e4d788a" tags=""/>
     <Object name="l_005_d_hab_strip_support_light-002" type="Light" guid="4a4fcacd-0bcb-f1aa-efa8-91e6e94b238d" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_hex_shape_d_warm_light_1-001" type="Light" guid="4d9b62e1-f012-10ab-c4bf-feac4305f888" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -636,11 +633,12 @@
     <Object name="l_tech_floor_fixture_01_a_light-013" type="Light" guid="40b0822e-8f42-aab2-cd3c-9387deed6e8a" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="cm_probe_delta_005_d_hab_1" type="EnvironmentLight" guid="41ee9ad4-976d-d6b2-8fd4-609f43a3a089" tags=""/>
     <Object name="roomsm_a_ceiling_corner_06x06x0025_c_light_a-032" type="Brush" guid="426c1043-89c1-30b4-31bb-1812e019598f"/>
+    <Object name="l_screen_d_light" type="Light" guid="448f398e-520a-6cb5-bcf4-0ddc132d53b4" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_tech_stand_locker_spacesuit_01_a_fogonly_light-001" type="Light" guid="44b6e198-c28b-90b5-d250-8cc3519fdb80" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+    <Object name="roomsm_a_addon_side_decor_a-022" type="Brush" guid="42f6dafe-6dbc-56b8-6d4b-d3d1b69235bc"/>
     <Object name="lb_hex_shape_d_warm_lightbox-001" type="LightBox" guid="4a1d250c-e452-0cba-482a-b248f22747a9" tags=""/>
     <Object name="Light-057" type="Light" guid="4cbcf50c-70a6-5eba-2b73-feed55180897" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="lamp_desk_1_a-004" type="Brush" guid="4c999fb4-8738-09bc-e40c-2bd9b5e10bbc"/>
-    <Object name="l_screen_d_light" type="Light" guid="4d155cb2-58b8-b6bc-da6a-ec3bab0be0b2" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="roomsm_a_ceiling_corner_06x06x0025_c_light_a-028" type="Brush" guid="4b45cee6-4d90-20bd-bde4-cf282081d09f"/>
     <Object name="light_ceiling_01_a-010" type="Brush" guid="4a595f69-5711-59c2-feef-f5f0b4bb97a2"/>
     <Object name="l_tech_ceiling_fixture_01_a_light-002" type="Light" guid="41feeb18-9a8c-3bc3-c312-c065cc46dab8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -659,7 +657,6 @@
     <Object name="light_ceiling_01_a-012" type="Brush" guid="4fa78375-b604-1fd2-3e13-a9f1d2c817a9"/>
     <Object name="l_005_d_hab_strip_inner_light-002" type="Light" guid="4102972a-6b9a-47d2-67f2-95073df6ceb6" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="light_ceiling_01_a-013" type="Brush" guid="46f8d68e-e84a-d1d3-a9c3-54248ea3799a"/>
-    <Object name="PrefabPivot048-009" type="PrefabPivot" guid="460abc87-34fb-72d4-4542-3be7620ec88c" tags=""/>
     <Object name="l_tech_floor_fixture_01_a_light-003" type="Light" guid="47460b40-ab49-96d6-c8ac-68533517e681" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_tech_floor_fixture_01_a_light-006" type="Light" guid="4e2143f3-26e8-62d7-efc9-e5491a51ed8e" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_005_d_hab_spot_light-003" type="Light" guid="4d96d668-3861-b4d9-5901-33cfb5d2c1ba" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -670,7 +667,9 @@
     <Object name="l_tech_floor_fixture_01_a_light-005" type="Light" guid="4413d0ed-0874-b3dd-a99b-a6119dbe8b9b" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_tech_floor_fixture_01_a_light-009" type="Light" guid="4d4d4b4f-bd06-84df-a88a-7898978349a8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_tech_stand_locker_spacesuit_01_a_light_1-001" type="Light" guid="4da209f6-7d81-a1df-76c8-2491f530e998" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+    <Object name="l_screen_d_link_light" type="Light" guid="43701378-51ab-0ae0-e44f-a41c7e937aad" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="lb_signage_airlock_lightbox_1-001" type="LightBox" guid="44c9fbc0-7ddc-d6e0-ae17-42c1c47e7fbc" tags=""/>
+    <Object name="l_screen_a_link_light" type="Light" guid="45ec41c4-77b9-6ee1-f82e-afd7e8b3e09f" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_tech_floor_fixture_01_a_light-004" type="Light" guid="460f7409-a129-fae2-07b7-57d09af5949f" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="l_tech_floor_fixture_01_a_light-008" type="Light" guid="4ab68610-80be-1fe3-6ad9-40d9b6f23485" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="Light-056" type="Light" guid="40aee353-cfcc-31e4-dcea-696f8c7ef89c" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -698,6 +697,7 @@
     <Object name="Light-077" type="Light" guid="4efc8cda-73bc-42fe-b2eb-4c03ee3fed8a" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="light_floor_01_a-010" type="Brush" guid="42f8f54f-a147-58fe-686b-113309d76ba6"/>
     <Object name="l_tech_stand_locker_spacesuit_01_a_light_1-003" type="Light" guid="40270eb7-b940-b9fe-6bc6-c66a7b0c7680" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+    <Object name="l_screen_a_light" type="Light" guid="48c704ec-6926-4fff-dd76-a72da1a29e9d" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
    </Layer>
    <Layer name="hab_vis" layerHash="485328838" externalLayerFilePath="data/levels/!lighting/feature_tests/lightgroups/Layers/lightgroup_test_hab_outpost/hab_vis.lyr">
     <Object name="Portal001-114" type="Portal" guid="479b5180-936c-690a-2ce5-7f717c26e3b9"/>

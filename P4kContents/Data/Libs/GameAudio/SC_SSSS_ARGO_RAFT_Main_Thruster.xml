@@ -40,8 +40,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSS_ARGO_RAFT_Main_Thruster" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSS_ARGO_RAFT_Ignite_Main_Thruster">
       <WwiseEvent wwise_duration_max="13.5" wwise_duration_min="13.5" wwise_duration_type="OneShot" wwise_name="Play_SSSS_ARGO_RAFT_Ignite_Main_Thruster" wwise_radius_max="250" />
@@ -79,8 +81,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSS_ARGO_RAFT_Main_Thruster" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSS_ARGO_RAFT_Shutdown_Main_Thruster">
       <WwiseEvent wwise_duration_max="12.5" wwise_duration_min="12.5" wwise_duration_type="OneShot" wwise_name="Play_SSSS_ARGO_RAFT_Shutdown_Main_Thruster" wwise_radius_max="250" />
@@ -119,8 +123,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSS_ARGO_RAFT_Main_Thruster" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSS_ARGO_RAFT_Main_Thruster_Spool_Loop">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSS_ARGO_RAFT_Main_Thruster_Spool_Loop" wwise_radius_max="250" />
@@ -161,8 +167,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSS_ARGO_RAFT_Main_Thruster" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -175,4 +183,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

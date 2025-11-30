@@ -132,17 +132,16 @@
    <Layer name="STL_Body_Navmesh" layerHash="3131205925" externalLayerFilePath="data/levels/!ship_setup/drak/cutlass_steel/Layers/STL_INT_BODY/STL_Body_Navmesh.lyr">
     <Object name="BL_Body_NavigationArea" type="NavigationArea" guid="41a5ec46-f4df-721d-be88-15dd4b72e498" tags="a9842535-5d8f-460b-bc21-447a70025802"/>
    </Layer>
-   <Layer name="STL_Body_Zone" layerHash="3826937754" externalLayerFilePath="data/levels/!ship_setup/drak/cutlass_steel/Layers/STL_INT_BODY/STL_Body_Zone.lyr">
-    <Object name="STL_Body_Door_Inner_Portal-000" type="GenericShape" guid="40c548a7-aa63-5229-78b1-a8a8b7288594" tags=""/>
-    <Object name="STL_Body_Door_Inner_Portal-002" type="GenericShape" guid="47a7a757-955e-884b-2678-674bac017e9c" tags=""/>
-    <Object name="STL_Body_Ramp_Rear_Inner_RoomConnector-002" type="RoomConnector" guid="6c131489-3fe3-a255-563b-7e546d797a88" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="STL_Body_Door_Side_Left_Portal-001" type="GenericShape" guid="4147b79c-bfd7-fd78-670d-7c5489c2b1b9" tags=""/>
-    <Object name="STL_Body_Ramp_Rear_Portal-003" type="GenericShape" guid="4c096ea7-af90-4284-6cc7-8011c3e59db4" tags=""/>
-    <Object name="STL_Body_Ramp_Rear_Inner_Portal-002" type="GenericShape" guid="400b995b-774c-8099-3989-338f797fe784" tags=""/>
-    <Object name="STL_Body_Ramp_Rear_Visarea-001" type="GenericShape" guid="44c75d9d-6a2b-08a3-1fb9-89ef24d4f3bb" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
-    <Object name="STL_Body_Door_Side_Left_Portal-000" type="GenericShape" guid="4b5b7e78-2970-fca3-d5a4-de0f9ac13595" tags=""/>
-    <Object name="STL_Body_Door_Side_Right_Portal-001" type="GenericShape" guid="4eb618e8-b594-d9d0-e211-7ab33a16afb3" tags=""/>
-    <Object name="STL_Body_Door_Side_Left_Portal-003" type="GenericShape" guid="49b9b2a7-1501-c7e0-0a81-2e2fb23659b0" tags=""/>
+   <Layer name="STL_Body_Zone" layerHash="2234240161" externalLayerFilePath="data/levels/!ship_setup/drak/cutlass_steel/Layers/STL_INT_BODY/STL_Body_Zone.lyr">
+    <Object name="STL_Body_Door_Side_Right_Portal_Upper" type="GenericShape" guid="4f7e1a08-8cb9-c604-bc35-1e9c07395bb3" tags=""/>
+    <Object name="STL_Body_Door_Side_Left_Portal_Upper" type="GenericShape" guid="4f35449c-dc82-3f1a-0275-37fe915848b2" tags=""/>
+    <Object name="STL_Body_Door_Inner_Portal-002" type="GenericShape" guid="416bf74e-d30e-5b46-7f24-17acb748df83" tags=""/>
+    <Object name="STL_Body_Door_Side_Right_Portal_Lower-001" type="GenericShape" guid="4b87830e-c87c-9081-6efa-d5f2951dfc8c" tags=""/>
+    <Object name="STL_Body_Ramp_Portal" type="GenericShape" guid="4725c3af-53e9-3993-9cdf-e3b12be8019e" tags=""/>
+    <Object name="STL_Body_Door_Side_Left_Portal_Lower" type="GenericShape" guid="4add99e1-8f73-eba4-b3a9-e0a45c865686" tags=""/>
+    <Object name="STL_Body_Door_Side_Left_Window_Portal" type="GenericShape" guid="4bc0d5b7-e313-e5d7-9e8c-fbe3211e6087" tags=""/>
+    <Object name="STL_Body_Door_Inner_Portal-000" type="GenericShape" guid="41b2c736-2a04-11d8-dc12-2bd9a2ff7694" tags=""/>
+    <Object name="STL_Body_Door_Side_Right_Window_Portal" type="GenericShape" guid="4b387a19-a322-edd8-acaa-44f402b89b8d" tags=""/>
     <Object name="STL_Body_Rear_Visarea-001" type="GenericShape" guid="4ca1c263-1461-6af8-d738-c356effa3d80" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
    </Layer>
    <Object name="ChipSet_MountedGunHatch_Vehicle-Right-2" type="ChipSet_MountedGunHatch_Vehicle" guid="441338c3-21c9-3902-6fe3-47c64c5942bd" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>

@@ -28,8 +28,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_DRAK_Cutlass_Steel" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_DRAK_Cutlass_Steel_Mounted_Gun_Rear_Deploy">
       <WwiseEvent wwise_duration_max="2" wwise_duration_min="2" wwise_duration_type="OneShot" wwise_name="Play_SSMP_DRAK_Cutlass_Steel_Mounted_Gun_Rear_Deploy" wwise_radius_max="30" />
@@ -58,8 +60,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_DRAK_Cutlass_Steel" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_DRAK_Cutlass_Steel_Mounted_Gun_Side_Retract">
       <WwiseEvent wwise_duration_max="3" wwise_duration_min="3" wwise_duration_type="OneShot" wwise_name="Play_SSMP_DRAK_Cutlass_Steel_Mounted_Gun_Side_Retract" wwise_radius_max="30" />
@@ -88,8 +92,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_DRAK_Cutlass_Steel" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_DRAK_Cutlass_Steel_Jumpseat_Retract">
       <WwiseEvent wwise_duration_max="2.38333344" wwise_duration_min="1.39675" wwise_duration_type="OneShot" wwise_name="Play_SSMP_DRAK_Cutlass_Steel_Jumpseat_Retract" wwise_radius_max="30" />
@@ -118,8 +124,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_DRAK_Cutlass_Steel" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_DRAK_Cutlass_Steel_Jumpseat_Deploy">
       <WwiseEvent wwise_duration_max="2.38333344" wwise_duration_min="1.39675" wwise_duration_type="OneShot" wwise_name="Play_SSMP_DRAK_Cutlass_Steel_Jumpseat_Deploy" wwise_radius_max="30" />
@@ -148,8 +156,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_DRAK_Cutlass_Steel" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_DRAK_Cutlass_Steel_Mounted_Gun_Rear_Retract">
       <WwiseEvent wwise_duration_max="2" wwise_duration_min="2" wwise_duration_type="OneShot" wwise_name="Play_SSMP_DRAK_Cutlass_Steel_Mounted_Gun_Rear_Retract" wwise_radius_max="30" />
@@ -178,8 +188,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_DRAK_Cutlass_Steel" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -192,4 +204,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

@@ -1,6 +1,6 @@
 <ObjectContainer sourceLevel="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus">
  <Layers>
-  <Layer fullname="jumppoint_stanton_magnus" externalLayerLevelDir="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/" externalLayerParentDir="" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus.lyr" layerHash="2791347982">
+  <Layer fullname="jumppoint_stanton_magnus" externalLayerLevelDir="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/" externalLayerParentDir="" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus.lyr" layerHash="3313854815">
    <Layer name="exterior" layerHash="4082425359" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/exterior.lyr">
     <Layer name="exterior vfx" layerHash="289062831" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/exterior/exterior vfx.lyr">
      <Object name="s42_space_solarWind_a-021_card_front" type="Brush" guid="4b981f90-f2d9-6913-926c-d42a29ef858e"/>
@@ -85,7 +85,7 @@
     </Layer>
    </Layer>
    <Layer name="interior" layerHash="1049621161" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/interior.lyr">
-    <Layer name="interior_lighting" layerHash="156822374" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/interior/interior_lighting.lyr">
+    <Layer name="interior_lighting" layerHash="2518964672" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/interior/interior_lighting.lyr">
      <Object name="JP_GascloudLight_BG-157" type="GasCloudLight" guid="4396b146-2f8c-520b-01c6-ba1167f624a9" tags=""/>
      <Object name="EnvironmentProbe002" type="EnvironmentLight" guid="4a1a5bf9-dd28-540b-0c24-4ebe17be7ba8" tags=""/>
      <Object name="JP_GascloudLight_BG-194" type="GasCloudLight" guid="4402877c-ce6e-000c-b0af-f5a691b97e8a" tags=""/>
@@ -105,7 +105,6 @@
      <Object name="JP_GascloudLight_BG-193" type="GasCloudLight" guid="4dfce5b8-1ea3-d360-0c47-6f696bb3ce83" tags=""/>
      <Object name="JP_GascloudLight_BG-078" type="GasCloudLight" guid="4fc96d7b-6b4d-1c6b-176d-176d4b7e8a98" tags=""/>
      <Object name="Fake Bloom light-004" type="Light" guid="4e4c9a86-7546-3e6d-019e-e16a9b1db19f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-     <Object name="Light" type="Light" guid="4fe088c7-edcf-2e7c-8b5c-3ceb08f9c3a0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="JP_GascloudLight_BG-183" type="GasCloudLight" guid="4c71afd8-da8a-1a7d-6333-7e7572f1cd88" tags=""/>
      <Object name="Fake Bloom light-006" type="Light" guid="4421f5a3-10af-a483-a3e2-cf6cb4602bba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="JP_GascloudLight_BG-177" type="GasCloudLight" guid="441c019f-45f7-f483-dda0-2ae8cd45d095" tags=""/>
@@ -131,7 +130,7 @@
      <Object name="JP_GascloudLight_BG-196" type="GasCloudLight" guid="4ea5a849-4780-2bee-38d5-bc6ca0e784a9" tags=""/>
      <Object name="JP_GascloudLight_BG-189" type="GasCloudLight" guid="4b7f9e92-3c91-04f3-455b-37adbaa33187" tags=""/>
     </Layer>
-    <Layer name="interior_structure" layerHash="3532986883" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/interior/interior_structure.lyr">
+    <Layer name="interior_structure" layerHash="3178396289" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/interior/interior_structure.lyr">
      <Object name="corec_hangar_001-addon_hngr_beacon_a-187" type="Brush" guid="4136c914-6402-e400-c829-2e7610f9f499"/>
      <Object name="Light-1909" type="Light" guid="4fd5f6a6-98c2-1901-483c-819fa6a5f49c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light-2076" type="Light" guid="44fb7b6f-112e-d701-8664-e53f9b1f70b7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -200,8 +199,8 @@
      <Object name="gds_sml_nav_buoy_j-027" type="ObjectContainer" guid="4c9c38b4-ccb8-a94a-ff85-3ffb766f308c" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
      <Object name="corec_hangar_001-addon_hngr_beacon_a-131" type="Brush" guid="4cbc85e7-a44c-564b-0f65-233430f350bd"/>
      <Object name="corec_hangar_001-addon_hngr_beacon_a-185" type="Brush" guid="4d0f65c3-0d4b-8d4d-580e-916d3c218880"/>
-     <Object name="gds_sml_nav_buoy_f-016" type="ObjectContainer" guid="496bac18-ec1f-ef4d-299f-8ce85f14faa8" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
-     <Object name="gds_sml_nav_buoy_f-023" type="ObjectContainer" guid="4c31fd80-716e-f24e-63d7-6acf09c65987" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
+     <Object name="gds_sml_nav_buoy_f-025" type="ObjectContainer" guid="496bac18-ec1f-ef4d-299f-8ce85f14faa8" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
+     <Object name="gds_sml_nav_buoy_f-016" type="ObjectContainer" guid="4c31fd80-716e-f24e-63d7-6acf09c65987" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
      <Object name="corec_hangar_001-addon_hngr_beacon_a-165" type="Brush" guid="470634ab-2dc2-d84f-d9d9-68eafa774e82"/>
      <Object name="gds_sml_nav_buoy_i-060" type="ObjectContainer" guid="445242a3-decb-1351-2544-7a27d02bf69a" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
      <Object name="corec_hangar_001-addon_hngr_beacon_a-121" type="Brush" guid="4e62ce6f-50be-2851-34b3-9de7d4d00dad"/>
@@ -330,8 +329,6 @@
      <Object name="gds_sml_nav_buoy_f-022" type="ObjectContainer" guid="4a0c3405-2735-2bc6-3e7a-fd5876b75481" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
      <Object name="gds_sml_nav_buoy_h-006" type="ObjectContainer" guid="40293f5a-9e75-6ec6-2598-e489084969a6" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
      <Object name="Advert-042" type="Brush" guid="487c0709-95ae-a2c6-794b-479f4b2e0394"/>
-     <Object name="Advert-102" type="Brush" guid="46f90c02-706d-a7c6-6345-5c14a46bd4b1"/>
-     <Object name="Advert-101" type="Brush" guid="4e4781e8-6d4d-4ec8-9c01-fafb7b0dfea6"/>
      <Object name="machine_generic_05x02x065_a-171" type="Brush" guid="4b9090ca-814a-e7c8-f798-15c81a492d95"/>
      <Object name="Light-2088" type="Light" guid="48f8db35-1019-0ccb-7cc5-5eb6090ed7a3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="machine_generic_05x02x065_a-050" type="Brush" guid="4b84533b-5a23-03ce-0bab-9511fd90bfac"/>
@@ -435,19 +432,19 @@
      <Object name="gas_planes-023" type="Brush" guid="4aa752d9-32e2-7ffb-9784-5481a2c900bd"/>
     </Layer>
     <Layer name="logic" layerHash="3502061441" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/interior/logic.lyr">
-     <Layer name="ATC" layerHash="2666393828" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/interior/logic/ATC.lyr">
+     <Layer name="ATC" layerHash="2778609571" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/interior/logic/ATC.lyr">
       <Object name="JumpPointATC_Default" type="JumpPointATC_Default" guid="4ffa8762-3b6f-912c-60bb-05a734dcc5a1" tags="51e46e8c-602a-4de0-9588-f0bc09e85cd7,f17ed08f-6f21-448f-843c-c8c429b048d4"/>
      </Layer>
-     <Layer name="LocationDefence" layerHash="776654895" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/interior/logic/LocationDefence.lyr">
+     <Layer name="LocationDefence" layerHash="4111115295" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/interior/logic/LocationDefence.lyr">
       <Object name="AreaSphere" type="AreaSphere" guid="45b27a32-79f5-6b43-a127-ae3adedbe3be" tags=""/>
       <Object name="jumppointlocationsecurity-003" type="LocationObjectContainer" guid="4fb291b6-8ecd-b4ca-0aeb-169a808b6483" tags="b5e7e39d-18cd-42d8-85b0-7862c0075765,f4cc6e7e-9968-4a76-9ea0-734782664ab7,be04333e-c17e-4e2b-83ad-470e3d8bfaa1,30ee12f0-3ed1-4d7b-9111-e989e2ee1589"/>
       <Object name="jumppointturrets" type="LocationObjectContainer" guid="4bbd28e9-8433-98d8-9a63-c4cf9a2e6081" tags="b5e7e39d-18cd-42d8-85b0-7862c0075765,f4cc6e7e-9968-4a76-9ea0-734782664ab7,be04333e-c17e-4e2b-83ad-470e3d8bfaa1,30ee12f0-3ed1-4d7b-9111-e989e2ee1589"/>
       <Object name="jumppointlocationsecurity-000" type="LocationObjectContainer" guid="43f82bea-7be2-abe7-4243-cc580a62198e" tags="b5e7e39d-18cd-42d8-85b0-7862c0075765,f4cc6e7e-9968-4a76-9ea0-734782664ab7,be04333e-c17e-4e2b-83ad-470e3d8bfaa1,30ee12f0-3ed1-4d7b-9111-e989e2ee1589"/>
      </Layer>
-     <Layer name="jump_point" layerHash="30484787" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/interior/logic/jump_point.lyr">
+     <Layer name="jump_point" layerHash="877411397" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/interior/logic/jump_point.lyr">
       <Object name="JumpPoint_Permanent" type="JumpPoint_Permanent" guid="4d5280e4-7d06-2d70-3ed7-e3239fa596a4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,b5e7e39d-18cd-42d8-85b0-7862c0075765,5056e8f2-51a0-4b91-8f7c-1821a3e74512,99b98536-c1a5-4062-b895-b0c5e4482a14,390d5ab1-511d-4476-b155-30bcfc65182f,eac0031a-3373-451e-80cc-4148d13a213d,30ee12f0-3ed1-4d7b-9111-e989e2ee1589,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      </Layer>
-     <Layer name="jump_point_exit" layerHash="2385527762" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/interior/logic/jump_point_exit.lyr">
+     <Layer name="jump_point_exit" layerHash="808277942" externalLayerFilePath="data/levels/!oc/pu/system/stanton/jumppoints/jumppoint_stanton_magnus/Layers/jumppoint_stanton_magnus/interior/logic/jump_point_exit.lyr">
       <Object name="JPT-Exit-Spawn-006" type="AreaBox" guid="4b452c04-ee8a-b800-ef67-3fd64b9eb4b9" tags="e0f59cfe-4a9a-4f8b-98cb-a593ee4667cc"/>
       <Object name="JPT-Exit-Spawn-008" type="AreaBox" guid="4ec2e9df-329f-b430-ccac-0e57ca1e68a3" tags="e0f59cfe-4a9a-4f8b-98cb-a593ee4667cc"/>
       <Object name="JPT-Exit-Spawn-005" type="AreaBox" guid="4d3f7d9d-b32b-9b33-ea02-6cda860d7a8b" tags="e0f59cfe-4a9a-4f8b-98cb-a593ee4667cc"/>

@@ -1,4 +1,4 @@
-<ObjectContainer version="11" name="secdock_vert_complete" tags="" type="Default OC" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="182" entityCountDynamic="0" entityCountUnique="0" minBounds="-3559.6811251014551,-2063.216227781757,-43.100000023841858" maxBounds="3511.6295050984027,4095.85829165625,147.06904792785645" radius="3951.2029" crcSOC="2196626370">
+<ObjectContainer version="11" name="secdock_vert_complete" tags="" type="Default OC" editorBuildChangelist="10717593" entityCountPLA="0" entityCountALE="0" entityCountStatic="182" entityCountDynamic="0" entityCountUnique="0" minBounds="-3559.6811251014551,-2063.216227781757,-43.100000023841858" maxBounds="3511.6295050984027,4095.85829165625,147.06904792785645" radius="3951.2029" crcSOC="4038056020">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="00ead468-9073-485b-a6df-ca6b94053603"/>
@@ -29,8 +29,8 @@
    <Tag TagId="f17ed08f-6f21-448f-843c-c8c429b048d4"/>
    <Tag TagId="0c4b5053-d003-4e11-90b0-572c6c75887a"/>
    <Tag TagId="1a1f10a2-894c-45ca-93d2-4785233c5250"/>
-   <Tag TagId="0ac2a544-b5ac-4fdf-b1dd-8924a5acf15e"/>
    <Tag TagId="29d0789d-a8f4-4abb-8185-689df8db5a42"/>
+   <Tag TagId="0ac2a544-b5ac-4fdf-b1dd-8924a5acf15e"/>
   </Tags>
  </StaticEntityTags>
  <ComponentMetadata>
@@ -52,7 +52,7 @@
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/stanton/station/sec/secdock_attach_vert.socpak" entityName="ObjectContainer-hub_vert_tri_a" label="secdock_hub_vert_tri_a_{7D8540A2-CC36-499B-B6C5-AB5483E89E98}_ObjectContainer-hub_vert_tri_a_{47A2E7BC-FB92-4E4F-8771-1947678598EB}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7" guid="4e4ffb92-47a2-e7bc-eb98-856747197187" pos="0,0,0" rot="1,0,0,0"/>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/stanton/station/sec/secdock_cradle.socpak" entityName="OC_Secdock_cradle" label="OC_Secdock_cradle_{DFC1E1D8-5ED0-401D-8CB7-485A418C22C9}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7" guid="401d5ed0-dfc1-e1d8-c922-8c415a48b78c" pos="-147.22431900000001,-85.000007999999994,0" rot="0.50000018,0,0,0.86602527"/>
  </ChildObjectContainers>
- <Health EntityCount="1813" OC_Count="0" StreamingRadius="7680.8354"/>
+ <Health EntityCount="1819" OC_Count="6" StreamingRadius="7680.8354"/>
  <StreamingOCs>
   <OC name="secdock_vert_complete.soc" tags="" staticEntityCount="182" guid="462d0af8-5056-a219-79e3-88133dbf52a1" radius="3951.2029"/>
  </StreamingOCs>

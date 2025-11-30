@@ -3,9 +3,9 @@
   <File Name="doom_armor_medium_helmet_01_01_01.cdf" CRC32="0x350E731D" Size="804" CompressionType="100" Encrypted="False" />
   <File Name="doom_armor_medium_helmet_02_01_01.cdf" CRC32="0x920B4D69" Size="598" CompressionType="100" Encrypted="False" />
   <File Name="doom_med_armor_helmet_01.cdf" CRC32="0x2789F8ED" Size="698" CompressionType="100" Encrypted="False" />
-  <File Name="doom_med_armor_helmet_02_light.cdf" CRC32="0xA783F80E" Size="2191" CompressionType="100" Encrypted="False" />
   <File Name="doom_med_armor_helmet_02.cdf" CRC32="0xC48DF6C6" Size="506" CompressionType="100" Encrypted="False" />
   <File Name="doom_med_armor_helmet_03.cdf" CRC32="0x41C9A483" Size="524" CompressionType="100" Encrypted="False" />
+  <File Name="doom_medium_armor_helmet_04.cdf" CRC32="0x898F717D" Size="2178" CompressionType="100" Encrypted="False" />
   <File Name="m_doom_armor_medium_arms_02_01.mtl" CRC32="0x6F38431F" Size="7947" CompressionType="100" Encrypted="False" />
   <File Name="m_doom_armor_medium_arms_02_lod1.skin" CRC32="0x0F235757" Size="23168" CompressionType="100" Encrypted="False" />
   <File Name="m_doom_armor_medium_arms_02_lod1.skinm" CRC32="0x990758C2" Size="710336" CompressionType="100" Encrypted="False" />
@@ -291,8 +291,6 @@
   <File Name="m_doom_med_armor_legs_01.skin" CRC32="0x3F04E745" Size="3256" CompressionType="100" Encrypted="False" />
   <File Name="m_doom_med_armor_legs_01.skinm" CRC32="0xBD3CC900" Size="685848" CompressionType="100" Encrypted="False" />
   <File Name="m_doom_med_helmet_02_01_01.mtl" CRC32="0x397021F8" Size="21346" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_med_helmet_02_01_holiday.mtl" CRC32="0xC0D7C2BA" Size="21490" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_med_helmet_02_lights_prop_skeleton.chr" CRC32="0xE353BA7C" Size="1672" CompressionType="100" Encrypted="False" />
   <File Name="m_doom_med_helmet_02_lod1.skin" CRC32="0x1DF7C596" Size="1880" CompressionType="100" Encrypted="False" />
   <File Name="m_doom_med_helmet_02_lod1.skinm" CRC32="0xF48E7D75" Size="878256" CompressionType="100" Encrypted="False" />
   <File Name="m_doom_med_helmet_02_lod2.skin" CRC32="0x1962F191" Size="1880" CompressionType="100" Encrypted="False" />
@@ -324,26 +322,26 @@
   <File Name="m_doom_med_helmet_02_prop.skinm" CRC32="0x4E2F6D66" Size="1000592" CompressionType="100" Encrypted="False" />
   <File Name="m_doom_med_helmet_02.skin" CRC32="0xC8064A6C" Size="1880" CompressionType="100" Encrypted="False" />
   <File Name="m_doom_med_helmet_02.skinm" CRC32="0x143BF264" Size="1081304" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_01.mtl" CRC32="0xB14BD510" Size="19980" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_lod1.skin" CRC32="0x15D58F84" Size="2648" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_lod1.skinm" CRC32="0xAA514C7D" Size="1239536" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_lod2.skin" CRC32="0x662A0FA2" Size="2648" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_lod2.skinm" CRC32="0xA2384854" Size="740120" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_lod3.skin" CRC32="0xC4CE206D" Size="2632" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_lod3.skinm" CRC32="0x66334109" Size="285912" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_lod4.skin" CRC32="0x42B40EA3" Size="2600" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_lod4.skinm" CRC32="0x772E559B" Size="166984" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_prop_lod1.cgf" CRC32="0xAF392F1E" Size="200" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_prop_lod1.cgfm" CRC32="0xC735D725" Size="492816" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_prop_lod2.cgf" CRC32="0x929A9C1C" Size="200" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_prop_lod2.cgfm" CRC32="0x311BE5E2" Size="318024" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_prop_lod3.cgf" CRC32="0x17AF49FA" Size="192" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_prop_lod3.cgfm" CRC32="0x504A7CD2" Size="231960" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_prop_lod4.cgf" CRC32="0x198582C7" Size="192" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_prop_lod4.cgfm" CRC32="0xF4DECBE8" Size="97600" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_prop.cgf" CRC32="0x02450032" Size="340392" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04_prop.cgfm" CRC32="0x956631D6" Size="787800" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04.cdf" CRC32="0x3A1B6783" Size="2146" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04.skin" CRC32="0xC6167DC7" Size="2648" CompressionType="100" Encrypted="False" />
-  <File Name="m_doom_medium_helmet_04.skinm" CRC32="0xF3EFBB56" Size="1455312" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_01.mtl" CRC32="0xFEAA45EE" Size="21690" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_lod1.skin" CRC32="0xF18AFA18" Size="2648" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_lod1.skinm" CRC32="0xD045C6F8" Size="1302208" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_lod2.skin" CRC32="0x35C13724" Size="2648" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_lod2.skinm" CRC32="0x614FD8DA" Size="1127672" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_lod3.skin" CRC32="0xD8857CCF" Size="2648" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_lod3.skinm" CRC32="0x268B6058" Size="954880" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_lod4.skin" CRC32="0x69E8527A" Size="2648" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_lod4.skinm" CRC32="0xE7095620" Size="398096" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_prop_lod1.skin" CRC32="0x4EAA742E" Size="1488" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_prop_lod1.skinm" CRC32="0x33148C5B" Size="1101864" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_prop_lod2.skin" CRC32="0x7B485C65" Size="1488" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_prop_lod2.skinm" CRC32="0x74ACFB4E" Size="723480" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_prop_lod3.skin" CRC32="0x139A8C68" Size="1488" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_prop_lod3.skinm" CRC32="0x99BD4982" Size="425224" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_prop_lod4.skin" CRC32="0x7DA3E908" Size="1440" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_prop_lod4.skinm" CRC32="0xF88613DB" Size="154912" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_prop.skin" CRC32="0xB06DBF60" Size="1488" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_prop.skinm" CRC32="0x05B34E65" Size="1456792" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04_skeleton.chr" CRC32="0xF921C255" Size="1992" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04.skin" CRC32="0x8370B96C" Size="2648" CompressionType="100" Encrypted="False" />
+  <File Name="m_doom_medium_helmet_04.skinm" CRC32="0xCC8EF772" Size="1551704" CompressionType="100" Encrypted="False" />
 </Directory>

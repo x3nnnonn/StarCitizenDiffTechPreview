@@ -41,7 +41,7 @@
           </Material>
           <SimulationGeometry />
           <Palette Type="TintPaletteRef">
-            <RootRecord />
+            <RootRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/tintpalettes/brand/none/weapons/none_weapon_black_red.xml" />
             <ChildPath />
             <SwizzleOverride />
           </Palette>
@@ -83,7 +83,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/tintpalettes/brand/none/weapons/none_weapon_black_red.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -169,7 +169,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/tintpalettes/brand/none/weapons/none_weapon_red_black_red_02.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -212,7 +212,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/tintpalettes/brand/none/weapons/none_weapon_olive.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -295,7 +295,7 @@
           <path>Objects/fps_weapons/weapons_v7/none/launcher/modified/cosmetics/bmsl_fps_none_modified_collector_01_mat.mtl</path>
         </Material>
         <Palette Type="TintPaletteRef">
-          <RootRecord />
+          <RootRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/tintpalettes/brand/none/weapons/none_weapon_black_red.xml" />
           <ChildPath />
           <SwizzleOverride />
         </Palette>
@@ -313,7 +313,7 @@
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>magazine_attach</itemPortName>
             <entityClassName>none_special_ballistic_01_rocket</entityClassName>
-            <entityClassReference />
+            <entityClassReference ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/scitem/weapons/magazines/none_special_ballistic_01_rocket.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
@@ -388,7 +388,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Magazine</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -485,7 +485,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>IronSight</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -582,7 +582,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Barrel</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -679,7 +679,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponAttachment</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>BottomAttachment</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>

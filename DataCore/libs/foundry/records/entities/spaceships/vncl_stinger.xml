@@ -317,7 +317,7 @@
         <y>0</y>
         <z>0</z>
       </landingRotationOffset>
-      <fusePenetrationDamageMultiplier>0.001</fusePenetrationDamageMultiplier>
+      <fusePenetrationDamageMultiplier>0.05</fusePenetrationDamageMultiplier>
       <componentPenetrationDamageMultiplier>0.4</componentPenetrationDamageMultiplier>
     </VehicleComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
@@ -367,7 +367,7 @@
                 <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
                   <itemPortName>Display_HUD</itemPortName>
                   <entityClassName />
-                  <entityClassReference />
+                  <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/displays/h_dashboard_projector_hud_vncl_stinger.xml" />
                   <inventoryContainer />
                   <loadout />
                 </SItemPortLoadoutEntryParams>
@@ -1032,14 +1032,14 @@
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_air_traffic_controller</itemPortName>
             <entityClassName />
-            <entityClassReference />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/atc/atc_docking/vncl_stinger_shipatcdatamanager.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_rear_ramp</itemPortName>
             <entityClassName />
-            <entityClassReference />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/doors/door_rn_roomconnector_breachable_openclose_vncl_stinger_ramp.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
@@ -1643,7 +1643,7 @@
               <clipToVisArea>Local</clipToVisArea>
               <gpuVisAreaCullingMode>Default</gpuVisAreaCullingMode>
               <particleEffect Type="GlobalResourceParticle">
-                <path>5bdacda9-91ad-aa09-9910-bdc8b8c35141|Spaceships/Quantum_Drive/Quantum_Drive_Generic.First_Person</path>
+                <path>5f0ac7e8-f50d-0944-9df2-cc303131d0ec|Spaceships/Quantum_Drive/vncl_stinger_qt.qt_starfield</path>
               </particleEffect>
               <attachmentSettings Type="SEntityEffectSystem_Attachment_EntitySlot">
                 <offset Type="QuatT">
@@ -2568,6 +2568,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -2596,6 +2599,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger>Play_SSTH_VNCL_Stinger_Afterburner</audioTrigger>
             </afterburnerStartLoop>
@@ -2630,6 +2636,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -4286,7 +4295,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>DockingCollar</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -4400,7 +4409,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AirTrafficController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -4633,7 +4642,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AttachedPart</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -4942,7 +4951,7 @@
       </InternalHardpointLinks>
       <LinkAllItemsToResourceNetwork>True</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
-      <doorsIgnorePower>False</doorsIgnorePower>
+      <doorsIgnorePower>True</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="7">
@@ -5532,12 +5541,12 @@
       </adapters>
     </AINavigationDynamicTriggerComponent>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="HealthIconData" Count="2">
+      <perceptionTypes Type="ActorStatusUIWarning" Count="2">
         <EnumChoice>Vehicle</EnumChoice>
         <EnumChoice>Spaceship</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
+      <excludedSenses Type="ActorStatusPreset" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
       <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
       <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />

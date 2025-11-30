@@ -2,7 +2,7 @@
  <Layers>
   <Layer fullname="Starlifter_Interior/Modular_C2" externalLayerLevelDir="data/levels/!ship_setup/crus/starlifter/Layers/" externalLayerParentDir="Starlifter_Interior/" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_C2.lyr" ParentGUID="{BDEECEB8-449F-4167-A6AA-8FA910815C61}" layerHash="3089321079">
    <Layer name="Habitation_C2" layerHash="1051154212" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_C2/Habitation_C2.lyr">
-    <Layer name="Hab_C2_ART" layerHash="2794775792" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_C2/Habitation_C2/Hab_C2_ART.lyr">
+    <Layer name="Hab_C2_ART" layerHash="3867838167" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_C2/Habitation_C2/Hab_C2_ART.lyr">
      <Object name="crus_starlifter_modularroom_extra02_small-011" type="Brush" guid="4d6b8604-7362-990b-1c6f-3c20c0bda3b7"/>
      <Object name="crus_starlifter_modularroom_wc_cubicle-009" type="Brush" guid="4ed41810-313c-ef10-172a-a5724e32f685"/>
      <Object name="crk_social_room_monitor_screen_v1-003" type="GeomEntity" guid="4645472f-37d4-b617-0254-9573fae9e0a2" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
@@ -103,7 +103,7 @@
      <Object name="personal_toothpaste_1_b-001" type="Brush" guid="4bb734c3-67ed-51e4-a855-3c46d6cc6b8c"/>
      <Object name="literature_book_3_bundle_b-001" type="Brush" guid="414bc596-dae2-beeb-b13c-3808424c7886"/>
     </Layer>
-    <Layer name="Hab_C2_LIGHTING" layerHash="2292662467" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_C2/Habitation_C2/Hab_C2_LIGHTING.lyr">
+    <Layer name="Hab_C2_LIGHTING" layerHash="3495261586" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_C2/Habitation_C2/Hab_C2_LIGHTING.lyr">
      <Object name="crus_starlifter_glow_small_a-001" type="Brush" guid="4c105dbd-d886-e101-32f8-3bfc09016d9c"/>
      <Object name="Lt_Hab_Desk_B_Shadow" type="Light" guid="4c97b4a1-32b5-bd0d-aa6e-8456e6dcfe94" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_Hab_Wall_Corner_Bottom-006" type="Light" guid="463451cf-e0b6-ce0d-b4d6-891d87f5e49e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -165,7 +165,7 @@
      <Object name="Lt_Hab_Wall_Corner_Bottom-001" type="Light" guid="49497c83-5add-b3c1-4029-bf9c1a133ab3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_Hab_WC-005" type="Light" guid="430c5169-90ff-bac6-723b-ddb0939035b6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_Hab_WC_FILL" type="Light" guid="4452d471-0c59-6bcf-91e5-3a11f27473b2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-     <Object name="ChipSet_DEFCON-004" type="ChipSet_DEFCON" guid="46c00609-5ec9-17d4-56a4-dc54c063e7bb" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+     <Object name="ChipSet_DEFCON-004" type="ChipSet_DEFCON" guid="46c00609-5ec9-17d4-56a4-dc54c063e7bb" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="LB_Hab_Storage-001" type="LightBox" guid="4c466341-b657-ebd6-3efd-6173c001018f" tags=""/>
      <Object name="LB_Hab_WC-002" type="LightBox" guid="471c9f51-ddd9-17dc-7594-5860101a73a4" tags=""/>
      <Object name="crus_starlifter_glow_small_a-004" type="Brush" guid="4ffab9d1-c7fa-71e6-62fa-a51bc8a750be"/>
@@ -322,7 +322,7 @@
      <Object name="Portal_Hab_Rear-000" type="GenericShape" guid="477eed9f-9090-0cb0-c7b0-38eb14705399" tags=""/>
     </Layer>
    </Layer>
-   <Layer name="Modular_C2_ART" layerHash="4048530688" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_C2/Modular_C2_ART.lyr">
+   <Layer name="Modular_C2_ART" layerHash="4275673873" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_C2/Modular_C2_ART.lyr">
     <Object name="crus_starlifter_modularroom_sofa_3m-062" type="Brush" guid="4e8c7fae-a471-2108-a1be-168ccf3592a3"/>
     <Object name="CRUS_Starlifter_ModularRoom_WallLight-001" type="Brush" guid="432277a9-4213-8a0d-8aa7-2b1af4a9e781"/>
     <Object name="crus_starlifter_modularroom_extra02_small-012" type="Brush" guid="47613564-db16-ab16-e9d6-7e845fa81e92"/>
@@ -427,7 +427,7 @@
     <Object name="cutlery_spork_disposable-005" type="Brush" guid="4d4dfd52-1268-f7ec-5550-212f2bc01cb0"/>
     <Object name="jar_glass_1_berries_a-001" type="Brush" guid="41ad7920-347d-93fe-b824-640999f99fa9"/>
    </Layer>
-   <Layer name="Modular_C2_LIGHTING" layerHash="310080478" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_C2/Modular_C2_LIGHTING.lyr">
+   <Layer name="Modular_C2_LIGHTING" layerHash="410307401" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Modular_C2/Modular_C2_LIGHTING.lyr">
     <Object name="Lt_Rec_Steps-003" type="Light" guid="43017ff0-efad-b102-244e-6f6da46f7eb2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Rec_DisplayShelves-003" type="Light" guid="4b8496b5-8377-db02-845b-92c510a9158d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Rec_Steps-002" type="Light" guid="47f6ca6b-1f8e-c904-9c0c-3847b6672baa" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -510,7 +510,7 @@
     <Object name="Lt_Rec_Center_Rings-002" type="Light" guid="4c52830a-6e28-b8d9-286e-e7b53f3a3991" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Rec_DisplayShelves-004" type="Light" guid="46526081-78d8-15db-fce8-8be3a651bf9c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Rec_Ceiling_Planes-004" type="Light" guid="44599ba3-858d-47db-633c-5792e74458a8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="ChipSet_DEFCON-005" type="ChipSet_DEFCON" guid="4f403143-629f-4cdc-7fb8-65fe00a6c888" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+    <Object name="ChipSet_DEFCON-005" type="ChipSet_DEFCON" guid="4f403143-629f-4cdc-7fb8-65fe00a6c888" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     <Object name="Lt_Rec_Center_Rings-004" type="Light" guid="422d4ec1-9125-78dc-18ae-7853c8127d87" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Rec_Ceiling_Planes-001" type="Light" guid="47e7e5ea-f8b5-c8e2-c642-f526c4e3f4bf" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Rec_Wall_Corner_Bottom-004" type="Light" guid="466a4394-90c8-98e3-5049-15f454a8aa8c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>

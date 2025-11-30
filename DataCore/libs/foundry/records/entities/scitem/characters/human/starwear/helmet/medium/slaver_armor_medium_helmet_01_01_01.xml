@@ -16,10 +16,10 @@
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ba75cc73-a4c9-447a-9912-1fd8ccc7031b" RecordId="ba75cc73-a4c9-447a-9912-1fd8ccc7031b" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7fd80cf6-bce8-4499-a4a2-e1a8f3fefd7e" RecordId="7fd80cf6-bce8-4499-a4a2-e1a8f3fefd7e" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1caa8797-db36-48d0-9809-dd44e3270c31" RecordId="1caa8797-db36-48d0-9809-dd44e3270c31" />
-    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a155115b-1a31-4033-b93a-d91d2416ed5d" RecordId="a155115b-1a31-4033-b93a-d91d2416ed5d" />
-    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f3653dfe-343d-45d4-8b1b-56ed4e93922a" RecordId="f3653dfe-343d-45d4-8b1b-56ed4e93922a" />
-    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.31fd38bb-d5d3-424d-a473-dab5e85fd65d" RecordId="31fd38bb-d5d3-424d-a473-dab5e85fd65d" />
-    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a6c5f3ee-3547-410b-8b48-af7a4390fb5e" RecordId="a6c5f3ee-3547-410b-8b48-af7a4390fb5e" />
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ba81fd42-eb1e-4948-9a92-6359133e16e2" RecordId="ba81fd42-eb1e-4948-9a92-6359133e16e2" />
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b9e5b0da-8821-47e2-942e-351f5b59b791" RecordId="b9e5b0da-8821-47e2-942e-351f5b59b791" />
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.9a2298c3-c14a-4e60-ba53-7408576fef72" RecordId="9a2298c3-c14a-4e60-ba53-7408576fef72" />
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a1d4429d-d3d5-4276-9be8-22235d2a4c40" RecordId="a1d4429d-d3d5-4276-9be8-22235d2a4c40" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b97f2439-cde7-45f9-acc3-5eab75b0f84c" RecordId="b97f2439-cde7-45f9-acc3-5eab75b0f84c" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.eca4cc23-79f7-4511-9cf1-1a832385383d" RecordId="eca4cc23-79f7-4511-9cf1-1a832385383d" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.bed8e09b-a5f2-4f4e-9be9-ab618ebfbd58" RecordId="bed8e09b-a5f2-4f4e-9be9-ab618ebfbd58" />
@@ -48,8 +48,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -112,13 +112,13 @@
         <Grade>1</Grade>
         <Manufacturer />
         <inheritParentManufacturer>False</inheritParentManufacturer>
-        <Tags>SM_RestrictedArm Helmet HelmetCarryable</Tags>
+        <Tags>SM_RestrictedArm Helmet HelmetCarryable Slaver_Medium Set_01 Color_01</Tags>
         <RequiredTags />
         <DisplayType />
         <Localization Type="SCItemLocalization">
-          <Name>@LOC_PLACEHOLDER</Name>
+          <Name>@item_Name_slaver_armor_medium_helmet_01_01_01</Name>
           <ShortName>@LOC_EMPTY</ShortName>
-          <Description>@LOC_EMPTY</Description>
+          <Description>@item_Desc_slaver_armor_medium_01_Shared</Description>
           <displayFeatures Type="SCExtendedLocalizationLevelParams">
             <LogoSimplifiedWhite />
             <FrontendBackground />
@@ -159,9 +159,9 @@
           <z>0.352</z>
         </inventoryOccupancyLocalBoundsMax>
         <inventoryOccupancyDimensionsUIOverride Type="Vec3">
-          <x>0.38</x>
-          <y>0.38</y>
-          <z>0.38</z>
+          <x>0.75</x>
+          <y>0.75</y>
+          <z>0.75</z>
         </inventoryOccupancyDimensionsUIOverride>
         <ignoredAttachAxis>None</ignoredAttachAxis>
         <attachCheckCenterOfMass>False</attachCheckCenterOfMass>
@@ -282,7 +282,7 @@
               <ProxyCDFPath />
               <ModifiersPath />
               <AttachFlags>0</AttachFlags>
-              <DeformerType>WD_ElasticNUScaling</DeformerType>
+              <DeformerType>Standard</DeformerType>
               <ProtosBShapeExclude>0</ProtosBShapeExclude>
               <VisTP>True</VisTP>
               <VisFP>False</VisFP>
@@ -916,7 +916,7 @@
                 </SubGeometry>
               </SGeometryNodeParams>
               <SGeometryNodeParams Type="SGeometryNodeParams">
-                <Tags>inverntoryStoredEntity</Tags>
+                <Tags>inventoryStoredEntity</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
                     <path>Objects/Characters/Human/male_v7/armor/slaver/slaver_armor_medium_helmet_01_01_01.cdf</path>
@@ -965,7 +965,7 @@
                     <path>Objects/Characters/Human/male_v7/armor/slaver/slaver_armor_medium_helmet_01_01_01.cdf</path>
                   </Geometry>
                   <Material Type="GlobalResourceMaterial">
-                    <path />
+                    <path>Objects/Characters/Human/male_v7/armor/slaver/m_slaver_medium_helmet_01_01_01.mtl</path>
                   </Material>
                   <SimulationGeometry />
                   <Palette Type="TintPaletteRef">
@@ -1023,7 +1023,7 @@
               <ProxyCDFPath />
               <ModifiersPath />
               <AttachFlags>0</AttachFlags>
-              <DeformerType>WD_ElasticNUScaling</DeformerType>
+              <DeformerType>Standard</DeformerType>
               <ProtosBShapeExclude>0</ProtosBShapeExclude>
               <VisTP>True</VisTP>
               <VisFP>False</VisFP>
@@ -1525,10 +1525,10 @@
                 </SubGeometry>
               </SGeometryNodeParams>
               <SGeometryNodeParams Type="SGeometryNodeParams">
-                <Tags>inverntoryStoredEntity</Tags>
+                <Tags>inventoryStoredEntity</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
-                    <path>Objects/Characters/Human/male_v7/armor/slaver/m_slaver_medium_helmet_01.cdf</path>
+                    <path>Objects/Characters/Human/male_v7/armor/slaver/slaver_armor_medium_helmet_01_01_01.cdf</path>
                   </Geometry>
                   <Material Type="GlobalResourceMaterial">
                     <path>Objects/Characters/Human/male_v7/armor/slaver/m_slaver_medium_helmet_01_01_01.mtl</path>
@@ -1571,10 +1571,10 @@
                 <Tags>tableDisplay</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
-                    <path>Objects/Characters/Human/male_v7/armor/slaver/m_slaver_medium_helmet_01.cdf</path>
+                    <path>Objects/Characters/Human/male_v7/armor/slaver/slaver_armor_medium_helmet_01_01_01.cdf</path>
                   </Geometry>
                   <Material Type="GlobalResourceMaterial">
-                    <path />
+                    <path>Objects/Characters/Human/male_v7/armor/slaver/m_slaver_medium_helmet_01_01_01.mtl</path>
                   </Material>
                   <SimulationGeometry />
                   <Palette Type="TintPaletteRef">
@@ -1674,7 +1674,7 @@
     </SGeometryResourceParams>
     <SCItemPurchasableParams Type="SCItemPurchasableParams">
       <Display />
-      <displayName>@LOC_PLACEHOLDER</displayName>
+      <displayName>@item_Name_slaver_armor_medium_helmet_01_01_01</displayName>
       <displayType>@item_displayType_Helmet</displayType>
       <displayThumbnail />
       <allowTryOn>True</allowTryOn>
@@ -1761,7 +1761,7 @@
       <Ports Type="SItemPortDef" Count="9">
         <SItemPortDef Type="SItemPortDef">
           <Name>visor_display</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_TypeVisor</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
@@ -1803,7 +1803,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1853,7 +1853,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>radar</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_TypeRadar</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
@@ -1895,7 +1895,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Radar</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1967,7 +1967,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>long_range_radar</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_SubTypeRadar</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
@@ -2009,7 +2009,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Radar</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2059,7 +2059,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>ping</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_Name_test_ping</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
@@ -2146,7 +2146,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>scanner</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_NameFPS_Scanner</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
@@ -2188,7 +2188,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Avionics</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2238,7 +2238,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>flashlight</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@itemPort_flashlight</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
@@ -2280,7 +2280,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Suit</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Flashlight</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2332,7 +2332,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>holo_display</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_TypeDisplay</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
@@ -2374,7 +2374,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2424,7 +2424,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>helmet_visor</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_TypeVisor</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags />
@@ -2511,7 +2511,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>universal_necksock</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_TypeChar_Armor_Helmet</DisplayName>
           <PortTags>necksock</PortTags>
           <RequiredPortTags>necksock</RequiredPortTags>
           <Flags />
@@ -2553,7 +2553,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Flair</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3435,13 +3435,25 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
-              <Interactions Type="SInteractionStateTransition" Count="2">
+              <Interactions Type="SInteractionStateTransition" Count="5">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
                   <Interaction PointsTo="ptr:7" />
                   <NextState />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
                   <Interaction PointsTo="ptr:6" />
+                  <NextState />
+                </SInteractionStateTransition>
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:1" />
+                  <NextState />
+                </SInteractionStateTransition>
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:2" />
+                  <NextState />
+                </SInteractionStateTransition>
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:3" />
                   <NextState />
                 </SInteractionStateTransition>
               </Interactions>

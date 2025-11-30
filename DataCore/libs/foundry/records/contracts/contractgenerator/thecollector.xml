@@ -3798,7 +3798,7 @@
                       <maxAmount>0</maxAmount>
                     </HaulingOrderContent_EntityClass>
                     <HaulingOrderContent_EntityClass Type="HaulingOrderContent_EntityClass">
-                      <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/carryables/1h/carryable_1h_cy_armor_vanduul_1_a.xml" />
+                      <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/carryables/1h/carryable_1h_cy_armor_vanduul_1_b.xml" />
                       <minAmount>5</minAmount>
                       <maxAmount>0</maxAmount>
                     </HaulingOrderContent_EntityClass>
@@ -3882,19 +3882,19 @@
                       </ItemAwardEntityClass>
                       <ItemAwardEntityClass Type="ItemAwardEntityClass">
                         <amountToAward>1</amountToAward>
-                        <entityClass />
+                        <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/characters/human/armor/pu_armor/medium/arms/qrt_combat_medium_arms_02_01_01.xml" />
                       </ItemAwardEntityClass>
                       <ItemAwardEntityClass Type="ItemAwardEntityClass">
                         <amountToAward>1</amountToAward>
-                        <entityClass />
+                        <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/characters/human/armor/pu_armor/medium/core/qrt_combat_medium_core_02_01_01.xml" />
                       </ItemAwardEntityClass>
                       <ItemAwardEntityClass Type="ItemAwardEntityClass">
                         <amountToAward>1</amountToAward>
-                        <entityClass />
+                        <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/characters/human/armor/pu_armor/medium/legs/qrt_combat_medium_legs_02_01_01.xml" />
                       </ItemAwardEntityClass>
                       <ItemAwardEntityClass Type="ItemAwardEntityClass">
                         <amountToAward>1</amountToAward>
-                        <entityClass />
+                        <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/characters/human/armor/pu_armor/medium/backpack/qrt_combat_medium_backpack_02_01_01.xml" />
                       </ItemAwardEntityClass>
                     </awards>
                   </ItemAwardWeightings>
@@ -3950,7 +3950,7 @@
                 <value Type="MissionPropertyValue_HaulingOrders">
                   <haulingOrderContent Type="HaulingOrderContentBase" Count="3">
                     <HaulingOrderContent_EntityClass Type="HaulingOrderContent_EntityClass">
-                      <entityClass />
+                      <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/weapons/fps_weapons/none_special_ballistic_01.xml" />
                       <minAmount>1</minAmount>
                       <maxAmount>0</maxAmount>
                     </HaulingOrderContent_EntityClass>
@@ -3960,7 +3960,7 @@
                       <maxAmount>0</maxAmount>
                     </HaulingOrderContent_EntityClass>
                     <HaulingOrderContent_EntityClass Type="HaulingOrderContent_EntityClass">
-                      <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/carryables/1h/carryable_1h_cy_armor_vanduul_1_a.xml" />
+                      <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/carryables/1h/carryable_1h_cy_armor_vanduul_1_b.xml" />
                       <minAmount>5</minAmount>
                       <maxAmount>0</maxAmount>
                     </HaulingOrderContent_EntityClass>
@@ -4035,11 +4035,11 @@
                     <awards Type="ItemAwardBase" Count="2">
                       <ItemAwardEntityClass Type="ItemAwardEntityClass">
                         <amountToAward>1</amountToAward>
-                        <entityClass />
+                        <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/weapons/fps_weapons/none_special_ballistic_01_collector01.xml" />
                       </ItemAwardEntityClass>
                       <ItemAwardEntityClass Type="ItemAwardEntityClass">
                         <amountToAward>1</amountToAward>
-                        <entityClass />
+                        <entityClass ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/weapons/magazines/none_special_ballistic_01_rocket.xml" />
                       </ItemAwardEntityClass>
                     </awards>
                   </ItemAwardWeightings>

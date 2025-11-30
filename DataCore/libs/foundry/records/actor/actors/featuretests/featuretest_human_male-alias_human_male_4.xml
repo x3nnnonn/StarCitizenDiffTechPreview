@@ -25,7 +25,7 @@
       <trackerProperties Type="SActorEntryTrackerParams" />
     </EntityUIDisplayParams>
   </StaticEntityClassData>
-  <Components Type="DataForgeComponentParams" Count="76">
+  <Components Type="DataForgeComponentParams" Count="75">
     <SActorComponentParams Type="SActorComponentParams">
       <character ReferencedFile="file://./../../../../../../libs/foundry/records/character/generic/human_male_4.xml" />
       <isAIControlled>True</isAIControlled>
@@ -400,12 +400,12 @@
       <mastergraphStateOverrides Type="SMastergraphStateOverride" Count="0" />
     </SubsumptionComponentParams>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="HealthIconData" Count="2">
+      <perceptionTypes Type="ActorStatusUIWarning" Count="2">
         <EnumChoice>Agent</EnumChoice>
         <EnumChoice />
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
+      <excludedSenses Type="ActorStatusPreset" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="2">
         <SObservablePointDef Pointer="ptr:2" Type="SObservablePointDef">
           <helperName>Head</helperName>
@@ -2127,7 +2127,6 @@
       <outfitHangerGroups Type="SOutfitHangerGroup" Count="0" />
       <coreInventoryItems Type="SCoreInventoryItem" Count="0" />
     </SEntityLootableContainerParams>
-    <DataForgeComponentParams />
     <SEntityAudioControllerParams Type="SEntityAudioControllerParams">
       <audioControllerEntityType>Actor</audioControllerEntityType>
       <randomSeedCount>4</randomSeedCount>
@@ -2329,7 +2328,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Body</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2558,7 +2557,7 @@
     <SRadarSenseComponentParams Type="SRadarSenseComponentParams" />
     <SHearingComponentParams Type="SHearingComponentParams">
       <movementSoundOriginFilter />
-      <soundTypeFilter Type="TemperatureUIParams" Count="0" />
+      <soundTypeFilter Type="EVAConnection" Count="0" />
     </SHearingComponentParams>
     <AttentionTargetComponentParams Type="AttentionTargetComponentParams">
       <attackerScore>1</attackerScore>

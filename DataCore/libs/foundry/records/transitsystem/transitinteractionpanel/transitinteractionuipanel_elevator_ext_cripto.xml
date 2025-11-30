@@ -82,7 +82,7 @@
     <TransitInteractionPanelParams Type="TransitInteractionPanelParams" />
     <SEntityInteractableParams Type="SEntityInteractableParams">
       <Interactable Type="SInteractableParams">
-        <SharedInteractions Type="SSharedInteractionParams" Count="5">
+        <SharedInteractions Type="SSharedInteractionParams" Count="6">
           <SSharedInteractionParams Pointer="ptr:1" Type="SSharedInteractionParams">
             <Name>CallElevator</Name>
             <QueryTags Type="Tag" Count="0" />
@@ -171,6 +171,25 @@
             <FocusModeOnly>False</FocusModeOnly>
             <Sendable>False</Sendable>
             <Linkable>True</Linkable>
+            <LockedByLinks>False</LockedByLinks>
+            <RequiresAuthorizedUser>False</RequiresAuthorizedUser>
+            <available>True</available>
+            <InheritsConditionDisplaysThroughLinks>False</InheritsConditionDisplaysThroughLinks>
+            <conditionList />
+            <playerAnimatedInteractionBase />
+          </SSharedInteractionParams>
+          <SSharedInteractionParams Pointer="ptr:24" Type="SSharedInteractionParams">
+            <Name>Reset</Name>
+            <QueryTags Type="Tag" Count="0" />
+            <RoomTag />
+            <UsableTag />
+            <LinkingTag />
+            <DisplayName>@usable_use</DisplayName>
+            <DisplayType>Show</DisplayType>
+            <GenericCursor>SingleAction</GenericCursor>
+            <FocusModeOnly>False</FocusModeOnly>
+            <Sendable>True</Sendable>
+            <Linkable>False</Linkable>
             <LockedByLinks>False</LockedByLinks>
             <RequiresAuthorizedUser>False</RequiresAuthorizedUser>
             <available>True</available>
@@ -337,8 +356,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -549,8 +568,8 @@
               <ExitStatePlaySequence />
               <StateAutoChange Type="SStateAutoChange">
                 <NextState PointsTo="ptr:9" />
-                <Delay>10</Delay>
-                <RunWhenStreamedOut>False</RunWhenStreamedOut>
+                <Delay>3600</Delay>
+                <RunWhenStreamedOut>True</RunWhenStreamedOut>
               </StateAutoChange>
               <Interactions Type="SInteractionStateTransition" Count="0" />
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -595,6 +614,7 @@
         <y>0</y>
         <z>0</z>
       </lookAtOffset>
+      <preventForceReactions>False</preventForceReactions>
     </KioskInteractionEntityComponentParams>
     <UIOwnerEntityComponentParams Type="UIOwnerEntityComponentParams">
       <startOpen>True</startOpen>
@@ -649,7 +669,7 @@
             <BuildingBlocksView Pointer="ptr:11" Type="BuildingBlocksView">
               <name>_default</name>
               <component Type="UIGraph_BuildingBlocksContextComponent">
-                <canvas />
+                <canvas ReferencedFile="file://./../../../../../libs/foundry/records/ui/buildingblocks/i_interactivescreens/ter/i_ter_securityterminal.xml" />
                 <isSystemViewInstance>False</isSystemViewInstance>
                 <canvasInstantiationMode>RootDeferred</canvasInstantiationMode>
               </component>
@@ -1351,7 +1371,7 @@
     </SActorUsableParams>
     <SAudioProxyParams Type="SAudioProxyParams" />
     <SCInteractionStateGameplayTriggerComponentParams Type="SCInteractionStateGameplayTriggerComponentParams">
-      <onInteractionStateChangeTriggers Type="SOnInteractionStateChangeTriggers" Count="2">
+      <onInteractionStateChangeTriggers Type="SOnInteractionStateChangeTriggers" Count="3">
         <SOnInteractionStateChangeTriggers Type="SOnInteractionStateChangeTriggers">
           <targetState PointsTo="ptr:4" />
           <gameplayTriggers Type="SBaseInteractionGameplayTrigger" Count="1">
@@ -1365,6 +1385,14 @@
           <gameplayTriggers Type="SBaseInteractionGameplayTrigger" Count="1">
             <TriggerSelfInteractionGameplayTrigger Type="TriggerSelfInteractionGameplayTrigger">
               <targetInteraction PointsTo="ptr:1" />
+            </TriggerSelfInteractionGameplayTrigger>
+          </gameplayTriggers>
+        </SOnInteractionStateChangeTriggers>
+        <SOnInteractionStateChangeTriggers Type="SOnInteractionStateChangeTriggers">
+          <targetState PointsTo="ptr:9" />
+          <gameplayTriggers Type="SBaseInteractionGameplayTrigger" Count="1">
+            <TriggerSelfInteractionGameplayTrigger Type="TriggerSelfInteractionGameplayTrigger">
+              <targetInteraction PointsTo="ptr:24" />
             </TriggerSelfInteractionGameplayTrigger>
           </gameplayTriggers>
         </SOnInteractionStateChangeTriggers>

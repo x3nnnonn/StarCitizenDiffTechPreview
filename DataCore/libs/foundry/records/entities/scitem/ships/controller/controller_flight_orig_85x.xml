@@ -405,16 +405,16 @@
       <linkPlugs Type="Tag" Count="0" />
     </SInteractionLinkParams>
     <IFCSParams Type="IFCSParams">
-      <scmSpeed>230</scmSpeed>
-      <boostSpeedForward>550</boostSpeedForward>
+      <scmSpeed>235</scmSpeed>
+      <boostSpeedForward>560</boostSpeedForward>
       <boostSpeedBackward>270</boostSpeedBackward>
       <maxSpeed>1250</maxSpeed>
       <maxSpeedPrecisionModeFullProximityAssist>10</maxSpeedPrecisionModeFullProximityAssist>
       <maxSpeedPrecisionModeZeroProximityAssist>30</maxSpeedPrecisionModeZeroProximityAssist>
       <maxAngularVelocity Type="Vec3">
-        <x>65</x>
-        <y>215</y>
-        <z>65</z>
+        <x>75</x>
+        <y>220</y>
+        <z>60</z>
       </maxAngularVelocity>
       <pitchYawLimiterType>Ellipsoid</pitchYawLimiterType>
       <linearLimiterType>NormalizedUniformWithMaxRadius</linearLimiterType>
@@ -1775,24 +1775,24 @@
       <scmMaxDragMultiplier>4</scmMaxDragMultiplier>
       <thrusterImbalanceMessage>@dfm_ui_UnexpectedTorqueImbalance</thrusterImbalanceMessage>
       <positiveLinearScale Type="Vec3">
-        <x>3.01</x>
-        <y>1.2205</y>
-        <z>1.38</z>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
       </positiveLinearScale>
       <negativeLinearScale Type="Vec3">
-        <x>3.01</x>
-        <y>0.898</y>
-        <z>0.723</z>
+        <x>1</x>
+        <y>1</y>
+        <z>1</z>
       </negativeLinearScale>
       <positiveAngularScale Type="Vec3">
-        <x>0.1033</x>
-        <y>0.1115</y>
-        <z>0.1968</z>
+        <x>0.076</x>
+        <y>0.071</y>
+        <z>0.063</z>
       </positiveAngularScale>
       <negativeAngularScale Type="Vec3">
-        <x>0.1105</x>
-        <y>0.1115</y>
-        <z>0.1968</z>
+        <x>0.264</x>
+        <y>0.071</y>
+        <z>0.063</z>
       </negativeAngularScale>
       <intoxicationModifierRef ReferencedFile="file://./../../../../../../../libs/foundry/records/intoxication/globalifcsintoxicationmodifierparams.xml" />
       <authoredMotionLimits Type="SIFCSAuthoredMotionLimits">

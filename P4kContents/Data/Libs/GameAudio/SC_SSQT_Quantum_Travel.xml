@@ -26,8 +26,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSQT_Quantum_Travel" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSQT_Stage_2_Lightball">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSQT_Stage_2_Lightball" wwise_radius_max="50" />
@@ -55,8 +57,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="MDT_QT_Lightball_Riser" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSQT_Quantum_Travel" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSQT_Stage_3_Portal">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSQT_Stage_3_Portal" wwise_radius_max="10000" />
@@ -85,8 +89,10 @@
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="MDT_QT_Lightball_Riser" />
         <ATLRTPCDependee atl_name="GP_Ship_Quantum_Bubble_Integrity" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSQT_Quantum_Travel" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSQT_Stage_4_Engage">
       <WwiseEvent wwise_duration_max="8.080542" wwise_duration_min="8.080542" wwise_duration_type="OneShot" wwise_name="Play_SSQT_Stage_4_Engage" wwise_radius_max="10000" />
@@ -114,8 +120,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="GP_Ship_Quantum_Bubble_Integrity" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSQT_Quantum_Travel" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSQT_Stage_5_Tunnel">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSQT_Stage_5_Tunnel" wwise_radius_max="50" />
@@ -143,8 +151,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSQT_Quantum_Travel" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSQT_Stage_6_Exit">
       <WwiseEvent wwise_duration_max="3.74057" wwise_duration_min="3.530628" wwise_duration_type="OneShot" wwise_name="Play_SSQT_Stage_6_Exit" wwise_radius_max="10000" />
@@ -172,8 +182,11 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
+        <ATLRTPCDependee atl_name="Azimuth" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSQT_Quantum_Travel" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSQT_Stage_6_Exit_Fail">
       <WwiseEvent wwise_duration_max="6.08554173" wwise_duration_min="6.08554173" wwise_duration_type="OneShot" wwise_name="Play_SSQT_Stage_6_Exit_Fail" wwise_radius_max="10000" />
@@ -201,8 +214,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSQT_Quantum_Travel" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -215,4 +230,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

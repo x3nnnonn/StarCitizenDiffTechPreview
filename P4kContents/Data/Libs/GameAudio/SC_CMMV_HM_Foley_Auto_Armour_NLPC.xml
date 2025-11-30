@@ -20,6 +20,7 @@
         <ATLRTPCDependee atl_name="MIX_SFX" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Plastic_Heavy_b_loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Plastic_Heavy_b_loop_02_NLPC" wwise_radius_max="15" />
@@ -55,8 +56,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Plastic_Heavy_b_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_max="5.87318373" wwise_duration_min="5.87318373" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Plastic_Heavy_b_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -87,8 +90,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Plastic_Heavy_b_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_max="6.50858641" wwise_duration_min="6.50858641" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Plastic_Heavy_b_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -119,8 +124,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Servo_Small_a_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Servo_Small_a_Loop_01_NLPC" wwise_radius_max="30" />
@@ -150,8 +157,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Servo_Small_a_Loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Servo_Small_a_Loop_02_NLPC" wwise_radius_max="30" />
@@ -181,8 +190,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Servo_Small_a_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_max="0.420583338" wwise_duration_min="0.420583338" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Servo_Small_a_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -213,8 +224,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Servo_Small_a_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_max="0.454416662" wwise_duration_min="0.454416662" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Servo_Small_a_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -245,8 +258,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_VD_Armour_Vanduul_Medium_c_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_VD_Armour_Vanduul_Medium_c_Loop_01_NLPC" wwise_radius_max="30" />
@@ -276,8 +291,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_VD_Armour_Vanduul_Medium_c_Loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_VD_Armour_Vanduul_Medium_c_Loop_02_NLPC" wwise_radius_max="30" />
@@ -307,8 +324,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_VD_Armour_Vanduul_Medium_c_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_max="0.516208351" wwise_duration_min="0.280895829" wwise_duration_type="OneShot" wwise_name="Play_CMMV_VD_Armour_Vanduul_Medium_c_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -338,8 +357,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_VD_Armour_Vanduul_Medium_c_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_VD_Armour_Vanduul_Medium_c_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -369,8 +390,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Clunky_b_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Clunky_b_Loop_01_NLPC" wwise_radius_max="30" />
@@ -400,8 +423,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Clunky_b_Loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Clunky_b_Loop_02_NLPC" wwise_radius_max="30" />
@@ -431,8 +456,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Clunky_b_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Clunky_b_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -462,8 +489,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Clunky_b_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Clunky_b_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -493,8 +522,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_a_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_a_Loop_01_NLPC" wwise_radius_max="30" />
@@ -526,8 +557,10 @@
         <ATLRTPCDependee atl_name="Player_FOIP_Input_State" />
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_a_Loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_a_Loop_02_NLPC" wwise_radius_max="30" />
@@ -559,8 +592,10 @@
         <ATLRTPCDependee atl_name="Player_FOIP_Input_State" />
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_a_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_a_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -591,8 +626,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_a_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_a_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -623,8 +660,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Resonant_a_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Resonant_a_Loop_01_NLPC" wwise_radius_max="30" />
@@ -654,8 +693,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Resonant_a_Loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Resonant_a_Loop_02_NLPC" wwise_radius_max="30" />
@@ -685,8 +726,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Resonant_a_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Resonant_a_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -716,8 +759,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Resonant_a_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Resonant_a_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -747,8 +792,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Plastic_Heavy_a_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_max="5.636092" wwise_duration_min="5.636092" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Plastic_Heavy_a_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -778,8 +825,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Plastic_Heavy_a_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_max="5.455255" wwise_duration_min="5.455255" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Plastic_Heavy_a_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -809,8 +858,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Plastic_Heavy_a_Loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Plastic_Heavy_a_Loop_02_NLPC" wwise_radius_max="30" />
@@ -826,6 +877,7 @@
         <ATLRTPCDependee atl_name="MIX_Mono" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Plastic_Heavy_a_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Plastic_Heavy_a_Loop_01_NLPC" wwise_radius_max="30" />
@@ -841,6 +893,7 @@
         <ATLRTPCDependee atl_name="MIX_Mono" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_VD_Armour_Vanduul_Medium_b_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_VD_Armour_Vanduul_Medium_b_Loop_01_NLPC" wwise_radius_max="30" />
@@ -872,8 +925,10 @@
         <ATLRTPCDependee atl_name="Player_FOIP_Input_State" />
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_VD_Armour_Vanduul_Medium_b_Loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_VD_Armour_Vanduul_Medium_b_Loop_02_NLPC" wwise_radius_max="30" />
@@ -905,8 +960,10 @@
         <ATLRTPCDependee atl_name="Player_FOIP_Input_State" />
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_VD_Armour_Vanduul_Medium_b_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_max="0.501333356" wwise_duration_min="0.247520834" wwise_duration_type="OneShot" wwise_name="Play_CMMV_VD_Armour_Vanduul_Medium_b_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -937,8 +994,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_VD_Armour_Vanduul_Medium_b_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_max="0.5226667" wwise_duration_min="0.23466666" wwise_duration_type="OneShot" wwise_name="Play_CMMV_VD_Armour_Vanduul_Medium_b_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -969,8 +1028,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Heavy_c_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Heavy_c_Loop_01_NLPC" wwise_radius_max="30" />
@@ -1000,8 +1061,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Heavy_c_Loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Heavy_c_Loop_02_NLPC" wwise_radius_max="30" />
@@ -1031,8 +1094,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Heavy_c_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_max="6.76486444" wwise_duration_min="6.76486444" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Metal_Heavy_c_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -1062,8 +1127,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Heavy_c_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_max="7.35955048" wwise_duration_min="7.35955048" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Metal_Heavy_c_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -1093,8 +1160,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Huge_a_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Huge_a_Loop_01_NLPC" wwise_radius_max="30" />
@@ -1110,6 +1179,7 @@
         <ATLRTPCDependee atl_name="MIX_Mono" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Huge_a_Loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Huge_a_Loop_02_NLPC" wwise_radius_max="30" />
@@ -1125,6 +1195,7 @@
         <ATLRTPCDependee atl_name="MIX_Mono" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Huge_a_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_max="9.88764" wwise_duration_min="9.88764" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Metal_Huge_a_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -1154,8 +1225,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Huge_a_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_max="9.18138" wwise_duration_min="9.18138" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Metal_Huge_a_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -1185,8 +1258,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_b_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_b_Loop_01_NLPC" wwise_radius_max="30" />
@@ -1216,8 +1291,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_b_Loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_b_Loop_02_NLPC" wwise_radius_max="30" />
@@ -1247,8 +1324,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_b_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_b_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -1278,8 +1357,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_b_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_b_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -1309,8 +1390,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_VD_Armour_Vanduul_Medium_a_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_VD_Armour_Vanduul_Medium_a_Loop_01_NLPC" wwise_radius_max="30" />
@@ -1340,8 +1423,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_VD_Armour_Vanduul_Medium_a_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_max="0.5036875" wwise_duration_min="0.330666661" wwise_duration_type="OneShot" wwise_name="Play_CMMV_VD_Armour_Vanduul_Medium_a_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -1371,8 +1456,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_VD_Armour_Vanduul_Medium_a_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_max="0.5371042" wwise_duration_min="0.384" wwise_duration_type="OneShot" wwise_name="Play_CMMV_VD_Armour_Vanduul_Medium_a_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -1402,8 +1489,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Heavy_b_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Heavy_b_Loop_01_NLPC" wwise_radius_max="30" />
@@ -1435,8 +1524,10 @@
         <ATLRTPCDependee atl_name="Player_FOIP_Input_State" />
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Heavy_b_Loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Heavy_b_Loop_02_NLPC" wwise_radius_max="30" />
@@ -1468,8 +1559,10 @@
         <ATLRTPCDependee atl_name="Player_FOIP_Input_State" />
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Heavy_b_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Heavy_b_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -1500,8 +1593,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Heavy_b_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Heavy_b_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -1532,8 +1627,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_03_a_NLPC">
       <WwiseEvent wwise_duration_max="0.5005" wwise_duration_min="0.40039584" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_03_a_NLPC" wwise_radius_max="30" />
@@ -1562,8 +1659,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_01_a_NLPC">
       <WwiseEvent wwise_duration_max="0.5005" wwise_duration_min="0.40039584" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_01_a_NLPC" wwise_radius_max="30" />
@@ -1592,8 +1691,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_04_NLPC">
       <WwiseEvent wwise_duration_max="0.5005" wwise_duration_min="0.40039584" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_04_NLPC" wwise_radius_max="30" />
@@ -1622,8 +1723,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_04_b_NLPC">
       <WwiseEvent wwise_duration_max="0.5005" wwise_duration_min="0.40039584" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_04_b_NLPC" wwise_radius_max="30" />
@@ -1652,8 +1755,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_04_a_NLPC">
       <WwiseEvent wwise_duration_max="0.5005" wwise_duration_min="0.40039584" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_04_a_NLPC" wwise_radius_max="30" />
@@ -1682,8 +1787,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_Loop_01_NLPC" wwise_radius_max="30" />
@@ -1712,8 +1819,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_Loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_Loop_02_NLPC" wwise_radius_max="30" />
@@ -1742,8 +1851,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_01_b_NLPC">
       <WwiseEvent wwise_duration_max="0.5005" wwise_duration_min="0.40039584" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_01_b_NLPC" wwise_radius_max="30" />
@@ -1772,8 +1883,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_02_a_NLPC">
       <WwiseEvent wwise_duration_max="0.5005" wwise_duration_min="0.40039584" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_02_a_NLPC" wwise_radius_max="30" />
@@ -1802,8 +1915,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_max="0.5005" wwise_duration_min="0.40039584" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -1832,8 +1947,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_02_b_NLPC">
       <WwiseEvent wwise_duration_max="0.5005" wwise_duration_min="0.40039584" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_02_b_NLPC" wwise_radius_max="30" />
@@ -1862,8 +1979,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_03_NLPC">
       <WwiseEvent wwise_duration_max="0.5005" wwise_duration_min="0.40039584" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_03_NLPC" wwise_radius_max="30" />
@@ -1892,8 +2011,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_max="0.5005" wwise_duration_min="0.40039584" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -1922,8 +2043,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_03_b_NLPC">
       <WwiseEvent wwise_duration_max="0.5005" wwise_duration_min="0.40039584" wwise_duration_type="OneShot" wwise_name="Play_CMMV_HM_Armour_Rattle_Metal_Dull_a_OneShot_03_b_NLPC" wwise_radius_max="30" />
@@ -1952,8 +2075,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Clunky_a_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Clunky_a_Loop_01_NLPC" wwise_radius_max="30" />
@@ -1983,8 +2108,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Clunky_a_Loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Clunky_a_Loop_02_NLPC" wwise_radius_max="30" />
@@ -2014,8 +2141,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Clunky_a_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Clunky_a_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -2045,8 +2174,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Clunky_a_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Clunky_a_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -2076,8 +2207,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_c_Loop_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_c_Loop_01_NLPC" wwise_radius_max="30" />
@@ -2109,8 +2242,10 @@
         <ATLRTPCDependee atl_name="Player_FOIP_Input_State" />
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_c_Loop_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_c_Loop_02_NLPC" wwise_radius_max="30" />
@@ -2142,8 +2277,10 @@
         <ATLRTPCDependee atl_name="Player_FOIP_Input_State" />
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_c_Loop_03_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_c_Loop_03_NLPC" wwise_radius_max="30" />
@@ -2175,8 +2312,10 @@
         <ATLRTPCDependee atl_name="Player_FOIP_Input_State" />
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_c_Loop_04_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_c_Loop_04_NLPC" wwise_radius_max="30" />
@@ -2208,8 +2347,10 @@
         <ATLRTPCDependee atl_name="Player_FOIP_Input_State" />
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_c_OneShot_01_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_c_OneShot_01_NLPC" wwise_radius_max="30" />
@@ -2240,8 +2381,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_c_OneShot_02_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_c_OneShot_02_NLPC" wwise_radius_max="30" />
@@ -2272,8 +2415,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_c_OneShot_03_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_c_OneShot_03_NLPC" wwise_radius_max="30" />
@@ -2304,8 +2449,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMMV_HM_Armour_Metal_Light_c_OneShot_04_NLPC">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_CMMV_HM_Armour_Metal_Light_c_OneShot_04_NLPC" wwise_radius_max="30" />
@@ -2336,8 +2483,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMMV_HM_Foley_Auto_Armour_NLPC" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -2350,4 +2499,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

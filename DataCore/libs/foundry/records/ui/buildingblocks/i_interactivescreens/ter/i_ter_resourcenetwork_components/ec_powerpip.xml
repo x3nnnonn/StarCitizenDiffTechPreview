@@ -30,7 +30,12 @@
     <cardsUseStageRadius>True</cardsUseStageRadius>
   </arPreviewScene>
   <previewScenes Type="BuildingBlocks_PreviewScreenBase" Count="0" />
-  <staticVariables Type="BuildingBlocks_StaticVariableBase" Count="0" />
+  <staticVariables Type="BuildingBlocks_StaticVariableBase" Count="1">
+    <BuildingBlocks_StaticVariableInteger Type="BuildingBlocks_StaticVariableInteger">
+      <name>pipState_NA</name>
+      <value>11</value>
+    </BuildingBlocks_StaticVariableInteger>
+  </staticVariables>
   <proxyRootNode />
   <defaultButtonDownSoundTag />
   <defaultRightButtonDownSoundTag />
@@ -352,7 +357,7 @@
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="70">
+  <operations Type="BuildingBlocks_Node" Count="72">
     <BuildingBlocks_BindingsNumberField Type="BuildingBlocks_BindingsNumberField">
       <widget PointsTo="ptr:1" />
       <field>ParamInput0</field>
@@ -392,11 +397,6 @@
       <widget PointsTo="ptr:1" />
       <field>ParamInput7</field>
       <input PointsTo="ptr:9" />
-    </BuildingBlocks_BindingsNumberField>
-    <BuildingBlocks_BindingsNumberField Type="BuildingBlocks_BindingsNumberField">
-      <widget PointsTo="ptr:1" />
-      <field>SegmentSpacingSize</field>
-      <input />
     </BuildingBlocks_BindingsNumberField>
     <BuildingBlocks_BindingsStringField Type="BuildingBlocks_BindingsStringField">
       <widget PointsTo="ptr:1" />
@@ -442,8 +442,8 @@
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsIntegerVariable>
-    <BuildingBlocks_BindingsTagFromIntegerSwitch Pointer="ptr:10" Type="BuildingBlocks_BindingsTagFromIntegerSwitch">
-      <values Type="BuildingBlocks_IntegerTagPair" Count="10">
+    <BuildingBlocks_BindingsTagFromIntegerSwitch Pointer="ptr:57" Type="BuildingBlocks_BindingsTagFromIntegerSwitch">
+      <values Type="BuildingBlocks_IntegerTagPair" Count="12">
         <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
           <first>0</first>
           <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a9ea1425-1c63-4ae3-ad99-39ce3390c9cb" RecordId="a9ea1425-1c63-4ae3-ad99-39ce3390c9cb" />
@@ -484,6 +484,14 @@
           <first>9</first>
           <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.22391921-6dc8-4efd-bdc1-f67a9e6df590" RecordId="22391921-6dc8-4efd-bdc1-f67a9e6df590" />
         </BuildingBlocks_IntegerTagPair>
+        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
+          <first>10</first>
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1b482925-d7d5-4a6f-a03f-4e0488b79daa" RecordId="1b482925-d7d5-4a6f-a03f-4e0488b79daa" />
+        </BuildingBlocks_IntegerTagPair>
+        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
+          <first>11</first>
+          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b4e27d01-f3f4-48f8-97f4-ed9cfac5468f" RecordId="b4e27d01-f3f4-48f8-97f4-ed9cfac5468f" />
+        </BuildingBlocks_IntegerTagPair>
       </values>
       <defaultValue />
       <input PointsTo="ptr:16" />
@@ -519,7 +527,7 @@
       </values>
       <input PointsTo="ptr:18" />
     </BuildingBlocks_BindingsLocalizationFromIntegerSwitch>
-    <BuildingBlocks_BindingsNumberVariable Pointer="ptr:47" Type="BuildingBlocks_BindingsNumberVariable">
+    <BuildingBlocks_BindingsNumberVariable Pointer="ptr:44" Type="BuildingBlocks_BindingsNumberVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>/resourceNetworkUI/_pipSpacing</binding>
       <inheritsNamespace>True</inheritsNamespace>
@@ -563,13 +571,6 @@
     <BuildingBlocks_BindingsNumberVariable Pointer="ptr:9" Type="BuildingBlocks_BindingsNumberVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>/resourceNetworkUI/_pipSpacing</binding>
-      <inheritsNamespace>True</inheritsNamespace>
-      <isPulled>False</isPulled>
-      <isWatched>False</isWatched>
-    </BuildingBlocks_BindingsNumberVariable>
-    <BuildingBlocks_BindingsNumberVariable Type="BuildingBlocks_BindingsNumberVariable">
-      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
-      <binding>/resourceNetworkUI/_pipHeight</binding>
       <inheritsNamespace>True</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
@@ -631,46 +632,6 @@
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsNumberVariable>
-    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:29" Type="BuildingBlocks_BindingsIntegerComponentParameter">
-      <name>state</name>
-      <parameter>ParamInput2</parameter>
-      <defaultValue>0</defaultValue>
-    </BuildingBlocks_BindingsIntegerComponentParameter>
-    <BuildingBlocks_BindingsTagFromIntegerSwitch Pointer="ptr:30" Type="BuildingBlocks_BindingsTagFromIntegerSwitch">
-      <values Type="BuildingBlocks_IntegerTagPair" Count="4">
-        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
-          <first>3</first>
-          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e4b5bff-f062-4e27-9e6e-56e1573fbc57" RecordId="6e4b5bff-f062-4e27-9e6e-56e1573fbc57" />
-        </BuildingBlocks_IntegerTagPair>
-        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
-          <first>4</first>
-          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e4b5bff-f062-4e27-9e6e-56e1573fbc57" RecordId="6e4b5bff-f062-4e27-9e6e-56e1573fbc57" />
-        </BuildingBlocks_IntegerTagPair>
-        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
-          <first>5</first>
-          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e4b5bff-f062-4e27-9e6e-56e1573fbc57" RecordId="6e4b5bff-f062-4e27-9e6e-56e1573fbc57" />
-        </BuildingBlocks_IntegerTagPair>
-        <BuildingBlocks_IntegerTagPair Type="BuildingBlocks_IntegerTagPair">
-          <first>6</first>
-          <second RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e4b5bff-f062-4e27-9e6e-56e1573fbc57" RecordId="6e4b5bff-f062-4e27-9e6e-56e1573fbc57" />
-        </BuildingBlocks_IntegerTagPair>
-      </values>
-      <defaultValue />
-      <input PointsTo="ptr:29" />
-    </BuildingBlocks_BindingsTagFromIntegerSwitch>
-    <BuildingBlocks_BindingsTagFromBoolean Type="BuildingBlocks_BindingsTagFromBoolean">
-      <isTrue />
-      <isFalse />
-      <inputTrue PointsTo="ptr:30" />
-      <inputFalse PointsTo="ptr:10" />
-      <input PointsTo="ptr:31" />
-    </BuildingBlocks_BindingsTagFromBoolean>
-    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:49" Type="BuildingBlocks_BindingsBooleanFromInteger">
-      <type>GreaterOrEqual</type>
-      <inputL PointsTo="ptr:29" />
-      <inputR />
-      <value>3</value>
-    </BuildingBlocks_BindingsBooleanFromInteger>
     <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:14" Type="BuildingBlocks_BindingsBooleanFromInteger">
       <type>Equal</type>
       <inputL />
@@ -689,84 +650,84 @@
         </BuildingBlocks_IntegerTagPair>
       </values>
       <defaultValue />
-      <input PointsTo="ptr:32" />
+      <input PointsTo="ptr:29" />
     </BuildingBlocks_BindingsTagFromIntegerSwitch>
-    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:34" Type="BuildingBlocks_BindingsIntegerComponentParameter">
+    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:31" Type="BuildingBlocks_BindingsIntegerComponentParameter">
       <name>pipLowIndex</name>
       <parameter>ParamInput3</parameter>
       <defaultValue>-1</defaultValue>
     </BuildingBlocks_BindingsIntegerComponentParameter>
-    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:35" Type="BuildingBlocks_BindingsIntegerComponentParameter">
+    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:32" Type="BuildingBlocks_BindingsIntegerComponentParameter">
       <name>pipHighIndex</name>
       <parameter>ParamInput4</parameter>
       <defaultValue>-1</defaultValue>
     </BuildingBlocks_BindingsIntegerComponentParameter>
-    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:36" Type="BuildingBlocks_BindingsBooleanFromInteger">
+    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:33" Type="BuildingBlocks_BindingsBooleanFromInteger">
       <type>LessOrEqual</type>
-      <inputL PointsTo="ptr:33" />
-      <inputR PointsTo="ptr:34" />
+      <inputL PointsTo="ptr:30" />
+      <inputR PointsTo="ptr:31" />
       <value>0</value>
     </BuildingBlocks_BindingsBooleanFromInteger>
-    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:38" Type="BuildingBlocks_BindingsBooleanFromInteger">
+    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:35" Type="BuildingBlocks_BindingsBooleanFromInteger">
       <type>GreaterOrEqual</type>
-      <inputL PointsTo="ptr:33" />
-      <inputR PointsTo="ptr:35" />
+      <inputL PointsTo="ptr:30" />
+      <inputR PointsTo="ptr:32" />
       <value>0</value>
     </BuildingBlocks_BindingsBooleanFromInteger>
-    <BuildingBlocks_IntegerFromBitFlagDef Pointer="ptr:32" Type="BuildingBlocks_IntegerFromBitFlagDef">
+    <BuildingBlocks_IntegerFromBitFlagDef Pointer="ptr:29" Type="BuildingBlocks_IntegerFromBitFlagDef">
       <inputs Type="BuildingBlocks_BindingsBooleanBase" Count="2">
-        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:36" />
-        <BuildingBlocks_BindingsBooleanEvaluateAnd PointsTo="ptr:37" />
+        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:33" />
+        <BuildingBlocks_BindingsBooleanEvaluateAnd PointsTo="ptr:34" />
       </inputs>
     </BuildingBlocks_IntegerFromBitFlagDef>
-    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:33" Type="BuildingBlocks_BindingsIntegerComponentParameter">
-      <name>listIndex</name>
+    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:30" Type="BuildingBlocks_BindingsIntegerComponentParameter">
+      <name>currentIndex</name>
       <parameter>ParamInput0</parameter>
       <defaultValue>0</defaultValue>
     </BuildingBlocks_BindingsIntegerComponentParameter>
-    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:39" Type="BuildingBlocks_BindingsBooleanFromInteger">
+    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:36" Type="BuildingBlocks_BindingsBooleanFromInteger">
       <type>NotEqual</type>
-      <inputL PointsTo="ptr:35" />
+      <inputL PointsTo="ptr:32" />
       <inputR />
       <value>-1</value>
     </BuildingBlocks_BindingsBooleanFromInteger>
-    <BuildingBlocks_BindingsBooleanEvaluateAnd Pointer="ptr:37" Type="BuildingBlocks_BindingsBooleanEvaluateAnd">
+    <BuildingBlocks_BindingsBooleanEvaluateAnd Pointer="ptr:34" Type="BuildingBlocks_BindingsBooleanEvaluateAnd">
       <inputs Type="BuildingBlocks_BindingsBooleanBase" Count="2">
-        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:38" />
-        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:39" />
+        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:35" />
+        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:36" />
       </inputs>
     </BuildingBlocks_BindingsBooleanEvaluateAnd>
-    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:40" Type="BuildingBlocks_BindingsIntegerComponentParameter">
-      <name>CustomIndex</name>
+    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:37" Type="BuildingBlocks_BindingsIntegerComponentParameter">
+      <name>CurrentIndex</name>
       <parameter>ParamInput0</parameter>
       <defaultValue>0</defaultValue>
     </BuildingBlocks_BindingsIntegerComponentParameter>
-    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:41" Type="BuildingBlocks_BindingsIntegerComponentParameter">
+    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:38" Type="BuildingBlocks_BindingsIntegerComponentParameter">
       <name>pipLowIndex</name>
       <parameter>ParamInput3</parameter>
       <defaultValue>-1</defaultValue>
     </BuildingBlocks_BindingsIntegerComponentParameter>
-    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:42" Type="BuildingBlocks_BindingsIntegerComponentParameter">
+    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:39" Type="BuildingBlocks_BindingsIntegerComponentParameter">
       <name>pipHighIndex</name>
       <parameter>ParamInput4</parameter>
       <defaultValue>1000</defaultValue>
     </BuildingBlocks_BindingsIntegerComponentParameter>
-    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:43" Type="BuildingBlocks_BindingsBooleanFromInteger">
+    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:40" Type="BuildingBlocks_BindingsBooleanFromInteger">
       <type>Equal</type>
-      <inputL PointsTo="ptr:40" />
-      <inputR PointsTo="ptr:41" />
+      <inputL PointsTo="ptr:37" />
+      <inputR PointsTo="ptr:38" />
       <value>0</value>
     </BuildingBlocks_BindingsBooleanFromInteger>
-    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:44" Type="BuildingBlocks_BindingsBooleanFromInteger">
+    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:41" Type="BuildingBlocks_BindingsBooleanFromInteger">
       <type>Equal</type>
-      <inputL PointsTo="ptr:40" />
-      <inputR PointsTo="ptr:42" />
+      <inputL PointsTo="ptr:37" />
+      <inputR PointsTo="ptr:39" />
       <value>0</value>
     </BuildingBlocks_BindingsBooleanFromInteger>
     <BuildingBlocks_IntegerFromBitFlagDef Pointer="ptr:18" Type="BuildingBlocks_IntegerFromBitFlagDef">
       <inputs Type="BuildingBlocks_BindingsBooleanBase" Count="2">
-        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:43" />
-        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:44" />
+        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:40" />
+        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:41" />
       </inputs>
     </BuildingBlocks_IntegerFromBitFlagDef>
     <BuildingBlocks_BindingsBooleanFromIntegerSwitch Pointer="ptr:15" Type="BuildingBlocks_BindingsBooleanFromIntegerSwitch">
@@ -777,20 +738,20 @@
       </exceptions>
       <input PointsTo="ptr:18" />
     </BuildingBlocks_BindingsBooleanFromIntegerSwitch>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:45" Type="BuildingBlocks_BindingsIntegerVariable">
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:42" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>pipLinkAmount</binding>
       <inheritsNamespace>True</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
     </BuildingBlocks_BindingsIntegerVariable>
-    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:46" Type="BuildingBlocks_BindingsNumberFromInteger">
+    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:43" Type="BuildingBlocks_BindingsNumberFromInteger">
       <asSeconds>False</asSeconds>
-      <input PointsTo="ptr:45" />
+      <input PointsTo="ptr:42" />
     </BuildingBlocks_BindingsNumberFromInteger>
     <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:21" Type="BuildingBlocks_BindingsBooleanFromInteger">
       <type>Greater</type>
-      <inputL PointsTo="ptr:45" />
+      <inputL PointsTo="ptr:42" />
       <inputR />
       <value>1</value>
     </BuildingBlocks_BindingsBooleanFromInteger>
@@ -798,54 +759,166 @@
       <type>Mul</type>
       <amount>1</amount>
       <input PointsTo="ptr:20" />
-      <inputB PointsTo="ptr:46" />
+      <inputB PointsTo="ptr:43" />
     </BuildingBlocks_BindingsNumberArithmatic>
     <BuildingBlocks_BindingsNumberArithmatic Pointer="ptr:23" Type="BuildingBlocks_BindingsNumberArithmatic">
       <type>Mul</type>
       <amount>1</amount>
-      <input PointsTo="ptr:47" />
-      <inputB PointsTo="ptr:48" />
+      <input PointsTo="ptr:44" />
+      <inputB PointsTo="ptr:45" />
     </BuildingBlocks_BindingsNumberArithmatic>
-    <BuildingBlocks_BindingsNumberArithmatic Pointer="ptr:48" Type="BuildingBlocks_BindingsNumberArithmatic">
+    <BuildingBlocks_BindingsNumberArithmatic Pointer="ptr:45" Type="BuildingBlocks_BindingsNumberArithmatic">
       <type>Sub</type>
       <amount>1</amount>
-      <input PointsTo="ptr:46" />
+      <input PointsTo="ptr:43" />
       <inputB />
     </BuildingBlocks_BindingsNumberArithmatic>
-    <BuildingBlocks_BindingsBooleanEvaluateAnd Pointer="ptr:31" Type="BuildingBlocks_BindingsBooleanEvaluateAnd">
-      <inputs Type="BuildingBlocks_BindingsBooleanBase" Count="2">
-        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:49" />
-        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:50" />
-      </inputs>
-    </BuildingBlocks_BindingsBooleanEvaluateAnd>
-    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:50" Type="BuildingBlocks_BindingsBooleanFromInteger">
-      <type>LessOrEqual</type>
-      <inputL PointsTo="ptr:29" />
-      <inputR />
-      <value>6</value>
-    </BuildingBlocks_BindingsBooleanFromInteger>
-    <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
-      <widget PointsTo="ptr:1" />
-      <field>ParamInput2</field>
-      <input PointsTo="ptr:51" />
-    </BuildingBlocks_BindingsBooleanField>
-    <BuildingBlocks_BindingsBooleanComponentParameter Pointer="ptr:52" Type="BuildingBlocks_BindingsBooleanComponentParameter">
-      <name>PowerWarning</name>
+    <BuildingBlocks_BindingsBooleanComponentParameter Pointer="ptr:46" Type="BuildingBlocks_BindingsBooleanComponentParameter">
+      <name>IsPowerSection</name>
       <parameter>ParamInput0</parameter>
       <defaultValue>False</defaultValue>
     </BuildingBlocks_BindingsBooleanComponentParameter>
-    <BuildingBlocks_BindingsBooleanEvaluateAnd Pointer="ptr:51" Type="BuildingBlocks_BindingsBooleanEvaluateAnd">
+    <BuildingBlocks_BindingsBooleanEvaluateAnd Pointer="ptr:56" Type="BuildingBlocks_BindingsBooleanEvaluateAnd">
       <inputs Type="BuildingBlocks_BindingsBooleanBase" Count="2">
-        <BuildingBlocks_BindingsBooleanComponentParameter PointsTo="ptr:52" />
-        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:53" />
+        <BuildingBlocks_BindingsBooleanComponentParameter PointsTo="ptr:46" />
+        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:47" />
       </inputs>
     </BuildingBlocks_BindingsBooleanEvaluateAnd>
-    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:53" Type="BuildingBlocks_BindingsBooleanFromInteger">
+    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:47" Type="BuildingBlocks_BindingsBooleanFromInteger">
       <type>Equal</type>
       <inputL PointsTo="ptr:16" />
       <inputR />
       <value>9</value>
     </BuildingBlocks_BindingsBooleanFromInteger>
+    <BuildingBlocks_BindingsNumberField Type="BuildingBlocks_BindingsNumberField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput8</field>
+      <input PointsTo="ptr:48" />
+    </BuildingBlocks_BindingsNumberField>
+    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:49" Type="BuildingBlocks_BindingsBooleanFromInteger">
+      <type>Equal</type>
+      <inputL PointsTo="ptr:30" />
+      <inputR />
+      <value>0</value>
+    </BuildingBlocks_BindingsBooleanFromInteger>
+    <BuildingBlocks_BindingsBooleanFromInteger Pointer="ptr:50" Type="BuildingBlocks_BindingsBooleanFromInteger">
+      <type>Equal</type>
+      <inputL PointsTo="ptr:30" />
+      <inputR PointsTo="ptr:32" />
+      <value>0</value>
+    </BuildingBlocks_BindingsBooleanFromInteger>
+    <BuildingBlocks_BindingsBooleanEvaluateOr Pointer="ptr:52" Type="BuildingBlocks_BindingsBooleanEvaluateOr">
+      <inputs Type="BuildingBlocks_BindingsBooleanBase" Count="2">
+        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:49" />
+        <BuildingBlocks_BindingsBooleanFromInteger PointsTo="ptr:50" />
+      </inputs>
+    </BuildingBlocks_BindingsBooleanEvaluateOr>
+    <BuildingBlocks_BindingsNumberArithmatic Pointer="ptr:51" Type="BuildingBlocks_BindingsNumberArithmatic">
+      <type>Add</type>
+      <amount>1</amount>
+      <input PointsTo="ptr:20" />
+      <inputB PointsTo="ptr:44" />
+    </BuildingBlocks_BindingsNumberArithmatic>
+    <BuildingBlocks_BindingsNumberFromBoolean Pointer="ptr:53" Type="BuildingBlocks_BindingsNumberFromBoolean">
+      <isTrue>0</isTrue>
+      <isFalse>1</isFalse>
+      <inputTrue PointsTo="ptr:20" />
+      <inputFalse PointsTo="ptr:51" />
+      <input PointsTo="ptr:52" />
+    </BuildingBlocks_BindingsNumberFromBoolean>
+    <BuildingBlocks_BindingsNumberFromBoolean Pointer="ptr:48" Type="BuildingBlocks_BindingsNumberFromBoolean">
+      <isTrue>0</isTrue>
+      <isFalse>1</isFalse>
+      <inputTrue PointsTo="ptr:19" />
+      <inputFalse PointsTo="ptr:53" />
+      <input PointsTo="ptr:21" />
+    </BuildingBlocks_BindingsNumberFromBoolean>
+    <BuildingBlocks_BindingsStringFromIntegerSwitch Pointer="ptr:55" Type="BuildingBlocks_BindingsStringFromIntegerSwitch">
+      <defaultValue />
+      <defaultOverride />
+      <values Type="BuildingBlocks_IntegerStringPair" Count="12">
+        <BuildingBlocks_IntegerStringPair Type="BuildingBlocks_IntegerStringPair">
+          <first>0</first>
+          <second />
+          <secondOverride />
+        </BuildingBlocks_IntegerStringPair>
+        <BuildingBlocks_IntegerStringPair Type="BuildingBlocks_IntegerStringPair">
+          <first>1</first>
+          <second />
+          <secondOverride />
+        </BuildingBlocks_IntegerStringPair>
+        <BuildingBlocks_IntegerStringPair Type="BuildingBlocks_IntegerStringPair">
+          <first>2</first>
+          <second />
+          <secondOverride />
+        </BuildingBlocks_IntegerStringPair>
+        <BuildingBlocks_IntegerStringPair Type="BuildingBlocks_IntegerStringPair">
+          <first>3</first>
+          <second />
+          <secondOverride />
+        </BuildingBlocks_IntegerStringPair>
+        <BuildingBlocks_IntegerStringPair Type="BuildingBlocks_IntegerStringPair">
+          <first>4</first>
+          <second />
+          <secondOverride />
+        </BuildingBlocks_IntegerStringPair>
+        <BuildingBlocks_IntegerStringPair Type="BuildingBlocks_IntegerStringPair">
+          <first>5</first>
+          <second />
+          <secondOverride />
+        </BuildingBlocks_IntegerStringPair>
+        <BuildingBlocks_IntegerStringPair Type="BuildingBlocks_IntegerStringPair">
+          <first>6</first>
+          <second />
+          <secondOverride />
+        </BuildingBlocks_IntegerStringPair>
+        <BuildingBlocks_IntegerStringPair Type="BuildingBlocks_IntegerStringPair">
+          <first>7</first>
+          <second>UI/Textures/Vector/ModularKitStyles/AEGS_ENV/AEGS_ENV_Icon_Damaged.svg</second>
+          <secondOverride />
+        </BuildingBlocks_IntegerStringPair>
+        <BuildingBlocks_IntegerStringPair Type="BuildingBlocks_IntegerStringPair">
+          <first>8</first>
+          <second>UI/Textures/Vector/ModularKitStyles/AEGS_ENV/AEGS_ENV_Icon_Distorted.svg</second>
+          <secondOverride />
+        </BuildingBlocks_IntegerStringPair>
+        <BuildingBlocks_IntegerStringPair Type="BuildingBlocks_IntegerStringPair">
+          <first>9</first>
+          <second>UI/Textures/Vector/ModularKitStyles/AEGS_ENV/AEGS_ENV_Icon_Destroyed.svg</second>
+          <secondOverride />
+        </BuildingBlocks_IntegerStringPair>
+        <BuildingBlocks_IntegerStringPair Type="BuildingBlocks_IntegerStringPair">
+          <first>10</first>
+          <second>UI/Textures/Vector/ModularKitStyles/AEGS_ENV/AEGS_ENV_Icon_Overheat.svg</second>
+          <secondOverride />
+        </BuildingBlocks_IntegerStringPair>
+        <BuildingBlocks_IntegerStringPair Type="BuildingBlocks_IntegerStringPair">
+          <first>11</first>
+          <second>UI/Textures/Vector/ModularKitStyles/AEGS_ENV/AEGS_ENV_Icon_Overheat.svg</second>
+          <secondOverride />
+        </BuildingBlocks_IntegerStringPair>
+      </values>
+      <input PointsTo="ptr:16" />
+    </BuildingBlocks_BindingsStringFromIntegerSwitch>
+    <BuildingBlocks_BindingsStringField Type="BuildingBlocks_BindingsStringField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput3</field>
+      <input PointsTo="ptr:54" />
+    </BuildingBlocks_BindingsStringField>
+    <BuildingBlocks_BindingsStringFromBoolean Pointer="ptr:54" Type="BuildingBlocks_BindingsStringFromBoolean">
+      <isTrue>UI/Textures/Vector/ModularKitStyles/AEGS_ENV/AEGS_ENV_Warning_Relay.svg</isTrue>
+      <isFalse />
+      <inputTrue />
+      <inputFalse PointsTo="ptr:55" />
+      <input PointsTo="ptr:56" />
+    </BuildingBlocks_BindingsStringFromBoolean>
+    <BuildingBlocks_BindingsTagFromBoolean Pointer="ptr:10" Type="BuildingBlocks_BindingsTagFromBoolean">
+      <isTrue RecordReference="file://./../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ddf5861a-f127-48a6-baa8-2f1153c07369" RecordId="ddf5861a-f127-48a6-baa8-2f1153c07369" />
+      <isFalse />
+      <inputTrue />
+      <inputFalse PointsTo="ptr:57" />
+      <input PointsTo="ptr:56" />
+    </BuildingBlocks_BindingsTagFromBoolean>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

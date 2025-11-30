@@ -1,7 +1,7 @@
 <ObjectContainer sourceLevel="data/levels/!oc/pu/system/stanton/stanton2c">
  <Layers>
   <Layer fullname="Derelict_Set_Crash/St2c_Drlct_Sfce_Ctplr_Puz_000" externalLayerLevelDir="data/levels/!oc/pu/system/stanton/stanton2c/Layers/" externalLayerParentDir="Derelict_Set_Crash/" externalLayerFilePath="data/levels/!oc/pu/system/stanton/stanton2c/Layers/Derelict_Set_Crash/St2c_Drlct_Sfce_Ctplr_Puz_000.lyr" ParentGUID="{CF8B16A4-1CEB-47B0-82AF-49462897534F}" layerHash="3606522065">
-   <Layer name="SDSCP0_ai" layerHash="4193516207" externalLayerFilePath="data/levels/!oc/pu/system/stanton/stanton2c/Layers/Derelict_Set_Crash/St2c_Drlct_Sfce_Ctplr_Puz_000/SDSCP0_ai.lyr">
+   <Layer name="SDSCP0_ai" layerHash="2251037015" externalLayerFilePath="data/levels/!oc/pu/system/stanton/stanton2c/Layers/Derelict_Set_Crash/St2c_Drlct_Sfce_Ctplr_Puz_000/SDSCP0_ai.lyr">
     <Object name="AreaBox-001" type="AreaBox" guid="4127a8bc-af15-d000-6144-494c8b151b86" tags=""/>
     <Object name="ZoneOfInterest_TagPoint-008" type="TagPoint" guid="481b8b88-efee-cc01-7383-a82bada4c396" tags="00ead468-9073-485b-a6df-ca6b94053603,fdbde118-7ff7-4229-9250-ee3641ea34a5"/>
     <Object name="cage_time_1_0125x0125x0125_a-012" type="Brush" guid="40be462a-54d5-ee01-aa56-c8651fbd8e9f"/>
@@ -52,13 +52,13 @@
     <Object name="debris_small_b-005" type="Brush" guid="4506d6e6-e7ae-7c20-0fcb-c0127809eda6"/>
     <Object name="drak_caterpwilllar_wreckage_panel_small_005" type="Brush" guid="4acef6ed-eec6-5622-fa9f-46ebfd015385"/>
     <Object name="AIPath-008" type="AIPath" guid="49336fab-0392-b022-9ef2-044297947988" tags="00ead468-9073-485b-a6df-ca6b94053603,29111308-5615-4a6d-bc3e-46ff74b5fd1f"/>
-    <Object name="NavigationArea-000" type="NavigationArea" guid="4d2da3c0-a304-2023-cba6-70dde6ea4cb7" tags="a9842535-5d8f-460b-bc21-447a70025802"/>
+    <Object name="NavigationArea-004" type="NavigationArea" guid="4d2da3c0-a304-2023-cba6-70dde6ea4cb7" tags="a9842535-5d8f-460b-bc21-447a70025802"/>
     <Object name="wreckage_pipes_large_004" type="Brush" guid="4afbcfea-8a85-6823-b7c3-5eb6c7ebc889"/>
     <Object name="debris_large_c-046" type="Brush" guid="4c977829-e666-6d23-7e6f-b0216703288f"/>
     <Object name="AreaBox-002" type="AreaBox" guid="42618b66-34ec-8328-7a4d-391f027b86b6" tags=""/>
     <Object name="LedgeObject-002" type="LedgeObject" guid="4b547bd3-867a-9e28-01e2-dbf6663e6d9a" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
     <Object name="debris_large_b" type="Brush" guid="4b2b4ab0-0757-2f2a-1a66-55eeafc99e9d"/>
-    <Object name="AIPath-003" type="AIPath" guid="430333ea-293c-3d2a-c6ba-55cb0b9b86a4" tags="00ead468-9073-485b-a6df-ca6b94053603,29111308-5615-4a6d-bc3e-46ff74b5fd1f"/>
+    <Object name="AIPath-000" type="AIPath" guid="430333ea-293c-3d2a-c6ba-55cb0b9b86a4" tags="00ead468-9073-485b-a6df-ca6b94053603,29111308-5615-4a6d-bc3e-46ff74b5fd1f"/>
     <Object name="crashpile_norocks_01_f" type="Brush" guid="4b590a4c-df08-172b-5a55-389a02016190"/>
     <Object name="debris_med_a-003" type="Brush" guid="4260262a-0276-652b-8479-d4376e0f0981"/>
     <Object name="crouching.derelict.drlct_cover_standing_02" type="Prefab" guid="400d02b3-2604-aa2c-52d6-9d0e0aa77f81"/>
@@ -68,7 +68,7 @@
     <Object name="TagPoint-022" type="TagPoint" guid="4cc25a98-0d22-fe2f-8780-2f137fbe9d93" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
     <Object name="SDSCP0_SpawnCloset-Heavy-02" type="SpawnCloset" guid="431b7949-c325-5733-1b5b-5e609d9a3d88" tags="00ead468-9073-485b-a6df-ca6b94053603,ead9956c-0d00-4e7a-96f3-3b56f1386486,c4ec8876-3979-4a9d-9d1c-83375094c9b7,91dd2b69-68d2-410d-a7a3-d3aa55363afc,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
     <Object name="cage_time_1_0125x0125x0125_a-008" type="Brush" guid="4094c198-3dd9-0b34-ee01-2101cd303caf"/>
-    <Object name="NavigationArea-003" type="NavigationArea" guid="4280432e-66f8-1e34-285a-4f0071baada9" tags="a9842535-5d8f-460b-bc21-447a70025802"/>
+    <Object name="NavigationArea" type="NavigationArea" guid="4280432e-66f8-1e34-285a-4f0071baada9" tags="a9842535-5d8f-460b-bc21-447a70025802"/>
     <Object name="TagPoint-008" type="TagPoint" guid="446bed25-93a5-fc34-8f5f-eb7ec61bc397" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
     <Object name="NavigationArea-002" type="NavigationArea" guid="4fe38718-6cb5-6236-dd74-1c246aab68b8" tags="a9842535-5d8f-460b-bc21-447a70025802"/>
     <Object name="SDSCP0_SC_AreaBox-Heavy-Target-02" type="AreaBox" guid="45468617-6308-8e36-f9bb-fca8a34c8ba6" tags=""/>
@@ -82,9 +82,9 @@
     <Object name="ZoneOfInterest_AreaSphere-001" type="AreaSphere" guid="43702734-2079-9342-f133-b64d0634598d" tags=""/>
     <Object name="ZoneOfInterest_ActionArea" type="ActionArea" guid="4d33f1b4-fb8f-b542-970e-41fbca757d9b" tags="00ead468-9073-485b-a6df-ca6b94053603,c4d90714-716f-4b0a-859d-3904f004b237,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
     <Object name="ZoneOfInterest_TagPoint-005" type="TagPoint" guid="4af1366f-4e53-4243-31a3-f03d65dbd88f" tags="00ead468-9073-485b-a6df-ca6b94053603,fdbde118-7ff7-4229-9250-ee3641ea34a5"/>
-    <Object name="NavigationArea-004" type="NavigationArea" guid="439ed01a-f983-8b43-7876-8dcd794e3d92" tags="a9842535-5d8f-460b-bc21-447a70025802"/>
+    <Object name="NavigationArea-003" type="NavigationArea" guid="439ed01a-f983-8b43-7876-8dcd794e3d92" tags="a9842535-5d8f-460b-bc21-447a70025802"/>
     <Object name="crashpile_norocks_01_d" type="Brush" guid="47724a4e-6ef9-9c44-c1f3-65d375d9b48b"/>
-    <Object name="AIPath-000" type="AIPath" guid="41c6bf9b-6716-c646-fa4e-ad1342e11592" tags="00ead468-9073-485b-a6df-ca6b94053603,29111308-5615-4a6d-bc3e-46ff74b5fd1f"/>
+    <Object name="AIPath-003" type="AIPath" guid="41c6bf9b-6716-c646-fa4e-ad1342e11592" tags="00ead468-9073-485b-a6df-ca6b94053603,29111308-5615-4a6d-bc3e-46ff74b5fd1f"/>
     <Object name="TagPoint-018" type="TagPoint" guid="4091292f-6c10-9648-506b-caaaa520628c" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
     <Object name="AICoverSurface-021" type="AICoverSurface" guid="4de1fd42-9215-1c4a-d546-d944151c98af" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
     <Object name="crashpile_norocks_01_d-002" type="Brush" guid="4058b400-4f87-1f4c-7e49-097d48c6ef8d"/>
@@ -107,7 +107,7 @@
     <Object name="drak_caterpillar_der_hull_module_door_btm_damaged_a" type="Brush" guid="498a2e76-f01e-545d-60fa-7aa2b526faaa"/>
     <Object name="pallet_shipping_1_0125x0125x00125_a-002" type="Brush" guid="47f6f8f4-e542-8e5e-10f9-9c580a301a9f"/>
     <Object name="ZoneOfInterest_TagPoint-006" type="TagPoint" guid="441bd5e7-0c36-ae5f-29f5-53d686a94cac" tags="00ead468-9073-485b-a6df-ca6b94053603,fdbde118-7ff7-4229-9250-ee3641ea34a5"/>
-    <Object name="TagPoint-005" type="TagPoint" guid="42daf076-8294-b162-4933-fa11c462fba2" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
+    <Object name="TagPoint-019" type="TagPoint" guid="42daf076-8294-b162-4933-fa11c462fba2" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
     <Object name="Ledge-259" type="LedgeObject" guid="4673c13f-bf52-7663-3886-48c761e923b4" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
     <Object name="CoverSurface-018" type="AICoverSurface" guid="4d97dc37-8288-8c63-0255-d051f052f1a0" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
     <Object name="drak_caterpillar_door_double_grey_left-001" type="Brush" guid="4f12e484-2377-4565-753f-69cb10d5c8a6"/>
@@ -132,9 +132,9 @@
     <Object name="SDSCP0_SpawnCloset-Medium-04" type="SpawnCloset" guid="4cdf397c-dd07-1980-9033-1d7ad3f6f78a" tags="00ead468-9073-485b-a6df-ca6b94053603,50fccfb5-157f-401a-adaf-97406524f713,c4ec8876-3979-4a9d-9d1c-83375094c9b7,91dd2b69-68d2-410d-a7a3-d3aa55363afc,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
     <Object name="CoverSurface-007" type="AICoverSurface" guid="48f280b2-7c46-d383-fb02-ca40316ad08f" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
     <Object name="debris_med_a-012" type="Brush" guid="4e7e54d2-75b6-3386-e458-93bea3a98292"/>
-    <Object name="TagPoint-020" type="TagPoint" guid="44c853e9-0a9f-4186-827e-28aa71ef1892" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
+    <Object name="TagPoint-005" type="TagPoint" guid="44c853e9-0a9f-4186-827e-28aa71ef1892" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
     <Object name="drak_caterpwilllar_wreckage_panel_large_004" type="Brush" guid="426da317-fc4c-ab86-f685-6e8df3b57f89"/>
-    <Object name="TagPoint-003" type="TagPoint" guid="4ce59528-2b16-0a87-a87f-f2122ee76b90" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
+    <Object name="TagPoint-002" type="TagPoint" guid="4ce59528-2b16-0a87-a87f-f2122ee76b90" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
     <Object name="AIPath-007" type="AIPath" guid="476f2957-fed3-2887-e13c-a2bf43f3329b" tags="00ead468-9073-485b-a6df-ca6b94053603,29111308-5615-4a6d-bc3e-46ff74b5fd1f"/>
     <Object name="TagPoint-014" type="TagPoint" guid="43d17fb8-3ef7-cb87-24ba-e3ea29cadeb7" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
     <Object name="drak_caterpwilllar_wreckage_panel_small_007" type="Brush" guid="47741ade-f37b-e587-4c61-55a4a53bf9af"/>
@@ -147,7 +147,7 @@
     <Object name="SDSCP0_SpawnCloset-Heavy" type="SpawnCloset" guid="4881e793-15ab-9290-22fb-bcbf0f5cbdb7" tags="00ead468-9073-485b-a6df-ca6b94053603,ead9956c-0d00-4e7a-96f3-3b56f1386486,c4ec8876-3979-4a9d-9d1c-83375094c9b7,91dd2b69-68d2-410d-a7a3-d3aa55363afc,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
     <Object name="wreckage_pipes_medium_005" type="Brush" guid="413c0d56-300c-4291-931b-377fe4aa54b4"/>
     <Object name="TagPoint-012" type="TagPoint" guid="4437d31b-6e52-3a95-2e7b-df3b088606a7" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
-    <Object name="AICoverSurface-035" type="AICoverSurface" guid="4fe6978e-c6fe-f395-82dc-aca77368f286" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
+    <Object name="AICoverSurface-034" type="AICoverSurface" guid="4fe6978e-c6fe-f395-82dc-aca77368f286" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
     <Object name="wreckage_panel_small_013" type="Brush" guid="41609567-d405-b196-3dab-7654b6f388bc"/>
     <Object name="SDSCP0_SpawnCloset-Heavy-Target" type="SpawnCloset" guid="4906db08-627a-ab97-be24-a59fe7cfd892" tags="00ead468-9073-485b-a6df-ca6b94053603,499f317a-a677-447f-9a6b-dd647c98a804,c4ec8876-3979-4a9d-9d1c-83375094c9b7,91dd2b69-68d2-410d-a7a3-d3aa55363afc,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
     <Object name="AIPath-013" type="AIPath" guid="492ea7e5-3159-6f9a-b542-de8468b1d19a" tags="00ead468-9073-485b-a6df-ca6b94053603,29111308-5615-4a6d-bc3e-46ff74b5fd1f"/>
@@ -172,7 +172,7 @@
     <Object name="debris_large_d-003" type="Brush" guid="420664c3-6f49-a6aa-971d-3dce36a588ba"/>
     <Object name="wreckage_mech_junk_013" type="Brush" guid="4f1c0253-aa5a-43ab-ac3d-7d7f895cb4bb"/>
     <Object name="drak_caterpwilllar_wreckage_panel_small_006" type="Brush" guid="4410f6f7-aba1-a9ab-9580-f14d39df64ac"/>
-    <Object name="TagPoint-002" type="TagPoint" guid="4e3780cd-817c-03ac-3733-9a9ad04bb991" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
+    <Object name="TagPoint-003" type="TagPoint" guid="4e3780cd-817c-03ac-3733-9a9ad04bb991" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
     <Object name="PrefabPivot" type="PrefabPivot" guid="45617a82-624e-96ad-f178-606176129da5" tags=""/>
     <Object name="crate_dry_1_0125x00625x00625_a-001" type="Brush" guid="4866a7dc-7f3f-2eaf-df57-ed212f57a1bb"/>
     <Object name="AreaBox-007" type="AreaBox" guid="486617ae-961c-5faf-7745-b6e7f4fd4cac" tags=""/>
@@ -195,7 +195,7 @@
     <Object name="PrefabPivot-036" type="PrefabPivot" guid="458019dc-042b-dcbb-7610-045366beb1ae" tags=""/>
     <Object name="crashpile_norocks_01_e" type="Brush" guid="4e985ee6-2c85-fdbb-636c-e3c63c137281"/>
     <Object name="AreaBox-004" type="AreaBox" guid="4b29fdf8-2d20-05bc-2ab0-e6b0dc8082a5" tags=""/>
-    <Object name="Ledge-262" type="LedgeObject" guid="4343985c-913a-76bd-c6c2-782c5f3af2a8" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
+    <Object name="Ledge-263" type="LedgeObject" guid="4343985c-913a-76bd-c6c2-782c5f3af2a8" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
     <Object name="wreckage_panel_large_003" type="Brush" guid="40173a6a-606f-98bd-c536-0435b4a8d7b1"/>
     <Object name="PrefabPivot-034" type="PrefabPivot" guid="495a5610-3057-aabd-1161-7a676ce1bba1" tags=""/>
     <Object name="crouching.derelict.drlct_cover_standing_03" type="Prefab" guid="4471d6e9-2ae1-d8bd-977b-dc923578b98e"/>
@@ -204,10 +204,10 @@
     <Object name="TagPoint-007" type="TagPoint" guid="4762dc0f-3554-48bf-3c5f-a5cc8f531ba6" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
     <Object name="TagPoint-001" type="TagPoint" guid="4bd3eadd-1615-d8c1-7896-211cf32dce93" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
     <Object name="ZoneOfInterest_TagPoint-003" type="TagPoint" guid="4879e6cd-a491-19c2-2cca-2671643f1182" tags="00ead468-9073-485b-a6df-ca6b94053603,fdbde118-7ff7-4229-9250-ee3641ea34a5"/>
-    <Object name="AICoverSurface-034" type="AICoverSurface" guid="4273ab1f-ec2b-0ec3-0bb1-688d68e03aaf" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
+    <Object name="AICoverSurface-033" type="AICoverSurface" guid="4273ab1f-ec2b-0ec3-0bb1-688d68e03aaf" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
     <Object name="wreckage_panel_small_011" type="Brush" guid="44e2aa93-00cc-7ac4-dd0e-7d94531a10a6"/>
     <Object name="TagPoint-000" type="TagPoint" guid="4d3a94f9-d19a-9cc4-b27c-d754a3d3bd90" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
-    <Object name="shipping_container_1_025x025x025_a-001" type="Brush" guid="44f99c5d-c09e-d7c4-cdc8-b7ab36b0f4ad"/>
+    <Object name="shipping_container_1_025x025x025_a" type="Brush" guid="44f99c5d-c09e-d7c4-cdc8-b7ab36b0f4ad"/>
     <Object name="PrefabPivot-031" type="PrefabPivot" guid="4011e898-6671-03c6-7d36-c49db197f2a2" tags=""/>
     <Object name="AICoverSurface-015" type="AICoverSurface" guid="41bc888a-86a0-c3c7-2d84-3b2a1a49a5a4" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
     <Object name="AIPath-004" type="AIPath" guid="4356a3df-3a3b-89c9-4aa9-c37355d1f9be" tags="00ead468-9073-485b-a6df-ca6b94053603,29111308-5615-4a6d-bc3e-46ff74b5fd1f"/>
@@ -220,7 +220,7 @@
     <Object name="ZoneOfInterest_TagPoint-001" type="TagPoint" guid="4ab473bf-4ee5-a9d1-0561-31959945c595" tags="00ead468-9073-485b-a6df-ca6b94053603,fdbde118-7ff7-4229-9250-ee3641ea34a5"/>
     <Object name="crouching.derelict.drlct_cover_crouching_001" type="Prefab" guid="496273cb-6f1d-8ad2-aa99-01d29896f993"/>
     <Object name="debris_small_a-003" type="Brush" guid="41798867-4834-47d3-ae7a-8f6aa2ad90a5"/>
-    <Object name="shipping_container_1_025x025x025_a" type="Brush" guid="4cfcccbd-8485-3ed4-f4b0-162949101589"/>
+    <Object name="shipping_container_1_025x025x025_a-001" type="Brush" guid="4cfcccbd-8485-3ed4-f4b0-162949101589"/>
     <Object name="AICoverSurface-010" type="AICoverSurface" guid="4f1d9463-d530-53d6-7633-9767fdfa8191" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
     <Object name="wreckage_panel_small_005" type="Brush" guid="4f217987-bc75-fcd7-e1f6-6586e66ea385"/>
     <Object name="crouching.derelict.drlct_cover_crouching_03_B-001" type="Prefab" guid="42c2eca3-6ee5-19d8-106f-5e63dccbd595"/>
@@ -230,14 +230,14 @@
     <Object name="AICoverSurface-029" type="AICoverSurface" guid="4fcb63b6-a2cf-a5db-9832-7fb8fcb7dfb0" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
     <Object name="PrefabPivot-027" type="PrefabPivot" guid="405899e9-f9c0-f5db-eb7a-a818e14e01a7" tags=""/>
     <Object name="ZoneOfInterest_TagPoint-004" type="TagPoint" guid="4fa93c4d-71dd-8cde-1200-2c26d7b9f491" tags="00ead468-9073-485b-a6df-ca6b94053603,fdbde118-7ff7-4229-9250-ee3641ea34a5"/>
-    <Object name="AICoverSurface-033" type="AICoverSurface" guid="4e8e1a11-55e4-94de-21a9-c46728962799" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
+    <Object name="AICoverSurface-001" type="AICoverSurface" guid="4e8e1a11-55e4-94de-21a9-c46728962799" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
     <Object name="AICoverSurface-024" type="AICoverSurface" guid="40b04f85-6878-dede-579b-5b99a7293780" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
     <Object name="tank_water_3_0125x0125x0125_a-002" type="Brush" guid="43721a54-68f3-25df-a0f3-06f2de0f3e85"/>
     <Object name="PrefabPivot-022" type="PrefabPivot" guid="4b2f8683-44bb-86df-6ebf-10788821fea7" tags=""/>
     <Object name="crashpile_norocks_01_e-008" type="Brush" guid="4bc48894-aeeb-a9df-5a1d-05f420ce3c8e"/>
     <Object name="PrefabPivot-010" type="PrefabPivot" guid="400a72ee-b753-72e2-ff94-38fda32554bf" tags=""/>
     <Object name="crouching.derelict.drlct_cover_crounching_03" type="Prefab" guid="48643add-d3f0-9ee3-ed02-11759e50b181"/>
-    <Object name="TagPoint-019" type="TagPoint" guid="4092dff5-063d-cde4-2104-67b2fd8605ab" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
+    <Object name="TagPoint-020" type="TagPoint" guid="4092dff5-063d-cde4-2104-67b2fd8605ab" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
     <Object name="cage_time_1_0125x0125x0125_a-011" type="Brush" guid="4f44951c-8797-79e8-d878-c9ed99a31e91"/>
     <Object name="TagPoint-013" type="TagPoint" guid="4f3aac3a-897e-c2e9-cbb7-824cccddb291" tags="00ead468-9073-485b-a6df-ca6b94053603,3d8b28c3-2c3b-4fb3-992b-a60b609eeb5d"/>
     <Object name="pallet_shipping_1_0125x0125x00125_a-003" type="Brush" guid="4e35bc78-8f34-98ea-93ac-cb320a1f4f81"/>
@@ -269,11 +269,11 @@
     <Object name="wreckage_panel_small_010" type="Brush" guid="44eeeb4e-e5a5-89fb-fe97-82237944aaad"/>
     <Object name="debris_small_a-002" type="Brush" guid="45b37282-8c48-9cfb-b72b-9e43d567e68f"/>
     <Object name="AICoverSurface-027" type="AICoverSurface" guid="4485778b-c8d6-a8fb-1c11-3de87f620c87" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
-    <Object name="Ledge-263" type="LedgeObject" guid="4ac0f24e-f1eb-e9fc-448f-9b301ba161b6" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
+    <Object name="Ledge-262" type="LedgeObject" guid="4ac0f24e-f1eb-e9fc-448f-9b301ba161b6" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
     <Object name="AICoverSurface-004" type="AICoverSurface" guid="4f08ce33-6f25-f2fd-e3e3-0ef83cd3f6b5" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
     <Object name="ZoneOfInterest_TagPoint-002" type="TagPoint" guid="41602c57-8b29-1eff-b7dd-d0591e5c59ba" tags="00ead468-9073-485b-a6df-ca6b94053603,fdbde118-7ff7-4229-9250-ee3641ea34a5"/>
     <Object name="debris_small_b-006" type="Brush" guid="45cf261a-cfeb-aeff-5c94-d2b8a393a897"/>
-    <Object name="AICoverSurface-036" type="AICoverSurface" guid="4f8cbfac-dc0e-bbff-1fee-e49be3819ba4" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
+    <Object name="AICoverSurface-035" type="AICoverSurface" guid="4f8cbfac-dc0e-bbff-1fee-e49be3819ba4" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
    </Layer>
    <Layer name="SDSCP0_decal" layerHash="1548736395" externalLayerFilePath="data/levels/!oc/pu/system/stanton/stanton2c/Layers/Derelict_Set_Crash/St2c_Drlct_Sfce_Ctplr_Puz_000/SDSCP0_decal.lyr">
     <Object name="Decal001-041" type="Decal" guid="465a237d-7d21-8201-2baf-ef0222079eb2"/>

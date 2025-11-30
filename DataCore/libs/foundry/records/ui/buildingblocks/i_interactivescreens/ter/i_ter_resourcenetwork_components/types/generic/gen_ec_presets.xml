@@ -1271,7 +1271,7 @@
       <alpha>1</alpha>
       <layer>5</layer>
       <aspectRatioLibrary />
-      <focusIndex>0</focusIndex>
+      <focusIndex>-1</focusIndex>
       <inlineStyles Type="BuildingBlocks_StyleEntry" Count="0" />
       <hoverCursor>Auto</hoverCursor>
       <enableHeldCursor>False</enableHeldCursor>
@@ -1572,11 +1572,11 @@
         <twoVariablePicker />
         <buttonDownSoundTag />
         <rightButtonDownSoundTag />
-        <leftClickSoundTag />
+        <leftClickSoundTag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.85aeb54c-26b1-4ad3-92cc-ab3ecc050e14" RecordId="85aeb54c-26b1-4ad3-92cc-ab3ecc050e14" />
         <rightClickSoundTag />
         <leftDoubleClickSoundTag />
-        <rollOverSoundTag />
-        <rollOffSoundTag />
+        <rollOverSoundTag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.373b8356-d62e-4cf3-922a-9ae3121f465c" RecordId="373b8356-d62e-4cf3-922a-9ae3121f465c" />
+        <rollOffSoundTag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.beaa0bfe-9c17-44bc-b9a5-72b51ad09ef0" RecordId="beaa0bfe-9c17-44bc-b9a5-72b51ad09ef0" />
         <movementStartSoundTag />
         <movementStopSoundTag />
         <movementStopDelayMs>80</movementStopDelayMs>
@@ -1978,10 +1978,10 @@
       <cullingLevel>Render</cullingLevel>
       <isActive>True</isActive>
       <affectsLayout>False</affectsLayout>
-      <affectsAutosize>True</affectsAutosize>
+      <affectsAutosize>False</affectsAutosize>
       <exportNode>True</exportNode>
       <position Type="Vec3">
-        <x>0</x>
+        <x>-90</x>
         <y>0</y>
         <z>0</z>
       </position>
@@ -2057,13 +2057,13 @@
         <back>0</back>
       </margin>
       <pivot Type="Vec3">
-        <x>0.5</x>
+        <x>1</x>
         <y>0</y>
         <z>0</z>
       </pivot>
       <anchor Type="Vec3">
-        <x>0.5</x>
-        <y>0.05</y>
+        <x>1</x>
+        <y>1</y>
         <z>0</z>
       </anchor>
       <background Type="BuildingBlocks_Background">
@@ -2246,7 +2246,22 @@
       <layer>5</layer>
       <aspectRatioLibrary />
       <focusIndex>-1</focusIndex>
-      <inlineStyles Type="BuildingBlocks_StyleEntry" Count="0" />
+      <inlineStyles Type="BuildingBlocks_StyleEntry" Count="1">
+        <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
+          <name>New Style</name>
+          <conditionsList Type="BuildingBlocks_StyleConditionList" Count="0" />
+          <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
+            <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
+              <field>FillColor</field>
+              <color Type="BuildingBlocks_ColorStyle">
+                <color>Base</color>
+                <alpha>1</alpha>
+              </color>
+            </BuildingBlocks_FieldModifierColor>
+          </modifiers>
+          <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
+        </BuildingBlocks_StyleEntry>
+      </inlineStyles>
       <hoverCursor>Auto</hoverCursor>
       <enableHeldCursor>False</enableHeldCursor>
       <heldCursor>Auto</heldCursor>
@@ -2260,7 +2275,7 @@
       <labelProperties Type="BuildingBlocks_ComponentLabelProperties">
         <show>True</show>
         <label>@Dlg_SC_ac_simulator_zone_number_contestedCount_10</label>
-        <style>Heading6</style>
+        <style>Heading4</style>
         <caseModifier>None</caseModifier>
         <anchorToParentX>0.5</anchorToParentX>
         <anchorToParentY>0.5</anchorToParentY>

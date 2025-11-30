@@ -2,7 +2,7 @@
  <Layers>
   <Layer fullname="int_body" externalLayerLevelDir="data/levels/!ship_setup/drak/corsair/Layers/" externalLayerParentDir="" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body.lyr" layerHash="3828475921">
    <Layer name="int_airlock" layerHash="653547089" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_airlock.lyr">
-    <Layer name="int_airlock_SETUP" layerHash="3711401222" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_airlock/int_airlock_SETUP.lyr">
+    <Layer name="int_airlock_SETUP" layerHash="8215659" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_airlock/int_airlock_SETUP.lyr">
      <Object name="Locker_Suit_DRAK_Corsair-Airlock_002" type="Locker_Suit_DRAK_Corsair_Thin" guid="4636e9c1-c559-4d35-3d2b-dcef5d9afda2" tags="102d3c45-04d8-4444-a8e9-39acc810aece,849b8481-5893-4301-964e-4f39f3e27ad8,750d98c7-d1c1-4557-95f0-98a599e64978,62e0e5ca-5caf-47d4-b573-0498263c0ee4,5ed0ade9-51ed-4bed-835c-ada7fbd38738,00ead468-9073-485b-a6df-ca6b94053603,9cb186c7-31d4-41ba-b2bc-02f3b726890f,0e515dc0-2cd7-4b2e-8578-f14a234f5eed,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,65c060b9-cf53-4706-93e7-9184a27cc9c1,75d84438-295e-409a-8a0f-9a530cc14218,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250,2f2df42c-c545-45af-b714-eb987d3cb985"/>
      <Object name="ControlPanel_Screen_DoorControl_Physical_Corsair_Airlock_Light" type="ControlPanel_Screen_DoorControl_Physical_Corsair_Light" guid="4981ee25-0d49-1656-4fde-50f50760b9a7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,009b77f0-af48-4e4d-8759-994c930de504,b5e7e39d-18cd-42d8-85b0-7862c0075765,5ace9427-e331-45f9-9816-531026a2da04,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,eac0031a-3373-451e-80cc-4148d13a213d,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="ChipSet_LightControl_Airlock" type="ChipSet_LightControl" guid="46273ba6-7765-6b57-41f8-db35d2011d88" tags="99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
@@ -45,7 +45,7 @@
      <Object name="Light-088" type="Light" guid="45599e6f-0145-dcdd-b0aa-83053ab06794" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light-093" type="Light" guid="47cef851-f532-e3f5-88c8-5cced0f58981" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="int_airlock_objects" layerHash="390510958" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_airlock/int_airlock_objects.lyr">
+    <Layer name="int_airlock_objects" layerHash="3695569768" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_airlock/int_airlock_objects.lyr">
      <Object name="DRAK_Corsair_Light_Tiny-029" type="Brush" guid="4096ce40-a4cb-3312-01e4-d74f805af598"/>
      <Object name="DRAK_Corsair_Light_Small-005" type="GeomEntity" guid="4d8404b8-27a6-f71c-2d06-abec79557f84" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
      <Object name="DRAK_Corsair_Light_Small-002" type="GeomEntity" guid="4cbceb63-6bcb-1c5b-895e-ad5be98195ba" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
@@ -99,7 +99,7 @@
      <Object name="Light-103" type="Light" guid="4a1fd41d-a3e4-2595-cd1a-5d6a39185497" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="FogVolume_crew_quarter_a" type="FogVolume" guid="4ee9a11f-e917-f6f6-5fc2-6f61263cff9f" tags=""/>
     </Layer>
-    <Layer name="int_crew_quarter_a_objects" layerHash="1785070676" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_crew_quarter_a/int_crew_quarter_a_objects.lyr">
+    <Layer name="int_crew_quarter_a_objects" layerHash="1732702746" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_crew_quarter_a/int_crew_quarter_a_objects.lyr">
      <Object name="bag_rucksack_1_a-001" type="Brush" guid="41b1c206-27d8-8311-0227-b94fff4f1399"/>
      <Object name="bag_holdall_3_a-001" type="Brush" guid="4e582c34-e501-4717-93ba-3651887c9299"/>
      <Object name="DRAK_Corsair_Light_Tiny-036" type="Brush" guid="4f769da4-11c4-db1a-3cc3-f391121c2680"/>
@@ -154,7 +154,7 @@
      <Object name="FogVolume_crew_quarter_b" type="FogVolume" guid="43b41c6c-ece3-33e1-65ac-fa4c712a7788" tags=""/>
      <Object name="Light-106" type="Light" guid="442767cd-5672-5afd-b821-d72cc105cc95" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="int_crew_quarter_b_objects" layerHash="3358361022" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_crew_quarter_b/int_crew_quarter_b_objects.lyr">
+    <Layer name="int_crew_quarter_b_objects" layerHash="3502211208" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_crew_quarter_b/int_crew_quarter_b_objects.lyr">
      <Object name="bag_holdall_1_a-001" type="Brush" guid="4c09e9fa-40c2-9c2b-b699-fca22c66dba4"/>
      <Object name="bag_duffle_1_a-001" type="Brush" guid="4c358389-9cb2-3136-5db9-03600e4a828f"/>
      <Object name="DRAK_Corsair_Light_Tiny-038" type="Brush" guid="4f170c31-c56c-c269-bb66-3a8134b0e9a1"/>
@@ -197,7 +197,7 @@
      <Object name="EnvironmentProbe_crew_quarter_c" type="EnvironmentLight" guid="44cd6888-67fe-acda-cfbb-98c7894c02bb" tags=""/>
      <Object name="Light-116" type="Light" guid="48a4c294-57b2-c2ee-e1e1-359f07f84292" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="int_crew_quarter_c_objects" layerHash="782315885" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_crew_quarter_c/int_crew_quarter_c_objects.lyr">
+    <Layer name="int_crew_quarter_c_objects" layerHash="2053238868" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_crew_quarter_c/int_crew_quarter_c_objects.lyr">
      <Object name="bag_holdall_4_a-001" type="Brush" guid="452d2c53-59b4-de1f-51e9-1b711e2a199f"/>
      <Object name="bag_toolbox_2_a-001" type="Brush" guid="499b0005-d091-414a-b4e8-a8caf7d6f882"/>
      <Object name="DRAK_Corsair_Crew_Quarter_C-001" type="Brush" guid="4c4fc501-e438-1a51-e1cd-6a970beff2be"/>
@@ -214,7 +214,7 @@
     </Layer>
    </Layer>
    <Layer name="int_engineering" layerHash="352615924" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_engineering.lyr">
-    <Layer name="int_engineering_SETUP" layerHash="1876177950" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_engineering/int_engineering_SETUP.lyr">
+    <Layer name="int_engineering_SETUP" layerHash="3025640191" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_engineering/int_engineering_SETUP.lyr">
      <Object name="Door_Ship_Sensor_Proximity_Occupied-002" type="Door_Ship_Sensor_Proximity_Occupied" guid="48982da1-2727-9512-697b-cecf89c866b1" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,afcc539f-18d8-4469-a870-976e0acf6231"/>
      <Object name="ChipSet_LightControl_Engineering" type="ChipSet_LightControl" guid="479c0ab2-42e9-5815-0379-0ced960d47bc" tags="99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
      <Object name="powr_just_s02_pl001" type="GeomEntity" guid="4f03407d-3e4b-be18-4670-47c1e98a4da3" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
@@ -290,7 +290,7 @@
      <Object name="Light-137" type="Light" guid="47a659c5-6f10-53f7-a0ff-cff91fb0919d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light-133" type="Light" guid="444a1f6d-775a-44ff-5236-6330b2fba192" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="int_engineering_objects" layerHash="3468851400" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_engineering/int_engineering_objects.lyr">
+    <Layer name="int_engineering_objects" layerHash="3626319751" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_engineering/int_engineering_objects.lyr">
      <Object name="interior_evac.Steam_Jet_Fast_001" type="ParticleEffect" guid="4d62a088-e1d2-4401-38f9-82ddc466e7ab" tags=""/>
      <Object name="Steam_Vent-004" type="ParticleEffect" guid="4eebe042-cc53-c303-919e-bb97db4eae86" tags=""/>
      <Object name="DRAK_Corsair_Light_Tiny-022" type="Brush" guid="43a3bc00-1a4a-7f0a-926d-d754f75f399d"/>
@@ -363,7 +363,7 @@
      <Object name="Light-156" type="Light" guid="4f276ae1-7d9f-3eed-bf87-b916a75b5c82" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light-158" type="Light" guid="454101c3-6558-78ed-ee04-0b007766b5ab" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="int_foyer_objects" layerHash="312863063" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_foyer/int_foyer_objects.lyr">
+    <Layer name="int_foyer_objects" layerHash="1073470515" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_foyer/int_foyer_objects.lyr">
      <Object name="DRAK_Corsair_Light_Tiny-008" type="Brush" guid="4c517c7c-2cd7-7502-69e6-bcbdba66afba"/>
      <Object name="DRAK_Corsair_Light_Tiny-007" type="Brush" guid="44e774da-d6d6-4b03-5bc4-387ec39bebbd"/>
      <Object name="DRAK_Corsair_Foyer" type="Brush" guid="41d50a7e-4df1-e309-5c0f-f0260dfc518c"/>
@@ -387,7 +387,7 @@
     </Layer>
    </Layer>
    <Layer name="int_mess_hall" layerHash="1436021845" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_mess_hall.lyr">
-    <Layer name="int_mess_hall_SETUP" layerHash="3193015271" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_mess_hall/int_mess_hall_SETUP.lyr">
+    <Layer name="int_mess_hall_SETUP" layerHash="3951423627" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_mess_hall/int_mess_hall_SETUP.lyr">
      <Object name="DRAK_Corsair_Elevator_Floor_Roof" type="Elevator_Floor" guid="45fcea7e-8239-bf04-4616-47944c3193ac" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
      <Object name="DRAK_Corsair_Elevator_Platform" type="DRAK_Corsair_Elevator_Platform" guid="484f61c1-5bf7-090e-55a5-eb63423da690" tags="849b8481-5893-4301-964e-4f39f3e27ad8,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,d8bd85f1-6850-4cd4-a709-f1278da63c7f,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="DRAK_Corsair_Automatic_Door_Elevator_Rails" type="DRAK_Corsair_Automatic_Door_Elevator_Rails" guid="463645eb-f8c0-1d0e-0e9d-c6c729931ab4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,00ead468-9073-485b-a6df-ca6b94053603,9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,0e515dc0-2cd7-4b2e-8578-f14a234f5eed,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,65c060b9-cf53-4706-93e7-9184a27cc9c1,75d84438-295e-409a-8a0f-9a530cc14218,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,81bc340e-4964-4c2d-9689-fdbb23e4fd9f,1a1f10a2-894c-45ca-93d2-4785233c5250,e0f9e2de-6b05-46df-b244-b98e64409a43,5caff6ec-c71b-4e1c-b939-83263471611d,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
@@ -473,7 +473,7 @@
      <Object name="Light-171" type="Light" guid="415a0ee9-e8fe-9af8-057b-3f151a6392b0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light-161" type="Light" guid="4aae6a2c-ac4f-65fd-a204-6c5c07614dab" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="int_mess_hall_objects" layerHash="2142014762" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_mess_hall/int_mess_hall_objects.lyr">
+    <Layer name="int_mess_hall_objects" layerHash="2881290469" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_mess_hall/int_mess_hall_objects.lyr">
      <Object name="SCItemDisplayScreen-009" type="SCItemDisplayScreen" guid="450cffe5-5beb-a907-5993-0ad57cb8218e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,e0f9e2de-6b05-46df-b244-b98e64409a43,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="DRAK_Corsair_Mess_Hall_Chow_Line-002" type="GeomEntity" guid="4e26c77d-7ae9-7d0d-45db-f3b16679c9a1" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
      <Object name="DRAK_Corsair_Control_Door_Wall_Mount_Long-009" type="GeomEntity" guid="47a751e7-1a4e-b510-f484-5aee0d93dba7" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
@@ -572,7 +572,7 @@
      <Object name="EnvironmentProbe_bathroom" type="EnvironmentLight" guid="4c8977bb-eef5-51ee-2073-f628af3663be" tags=""/>
      <Object name="Light-195" type="Light" guid="4ecd26c0-4920-95f6-264d-6d2f0881dc92" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="int_toilet_object" layerHash="809170477" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_toilet/int_toilet_object.lyr">
+    <Layer name="int_toilet_object" layerHash="114378841" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_toilet/int_toilet_object.lyr">
      <Object name="DRAK_Corsair_Control_Door_Wall_Mount_Long-014" type="GeomEntity" guid="498c3373-644d-795a-105e-28e3fa8cfa85" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
      <Object name="DRAK_Corsair_Light_Small-030" type="GeomEntity" guid="42bfe88e-19bd-2774-7966-9eccde5315a9" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
     </Layer>
@@ -605,8 +605,8 @@
      <Object name="FogVolume_turret_left" type="FogVolume" guid="4aeee468-e7b7-93c8-b73b-9b5df35d34b4" tags=""/>
      <Object name="Light-199" type="Light" guid="47bc859b-a35e-27dd-60e1-f6848b871ea1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="int_turret_left_objects" layerHash="478325001" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_turret_left/int_turret_left_objects.lyr">
-     <Object name="GeomEntity" type="GeomEntity" guid="4a6b24d8-49af-c509-df22-bdd48394b398" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
+    <Layer name="int_turret_left_objects" layerHash="3520798254" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_turret_left/int_turret_left_objects.lyr">
+     <Object name="GeomEntity-001" type="GeomEntity" guid="4a6b24d8-49af-c509-df22-bdd48394b398" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
      <Object name="DRAK_Corsair_Light_Small-031" type="GeomEntity" guid="47ec5dab-58bf-672d-345f-02fbdaeb7ba7" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
      <Object name="DRAK_Corsair_Light_Small-032" type="GeomEntity" guid="4df59160-5c83-0680-5479-b02af40abe97" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
      <Object name="DRAK_Corsair_Light_Small-034" type="GeomEntity" guid="444d6186-13a5-f6a4-4a76-4ad33ec578a5" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
@@ -648,7 +648,7 @@
      <Object name="Light-208" type="Light" guid="4a6631a1-a939-e8ec-9e25-e74e0c3475a0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light-207" type="Light" guid="4377deef-0dcf-ecfc-4999-670668b88c9e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="int_turret_right_objects" layerHash="830607937" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_turret_right/int_turret_right_objects.lyr">
+    <Layer name="int_turret_right_objects" layerHash="3638055931" externalLayerFilePath="data/levels/!ship_setup/drak/corsair/Layers/int_body/int_turret_right/int_turret_right_objects.lyr">
      <Object name="DRAK_Corsair_Light_Small-037" type="GeomEntity" guid="4a888378-219e-e632-6bd6-9ff886fee497" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
      <Object name="DRAK_Corsair_Foyer_Right_Turret_Room" type="Brush" guid="41855d13-3283-824d-34cf-ea7be4a7119b"/>
      <Object name="DRAK_Corsair_Light_Small-039" type="GeomEntity" guid="44890c5d-c67e-f34f-a019-1c41d0b7e4bb" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>

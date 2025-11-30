@@ -143,7 +143,7 @@
     <SEntityInteractableParams Type="SEntityInteractableParams">
       <Interactable Type="SInteractableParams">
         <SharedInteractions Type="SSharedInteractionParams" Count="1">
-          <SSharedInteractionParams Pointer="ptr:11" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:10" Type="SSharedInteractionParams">
             <Name>ToggleAlarm</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -183,7 +183,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="5">
-            <SInteractionState Pointer="ptr:9" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:8" Type="SInteractionState">
               <StateName>DEFCON_01_Normal</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -207,7 +207,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:8" Type="SInteractionState">
+            <SInteractionState Type="SInteractionState">
               <StateName>DEFCON_02_Alert</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -281,8 +281,9 @@
               <StateName>DEFCON_05_Critical</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
-              <enterStateEffectTags Type="Tag" Count="1">
-                <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ee5eaa23-2029-464c-91b3-158f1bbfef02" RecordId="ee5eaa23-2029-464c-91b3-158f1bbfef02" />
+              <enterStateEffectTags Type="Tag" Count="2">
+                <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a4c2b6d3-4397-45ab-be65-adc4972dc9f2" RecordId="a4c2b6d3-4397-45ab-be65-adc4972dc9f2" />
+                <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.90a373bf-3ea1-41a4-8789-8d7771bf92f1" RecordId="90a373bf-3ea1-41a4-8789-8d7771bf92f1" />
               </enterStateEffectTags>
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
@@ -335,17 +336,17 @@
                   <aggregateStates Type="SInteractionState" Count="1">
                     <SInteractionState PointsTo="ptr:7" />
                   </aggregateStates>
-                  <state PointsTo="ptr:8" />
+                  <state PointsTo="ptr:5" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="0" />
-                  <state PointsTo="ptr:9" />
+                  <state PointsTo="ptr:8" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:10" />
+                    <SInteractionState PointsTo="ptr:9" />
                   </aggregateStates>
-                  <state PointsTo="ptr:9" />
+                  <state PointsTo="ptr:8" />
                 </AggregateStateParams>
               </aggregateStateParams>
             </AggregateStateModifier>
@@ -358,7 +359,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:12" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:11" Type="SInteractionState">
               <StateName>DEFCONRequest_Idle</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -371,7 +372,7 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:11" />
+                  <Interaction PointsTo="ptr:10" />
                   <NextState PointsTo="ptr:6" />
                 </SInteractionStateTransition>
               </Interactions>
@@ -397,8 +398,8 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:11" />
-                  <NextState PointsTo="ptr:12" />
+                  <Interaction PointsTo="ptr:10" />
+                  <NextState PointsTo="ptr:11" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -441,7 +442,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:14" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:13" Type="SInteractionState">
               <StateName>ShipHealth_Normal</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -514,7 +515,7 @@
           <StateModifiers Type="SStateModifier" Count="1">
             <SLinkedInteractionStateChangedStateModifier Type="SLinkedInteractionStateChangedStateModifier">
               <context Type="SEntityTraversalNodeContext">
-                <entityTraversalNode PointsTo="ptr:13" />
+                <entityTraversalNode PointsTo="ptr:12" />
               </context>
               <onChangeStateTagStates Type="SLinkedInteractionStateTags" Count="3">
                 <SLinkedInteractionStateTags Type="SLinkedInteractionStateTags">
@@ -525,7 +526,7 @@
                   </stateTags>
                   <isANDList>False</isANDList>
                   <checkAllEntities>False</checkAllEntities>
-                  <state PointsTo="ptr:14" />
+                  <state PointsTo="ptr:13" />
                 </SLinkedInteractionStateTags>
                 <SLinkedInteractionStateTags Type="SLinkedInteractionStateTags">
                   <stateTags Type="TagList">
@@ -559,7 +560,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:10" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:9" Type="SInteractionState">
               <StateName>Normal</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -626,7 +627,7 @@
           <StateModifiers Type="SStateModifier" Count="1">
             <SLinkedInteractionStateChangedStateModifier Type="SLinkedInteractionStateChangedStateModifier">
               <context Type="SEntityTraversalNodeReferenceContext">
-                <traversingNode PointsTo="ptr:15" />
+                <traversingNode PointsTo="ptr:14" />
               </context>
               <onChangeStateTagStates Type="SLinkedInteractionStateTags" Count="3">
                 <SLinkedInteractionStateTags Type="SLinkedInteractionStateTags">
@@ -657,7 +658,7 @@
                   </stateTags>
                   <isANDList>False</isANDList>
                   <checkAllEntities>False</checkAllEntities>
-                  <state PointsTo="ptr:10" />
+                  <state PointsTo="ptr:9" />
                 </SLinkedInteractionStateTags>
               </onChangeStateTagStates>
               <nullEntityState PointsTo="ptr:3" />
@@ -687,9 +688,9 @@ Link this to Power Source</text>
     </SEntityComponentSequencerParams>
     <SEntityTraversingTreeParams Type="SEntityTraversingTreeParams">
       <TraversingNodes Type="SEntityTraversingNodeBase" Count="1">
-        <SEntityTraversingNodeBase Pointer="ptr:15" Type="SEntityTraversingNodeBase">
+        <SEntityTraversingNodeBase Pointer="ptr:14" Type="SEntityTraversingNodeBase">
           <name />
-          <id Pointer="ptr:13" Type="SEntityTraversingNodeUniqueId">
+          <id Pointer="ptr:12" Type="SEntityTraversingNodeUniqueId">
             <id RecordId="7adea26f-2ac5-47b3-8231-e85b9867f7e1" RecordName="SEntityTraversingNodeId.ChipSet_DEFCON__ZoneHostVehicle" Type="SEntityTraversingNodeId" />
           </id>
           <entityTraversingType Type="SEntityTraversingNodeTypeZoneHostVehicle">
@@ -708,12 +709,12 @@ Link this to Power Source</text>
         <soundEffects Type="SEntityEffectSystem_SoundCategory">
           <enabled>True</enabled>
           <allowMultipleTags>True</allowMultipleTags>
-          <tagEffects Type="SEntityEffectSystem_SoundTagEffect" Count="1">
+          <tagEffects Type="SEntityEffectSystem_SoundTagEffect" Count="2">
             <SEntityEffectSystem_SoundTagEffect Type="SEntityEffectSystem_SoundTagEffect">
               <name>AlarmLoop</name>
               <enabled>True</enabled>
               <soundEffect Type="GlobalResourceAudio">
-                <audioTrigger>Play_STAM_SM_Spinning_Alarm_01</audioTrigger>
+                <audioTrigger>Play_ENVA_ResourceNetwork_Alarm</audioTrigger>
               </soundEffect>
               <multiPosition>False</multiPosition>
               <useDefaultProxy>False</useDefaultProxy>
@@ -733,7 +734,33 @@ Link this to Power Source</text>
                 <offsetParameter />
               </attachmentSettings>
               <propertyLinks Type="SEntityEffectSystem_SoundPropertyLink" Count="0" />
-              <tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ee5eaa23-2029-464c-91b3-158f1bbfef02" RecordId="ee5eaa23-2029-464c-91b3-158f1bbfef02" />
+              <tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a4c2b6d3-4397-45ab-be65-adc4972dc9f2" RecordId="a4c2b6d3-4397-45ab-be65-adc4972dc9f2" />
+            </SEntityEffectSystem_SoundTagEffect>
+            <SEntityEffectSystem_SoundTagEffect Type="SEntityEffectSystem_SoundTagEffect">
+              <name>AlarmTannoy</name>
+              <enabled>True</enabled>
+              <soundEffect Type="GlobalResourceAudio">
+                <audioTrigger>Play_ENVA_ResourceNetwork_Warning_ExplosionImminent</audioTrigger>
+              </soundEffect>
+              <multiPosition>False</multiPosition>
+              <useDefaultProxy>False</useDefaultProxy>
+              <attachmentSettings Type="SEntityEffectSystem_Attachment_EntitySlot">
+                <offset Type="QuatT">
+                  <Rotation Type="Ang3">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </Rotation>
+                  <Position Type="Vec3">
+                    <x>0</x>
+                    <y>0</y>
+                    <z>0</z>
+                  </Position>
+                </offset>
+                <offsetParameter />
+              </attachmentSettings>
+              <propertyLinks Type="SEntityEffectSystem_SoundPropertyLink" Count="0" />
+              <tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.90a373bf-3ea1-41a4-8789-8d7771bf92f1" RecordId="90a373bf-3ea1-41a4-8789-8d7771bf92f1" />
             </SEntityEffectSystem_SoundTagEffect>
           </tagEffects>
           <triggerEffects Type="SEntityEffectSystem_SoundTriggerEffect" Count="0" />

@@ -30,6 +30,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_ANVL_F8_Lightning_Cockpit_Power_Unit">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_ANVL_F8_Lightning_Cockpit_Power_Unit" wwise_radius_max="0" />
@@ -90,8 +91,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_ANVL_F8_Lightning_Surge">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_ANVL_F8_Lightning_Surge" wwise_radius_max="50" />
@@ -147,8 +150,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_ANVL_F8_Lightning_Rotation_Roll_Left">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_ANVL_F8_Lightning_Rotation_Roll_Left" wwise_radius_max="20" />
@@ -183,6 +188,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_ANVL_F8_Lightning_Strafe_Left">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_ANVL_F8_Lightning_Strafe_Left" wwise_radius_max="0" />
@@ -213,6 +219,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_ANVL_F8_Lightning_Strafe_Left">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_ANVL_F8_Lightning_Strafe_Left" wwise_radius_max="75" />
@@ -243,6 +250,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_ANVL_F8_Lightning_Cockpit_Power_Unit">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_ANVL_F8_Lightning_Cockpit_Power_Unit" wwise_radius_max="10" />
@@ -303,8 +311,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_ANVL_F8_Lightning_Rotation_Pitch">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_ANVL_F8_Lightning_Rotation_Pitch" wwise_radius_max="20" />
@@ -339,6 +349,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_ANVL_F8_Lightning_Rotation_Roll_Right">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_ANVL_F8_Lightning_Rotation_Roll_Right" wwise_radius_max="0" />
@@ -373,6 +384,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_ANVL_F8_Lightning_Surge">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_ANVL_F8_Lightning_Surge" wwise_radius_max="0" />
@@ -428,8 +440,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_ANVL_F8_Lightning_Afterburner_Sweeteners">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_ANVL_F8_Lightning_Afterburner_Sweeteners" wwise_radius_max="50" />
@@ -485,8 +499,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_ANVL_F8_Lightning_Strafe_Back_Up_Down">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_ANVL_F8_Lightning_Strafe_Back_Up_Down" wwise_radius_max="0" />
@@ -538,8 +554,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_ANVL_F8_Lightning_Cockpit_Tone">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_ANVL_F8_Lightning_Cockpit_Tone" wwise_radius_max="50" />
@@ -597,8 +615,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_ANVL_F8_Lightning_Strafe_Back_Up_Down">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_ANVL_F8_Lightning_Strafe_Back_Up_Down" wwise_radius_max="75" />
@@ -650,8 +670,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_ANVL_F8_Lightning_Rotation_Roll_Right">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_ANVL_F8_Lightning_Rotation_Roll_Right" wwise_radius_max="20" />
@@ -686,6 +708,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_ANVL_F8_Lightning_Rotation_Yaw_Left">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_ANVL_F8_Lightning_Rotation_Yaw_Left" wwise_radius_max="0" />
@@ -720,6 +743,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_ANVL_F8_Lightning_Rotation_Yaw_Right">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_ANVL_F8_Lightning_Rotation_Yaw_Right" wwise_radius_max="0" />
@@ -754,6 +778,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_ANVL_F8_Lightning_Afterburner_Sweeteners">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_ANVL_F8_Lightning_Afterburner_Sweeteners" wwise_radius_max="0" />
@@ -809,8 +834,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_ANVL_F8_Lightning_Rotation_Pitch">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_ANVL_F8_Lightning_Rotation_Pitch" wwise_radius_max="0" />
@@ -845,6 +872,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_ANVL_F8_Lightning_Cockpit_Tone">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_ANVL_F8_Lightning_Cockpit_Tone" wwise_radius_max="0" />
@@ -902,8 +930,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_ANVL_F8_Lightning_Rotation_Roll_Left">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_ANVL_F8_Lightning_Rotation_Roll_Left" wwise_radius_max="0" />
@@ -938,6 +968,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_ANVL_F8_Lightning_Rotation_Yaw_Left">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_ANVL_F8_Lightning_Rotation_Yaw_Left" wwise_radius_max="20" />
@@ -972,6 +1003,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_ANVL_F8_Lightning_Rotation_Yaw_Right">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_ANVL_F8_Lightning_Rotation_Yaw_Right" wwise_radius_max="20" />
@@ -1006,6 +1038,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_ANVL_F8_Lightning_Strafe_Right">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_ANVL_F8_Lightning_Strafe_Right" wwise_radius_max="0" />
@@ -1036,6 +1069,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -1048,4 +1082,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

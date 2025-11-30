@@ -20,10 +20,10 @@
         <blockedInteractionAttemptMonologue />
       </conditionDisplay>
       <conditionResult>Pass</conditionResult>
-      <itemTypes Type="StatusEffectValue" Count="1">
+      <itemTypes Type="ProbabilisticStatusEffect" Count="1">
         <EnumChoice>Char_Armor_Undersuit</EnumChoice>
       </itemTypes>
-      <itemSubTypes Type="SpeedThreshold" Count="0" />
+      <itemSubTypes Type="StatusEffect" Count="0" />
       <ignoreItemPorts Type="ActivityBehaviorRequestCondition" Count="5">
         <String>weapon_attach_hand_right</String>
         <String>weapon_attach_hand_left</String>
@@ -120,10 +120,10 @@
           <blockedInteractionAttemptMonologue />
         </conditionDisplay>
         <conditionResult>Fail</conditionResult>
-        <itemTypes Type="StatusEffectValue" Count="1">
+        <itemTypes Type="ProbabilisticStatusEffect" Count="1">
           <EnumChoice>Char_Armor_Helmet</EnumChoice>
         </itemTypes>
-        <itemSubTypes Type="SpeedThreshold" Count="0" />
+        <itemSubTypes Type="StatusEffect" Count="0" />
         <ignoreItemPorts Type="ActivityBehaviorRequestCondition" Count="0" />
       </secondCondition>
     </InteractionConditionOR>
@@ -140,17 +140,18 @@
         <blockedInteractionAttemptMonologue />
       </conditionDisplay>
       <conditionResult>Fail</conditionResult>
-      <itemTypes Type="StatusEffectValue" Count="1">
+      <itemTypes Type="ProbabilisticStatusEffect" Count="1">
         <EnumChoice>Char_Armor_Helmet</EnumChoice>
       </itemTypes>
-      <itemSubTypes Type="SpeedThreshold" Count="0" />
-      <ignoreItemPorts Type="ActivityBehaviorRequestCondition" Count="6">
+      <itemSubTypes Type="StatusEffect" Count="0" />
+      <ignoreItemPorts Type="ActivityBehaviorRequestCondition" Count="7">
         <String>weapon_attach_hand_right</String>
         <String>weapon_attach_hand_left</String>
         <String>magic_pocket</String>
         <String>inventory_pocket</String>
         <String>inventory_pocket_2</String>
         <String>helmethook_attach</String>
+        <String>Hair_Ext_ItemPort</String>
       </ignoreItemPorts>
     </InteractionConditionActorHasAttachedEntityTypes>
   </conditions>
@@ -172,7 +173,7 @@
       <conditionDisplay />
       <firstCondition Type="InteractionConditionGameMode">
         <conditionDisplay />
-        <gameModes Type="SActorProceduralHandsRecoilCurveModifiersDef" Count="1">
+        <gameModes Type="ActorProceduralRecoilConfig" Count="1">
           <EnumChoice>S42_Default</EnumChoice>
         </gameModes>
       </firstCondition>

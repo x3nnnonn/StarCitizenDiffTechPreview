@@ -146,7 +146,7 @@
           </Offset>
           <boneName>animated_body</boneName>
           <shouldRequestNavMeshRegenerationOnLoad>False</shouldRequestNavMeshRegenerationOnLoad>
-          <resourceNetworkItemportName />
+          <resourceNetworkItemportName>hardpoint_relay_cockpit</resourceNetworkItemportName>
         </SVehicleObjectContainerParams>
         <SVehicleObjectContainerParams Type="SVehicleObjectContainerParams">
           <fileName>ObjectContainers/Ships/MISC/Fury/misc_fury_lightgroups_lx.socpak</fileName>
@@ -165,7 +165,7 @@
           </Offset>
           <boneName>animated_body</boneName>
           <shouldRequestNavMeshRegenerationOnLoad>False</shouldRequestNavMeshRegenerationOnLoad>
-          <resourceNetworkItemportName />
+          <resourceNetworkItemportName>hardpoint_relay_cockpit</resourceNetworkItemportName>
         </SVehicleObjectContainerParams>
       </objectContainers>
       <physicsGrid Type="SVehiclePhysicsGridParams">
@@ -202,7 +202,7 @@
         <y>0</y>
         <z>0</z>
       </landingRotationOffset>
-      <fusePenetrationDamageMultiplier>0.001</fusePenetrationDamageMultiplier>
+      <fusePenetrationDamageMultiplier>0.05</fusePenetrationDamageMultiplier>
       <componentPenetrationDamageMultiplier>0.5</componentPenetrationDamageMultiplier>
     </VehicleComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
@@ -659,7 +659,7 @@
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
-          <SItemPortLoadoutEntryParams Pointer="ptr:28" Type="SItemPortLoadoutEntryParams">
+          <SItemPortLoadoutEntryParams Pointer="ptr:30" Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_door_front</itemPortName>
             <entityClassName />
             <entityClassReference />
@@ -668,8 +668,8 @@
           </SItemPortLoadoutEntryParams>
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_relay_cockpit</itemPortName>
-            <entityClassName>RELAY_2slot</entityClassName>
-            <entityClassReference />
+            <entityClassName />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/relay/relay_1slot_mrai_pulse.xml" />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
@@ -717,7 +717,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:15" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:17" Type="SSharedInteractionParams">
             <Name>ShipTransformDeploy</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -736,7 +736,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:19" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:21" Type="SSharedInteractionParams">
             <Name>ShipTransformRetract</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -755,7 +755,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:17" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:19" Type="SSharedInteractionParams">
             <Name>ShipTransformCycle</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -774,7 +774,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:7" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:9" Type="SSharedInteractionParams">
             <Name>ShipForceRetract</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -793,7 +793,7 @@
             <conditionList />
             <playerAnimatedInteractionBase />
           </SSharedInteractionParams>
-          <SSharedInteractionParams Pointer="ptr:4" Type="SSharedInteractionParams">
+          <SSharedInteractionParams Pointer="ptr:6" Type="SSharedInteractionParams">
             <Name>ShipForceDeploy</Name>
             <QueryTags Type="Tag" Count="0" />
             <RoomTag />
@@ -815,11 +815,11 @@
         </SharedInteractions>
         <InteractionPoints Type="SInteractionPointParams" Count="0" />
         <interactionTasks Type="SSequencerInteractionTask" Count="2">
-          <SSequencerInteractionTask Pointer="ptr:26" Type="SSequencerInteractionTask">
+          <SSequencerInteractionTask Pointer="ptr:28" Type="SSequencerInteractionTask">
             <interaction>ShipForceDeploy</interaction>
             <triggerType>Self</triggerType>
           </SSequencerInteractionTask>
-          <SSequencerInteractionTask Pointer="ptr:27" Type="SSequencerInteractionTask">
+          <SSequencerInteractionTask Pointer="ptr:29" Type="SSequencerInteractionTask">
             <interaction>ShipForceRetract</interaction>
             <triggerType>Self</triggerType>
           </SSequencerInteractionTask>
@@ -3512,7 +3512,7 @@
         </SMasterModeParams>
         <SMasterModeParams Type="SMasterModeParams">
           <available>True</available>
-          <spoolTime>1</spoolTime>
+          <spoolTime>5</spoolTime>
         </SMasterModeParams>
         <SMasterModeParams Type="SMasterModeParams">
           <available>True</available>
@@ -3668,6 +3668,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -3696,6 +3699,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -3724,6 +3730,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -5737,7 +5746,7 @@
             <z>-1</z>
           </detachDirection>
         </SItemPortDef>
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:4" Type="SItemPortDef">
           <Name>hardpoint_fuel_port</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags>Ship_Dock_Refuel</PortTags>
@@ -5781,7 +5790,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>DockingCollar</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5873,7 +5882,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AirTrafficController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5943,12 +5952,12 @@
             <z>-1</z>
           </detachDirection>
         </SItemPortDef>
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:5" Type="SItemPortDef">
           <Name>hardpoint_relay_cockpit</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
           <RequiredPortTags />
-          <Flags>invisible uneditable</Flags>
+          <Flags>$uneditable</Flags>
           <Tags Type="Tag" Count="0" />
           <OnAttachTags Type="Tag" Count="0" />
           <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
@@ -5987,7 +5996,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5995,17 +6004,17 @@
             <Helper Type="SItemPortDefHelperNode">
               <Tags />
               <Helper Type="SItemPortDefHelper">
-                <Name>MISC_Fury</Name>
+                <Name>hardpoint_radar</Name>
                 <Offset Type="QuatT">
                   <Rotation Type="Ang3">
                     <x>0</x>
                     <y>0</y>
-                    <z>-90</z>
+                    <z>0</z>
                   </Rotation>
                   <Position Type="Vec3">
-                    <x>0.6724</x>
-                    <y>-0.0313</y>
-                    <z>-0.2584</z>
+                    <x>0.1509</x>
+                    <y>0</y>
+                    <z>0.3222</z>
                   </Position>
                 </Offset>
                 <ItemOffsetHelperName />
@@ -6039,11 +6048,225 @@
       <PortFlags />
       <PortTags />
       <RequiredItemTags />
-      <InternalResourceLinks Type="SInternalResourceLink" Count="0" />
-      <InternalHardpointLinks Type="SInternalHardpointLink" Count="0" />
-      <LinkAllItemsToResourceNetwork>True</LinkAllItemsToResourceNetwork>
+      <InternalResourceLinks Type="SInternalResourceLink" Count="1">
+        <SInternalResourceLink Type="SInternalResourceLink">
+          <port1 PointsTo="ptr:4" />
+          <port2 PointsTo="ptr:5" />
+        </SInternalResourceLink>
+      </InternalResourceLinks>
+      <InternalHardpointLinks Type="SInternalHardpointLink" Count="52">
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_flight</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_controller_shield</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_seat_pilot</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_cooler_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_cooler_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_fuel_tank</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_fuel_intake</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_power_plant</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_shield_generator</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_radar</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_lifesupport</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_avionics</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_front_bottom_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_front_bottom_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_front_side_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_front_side_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_front_top_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_front_top_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_rear_bottom_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_rear_bottom_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_rear_side_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_rear_side_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_rear_top_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_rear_top_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_main_top_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_main_top_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_main_bottom_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_main_bottom_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_retro_top_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_retro_top_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_retro_bottom_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_retro_bottom_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_weapon_top_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_weapon_top_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_weapon_bottom_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_weapon_bottom_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_missile_top_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_missile_top_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_missile_bottom_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_missile_bottom_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_countermeasures_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_countermeasures_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_weapon_inner_tl</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_weapon_inner_tr</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_weapon_inner_bl</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_weapon_inner_br</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_door_front</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_cockpit_selfDestruct</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_mid_top_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_mid_top_right</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_mid_bottom_left</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay_cockpit</port1>
+          <port2>hardpoint_thruster_mid_bottom_right</port2>
+        </SInternalHardpointLink>
+      </InternalHardpointLinks>
+      <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
-      <doorsIgnorePower>False</doorsIgnorePower>
+      <doorsIgnorePower>True</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="8">
@@ -6115,7 +6338,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:29" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:31" Type="SInteractionState">
               <StateName>Normal</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6138,7 +6361,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:30" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:32" Type="SInteractionState">
               <StateName>Aux/Warning</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6162,7 +6385,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:31" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:33" Type="SInteractionState">
               <StateName>Critical</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6195,7 +6418,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="4">
-            <SInteractionState Pointer="ptr:9" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:11" Type="SInteractionState">
               <StateName>WingsRetracted</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6231,8 +6454,8 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:4" />
-                  <NextState PointsTo="ptr:5" />
+                  <Interaction PointsTo="ptr:6" />
+                  <NextState PointsTo="ptr:7" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -6244,7 +6467,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:5" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:7" Type="SInteractionState">
               <StateName>WingsDeploying</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6278,14 +6501,14 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange Type="SStateAutoChange">
-                <NextState PointsTo="ptr:6" />
+                <NextState PointsTo="ptr:8" />
                 <Delay>3</Delay>
                 <RunWhenStreamedOut>False</RunWhenStreamedOut>
               </StateAutoChange>
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:7" />
-                  <NextState PointsTo="ptr:8" />
+                  <Interaction PointsTo="ptr:9" />
+                  <NextState PointsTo="ptr:10" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -6297,7 +6520,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:6" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:8" Type="SInteractionState">
               <StateName>WingsDeployed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6333,8 +6556,8 @@
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:7" />
-                  <NextState PointsTo="ptr:8" />
+                  <Interaction PointsTo="ptr:9" />
+                  <NextState PointsTo="ptr:10" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -6346,7 +6569,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:8" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:10" Type="SInteractionState">
               <StateName>WingsRetracting</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6380,14 +6603,14 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange Type="SStateAutoChange">
-                <NextState PointsTo="ptr:9" />
+                <NextState PointsTo="ptr:11" />
                 <Delay>3</Delay>
                 <RunWhenStreamedOut>False</RunWhenStreamedOut>
               </StateAutoChange>
               <Interactions Type="SInteractionStateTransition" Count="1">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:4" />
-                  <NextState PointsTo="ptr:5" />
+                  <Interaction PointsTo="ptr:6" />
+                  <NextState PointsTo="ptr:7" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -6409,7 +6632,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="4">
-            <SInteractionState Pointer="ptr:12" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:14" Type="SInteractionState">
               <StateName>GearDeployed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6419,7 +6642,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
               <ExitEventDispatchers Type="EventDispatcher" Count="0" />
-              <EnterStatePlaySequence PointsTo="ptr:10" />
+              <EnterStatePlaySequence PointsTo="ptr:12" />
               <ExitStatePlaySequence />
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="0" />
@@ -6432,7 +6655,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:13" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:15" Type="SInteractionState">
               <StateName>GearRetracting</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6455,7 +6678,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:14" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:16" Type="SInteractionState">
               <StateName>GearRetracted</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6478,7 +6701,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:11" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:13" Type="SInteractionState">
               <StateName>GearDeploying</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6488,7 +6711,7 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
               <ExitEventDispatchers Type="EventDispatcher" Count="0" />
-              <EnterStatePlaySequence PointsTo="ptr:10" />
+              <EnterStatePlaySequence PointsTo="ptr:12" />
               <ExitStatePlaySequence />
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="0" />
@@ -6505,10 +6728,10 @@
           <StateModifiers Type="SStateModifier" Count="1">
             <LandingGearStateModifier Type="LandingGearStateModifier">
               <context Type="AttachableStateModifierContext_Self" />
-              <deploying PointsTo="ptr:11" />
-              <deployed PointsTo="ptr:12" />
-              <retracting PointsTo="ptr:13" />
-              <retracted PointsTo="ptr:14" />
+              <deploying PointsTo="ptr:13" />
+              <deployed PointsTo="ptr:14" />
+              <retracting PointsTo="ptr:15" />
+              <retracted PointsTo="ptr:16" />
             </LandingGearStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -6519,7 +6742,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:20" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:22" Type="SInteractionState">
               <StateName>Control_Retracted</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6527,17 +6750,17 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
               <ExitEventDispatchers Type="EventDispatcher" Count="0" />
-              <EnterStatePlaySequence PointsTo="ptr:10" />
+              <EnterStatePlaySequence PointsTo="ptr:12" />
               <ExitStatePlaySequence />
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="2">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:15" />
-                  <NextState PointsTo="ptr:16" />
+                  <Interaction PointsTo="ptr:17" />
+                  <NextState PointsTo="ptr:18" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:17" />
-                  <NextState PointsTo="ptr:16" />
+                  <Interaction PointsTo="ptr:19" />
+                  <NextState PointsTo="ptr:18" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -6549,7 +6772,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:16" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:18" Type="SInteractionState">
               <StateName>Control_Deployed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6557,17 +6780,17 @@
               <exitStateEffectTags Type="Tag" Count="0" />
               <EnterEventDispatchers Type="EventDispatcher" Count="0" />
               <ExitEventDispatchers Type="EventDispatcher" Count="0" />
-              <EnterStatePlaySequence PointsTo="ptr:18" />
+              <EnterStatePlaySequence PointsTo="ptr:20" />
               <ExitStatePlaySequence />
               <StateAutoChange />
               <Interactions Type="SInteractionStateTransition" Count="2">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:19" />
-                  <NextState PointsTo="ptr:20" />
+                  <Interaction PointsTo="ptr:21" />
+                  <NextState PointsTo="ptr:22" />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
-                  <Interaction PointsTo="ptr:17" />
-                  <NextState PointsTo="ptr:20" />
+                  <Interaction PointsTo="ptr:19" />
+                  <NextState PointsTo="ptr:22" />
                 </SInteractionStateTransition>
               </Interactions>
               <interactionPoints Type="SInteractionPointParams" Count="0" />
@@ -6579,7 +6802,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:21" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:23" Type="SInteractionState">
               <StateName>ControlLocked</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6606,33 +6829,33 @@
               <aggregateStateParams Type="AggregateStateParams" Count="5">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:12" />
+                    <SInteractionState PointsTo="ptr:14" />
                   </aggregateStates>
-                  <state PointsTo="ptr:21" />
+                  <state PointsTo="ptr:23" />
+                </AggregateStateParams>
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="1">
+                    <SInteractionState PointsTo="ptr:13" />
+                  </aggregateStates>
+                  <state PointsTo="ptr:23" />
+                </AggregateStateParams>
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="1">
+                    <SInteractionState PointsTo="ptr:24" />
+                  </aggregateStates>
+                  <state PointsTo="ptr:23" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
                     <SInteractionState PointsTo="ptr:11" />
                   </aggregateStates>
-                  <state PointsTo="ptr:21" />
+                  <state PointsTo="ptr:22" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:22" />
+                    <SInteractionState PointsTo="ptr:8" />
                   </aggregateStates>
-                  <state PointsTo="ptr:21" />
-                </AggregateStateParams>
-                <AggregateStateParams Type="AggregateStateParams">
-                  <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:9" />
-                  </aggregateStates>
-                  <state PointsTo="ptr:20" />
-                </AggregateStateParams>
-                <AggregateStateParams Type="AggregateStateParams">
-                  <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:6" />
-                  </aggregateStates>
-                  <state PointsTo="ptr:16" />
+                  <state PointsTo="ptr:18" />
                 </AggregateStateParams>
               </aggregateStateParams>
             </AggregateStateModifier>
@@ -6645,7 +6868,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:23" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:25" Type="SInteractionState">
               <StateName>WingsStopped</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6668,7 +6891,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:22" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:24" Type="SInteractionState">
               <StateName>WingsMoving</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6697,27 +6920,27 @@
               <aggregateStateParams Type="AggregateStateParams" Count="4">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:9" />
+                    <SInteractionState PointsTo="ptr:11" />
                   </aggregateStates>
-                  <state PointsTo="ptr:23" />
-                </AggregateStateParams>
-                <AggregateStateParams Type="AggregateStateParams">
-                  <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:6" />
-                  </aggregateStates>
-                  <state PointsTo="ptr:23" />
+                  <state PointsTo="ptr:25" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
                     <SInteractionState PointsTo="ptr:8" />
                   </aggregateStates>
-                  <state PointsTo="ptr:22" />
+                  <state PointsTo="ptr:25" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:5" />
+                    <SInteractionState PointsTo="ptr:10" />
                   </aggregateStates>
-                  <state PointsTo="ptr:22" />
+                  <state PointsTo="ptr:24" />
+                </AggregateStateParams>
+                <AggregateStateParams Type="AggregateStateParams">
+                  <aggregateStates Type="SInteractionState" Count="1">
+                    <SInteractionState PointsTo="ptr:7" />
+                  </aggregateStates>
+                  <state PointsTo="ptr:24" />
                 </AggregateStateParams>
               </aggregateStateParams>
             </AggregateStateModifier>
@@ -6730,7 +6953,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:25" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:27" Type="SInteractionState">
               <StateName>NotLanded</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6751,7 +6974,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:24" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:26" Type="SInteractionState">
               <StateName>Landed</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -6778,8 +7001,8 @@
           <StateModifiers Type="SStateModifier" Count="1">
             <LandingGearContactStateModifier Type="LandingGearContactStateModifier">
               <context Type="AttachableStateModifierContext_Self" />
-              <landed PointsTo="ptr:24" />
-              <notLanded PointsTo="ptr:25" />
+              <landed PointsTo="ptr:26" />
+              <notLanded PointsTo="ptr:27" />
             </LandingGearContactStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -6787,24 +7010,24 @@
     </SInteractionStateMachineParams>
     <SEntityComponentSequencerParams Type="SEntityComponentSequencerParams">
       <sequences Type="SSequencerDefSequenceParams" Count="2">
-        <SReplicatedSequencerDefSequenceParams Pointer="ptr:18" Type="SReplicatedSequencerDefSequenceParams">
+        <SReplicatedSequencerDefSequenceParams Pointer="ptr:20" Type="SReplicatedSequencerDefSequenceParams">
           <name>DeployWings</name>
           <interaction />
           <taskEntries Type="SSequencerSequenceTaskEntryParams" Count="1">
             <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
-              <task PointsTo="ptr:26" />
+              <task PointsTo="ptr:28" />
               <postDelay>0</postDelay>
               <dependentTasks Type="SSequencerDefTaskParams" Count="0" />
               <haltOnFailure>True</haltOnFailure>
             </SSequencerSequenceTaskEntryParams>
           </taskEntries>
         </SReplicatedSequencerDefSequenceParams>
-        <SReplicatedSequencerDefSequenceParams Pointer="ptr:10" Type="SReplicatedSequencerDefSequenceParams">
+        <SReplicatedSequencerDefSequenceParams Pointer="ptr:12" Type="SReplicatedSequencerDefSequenceParams">
           <name>RetractWings</name>
           <interaction />
           <taskEntries Type="SSequencerSequenceTaskEntryParams" Count="1">
             <SSequencerSequenceTaskEntryParams Type="SSequencerSequenceTaskEntryParams">
-              <task PointsTo="ptr:27" />
+              <task PointsTo="ptr:29" />
               <postDelay>0</postDelay>
               <dependentTasks Type="SSequencerDefTaskParams" Count="0" />
               <haltOnFailure>True</haltOnFailure>
@@ -6906,7 +7129,7 @@
         <snowEnabled>False</snowEnabled>
       </overrideControls>
       <renderNodeLoadoutEntries Type="SItemPortLoadoutEntryParams" Count="1">
-        <SItemPortLoadoutEntryParams PointsTo="ptr:28" />
+        <SItemPortLoadoutEntryParams PointsTo="ptr:30" />
       </renderNodeLoadoutEntries>
     </SurfaceRaindropsComponentParams>
     <SubsumptionMissionLinkComponentParams Type="SubsumptionMissionLinkComponentParams" />
@@ -7064,12 +7287,12 @@
       </adapters>
     </AINavigationDynamicTriggerComponent>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="HealthIconData" Count="2">
+      <perceptionTypes Type="ActorStatusUIWarning" Count="2">
         <EnumChoice>Vehicle</EnumChoice>
         <EnumChoice>Spaceship</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
+      <excludedSenses Type="ActorStatusPreset" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
       <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
       <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />
@@ -7096,9 +7319,9 @@
       <shotAlertTime>1</shotAlertTime>
     </AnnunciatorProviderParams>
     <EntityComponentResourceNetworkUIProviderParams Type="EntityComponentResourceNetworkUIProviderParams">
-      <normalState PointsTo="ptr:29" />
-      <auxState PointsTo="ptr:30" />
-      <criticalState PointsTo="ptr:31" />
+      <normalState PointsTo="ptr:31" />
+      <auxState PointsTo="ptr:32" />
+      <criticalState PointsTo="ptr:33" />
     </EntityComponentResourceNetworkUIProviderParams>
     <AtmosphericFlightDataParams Type="AtmosphericFlightDataParams" />
     <PositionTrackerComponentParams Type="PositionTrackerComponentParams" />

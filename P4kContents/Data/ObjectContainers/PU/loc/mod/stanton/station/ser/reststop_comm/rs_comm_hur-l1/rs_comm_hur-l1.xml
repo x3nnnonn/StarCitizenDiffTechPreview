@@ -1,4 +1,4 @@
-<ObjectContainer version="11" name="rs_comm_hur-l1" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="1121" entityCountDynamic="37" entityCountUnique="0" minBounds="-60.834547999999998,-38.999996000000003,-9" maxBounds="122.00000799999999,57.000003999999997,37" gridRadius="102.27048" radius="282.75488" crcSOC="3518864508">
+<ObjectContainer version="11" name="rs_comm_hur-l1" tags="" type="" editorBuildChangelist="10717593" entityCountPLA="0" entityCountALE="0" entityCountStatic="1121" entityCountDynamic="37" entityCountUnique="0" minBounds="-60.834547999999998,-38.999996000000003,-9" maxBounds="122.00000799999999,57.000003999999997,37" gridRadius="102.27048" radius="282.75488" crcSOC="1767890964">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
@@ -8,15 +8,19 @@
    <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8"/>
    <Tag TagId="612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
    <Tag TagId="04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-   <Tag TagId="a7c06cc7-a715-43b3-93b6-486483f26d18"/>
-   <Tag TagId="202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
-   <Tag TagId="1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+   <Tag TagId="5ace9427-e331-45f9-9816-531026a2da04"/>
+   <Tag TagId="b5e7e39d-18cd-42d8-85b0-7862c0075765"/>
+   <Tag TagId="c4ec8876-3979-4a9d-9d1c-83375094c9b7"/>
+   <Tag TagId="afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+   <Tag TagId="e0f9e2de-6b05-46df-b244-b98e64409a43"/>
+   <Tag TagId="eac0031a-3373-451e-80cc-4148d13a213d"/>
    <Tag TagId="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
    <Tag TagId="f17ed08f-6f21-448f-843c-c8c429b048d4"/>
    <Tag TagId="a9842535-5d8f-460b-bc21-447a70025802"/>
    <Tag TagId="aea96340-3d6a-4cd8-9060-8c65b2bea8b2"/>
-   <Tag TagId="c4ec8876-3979-4a9d-9d1c-83375094c9b7"/>
-   <Tag TagId="afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+   <Tag TagId="a7c06cc7-a715-43b3-93b6-486483f26d18"/>
+   <Tag TagId="202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
+   <Tag TagId="1a1f10a2-894c-45ca-93d2-4785233c5250"/>
    <Tag TagId="fb1b0b03-f91f-4b1a-8683-17a8e6b10296"/>
    <Tag TagId="a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
    <Tag TagId="d88a4dd7-8289-4a29-b8c2-59fdaf276c93"/>
@@ -41,7 +45,6 @@
    <Tag TagId="f1b1052f-f3b0-4f44-b809-96380bfc4e97"/>
    <Tag TagId="98bc02b0-7537-4137-8881-30288a7231b9"/>
    <Tag TagId="dde81bc1-c444-43a6-b2ec-18fd360bc066"/>
-   <Tag TagId="e0f9e2de-6b05-46df-b244-b98e64409a43"/>
    <Tag TagId="da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
    <Tag TagId="ec205446-476b-4606-9607-776d9cbc84cc"/>
    <Tag TagId="0134fec9-cd4c-4708-8854-b1368d8ee286"/>
@@ -61,13 +64,13 @@
    <Tag TagId="6cc436b2-e716-4427-9ab1-a9288605aee0"/>
    <Tag TagId="9b6f284e-003e-4f5f-b683-aa9de4bba868"/>
    <Tag TagId="bbc6498d-8cc6-4159-90c9-dc973f24965c"/>
+   <Tag TagId="79e4bcb1-6d33-4382-a38a-ab7eabffe594"/>
+   <Tag TagId="8d18dc65-f123-4508-93ad-ceef8eaf0f88"/>
    <Tag TagId="2f2df42c-c545-45af-b714-eb987d3cb985"/>
    <Tag TagId="1ce129b7-b5b9-4a15-b24f-464a2747eb5f"/>
    <Tag TagId="3862c125-1386-45b8-bf4f-d29197aca265"/>
    <Tag TagId="ad9acb96-6a06-44e2-b93b-d462e02066a0"/>
    <Tag TagId="82f54d23-28da-45d4-ab45-e38909db4154"/>
-   <Tag TagId="79e4bcb1-6d33-4382-a38a-ab7eabffe594"/>
-   <Tag TagId="8d18dc65-f123-4508-93ad-ceef8eaf0f88"/>
    <Tag TagId="dcdd3c0b-884d-4729-95b0-670dd01f05b5"/>
    <Tag TagId="ecd36bfa-f642-42df-b2fe-91ca58028168"/>
    <Tag TagId="3b062f77-e48e-4dc4-a80c-1965eebc6d5c"/>
@@ -77,13 +80,10 @@
    <Tag TagId="b1f0a12d-f340-4f06-8a79-772cf8a64924"/>
    <Tag TagId="60cc8ca1-8927-4e92-af99-9cd367e0595c"/>
    <Tag TagId="5b803369-07d1-470f-996a-9372ca50e617"/>
-   <Tag TagId="7a7c7a33-383d-4b9c-803c-4e2eb6bb7a51"/>
-   <Tag TagId="039eb697-7307-409b-a176-a778de49a613"/>
    <Tag TagId="14249ee2-2d94-4fe2-8d3e-2cffbdba26c3"/>
    <Tag TagId="66ea4ff6-5c0a-41dc-a955-8a4b4116f6af"/>
-   <Tag TagId="5ace9427-e331-45f9-9816-531026a2da04"/>
-   <Tag TagId="b5e7e39d-18cd-42d8-85b0-7862c0075765"/>
-   <Tag TagId="eac0031a-3373-451e-80cc-4148d13a213d"/>
+   <Tag TagId="7a7c7a33-383d-4b9c-803c-4e2eb6bb7a51"/>
+   <Tag TagId="039eb697-7307-409b-a176-a778de49a613"/>
   </Tags>
  </StaticEntityTags>
  <ComponentMetadata>
@@ -122,7 +122,7 @@
    </InstanceMetadata>
   </Child>
  </ChildObjectContainers>
- <Health EntityCount="1144" OC_Count="0" StreamingRadius="917.72595"/>
+ <Health EntityCount="1150" OC_Count="0" StreamingRadius="917.72595"/>
  <StreamingOCs>
   <OC name="rs_comm_hur-l1.soc" tags="" staticEntityCount="1121" guid="43e20682-8918-c6aa-5dae-5eb014ebf780" radius="282.75488"/>
  </StreamingOCs>

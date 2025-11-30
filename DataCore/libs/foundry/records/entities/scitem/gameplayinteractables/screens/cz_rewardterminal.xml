@@ -607,6 +607,7 @@
         <y>0</y>
         <z>0</z>
       </lookAtOffset>
+      <preventForceReactions>False</preventForceReactions>
     </KioskInteractionEntityComponentParams>
     <UIOwnerEntityComponentParams Type="UIOwnerEntityComponentParams">
       <startOpen>True</startOpen>
@@ -694,30 +695,30 @@
       <cleanupInteraction PointsTo="ptr:15" />
       <allowCleanupInSameRevolution>False</allowCleanupInSameRevolution>
       <missionScenario ReferencedFile="file://./../../../../../../../libs/foundry/records/missionscenarios/exechangarscenario.xml" />
-      <rewardPool Type="SWeightedRewardEntry" Count="10">
+      <rewardPool Type="SWeightedRewardEntry" Count="13">
         <SWeightedRewardEntry Type="SWeightedRewardEntry">
           <rewardEntityRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/spaceships/gama_syulen_exec_military.xml" />
-          <weight>0.15</weight>
+          <weight>0.05</weight>
         </SWeightedRewardEntry>
         <SWeightedRewardEntry Type="SWeightedRewardEntry">
           <rewardEntityRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/spaceships/gama_syulen_exec_stealth.xml" />
-          <weight>0.15</weight>
+          <weight>0.05</weight>
         </SWeightedRewardEntry>
         <SWeightedRewardEntry Type="SWeightedRewardEntry">
           <rewardEntityRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/spaceships/drak_cutlass_black_exec_military.xml" />
-          <weight>0.15</weight>
+          <weight>0.05</weight>
         </SWeightedRewardEntry>
         <SWeightedRewardEntry Type="SWeightedRewardEntry">
           <rewardEntityRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/spaceships/drak_cutlass_black_exec_stealth.xml" />
-          <weight>0.15</weight>
+          <weight>0.05</weight>
         </SWeightedRewardEntry>
         <SWeightedRewardEntry Type="SWeightedRewardEntry">
           <rewardEntityRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/spaceships/anvl_hornet_f7a_mk2_exec_military.xml" />
-          <weight>0.125</weight>
+          <weight>0.05</weight>
         </SWeightedRewardEntry>
         <SWeightedRewardEntry Type="SWeightedRewardEntry">
           <rewardEntityRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/spaceships/anvl_hornet_f7a_mk2_exec_stealth.xml" />
-          <weight>0.125</weight>
+          <weight>0.05</weight>
         </SWeightedRewardEntry>
         <SWeightedRewardEntry Type="SWeightedRewardEntry">
           <rewardEntityRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/spaceships/anvl_lightning_f8c_exec_military.xml" />
@@ -729,11 +730,23 @@
         </SWeightedRewardEntry>
         <SWeightedRewardEntry Type="SWeightedRewardEntry">
           <rewardEntityRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/spaceships/drak_corsair_exec_military.xml" />
-          <weight>0.025</weight>
+          <weight>0.05</weight>
         </SWeightedRewardEntry>
         <SWeightedRewardEntry Type="SWeightedRewardEntry">
           <rewardEntityRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/spaceships/drak_corsair_exec_stealthindustrial.xml" />
-          <weight>0.025</weight>
+          <weight>0.05</weight>
+        </SWeightedRewardEntry>
+        <SWeightedRewardEntry Type="SWeightedRewardEntry">
+          <rewardEntityRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/spaceships/rsi_meteor_collector_military.xml" />
+          <weight>0.2</weight>
+        </SWeightedRewardEntry>
+        <SWeightedRewardEntry Type="SWeightedRewardEntry">
+          <rewardEntityRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/spaceships/rsi_scorpius_stealth.xml" />
+          <weight>0.1</weight>
+        </SWeightedRewardEntry>
+        <SWeightedRewardEntry Type="SWeightedRewardEntry">
+          <rewardEntityRecord ReferencedFile="file://./../../../../../../../libs/foundry/records/entities/spaceships/mrai_guardian_mx_collector_military.xml" />
+          <weight>0.2</weight>
         </SWeightedRewardEntry>
       </rewardPool>
     </SRewardGeneratorComponentParams>

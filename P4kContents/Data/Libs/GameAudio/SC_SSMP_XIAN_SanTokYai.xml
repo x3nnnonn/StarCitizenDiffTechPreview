@@ -10,6 +10,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Nose_Panel_Close">
       <WwiseEvent wwise_duration_max="2.5" wwise_duration_min="2.5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Nose_Panel_Close" wwise_radius_max="50" />
@@ -20,6 +21,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Tail_Panel_Close">
       <WwiseEvent wwise_duration_max="1.68966663" wwise_duration_min="1.68214583" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Tail_Panel_Close" wwise_radius_max="50" />
@@ -30,6 +32,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Tail_Panel_Open">
       <WwiseEvent wwise_duration_max="2.6" wwise_duration_min="2.6" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Tail_Panel_Open" wwise_radius_max="50" />
@@ -40,6 +43,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Canopy_Open">
       <WwiseEvent wwise_duration_max="3.02158332" wwise_duration_min="3.02158332" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Canopy_Open" wwise_radius_max="50" />
@@ -50,6 +54,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Canopy_Close">
       <WwiseEvent wwise_duration_max="1.61679173" wwise_duration_min="1.61679173" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Canopy_Close" wwise_radius_max="50" />
@@ -60,6 +65,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Levitation_LP">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSMP_XIAN_SanTokYai_Levitation_LP" wwise_radius_max="15" />
@@ -70,6 +76,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSMP_XIAN_SanTokYai_Levitation_LP">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSMP_XIAN_SanTokYai_Levitation_LP" wwise_radius_max="0" />
@@ -80,6 +87,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Nacelle_Panel_Open">
       <WwiseEvent wwise_duration_max="2" wwise_duration_min="2" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Nacelle_Panel_Open" wwise_radius_max="50" />
@@ -108,8 +116,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Nacelle_Panel_Close">
       <WwiseEvent wwise_duration_max="1.5" wwise_duration_min="1.5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Nacelle_Panel_Close" wwise_radius_max="50" />
@@ -138,8 +148,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Nacelle_Component_Open">
       <WwiseEvent wwise_duration_max="1.16447914" wwise_duration_min="1.16447914" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Nacelle_Component_Open" wwise_radius_max="50" />
@@ -150,6 +162,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Nacelle_Component_Close">
       <WwiseEvent wwise_duration_max="1" wwise_duration_min="1" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Nacelle_Component_Close" wwise_radius_max="50" />
@@ -178,8 +191,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Nose_Component_Open">
       <WwiseEvent wwise_duration_max="1.94710422" wwise_duration_min="1.94216669" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Nose_Component_Open" wwise_radius_max="50" />
@@ -190,6 +205,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Nose_Component_Close">
       <WwiseEvent wwise_duration_max="1.5" wwise_duration_min="1.5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Nose_Component_Close" wwise_radius_max="50" />
@@ -200,6 +216,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Seat_Deploy">
       <WwiseEvent wwise_duration_max="3" wwise_duration_min="3" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Seat_Deploy" wwise_radius_max="50" />
@@ -210,6 +227,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Seat_Retract">
       <WwiseEvent wwise_duration_max="3" wwise_duration_min="3" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Seat_Retract" wwise_radius_max="50" />
@@ -220,6 +238,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Dashboard_Deploy">
       <WwiseEvent wwise_duration_max="2.5" wwise_duration_min="2.5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Dashboard_Deploy" wwise_radius_max="20" />
@@ -230,6 +249,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Dashboard_Retract">
       <WwiseEvent wwise_duration_max="2" wwise_duration_min="2" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Dashboard_Retract" wwise_radius_max="20" />
@@ -240,6 +260,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Tail_Component_Open">
       <WwiseEvent wwise_duration_max="2.74625" wwise_duration_min="2.70279169" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Tail_Component_Open" wwise_radius_max="50" />
@@ -250,6 +271,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Tail_Component_Close">
       <WwiseEvent wwise_duration_max="2.331479" wwise_duration_min="2.127875" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Tail_Component_Close" wwise_radius_max="50" />
@@ -260,6 +282,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Inventory_Close">
       <WwiseEvent wwise_duration_max="1.5" wwise_duration_min="1.5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Inventory_Close" wwise_radius_max="50" />
@@ -270,6 +293,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Inventory_Open">
       <WwiseEvent wwise_duration_max="1.5" wwise_duration_min="1.5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Inventory_Open" wwise_radius_max="50" />
@@ -280,6 +304,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Weapon_Fire">
       <WwiseEvent wwise_duration_max="1" wwise_duration_min="1" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Weapon_Fire" wwise_radius_max="50" />
@@ -290,6 +315,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Wings_Deploy">
       <WwiseEvent wwise_duration_max="5.5" wwise_duration_min="5.5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Wings_Deploy" wwise_radius_max="50" />
@@ -319,8 +345,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Wings_Retract">
       <WwiseEvent wwise_duration_max="5" wwise_duration_min="5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Wings_Retract" wwise_radius_max="50" />
@@ -350,8 +378,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Fuelport_Close">
       <WwiseEvent wwise_duration_max="1.5" wwise_duration_min="1.5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Fuelport_Close" wwise_radius_max="50" />
@@ -362,6 +392,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_XIAN_SanTokYai_Fuelport_Open">
       <WwiseEvent wwise_duration_max="1.5" wwise_duration_min="1.5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_XIAN_SanTokYai_Fuelport_Open" wwise_radius_max="50" />
@@ -372,6 +403,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_XIAN_SanTokYai" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -384,4 +416,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

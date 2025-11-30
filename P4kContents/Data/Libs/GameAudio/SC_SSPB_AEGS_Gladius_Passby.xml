@@ -13,6 +13,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSPB_AEGS_Gladius_Passby" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSPB_AEGS_Gladius_NLPC_LP">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSPB_AEGS_Gladius_NLPC_LP" wwise_radius_max="3000" />
@@ -48,8 +49,10 @@
         <ATLRTPCDependee atl_name="GP_Thrusters_Distance_NLPC" />
         <ATLRTPCDependee atl_name="pressure_playerActorContained" />
         <ATLRTPCDependee atl_name="GP_Ship_Atmospheric_Density" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSPB_AEGS_Gladius_Passby" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSPB_AEGS_Gladius_NLPC_LP">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSPB_AEGS_Gladius_NLPC_LP" wwise_radius_max="0" />
@@ -85,8 +88,10 @@
         <ATLRTPCDependee atl_name="GP_Thrusters_Distance_NLPC" />
         <ATLRTPCDependee atl_name="pressure_playerActorContained" />
         <ATLRTPCDependee atl_name="GP_Ship_Atmospheric_Density" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSPB_AEGS_Gladius_Passby" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -99,4 +104,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

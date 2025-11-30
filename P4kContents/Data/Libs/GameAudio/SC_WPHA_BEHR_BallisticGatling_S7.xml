@@ -45,6 +45,7 @@
         <ATLRTPCDependee atl_name="DM_WP_Explosion" />
         <ATLRTPCDependee atl_name="Distance_3000m" />
         <ATLRTPCDependee atl_name="Azimuth" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_WPHA_BEHR_BallisticGatling_S7" />
       <Tags />
@@ -93,6 +94,7 @@
         <ATLRTPCDependee atl_name="DM_WP_Explosion" />
         <ATLRTPCDependee atl_name="Distance_3000m" />
         <ATLRTPCDependee atl_name="Azimuth" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_WPHA_BEHR_BallisticGatling_S7" />
       <Tags />
@@ -133,6 +135,7 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="Azimuth" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_WPHA_BEHR_BallisticGatling_S7" />
       <Tags />
@@ -173,6 +176,7 @@
         <ATLRTPCDependee atl_name="Weapon_Rotation_Speed" />
         <ATLRTPCDependee atl_name="0_08Hz_LFO (Custom)" />
         <ATLRTPCDependee atl_name="Azimuth" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_WPHA_BEHR_BallisticGatling_S7" />
       <Tags />

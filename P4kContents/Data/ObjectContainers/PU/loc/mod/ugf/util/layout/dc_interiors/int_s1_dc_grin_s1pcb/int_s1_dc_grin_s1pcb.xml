@@ -1,14 +1,12 @@
-<ObjectContainer version="11" name="int_s1_dc_grin_s1pcb" tags="" type="Module OC" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="24" entityCountDynamic="0" entityCountUnique="0" minBounds="-249.14989000000003,-407.43603075650168,-82" maxBounds="467.13007600000003,407.29385979710725,112.49528800000002" gridRadius="274.77377" radius="625.61829" crcSOC="548239718">
+<ObjectContainer version="11" name="int_s1_dc_grin_s1pcb" tags="" type="Module OC" editorBuildChangelist="10706283" entityCountPLA="0" entityCountALE="0" entityCountStatic="24" entityCountDynamic="0" entityCountUnique="0" minBounds="-249.14989000000003,-407.43603075650168,-82" maxBounds="467.13007600000003,407.29385979710725,112.49528800000002" gridRadius="274.77377" radius="625.61829" crcSOC="548239718">
  <StaticEntityTags>
   <Tags>
-   <Tag TagId="0d33e222-906e-4d09-8dd0-249ccebb45ca"/>
-   <Tag TagId="2dcda648-03b0-46f1-9909-e288db07dc2d"/>
-   <Tag TagId="d5cb8c87-d4f4-45b7-92ce-36eaff803d8e"/>
    <Tag TagId="00ead468-9073-485b-a6df-ca6b94053603"/>
-   <Tag TagId="e039c470-0b59-4f3d-88fc-1f9846174b29"/>
-   <Tag TagId="a7c06cc7-a715-43b3-93b6-486483f26d18"/>
-   <Tag TagId="225cbaa6-8818-4dcd-8d9b-878897901e89"/>
-   <Tag TagId="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+   <Tag TagId="35973a83-edc1-4dc2-8599-ea1adf9be424"/>
+   <Tag TagId="fb1b0b03-f91f-4b1a-8683-17a8e6b10296"/>
+   <Tag TagId="a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
+   <Tag TagId="d88a4dd7-8289-4a29-b8c2-59fdaf276c93"/>
+   <Tag TagId="84ee3196-9be9-490f-9902-e0953e270965"/>
    <Tag TagId="0e515dc0-2cd7-4b2e-8578-f14a234f5eed"/>
    <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8"/>
    <Tag TagId="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3"/>
@@ -21,16 +19,18 @@
    <Tag TagId="04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
    <Tag TagId="612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
    <Tag TagId="5caff6ec-c71b-4e1c-b939-83263471611d"/>
-   <Tag TagId="fb1b0b03-f91f-4b1a-8683-17a8e6b10296"/>
-   <Tag TagId="a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
    <Tag TagId="81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
    <Tag TagId="1a1f10a2-894c-45ca-93d2-4785233c5250"/>
-   <Tag TagId="d88a4dd7-8289-4a29-b8c2-59fdaf276c93"/>
    <Tag TagId="e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
    <Tag TagId="c9b662a6-07b4-4e59-9634-278333b00015"/>
-   <Tag TagId="35973a83-edc1-4dc2-8599-ea1adf9be424"/>
-   <Tag TagId="84ee3196-9be9-490f-9902-e0953e270965"/>
    <Tag TagId="62d34779-fdfb-4814-9762-081bf2ba8087"/>
+   <Tag TagId="0d33e222-906e-4d09-8dd0-249ccebb45ca"/>
+   <Tag TagId="2dcda648-03b0-46f1-9909-e288db07dc2d"/>
+   <Tag TagId="d5cb8c87-d4f4-45b7-92ce-36eaff803d8e"/>
+   <Tag TagId="225cbaa6-8818-4dcd-8d9b-878897901e89"/>
+   <Tag TagId="e039c470-0b59-4f3d-88fc-1f9846174b29"/>
+   <Tag TagId="a7c06cc7-a715-43b3-93b6-486483f26d18"/>
+   <Tag TagId="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
   </Tags>
  </StaticEntityTags>
  <ItemPorts version="1">
@@ -122,7 +122,17 @@
     <EntityComponentObjectMetadata />
    </InstanceMetadata>
   </Child>
+  <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/sec/ped/ind_001_lt_tagp.socpak" entityName="sec_ped_ind_001_lt_tagp" label="sec_ped_ind_001_lt_tagp_{1EF7095F-F9B0-480A-B90A-FD995AC88227}" class="HarvestableObjectContainer" classGuid="94ae8454-359d-4637-8b0b-4eb277dc250c" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,1875c48f-d66b-4661-8979-d3d72859f478" guid="480af9b0-1ef7-095f-2782-c85a99fd0ab9" pos="126,-58,11" rot="0,0,0,1">
+   <InstanceMetadata>
+    <HarvestableComponent />
+   </InstanceMetadata>
+  </Child>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/lob/surf_base_lob_001.socpak" entityName="surf_base_lob_004" label="surf_base_lob_004_{5837B161-CAD8-445A-9E5D-450C5066A500}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="445acad8-5837-b161-00a5-66500c455d9e" pos="141.25,0,83" rot="0.70710677,0,0,0.70710677"/>
+  <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/sec/road/surf_ind_sec_road_001_occu_loot_001.socpak" entityName="surf_ind_sec_road_001_occu_loot_002" label="surf_ind_sec_road_001_occu_loot_002_{DD9BFF64-9487-4090-BFE8-62B02A0E2414}" class="HarvestableObjectContainer" classGuid="94ae8454-359d-4637-8b0b-4eb277dc250c" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,1875c48f-d66b-4661-8979-d3d72859f478" guid="40909487-dd9b-ff64-1424-0e2ab062e8bf" pos="44,110,3" rot="1,0,0,0">
+   <InstanceMetadata>
+    <HarvestableComponent />
+   </InstanceMetadata>
+  </Child>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/stor/surf_base_stor_002.socpak" entityName="surf_base_stor_006" label="surf_base_stor_006_{3CB26066-DF52-43C6-9B93-42681E99E65E}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="43c6df52-3cb2-6066-5ee6-991e6842939b" pos="24,-28,3" rot="0.70710677,0,0,0.70710677"/>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/conn/conn_base_12m.socpak" entityName="conn_base_12m-173" label="conn_base_12m-173_{F2E7D468-3498-40A8-8C26-968CD5711EF5}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="40a83498-f2e7-d468-f51e-71d58c96268c" pos="-17,49,3" rot="1,0,0,0"/>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/conn/conn_base_12m.socpak" entityName="conn_base_12m-039" label="conn_base_12m-039_{AD4F036F-3FCD-40CF-BFF9-EDF01229E12A}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="40cf3fcd-ad4f-036f-2ae1-2912f0edf9bf" pos="10,-49,3" rot="1,0,0,0"/>
@@ -136,6 +146,11 @@
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/side/ped/surf_base_side_ped_002.socpak" entityName="surf_base_side_ped_033" label="surf_base_side_ped_033_{55106B76-015F-4757-B694-A2AE6C232112}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="4757015f-5510-6b76-1221-236caea294b6" pos="90,59,11" rot="1,0,0,0"/>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/side/ped/surf_ind_side_ped_002_occu_001.socpak" entityName="surf_ind_side_ped_002_occu_024" label="surf_ind_side_ped_002_occu_024_{56E51D77-C0D6-47C9-B3F3-2FBB6AC41A73}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="47c9c0d6-56e5-1d77-731a-c46abb2ff3b3" pos="90,59,11" rot="1,0,0,0"/>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/side/ped/surf_ind_side_ped_002_occu_002.socpak" entityName="surf_ind_side_ped_002_occu_107" label="surf_ind_side_ped_002_occu_107_{02B9F679-24D6-45CE-ADC2-D39D78F7E05B}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="45ce24d6-02b9-f679-5be0-f7789dd3c2ad" pos="10,6,3" rot="0,0,0,1"/>
+  <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/sec/road/surf_ind_sec_road_001_occu_loot_001.socpak" entityName="surf_ind_sec_road_001_occu_loot_001" label="surf_ind_sec_road_001_occu_loot_001_{DDE3757C-50E7-43C1-84FA-56534BD7F541}" class="HarvestableObjectContainer" classGuid="94ae8454-359d-4637-8b0b-4eb277dc250c" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,1875c48f-d66b-4661-8979-d3d72859f478" guid="43c150e7-dde3-757c-41f5-d74b5356fa84" pos="44,-110,3" rot="0,0,0,1">
+   <InstanceMetadata>
+    <HarvestableComponent />
+   </InstanceMetadata>
+  </Child>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/side/ped/surf_base_side_ped_002.socpak" entityName="surf_base_side_ped_117" label="surf_base_side_ped_117_{457E437D-4721-4EF0-92CE-936EED77CE36}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="4ef04721-457e-437d-36ce-77ed6e93ce92" pos="-17,50,3" rot="1,0,0,0"/>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/conn/conn_ind_sign_22m_occu_wh_001.socpak" entityName="conn_ind_sign_22m_occu_wh_011" label="conn_ind_sign_22m_occu_wh_011_{50823A7E-CA55-4BF5-B02A-3590ACF8153D}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="4bf5ca55-5082-3a7e-3d15-f8ac90352ab0" pos="24,-28,3" rot="0.70710677,0,0,-0.70710677"/>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/side/ped/surf_ind_side_ped_002_occu_001.socpak" entityName="surf_ind_side_ped_002_occu_020" label="surf_ind_side_ped_002_occu_020_{5A702285-A8EB-4166-831E-9EF71961184A}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="4166a8eb-5a70-2285-4a18-6119f79e1e83" pos="67,-72,4" rot="0.70710677,0,0,-0.70710677"/>
@@ -174,6 +189,11 @@
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/tns/surf_base_tns_001.socpak" entityName="surf_base_tns_001" label="surf_base_tns_001_{4E5AF2E1-5F16-4D50-873F-D1AAAE6B4258}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="4d505f16-4e5a-f2e1-5842-6baeaad13f87" pos="44,-58,3" rot="0,0,0,1"/>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/conn/conn_base_22m.socpak" entityName="conn_base_22m-022" label="conn_base_22m-022_{7E5DA0E2-8F31-4B32-B2D2-C8358D38AB78}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="4b328f31-7e5d-a0e2-78ab-388d35c8d2b2" pos="44,-58,3" rot="0,0,0,1"/>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/conn/conn_ind_sign_22m_occu_stor_001.socpak" entityName="conn_ind_sign_22m_occu_stor_005" label="conn_ind_sign_22m_occu_stor_005_{E8F785EA-790E-4007-A202-7CE113504DCA}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="4007790e-e8f7-85ea-ca4d-5013e17c02a2" pos="24,28,3" rot="0.70710677,0,0,0.70710677"/>
+  <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/sec/ped/ind_001_lt_tagp.socpak" entityName="sec_ped_ind_001_lt_tagp-001" label="sec_ped_ind_001_lt_tagp-001_{EBF19CEE-26AF-4487-97E3-3AFCDB8B9D35}" class="HarvestableObjectContainer" classGuid="94ae8454-359d-4637-8b0b-4eb277dc250c" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,1875c48f-d66b-4661-8979-d3d72859f478" guid="448726af-ebf1-9cee-359d-8bdbfc3ae397" pos="126,58,11" rot="1,0,0,0">
+   <InstanceMetadata>
+    <HarvestableComponent />
+   </InstanceMetadata>
+  </Child>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/side/ped/surf_ind_side_ped_002_occu_001.socpak" entityName="surf_ind_side_ped_002_occu_022" label="surf_ind_side_ped_002_occu_022_{A36D04F0-6349-4F81-9C93-4CC63399EAD5}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="4f816349-a36d-04f0-d5ea-9933c64c939c" pos="67,96,4" rot="0.70710677,0,0,-0.70710677"/>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/side/ped/surf_ind_side_ped_002_occu_002.socpak" entityName="surf_ind_side_ped_002_occu_023" label="surf_ind_side_ped_002_occu_023_{92BC86F4-4075-4289-86E0-D31DE2CD61EF}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="42894075-92bc-86f4-ef61-cde21dd3e086" pos="90,-59,11" rot="0,0,0,1"/>
   <Child external="1" name="Data/objectcontainers/pu/loc/mod/ugf/util/rm/surf/stor/surf_ind_stor_002_occu_001.socpak" entityName="surf_ind_stor_002_occu_015" label="surf_ind_stor_002_occu_015_{678360FC-2FC6-48EF-BD18-491DA7FB0B8E}" class="LocationObjectContainer" classGuid="1fd113fe-d8b2-4ef0-ab08-ff5330f82927" tags="b5e7e39d-18cd-42d8-85b0-7862c0075765,f4cc6e7e-9968-4a76-9ea0-734782664ab7,be04333e-c17e-4e2b-83ad-470e3d8bfaa1,30ee12f0-3ed1-4d7b-9111-e989e2ee1589,da9672e0-71c5-4c46-98a6-5746fcb83cd2" guid="48ef2fc6-6783-60fc-8e0b-fba71d4918bd" pos="24,28,3" rot="0.70710677,0,0,0.70710677" missionLocationTemplate="d797633f-520c-4fba-9ccf-173eeeedfb28" missionAA="4d6d4e4d-c985-297a-cf9a-01be31037d8b,4d8cc7f3-8621-21c7-9e2a-93b23d356b93">
@@ -188,7 +208,7 @@
    </InstanceMetadata>
   </Child>
  </ChildObjectContainers>
- <Health EntityCount="10108" OC_Count="0" StreamingRadius="5484.5132"/>
+ <Health EntityCount="9674" OC_Count="0" StreamingRadius="5378.4292"/>
  <StreamingOCs>
   <OC name="int_s1_dc_grin_s1pcb.soc" tags="" staticEntityCount="24" guid="4ea5f37e-3477-23b9-c6a7-7bce43cf5e9f" radius="625.61829"/>
  </StreamingOCs>

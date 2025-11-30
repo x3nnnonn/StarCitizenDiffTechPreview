@@ -31,7 +31,7 @@
       <trackerProperties Type="SActorEntryTrackerParams" />
     </EntityUIDisplayParams>
   </StaticEntityClassData>
-  <Components Type="DataForgeComponentParams" Count="73">
+  <Components Type="DataForgeComponentParams" Count="72">
     <SActorComponentParams Type="SActorComponentParams">
       <character />
       <isAIControlled>True</isAIControlled>
@@ -396,24 +396,24 @@
     <SubsumptionEventReceiverComponentParams Type="SubsumptionEventReceiverComponentParams" />
     <SubsumptionComponentParams Type="SubsumptionComponentParams">
       <subsumptionMastergraph>CreatureMastergraph</subsumptionMastergraph>
-      <subsumptionActivity>VLK</subsumptionActivity>
+      <subsumptionActivity>Sandworm_Peaceful</subsumptionActivity>
       <mastergraphStateOverrides Type="SMastergraphStateOverride" Count="2">
         <SMastergraphStateOverride Type="SMastergraphStateOverride">
           <mastergraphStateName>Peaceful</mastergraphStateName>
-          <subsumptionActivityName>VLK</subsumptionActivityName>
+          <subsumptionActivityName>Sandworm_Peaceful</subsumptionActivityName>
         </SMastergraphStateOverride>
         <SMastergraphStateOverride Type="SMastergraphStateOverride">
           <mastergraphStateName>Combat</mastergraphStateName>
-          <subsumptionActivityName>VLKCombat</subsumptionActivityName>
+          <subsumptionActivityName>Sandworm_Combat</subsumptionActivityName>
         </SMastergraphStateOverride>
       </mastergraphStateOverrides>
     </SubsumptionComponentParams>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="HealthIconData" Count="1">
+      <perceptionTypes Type="ActorStatusUIWarning" Count="1">
         <EnumChoice>Agent</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
+      <excludedSenses Type="ActorStatusPreset" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="2">
         <SObservablePointDef Pointer="ptr:2" Type="SObservablePointDef">
           <helperName>Head</helperName>
@@ -449,7 +449,7 @@
     <SCommunicationUserComponentParams Type="SCommunicationUserComponentParams">
       <voiceBundle />
       <voiceSingle />
-      <communicationConfig />
+      <communicationConfig ReferencedFile="file://./../../../../../libs/foundry/records/communicationconfig/blank_comms_config.xml" />
       <contextualDialog />
     </SCommunicationUserComponentParams>
     <SEntityInteractableParams Type="SEntityInteractableParams">
@@ -1541,7 +1541,6 @@
       <outfitHangerGroups Type="SOutfitHangerGroup" Count="0" />
       <coreInventoryItems Type="SCoreInventoryItem" Count="0" />
     </SEntityLootableContainerParams>
-    <DataForgeComponentParams />
     <SEntityAudioControllerParams Type="SEntityAudioControllerParams">
       <audioControllerEntityType>None</audioControllerEntityType>
       <randomSeedCount>4</randomSeedCount>
@@ -1728,7 +1727,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Body</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1820,7 +1819,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Harvestable</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -1914,7 +1913,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Harvestable</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2008,7 +2007,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Harvestable</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2102,7 +2101,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Harvestable</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2196,7 +2195,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Harvestable</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2290,7 +2289,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Harvestable</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -3783,7 +3782,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Body</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3877,7 +3876,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Body</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3971,7 +3970,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Body</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -4190,8 +4189,8 @@
               <onEntityAttachedState PointsTo="ptr:13" />
               <onEntityDetachedState PointsTo="ptr:15" />
               <onPortDestroyedState />
-              <itemTypes Type="StatusEffectValue" Count="0" />
-              <itemSubTypes Type="SpeedThreshold" Count="0" />
+              <itemTypes Type="ProbabilisticStatusEffect" Count="0" />
+              <itemSubTypes Type="StatusEffect" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -4253,8 +4252,8 @@
               <onEntityAttachedState PointsTo="ptr:13" />
               <onEntityDetachedState PointsTo="ptr:15" />
               <onPortDestroyedState />
-              <itemTypes Type="StatusEffectValue" Count="0" />
-              <itemSubTypes Type="SpeedThreshold" Count="0" />
+              <itemTypes Type="ProbabilisticStatusEffect" Count="0" />
+              <itemSubTypes Type="StatusEffect" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -4316,8 +4315,8 @@
               <onEntityAttachedState PointsTo="ptr:13" />
               <onEntityDetachedState PointsTo="ptr:15" />
               <onPortDestroyedState />
-              <itemTypes Type="StatusEffectValue" Count="0" />
-              <itemSubTypes Type="SpeedThreshold" Count="0" />
+              <itemTypes Type="ProbabilisticStatusEffect" Count="0" />
+              <itemSubTypes Type="StatusEffect" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -4379,8 +4378,8 @@
               <onEntityAttachedState PointsTo="ptr:13" />
               <onEntityDetachedState PointsTo="ptr:15" />
               <onPortDestroyedState />
-              <itemTypes Type="StatusEffectValue" Count="0" />
-              <itemSubTypes Type="SpeedThreshold" Count="0" />
+              <itemTypes Type="ProbabilisticStatusEffect" Count="0" />
+              <itemSubTypes Type="StatusEffect" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -4444,8 +4443,8 @@
               <onEntityAttachedState PointsTo="ptr:13" />
               <onEntityDetachedState PointsTo="ptr:15" />
               <onPortDestroyedState />
-              <itemTypes Type="StatusEffectValue" Count="0" />
-              <itemSubTypes Type="SpeedThreshold" Count="0" />
+              <itemTypes Type="ProbabilisticStatusEffect" Count="0" />
+              <itemSubTypes Type="StatusEffect" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -4507,8 +4506,8 @@
               <onEntityAttachedState PointsTo="ptr:13" />
               <onEntityDetachedState PointsTo="ptr:15" />
               <onPortDestroyedState />
-              <itemTypes Type="StatusEffectValue" Count="0" />
-              <itemSubTypes Type="SpeedThreshold" Count="0" />
+              <itemTypes Type="ProbabilisticStatusEffect" Count="0" />
+              <itemSubTypes Type="StatusEffect" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -4561,7 +4560,7 @@
     <AbilityComponentParams Type="AbilityComponentParams" />
     <SHearingComponentParams Type="SHearingComponentParams">
       <movementSoundOriginFilter ReferencedFile="file://./../../../../../libs/foundry/records/aiprofile/perception/observablefilters/flags/creature/defaultobservablefilterflags_apexvlk_undergroundhearing.xml" />
-      <soundTypeFilter Type="TemperatureUIParams" Count="2">
+      <soundTypeFilter Type="EVAConnection" Count="2">
         <EnumChoice>Vehicle</EnumChoice>
         <EnumChoice>Explosion</EnumChoice>
       </soundTypeFilter>

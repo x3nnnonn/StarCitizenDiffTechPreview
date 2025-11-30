@@ -38,8 +38,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSS_ANVL_F8_Lightning_Main_Thruster" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSS_ANVL_F8_Lightning_Shutdown_Main_Thruster">
       <WwiseEvent wwise_duration_max="5.996917" wwise_duration_min="5.996917" wwise_duration_type="OneShot" wwise_name="Play_SSSS_ANVL_F8_Lightning_Shutdown_Main_Thruster" wwise_radius_max="250" />
@@ -75,8 +77,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSS_ANVL_F8_Lightning_Main_Thruster" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSS_ANVL_F8_Lightning_Main_Thruster_Spool_Loop">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSS_ANVL_F8_Lightning_Main_Thruster_Spool_Loop" wwise_radius_max="0" />
@@ -114,8 +118,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSS_ANVL_F8_Lightning_Main_Thruster" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSS_ANVL_F8_Lightning_Main_Thruster_Spool_Loop">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSS_ANVL_F8_Lightning_Main_Thruster_Spool_Loop" wwise_radius_max="250" />
@@ -153,8 +159,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSS_ANVL_F8_Lightning_Main_Thruster" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -167,4 +175,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

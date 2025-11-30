@@ -30,7 +30,7 @@
     <cardsUseStageRadius>True</cardsUseStageRadius>
   </arPreviewScene>
   <previewScenes Type="BuildingBlocks_PreviewScreenBase" Count="0" />
-  <staticVariables Type="BuildingBlocks_StaticVariableBase" Count="18">
+  <staticVariables Type="BuildingBlocks_StaticVariableBase" Count="6">
     <BuildingBlocks_StaticVariableArray Type="BuildingBlocks_StaticVariableArray">
       <name>statusList_NA</name>
       <value Type="BuildingBlocks_StaticArrayEntry">
@@ -104,115 +104,12 @@
     </BuildingBlocks_StaticVariableArray>
     <BuildingBlocks_StaticVariableInteger Type="BuildingBlocks_StaticVariableInteger">
       <name>state_NA</name>
-      <value>2</value>
+      <value>3</value>
     </BuildingBlocks_StaticVariableInteger>
     <BuildingBlocks_StaticVariableNumber Type="BuildingBlocks_StaticVariableNumber">
       <name>diagnosticModeTimer_NA</name>
       <value>8</value>
     </BuildingBlocks_StaticVariableNumber>
-    <BuildingBlocks_StaticVariableArray Type="BuildingBlocks_StaticVariableArray">
-      <name>allocation/pipList_NA</name>
-      <value Type="BuildingBlocks_StaticArrayEntry">
-        <structureVariables Type="BuildingBlocks_StaticArrayDataBase" Count="4">
-          <BuildingBlocks_StaticArrayDataNumber Type="BuildingBlocks_StaticArrayDataNumber">
-            <name>pipAmount</name>
-            <values Type="ActivityBehaviorRequestCondition" Count="8">
-              <Single>1</Single>
-              <Single>1</Single>
-              <Single>1</Single>
-              <Single>1</Single>
-              <Single>1</Single>
-              <Single>1</Single>
-              <Single>1</Single>
-              <Single>1</Single>
-            </values>
-          </BuildingBlocks_StaticArrayDataNumber>
-          <BuildingBlocks_StaticArrayDataInteger Type="BuildingBlocks_StaticArrayDataInteger">
-            <name>pipState</name>
-            <values Type="ActivityBehaviorRequestCondition" Count="8">
-              <Int64>1</Int64>
-              <Int64>1</Int64>
-              <Int64>1</Int64>
-              <Int64>2</Int64>
-              <Int64>3</Int64>
-              <Int64>4</Int64>
-              <Int64>5</Int64>
-              <Int64>0</Int64>
-            </values>
-          </BuildingBlocks_StaticArrayDataInteger>
-          <BuildingBlocks_StaticArrayDataInteger Type="BuildingBlocks_StaticArrayDataInteger">
-            <name>pipHighLowState</name>
-            <values Type="ActivityBehaviorRequestCondition" Count="8">
-              <Int64>0</Int64>
-              <Int64>1</Int64>
-              <Int64>0</Int64>
-              <Int64>0</Int64>
-              <Int64>0</Int64>
-              <Int64>0</Int64>
-              <Int64>3</Int64>
-              <Int64>0</Int64>
-            </values>
-          </BuildingBlocks_StaticArrayDataInteger>
-          <BuildingBlocks_StaticArrayDataBoolean Type="BuildingBlocks_StaticArrayDataBoolean">
-            <name>isTarget</name>
-            <values Type="ActivityBehaviorRequestCondition" Count="8">
-              <Boolean>False</Boolean>
-              <Boolean>False</Boolean>
-              <Boolean>True</Boolean>
-              <Boolean>False</Boolean>
-              <Boolean>False</Boolean>
-              <Boolean>False</Boolean>
-              <Boolean>False</Boolean>
-              <Boolean>False</Boolean>
-            </values>
-          </BuildingBlocks_StaticArrayDataBoolean>
-        </structureVariables>
-      </value>
-    </BuildingBlocks_StaticVariableArray>
-    <BuildingBlocks_StaticVariableBoolean Type="BuildingBlocks_StaticVariableBoolean">
-      <name>allocation/isPoweredOff_NA</name>
-      <value>False</value>
-    </BuildingBlocks_StaticVariableBoolean>
-    <BuildingBlocks_StaticVariableNumber Type="BuildingBlocks_StaticVariableNumber">
-      <name>allocation/pipsConnectorSize_NA</name>
-      <value>0</value>
-    </BuildingBlocks_StaticVariableNumber>
-    <BuildingBlocks_StaticVariableInteger Type="BuildingBlocks_StaticVariableInteger">
-      <name>allocation/alertIconActive_NA</name>
-      <value>0</value>
-    </BuildingBlocks_StaticVariableInteger>
-    <BuildingBlocks_StaticVariableNumber Type="BuildingBlocks_StaticVariableNumber">
-      <name>allocation/tempIndicator/minTemp_NA</name>
-      <value>0</value>
-    </BuildingBlocks_StaticVariableNumber>
-    <BuildingBlocks_StaticVariableNumber Type="BuildingBlocks_StaticVariableNumber">
-      <name>allocation/tempIndicator/overheatTemp_NA</name>
-      <value>75</value>
-    </BuildingBlocks_StaticVariableNumber>
-    <BuildingBlocks_StaticVariableNumber Type="BuildingBlocks_StaticVariableNumber">
-      <name>allocation/tempIndicator/maxTemp_NA</name>
-      <value>100</value>
-    </BuildingBlocks_StaticVariableNumber>
-    <BuildingBlocks_StaticVariableNumber Type="BuildingBlocks_StaticVariableNumber">
-      <name>allocation/tempIndicator/currentTemp_NA</name>
-      <value>50</value>
-    </BuildingBlocks_StaticVariableNumber>
-    <BuildingBlocks_StaticVariableBoolean Type="BuildingBlocks_StaticVariableBoolean">
-      <name>allocation/isLinked_NA</name>
-      <value>False</value>
-    </BuildingBlocks_StaticVariableBoolean>
-    <BuildingBlocks_StaticVariableLocalization Type="BuildingBlocks_StaticVariableLocalization">
-      <name>allocation/tooltip_NA</name>
-      <value>@item_TypePowerPlant</value>
-    </BuildingBlocks_StaticVariableLocalization>
-    <BuildingBlocks_StaticVariableString Type="BuildingBlocks_StaticVariableString">
-      <name>allocation/itemIcon_NA</name>
-      <value>UI/Textures/Vector/General/CommonIcons/icon_common_arrow_up.svg</value>
-    </BuildingBlocks_StaticVariableString>
-    <BuildingBlocks_StaticVariableInteger Type="BuildingBlocks_StaticVariableInteger">
-      <name>allocation/itemType_NA</name>
-      <value>1</value>
-    </BuildingBlocks_StaticVariableInteger>
   </staticVariables>
   <proxyRootNode />
   <defaultButtonDownSoundTag />
@@ -538,7 +435,7 @@
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="32">
+  <operations Type="BuildingBlocks_Node" Count="34">
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
       <widget PointsTo="ptr:1" />
       <field>ParamInput0</field>
@@ -764,6 +661,18 @@
       <field>ParamInput1</field>
       <input PointsTo="ptr:19" />
     </BuildingBlocks_BindingsBooleanField>
+    <BuildingBlocks_BindingsStringVariable Pointer="ptr:20" Type="BuildingBlocks_BindingsStringVariable">
+      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
+      <binding>icon</binding>
+      <inheritsNamespace>True</inheritsNamespace>
+      <isPulled>False</isPulled>
+      <isWatched>False</isWatched>
+    </BuildingBlocks_BindingsStringVariable>
+    <BuildingBlocks_BindingsStringField Type="BuildingBlocks_BindingsStringField">
+      <widget PointsTo="ptr:1" />
+      <field>ParamInput2</field>
+      <input PointsTo="ptr:20" />
+    </BuildingBlocks_BindingsStringField>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

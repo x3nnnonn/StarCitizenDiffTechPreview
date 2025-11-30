@@ -185,8 +185,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -468,7 +468,7 @@
       <Ports Type="SItemPortDef" Count="7">
         <SItemPortDef Type="SItemPortDef">
           <Name>hardpoint_primary_weapon</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@port_NameTurretGunSlot01</DisplayName>
           <PortTags>TMBL_Nova</PortTags>
           <RequiredPortTags>TMBL_Nova</RequiredPortTags>
           <Flags>swaponly</Flags>
@@ -510,7 +510,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponGun</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Gun</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -551,7 +551,7 @@
             <placeInteractionBlockText>@interaction_condition_placeOnItemport_noMatchingItem</placeInteractionBlockText>
           </interactions>
           <linkedItemPorts Type="SItemPortDef" Count="0" />
-          <resourceLinkToParent>False</resourceLinkToParent>
+          <resourceLinkToParent>True</resourceLinkToParent>
           <useHelperAsInteractionPointName>False</useHelperAsInteractionPointName>
           <itemPortRules Type="SItemPortRuleDef" Count="0" />
           <detachDirection Type="Vec3">
@@ -604,7 +604,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponDefensive</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>CountermeasureLauncher</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -645,7 +645,7 @@
             <placeInteractionBlockText>@interaction_condition_placeOnItemport_noMatchingItem</placeInteractionBlockText>
           </interactions>
           <linkedItemPorts Type="SItemPortDef" Count="0" />
-          <resourceLinkToParent>False</resourceLinkToParent>
+          <resourceLinkToParent>True</resourceLinkToParent>
           <useHelperAsInteractionPointName>False</useHelperAsInteractionPointName>
           <itemPortRules Type="SItemPortRuleDef" Count="0" />
           <detachDirection Type="Vec3">
@@ -698,7 +698,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponDefensive</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>CountermeasureLauncher</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -739,7 +739,7 @@
             <placeInteractionBlockText>@interaction_condition_placeOnItemport_noMatchingItem</placeInteractionBlockText>
           </interactions>
           <linkedItemPorts Type="SItemPortDef" Count="0" />
-          <resourceLinkToParent>False</resourceLinkToParent>
+          <resourceLinkToParent>True</resourceLinkToParent>
           <useHelperAsInteractionPointName>False</useHelperAsInteractionPointName>
           <itemPortRules Type="SItemPortRuleDef" Count="0" />
           <detachDirection Type="Vec3">
@@ -792,7 +792,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponDefensive</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>CountermeasureLauncher</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -833,7 +833,7 @@
             <placeInteractionBlockText>@interaction_condition_placeOnItemport_noMatchingItem</placeInteractionBlockText>
           </interactions>
           <linkedItemPorts Type="SItemPortDef" Count="0" />
-          <resourceLinkToParent>False</resourceLinkToParent>
+          <resourceLinkToParent>True</resourceLinkToParent>
           <useHelperAsInteractionPointName>False</useHelperAsInteractionPointName>
           <itemPortRules Type="SItemPortRuleDef" Count="0" />
           <detachDirection Type="Vec3">
@@ -886,7 +886,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponDefensive</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>CountermeasureLauncher</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -927,7 +927,7 @@
             <placeInteractionBlockText>@interaction_condition_placeOnItemport_noMatchingItem</placeInteractionBlockText>
           </interactions>
           <linkedItemPorts Type="SItemPortDef" Count="0" />
-          <resourceLinkToParent>False</resourceLinkToParent>
+          <resourceLinkToParent>True</resourceLinkToParent>
           <useHelperAsInteractionPointName>False</useHelperAsInteractionPointName>
           <itemPortRules Type="SItemPortRuleDef" Count="0" />
           <detachDirection Type="Vec3">
@@ -938,7 +938,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>hardpoint_missile_launcher</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@port_NameMissileRack01</DisplayName>
           <PortTags>TMBL_Nova</PortTags>
           <RequiredPortTags>$TMBL_Nova</RequiredPortTags>
           <Flags>$uneditable</Flags>
@@ -980,7 +980,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileLauncher</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>MissileRack</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -1021,7 +1021,7 @@
             <placeInteractionBlockText>@interaction_condition_placeOnItemport_noMatchingItem</placeInteractionBlockText>
           </interactions>
           <linkedItemPorts Type="SItemPortDef" Count="0" />
-          <resourceLinkToParent>False</resourceLinkToParent>
+          <resourceLinkToParent>True</resourceLinkToParent>
           <useHelperAsInteractionPointName>False</useHelperAsInteractionPointName>
           <itemPortRules Type="SItemPortRuleDef" Count="0" />
           <detachDirection Type="Vec3">
@@ -1032,7 +1032,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>hardpoint_missile_launcher_2</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@port_NameMissileRack02</DisplayName>
           <PortTags>TMBL_Nova</PortTags>
           <RequiredPortTags>$TMBL_Nova</RequiredPortTags>
           <Flags>$uneditable</Flags>
@@ -1074,7 +1074,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileLauncher</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>MissileRack</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -1115,7 +1115,7 @@
             <placeInteractionBlockText>@interaction_condition_placeOnItemport_noMatchingItem</placeInteractionBlockText>
           </interactions>
           <linkedItemPorts Type="SItemPortDef" Count="0" />
-          <resourceLinkToParent>False</resourceLinkToParent>
+          <resourceLinkToParent>True</resourceLinkToParent>
           <useHelperAsInteractionPointName>False</useHelperAsInteractionPointName>
           <itemPortRules Type="SItemPortRuleDef" Count="0" />
           <detachDirection Type="Vec3">

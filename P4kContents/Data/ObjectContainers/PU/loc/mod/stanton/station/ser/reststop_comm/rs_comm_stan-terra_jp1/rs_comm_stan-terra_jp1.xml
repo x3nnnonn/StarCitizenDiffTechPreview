@@ -1,16 +1,10 @@
-<ObjectContainer version="11" name="rs_comm_stan-terra_jp1" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="1459" entityCountDynamic="43" entityCountUnique="0" minBounds="-100,-35.000015000000005,-9" maxBounds="107.55017014323948,85,44" gridRadius="121.73119" radius="376.21655" crcSOC="3566690009">
+<ObjectContainer version="11" name="rs_comm_stan-terra_jp1" tags="" type="" editorBuildChangelist="10717593" entityCountPLA="0" entityCountALE="0" entityCountStatic="1459" entityCountDynamic="43" entityCountUnique="0" minBounds="-100,-35.000015000000005,-9" maxBounds="107.55017014323948,85,44" gridRadius="121.73119" radius="376.21655" crcSOC="1124601926">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3"/>
    <Tag TagId="afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
    <Tag TagId="5caff6ec-c71b-4e1c-b939-83263471611d"/>
    <Tag TagId="81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-   <Tag TagId="00ead468-9073-485b-a6df-ca6b94053603"/>
-   <Tag TagId="c4ec8876-3979-4a9d-9d1c-83375094c9b7"/>
-   <Tag TagId="fb1b0b03-f91f-4b1a-8683-17a8e6b10296"/>
-   <Tag TagId="a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
-   <Tag TagId="d88a4dd7-8289-4a29-b8c2-59fdaf276c93"/>
-   <Tag TagId="e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
    <Tag TagId="a9842535-5d8f-460b-bc21-447a70025802"/>
    <Tag TagId="aea96340-3d6a-4cd8-9060-8c65b2bea8b2"/>
    <Tag TagId="aff36b77-bc7d-467f-809b-f7b534068819"/>
@@ -20,7 +14,10 @@
    <Tag TagId="7a15d777-cf41-4763-a2fe-c7f73e640d12"/>
    <Tag TagId="789f1d2f-b90b-42c3-9c8b-1037183ca82b"/>
    <Tag TagId="6bd01ea7-13c6-4660-8b0a-a48129121af9"/>
+   <Tag TagId="00ead468-9073-485b-a6df-ca6b94053603"/>
    <Tag TagId="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
+   <Tag TagId="c4ec8876-3979-4a9d-9d1c-83375094c9b7"/>
+   <Tag TagId="fb1b0b03-f91f-4b1a-8683-17a8e6b10296"/>
    <Tag TagId="a803d703-28bc-4076-af8b-dc61f45f3684"/>
    <Tag TagId="fd427628-b921-45b6-8cd7-498ad5101518"/>
    <Tag TagId="3ef4724f-07ab-49ef-a1a3-69bc88e0f715"/>
@@ -30,6 +27,9 @@
    <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8"/>
    <Tag TagId="612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
    <Tag TagId="04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+   <Tag TagId="a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
+   <Tag TagId="d88a4dd7-8289-4a29-b8c2-59fdaf276c93"/>
+   <Tag TagId="e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
    <Tag TagId="a7c06cc7-a715-43b3-93b6-486483f26d18"/>
    <Tag TagId="202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
    <Tag TagId="1a1f10a2-894c-45ca-93d2-4785233c5250"/>
@@ -121,7 +121,7 @@
   <Child external="1" name="Data/objectcontainers/setup/spawn_closet/spawncloset_static_elev_rstop_occu_001.socpak" entityName="spawncloset_static_elev_rstop_occu_004" label="spawncloset_01_{4C57ADC9-1EF7-41C6-ABBD-23F3A60994DD}_spawncloset_static_elev_rstop_occu_004_{328E76F6-6F30-485D-BF79-40DA7F61B752}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7" guid="485d6f30-328e-76f6-52b7-617fda4079bf" pos="84.999987000000004,7.9999150000000014,0.25" rot="1,0,0,0"/>
   <Child external="1" name="Data/objectcontainers/setup/spawn_closet/spawncloset_static_elev_rstop_occu_001.socpak" entityName="spawncloset_static_elev_rstop_occu_006" label="spawncloset_01_{849367CA-F77E-44B2-8F02-FDE8673B61E3}_spawncloset_static_elev_rstop_occu_006_{942406FD-CBE3-4481-B601-8DEFDA20815E}" class="ObjectContainer" classGuid="544a2c24-0b37-4297-bcfc-4a625aa82c4d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7" guid="4481cbe3-9424-06fd-5e81-20daef8d01b6" pos="12.000011000000001,26.999980000000001,8.25" rot="0.70710677,0,0,0.70710677"/>
  </ChildObjectContainers>
- <Health EntityCount="1269" OC_Count="0" StreamingRadius="1019.6062"/>
+ <Health EntityCount="1282" OC_Count="0" StreamingRadius="1019.6062"/>
  <StreamingOCs>
   <OC name="rs_comm_stan-terra_jp1.soc" tags="" staticEntityCount="1459" guid="4aa35840-c278-4e22-bc27-4d58dabc0581" radius="376.21655"/>
  </StreamingOCs>

@@ -47,8 +47,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTM_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTM_AEGS_Redeemer_Mav_Fixed_Thruster_OneShot_End">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSTM_AEGS_Redeemer_Mav_Fixed_Thruster_OneShot_End" wwise_radius_max="150" />
@@ -73,6 +75,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTM_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTM_AEGS_Redeemer_Mav_Fixed_Thruster_OneShot_Start">
       <WwiseEvent wwise_duration_max="1.0502708" wwise_duration_min="0.6525" wwise_duration_type="OneShot" wwise_name="Play_SSTM_AEGS_Redeemer_Mav_Fixed_Thruster_OneShot_Start" wwise_radius_max="150" />
@@ -118,8 +121,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTM_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTM_AEGS_Redeemer_Mav_Fixed_Thruster_Loop">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTM_AEGS_Redeemer_Mav_Fixed_Thruster_Loop" wwise_radius_max="150" />
@@ -167,8 +172,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTM_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTM_AEGS_Redeemer_Mav_Joint_Thruster_OneShot_End">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSTM_AEGS_Redeemer_Mav_Joint_Thruster_OneShot_End" wwise_radius_max="150" />
@@ -213,8 +220,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTM_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTM_AEGS_Redeemer_Mav_Fixed_Thruster_OneShot_Start">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTM_AEGS_Redeemer_Mav_Fixed_Thruster_OneShot_Start" wwise_radius_max="0" />
@@ -260,8 +269,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTM_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTM_AEGS_Redeemer_Mav_Joint_Thruster_OneShot_Start">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTM_AEGS_Redeemer_Mav_Joint_Thruster_OneShot_Start" wwise_radius_max="0" />
@@ -307,8 +318,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTM_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTM_AEGS_Redeemer_Mav_Joint_Thruster_Loop">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTM_AEGS_Redeemer_Mav_Joint_Thruster_Loop" wwise_radius_max="150" />
@@ -356,8 +369,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTM_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTM_AEGS_Redeemer_Mav_Joint_Thruster_OneShot_Start">
       <WwiseEvent wwise_duration_max="1.0502708" wwise_duration_min="0.6525" wwise_duration_type="OneShot" wwise_name="Play_SSTM_AEGS_Redeemer_Mav_Joint_Thruster_OneShot_Start" wwise_radius_max="150" />
@@ -403,8 +418,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTM_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTM_AEGS_Redeemer_Mav_Fixed_Thruster_OneShot_End">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTM_AEGS_Redeemer_Mav_Fixed_Thruster_OneShot_End" wwise_radius_max="0" />
@@ -429,6 +446,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTM_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTM_AEGS_Redeemer_Mav_Joint_Thruster_Loop">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTM_AEGS_Redeemer_Mav_Joint_Thruster_Loop" wwise_radius_max="0" />
@@ -476,8 +494,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTM_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTM_AEGS_Redeemer_Mav_Joint_Thruster_OneShot_End">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTM_AEGS_Redeemer_Mav_Joint_Thruster_OneShot_End" wwise_radius_max="0" />
@@ -522,8 +542,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTM_AEGS_Redeemer" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -536,4 +558,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

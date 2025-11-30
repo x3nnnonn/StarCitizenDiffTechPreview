@@ -51,8 +51,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_WPHD_Large_3p_Ducking_Meter" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_MISC_HULL_A_Afterburner_Sweeteners">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_MISC_HULL_A_Afterburner_Sweeteners" wwise_radius_max="0" />
@@ -104,8 +106,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_WPHD_Large_3p_Ducking_Meter" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_MISC_HULL_A_Cockpit_Tone_02">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_MISC_HULL_A_Cockpit_Tone_02" wwise_radius_max="0" />
@@ -155,8 +159,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_MISC_HULL_A_Cockpit_Tone_01">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_MISC_HULL_A_Cockpit_Tone_01" wwise_radius_max="0" />
@@ -210,8 +216,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_MISC_HULL_A_Cockpit_Tone_02">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_MISC_HULL_A_Cockpit_Tone_02" wwise_radius_max="50" />
@@ -261,8 +269,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_MISC_HULL_A_Cockpit_Tone_01">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_MISC_HULL_A_Cockpit_Tone_01" wwise_radius_max="50" />
@@ -316,8 +326,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_MISC_HULL_A_Surge">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_MISC_HULL_A_Surge" wwise_radius_max="50" />
@@ -369,8 +381,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_MISC_HULL_A_Surge">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_MISC_HULL_A_Surge" wwise_radius_max="0" />
@@ -422,8 +436,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_MISC_HULL_A_Rotation_Yaw_Left">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_MISC_HULL_A_Rotation_Yaw_Left" wwise_radius_max="50" />
@@ -469,8 +485,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_MISC_HULL_A_Strafe_Down">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_MISC_HULL_A_Strafe_Down" wwise_radius_max="0" />
@@ -519,8 +537,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_MISC_HULL_A_Strafe_Right">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_MISC_HULL_A_Strafe_Right" wwise_radius_max="0" />
@@ -569,8 +589,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_MISC_HULL_A_Strafe_Up">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_MISC_HULL_A_Strafe_Up" wwise_radius_max="0" />
@@ -619,8 +641,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_MISC_HULL_A_Rotation_Pitch">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_MISC_HULL_A_Rotation_Pitch" wwise_radius_max="0" />
@@ -666,8 +690,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_MISC_HULL_A_Rotation_Yaw_Left">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_MISC_HULL_A_Rotation_Yaw_Left" wwise_radius_max="0" />
@@ -713,8 +739,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_MISC_HULL_A_Rotation_Yaw_Right">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_MISC_HULL_A_Rotation_Yaw_Right" wwise_radius_max="0" />
@@ -760,8 +788,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_MISC_HULL_A_Strafe_Left">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_MISC_HULL_A_Strafe_Left" wwise_radius_max="50" />
@@ -810,8 +840,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_MISC_HULL_A_Strafe_Left">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_MISC_HULL_A_Strafe_Left" wwise_radius_max="0" />
@@ -860,8 +892,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_MISC_HULL_A_Rotation_Roll_Left">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_MISC_HULL_A_Rotation_Roll_Left" wwise_radius_max="0" />
@@ -907,8 +941,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_MISC_HULL_A_Rotation_Roll_Right">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_MISC_HULL_A_Rotation_Roll_Right" wwise_radius_max="0" />
@@ -954,8 +990,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_MISC_HULL_A_Strafe_Backwards">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_MISC_HULL_A_Strafe_Backwards" wwise_radius_max="50" />
@@ -1005,8 +1043,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_MISC_HULL_A_Strafe_Right">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_MISC_HULL_A_Strafe_Right" wwise_radius_max="50" />
@@ -1055,8 +1095,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_MISC_HULL_A_Rotation_Pitch">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_MISC_HULL_A_Rotation_Pitch" wwise_radius_max="50" />
@@ -1102,8 +1144,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_MISC_HULL_A_Strafe_Up">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_MISC_HULL_A_Strafe_Up" wwise_radius_max="50" />
@@ -1152,8 +1196,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_MISC_HULL_A_Rotation_Roll_Left">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_MISC_HULL_A_Rotation_Roll_Left" wwise_radius_max="50" />
@@ -1199,8 +1245,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_MISC_HULL_A_Rotation_Roll_Right">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_MISC_HULL_A_Rotation_Roll_Right" wwise_radius_max="50" />
@@ -1246,8 +1294,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_MISC_HULL_A_Rotation_Yaw_Right">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_MISC_HULL_A_Rotation_Yaw_Right" wwise_radius_max="50" />
@@ -1293,8 +1343,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_MISC_HULL_A_Strafe_Backwards">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_MISC_HULL_A_Strafe_Backwards" wwise_radius_max="0" />
@@ -1344,8 +1396,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_MISC_HULL_A_Strafe_Down">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_MISC_HULL_A_Strafe_Down" wwise_radius_max="50" />
@@ -1394,8 +1448,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_HULL_A_Feedback_Whine_Tone_01">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_HULL_A_Feedback_Whine_Tone_01" wwise_radius_max="15" />
@@ -1444,8 +1500,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSW_HULL_A_Cruise_Tone_01">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSW_HULL_A_Cruise_Tone_01" wwise_radius_max="15" />
@@ -1496,8 +1554,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_HULL_A_Cruise_Tone_01">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_HULL_A_Cruise_Tone_01" wwise_radius_max="0" />
@@ -1548,8 +1608,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSSW_HULL_A_Feedback_Whine_Tone_01">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSSW_HULL_A_Feedback_Whine_Tone_01" wwise_radius_max="0" />
@@ -1598,8 +1660,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSW_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -1612,4 +1676,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

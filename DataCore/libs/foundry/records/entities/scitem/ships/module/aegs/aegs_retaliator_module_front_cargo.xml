@@ -151,8 +151,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>2</maxLoggedCollisions>
         <Damping>0</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -381,7 +381,7 @@
             <placeInteractionBlockText>@interaction_condition_placeOnItemport_noMatchingItem</placeInteractionBlockText>
           </interactions>
           <linkedItemPorts Type="SItemPortDef" Count="0" />
-          <resourceLinkToParent>False</resourceLinkToParent>
+          <resourceLinkToParent>True</resourceLinkToParent>
           <useHelperAsInteractionPointName>False</useHelperAsInteractionPointName>
           <itemPortRules Type="SItemPortRuleDef" Count="0" />
           <detachDirection Type="Vec3">
@@ -439,7 +439,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Door</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />

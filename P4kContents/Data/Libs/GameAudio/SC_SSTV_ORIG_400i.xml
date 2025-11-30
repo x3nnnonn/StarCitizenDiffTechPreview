@@ -48,8 +48,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTV_ORIG_400i" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTV_ORIG_400i_VTOL_Thruster_Loop">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTV_ORIG_400i_VTOL_Thruster_Loop" wwise_radius_max="700" />
@@ -98,8 +100,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTV_ORIG_400i" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTV_ORIG_400i_Thrust_Oneshot_Start">
       <WwiseEvent wwise_duration_max="4.71675" wwise_duration_min="4.601" wwise_duration_type="OneShot" wwise_name="Play_SSTV_ORIG_400i_Thrust_Oneshot_Start" wwise_radius_max="550" />
@@ -145,8 +149,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTV_ORIG_400i" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTV_ORIG_400i_OD_Oneshot_End">
       <WwiseEvent wwise_duration_max="3.022698" wwise_duration_min="1.38642335" wwise_duration_type="OneShot" wwise_name="Play_SSTV_ORIG_400i_OD_Oneshot_End" wwise_radius_max="550" />
@@ -195,8 +201,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTV_ORIG_400i" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTV_ORIG_400i_OD_Oneshot_Start">
       <WwiseEvent wwise_duration_max="4.140729" wwise_duration_min="2.67379165" wwise_duration_type="OneShot" wwise_name="Play_SSTV_ORIG_400i_OD_Oneshot_Start" wwise_radius_max="550" />
@@ -245,8 +253,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTV_ORIG_400i" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -259,4 +269,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

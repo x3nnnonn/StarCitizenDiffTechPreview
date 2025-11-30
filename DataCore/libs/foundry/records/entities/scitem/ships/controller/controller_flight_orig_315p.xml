@@ -405,16 +405,16 @@
       <linkPlugs Type="Tag" Count="0" />
     </SInteractionLinkParams>
     <IFCSParams Type="IFCSParams">
-      <scmSpeed>260</scmSpeed>
-      <boostSpeedForward>610</boostSpeedForward>
-      <boostSpeedBackward>230</boostSpeedBackward>
-      <maxSpeed>1425</maxSpeed>
+      <scmSpeed>258</scmSpeed>
+      <boostSpeedForward>550</boostSpeedForward>
+      <boostSpeedBackward>270</boostSpeedBackward>
+      <maxSpeed>1460</maxSpeed>
       <maxSpeedPrecisionModeFullProximityAssist>10</maxSpeedPrecisionModeFullProximityAssist>
       <maxSpeedPrecisionModeZeroProximityAssist>30</maxSpeedPrecisionModeZeroProximityAssist>
       <maxAngularVelocity Type="Vec3">
-        <x>52</x>
-        <y>180</y>
-        <z>48</z>
+        <x>50</x>
+        <y>175</y>
+        <z>46</z>
       </maxAngularVelocity>
       <pitchYawLimiterType>Ellipsoid</pitchYawLimiterType>
       <linearLimiterType>NormalizedUniformWithMaxRadius</linearLimiterType>
@@ -1776,23 +1776,23 @@
       <thrusterImbalanceMessage>@dfm_ui_UnexpectedTorqueImbalance</thrusterImbalanceMessage>
       <positiveLinearScale Type="Vec3">
         <x>1.005</x>
-        <y>1</y>
+        <y>1.02</y>
         <z>1</z>
       </positiveLinearScale>
       <negativeLinearScale Type="Vec3">
-        <x>1</x>
+        <x>0.99</x>
         <y>1</y>
         <z>1</z>
       </negativeLinearScale>
       <positiveAngularScale Type="Vec3">
-        <x>0.18</x>
-        <y>0.242</y>
-        <z>0.24</z>
+        <x>0.172</x>
+        <y>0.181</y>
+        <z>0.155</z>
       </positiveAngularScale>
       <negativeAngularScale Type="Vec3">
-        <x>0.195</x>
-        <y>0.243</y>
-        <z>0.24</z>
+        <x>0.184</x>
+        <y>0.182</y>
+        <z>0.1574</z>
       </negativeAngularScale>
       <intoxicationModifierRef ReferencedFile="file://./../../../../../../../libs/foundry/records/intoxication/globalifcsintoxicationmodifierparams.xml" />
       <authoredMotionLimits Type="SIFCSAuthoredMotionLimits">

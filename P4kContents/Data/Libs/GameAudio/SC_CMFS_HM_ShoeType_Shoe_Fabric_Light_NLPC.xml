@@ -37,8 +37,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMFS_HM_ShoeType_Shoe_Fabric_Light_NLPC" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_CMFS_HM_Shoe_Fabric_Light_Up_NLPC">
       <WwiseEvent wwise_duration_max="0.526645839" wwise_duration_min="0.132145837" wwise_duration_type="OneShot" wwise_name="Play_CMFS_HM_Shoe_Fabric_Light_Up_NLPC" wwise_radius_max="25" />
@@ -77,8 +79,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_CMFS_HM_ShoeType_Shoe_Fabric_Light_NLPC" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -91,4 +95,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

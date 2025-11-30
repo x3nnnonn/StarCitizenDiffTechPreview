@@ -10,11 +10,12 @@
     <b>0</b>
   </defaultEditorColor>
   <entityDensityClass ReferencedFile="file://./../../../../../../../../../../../libs/foundry/records/densityclasses/fpsitemsdensityclass.xml" />
-  <tags Type="Tag" Count="12">
+  <tags Type="Tag" Count="13">
     <Tag RecordReference="file://./../../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.264e2ddb-ca12-4eb8-9dde-b859d420db22" RecordId="264e2ddb-ca12-4eb8-9dde-b859d420db22" />
     <Tag RecordReference="file://./../../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.dfbc6af5-6211-4d71-8d10-b64c66ea95a9" RecordId="dfbc6af5-6211-4d71-8d10-b64c66ea95a9" />
     <Tag RecordReference="file://./../../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ba75cc73-a4c9-447a-9912-1fd8ccc7031b" RecordId="ba75cc73-a4c9-447a-9912-1fd8ccc7031b" />
     <Tag RecordReference="file://./../../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5bbbbf29-ae7e-4a62-a45f-e0b31a780baf" RecordId="5bbbbf29-ae7e-4a62-a45f-e0b31a780baf" />
+    <Tag RecordReference="file://./../../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.4cd7531a-c014-496d-96c1-cff1f54892e2" RecordId="4cd7531a-c014-496d-96c1-cff1f54892e2" />
     <Tag RecordReference="file://./../../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ba81fd42-eb1e-4948-9a92-6359133e16e2" RecordId="ba81fd42-eb1e-4948-9a92-6359133e16e2" />
     <Tag RecordReference="file://./../../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.92cd76d8-1f16-4614-aaad-37f3bc8bd2ab" RecordId="92cd76d8-1f16-4614-aaad-37f3bc8bd2ab" />
     <Tag RecordReference="file://./../../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5e2dc874-480b-4ee7-85ee-733daf16e388" RecordId="5e2dc874-480b-4ee7-85ee-733daf16e388" />
@@ -47,8 +48,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -572,7 +573,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>FPS_Consumable</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -666,7 +667,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>FPS_Consumable</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -803,14 +804,14 @@
           <Types Type="SItemPortDefTypes" Count="2">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponPersonal</Type>
-              <SubTypes Type="SpeedThreshold" Count="2">
+              <SubTypes Type="StatusEffect" Count="2">
                 <EnumChoice>Gadget</EnumChoice>
                 <EnumChoice>Rocket</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>RemovableChip</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Hacking</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -906,7 +907,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponPersonal</Type>
-              <SubTypes Type="SpeedThreshold" Count="2">
+              <SubTypes Type="StatusEffect" Count="2">
                 <EnumChoice>Knife</EnumChoice>
                 <EnumChoice>Gadget</EnumChoice>
               </SubTypes>
@@ -1003,7 +1004,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>FPS_Consumable</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1097,7 +1098,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>FPS_Consumable</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1191,7 +1192,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponPersonal</Type>
-              <SubTypes Type="SpeedThreshold" Count="2">
+              <SubTypes Type="StatusEffect" Count="2">
                 <EnumChoice>Small</EnumChoice>
                 <EnumChoice>Rocket</EnumChoice>
               </SubTypes>

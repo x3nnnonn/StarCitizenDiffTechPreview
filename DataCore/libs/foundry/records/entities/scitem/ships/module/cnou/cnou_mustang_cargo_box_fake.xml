@@ -147,8 +147,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.5</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -215,8 +215,8 @@
           <Tags Type="Tag" Count="0" />
           <OnAttachTags Type="Tag" Count="0" />
           <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
-          <MinSize>0</MinSize>
-          <MaxSize>0</MaxSize>
+          <MinSize>1</MinSize>
+          <MaxSize>1</MaxSize>
           <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
@@ -247,7 +247,12 @@
           <controllableTag />
           <control />
           <Connections Type="SItemPortConnectionParam" Count="0" />
-          <Types Type="SItemPortDefTypes" Count="0" />
+          <Types Type="SItemPortDefTypes" Count="1">
+            <SItemPortDefTypes Type="SItemPortDefTypes">
+              <Type>Door</Type>
+              <SubTypes Type="StatusEffect" Count="0" />
+            </SItemPortDefTypes>
+          </Types>
           <Extension />
           <AttachmentImplementation Type="SItemPortDefAttachmentImplementationEntity">
             <usePhysicalAttachment>False</usePhysicalAttachment>
@@ -324,8 +329,8 @@
           <Tags Type="Tag" Count="0" />
           <OnAttachTags Type="Tag" Count="0" />
           <PropagateOnAttachTagsToHierarchy>False</PropagateOnAttachTagsToHierarchy>
-          <MinSize>0</MinSize>
-          <MaxSize>0</MaxSize>
+          <MinSize>1</MinSize>
+          <MaxSize>1</MaxSize>
           <MaxAggregateAttachmentHeight>-1</MaxAggregateAttachmentHeight>
           <defaultItem Type="SItemPortDefaultItemDef">
             <itemPort />
@@ -356,7 +361,12 @@
           <controllableTag />
           <control />
           <Connections Type="SItemPortConnectionParam" Count="0" />
-          <Types Type="SItemPortDefTypes" Count="0" />
+          <Types Type="SItemPortDefTypes" Count="1">
+            <SItemPortDefTypes Type="SItemPortDefTypes">
+              <Type>Door</Type>
+              <SubTypes Type="StatusEffect" Count="0" />
+            </SItemPortDefTypes>
+          </Types>
           <Extension />
           <AttachmentImplementation Type="SItemPortDefAttachmentImplementationBone">
             <Helper Type="SItemPortDefHelperNode">

@@ -1,6 +1,6 @@
 <ObjectContainer sourceLevel="data/levels/!ship_setup/drak/caterpillar">
  <Layers>
-  <Layer fullname="middle_section" externalLayerLevelDir="data/levels/!ship_setup/drak/caterpillar/Layers/" externalLayerParentDir="" externalLayerFilePath="data/levels/!ship_setup/drak/caterpillar/Layers/middle_section.lyr" layerHash="637515361">
+  <Layer fullname="middle_section" externalLayerLevelDir="data/levels/!ship_setup/drak/caterpillar/Layers/" externalLayerParentDir="" externalLayerFilePath="data/levels/!ship_setup/drak/caterpillar/Layers/middle_section.lyr" layerHash="2061112135">
    <Layer name="Navmesh" layerHash="1195205783" externalLayerFilePath="data/levels/!ship_setup/drak/caterpillar/Layers/middle_section/Navmesh.lyr">
     <Object name="NavigationArea" type="NavigationArea" guid="4755bfcf-2c1d-17ec-7f35-d97be6262c82" tags="a9842535-5d8f-460b-bc21-447a70025802"/>
    </Layer>
@@ -45,13 +45,13 @@
      <Object name="Room_Hallway_Command_Room2" type="Room_RN" guid="4d86cbea-8ef8-bcd6-34c2-dcb1a5d34db4" tags="00ead468-9073-485b-a6df-ca6b94053603,6fe55369-1239-4b70-83e3-a4051919e4d8,afd66f73-2769-4e3f-b17c-a08c6dd1b361,a7c06cc7-a715-43b3-93b6-486483f26d18,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     </Layer>
     <Layer name="center_hallway_AUDIO" layerHash="2572279260" externalLayerFilePath="data/levels/!ship_setup/drak/caterpillar/Layers/middle_section/center_hallway/center_hallway_AUDIO.lyr">
-     <Layer name="center_hallway_AUDIO_vibrations" layerHash="3493804833" externalLayerFilePath="data/levels/!ship_setup/drak/caterpillar/Layers/middle_section/center_hallway/center_hallway_AUDIO/center_hallway_AUDIO_vibrations.lyr">
+     <Layer name="center_hallway_AUDIO_vibrations" layerHash="1775211842" externalLayerFilePath="data/levels/!ship_setup/drak/caterpillar/Layers/middle_section/center_hallway/center_hallway_AUDIO/center_hallway_AUDIO_vibrations.lyr">
       <Object name="VibrationAudioPoint-061" type="VibrationAudioPoint" guid="403a5a98-302e-d901-1d9c-3ef8d42ffeb6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
       <Object name="VibrationAudioPoint-062" type="VibrationAudioPoint" guid="47d63411-88d0-7b05-7535-36069ce8aab4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
       <Object name="VibrationAudioPoint-063" type="VibrationAudioPoint" guid="4dbc3608-9eb0-a80d-7905-63d7dec80e84" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
       <Object name="VibrationAudioPoint-064" type="VibrationAudioPoint" guid="4694f217-7e50-7639-51a7-310c28e1149f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-      <Object name="VibrationAudioPoint-065" type="VibrationAudioPoint" guid="43f96765-cfd1-4c4b-79c0-cc19fdaafd97" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-      <Object name="VibrationAudioPoint-066" type="VibrationAudioPoint" guid="4b715bbb-359a-2d8b-cd5f-cbfe87e329b9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+      <Object name="VibrationAudioPoint-066" type="VibrationAudioPoint" guid="43f96765-cfd1-4c4b-79c0-cc19fdaafd97" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+      <Object name="VibrationAudioPoint-065" type="VibrationAudioPoint" guid="4b715bbb-359a-2d8b-cd5f-cbfe87e329b9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
       <Object name="VibrationAudioPoint-067" type="VibrationAudioPoint" guid="47cffe68-6400-d89d-992f-e1b14d31e28c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      </Layer>
      <Object name="AS_Center_Hallway" type="AreaShape" guid="4ff8545c-5e0c-100b-cdb2-8244e0ede6ae" tags="f1b1052f-f3b0-4f44-b809-96380bfc4e97"/>
@@ -170,12 +170,12 @@
      <Object name="Room_SecArm_Hallway_Room" type="Room_RN" guid="4449b509-0a05-7ba4-0601-679df3c121ba" tags="00ead468-9073-485b-a6df-ca6b94053603,6fe55369-1239-4b70-83e3-a4051919e4d8,afd66f73-2769-4e3f-b17c-a08c6dd1b361,a7c06cc7-a715-43b3-93b6-486483f26d18,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     </Layer>
     <Layer name="lower_hallway_AUDIO" layerHash="1615878852" externalLayerFilePath="data/levels/!ship_setup/drak/caterpillar/Layers/middle_section/lower_hallway/lower_hallway_AUDIO.lyr">
-     <Layer name="lower_hallway_AUDIO_vibrations" layerHash="1410809113" externalLayerFilePath="data/levels/!ship_setup/drak/caterpillar/Layers/middle_section/lower_hallway/lower_hallway_AUDIO/lower_hallway_AUDIO_vibrations.lyr">
+     <Layer name="lower_hallway_AUDIO_vibrations" layerHash="3910928819" externalLayerFilePath="data/levels/!ship_setup/drak/caterpillar/Layers/middle_section/lower_hallway/lower_hallway_AUDIO/lower_hallway_AUDIO_vibrations.lyr">
       <Object name="VibrationAudioPoint-088" type="VibrationAudioPoint" guid="4104409a-ed7b-ea34-a4da-49449beb3bad" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
       <Object name="VibrationAudioPoint-089" type="VibrationAudioPoint" guid="4d34ddc3-6a71-4841-7f63-f6f7eeb3d480" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-      <Object name="VibrationAudioPoint-092" type="VibrationAudioPoint" guid="49c3554a-3011-f27a-b2de-88fb4a7e4195" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-      <Object name="VibrationAudioPoint-090" type="VibrationAudioPoint" guid="49bedbf9-971c-55a0-b06b-66497b9efeb3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-      <Object name="VibrationAudioPoint-091" type="VibrationAudioPoint" guid="4c14e714-e69b-fec7-1b2e-fe457b3f9d92" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+      <Object name="VibrationAudioPoint-090" type="VibrationAudioPoint" guid="49c3554a-3011-f27a-b2de-88fb4a7e4195" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+      <Object name="VibrationAudioPoint-091" type="VibrationAudioPoint" guid="49bedbf9-971c-55a0-b06b-66497b9efeb3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+      <Object name="VibrationAudioPoint-092" type="VibrationAudioPoint" guid="4c14e714-e69b-fec7-1b2e-fe457b3f9d92" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
       <Object name="VibrationAudioPoint-093" type="VibrationAudioPoint" guid="4cae3fbc-701a-2fef-92ce-fa87e0ef8baf" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      </Layer>
      <Object name="ATS_Leccy" type="AudioTriggerSpot" guid="4aa3a585-a204-2d17-c432-22b0872c4faf" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -238,11 +238,11 @@
    <Layer name="server_room" layerHash="1838816667" externalLayerFilePath="data/levels/!ship_setup/drak/caterpillar/Layers/middle_section/server_room.lyr">
     <Layer name="server_room_ATMO" layerHash="528968583" externalLayerFilePath="data/levels/!ship_setup/drak/caterpillar/Layers/middle_section/server_room/server_room_ATMO.lyr"/>
     <Layer name="server_room_AUDIO" layerHash="4268657900" externalLayerFilePath="data/levels/!ship_setup/drak/caterpillar/Layers/middle_section/server_room/server_room_AUDIO.lyr">
-     <Layer name="server_room_AUDIO_vibrations" layerHash="2018390095" externalLayerFilePath="data/levels/!ship_setup/drak/caterpillar/Layers/middle_section/server_room/server_room_AUDIO/server_room_AUDIO_vibrations.lyr">
+     <Layer name="server_room_AUDIO_vibrations" layerHash="2979276180" externalLayerFilePath="data/levels/!ship_setup/drak/caterpillar/Layers/middle_section/server_room/server_room_AUDIO/server_room_AUDIO_vibrations.lyr">
       <Object name="VibrationAudioPoint-100" type="VibrationAudioPoint" guid="4db6b09c-731a-8e42-03d3-08aff2ef10bf" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
       <Object name="VibrationAudioPoint-101" type="VibrationAudioPoint" guid="42c26a1b-2fab-2370-d0cb-5e3912ec3cba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-      <Object name="VibrationAudioPoint-103" type="VibrationAudioPoint" guid="4c99eb37-2283-ac72-5f2b-7f93df24188a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-      <Object name="VibrationAudioPoint-102" type="VibrationAudioPoint" guid="414e8733-1bd6-e47a-0056-c78ea5ab949d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+      <Object name="VibrationAudioPoint-102" type="VibrationAudioPoint" guid="4c99eb37-2283-ac72-5f2b-7f93df24188a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+      <Object name="VibrationAudioPoint-103" type="VibrationAudioPoint" guid="414e8733-1bd6-e47a-0056-c78ea5ab949d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
       <Object name="VibrationAudioPoint-104" type="VibrationAudioPoint" guid="4b4b14d9-93d7-717d-01ba-349c901a7186" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
       <Object name="VibrationAudioPoint-105" type="VibrationAudioPoint" guid="4d799b3e-dd75-858f-f345-9e0b86f04187" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
       <Object name="VibrationAudioPoint-106" type="VibrationAudioPoint" guid="49b2edb5-0806-f0d3-ccb9-b73e34e32481" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>

@@ -335,7 +335,7 @@
       <inheritsAlpha>True</inheritsAlpha>
       <inheritsOverflow>False</inheritsOverflow>
       <alpha>1</alpha>
-      <layer>7</layer>
+      <layer>5</layer>
       <aspectRatioLibrary />
       <focusIndex>-1</focusIndex>
       <inlineStyles Type="BuildingBlocks_StyleEntry" Count="0" />
@@ -352,7 +352,7 @@
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="19">
+  <operations Type="BuildingBlocks_Node" Count="20">
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
       <widget PointsTo="ptr:1" />
       <field>ParamInput1</field>
@@ -476,7 +476,7 @@
       <inputL PointsTo="ptr:10" />
       <inputR PointsTo="ptr:11" />
     </BuildingBlocks_BindingsIntegerArithmatic>
-    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:7" Type="BuildingBlocks_BindingsNumberFromInteger">
+    <BuildingBlocks_BindingsNumberFromInteger Pointer="ptr:16" Type="BuildingBlocks_BindingsNumberFromInteger">
       <asSeconds>True</asSeconds>
       <input PointsTo="ptr:12" />
     </BuildingBlocks_BindingsNumberFromInteger>
@@ -505,6 +505,10 @@
       <field>ParamInput0</field>
       <input PointsTo="ptr:15" />
     </BuildingBlocks_BindingsLocalizedField>
+    <BuildingBlocks_BindingsNumberRound Pointer="ptr:7" Type="BuildingBlocks_BindingsNumberRound">
+      <amount>0</amount>
+      <input PointsTo="ptr:16" />
+    </BuildingBlocks_BindingsNumberRound>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

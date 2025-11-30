@@ -95,115 +95,115 @@
    </Layer>
    <Layer name="elev" layerHash="1830406473" externalLayerFilePath="data/levels/!oc/pu/loc/mod/pyro/station/ser/reststop_entry/rs_entry_small_cfp_001/Layers/rs_entry_small_cfp_001/elev.lyr"/>
    <Layer name="habs" layerHash="51111681" externalLayerFilePath="data/levels/!oc/pu/loc/mod/pyro/station/ser/reststop_entry/rs_entry_small_cfp_001/Layers/rs_entry_small_cfp_001/habs.lyr"/>
-   <Layer name="portal" layerHash="3901458750" externalLayerFilePath="data/levels/!oc/pu/loc/mod/pyro/station/ser/reststop_entry/rs_entry_small_cfp_001/Layers/rs_entry_small_cfp_001/portal.lyr">
+   <Layer name="portal" layerHash="1458263551" externalLayerFilePath="data/levels/!oc/pu/loc/mod/pyro/station/ser/reststop_entry/rs_entry_small_cfp_001/Layers/rs_entry_small_cfp_001/portal.lyr">
     <Object name="portal.gen.portal_gen_12_01_04_018" type="Prefab" guid="48c1c412-2c1a-4a00-1a7c-d180a7f950bc"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-019" type="ProceduralLayoutElementInfoBox" guid="42dc507c-bce3-8b02-3d58-f7246302f588"/>
-    <Object name="RoomConnector-021" type="RoomConnector" guid="4198f948-9bc6-4e04-66f5-10e45e5fd888" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="Portal002-030" type="Portal" guid="430b32b3-95ff-3e02-92d6-9de289c7928e"/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-011" type="ProceduralLayoutElementInfoBox" guid="46f6f9db-a930-1607-9347-322d7123eea6"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-003" type="PrefabPivot" guid="47f6662e-0e36-870b-57c6-86c5a16e8b92" tags=""/>
     <Object name="portal.gen.portal_gen_12_01_04_014" type="Prefab" guid="4f29f740-b5ac-c80e-24ca-6b1f83d49c85"/>
-    <Object name="Portal002-028" type="Portal" guid="4e52ff0c-b135-970f-4cca-05c9a0c46a8f"/>
-    <Object name="procedural_connection_navlink-015" type="procedural_connection_navlink" guid="493f7683-39e2-1c11-1be2-b4bd6e1f3496" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="procedural_connection_navlink-001" type="procedural_connection_navlink" guid="44adc7ca-a1c5-3613-f170-edd00cc1eeaf" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="Portal002-027" type="Portal" guid="401c5793-32fb-0816-872b-5e21332e25ba"/>
-    <Object name="RoomConnector-012" type="RoomConnector" guid="4da1648e-3b1d-a320-968a-eb51ecd18c94" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-011" type="ProceduralLayoutElementInfoBox" guid="4732d585-7fcf-1421-25e4-57e6cceea287"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-008" type="ProceduralLayoutElementInfoBox" guid="42995028-ab90-5521-d1db-24246de6faa2"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-015" type="ProceduralLayoutElementInfoBox" guid="477d46e6-aa06-8c23-f7d0-13d207eb59a0"/>
-    <Object name="RoomConnector-013" type="RoomConnector" guid="41f6779d-b71b-2024-d169-209e29691489" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="procedural_connection_navlink-011" type="procedural_connection_navlink" guid="46c68a67-3a20-6f0f-b42b-c79808faf09c" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-010" type="PrefabPivot" guid="41ab2679-fd9a-1f12-ddcc-b3ab4dc281b5" tags=""/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-007" type="PrefabPivot" guid="496ec677-ab90-8012-870c-1ee19c60059f" tags=""/>
+    <Object name="procedural_connection_navlink-008" type="procedural_connection_navlink" guid="4303a336-9a1b-0713-2006-1cba3a2644a6" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-011" type="PrefabPivot" guid="42ba600e-54f0-e416-34a6-5ce76669b9b5" tags=""/>
+    <Object name="RoomConnector-013" type="RoomConnector" guid="467c8cf7-2d40-2e1d-4500-0a4dc43ced82" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-009" type="ProceduralLayoutElementInfoBox" guid="493294cf-2f7b-621e-60bd-190cd18fc091"/>
     <Object name="portal.gen.portal_gen_12_01_04_007" type="Prefab" guid="45119d4a-bff4-6e25-26b0-ee58940fb28c"/>
     <Object name="portal.gen.portal_gen_12_01_04_006" type="Prefab" guid="4c495428-0857-fc25-feab-9161ef896ab9"/>
-    <Object name="procedural_connection_navlink-011" type="procedural_connection_navlink" guid="429cb9fb-b232-4327-a1cf-08a31eee4893" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="procedural_connection_navlink-003" type="procedural_connection_navlink" guid="420336a7-d800-7329-92df-38e5b05e9cbc" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-004" type="PrefabPivot" guid="4fd8ed98-1b0d-052a-2fed-8993e08f0c83" tags=""/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-018" type="PrefabPivot" guid="4c894324-dcb4-2f2a-1743-c9f414df62aa" tags=""/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-010" type="PrefabPivot" guid="4cfd9c0c-90bd-6e2b-2ee7-0ce6f612298c" tags=""/>
-    <Object name="RoomConnector-016" type="RoomConnector" guid="4e866f66-85a6-3b2f-aab3-1beb48f65a96" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="Portal002-020" type="Portal" guid="49e20718-ef5c-6530-7b12-397a41173182"/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-018" type="ProceduralLayoutElementInfoBox" guid="40bacca6-03ae-1727-2757-d29bf84cef92"/>
+    <Object name="procedural_connection_navlink-012" type="procedural_connection_navlink" guid="4ca0d39c-846a-3e27-e28b-fd333cfe7d8f" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="Portal002-017" type="Portal" guid="48a31202-7957-512d-bb76-3164a09116a0"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-019" type="PrefabPivot" guid="45b426d3-3e77-9330-b88c-c76f2dd7c1aa" tags=""/>
     <Object name="portal.gen.portal_gen_12_01_04_012" type="Prefab" guid="42f40e22-9a44-be32-6451-71d2b360fc9f"/>
-    <Object name="procedural_connection_navlink-008" type="procedural_connection_navlink" guid="413120d7-c825-6d36-45c7-ff5ad5197086" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="RoomConnector-014" type="RoomConnector" guid="4b947e0b-4091-9538-1e9b-dd4079de669a" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-017" type="ProceduralLayoutElementInfoBox" guid="4430f822-a682-3b3a-d1fe-066422ceffb7"/>
-    <Object name="RoomConnector-017" type="RoomConnector" guid="40ce8580-33f4-ff3b-9181-2763e6c6498d" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="Portal002-023" type="Portal" guid="41e8aedf-e7b2-c033-89ab-187a0dac2eaa"/>
+    <Object name="procedural_connection_navlink-009" type="procedural_connection_navlink" guid="451c6c4f-41d1-e234-8b7e-a97240034abe" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="RoomConnector-022" type="RoomConnector" guid="41cb7c99-d020-9935-ce65-884af4bdc9a0" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="RoomConnector-020" type="RoomConnector" guid="4ccbae25-d8bf-7738-6b93-6139ed63b2ad" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
     <Object name="portal.gen.portal_gen_12_01_04_023" type="Prefab" guid="49cbd56d-c2de-b441-e745-6e2470aaec96"/>
-    <Object name="Portal002-029" type="Portal" guid="4f415c06-09e7-3848-bddf-f5ca22336799"/>
-    <Object name="Portal002-024" type="Portal" guid="4bd15cdc-f546-4048-cada-2e2ba29ebb8b"/>
-    <Object name="procedural_connection_navlink-009" type="procedural_connection_navlink" guid="4ba18a63-8687-c848-0f9b-c0f4d3d8a5b9" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="procedural_connection_navlink-013" type="procedural_connection_navlink" guid="43eac10f-19ed-a24a-6e5f-f3d4c5a6b2b2" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-011" type="PrefabPivot" guid="47bbf281-b8ba-d44c-dacf-6d6be3be0eb8" tags=""/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-012" type="PrefabPivot" guid="43277931-3c48-f34e-3f8a-e20c793010a0" tags=""/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-019" type="ProceduralLayoutElementInfoBox" guid="4477b00a-b13f-9e43-07a3-e7e3e873e182"/>
+    <Object name="RoomConnector-016" type="RoomConnector" guid="420a455d-5f70-ea44-da97-df3792df768e" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-008" type="ProceduralLayoutElementInfoBox" guid="4845f3ab-11f4-7d46-321b-8d294a8a1bb7"/>
+    <Object name="Portal002-020" type="Portal" guid="4a839761-f72a-dd48-7a63-a97da1b5a68d"/>
+    <Object name="RoomConnector-025" type="RoomConnector" guid="4ce3e9ee-1b93-794a-c108-086feddc9c91" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="Portal002-024" type="Portal" guid="416d0e1c-1a6f-bf4b-bf46-d0652dbe04a1"/>
+    <Object name="Portal002-013" type="Portal" guid="4edf66c2-9960-6f4c-aeeb-7187944b17b3"/>
+    <Object name="procedural_connection_navlink-006" type="procedural_connection_navlink" guid="4850625e-95c2-7f50-f9d4-3d8d03f553b1" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-003" type="ProceduralLayoutElementInfoBox" guid="420030ae-8da9-bd50-7244-878420e3e1be"/>
+    <Object name="procedural_connection_navlink-017" type="procedural_connection_navlink" guid="4cd2e551-4029-4155-e010-e0943e94e1a1" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="Portal002-029" type="Portal" guid="48aa3e72-19df-9456-06a6-d73d39991dbe"/>
     <Object name="portal.gen.portal_gen_12_01_04_011" type="Prefab" guid="4e9b772e-da37-1657-c41b-a426e79d379c"/>
-    <Object name="RoomConnector-024" type="RoomConnector" guid="4d85041d-d40a-5757-1c62-c4879af44987" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-013" type="ProceduralLayoutElementInfoBox" guid="416dc45e-8217-be5a-d134-294443dae2b7"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-002" type="ProceduralLayoutElementInfoBox" guid="4374f735-fce2-f75a-9aff-2f6664dd1f87"/>
-    <Object name="procedural_connection_navlink-007" type="procedural_connection_navlink" guid="4d7313b6-98a7-d35c-20e4-cc4de21045a4" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="Portal002-015" type="Portal" guid="45ca5552-9965-c75d-38c7-bf89013ac88e"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-004" type="ProceduralLayoutElementInfoBox" guid="4903d845-a2ef-655e-71f9-a55b2d095098"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-013" type="PrefabPivot" guid="425edff0-a6a9-ba58-d1b6-103c239e3ba0" tags=""/>
+    <Object name="Portal002-015" type="Portal" guid="4c5a68d7-5ab7-2c5c-ad33-e6a289827582"/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-002" type="ProceduralLayoutElementInfoBox" guid="4b65baff-3a7b-9c60-a617-b855050e25a9"/>
     <Object name="portal.gen.portal_gen_12_01_04_015" type="Prefab" guid="4bdd1293-76ba-ed61-968d-464777dd0db8"/>
-    <Object name="Portal002-026" type="Portal" guid="41b37b7f-d9e1-f463-3796-d256a127d3ad"/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-016" type="ProceduralLayoutElementInfoBox" guid="40148ee2-cbee-6862-f082-23b46231da9e"/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-005" type="ProceduralLayoutElementInfoBox" guid="4cd6c693-793c-1463-60c5-e803f22d9989"/>
     <Object name="portal.gen.portal_gen_12_01_04_017" type="Prefab" guid="4e3b1ac3-1f28-d664-3502-b645fd233fbb"/>
-    <Object name="Portal002-019" type="Portal" guid="4829411a-cbfc-9b6a-965b-90c9ee8556a0"/>
-    <Object name="RoomConnector-010" type="RoomConnector" guid="409e30d8-e33f-c96a-10fa-4bd274699dbc" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="procedural_connection_navlink-002" type="procedural_connection_navlink" guid="44183121-1246-a16d-ac91-874d717d8ab7" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="RoomConnector-023" type="RoomConnector" guid="47160a9f-02f0-2f6e-887d-c37b3e6a92bd" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="RoomConnector-000" type="RoomConnector" guid="42282ad4-46c2-516f-0b86-5483a23e96be" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-016" type="ProceduralLayoutElementInfoBox" guid="4dbdf075-5d2a-ae71-f992-fdefebd35c96"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-009" type="PrefabPivot" guid="4b2d407d-b6b2-4d65-5671-c3af2fb29399" tags=""/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-018" type="PrefabPivot" guid="454ed37b-a33a-4e65-9f10-c328b587178c" tags=""/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-012" type="ProceduralLayoutElementInfoBox" guid="4979522d-f6ec-d36e-9ba3-77c40da18a80"/>
     <Object name="portal.gen.portal_gen_12_01_04_022" type="Prefab" guid="4f85e5ff-6ac6-5674-fbc0-40f4d6f31f86"/>
-    <Object name="RoomConnector-022" type="RoomConnector" guid="461a8241-3211-3d77-facf-502579868db1" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="RoomConnector-019" type="RoomConnector" guid="4ddc2f19-50c5-f17a-f2e9-b06ec6601b98" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="procedural_connection_navlink-010" type="procedural_connection_navlink" guid="4518249c-9798-a881-a4d4-093885fd1eb0" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="procedural_connection_navlink-000" type="procedural_connection_navlink" guid="4d047542-b743-5082-b162-5ccb75979f90" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="procedural_connection_navlink-017" type="procedural_connection_navlink" guid="4188d889-39e7-d483-d77f-0fc03afae2a9" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-014" type="PrefabPivot" guid="462d27c9-1b32-f685-cbdf-e01e849538bc" tags=""/>
-    <Object name="Portal002-030" type="Portal" guid="41b3eb27-6b43-8387-0740-28d727b9d8a5"/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-007" type="PrefabPivot" guid="48f519c3-9ae9-998b-b318-1942f77991a1" tags=""/>
-    <Object name="procedural_connection_navlink-006" type="procedural_connection_navlink" guid="424d97fd-6e39-f38c-1700-7cdaec9be5bf" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="RoomConnector-009" type="RoomConnector" guid="4c90c7bf-d589-8194-b9a5-479a4c0d2ab1" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-003" type="PrefabPivot" guid="4c4a3c83-0ac6-a695-26d8-4ec760556494" tags=""/>
-    <Object name="procedural_connection_navlink-012" type="procedural_connection_navlink" guid="4a1ef9bd-1a75-4d96-4315-f8217db539be" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-008" type="PrefabPivot" guid="45bf309e-447e-aa96-aa17-86bf2e6dd483" tags=""/>
+    <Object name="RoomConnector-021" type="RoomConnector" guid="4b0b8f53-96bc-c076-bf9a-7160245a34ae" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="Portal002-014" type="Portal" guid="44ac7a86-5ded-c678-c8c1-3f55d3747fbe"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-016" type="PrefabPivot" guid="46565ecd-9666-4479-f490-c5cff4d092ab" tags=""/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-010" type="ProceduralLayoutElementInfoBox" guid="45f6e367-1102-c47e-7632-0cde223c818f"/>
+    <Object name="Portal002-025" type="Portal" guid="4659f002-70b6-8a80-d3c5-68662b77bd88"/>
+    <Object name="procedural_connection_navlink-003" type="procedural_connection_navlink" guid="47f59adf-a4c8-bc81-2fbc-bf922ba4df94" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="RoomConnector-018" type="RoomConnector" guid="444bf65a-6625-2486-a088-2839541ccd85" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="Portal002-021" type="Portal" guid="40474d5d-1c36-998d-55bc-8a8a0763dda4"/>
+    <Object name="Portal002-022" type="Portal" guid="4c125597-039b-5d8e-732d-483d3b719899"/>
+    <Object name="RoomConnector-000" type="RoomConnector" guid="4cc6c845-0fba-6193-f7b5-d7785c81bbb2" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="Portal002-019" type="Portal" guid="44e1274f-ece5-229f-c544-fcd0ddda6eaa"/>
     <Object name="portal.gen.portal_gen_12_01_04_008" type="Prefab" guid="4ff9d4d4-578e-d89f-dbad-0d87a471c78d"/>
-    <Object name="Portal002-016" type="Portal" guid="453df070-2ed5-67a1-0194-693c8262f0a4"/>
-    <Object name="RoomConnector-025" type="RoomConnector" guid="45140f61-8934-71a2-ccfb-f8db410c06b5" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-010" type="ProceduralLayoutElementInfoBox" guid="4772ec76-7202-4ea5-975a-5ab4a3a92aa9"/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-017" type="PrefabPivot" guid="4f0971a8-199f-87a7-ee17-5a469b1c2c95" tags=""/>
-    <Object name="procedural_connection_navlink-014" type="procedural_connection_navlink" guid="42a6b72c-d010-e9a7-506a-f0deb026f9ba" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="Portal002-018" type="Portal" guid="4761123d-0b2f-b2ab-80f5-b341d5838eb0"/>
-    <Object name="RoomConnector-020" type="RoomConnector" guid="4124b465-c6d6-2eac-3461-b967829a6ba4" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-005" type="ProceduralLayoutElementInfoBox" guid="4dbeadd9-8b9c-fab1-d2ff-d9f765a3cf87"/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-013" type="PrefabPivot" guid="474bbacf-2683-dfb5-d0d8-22cb00e274b2" tags=""/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-019" type="PrefabPivot" guid="4883e328-8d25-0ab7-989e-bd48716b70b1" tags=""/>
+    <Object name="procedural_connection_navlink-001" type="procedural_connection_navlink" guid="42aad045-7767-c3a0-205e-c9e9a3c282a3" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-006" type="PrefabPivot" guid="4ec850e9-8b6c-76a1-b5b5-f07cfa8f23aa" tags=""/>
+    <Object name="RoomConnector-019" type="RoomConnector" guid="46467f57-39c0-caa1-3178-05bf4281ec86" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-004" type="PrefabPivot" guid="47c23388-d476-7ba2-20d5-6f37013a02ae" tags=""/>
+    <Object name="RoomConnector-014" type="RoomConnector" guid="4a44603f-411b-7ea2-2558-3089239e3883" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="Portal002-018" type="Portal" guid="40aab7ce-1589-b0a3-99f7-0954de7be8b0"/>
+    <Object name="procedural_connection_navlink-010" type="procedural_connection_navlink" guid="48829552-22e5-4ba4-61fe-3918eb87a296" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-015" type="ProceduralLayoutElementInfoBox" guid="4ccda09f-cf57-faa4-001a-c03a891385a4"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-002" type="PrefabPivot" guid="4865b4eb-4111-dba5-6871-b78baecddd9d" tags=""/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-017" type="ProceduralLayoutElementInfoBox" guid="48350d40-f7d0-a5a7-d142-4f15968ca0b0"/>
+    <Object name="procedural_connection_navlink-002" type="procedural_connection_navlink" guid="4ba32df8-ad62-f4a7-7ce5-fd1fb00bfaa7" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="RoomConnector-011" type="RoomConnector" guid="45360da7-9088-8bb5-9f0a-948b4da33ea3" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="procedural_connection_navlink-016" type="procedural_connection_navlink" guid="473c3cff-f653-e2b6-8ea0-a7ae9c4c7bad" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="procedural_connection_navlink-015" type="procedural_connection_navlink" guid="413494bc-08c8-8db8-8e21-fcc1e2a457a5" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="Portal002-016" type="Portal" guid="46638c6b-8e5b-4fb9-f45c-c4b6e739a597"/>
     <Object name="portal.gen.portal_gen_12_01_04_013" type="Prefab" guid="4ad44bf0-dd60-e4b9-b88f-df7e2ab83799"/>
-    <Object name="RoomConnector-018" type="RoomConnector" guid="48a4c3ab-3bcc-31bc-41b4-c546c35621a9" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-009" type="PrefabPivot" guid="47da410e-cd5e-1bbd-2883-38f2abfbcc8a" tags=""/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-003" type="ProceduralLayoutElementInfoBox" guid="49925925-16aa-0dc0-b749-50f63f11e58a"/>
-    <Object name="procedural_connection_navlink-004" type="procedural_connection_navlink" guid="43c11804-f4ac-49c0-bcac-36cc48ae02a1" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="RoomConnector-015" type="RoomConnector" guid="452c3bf0-5a7e-1fc4-ad47-7f4d49fd8e92" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-016" type="PrefabPivot" guid="4fbf6ceb-2d40-2fc5-c584-6f33edcb6eaa" tags=""/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-004" type="ProceduralLayoutElementInfoBox" guid="41af146c-6787-4dba-aa80-78faa971e185"/>
+    <Object name="RoomConnector-024" type="RoomConnector" guid="4fe89377-23a9-2dbb-58b8-214ef2f9a19d" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="RoomConnector-010" type="RoomConnector" guid="4952fd02-b205-67bc-2644-c192687d6d82" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-014" type="PrefabPivot" guid="45efa485-eae8-77bc-9b4e-5f21632359b6" tags=""/>
+    <Object name="RoomConnector-023" type="RoomConnector" guid="41456932-673a-16c5-d78e-5fd9a7aa53b2" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="Portal002-027" type="Portal" guid="40bc6eee-2f1b-9ec5-e751-6c0a99c5a7a9"/>
     <Object name="portal.gen.portal_gen_12_01_04_010" type="Prefab" guid="42155e9d-1514-bcc6-8044-a55d7126ca93"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-009" type="ProceduralLayoutElementInfoBox" guid="49cf34df-e8f3-d9c7-362b-0147723f06ab"/>
-    <Object name="procedural_connection_navlink-005" type="procedural_connection_navlink" guid="4ba679e9-1729-4ccb-98cf-058b2a2f9eb2" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-018" type="ProceduralLayoutElementInfoBox" guid="4f2ee114-aab7-5fcc-8aca-0cf7235d76a7"/>
     <Object name="portal.gen.portal_gen_12_01_04_016" type="Prefab" guid="418af93e-28d5-0ace-f2c7-76782c2ec5b0"/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-006" type="PrefabPivot" guid="45275500-a545-fcd1-6654-80844eca6f9a" tags=""/>
-    <Object name="Portal002-017" type="Portal" guid="4973b2f1-cfd4-f6d2-a1e1-a189db8e988d"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-012" type="PrefabPivot" guid="4cd8a680-1ee4-7ccf-d4b5-16398390a1b0" tags=""/>
+    <Object name="RoomConnector-009" type="RoomConnector" guid="458cf2c4-8646-b0d0-a768-597469995dac" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="procedural_connection_navlink-004" type="procedural_connection_navlink" guid="47acf5c2-9f21-c1d2-a7f6-2bec68489c91" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-008" type="PrefabPivot" guid="4e152e4b-9159-f9d2-4a2f-e23dda3fdd8e" tags=""/>
     <Object name="portal.gen.portal_gen_12_01_04_021" type="Prefab" guid="4cfc941c-a254-44d4-4e12-ee42cf76388d"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-006" type="ProceduralLayoutElementInfoBox" guid="483bee30-b7ce-59d4-e96a-9ee380bb0692"/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-002" type="PrefabPivot" guid="49ce0826-05b8-b1d6-4b36-53c8596e61bd" tags=""/>
+    <Object name="Portal002-026" type="Portal" guid="44d4da8e-8330-d4d5-cb23-97b85f3f0db0"/>
     <Object name="portal.gen.portal_gen_12_01_04_019" type="Prefab" guid="4da72820-8134-bbd8-eda5-906c1bcff582"/>
-    <Object name="procedural_connection_navlink-016" type="procedural_connection_navlink" guid="40c13297-873d-9cd9-eb34-c248985b17a8" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
-    <Object name="Portal002-013" type="Portal" guid="41e9104b-6650-eddd-8664-1ab52a1fbea1"/>
-    <Object name="Portal002-022" type="Portal" guid="405a8406-c49c-32e0-ac4e-5c91c88ee284"/>
-    <Object name="Portal002-021" type="Portal" guid="4f2fd5ee-332c-1be3-10ed-2a501aac0989"/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-015" type="PrefabPivot" guid="4789b18f-06b3-50e5-1acb-ebcc7eb5f89a" tags=""/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-007" type="ProceduralLayoutElementInfoBox" guid="453938dc-7184-84e5-60ac-90eabc4c2a9c"/>
-    <Object name="RoomConnector-011" type="RoomConnector" guid="4cc22755-ee23-2ce9-3451-5ee1fcb9f484" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="procedural_connection_navlink-013" type="procedural_connection_navlink" guid="4209150c-1f90-7cd9-2ae3-c0f0e1c62195" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-014" type="ProceduralLayoutElementInfoBox" guid="47ed1f72-c1a2-add9-87ce-932f174aa092"/>
+    <Object name="procedural_connection_navlink-014" type="procedural_connection_navlink" guid="4aced614-e287-02df-66c0-6e7c68c23d85" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-015" type="PrefabPivot" guid="499bdc2e-6e26-2bdf-a8c9-b570eba629ae" tags=""/>
+    <Object name="RoomConnector-012" type="RoomConnector" guid="41fa953d-6253-9adf-4b22-365d0816a0b6" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="procedural_connection_navlink-000" type="procedural_connection_navlink" guid="46e049ff-c902-1ce2-dcd0-fa95a8dfecba" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="procedural_connection_navlink-007" type="procedural_connection_navlink" guid="4c711e2d-250a-d5e3-f387-da158c3cbab6" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-013" type="ProceduralLayoutElementInfoBox" guid="4058e45e-3af5-74e4-2c9f-37b803aeae9f"/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-007" type="ProceduralLayoutElementInfoBox" guid="40960489-393c-d8ea-beb3-9b6c9759eb95"/>
     <Object name="portal.gen.portal_gen_12_01_04_009" type="Prefab" guid="40fcd824-0218-61ef-e866-8707b8b99ea5"/>
-    <Object name="PrefabPivot_portal_gen_12_01_04_001-005" type="PrefabPivot" guid="4df09cd8-b1ad-7fef-0982-62c914f0448e" tags=""/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-012" type="ProceduralLayoutElementInfoBox" guid="4d38222c-09a5-5cf7-39ee-3f4158224fb5"/>
+    <Object name="RoomConnector-015" type="RoomConnector" guid="41197ce4-3792-27f1-86f9-11a38a4c9980" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-017" type="PrefabPivot" guid="4d2e18dd-a41a-70f1-cd67-1c78846c9a8b" tags=""/>
+    <Object name="Portal002-028" type="Portal" guid="40d8eb42-e3e7-11f4-7741-d3d15e09c19d"/>
+    <Object name="RoomConnector-017" type="RoomConnector" guid="4785a881-f225-96f4-8c8c-34209ce5ccb4" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+    <Object name="PrefabPivot_portal_gen_12_01_04_001-005" type="PrefabPivot" guid="4941434b-cae7-e2f4-3b15-6c63d31fc9b8" tags=""/>
     <Object name="portal.gen.portal_gen_12_01_04_020" type="Prefab" guid="46632032-5e6c-91f8-4a01-4f9811dd14a6"/>
-    <Object name="Portal002-025" type="Portal" guid="44408450-b097-96fb-daa1-af052a6642ae"/>
-    <Object name="Portal002-014" type="Portal" guid="46510ce4-496a-29fd-4ce7-bf32e9ae08bd"/>
-    <Object name="Portal002-023" type="Portal" guid="4ff7b7ed-4d0f-e9fd-3988-dbf999dafba4"/>
-    <Object name="ProcInfoBox_portal_gen_12_01_04_001-014" type="ProceduralLayoutElementInfoBox" guid="45d7718b-78fe-c2fe-0cc8-acee9496758e"/>
+    <Object name="procedural_connection_navlink-005" type="procedural_connection_navlink" guid="41bb15ff-457a-a0f9-5563-4b449e3153a9" tags="00ead468-9073-485b-a6df-ca6b94053603,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+    <Object name="ProcInfoBox_portal_gen_12_01_04_001-006" type="ProceduralLayoutElementInfoBox" guid="439ae55c-0305-47fa-e2d8-38692e574fbf"/>
    </Layer>
    <Layer name="security" layerHash="3748684980" externalLayerFilePath="data/levels/!oc/pu/loc/mod/pyro/station/ser/reststop_entry/rs_entry_small_cfp_001/Layers/rs_entry_small_cfp_001/security.lyr">
     <Object name="rstop_securitygate_004_rund_002" type="ObjectContainer" guid="453b5f53-5680-f609-fe34-849b8b4c4c94" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
@@ -229,104 +229,104 @@
     <Object name="base_sroom_012" type="ObjectContainer" guid="4b107613-1955-b7eb-7bb4-9ab7cb0ccd8d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
     <Object name="base_bar_003" type="ObjectContainer" guid="413c53a7-7e7b-e1ee-76b7-9d93141be6b7" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7"/>
    </Layer>
-   <Layer name="signage" layerHash="3004881533" externalLayerFilePath="data/levels/!oc/pu/loc/mod/pyro/station/ser/reststop_entry/rs_entry_small_cfp_001/Layers/rs_entry_small_cfp_001/signage.lyr">
+   <Layer name="signage" layerHash="419368140" externalLayerFilePath="data/levels/!oc/pu/loc/mod/pyro/station/ser/reststop_entry/rs_entry_small_cfp_001/Layers/rs_entry_small_cfp_001/signage.lyr">
     <Object name="lowt.rstop.nsign_rund.rstop_nsign_hngtransit_rund_026" type="Prefab" guid="4f336451-82e2-2c07-5e33-fc4c74bce197"/>
-    <Object name="Frame-013" type="Brush" guid="4616df55-0f9a-2e07-5bbe-f8811c7d8fb4"/>
-    <Object name="l_rstop_nsign_base-125" type="Light" guid="4fd4555f-985a-070a-3757-400811a583ac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="signage_pyro_navsigns_loc_hngtransit-001" type="Brush" guid="43727c4c-43e1-a90c-925f-b8d8e2968895"/>
-    <Object name="l_rstop_nsign_base-126" type="Light" guid="4aadc76b-77f3-7811-8180-88a8c8db75b8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Frame-151" type="Brush" guid="4616df55-0f9a-2e07-5bbe-f8811c7d8fb4"/>
+    <Object name="l_rstop_nsign_fill-136" type="Light" guid="4011a3f5-1b26-bf0b-5071-5d81896b3c89" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="signage_pyro_navsigns_loc_hngtransit-013" type="Brush" guid="43727c4c-43e1-a90c-925f-b8d8e2968895"/>
     <Object name="PrefabPivot-067" type="PrefabPivot" guid="47438ad1-559c-3213-587a-881940c45083" tags=""/>
-    <Object name="Frame-157" type="Brush" guid="492d89ae-9308-e913-cc82-fc4444fa76bd"/>
-    <Object name="l_rstop_nsign_base-141" type="Light" guid="463ae0c2-d787-fd17-ec7b-7f238ed8038c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="signage_pyro_navsigns_loc_hngtransit-015" type="Brush" guid="4d3b0b06-d4bc-9318-015a-c782b77a9781"/>
-    <Object name="l_rstop_nsign_fill-126" type="Light" guid="41529cd8-9445-4719-70e6-6eafdfc1ee8d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="l_rstop_nsign_fill-125" type="Light" guid="43ebd2c9-4f71-6f1b-27ba-8e9049adb4aa" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Frame-156" type="Brush" guid="492d89ae-9308-e913-cc82-fc4444fa76bd"/>
+    <Object name="signage_pyro_navsigns_loc_hngtransit-016" type="Brush" guid="4d3b0b06-d4bc-9318-015a-c782b77a9781"/>
+    <Object name="l_rstop_nsign_fill-142" type="Light" guid="4434123e-b8e5-ec18-9a90-37d13370418f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="l_rstop_nsign_base-137" type="Light" guid="4705b4ec-e069-671a-d14c-68411ace1da7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="PrefabPivot-070" type="PrefabPivot" guid="4e437510-784c-751c-58b8-9c740636e69c" tags=""/>
+    <Object name="l_rstop_nsign_fill-137" type="Light" guid="46c40ee6-1d95-e51c-df36-bc5b27ee719f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Frame-070" type="Brush" guid="4c40afeb-b8d0-051e-0b0b-2069db4a4e9b"/>
     <Object name="lowt.rstop.nsign_rund.rstop_nsign_hngtransit_rund_030" type="Prefab" guid="4487c1b0-af01-391e-0fbf-04fab6f110a9"/>
     <Object name="col_a_ruin_struct_addon_bar_4m_f-006" type="Brush" guid="495cb52a-9888-6322-d7d7-7884e87aa6ae"/>
+    <Object name="l_rstop_nsign_base-123" type="Light" guid="4ab719bf-614a-e323-0884-223f4b4d53a0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="PrefabPivot-000" type="PrefabPivot" guid="462295ff-c989-e924-2403-9b7ed95de5be" tags=""/>
-    <Object name="l_rstop_nsign_base-124" type="Light" guid="4ad579bb-215c-0225-7ffd-2ca2d119258e" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="lowt.rstop.nsign_rund.rstop_nsign_hngtransit_rund_025" type="Prefab" guid="4418562b-0337-c328-fc2a-25dd993b7594"/>
+    <Object name="l_rstop_nsign_base-136" type="Light" guid="48a5ef2d-9ed2-e629-ed73-b97b82d1e2ba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="lowt.rstop.nsign_rund.rstop_nsign_hngtransit_rund_027" type="Prefab" guid="44687c17-b44b-bf30-7b96-5ee1ff25c8b8"/>
     <Object name="Frame-063" type="Brush" guid="46de3565-12e6-9731-2930-ee28b387c88c"/>
     <Object name="lowt.rstop.nsign_rund.rstop_nsign_hngtransit_rund_023" type="Prefab" guid="47f1f1c7-5f90-1032-751a-b42000147582"/>
     <Object name="col_a_ruin_struct_addon_bar_4m_f-004" type="Brush" guid="4bf4c4ea-2516-1132-17a5-f77a9357daa7"/>
+    <Object name="l_rstop_nsign_fill-140" type="Light" guid="4a630374-b2da-de33-7a22-f443e2a5febc" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="signage_pyro_navsigns_loc_exit-018" type="Brush" guid="4d404b6e-e135-4536-f3af-34dad24b2f86"/>
-    <Object name="l_rstop_nsign_fill-144" type="Light" guid="4b2e4b4a-8057-6639-e6b0-63215db26d82" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="l_rstop_nsign_base-112" type="Light" guid="4ca16492-2c76-d23c-7522-137f89c2e89c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="signage_pyro_navsigns_loc_hngtransit-013" type="Brush" guid="4d188f61-a301-4c3d-3c4b-1a39ffe29697"/>
+    <Object name="l_rstop_nsign_fill-138" type="Light" guid="45f53243-5bb4-483a-fd72-5f86a8bf959d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="signage_pyro_navsigns_loc_hngtransit-014" type="Brush" guid="4d188f61-a301-4c3d-3c4b-1a39ffe29697"/>
     <Object name="lowt.rstop.nsign_rund.rstop_nsign_hngtransit_rund_028" type="Prefab" guid="47b4505f-0409-c03f-4db3-95230834039b"/>
     <Object name="signage_pyro_navsigns_loc_exit-001" type="Brush" guid="4759b325-35d7-4040-1e0d-dc1bb08dfabe"/>
     <Object name="Frame-028" type="Brush" guid="4c260154-aec9-5e48-80d9-43e4860d68b2"/>
-    <Object name="l_rstop_nsign_base-138" type="Light" guid="414afc56-a89e-4649-6af9-573715129bb6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Frame-009" type="Brush" guid="4d8a655a-d8ff-fb49-4a32-58de4de4a888"/>
     <Object name="lowt.rstop.nsign_rund.rstop_nsign_hngtransit_rund_022" type="Prefab" guid="4842e410-40e1-8d4a-12e0-dd7daba0bcaf"/>
-    <Object name="l_rstop_nsign_fill-124" type="Light" guid="4d6ad8b5-5506-164b-5e63-f507d796efbb" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="l_rstop_nsign_fill-137" type="Light" guid="416362e7-45e7-cb4e-6bda-96208e68d48b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="l_rstop_nsign_fill-143" type="Light" guid="4d4fd6a1-d952-374b-011e-6c58902decb4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="l_rstop_nsign_base-139" type="Light" guid="42b0eeab-6793-de50-413c-9beeca14139b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Frame-127" type="Brush" guid="42ecbbf5-2219-a253-8080-d6759d268c84"/>
     <Object name="Frame-154" type="Brush" guid="4b3ba1bd-dbf4-8a56-571c-c0128734d093"/>
+    <Object name="l_rstop_nsign_fill-126" type="Light" guid="40c0170b-3295-b558-5b00-de0015dfe4b5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="PrefabPivot-069" type="PrefabPivot" guid="4348dfb9-2a2e-d859-ba4b-1c439109e0a8" tags=""/>
-    <Object name="l_rstop_nsign_fill-142" type="Light" guid="4a8a2f08-27b5-bc5a-e0c0-946644429ba7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="signage_pyro_navsigns_loc_exit-010" type="Brush" guid="4b6cd9f9-036e-8a5b-67d6-6ba3ae61d58c"/>
     <Object name="PrefabPivot-071" type="PrefabPivot" guid="43e21577-36c8-3e5c-f5d0-3b238cae168d" tags=""/>
+    <Object name="l_rstop_nsign_base-124" type="Light" guid="4f5e8908-2c5c-d760-5fed-e63542875c81" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="signage_pyro_navsigns_loc_exit-019" type="Brush" guid="4fa83b52-1541-da61-860a-75c59daa0eb4"/>
     <Object name="lowt.rstop.nsign_rund.rstop_nsign_hngtransit_rund_020" type="Prefab" guid="402016a5-055a-7c66-b117-317b63db9dbc"/>
     <Object name="lowt.rstop.nsign_rund.rstop_nsign_inttransit_rund_s_019" type="Prefab" guid="49036388-eb8e-9468-f653-df0a4976468e"/>
-    <Object name="l_rstop_nsign_base-142" type="Light" guid="42a1bc25-567c-0069-5cf1-51ced3993ab6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="l_rstop_nsign_fill-136" type="Light" guid="439f8cd2-b0f6-966a-5912-c1fa79144abd" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="lowt.rstop.nsign_rund.rstop_nsign_hngtransit_rund_024" type="Prefab" guid="4c42b638-1bfc-1b6b-d96c-32f994a8c5b1"/>
     <Object name="signage_pyro_navsigns_loc_hngtransit-011" type="Brush" guid="450136ea-a158-bb6b-9bae-c4f8c9a0408c"/>
-    <Object name="Frame-155" type="Brush" guid="4e95c4a2-4bec-6c70-1757-5e62fa26a3bc"/>
+    <Object name="l_rstop_nsign_base-125" type="Light" guid="46d431d5-97d8-7e6c-ff78-de40590e1993" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="Frame-157" type="Brush" guid="4e95c4a2-4bec-6c70-1757-5e62fa26a3bc"/>
+    <Object name="l_rstop_nsign_fill-144" type="Light" guid="4cf39c00-f60e-9372-a1f8-e5a536f6d5b4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="l_rstop_nsign_base-138" type="Light" guid="4a740673-a2f1-f973-afd6-c1685c3dec82" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="lowt.rstop.nsign_rund.rstop_nsign_hngtransit_rund_029" type="Prefab" guid="48190b4c-3754-e376-2160-5c310bb6bab2"/>
     <Object name="Frame-153" type="Brush" guid="4724ae96-b30d-5a85-d416-176b4edc9eae"/>
-    <Object name="signage_pyro_navsigns_loc_hngtransit-014" type="Brush" guid="497a8bce-02a6-cc8d-395a-fb95e04ae89a"/>
-    <Object name="l_rstop_nsign_fill-143" type="Light" guid="4bb8ccab-c805-278f-d3ce-086ce0006386" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="l_rstop_nsign_fill-125" type="Light" guid="46f68787-6a79-f785-d365-cbbe38b8e988" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="l_rstop_nsign_base-142" type="Light" guid="42e3c7a0-c8a1-ad88-5e5a-3eba9f76bba8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="signage_pyro_navsigns_loc_hngtransit-015" type="Brush" guid="497a8bce-02a6-cc8d-395a-fb95e04ae89a"/>
     <Object name="PrefabPivot-068" type="PrefabPivot" guid="4a511ba2-3c33-8d91-569c-a480f7a19fbf" tags=""/>
-    <Object name="l_rstop_nsign_fill-123" type="Light" guid="4ec142b8-0c4c-e291-16e3-c13ffef92e85" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="Frame-151" type="Brush" guid="4c30692b-f903-7893-aea3-dd4db6e61584"/>
+    <Object name="Frame-013" type="Brush" guid="4c30692b-f903-7893-aea3-dd4db6e61584"/>
     <Object name="Frame-150" type="Brush" guid="44e7395b-0689-cf95-41bf-0c70c55a7ab2"/>
     <Object name="Frame-152" type="Brush" guid="433e0191-a4b2-d895-b026-dd9ea892fe8e"/>
     <Object name="PrefabPivot-065" type="PrefabPivot" guid="407a14a2-660d-4396-c338-73adcf71cdb1" tags=""/>
-    <Object name="l_rstop_nsign_base-143" type="Light" guid="4d5a4627-f700-6c9f-f6b1-23196a81bebc" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="col_a_ruin_struct_addon_bar_4m_f-007" type="Brush" guid="4472e10f-83ef-efa7-12eb-c60d0f9249aa"/>
+    <Object name="l_rstop_nsign_fill-141" type="Light" guid="45203dfb-1c27-57a9-ad2e-7314a90562aa" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="PrefabPivot-042" type="PrefabPivot" guid="4e08adbb-8859-89ad-52b0-45adcf224eaf" tags=""/>
     <Object name="PrefabPivot-043" type="PrefabPivot" guid="41794e37-3002-a8ae-81f2-bf6bb3bac1b7" tags=""/>
-    <Object name="l_rstop_nsign_base-144" type="Light" guid="456b343c-f623-faae-c1f7-274ed8aaadb2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="lowt.rstop.nsign_rund.rstop_nsign_inttransit_rund_s_020" type="Prefab" guid="4edd319d-7386-76b2-6a2d-491fb824feb3"/>
-    <Object name="l_rstop_nsign_fill-112" type="Light" guid="4fb70f68-577b-c2b2-9a2c-1a89ad4334b7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="signage_pyro_navsigns_loc_inttransit-006" type="Brush" guid="40f74bf5-fa0f-b7b3-8e6f-930f0f5485a8"/>
     <Object name="PrefabPivot-041" type="PrefabPivot" guid="4b9092d7-9479-70b4-e821-6f2ff83a4f85" tags=""/>
     <Object name="PrefabPivot-064" type="PrefabPivot" guid="425ed693-d939-24bc-88ae-09f333a41083" tags=""/>
     <Object name="TagPoint-001" type="TagPoint" guid="40443cdf-2696-e0bd-a53b-043b5afc4f9f" tags="00ead468-9073-485b-a6df-ca6b94053603"/>
-    <Object name="l_rstop_nsign_base-137" type="Light" guid="45e77b4e-06d7-f5be-c2a7-a85b7f3e91b6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="l_rstop_nsign_fill-140" type="Light" guid="47c658ea-40f8-69bf-9ced-7d4832834f8f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Group-001" type="Group" guid="46af5115-1b6c-f7c2-0fca-5b79a7a65d92"/>
     <Object name="signage_pyro_navsigns_loc_exit-011" type="Brush" guid="424df315-15f9-13c3-5bb9-23651cd1dbab"/>
+    <Object name="l_rstop_nsign_fill-139" type="Light" guid="4b3bd11e-181f-56c3-f1ed-2b33a56078b4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Frame-158" type="Brush" guid="4c00abc8-8af8-9bc8-eb8e-31e043b03bae"/>
-    <Object name="l_rstop_nsign_base-140" type="Light" guid="41c904bf-dd13-43c9-bcfd-11845fe74ea8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="l_rstop_nsign_base-136" type="Light" guid="41371e7a-e221-55cd-ad4d-dbd5d20e148a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="l_rstop_nsign_base-123" type="Light" guid="4e0e5645-e994-82d1-6f97-981fb7668296" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="l_rstop_nsign_fill-124" type="Light" guid="4f221145-0f81-83cd-c257-a05396029e93" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="l_rstop_nsign_base-140" type="Light" guid="42ca7fd4-5517-d5cf-5965-90753ec5948d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="PrefabPivot-035" type="PrefabPivot" guid="4a7fc13d-e3eb-6cd5-9ab2-519d91bb2a9a" tags=""/>
     <Object name="lowt.rstop.nsign_rund.rstop_nsign_hngtransit_rund_019" type="Prefab" guid="42809b43-c847-cfd5-f46f-1be706c03aa3"/>
     <Object name="signage_pyro_navsigns_loc_inttransit-000" type="Brush" guid="494d1a88-4991-f0d7-e538-6d676f14f38a"/>
     <Object name="signage_pyro_navsigns_loc_hngtransit-000" type="Brush" guid="4b5b2a93-4e54-51d8-c27a-ce0bd9c51297"/>
     <Object name="lowt.rstop.nsign_rund.rstop_nsign_hngtransit_rund_021" type="Prefab" guid="471dc310-6445-45d9-4944-4d6b3f33be8e"/>
-    <Object name="l_rstop_nsign_base-139" type="Light" guid="4585869b-39e7-1fdb-ff19-63cc64c542a2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="PrefabPivot-063" type="PrefabPivot" guid="49f6bc6b-60a3-d9db-5933-39e895890a90" tags=""/>
-    <Object name="l_rstop_nsign_fill-138" type="Light" guid="40a42b2a-551c-77dc-5f72-7401bbb635b1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="signage_pyro_navsigns_loc_exit-020" type="Brush" guid="45f832fa-f41c-cadc-c61e-b5378101be97"/>
-    <Object name="l_rstop_nsign_fill-141" type="Light" guid="4999e534-600b-e4dd-37d2-8cddfbd30eb6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="signage_pyro_navsigns_loc_inttransit-004" type="Brush" guid="47bc8c5d-2af8-22de-2d4d-63a886c59290"/>
+    <Object name="l_rstop_nsign_base-144" type="Light" guid="455e10e5-07b9-75df-b3a1-43a529746999" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="signage_pyro_navsigns_loc_hngtransit-012" type="Brush" guid="4ad8dcd5-0523-7cdf-34ef-8bff32c418ad"/>
-    <Object name="l_rstop_nsign_fill-139" type="Light" guid="473e8e81-e0c9-2ee4-d2ac-86b9ceb6a791" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="l_rstop_nsign_fill-112" type="Light" guid="4d1e37e7-8021-bfe2-e543-9ce786f1d8a2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="l_rstop_nsign_fill-123" type="Light" guid="48bbce19-6213-18ea-6624-7e46b147f4b3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="l_rstop_nsign_base-141" type="Light" guid="41966ac0-3756-3cec-2948-af4bd60352b8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-520" type="Light" guid="4e57ccc8-4f49-96ec-c3a2-11c1a26c289d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="l_rstop_nsign_base-143" type="Light" guid="4c361d23-cace-1cf3-888d-2a189df166a3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="PrefabPivot-066" type="PrefabPivot" guid="49a21cd2-5ba8-55f6-e031-afbd511b9189" tags=""/>
-    <Object name="Frame-156" type="Brush" guid="42d48802-427f-e4f6-2b54-ac710687c696"/>
+    <Object name="Frame-155" type="Brush" guid="42d48802-427f-e4f6-2b54-ac710687c696"/>
+    <Object name="l_rstop_nsign_base-112" type="Light" guid="4695d30c-b990-30f8-f9c9-f937d819beb3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="PrefabPivot-060" type="PrefabPivot" guid="4f7ff178-7757-fef8-8655-f9eee9d2bf95" tags=""/>
     <Object name="signage_pyro_navsigns_loc_inttransit-005" type="Brush" guid="416c0c31-8e00-79fa-9ce0-84b524be9da3"/>
     <Object name="col_a_ruin_struct_addon_bar_4m_f-005" type="Brush" guid="4f1b2d52-4393-9dfa-e287-4ff05b471aa0"/>
     <Object name="signage_pyro_navsigns_loc_exit-009" type="Brush" guid="4ba08742-5bd5-a8fb-27b9-733457e142b6"/>
+    <Object name="l_rstop_nsign_base-126" type="Light" guid="40fa5511-169a-defe-5dff-94a38cfe92be" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
    </Layer>
    <Layer name="spawn" layerHash="3740213821" externalLayerFilePath="data/levels/!oc/pu/loc/mod/pyro/station/ser/reststop_entry/rs_entry_small_cfp_001/Layers/rs_entry_small_cfp_001/spawn.lyr">
     <Object name="rstop_spawnc_001_rund_046" type="ObjectContainerModifier" guid="41acb45c-c1ef-1015-c28b-a25b3db1e19d" tags="f4cc6e7e-9968-4a76-9ea0-734782664ab7,be04333e-c17e-4e2b-83ad-470e3d8bfaa1,30ee12f0-3ed1-4d7b-9111-e989e2ee1589"/>

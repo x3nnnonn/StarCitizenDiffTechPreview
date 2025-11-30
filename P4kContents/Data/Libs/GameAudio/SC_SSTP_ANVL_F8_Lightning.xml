@@ -53,8 +53,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTP_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTP_ANVL_F8_Lightning_Start_Run">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTP_ANVL_F8_Lightning_Start_Run" wwise_radius_max="0" />
@@ -129,8 +131,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="PlayerActorContained" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTP_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTP_ANVL_F8_Lightning_Main_Oneshot_Start">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTP_ANVL_F8_Lightning_Main_Oneshot_Start" wwise_radius_max="0" />
@@ -186,8 +190,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTP_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTP_ANVL_F8_Lightning_OD_OneShot_End">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTP_ANVL_F8_Lightning_OD_OneShot_End" wwise_radius_max="0" />
@@ -241,8 +247,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTP_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTP_ANVL_F8_Lightning_Main_Oneshot_Start">
       <WwiseEvent wwise_duration_max="4.140729" wwise_duration_min="2.67379165" wwise_duration_type="OneShot" wwise_name="Play_SSTP_ANVL_F8_Lightning_Main_Oneshot_Start" wwise_radius_max="250" />
@@ -298,8 +306,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTP_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTP_ANVL_F8_Lightning_Main_Oneshot_End">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSTP_ANVL_F8_Lightning_Main_Oneshot_End" wwise_radius_max="250" />
@@ -353,8 +363,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTP_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTP_ANVL_F8_Lightning_OD_OneShot_Start">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTP_ANVL_F8_Lightning_OD_OneShot_Start" wwise_radius_max="0" />
@@ -409,8 +421,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTP_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTP_ANVL_F8_Lightning_OD_OneShot_Start">
       <WwiseEvent wwise_duration_max="4.68046665" wwise_duration_min="4.319119" wwise_duration_type="OneShot" wwise_name="Play_SSTP_ANVL_F8_Lightning_OD_OneShot_Start" wwise_radius_max="250" />
@@ -465,8 +479,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTP_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTP_ANVL_F8_Lightning_Main_Oneshot_End">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTP_ANVL_F8_Lightning_Main_Oneshot_End" wwise_radius_max="0" />
@@ -520,8 +536,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTP_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTP_ANVL_F8_Lightning_Start_Run">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTP_ANVL_F8_Lightning_Start_Run" wwise_radius_max="250" />
@@ -596,8 +614,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="PlayerActorContained" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTP_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -610,4 +630,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

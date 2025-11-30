@@ -41,8 +41,10 @@
 				<ATLRTPCDependee atl_name="comm_call_active" />
 				<ATLRTPCDependee atl_name="MIX_Mono" />
 				<ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+				<ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
 			</RTPCDependees>
 			<ATLPreload atl_name="SC_ENVP_Vignettes" />
+			<Tags />
 		</ATLTrigger>
 		<ATLTrigger atl_name="Play_ENVP_Vignettes_Grimhex_Hospital_Sequence">
 			<WwiseEvent wwise_duration_max="54.8525429" wwise_duration_min="41.9971237" wwise_duration_type="OneShot" wwise_name="Play_ENVP_Vignettes_Grimhex_Hospital_Sequence" wwise_radius_max="25" />
@@ -84,8 +86,10 @@
 				<ATLRTPCDependee atl_name="comm_call_active" />
 				<ATLRTPCDependee atl_name="MIX_Mono" />
 				<ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+				<ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
 			</RTPCDependees>
 			<ATLPreload atl_name="SC_ENVP_Vignettes" />
+			<Tags />
 		</ATLTrigger>
 		<ATLTrigger atl_name="Play_ENVP_Vignettes_Grimhex_Hospital_Pipes_Short">
 			<WwiseEvent wwise_duration_max="7.20268726" wwise_duration_min="3.721604" wwise_duration_type="OneShot" wwise_name="Play_ENVP_Vignettes_Grimhex_Hospital_Pipes_Short" wwise_radius_max="25" />
@@ -127,8 +131,10 @@
 				<ATLRTPCDependee atl_name="comm_call_active" />
 				<ATLRTPCDependee atl_name="MIX_Mono" />
 				<ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+				<ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
 			</RTPCDependees>
 			<ATLPreload atl_name="SC_ENVP_Vignettes" />
+			<Tags />
 		</ATLTrigger>
 		<ATLTrigger atl_name="Play_ENVP_Vignettes_Grimhex_Hospital_Pipes_Ambient">
 			<WwiseEvent wwise_duration_max="9.317562" wwise_duration_min="4.6234374" wwise_duration_type="OneShot" wwise_name="Play_ENVP_Vignettes_Grimhex_Hospital_Pipes_Ambient" wwise_radius_max="25" />
@@ -170,8 +176,10 @@
 				<ATLRTPCDependee atl_name="comm_call_active" />
 				<ATLRTPCDependee atl_name="MIX_Mono" />
 				<ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+				<ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
 			</RTPCDependees>
 			<ATLPreload atl_name="SC_ENVP_Vignettes" />
+			<Tags />
 		</ATLTrigger>
 	</AudioTriggers>
 	<AudioPreloads>
@@ -184,4 +192,8 @@
 			</ATLConfigGroup>
 		</ATLPreloadRequest>
 	</AudioPreloads>
+	<AudioExternalSources />
+	<AudioEnvironments />
+	<AudioRTPCs />
+	<AudioSwitches />
 </ATLConfig>

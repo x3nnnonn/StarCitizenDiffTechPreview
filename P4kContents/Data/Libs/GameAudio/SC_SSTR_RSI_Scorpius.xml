@@ -58,8 +58,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_RSI_Scorpius" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_RSI_Scorpius_Retro_Thruster_Loop">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_RSI_Scorpius_Retro_Thruster_Loop" wwise_radius_max="0" />
@@ -118,8 +120,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_RSI_Scorpius" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_RSI_Scorpius_Retro_Thruster_Thrust_OneShot_End">
       <WwiseEvent wwise_duration_max="6.551849" wwise_duration_min="6.32866859" wwise_duration_type="OneShot" wwise_name="Play_SSTR_RSI_Scorpius_Retro_Thruster_Thrust_OneShot_End" wwise_radius_max="150" />
@@ -169,8 +173,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_RSI_Scorpius" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_RSI_Scorpius_Retro_Thruster_Oneshot_End">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_RSI_Scorpius_Retro_Thruster_Oneshot_End" wwise_radius_max="0" />
@@ -220,8 +226,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_RSI_Scorpius" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_RSI_Scorpius_Retro_Thruster_Oneshot_Start">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_RSI_Scorpius_Retro_Thruster_Oneshot_Start" wwise_radius_max="0" />
@@ -268,8 +276,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_RSI_Scorpius" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_RSI_Scorpius_Retro_Thruster_Oneshot_End">
       <WwiseEvent wwise_duration_max="1.8393172" wwise_duration_min="0.843641043" wwise_duration_type="OneShot" wwise_name="Play_SSTR_RSI_Scorpius_Retro_Thruster_Oneshot_End" wwise_radius_max="150" />
@@ -319,8 +329,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_RSI_Scorpius" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_RSI_Scorpius_Retro_Thruster_Oneshot_Start">
       <WwiseEvent wwise_duration_max="2.16220546" wwise_duration_min="1.10317564" wwise_duration_type="OneShot" wwise_name="Play_SSTR_RSI_Scorpius_Retro_Thruster_Oneshot_Start" wwise_radius_max="150" />
@@ -367,8 +379,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_RSI_Scorpius" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_RSI_Scorpius_Retro_Thruster_Thrust_OneShot_Start">
       <WwiseEvent wwise_duration_max="2.1217916" wwise_duration_min="1.8965" wwise_duration_type="OneShot" wwise_name="Play_SSTR_RSI_Scorpius_Retro_Thruster_Thrust_OneShot_Start" wwise_radius_max="150" />
@@ -418,8 +432,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_RSI_Scorpius" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_RSI_Scorpius_Retro_Thruster_Thrust_OneShot_End">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_RSI_Scorpius_Retro_Thruster_Thrust_OneShot_End" wwise_radius_max="0" />
@@ -469,8 +485,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_RSI_Scorpius" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_RSI_Scorpius_Retro_Thruster_Thrust_OneShot_Start">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_RSI_Scorpius_Retro_Thruster_Thrust_OneShot_Start" wwise_radius_max="0" />
@@ -520,8 +538,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_RSI_Scorpius" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -534,4 +554,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

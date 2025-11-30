@@ -149,8 +149,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -236,7 +236,7 @@
           <tasks Type="IntUserVariableTask" Count="0" />
         </IntUserVariable>
       </ints>
-      <bools Type="BoolUserVariable" Count="15">
+      <bools Type="BoolUserVariable" Count="16">
         <BoolUserVariable Type="BoolUserVariable">
           <name>FilterItems</name>
           <defaultValue>True</defaultValue>
@@ -310,6 +310,11 @@
         <BoolUserVariable Type="BoolUserVariable">
           <name>proto/resourceNetworkUI/boxout/isVisible</name>
           <defaultValue>False</defaultValue>
+          <tasks Type="BoolUserVariableTask" Count="0" />
+        </BoolUserVariable>
+        <BoolUserVariable Type="BoolUserVariable">
+          <name>resourceNetworkUI/interiorMapDisplay/showIcons</name>
+          <defaultValue>True</defaultValue>
           <tasks Type="BoolUserVariableTask" Count="0" />
         </BoolUserVariable>
       </bools>
@@ -612,7 +617,7 @@
       <interactionDistance>50</interactionDistance>
     </UIBindingsInteractionsComponentParams>
     <UIAudioComponentEntityComponentParams Type="UIAudioComponentEntityComponentParams">
-      <UIAudioDef ReferencedFile="file://./../../../../../../../../libs/foundry/records/audio/ui/buildingblocks/refinery_terminal.xml" />
+      <UIAudioDef ReferencedFile="file://./../../../../../../../../libs/foundry/records/audio/ui/buildingblocks/resourcenetworkterminal.xml" />
       <UIAudioManufacturers Type="UIAudioManufacturer" Count="0" />
       <useEntityClass />
       <offset Type="UIAudioComponent_ManualOffset">
@@ -693,6 +698,7 @@
         <y>0</y>
         <z>0</z>
       </lookAtOffset>
+      <preventForceReactions>True</preventForceReactions>
     </KioskInteractionEntityComponentParams>
     <SEntityInteractableParams Type="SEntityInteractableParams">
       <Interactable Type="SInteractableParams">
@@ -896,12 +902,12 @@
         </SInteractionStateType>
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>Powered</StateTypeName>
-          <bindingsMethod>None</bindingsMethod>
+          <bindingsMethod>States</bindingsMethod>
           <DefaultState />
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:8" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:5" Type="SInteractionState">
               <StateName>Unpowered</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -943,7 +949,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:9" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:10" Type="SInteractionState">
               <StateName>Lowpowered</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -979,7 +985,7 @@
                   <max>0.9</max>
                 </SRangeStateLevel>
                 <SRangeStateLevel Type="SRangeStateLevel">
-                  <state PointsTo="ptr:4" />
+                  <state PointsTo="ptr:5" />
                   <min>0</min>
                   <max>0.2</max>
                 </SRangeStateLevel>
@@ -995,7 +1001,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:6" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:7" Type="SInteractionState">
               <StateName>Off</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1021,7 +1027,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:5" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:6" Type="SInteractionState">
               <StateName>On</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1050,19 +1056,19 @@
           </States>
           <StateModifiers Type="SStateModifier" Count="1">
             <SEntityOnlineStateModifier Type="SEntityOnlineStateModifier">
-              <onEntityOnlineState PointsTo="ptr:5" />
-              <onEntityOfflineState PointsTo="ptr:6" />
+              <onEntityOnlineState PointsTo="ptr:6" />
+              <onEntityOfflineState PointsTo="ptr:7" />
             </SEntityOnlineStateModifier>
           </StateModifiers>
         </SInteractionStateType>
         <SInteractionStateType Type="SInteractionStateType">
           <StateTypeName>BB_StateMachine</StateTypeName>
           <bindingsMethod>States</bindingsMethod>
-          <DefaultState PointsTo="ptr:7" />
+          <DefaultState PointsTo="ptr:8" />
           <asopReset>False</asopReset>
           <networkAuthority>Server</networkAuthority>
           <States Type="SInteractionState" Count="2">
-            <SInteractionState Pointer="ptr:7" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:8" Type="SInteractionState">
               <StateName>BB_ScreenOff</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1083,7 +1089,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:10" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:9" Type="SInteractionState">
               <StateName>BB_ScreenOn</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -1110,21 +1116,21 @@
               <aggregateStateParams Type="AggregateStateParams" Count="3">
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:8" />
+                    <SInteractionState PointsTo="ptr:5" />
                   </aggregateStates>
-                  <state PointsTo="ptr:7" />
+                  <state PointsTo="ptr:9" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
-                    <SInteractionState PointsTo="ptr:9" />
+                    <SInteractionState PointsTo="ptr:10" />
                   </aggregateStates>
-                  <state PointsTo="ptr:10" />
+                  <state PointsTo="ptr:9" />
                 </AggregateStateParams>
                 <AggregateStateParams Type="AggregateStateParams">
                   <aggregateStates Type="SInteractionState" Count="1">
                     <SInteractionState PointsTo="ptr:4" />
                   </aggregateStates>
-                  <state PointsTo="ptr:10" />
+                  <state PointsTo="ptr:9" />
                 </AggregateStateParams>
               </aggregateStateParams>
             </AggregateStateModifier>
@@ -1697,11 +1703,11 @@
         </bulkheadRenderLayerParams>
         <unlockedDoorRenderLayerParams Type="MapDisplayRenderLayerParams">
           <visible>True</visible>
-          <materialPath>materials/ui/map/interiormap/renderlayeroverrides/engineering/interiormap_floor.mtl</materialPath>
+          <materialPath>Materials/UI/map/InteriorMap/RenderLayerOverrides/Engineering/interiormap_doorunlocked.mtl</materialPath>
         </unlockedDoorRenderLayerParams>
         <lockedDoorRenderLayerParams Type="MapDisplayRenderLayerParams">
           <visible>True</visible>
-          <materialPath>materials/ui/map/interiormap/renderlayeroverrides/engineering/interiormap_floor.mtl</materialPath>
+          <materialPath>Materials/UI/map/InteriorMap/RenderLayerOverrides/Engineering/interiormap_doorlocked.mtl</materialPath>
         </lockedDoorRenderLayerParams>
         <exteriorRenderLayerParams Type="MapDisplayRenderLayerParams">
           <visible>True</visible>

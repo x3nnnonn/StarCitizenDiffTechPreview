@@ -405,16 +405,16 @@
       <linkPlugs Type="Tag" Count="0" />
     </SInteractionLinkParams>
     <IFCSParams Type="IFCSParams">
-      <scmSpeed>280</scmSpeed>
-      <boostSpeedForward>620</boostSpeedForward>
+      <scmSpeed>265</scmSpeed>
+      <boostSpeedForward>595</boostSpeedForward>
       <boostSpeedBackward>290</boostSpeedBackward>
       <maxSpeed>1450</maxSpeed>
       <maxSpeedPrecisionModeFullProximityAssist>10</maxSpeedPrecisionModeFullProximityAssist>
       <maxSpeedPrecisionModeZeroProximityAssist>30</maxSpeedPrecisionModeZeroProximityAssist>
       <maxAngularVelocity Type="Vec3">
-        <x>55</x>
-        <y>200</y>
-        <z>55</z>
+        <x>59</x>
+        <y>205</y>
+        <z>52</z>
       </maxAngularVelocity>
       <pitchYawLimiterType>Ellipsoid</pitchYawLimiterType>
       <linearLimiterType>NormalizedUniformWithMaxRadius</linearLimiterType>
@@ -1379,7 +1379,7 @@
           <useLUT>False</useLUT>
         </afterburnerRampMapping>
         <afterburnerCapacitorThresholdRatio>0.25</afterburnerCapacitorThresholdRatio>
-        <capacitorMax>25</capacitorMax>
+        <capacitorMax>20</capacitorMax>
         <capacitorAfterburnerIdleCost>1</capacitorAfterburnerIdleCost>
         <capacitorAfterburnerLinearCost>0</capacitorAfterburnerLinearCost>
         <capacitorAfterburnerAngularCost>0</capacitorAfterburnerAngularCost>
@@ -1775,24 +1775,24 @@
       <scmMaxDragMultiplier>4</scmMaxDragMultiplier>
       <thrusterImbalanceMessage>@dfm_ui_UnexpectedTorqueImbalance</thrusterImbalanceMessage>
       <positiveLinearScale Type="Vec3">
-        <x>1</x>
-        <y>1</y>
-        <z>1</z>
+        <x>1.013</x>
+        <y>1.014</y>
+        <z>1.01</z>
       </positiveLinearScale>
       <negativeLinearScale Type="Vec3">
-        <x>1</x>
-        <y>1</y>
-        <z>1</z>
+        <x>1.013</x>
+        <y>1.014</y>
+        <z>1.014</z>
       </negativeLinearScale>
       <positiveAngularScale Type="Vec3">
-        <x>0.1057</x>
-        <y>0.0663</y>
-        <z>0.1166</z>
+        <x>0.0705</x>
+        <y>0.0475</y>
+        <z>0.0628</z>
       </positiveAngularScale>
       <negativeAngularScale Type="Vec3">
-        <x>0.0892</x>
-        <y>0.0663</y>
-        <z>0.1166</z>
+        <x>0.0629</x>
+        <y>0.0475</y>
+        <z>0.0628</z>
       </negativeAngularScale>
       <intoxicationModifierRef ReferencedFile="file://./../../../../../../../libs/foundry/records/intoxication/globalifcsintoxicationmodifierparams.xml" />
       <authoredMotionLimits Type="SIFCSAuthoredMotionLimits">

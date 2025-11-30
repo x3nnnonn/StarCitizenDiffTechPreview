@@ -573,12 +573,6 @@
       <shipVelocityThroughRain Type="AudioRtpc">
         <rtpc />
       </shipVelocityThroughRain>
-      <fireSpreadAudioTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
-      </fireSpreadAudioTrigger>
-      <fireSpreadAudioStopTrigger Type="GlobalResourceAudio">
-        <audioTrigger />
-      </fireSpreadAudioStopTrigger>
       <fireMainAudioTrigger Type="GlobalResourceAudio">
         <audioTrigger />
       </fireMainAudioTrigger>
@@ -616,6 +610,18 @@
       <fireIgnitionStrengthRtpc Type="AudioRtpc">
         <rtpc />
       </fireIgnitionStrengthRtpc>
+      <startFireAlarmAudioTrigger Type="GlobalResourceAudio">
+        <audioTrigger />
+      </startFireAlarmAudioTrigger>
+      <stopFireAlarmAudioTrigger Type="GlobalResourceAudio">
+        <audioTrigger />
+      </stopFireAlarmAudioTrigger>
+      <startCriticalFailureAlarmAudioTrigger Type="GlobalResourceAudio">
+        <audioTrigger />
+      </startCriticalFailureAlarmAudioTrigger>
+      <stopCriticalFailureAlarmAudioTrigger Type="GlobalResourceAudio">
+        <audioTrigger />
+      </stopCriticalFailureAlarmAudioTrigger>
     </LocalPlayerAudioEnvironmentParams>
     <SCLocalPlayerGroupVideoCallComponentParams Type="SCLocalPlayerGroupVideoCallComponentParams" />
     <VoiceChatInputParams Type="VoiceChatInputParams">
@@ -1029,7 +1035,7 @@
       <scoreboards Type="SScoreboard" Count="3">
         <SScoreboard Type="SScoreboard">
           <debugName />
-          <validGameModes Type="SActorProceduralHandsRecoilCurveModifiersDef" Count="1">
+          <validGameModes Type="ActorProceduralRecoilConfig" Count="1">
             <EnumChoice>EA_TheatersOfWar</EnumChoice>
           </validGameModes>
           <stats Type="SScoreboardStat" Count="5">
@@ -1067,7 +1073,7 @@
         </SScoreboard>
         <SScoreboard Type="SScoreboard">
           <debugName />
-          <validGameModes Type="SActorProceduralHandsRecoilCurveModifiersDef" Count="1">
+          <validGameModes Type="ActorProceduralRecoilConfig" Count="1">
             <EnumChoice>EA_ClassicRace</EnumChoice>
           </validGameModes>
           <stats Type="SScoreboardStat" Count="3">
@@ -1093,7 +1099,7 @@
         </SScoreboard>
         <SScoreboard Type="SScoreboard">
           <debugName />
-          <validGameModes Type="SActorProceduralHandsRecoilCurveModifiersDef" Count="9">
+          <validGameModes Type="ActorProceduralRecoilConfig" Count="9">
             <EnumChoice>EA_BattleRoyale</EnumChoice>
             <EnumChoice>EA_FreeFlight</EnumChoice>
             <EnumChoice>EA_VanduulSwarm</EnumChoice>

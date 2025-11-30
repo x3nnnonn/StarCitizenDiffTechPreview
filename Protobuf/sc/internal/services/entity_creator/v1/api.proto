@@ -9,6 +9,7 @@ import "sc/internal/services/entity_creator/v1/types.proto";
 import "sc/external/services/entitlement/v1/types.proto";
 import "sc/external/common/game/v1/types.proto";
 import "sc/external/services/entitygraph/v1/types.proto";
+import "sc/external/services/reputation/v1/types.proto";
 import "sc/external/common/types/v1/customization.proto";
 
 service EntityCreatorService {
@@ -19,6 +20,7 @@ service EntityCreatorService {
   rpc CreateFromEntitlements ( .sc.internal.services.entity_creator.v1.CreateFromEntitlementsRequest ) returns ( .sc.internal.services.entity_creator.v1.CreateFromEntitlementsResponse );
   rpc RepairPlayer ( .sc.internal.services.entity_creator.v1.RepairPlayerRequest ) returns ( .sc.internal.services.entity_creator.v1.RepairPlayerResponse );
   rpc GetCurrentGeneration ( .sc.internal.services.entity_creator.v1.GetCurrentGenerationRequest ) returns ( .sc.internal.services.entity_creator.v1.GetCurrentGenerationResponse );
+  rpc GetReputationStandingsSeeds ( .sc.internal.services.entity_creator.v1.GetReputationStandingsSeedsRequest ) returns ( .sc.internal.services.entity_creator.v1.GetReputationStandingsSeedsResponse );
 }
 
 message CreatePlayerRequest {
@@ -107,5 +109,11 @@ message GetCurrentGenerationRequest {}
 
 message GetCurrentGenerationResponse {
   string generation = 1;
+}
+
+message GetReputationStandingsSeedsRequest {}
+
+message GetReputationStandingsSeedsResponse {
+  repeated .sc.external.services.reputation.v1.StandingsSeed standing_seeds = 1;
 }
 

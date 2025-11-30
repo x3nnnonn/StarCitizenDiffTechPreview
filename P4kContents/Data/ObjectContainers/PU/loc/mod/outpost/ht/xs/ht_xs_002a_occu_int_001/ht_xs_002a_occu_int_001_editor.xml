@@ -69,7 +69,7 @@
    <Layer name="002a_int_gp" layerHash="607821638" externalLayerFilePath="data/levels/!oc/pu/loc/mod/outpost/hitech/xs/ht_xs_002_component/Layers/overlay/occu/occu_int/xs_002a_occu_int_001/002a_int_gp.lyr"/>
    <Layer name="002a_int_light" layerHash="2790455081" externalLayerFilePath="data/levels/!oc/pu/loc/mod/outpost/hitech/xs/ht_xs_002_component/Layers/overlay/occu/occu_int/xs_002a_occu_int_001/002a_int_light.lyr">
     <Object name="l_tech_floor_fixture_01_a_light-001" type="Light" guid="4a10b201-72ab-080d-10f2-46e17e6227af" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="light_floor_01_a-001" type="Brush" guid="49630252-3caf-a913-c2b2-8f679667a78a"/>
+    <Object name="light_floor_01_a-002" type="Brush" guid="49630252-3caf-a913-c2b2-8f679667a78a"/>
     <Object name="lt_outpost_hightech_xs_002a_int_room1DeskLamp_fil-001" type="Light" guid="480565cd-9876-5f18-01a5-4ae0afaa10b1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="b_outpost_hightech_xs_002a_int_room1_ceilingLine-009" type="Brush" guid="4c8d9a23-830f-0c19-44ab-574ecf037f8c"/>
     <Object name="lt_outpost_hightech_xs_002a_int_room1CeilingLogoEnhance_fil-001" type="Light" guid="4729f452-8837-831f-fe22-8afaa402658d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -80,7 +80,7 @@
     <Object name="PrefabPivot001-023" type="PrefabPivot" guid="4606c37e-2bfa-3d37-adec-d0009623cf8b" tags=""/>
     <Object name="light_floor_01_a" type="Brush" guid="49aba17a-85f5-9b39-9e65-04b15971eaad"/>
     <Object name="b_outpost_hightech_xs_002a_int_room1DeskLamp-001" type="Brush" guid="4353b0c8-873d-e23c-7465-4584f160a99f"/>
-    <Object name="light_floor_01_a-002" type="Brush" guid="4096a812-5cc7-d23e-53f1-8614950067b6"/>
+    <Object name="light_floor_01_a-001" type="Brush" guid="4096a812-5cc7-d23e-53f1-8614950067b6"/>
     <Object name="lp_outpost_hightech_xs_002a_int_room1_floor-001" type="Prefab" guid="4917427d-d46d-f443-6a5c-ae4261a7f890"/>
     <Object name="lt_outpost_hightech_xs_002a_int_room1CeilingDouble_key-001" type="Light" guid="4374f4c2-e491-2845-bca8-80cbdc8cb7b1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="lt_outpost_hightech_xs_002a_int_room1Shelf_bnc-001" type="Light" guid="4cc19441-ef23-6c48-8b92-f0ca4915bf82" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -120,7 +120,7 @@
     <Object name="WeaponRackLMGCommon-002" type="SlotSpawnPoint" guid="4918e4b9-d8a6-c594-845a-4c064bb5d8ab" tags="4fa44f55-6497-448a-a893-42d8868e0709,59ca5e36-b9a2-4459-ad0e-5745bcf5d899"/>
     <Object name="WeaponsSmallCommon-006" type="SlotSpawnPoint" guid="47fdc37d-c731-2aac-16a0-57235ba5df9c" tags="3e315747-312a-4580-9f81-83a9df98f514,59ca5e36-b9a2-4459-ad0e-5745bcf5d899,b05a61ac-7583-4db0-abe4-2f12534f0db8,2fcefd2d-f5d3-4c6a-b62f-3cc48d517e7d"/>
    </Layer>
-   <Layer name="002a_int_props" layerHash="542005130" externalLayerFilePath="data/levels/!oc/pu/loc/mod/outpost/hitech/xs/ht_xs_002_component/Layers/overlay/occu/occu_int/xs_002a_occu_int_001/002a_int_props.lyr">
+   <Layer name="002a_int_props" layerHash="1802684051" externalLayerFilePath="data/levels/!oc/pu/loc/mod/outpost/hitech/xs/ht_xs_002_component/Layers/overlay/occu/occu_int/xs_002a_occu_int_001/002a_int_props.lyr">
     <Object name="rack_shelf_1_015x015x00125_a-702" type="Brush" guid="49f2916b-f9a2-6409-688b-059e4d6700a3"/>
     <Object name="decal_access_panel_black_a-3574" type="Brush" guid="4c4512fe-c8a6-950d-a7aa-3eb856eaacac"/>
     <Object name="rack_shelf_1_015x015x00125_a-578" type="Brush" guid="449bfcc1-ea5d-e61d-8a80-79f89ca0b2b1"/>

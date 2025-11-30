@@ -207,7 +207,7 @@
         <y>0</y>
         <z>0</z>
       </landingRotationOffset>
-      <fusePenetrationDamageMultiplier>0.001</fusePenetrationDamageMultiplier>
+      <fusePenetrationDamageMultiplier>0.05</fusePenetrationDamageMultiplier>
       <componentPenetrationDamageMultiplier>0.4</componentPenetrationDamageMultiplier>
     </VehicleComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
@@ -215,7 +215,7 @@
         <WearRange />
         <DirtRange />
         <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
-        <entries Type="SItemPortLoadoutEntryParams" Count="60">
+        <entries Type="SItemPortLoadoutEntryParams" Count="58">
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_paint</itemPortName>
             <entityClassName />
@@ -401,20 +401,6 @@
             <itemPortName>hardpoint_radar</itemPortName>
             <entityClassName />
             <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/radar/radr_grnp_s01_ecouter.xml" />
-            <inventoryContainer />
-            <loadout />
-          </SItemPortLoadoutEntryParams>
-          <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
-            <itemPortName>hardpoint_scanner</itemPortName>
-            <entityClassName />
-            <entityClassReference />
-            <inventoryContainer />
-            <loadout />
-          </SItemPortLoadoutEntryParams>
-          <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
-            <itemPortName>hardpoint_ping</itemPortName>
-            <entityClassName />
-            <entityClassReference />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
@@ -2073,6 +2059,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -2101,6 +2090,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -2129,6 +2121,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -3537,7 +3532,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>QuantumInterdictionGenerator</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3738,7 +3733,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>DockingCollar</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3852,7 +3847,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AirTrafficController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3966,7 +3961,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -4058,13 +4053,13 @@
           <Types Type="SItemPortDefTypes" Count="2">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileLauncher</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>MissileRack</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>BombLauncher</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>BombRack</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -4158,13 +4153,13 @@
           <Types Type="SItemPortDefTypes" Count="2">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileLauncher</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>MissileRack</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>BombLauncher</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>BombRack</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -4219,7 +4214,7 @@
       <PortTags />
       <RequiredItemTags />
       <InternalResourceLinks Type="SInternalResourceLink" Count="0" />
-      <InternalHardpointLinks Type="SInternalHardpointLink" Count="52">
+      <InternalHardpointLinks Type="SInternalHardpointLink" Count="48">
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
           <port2>hardpoint_seat_pilot</port2>
@@ -4298,14 +4293,6 @@
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
-          <port2>hardpoint_scanner</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay_interior</port1>
-          <port2>hardpoint_ping</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay_interior</port1>
           <port2>hardpoint_computer</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
@@ -4327,10 +4314,6 @@
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
           <port2>hardpoint_fuel_tank_left</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay_interior</port1>
-          <port2>hardpoint_fuel_intake_right</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
@@ -4363,10 +4346,6 @@
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
           <port2>hardpoint_countermeasure_launcher_right</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay_interior</port1>
-          <port2>landingpad_helper</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
@@ -4429,9 +4408,9 @@
           <port2>hardpoint_interdiction_device</port2>
         </SInternalHardpointLink>
       </InternalHardpointLinks>
-      <LinkAllItemsToResourceNetwork>True</LinkAllItemsToResourceNetwork>
+      <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
-      <doorsIgnorePower>False</doorsIgnorePower>
+      <doorsIgnorePower>True</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="8">
@@ -4913,12 +4892,12 @@
       </adapters>
     </AINavigationDynamicTriggerComponent>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="HealthIconData" Count="2">
+      <perceptionTypes Type="ActorStatusUIWarning" Count="2">
         <EnumChoice>Vehicle</EnumChoice>
         <EnumChoice>Spaceship</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
+      <excludedSenses Type="ActorStatusPreset" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
       <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
       <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />

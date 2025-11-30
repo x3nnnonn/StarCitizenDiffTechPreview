@@ -1,13 +1,13 @@
-<ObjectContainer sourceLevel="data/levels/!oc/pu/loc/mod/common/hab/persistance_hab">
+<ObjectContainer sourceLevel="Data/Levels/!oc/pu/loc/mod/common/hab/persistance_hab">
  <Layers>
-  <Layer fullname="levski_persistent_hab_b" externalLayerLevelDir="data/levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/" externalLayerParentDir="" externalLayerFilePath="data/levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b.lyr" layerHash="2268635520">
-   <Layer name="levski_persistent" layerHash="2059808774" externalLayerFilePath="data/levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent.lyr">
+  <Layer fullname="levski_persistent_hab_b" externalLayerLevelDir="Data/Levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/" externalLayerParentDir="" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b.lyr" layerHash="206071964">
+   <Layer name="levski_persistent" layerHash="2059808774" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent.lyr">
     <Object name="Bed_Single_Spawnpoint_Front-000" type="Bed_Single_Spawnpoint_Front" guid="4c5a5dd0-6d9f-2e55-87f3-c747968659bf" tags="00ead468-9073-485b-a6df-ca6b94053603,7ef48629-79f5-414f-b380-1b26872f4d07,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,512f0e6d-7adf-48de-948c-5bfce981e7f9,94c03220-8983-4152-9a49-9c8b425f1ad7,63cd0e66-990f-4ac9-9ac9-2aa7f370dfa7,7a010f63-d394-43dd-8eae-2b7d3aa8edbc,66ea4ff6-5c0a-41dc-a955-8a4b4116f6af,4f6d3311-73f3-450b-bb53-62ddc93f1fd3,c9c55c09-23f1-4f9d-859c-5692b986fd5a"/>
    </Layer>
-   <Layer name="levski_persistent_hab_ai" layerHash="950465663" externalLayerFilePath="data/levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_ai.lyr">
+   <Layer name="levski_persistent_hab_ai" layerHash="950465663" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_ai.lyr">
     <Object name="NavigationArea_Levski_HabRoom-001" type="NavigationArea" guid="496cf62b-4af5-3f2f-77bd-00c414138488" tags="a9842535-5d8f-460b-bc21-447a70025802"/>
    </Layer>
-   <Layer name="levski_persistent_hab_decal" layerHash="2527891044" externalLayerFilePath="data/levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_decal.lyr">
+   <Layer name="levski_persistent_hab_decal" layerHash="2527891044" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_decal.lyr">
     <Object name="Decal-001" type="Decal" guid="47b98af3-37fa-de13-2037-13a6c5fea59f"/>
     <Object name="Decal-003" type="Decal" guid="4c080088-6685-243d-18b5-7404afb9b3bb"/>
     <Object name="Decal-004" type="Decal" guid="407274d1-3797-9e44-53dc-2eba7253e184"/>
@@ -15,7 +15,7 @@
     <Object name="Decal-005" type="Decal" guid="43511f55-b8d2-8fc6-0169-dd0deeaacebc"/>
     <Object name="Decal-002" type="Decal" guid="4845f432-f4a5-bdd8-fa83-2a3168c2489c"/>
    </Layer>
-   <Layer name="levski_persistent_hab_geo" layerHash="2881919834" externalLayerFilePath="data/levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_geo.lyr">
+   <Layer name="levski_persistent_hab_geo" layerHash="2639574947" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_geo.lyr">
     <Object name="pod_exterior_noback_a-198" type="Brush" guid="45623d8c-f09c-9000-8cd7-2aa7846deeba"/>
     <Object name="pod_exterior_noback_a-137" type="Brush" guid="4c3581bf-4518-ab03-f46e-37749332a1b6"/>
     <Object name="pod_exterior_noback_a-191" type="Brush" guid="41819e85-b0c3-b103-b09e-63c8419b61bb"/>
@@ -25,6 +25,7 @@
     <Object name="pod_exterior_noback_a-113" type="Brush" guid="49c526d6-9dbc-ee08-1fe3-4be230407bbc"/>
     <Object name="pod_exterior_noback_a-186" type="Brush" guid="491fa7de-28b0-5209-3b06-7c4d52d501ad"/>
     <Object name="pod_exterior_noback_a-154" type="Brush" guid="4e31608b-d8b3-cc0a-54c9-ca8efd77ad8e"/>
+    <Object name="roomsm_b_floor_corridor_45_mid_04x04x0025_a-003" type="Brush" guid="4617c86d-ca9a-6b0c-6595-b69e5b743d9e"/>
     <Object name="pod_exterior_noback_a-121" type="Brush" guid="4e6ea284-d241-0a0d-d499-47f7e1c3bdba"/>
     <Object name="pod_exterior_noback_a-085" type="Brush" guid="4486f7a6-85e1-020e-74ee-4f86d2931395"/>
     <Object name="pod_exterior_noback_a-079" type="Brush" guid="4d37a665-0d34-c30f-bdd0-2ce638c596ac"/>
@@ -42,6 +43,7 @@
     <Object name="pod_exterior_noback_a-151" type="Brush" guid="4ec98244-9565-ae2c-7b98-06f69e9ce7a0"/>
     <Object name="pod_exterior_noback_a-170" type="Brush" guid="431e5080-a6d3-252d-bc08-a689ca43e99e"/>
     <Object name="pod_exterior_noback_a-140" type="Brush" guid="48b592ca-7e85-432d-c491-df450b843dbe"/>
+    <Object name="roomsm_b_floor_corridor_45_mid_04x04x0025_a-002" type="Brush" guid="4da8d26f-78da-6d2e-44d3-78766f8fa393"/>
     <Object name="pod_exterior_noback_a-199" type="Brush" guid="411598d4-4715-a32e-6c26-42f7b0e67180"/>
     <Object name="pod_exterior_noback_a-118" type="Brush" guid="4016ba65-80a6-f12f-54f2-be54f9f4c382"/>
     <Object name="pod_exterior_noback_a-201" type="Brush" guid="44d66eec-d38e-6430-8eff-f6074cec3887"/>
@@ -67,6 +69,7 @@
     <Object name="pod_exterior_noback_a-159" type="Brush" guid="40867653-9464-ed4c-f251-fa612b271c98"/>
     <Object name="pod_exterior_noback_a-133" type="Brush" guid="4b131ec3-ab31-1e4e-6af9-f2fc6e0f82be"/>
     <Object name="pod_exterior_noback_a-152" type="Brush" guid="460103b8-33d5-434e-47cf-9cabfc430ea6"/>
+    <Object name="roomsm_b_floor_corridor_45_mid_04x04x0025_a-006" type="Brush" guid="4ae3ccef-0077-a754-03dd-c77874761e84"/>
     <Object name="pod_exterior_noback_a-086" type="Brush" guid="460ac381-7ea8-3257-e094-c520ab2c8484"/>
     <Object name="pod_exterior_noback_a-212" type="Brush" guid="4d51cf64-b575-0b58-631a-5c0e3d9cc5a9"/>
     <Object name="pod_exterior_noback_a-207" type="Brush" guid="4c180d3b-fb61-af58-1931-b427826c05b6"/>
@@ -74,6 +77,7 @@
     <Object name="pod_exterior_noback_a-169" type="Brush" guid="43064c4c-8ac8-8e5d-dc2a-6b996091dd81"/>
     <Object name="pod_exterior_noback_a-122" type="Brush" guid="45ad2aad-1bcc-9961-4a1c-9031ea4e8694"/>
     <Object name="garbage_kit_c-046" type="Brush" guid="47c4764d-1d56-b961-d25f-a188c9109dbf"/>
+    <Object name="roomsm_b_floor_corridor_45_mid_04x04x0025_a-005" type="Brush" guid="46543335-ebf6-c062-3f39-82c0d6bd8d94"/>
     <Object name="pod_exterior_noback_a-136" type="Brush" guid="4df11c71-ab8c-1363-e2dc-05c105d26987"/>
     <Object name="pod_exterior_noback_a-200" type="Brush" guid="448a64cb-e695-d866-9973-ded24535378f"/>
     <Object name="pod_exterior_noback_a-144" type="Brush" guid="4f47c0fa-9546-2367-f613-c81be2fafb8a"/>
@@ -117,6 +121,7 @@
     <Object name="pod_exterior_noback_a-098" type="Brush" guid="47e0283a-fc6f-3fa3-7d8e-1ad13bcdeea8"/>
     <Object name="pod_exterior_noback_a-131" type="Brush" guid="4ea35df8-6763-a2a5-0fde-7c5d46cea9bf"/>
     <Object name="pod_exterior_noback_a-179" type="Brush" guid="40522398-a30a-bea6-7526-4e846e3a4282"/>
+    <Object name="roomsm_b_floor_corridor_45_mid_04x04x0025_a-007" type="Brush" guid="4810c1a2-3ddf-c5a8-a2bc-4f65d29d8c86"/>
     <Object name="pod_exterior_noback_a-168" type="Brush" guid="4b0aa949-d5f9-14a9-553d-79ff95c676a2"/>
     <Object name="pod_exterior_noback_a-078" type="Brush" guid="4ef7fa4b-df6a-a3ab-f2d5-7b92a0c2579f"/>
     <Object name="pod_exterior_noback_a-203" type="Brush" guid="4ed2d97f-dd1e-0eaf-461a-27d7b8130d83"/>
@@ -147,11 +152,14 @@
     <Object name="pod_exterior_noback_a-194" type="Brush" guid="48c6c304-a519-0bdb-386b-4d88ecfb3ab3"/>
     <Object name="pod_exterior_noback_a-196" type="Brush" guid="4618a74a-db8a-75dd-b929-b42adebdf980"/>
     <Object name="pod_exterior_noback_a-091" type="Brush" guid="4811e498-1cd2-38de-0e41-01d47818249a"/>
+    <Object name="roomsm_b_floor_corridor_45_mid_04x04x0025_a-004" type="Brush" guid="4a03a619-d622-4bde-da0e-bf1b2a79ecb0"/>
+    <Object name="roomsm_b_floor_corridor_45_mid_04x04x0025_a" type="Brush" guid="414af263-bb59-e8e3-0e42-ab3178d18cb4"/>
     <Object name="pod_exterior_noback_a-153" type="Brush" guid="461c22a7-655a-83e6-72c1-64ff591da789"/>
     <Object name="pod_exterior_noback_a-130" type="Brush" guid="48dab214-68c5-f7e7-6498-8cdba3ce51b3"/>
     <Object name="pod_exterior_noback_a-149" type="Brush" guid="4a8d78f3-e334-17e9-bbf3-c27c9d102e81"/>
     <Object name="pod_exterior_noback_a-083" type="Brush" guid="47ab4a37-86bb-e0eb-5d83-6a3bfb9f30bc"/>
     <Object name="pod_exterior_noback_a-114" type="Brush" guid="4d101b0e-4819-40ec-1339-3d5b136a3eab"/>
+    <Object name="roomsm_b_floor_corridor_45_mid_04x04x0025_a-001" type="Brush" guid="4953f0b2-29eb-54ec-f999-6b0b33cfe990"/>
     <Object name="pod_exterior_noback_a-155" type="Brush" guid="4a74a083-a627-64ec-eac3-9588827c4a87"/>
     <Object name="pod_exterior_noback_a-077" type="Brush" guid="42955f0e-b274-83ec-0a9e-879d9e01f6b8"/>
     <Object name="pod_exterior_noback_a-105" type="Brush" guid="43103027-9730-e7f0-05ab-9b8e0b61b29c"/>
@@ -163,12 +171,11 @@
     <Object name="pod_exterior_noback_a-182" type="Brush" guid="4afb2ba4-030c-7bfe-82a5-4025d53cc1b2"/>
     <Object name="noodles_open_a-071" type="Brush" guid="4adefd9b-6fc6-7cfe-98db-8f318aab3997"/>
    </Layer>
-   <Layer name="levski_persistent_hab_gp" layerHash="969941717" externalLayerFilePath="data/levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_gp.lyr">
+   <Layer name="levski_persistent_hab_gp" layerHash="969941717" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_gp.lyr">
     <Object name="Itembank_Human_Hightech_1_b-006" type="Itembank_Human_Hightech_1_b" guid="46efb893-b162-d80a-38d7-a2be96b9dea7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,7a7c7a33-383d-4b9c-803c-4e2eb6bb7a51,039eb697-7307-409b-a176-a778de49a613,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     <Object name="Lt_B_Hab_Door_Single-000" type="Lt_B_Hab_Door_Single" guid="440e65fd-3b99-b0bc-e536-d4147882f582" tags="0e515dc0-2cd7-4b2e-8578-f14a234f5eed,75d84438-295e-409a-8a0f-9a530cc14218,849b8481-5893-4301-964e-4f39f3e27ad8,00ead468-9073-485b-a6df-ca6b94053603,9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,65c060b9-cf53-4706-93e7-9184a27cc9c1,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,5caff6ec-c71b-4e1c-b939-83263471611d,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,81bc340e-4964-4c2d-9689-fdbb23e4fd9f,1a1f10a2-894c-45ca-93d2-4785233c5250,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
    </Layer>
-   <Layer name="levski_persistent_hab_light" layerHash="810259832" externalLayerFilePath="data/levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_light.lyr">
-    <Object name="ChipSet_LightControl-007" type="ChipSet_LightControl" guid="411811fc-923f-0c00-ac75-57d3b7d803bd" tags="99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+   <Layer name="levski_persistent_hab_light" layerHash="787331935" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_light.lyr">
     <Object name="interior_temporarydumpers_floorlight_01-012" type="Brush" guid="433abb77-8695-db00-ce19-67fba93975ba"/>
     <Object name="l_lev_int_persistent_hab_b_fill_#00bfbf-001" type="Light" guid="4c895f6a-b78d-1408-d628-50cdd08f3e9d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="interior_temporarydumpers_floorlight_01-018" type="Brush" guid="4ae3776f-317d-aa0a-2f77-ddb4ad64d687"/>
@@ -186,9 +193,11 @@
     <Object name="l_lev_int_persistent_hab_b_short_side_fog_#afffff-001" type="Light" guid="4136591b-d17b-504c-0ea2-0b93f761dea7" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="l_lev_int_persistent_hab_b_bed_glow_3200k-001" type="Light" guid="42cec016-8d02-8450-a14f-eab940408ba1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="interior_temporarydumpers_floorlight_01-022" type="Brush" guid="428fad79-503f-c568-394c-b31ee1aa34b0"/>
+    <Object name="lg_hab_levski_persistent_lightgroup-001" type="LightGroup" guid="4b6af61f-00ac-046a-ef2e-373e3e3862ab" tags="849b8481-5893-4301-964e-4f39f3e27ad8,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,60cc8ca1-8927-4e92-af99-9cd367e0595c,5b803369-07d1-470f-996a-9372ca50e617,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     <Object name="l_lev_int_persistent_hab_b_long_side_key_#afffff-001" type="Light" guid="4a958189-2d7f-566a-625c-6de8a0dbba97" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="l_lev_int_persistent_hab_b_short_side_key_#afffff-001" type="Light" guid="4059961b-4c63-9b6d-81eb-1f48152f10be" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="cm_levski_levski_persistent_hab_b-002" type="EnvironmentLight" guid="42b7cac0-ade2-f571-943c-a26902dbebb8" tags=""/>
+    <Object name="cg_hab_levski_persistent-001" type="ColorGradient" guid="480d88f9-67e8-9774-d573-b2342724c3bb" tags=""/>
     <Object name="interior_temporarydumpers_floorlight_01-019" type="Brush" guid="4e34ff8f-2c17-c874-66ed-e240d694269d"/>
     <Object name="l_lev_int_persistent_hab_b_floor_aux_key_3200k-001" type="Light" guid="4b49963b-98b2-5f76-ca7f-8b97374db7a3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="l_lev_int_persistent_hab_b_bed_fill_3200k-001" type="Light" guid="4faf826c-90de-a579-9457-1fd7ad96a183" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -207,11 +216,12 @@
     <Object name="l_lev_int_persistent_hab_b_short_side_glow_#afffff-001" type="Light" guid="4d6a3f6c-b9ad-2dcb-fe29-146d35867cb6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="interior_temporarydumpers_floorlight_01-020" type="Brush" guid="41c5d789-8cc3-a2cd-bcbe-f49540c79792"/>
     <Object name="l_lev_int_persistent_hab_b_door_top_fill_3200k" type="Light" guid="4aac78f9-f424-a2d3-854a-d482ddb99491" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
+    <Object name="ab_hab_levski_persistent-001" type="AreaBox" guid="4e416a2e-27f3-b1d8-91c6-3a55796c46aa" tags=""/>
     <Object name="l_lev_int_persistent_hab_b_bed_glow_3200k-004" type="Light" guid="4cfe9db0-9df4-15e1-44ff-fb498f36ada1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="l_lev_int_persistent_hab_b_floor_aux_key_3200k-002" type="Light" guid="43dd4f71-a9ee-dde5-ec4d-e8651000c2b9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="l_lev_int_persistent_hab_b_closet_light_key_3200k-001" type="Light" guid="441e2a69-77a5-e8ec-0693-71bee2e43594" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
    </Layer>
-   <Layer name="levski_persistent_hab_prop" layerHash="3645378107" externalLayerFilePath="data/levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_prop.lyr">
+   <Layer name="levski_persistent_hab_prop" layerHash="3645378107" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_prop.lyr">
     <Object name="decal_access_panel_black_a-5669" type="Brush" guid="44f09c56-600c-4d06-732f-c845df160094"/>
     <Object name="decal_access_panel_black_a-5665" type="Brush" guid="4f6ab1cc-10a6-ae06-5014-3922d99ef1b0"/>
     <Object name="decal_access_panel_black_a-5655" type="Brush" guid="43b2dce2-66aa-290d-40a2-f583beecbe8b"/>
@@ -261,7 +271,7 @@
     <Object name="decal_access_panel_black_a-5656" type="Brush" guid="43edd8c1-b89e-20e8-11be-300e16258ca1"/>
     <Object name="decal_access_panel_black_a-5667" type="Brush" guid="4c1e85d8-78a7-caea-1718-c9cb598d1c8d"/>
    </Layer>
-   <Layer name="levski_persistent_hab_sfx" layerHash="3522934091" externalLayerFilePath="data/levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_sfx.lyr">
+   <Layer name="levski_persistent_hab_sfx" layerHash="3522934091" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_sfx.lyr">
     <Object name="AS_Hab_Room" type="AreaShape" guid="456e2196-cdde-620f-d513-841a395a2983" tags="f1b1052f-f3b0-4f44-b809-96380bfc4e97"/>
     <Object name="AAA_Hab_Room_Bed" type="AudioAreaAmbience" guid="42c3ca26-0638-f22a-3506-ea085a591380" tags="849b8481-5893-4301-964e-4f39f3e27ad8,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     <Object name="ATS_Hab_Room_Light" type="AudioTriggerSpot" guid="4ae47e71-b42c-5588-6640-75b04527d0b2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -269,19 +279,19 @@
     <Object name="AS_Hab_Room_Bed" type="AreaShape" guid="41976130-261c-3cb9-ecad-623a5214b68e" tags="f1b1052f-f3b0-4f44-b809-96380bfc4e97"/>
     <Object name="ATS_Hab_Room_LightFlicker" type="AudioTriggerSpot" guid="4d4a3f85-5401-f7c1-9c10-c358548e3cb3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
    </Layer>
-   <Layer name="levski_persistent_hab_sys" layerHash="4132161722" externalLayerFilePath="data/levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_sys.lyr">
+   <Layer name="levski_persistent_hab_sys" layerHash="4132161722" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_sys.lyr">
     <Object name="AB_RM_System_002" type="AreaBox" guid="416bd3e9-449e-290d-90a4-d289fe8d388c" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
     <Object name="Ent_RM_System_004" type="Room" guid="49acd439-f4e3-a62f-2015-8dccbafb4ca0" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
    </Layer>
-   <Layer name="levski_persistent_hab_vfx" layerHash="3708943013" externalLayerFilePath="data/levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_vfx.lyr">
-    <Object name="Steam_FALL.steam_fall_1m_loop_1-028" type="ParticleEffect" guid="4b48bbca-a48e-0a5a-b7c1-112d00f6959a" tags=""/>
-    <Object name="Dust_Motes_ALL.dust_motes_4m3_loop_2-007" type="ParticleEffect" guid="47b3a349-bea1-eda2-b553-289a2f57d1a2" tags=""/>
+   <Layer name="levski_persistent_hab_vfx" layerHash="2531582740" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_vfx.lyr">
+    <Object name="dust_motes-002" type="ParticleEffect" guid="4e85ea1e-8035-eb09-d8db-4468ac604494" tags=""/>
+    <Object name="dust_motes-003" type="ParticleEffect" guid="4740319c-2aac-5239-9fed-bfc797095b8a" tags=""/>
+    <Object name="steam_jet_002" type="ParticleEffect" guid="4a75fe3b-ef8d-b6bf-7640-76d1e5912e94" tags=""/>
    </Layer>
-   <Layer name="levski_persistent_hab_vis" layerHash="3196978479" externalLayerFilePath="data/levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_vis.lyr">
+   <Layer name="levski_persistent_hab_vis" layerHash="3196978479" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/common/hab/persistance_hab/Layers/levski_persistent_hab_b/levski_persistent_hab_vis.lyr">
     <Object name="GenericShape" type="GenericShape" guid="44f0cd90-734e-d198-f695-2e261083ad83" tags=""/>
     <Object name="GenericShape-001" type="GenericShape" guid="427032fc-4ba3-2cdd-3d17-1f67bc0015b7" tags=""/>
    </Layer>
-   <Object name="lg_hab_levski_persistent_lightgroup-001" type="LightGroup" guid="4b6af61f-00ac-046a-ef2e-373e3e3862ab" tags="849b8481-5893-4301-964e-4f39f3e27ad8,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,60cc8ca1-8927-4e92-af99-9cd367e0595c,5b803369-07d1-470f-996a-9372ca50e617,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
    <Object name="ObjectContainerPivot_levski-001" type="ObjectContainerPivot" guid="4031d15e-ac2c-d079-cc11-31cd94a56289" tags=""/>
   </Layer>
  </Layers>

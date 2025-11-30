@@ -1,4 +1,4 @@
-<ObjectContainer version="11" name="middle" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="675" entityCountDynamic="0" entityCountUnique="0" minBounds="-37.999988000000002,-63.502212999999998,-15.999980000000001" maxBounds="37.125011999999998,62.747787000000002,14.000019999999999" radius="217.75139" crcSOC="2411569315">
+<ObjectContainer version="11" name="middle" tags="" type="" editorBuildChangelist="10717593" entityCountPLA="0" entityCountALE="0" entityCountStatic="675" entityCountDynamic="0" entityCountUnique="0" minBounds="-37.999988000000002,-63.502212999999998,-15.999980000000001" maxBounds="37.125011999999998,62.747787000000002,14.000019999999999" radius="217.75139" crcSOC="3085106846">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
@@ -7,6 +7,10 @@
    <Tag TagId="43af619d-c16a-4148-9f06-00ee9b64dcb7"/>
    <Tag TagId="632d7f73-4302-4268-8cd8-30572518a6a4"/>
    <Tag TagId="202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
+   <Tag TagId="31e25a6b-44e9-4d72-9930-55db1d615f52"/>
+   <Tag TagId="afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+   <Tag TagId="a7c06cc7-a715-43b3-93b6-486483f26d18"/>
+   <Tag TagId="612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
    <Tag TagId="849b8481-5893-4301-964e-4f39f3e27ad8"/>
    <Tag TagId="5ace9427-e331-45f9-9816-531026a2da04"/>
    <Tag TagId="b5e7e39d-18cd-42d8-85b0-7862c0075765"/>
@@ -14,15 +18,11 @@
    <Tag TagId="78afd517-a3a1-48f5-b251-0a7c28f865bb"/>
    <Tag TagId="eac0031a-3373-451e-80cc-4148d13a213d"/>
    <Tag TagId="04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-   <Tag TagId="612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
    <Tag TagId="35973a83-edc1-4dc2-8599-ea1adf9be424"/>
    <Tag TagId="fb1b0b03-f91f-4b1a-8683-17a8e6b10296"/>
    <Tag TagId="a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
    <Tag TagId="d88a4dd7-8289-4a29-b8c2-59fdaf276c93"/>
    <Tag TagId="84ee3196-9be9-490f-9902-e0953e270965"/>
-   <Tag TagId="31e25a6b-44e9-4d72-9930-55db1d615f52"/>
-   <Tag TagId="afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
-   <Tag TagId="a7c06cc7-a715-43b3-93b6-486483f26d18"/>
    <Tag TagId="60cc8ca1-8927-4e92-af99-9cd367e0595c"/>
    <Tag TagId="5b803369-07d1-470f-996a-9372ca50e617"/>
    <Tag TagId="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3"/>
@@ -140,7 +140,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-8.0453224,2.4727769,-5.4473839" type="Noattach" name="Port4_MiddleCorridor_Left_Front_Room_RN[Corridors_Mid_ATMO]" display_name="Port4_MiddleCorridor_Left_Front_Room_RN[Corridors_Mid_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="8.9408493,2.4727769,-5.4473839" type="Noattach" name="Port4_MiddleCorridor_Right_Front_Room_RN[Corridors_Mid_ATMO]" display_name="Port4_MiddleCorridor_Right_Front_Room_RN[Corridors_Mid_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -150,7 +150,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="8.9408493,2.4727769,-5.4473839" type="Noattach" name="Port5_MiddleCorridor_Right_Front_Room_RN[Corridors_Mid_ATMO]" display_name="Port5_MiddleCorridor_Right_Front_Room_RN[Corridors_Mid_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-8.0453224,2.4727769,-5.4473839" type="Noattach" name="Port5_MiddleCorridor_Left_Front_Room_RN[Corridors_Mid_ATMO]" display_name="Port5_MiddleCorridor_Left_Front_Room_RN[Corridors_Mid_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -190,7 +190,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,-0.75,-11.75" type="Noattach" name="Port9_Door_RN_RoomConnector_Breachable_OpenClose-010[Cargo_Pods_SETUP]" display_name="Port9_Door_RN_RoomConnector_Breachable_OpenClose-010[Cargo_Pods_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,-9.5,-11.75" type="Noattach" name="Port9_Door_RN_RoomConnector_Breachable_OpenClose-011[Cargo_Pods_SETUP]" display_name="Port9_Door_RN_RoomConnector_Breachable_OpenClose-011[Cargo_Pods_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -200,7 +200,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,-9.5,-11.75" type="Noattach" name="Port10_Door_RN_RoomConnector_Breachable_OpenClose-011[Cargo_Pods_SETUP]" display_name="Port10_Door_RN_RoomConnector_Breachable_OpenClose-011[Cargo_Pods_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,-0.75,-11.75" type="Noattach" name="Port10_Door_RN_RoomConnector_Breachable_OpenClose-010[Cargo_Pods_SETUP]" display_name="Port10_Door_RN_RoomConnector_Breachable_OpenClose-010[Cargo_Pods_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -240,7 +240,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="7.1592631,-6.6081591,-1.490487" type="Noattach" name="Port14_TopCorridor_Left_Room_RN[Corridors_Top_ATMO]" display_name="Port14_TopCorridor_Left_Room_RN[Corridors_Top_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.120203,-22.216228,-1.490487" type="Noattach" name="Port14_TopCorridor_Room_RN[Corridors_Top_ATMO]" display_name="Port14_TopCorridor_Room_RN[Corridors_Top_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -250,7 +250,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.120203,-22.216228,-1.490487" type="Noattach" name="Port15_TopCorridor_Room_RN[Corridors_Top_ATMO]" display_name="Port15_TopCorridor_Room_RN[Corridors_Top_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="7.1592631,-6.6081591,-1.490487" type="Noattach" name="Port15_TopCorridor_Left_Room_RN[Corridors_Top_ATMO]" display_name="Port15_TopCorridor_Left_Room_RN[Corridors_Top_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -290,7 +290,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-4.5,-15,-1.5" type="Noattach" name="Port19_Door_RN_RoomConnector_Breachable_OpenClose_IP-001[Corridors_Top_SETUP]" display_name="Port19_Door_RN_RoomConnector_Breachable_OpenClose_IP-001[Corridors_Top_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="4.5,-15,-1.5" type="Noattach" name="Port19_Door_RN_RoomConnector_Breachable_OpenClose_IP[Corridors_Top_SETUP]" display_name="Port19_Door_RN_RoomConnector_Breachable_OpenClose_IP[Corridors_Top_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -300,7 +300,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="4.5,-15,-1.5" type="Noattach" name="Port20_Door_RN_RoomConnector_Breachable_OpenClose_IP[Corridors_Top_SETUP]" display_name="Port20_Door_RN_RoomConnector_Breachable_OpenClose_IP[Corridors_Top_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-4.5,-15,-1.5" type="Noattach" name="Port20_Door_RN_RoomConnector_Breachable_OpenClose_IP-001[Corridors_Top_SETUP]" display_name="Port20_Door_RN_RoomConnector_Breachable_OpenClose_IP-001[Corridors_Top_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -340,7 +340,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="10,6.875,-6" type="Noattach" name="Port24_Door_RN_Bathroom_Stall_Left[Crew_Quarters_Bathroom_SETUP]" display_name="Port24_Door_RN_Bathroom_Stall_Left[Crew_Quarters_Bathroom_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="8.625,6.875,-6" type="Noattach" name="Port24_Door_RN_Bathroom_Stall_Right[Crew_Quarters_Bathroom_SETUP]" display_name="Port24_Door_RN_Bathroom_Stall_Right[Crew_Quarters_Bathroom_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -350,7 +350,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="8.625,6.875,-6" type="Noattach" name="Port25_Door_RN_Bathroom_Stall_Right[Crew_Quarters_Bathroom_SETUP]" display_name="Port25_Door_RN_Bathroom_Stall_Right[Crew_Quarters_Bathroom_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="10,6.875,-6" type="Noattach" name="Port25_Door_RN_Bathroom_Stall_Left[Crew_Quarters_Bathroom_SETUP]" display_name="Port25_Door_RN_Bathroom_Stall_Left[Crew_Quarters_Bathroom_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -420,7 +420,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.36606199,-11.28777,-4.8483171" type="Noattach" name="Port32_MedicalBay_MedBed_Room_RN[Medbay_ATMO]" display_name="Port32_MedicalBay_MedBed_Room_RN[Medbay_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-0.38431501,-4.5519638,-4.8483171" type="Noattach" name="Port32_MedicalBay_Room_RN[Medbay_ATMO]" display_name="Port32_MedicalBay_Room_RN[Medbay_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -430,7 +430,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-0.38431501,-4.5519638,-4.8483171" type="Noattach" name="Port33_MedicalBay_Room_RN[Medbay_ATMO]" display_name="Port33_MedicalBay_Room_RN[Medbay_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.36606199,-11.28777,-4.8483171" type="Noattach" name="Port33_MedicalBay_MedBed_Room_RN[Medbay_ATMO]" display_name="Port33_MedicalBay_MedBed_Room_RN[Medbay_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -440,7 +440,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="3.9707351,-10.47516,-2.647197" type="Noattach" name="Port34_MedicalBay_Storage_Room_RN[Medbay_ATMO]" display_name="Port34_MedicalBay_Storage_Room_RN[Medbay_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.36606199,1.919679,-4.8483171" type="Noattach" name="Port34_MedicalBay_Airlock_Room_RN[Medbay_ATMO]" display_name="Port34_MedicalBay_Airlock_Room_RN[Medbay_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -450,7 +450,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-3.7584169,-10.316223,-2.647197" type="Noattach" name="Port35_MedicalBay_Office_Room_RN[Medbay_ATMO]" display_name="Port35_MedicalBay_Office_Room_RN[Medbay_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="3.9707351,-10.47516,-2.647197" type="Noattach" name="Port35_MedicalBay_Storage_Room_RN[Medbay_ATMO]" display_name="Port35_MedicalBay_Storage_Room_RN[Medbay_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -460,7 +460,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.36606199,1.919679,-4.8483171" type="Noattach" name="Port36_MedicalBay_Airlock_Room_RN[Medbay_ATMO]" display_name="Port36_MedicalBay_Airlock_Room_RN[Medbay_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-3.7584169,-10.316223,-2.647197" type="Noattach" name="Port36_MedicalBay_Office_Room_RN[Medbay_ATMO]" display_name="Port36_MedicalBay_Office_Room_RN[Medbay_ATMO]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -590,7 +590,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="5.365293,7.134707,-2" type="Noattach" name="Port49_Door_RN_Service_ladder[Service_Tunnel_SETUP]" display_name="Port49_Door_RN_Service_ladder[Service_Tunnel_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="5.3521399,7.1478601,-6" type="Noattach" name="Port49_Door_RN_RoomConnector_Breachable_OpenClose-009[Service_Tunnel_SETUP]" display_name="Port49_Door_RN_RoomConnector_Breachable_OpenClose-009[Service_Tunnel_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -600,7 +600,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="5.3521399,7.1478601,-6" type="Noattach" name="Port50_Door_RN_RoomConnector_Breachable_OpenClose-009[Service_Tunnel_SETUP]" display_name="Port50_Door_RN_RoomConnector_Breachable_OpenClose-009[Service_Tunnel_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="5.365293,7.134707,-2" type="Noattach" name="Port50_Door_RN_Service_ladder[Service_Tunnel_SETUP]" display_name="Port50_Door_RN_Service_ladder[Service_Tunnel_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>

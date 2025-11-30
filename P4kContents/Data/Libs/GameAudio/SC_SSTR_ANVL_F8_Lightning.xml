@@ -51,8 +51,10 @@
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
         <ATLRTPCDependee atl_name="DM_WPHD_Large_3p_Ducking_Meter" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_ANVL_F8_Lightning_Retro_Thruster_Loop">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_ANVL_F8_Lightning_Retro_Thruster_Loop" wwise_radius_max="0" />
@@ -104,8 +106,10 @@
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
         <ATLRTPCDependee atl_name="DM_WPHD_Large_3p_Ducking_Meter" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_ANVL_F8_Lightning_Retro_Thruster_Thrust_OneShot_Start">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_ANVL_F8_Lightning_Retro_Thruster_Thrust_OneShot_Start" wwise_radius_max="0" />
@@ -157,8 +161,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_ANVL_F8_Lightning_Retro_Thruster_OneShot_Start">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_ANVL_F8_Lightning_Retro_Thruster_OneShot_Start" wwise_radius_max="0" />
@@ -209,8 +215,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_ANVL_F8_Lightning_Retro_Thruster_OneShot_End">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_ANVL_F8_Lightning_Retro_Thruster_OneShot_End" wwise_radius_max="0" />
@@ -263,8 +271,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_ANVL_F8_Lightning_Retro_Thruster_Thrust_OneShot_Start">
       <WwiseEvent wwise_duration_max="2.1217916" wwise_duration_min="1.8965" wwise_duration_type="OneShot" wwise_name="Play_SSTR_ANVL_F8_Lightning_Retro_Thruster_Thrust_OneShot_Start" wwise_radius_max="150" />
@@ -316,8 +326,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTR_ANVL_F8_Lightning_Retro_Thruster_Thrust_OneShot_End">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTR_ANVL_F8_Lightning_Retro_Thruster_Thrust_OneShot_End" wwise_radius_max="0" />
@@ -369,8 +381,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_ANVL_F8_Lightning_Retro_Thruster_OneShot_Start">
       <WwiseEvent wwise_duration_max="3.55332637" wwise_duration_min="1.8129375" wwise_duration_type="OneShot" wwise_name="Play_SSTR_ANVL_F8_Lightning_Retro_Thruster_OneShot_Start" wwise_radius_max="150" />
@@ -421,8 +435,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_ANVL_F8_Lightning_Retro_Thruster_OneShot_End">
       <WwiseEvent wwise_duration_max="4.68046665" wwise_duration_min="2.71722054" wwise_duration_type="OneShot" wwise_name="Play_SSTR_ANVL_F8_Lightning_Retro_Thruster_OneShot_End" wwise_radius_max="150" />
@@ -475,8 +491,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTR_ANVL_F8_Lightning_Retro_Thruster_Thrust_OneShot_End">
       <WwiseEvent wwise_duration_max="6.551849" wwise_duration_min="6.32866859" wwise_duration_type="OneShot" wwise_name="Play_SSTR_ANVL_F8_Lightning_Retro_Thruster_Thrust_OneShot_End" wwise_radius_max="150" />
@@ -528,8 +546,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTR_ANVL_F8_Lightning" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -542,4 +562,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

@@ -1,7 +1,7 @@
 <ObjectContainer sourceLevel="data/levels/!ship_setup/crus/starlifter">
  <Layers>
   <Layer fullname="Starlifter_Interior/Top_Deck_C2" externalLayerLevelDir="data/levels/!ship_setup/crus/starlifter/Layers/" externalLayerParentDir="Starlifter_Interior/" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Top_Deck_C2.lyr" ParentGUID="{BDEECEB8-449F-4167-A6AA-8FA910815C61}" layerHash="2886265873">
-   <Layer name="Top_Deck_C2_ART" layerHash="4294944530" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Top_Deck_C2/Top_Deck_C2_ART.lyr">
+   <Layer name="Top_Deck_C2_ART" layerHash="860171171" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Top_Deck_C2/Top_Deck_C2_ART.lyr">
     <Layer name="Top_Deck_C2_ART_PIPES" layerHash="204064" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Top_Deck_C2/Top_Deck_C2_ART/Top_Deck_C2_ART_PIPES.lyr">
      <Object name="crus_starlifter_pipe-07d_2m_a-113" type="Brush" guid="4515e59b-355f-6400-a4b0-d6e864ed68bd"/>
      <Object name="crus_starlifter_pipe-25d_2m-001" type="Brush" guid="4012d5c3-809f-cb00-31b0-8c7785628daa"/>
@@ -1174,7 +1174,7 @@
     <Object name="CRUS_Starlifter_Ladder_Top" type="Brush" guid="45feebad-ec85-a7ff-579e-5379440b96b7"/>
     <Object name="crus_starlifter_top_floor_hump_bridge_2m-002" type="Brush" guid="46f3aef2-3634-feff-b15e-9bb51c3f7bbf"/>
    </Layer>
-   <Layer name="Top_Deck_C2_LIGHTING" layerHash="4016164404" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Top_Deck_C2/Top_Deck_C2_LIGHTING.lyr">
+   <Layer name="Top_Deck_C2_LIGHTING" layerHash="3101159357" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Top_Deck_C2/Top_Deck_C2_LIGHTING.lyr">
     <Object name="Lt_TD_DoorFrame_Side_Up-017" type="Light" guid="4da36df6-d271-7200-639a-c23b2cf011a0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Eng_Comp_Frame_Secondary-024" type="Light" guid="46207451-807d-dd03-0161-6df51b87ee93" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_TD_Hump_Floor_Runner-040" type="Light" guid="4528b621-3643-a204-68f6-4a792901a89b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -1223,7 +1223,7 @@
     <Object name="Lt_TD_Lift_Front-002" type="Light" guid="458fafeb-1803-ea29-e6ca-ce6fa3630683" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_TD_Underfloor_Sides-008" type="Light" guid="460d7d74-2366-b12a-a592-56855580f299" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_TD_Tunnel_Engine_Ribbon_B_EMSV" type="Light" guid="4068e1b0-03bc-762b-4a8c-ecc98230b291" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="ChipSet_DEFCON-010" type="ChipSet_DEFCON" guid="407080ce-dd65-a82c-1c54-e1e3afc61297" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+    <Object name="ChipSet_DEFCON-010" type="ChipSet_DEFCON" guid="407080ce-dd65-a82c-1c54-e1e3afc61297" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     <Object name="Lt_TD_Hump_Floor_Runner_Stairs-006" type="Light" guid="45026e54-f13b-1b2d-95aa-60770b739b86" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="LB_TD_DoorWay_Side_Cheap" type="LightBox" guid="46cd33fe-9c3e-3e2d-5440-dbbdef8b45b3" tags=""/>
     <Object name="Lt_TD_Hump_Floor_Runner_Stairs-003" type="Light" guid="4d1f4225-927f-852d-541e-68a74c3d5f8c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>

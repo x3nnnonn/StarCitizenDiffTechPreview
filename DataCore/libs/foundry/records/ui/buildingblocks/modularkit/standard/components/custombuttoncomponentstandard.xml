@@ -12,7 +12,7 @@
     <entries Type="BuildingBlocks_StyleEntry" Count="0" />
   </defaultStyles>
   <style />
-  <brandStyles Type="BuildingBlocks_BrandStyles" Count="14">
+  <brandStyles Type="BuildingBlocks_BrandStyles" Count="15">
     <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
       <brandIdentifier ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/s_uilo_a.xml" />
       <sharedStyles ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/modularkitstyles/sk_uimi_a/sk_uimi_a_buttonprimarystyles.xml" />
@@ -81,6 +81,11 @@
     <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
       <brandIdentifier ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/ea/triggerfish/eastyle_triggerfish.xml" />
       <sharedStyles ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/modularkitstyles/sk_uiea_fe/triggerfish/sk_uiea_fe_buttonnewstyles_triggerfish.xml" />
+      <entries Type="BuildingBlocks_StyleEntry" Count="0" />
+    </BuildingBlocks_BrandStyles>
+    <BuildingBlocks_BrandStyles Type="BuildingBlocks_BrandStyles">
+      <brandIdentifier ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/s_inventory.xml" />
+      <sharedStyles ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/styles/modularkitstyles/sk_inventory/sk_inventory_buttoncustomstyles.xml" />
       <entries Type="BuildingBlocks_StyleEntry" Count="0" />
     </BuildingBlocks_BrandStyles>
   </brandStyles>

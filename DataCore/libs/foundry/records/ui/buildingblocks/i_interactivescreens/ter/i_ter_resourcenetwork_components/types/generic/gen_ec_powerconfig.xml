@@ -6,413 +6,10 @@
     <z>0</z>
   </size>
   <coordinateMethod>useRaw</coordinateMethod>
-  <embeddedStyles Type="BuildingBlocks_StyleEntry" Count="2">
-    <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
-      <name>Positive</name>
-      <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
-        <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
-          <name>New Condition List</name>
-          <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-            <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-              <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.8265ee19-e472-492a-927e-b2ee6ae87faf" RecordId="8265ee19-e472-492a-927e-b2ee6ae87faf" />
-            </BuildingBlocks_StyleSelectorConditionTag>
-          </conditions>
-        </BuildingBlocks_StyleConditionList>
-      </conditionsList>
-      <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
-        <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
-          <field>FillColor</field>
-          <color Type="BuildingBlocks_ColorStyle">
-            <color>Positive</color>
-            <alpha>1</alpha>
-          </color>
-        </BuildingBlocks_FieldModifierColor>
-      </modifiers>
-      <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
-    </BuildingBlocks_StyleEntry>
-    <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
-      <name>Critical</name>
-      <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
-        <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
-          <name>New Condition List</name>
-          <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-            <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-              <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e4b5bff-f062-4e27-9e6e-56e1573fbc57" RecordId="6e4b5bff-f062-4e27-9e6e-56e1573fbc57" />
-            </BuildingBlocks_StyleSelectorConditionTag>
-          </conditions>
-        </BuildingBlocks_StyleConditionList>
-      </conditionsList>
-      <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
-        <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
-          <field>FillColor</field>
-          <color Type="BuildingBlocks_ColorStyle">
-            <color>Critical</color>
-            <alpha>1</alpha>
-          </color>
-        </BuildingBlocks_FieldModifierColor>
-      </modifiers>
-      <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
-    </BuildingBlocks_StyleEntry>
-  </embeddedStyles>
+  <embeddedStyles Type="BuildingBlocks_StyleEntry" Count="0" />
   <defaultStyles Type="BuildingBlocks_DefaultStyles">
     <sharedStyles />
-    <entries Type="BuildingBlocks_StyleEntry" Count="7">
-      <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
-        <name>CoolantIcon_Default</name>
-        <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
-          <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
-            <name>New Condition List</name>
-            <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
-              <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f530a994-2947-4fba-bd86-c4046c471ba2" RecordId="f530a994-2947-4fba-bd86-c4046c471ba2" />
-              </BuildingBlocks_StyleSelectorConditionTag>
-              <BuildingBlocks_StyleSelectorConditionAncestor Type="BuildingBlocks_StyleSelectorConditionAncestor">
-                <breakConditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.8b9ef179-6e50-456f-a67f-21de88e96f51" RecordId="8b9ef179-6e50-456f-a67f-21de88e96f51" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </breakConditions>
-                <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0964d22f-3a22-4052-92e4-eaf77f975423" RecordId="0964d22f-3a22-4052-92e4-eaf77f975423" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </conditions>
-              </BuildingBlocks_StyleSelectorConditionAncestor>
-            </conditions>
-          </BuildingBlocks_StyleConditionList>
-        </conditionsList>
-        <modifiers Type="BuildingBlocks_FieldModifierBase" Count="2">
-          <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
-            <field>FillColor</field>
-            <color Type="BuildingBlocks_ColorStyle">
-              <color>Base</color>
-              <alpha>1</alpha>
-            </color>
-          </BuildingBlocks_FieldModifierColor>
-          <BuildingBlocks_FieldModifierString Type="BuildingBlocks_FieldModifierString">
-            <field>SvgPath</field>
-            <value>UI/Textures/Vector/Ships/ProfessionScreens/Engineering/Engineering_Icon_NotificationCold.svg</value>
-          </BuildingBlocks_FieldModifierString>
-        </modifiers>
-        <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
-      </BuildingBlocks_StyleEntry>
-      <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
-        <name>CoolantIcon_Moderate</name>
-        <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
-          <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
-            <name>New Condition List</name>
-            <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
-              <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f530a994-2947-4fba-bd86-c4046c471ba2" RecordId="f530a994-2947-4fba-bd86-c4046c471ba2" />
-              </BuildingBlocks_StyleSelectorConditionTag>
-              <BuildingBlocks_StyleSelectorConditionAncestor Type="BuildingBlocks_StyleSelectorConditionAncestor">
-                <breakConditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.8b9ef179-6e50-456f-a67f-21de88e96f51" RecordId="8b9ef179-6e50-456f-a67f-21de88e96f51" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </breakConditions>
-                <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0964d22f-3a22-4052-92e4-eaf77f975423" RecordId="0964d22f-3a22-4052-92e4-eaf77f975423" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7433af8c-10d7-4fdf-b4e2-6913641d442e" RecordId="7433af8c-10d7-4fdf-b4e2-6913641d442e" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </conditions>
-              </BuildingBlocks_StyleSelectorConditionAncestor>
-            </conditions>
-          </BuildingBlocks_StyleConditionList>
-        </conditionsList>
-        <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
-          <BuildingBlocks_FieldModifierString Type="BuildingBlocks_FieldModifierString">
-            <field>SvgPath</field>
-            <value>UI/Textures/Vector/Ships/ProfessionScreens/Engineering/Engineering_Icon_NotificationCold.svg</value>
-          </BuildingBlocks_FieldModifierString>
-        </modifiers>
-        <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
-      </BuildingBlocks_StyleEntry>
-      <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
-        <name>CoolantIcon_Critical</name>
-        <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
-          <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
-            <name>New Condition List</name>
-            <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
-              <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f530a994-2947-4fba-bd86-c4046c471ba2" RecordId="f530a994-2947-4fba-bd86-c4046c471ba2" />
-              </BuildingBlocks_StyleSelectorConditionTag>
-              <BuildingBlocks_StyleSelectorConditionAncestor Type="BuildingBlocks_StyleSelectorConditionAncestor">
-                <breakConditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.8b9ef179-6e50-456f-a67f-21de88e96f51" RecordId="8b9ef179-6e50-456f-a67f-21de88e96f51" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </breakConditions>
-                <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0964d22f-3a22-4052-92e4-eaf77f975423" RecordId="0964d22f-3a22-4052-92e4-eaf77f975423" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e4b5bff-f062-4e27-9e6e-56e1573fbc57" RecordId="6e4b5bff-f062-4e27-9e6e-56e1573fbc57" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </conditions>
-              </BuildingBlocks_StyleSelectorConditionAncestor>
-            </conditions>
-          </BuildingBlocks_StyleConditionList>
-        </conditionsList>
-        <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
-          <BuildingBlocks_FieldModifierString Type="BuildingBlocks_FieldModifierString">
-            <field>SvgPath</field>
-            <value>UI/Textures/Vector/Ships/ProfessionScreens/Engineering/Engineering_Icon_NotificationHeat.svg</value>
-          </BuildingBlocks_FieldModifierString>
-        </modifiers>
-        <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
-      </BuildingBlocks_StyleEntry>
-      <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
-        <name>CoolantText_Default</name>
-        <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
-          <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
-            <name>New Condition List</name>
-            <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
-              <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.295223fa-f17e-48c7-aff0-cec34148be12" RecordId="295223fa-f17e-48c7-aff0-cec34148be12" />
-              </BuildingBlocks_StyleSelectorConditionTag>
-              <BuildingBlocks_StyleSelectorConditionAncestor Type="BuildingBlocks_StyleSelectorConditionAncestor">
-                <breakConditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.655c1682-3225-4bfe-b4c1-b5d8ced817e1" RecordId="655c1682-3225-4bfe-b4c1-b5d8ced817e1" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </breakConditions>
-                <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0964d22f-3a22-4052-92e4-eaf77f975423" RecordId="0964d22f-3a22-4052-92e4-eaf77f975423" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </conditions>
-              </BuildingBlocks_StyleSelectorConditionAncestor>
-            </conditions>
-          </BuildingBlocks_StyleConditionList>
-        </conditionsList>
-        <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
-          <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
-            <field>FillColor</field>
-            <color Type="BuildingBlocks_ColorStyle">
-              <color>Base</color>
-              <alpha>1</alpha>
-            </color>
-          </BuildingBlocks_FieldModifierColor>
-        </modifiers>
-        <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
-      </BuildingBlocks_StyleEntry>
-      <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
-        <name>IconColor_Moderate</name>
-        <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
-          <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
-            <name>New Condition List</name>
-            <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
-              <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f530a994-2947-4fba-bd86-c4046c471ba2" RecordId="f530a994-2947-4fba-bd86-c4046c471ba2" />
-              </BuildingBlocks_StyleSelectorConditionTag>
-              <BuildingBlocks_StyleSelectorConditionAncestor Type="BuildingBlocks_StyleSelectorConditionAncestor">
-                <breakConditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.8b9ef179-6e50-456f-a67f-21de88e96f51" RecordId="8b9ef179-6e50-456f-a67f-21de88e96f51" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </breakConditions>
-                <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7433af8c-10d7-4fdf-b4e2-6913641d442e" RecordId="7433af8c-10d7-4fdf-b4e2-6913641d442e" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </conditions>
-              </BuildingBlocks_StyleSelectorConditionAncestor>
-            </conditions>
-          </BuildingBlocks_StyleConditionList>
-        </conditionsList>
-        <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
-          <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
-            <field>FillColor</field>
-            <color Type="BuildingBlocks_ColorStyle">
-              <color>Moderate</color>
-              <alpha>1</alpha>
-            </color>
-          </BuildingBlocks_FieldModifierColor>
-        </modifiers>
-        <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
-      </BuildingBlocks_StyleEntry>
-      <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
-        <name>IconColor_Critical</name>
-        <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
-          <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
-            <name>New Condition List</name>
-            <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
-              <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.f530a994-2947-4fba-bd86-c4046c471ba2" RecordId="f530a994-2947-4fba-bd86-c4046c471ba2" />
-              </BuildingBlocks_StyleSelectorConditionTag>
-              <BuildingBlocks_StyleSelectorConditionAncestor Type="BuildingBlocks_StyleSelectorConditionAncestor">
-                <breakConditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.8b9ef179-6e50-456f-a67f-21de88e96f51" RecordId="8b9ef179-6e50-456f-a67f-21de88e96f51" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </breakConditions>
-                <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e4b5bff-f062-4e27-9e6e-56e1573fbc57" RecordId="6e4b5bff-f062-4e27-9e6e-56e1573fbc57" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </conditions>
-              </BuildingBlocks_StyleSelectorConditionAncestor>
-            </conditions>
-          </BuildingBlocks_StyleConditionList>
-        </conditionsList>
-        <modifiers Type="BuildingBlocks_FieldModifierBase" Count="2">
-          <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
-            <field>FillColor</field>
-            <color Type="BuildingBlocks_ColorStyle">
-              <color>Critical</color>
-              <alpha>1</alpha>
-            </color>
-          </BuildingBlocks_FieldModifierColor>
-          <BuidlingBlocks_FieldModifierAnimation Type="BuidlingBlocks_FieldModifierAnimation">
-            <value Type="BuildingBlocks_Animation">
-              <animationTimeline Type="BuildingBlocks_TimelineTypeEmbedded">
-                <keyframes Type="BuildingBlocks_Keyframe" Count="2">
-                  <BuildingBlocks_Keyframe Type="BuildingBlocks_Keyframe">
-                    <percent>0</percent>
-                    <modifiers Type="BuildingBlocks_KeyframeModifierData" Count="1">
-                      <BuildingBlocks_KeyframeModifierData Type="BuildingBlocks_KeyframeModifierData">
-                        <timingFunction Type="BuildingBlocks_TimingFunctionPreset">
-                          <preset>EaseInOutQuad</preset>
-                        </timingFunction>
-                        <modifier Type="BuildingBlocks_FieldModifierColor">
-                          <field>FillColor</field>
-                          <color Type="BuildingBlocks_ColorStyle">
-                            <color>Critical</color>
-                            <alpha>0.75</alpha>
-                          </color>
-                        </modifier>
-                      </BuildingBlocks_KeyframeModifierData>
-                    </modifiers>
-                  </BuildingBlocks_Keyframe>
-                  <BuildingBlocks_Keyframe Type="BuildingBlocks_Keyframe">
-                    <percent>1</percent>
-                    <modifiers Type="BuildingBlocks_KeyframeModifierData" Count="1">
-                      <BuildingBlocks_KeyframeModifierData Type="BuildingBlocks_KeyframeModifierData">
-                        <timingFunction Type="BuildingBlocks_TimingFunctionPreset">
-                          <preset>EaseInOutQuad</preset>
-                        </timingFunction>
-                        <modifier Type="BuildingBlocks_FieldModifierColor">
-                          <field>FillColor</field>
-                          <color Type="BuildingBlocks_ColorStyle">
-                            <color>Critical</color>
-                            <alpha>1</alpha>
-                          </color>
-                        </modifier>
-                      </BuildingBlocks_KeyframeModifierData>
-                    </modifiers>
-                  </BuildingBlocks_Keyframe>
-                </keyframes>
-              </animationTimeline>
-              <dynamicStartTimeVariableName />
-              <duration>0.25</duration>
-              <delay>0</delay>
-              <delayRandomRange>0</delayRandomRange>
-              <direction>Alternate</direction>
-              <fillMode>None</fillMode>
-              <iterationCount>1</iterationCount>
-              <loopIndefinitely>True</loopIndefinitely>
-              <timeSync>True</timeSync>
-              <additive>False</additive>
-              <timescaleIndependent>False</timescaleIndependent>
-            </value>
-          </BuidlingBlocks_FieldModifierAnimation>
-        </modifiers>
-        <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
-      </BuildingBlocks_StyleEntry>
-      <BuildingBlocks_StyleEntry Type="BuildingBlocks_StyleEntry">
-        <name>Textfield_Critical</name>
-        <conditionsList Type="BuildingBlocks_StyleConditionList" Count="1">
-          <BuildingBlocks_StyleConditionList Type="BuildingBlocks_StyleConditionList">
-            <name>New Condition List</name>
-            <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="2">
-              <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.295223fa-f17e-48c7-aff0-cec34148be12" RecordId="295223fa-f17e-48c7-aff0-cec34148be12" />
-              </BuildingBlocks_StyleSelectorConditionTag>
-              <BuildingBlocks_StyleSelectorConditionAncestor Type="BuildingBlocks_StyleSelectorConditionAncestor">
-                <breakConditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.0964d22f-3a22-4052-92e4-eaf77f975423" RecordId="0964d22f-3a22-4052-92e4-eaf77f975423" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </breakConditions>
-                <conditions Type="BuildingBlocks_StyleSelectorConditionBase" Count="1">
-                  <BuildingBlocks_StyleSelectorConditionTag Type="BuildingBlocks_StyleSelectorConditionTag">
-                    <tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6e4b5bff-f062-4e27-9e6e-56e1573fbc57" RecordId="6e4b5bff-f062-4e27-9e6e-56e1573fbc57" />
-                  </BuildingBlocks_StyleSelectorConditionTag>
-                </conditions>
-              </BuildingBlocks_StyleSelectorConditionAncestor>
-            </conditions>
-          </BuildingBlocks_StyleConditionList>
-        </conditionsList>
-        <modifiers Type="BuildingBlocks_FieldModifierBase" Count="2">
-          <BuildingBlocks_FieldModifierColor Type="BuildingBlocks_FieldModifierColor">
-            <field>FillColor</field>
-            <color Type="BuildingBlocks_ColorStyle">
-              <color>Critical</color>
-              <alpha>1</alpha>
-            </color>
-          </BuildingBlocks_FieldModifierColor>
-          <BuidlingBlocks_FieldModifierAnimation Type="BuidlingBlocks_FieldModifierAnimation">
-            <value Type="BuildingBlocks_Animation">
-              <animationTimeline Type="BuildingBlocks_TimelineTypeEmbedded">
-                <keyframes Type="BuildingBlocks_Keyframe" Count="2">
-                  <BuildingBlocks_Keyframe Type="BuildingBlocks_Keyframe">
-                    <percent>0</percent>
-                    <modifiers Type="BuildingBlocks_KeyframeModifierData" Count="1">
-                      <BuildingBlocks_KeyframeModifierData Type="BuildingBlocks_KeyframeModifierData">
-                        <timingFunction Type="BuildingBlocks_TimingFunctionPreset">
-                          <preset>EaseInOutQuad</preset>
-                        </timingFunction>
-                        <modifier Type="BuildingBlocks_FieldModifierColor">
-                          <field>FillColor</field>
-                          <color Type="BuildingBlocks_ColorStyle">
-                            <color>Critical</color>
-                            <alpha>0.75</alpha>
-                          </color>
-                        </modifier>
-                      </BuildingBlocks_KeyframeModifierData>
-                    </modifiers>
-                  </BuildingBlocks_Keyframe>
-                  <BuildingBlocks_Keyframe Type="BuildingBlocks_Keyframe">
-                    <percent>1</percent>
-                    <modifiers Type="BuildingBlocks_KeyframeModifierData" Count="1">
-                      <BuildingBlocks_KeyframeModifierData Type="BuildingBlocks_KeyframeModifierData">
-                        <timingFunction Type="BuildingBlocks_TimingFunctionPreset">
-                          <preset>EaseInOutQuad</preset>
-                        </timingFunction>
-                        <modifier Type="BuildingBlocks_FieldModifierColor">
-                          <field>FillColor</field>
-                          <color Type="BuildingBlocks_ColorStyle">
-                            <color>Critical</color>
-                            <alpha>1</alpha>
-                          </color>
-                        </modifier>
-                      </BuildingBlocks_KeyframeModifierData>
-                    </modifiers>
-                  </BuildingBlocks_Keyframe>
-                </keyframes>
-              </animationTimeline>
-              <dynamicStartTimeVariableName />
-              <duration>0.25</duration>
-              <delay>0</delay>
-              <delayRandomRange>0</delayRandomRange>
-              <direction>Alternate</direction>
-              <fillMode>None</fillMode>
-              <iterationCount>1</iterationCount>
-              <loopIndefinitely>True</loopIndefinitely>
-              <timeSync>True</timeSync>
-              <additive>False</additive>
-              <timescaleIndependent>False</timescaleIndependent>
-            </value>
-          </BuidlingBlocks_FieldModifierAnimation>
-        </modifiers>
-        <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
-      </BuildingBlocks_StyleEntry>
-    </entries>
+    <entries Type="BuildingBlocks_StyleEntry" Count="0" />
   </defaultStyles>
   <style />
   <brandStyles Type="BuildingBlocks_BrandStyles" Count="0" />
@@ -2870,7 +2467,7 @@
       <padding Type="BuildingBlocks_TRBL">
         <top>0</top>
         <right>0</right>
-        <bottom>0</bottom>
+        <bottom>20</bottom>
         <left>0</left>
         <front>0</front>
         <back>0</back>
@@ -5078,7 +4675,7 @@
       <padding Type="BuildingBlocks_TRBL">
         <top>0</top>
         <right>5</right>
-        <bottom>45</bottom>
+        <bottom>65</bottom>
         <left>5</left>
         <front>0</front>
         <back>0</back>
@@ -6024,7 +5621,7 @@
       <padding Type="BuildingBlocks_TRBL">
         <top>0</top>
         <right>0</right>
-        <bottom>45</bottom>
+        <bottom>65</bottom>
         <left>0</left>
         <front>0</front>
         <back>0</back>
@@ -7543,7 +7140,7 @@
       </position>
       <positionOffset Type="Vec3">
         <x>0</x>
-        <y>45</y>
+        <y>65</y>
         <z>0</z>
       </positionOffset>
       <orientation Type="Deg3">
@@ -7867,7 +7464,7 @@
       </position>
       <positionOffset Type="Vec3">
         <x>0</x>
-        <y>45</y>
+        <y>65</y>
         <z>0</z>
       </positionOffset>
       <orientation Type="Deg3">

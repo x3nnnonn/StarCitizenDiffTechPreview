@@ -913,7 +913,7 @@
       <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
         <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
           <field>Alpha</field>
-          <value>0.2</value>
+          <value>0.5</value>
         </BuildingBlocks_FieldModifierNumber>
       </modifiers>
       <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
@@ -960,7 +960,7 @@
       <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
         <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
           <field>Alpha</field>
-          <value>0.5</value>
+          <value>0.75</value>
         </BuildingBlocks_FieldModifierNumber>
       </modifiers>
       <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
@@ -1003,7 +1003,7 @@
       <modifiers Type="BuildingBlocks_FieldModifierBase" Count="1">
         <BuildingBlocks_FieldModifierNumber Type="BuildingBlocks_FieldModifierNumber">
           <field>Alpha</field>
-          <value>0.5</value>
+          <value>0.75</value>
         </BuildingBlocks_FieldModifierNumber>
       </modifiers>
       <transitions Type="BuildingBlocks_FieldTransitionBase" Count="0" />
@@ -1429,19 +1429,11 @@
     <cardsUseStageRadius>True</cardsUseStageRadius>
   </arPreviewScene>
   <previewScenes Type="BuildingBlocks_PreviewScreenBase" Count="0" />
-  <staticVariables Type="BuildingBlocks_StaticVariableBase" Count="32">
+  <staticVariables Type="BuildingBlocks_StaticVariableBase" Count="28">
     <BuildingBlocks_StaticVariableString Type="BuildingBlocks_StaticVariableString">
       <name>hologram/itemEntityClass_NA</name>
       <value>rsi_utility_heavy_helmet_01_01_01</value>
     </BuildingBlocks_StaticVariableString>
-    <BuildingBlocks_StaticVariableLocalization Type="BuildingBlocks_StaticVariableLocalization">
-      <name>tier_NA</name>
-      <value>@ui_inventory_T1</value>
-    </BuildingBlocks_StaticVariableLocalization>
-    <BuildingBlocks_StaticVariableLocalization Type="BuildingBlocks_StaticVariableLocalization">
-      <name>size_NA</name>
-      <value>@ui_inventory_S3</value>
-    </BuildingBlocks_StaticVariableLocalization>
     <BuildingBlocks_StaticVariableLocalization Type="BuildingBlocks_StaticVariableLocalization">
       <name>componentClass_NA</name>
       <value>@ui_inventory_component_class_mil</value>
@@ -1486,6 +1478,10 @@
       <name>timer_NA</name>
       <value>999</value>
     </BuildingBlocks_StaticVariableInteger>
+    <BuildingBlocks_StaticVariableInteger Type="BuildingBlocks_StaticVariableInteger">
+      <name>weakenedType_NA</name>
+      <value>1</value>
+    </BuildingBlocks_StaticVariableInteger>
     <BuildingBlocks_StaticVariableNumber Type="BuildingBlocks_StaticVariableNumber">
       <name>itemCount_NA</name>
       <value>100</value>
@@ -1499,7 +1495,7 @@
       <value>0.42</value>
     </BuildingBlocks_StaticVariableNumber>
     <BuildingBlocks_StaticVariableNumber Type="BuildingBlocks_StaticVariableNumber">
-      <name>durability_NA</name>
+      <name>weakenedRatio_NA</name>
       <value>0.5</value>
     </BuildingBlocks_StaticVariableNumber>
     <BuildingBlocks_StaticVariableBoolean Type="BuildingBlocks_StaticVariableBoolean">
@@ -1540,18 +1536,6 @@
     </BuildingBlocks_StaticVariableBoolean>
     <BuildingBlocks_StaticVariableBoolean Type="BuildingBlocks_StaticVariableBoolean">
       <name>isInventoryContainer_NA</name>
-      <value>True</value>
-    </BuildingBlocks_StaticVariableBoolean>
-    <BuildingBlocks_StaticVariableBoolean Type="BuildingBlocks_StaticVariableBoolean">
-      <name>isTiered_NA</name>
-      <value>True</value>
-    </BuildingBlocks_StaticVariableBoolean>
-    <BuildingBlocks_StaticVariableBoolean Type="BuildingBlocks_StaticVariableBoolean">
-      <name>isSized_NA</name>
-      <value>True</value>
-    </BuildingBlocks_StaticVariableBoolean>
-    <BuildingBlocks_StaticVariableBoolean Type="BuildingBlocks_StaticVariableBoolean">
-      <name>isWeakened_NA</name>
       <value>True</value>
     </BuildingBlocks_StaticVariableBoolean>
     <BuildingBlocks_StaticVariableBoolean Type="BuildingBlocks_StaticVariableBoolean">
@@ -1882,7 +1866,7 @@
         <includeInGroundingEffects>True</includeInGroundingEffects>
       </rendererPolicy>
       <primitiveSettings Type="BuildingBlocks_PrimitiveSettings">
-        <primitiveMaterialPath>materials/default_rtt.mtl</primitiveMaterialPath>
+        <primitiveMaterialPath>Materials/UI/Inventory/inventory_tabs_rtt.mtl</primitiveMaterialPath>
         <UVStart Type="Vec2">
           <x>0</x>
           <y>0</y>
@@ -3087,7 +3071,7 @@
       <inheritsTranslation>True</inheritsTranslation>
       <inheritsAlpha>True</inheritsAlpha>
       <inheritsOverflow>False</inheritsOverflow>
-      <alpha>0.2</alpha>
+      <alpha>0.05</alpha>
       <layer>5</layer>
       <aspectRatioLibrary />
       <focusIndex>-1</focusIndex>
@@ -7753,7 +7737,7 @@
         <z>0</z>
       </positionOffset>
       <orientation Type="Deg3">
-        <x>90</x>
+        <x>35</x>
         <y>180</y>
         <z>0</z>
       </orientation>
@@ -7819,14 +7803,14 @@
         <back>0</back>
       </margin>
       <pivot Type="Vec3">
-        <x>0</x>
-        <y>0</y>
-        <z>0</z>
+        <x>0.5</x>
+        <y>0.5</y>
+        <z>0.5</z>
       </pivot>
       <anchor Type="Vec3">
         <x>0.5</x>
         <y>0.5</y>
-        <z>0.5</z>
+        <z>0</z>
       </anchor>
       <background Type="BuildingBlocks_Background">
         <enable>False</enable>
@@ -9014,7 +8998,7 @@
         <includeInGroundingEffects>True</includeInGroundingEffects>
       </rendererPolicy>
       <primitiveSettings Type="BuildingBlocks_PrimitiveSettings">
-        <primitiveMaterialPath>materials/default_rtt.mtl</primitiveMaterialPath>
+        <primitiveMaterialPath>Materials/UI/Inventory/inventory_tabs_rtt.mtl</primitiveMaterialPath>
         <UVStart Type="Vec2">
           <x>0</x>
           <y>0</y>
@@ -11552,7 +11536,7 @@
         <includeInGroundingEffects>True</includeInGroundingEffects>
       </rendererPolicy>
       <primitiveSettings Type="BuildingBlocks_PrimitiveSettings">
-        <primitiveMaterialPath>materials/default_rtt.mtl</primitiveMaterialPath>
+        <primitiveMaterialPath>Materials/UI/Inventory/inventory_tabs_rtt.mtl</primitiveMaterialPath>
         <UVStart Type="Vec2">
           <x>0</x>
           <y>0</y>
@@ -12163,7 +12147,7 @@
       <urlOptional />
       <urlPostfix />
       <stylesheetOverride />
-      <canvas />
+      <canvas ReferencedFile="file://./../../../../../../../libs/foundry/records/ui/buildingblocks/inventory/components/item/inventory_panel_item_container.xml" />
       <sizingMethod>Size</sizingMethod>
       <paramInputValues Type="BuildingBlocks_ComponentParameterInputBase" Count="0" />
     </BuildingBlocks_WidgetCanvas>
@@ -12176,7 +12160,7 @@
         <includeInGroundingEffects>True</includeInGroundingEffects>
       </rendererPolicy>
       <primitiveSettings Type="BuildingBlocks_PrimitiveSettings">
-        <primitiveMaterialPath>materials/default_rtt.mtl</primitiveMaterialPath>
+        <primitiveMaterialPath>Materials/UI/Inventory/inventory_tabs_rtt.mtl</primitiveMaterialPath>
         <UVStart Type="Vec2">
           <x>0</x>
           <y>0</y>
@@ -12491,7 +12475,7 @@
         <includeInGroundingEffects>True</includeInGroundingEffects>
       </rendererPolicy>
       <primitiveSettings Type="BuildingBlocks_PrimitiveSettings">
-        <primitiveMaterialPath>materials/default_rtt.mtl</primitiveMaterialPath>
+        <primitiveMaterialPath>Materials/UI/Inventory/inventory_tabs_rtt.mtl</primitiveMaterialPath>
         <UVStart Type="Vec2">
           <x>0</x>
           <y>0</y>
@@ -13108,7 +13092,7 @@
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="81">
+  <operations Type="BuildingBlocks_Node" Count="82">
     <BuildingBlocks_BindingsStringVariable Pointer="ptr:15" Type="BuildingBlocks_BindingsStringVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>hologram/itemEntityClass</binding>
@@ -13524,13 +13508,6 @@
       <field>IsActive</field>
       <input PointsTo="ptr:73" />
     </BuildingBlocks_BindingsBooleanField>
-    <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:74" Type="BuildingBlocks_BindingsBooleanVariable">
-      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
-      <binding>isWeakened</binding>
-      <inheritsNamespace>True</inheritsNamespace>
-      <isPulled>False</isPulled>
-      <isWatched>False</isWatched>
-    </BuildingBlocks_BindingsBooleanVariable>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
       <widget PointsTo="ptr:10" />
       <field>IsActive</field>
@@ -13559,7 +13536,7 @@
     </BuildingBlocks_BindingsBooleanFromInteger>
     <BuildingBlocks_BindingsNumberVariable Pointer="ptr:75" Type="BuildingBlocks_BindingsNumberVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
-      <binding>durabilityRatio</binding>
+      <binding>weakenedRatio</binding>
       <inheritsNamespace>True</inheritsNamespace>
       <isPulled>False</isPulled>
       <isWatched>False</isWatched>
@@ -13596,6 +13573,21 @@
       <field>ParamInput0</field>
       <input PointsTo="ptr:80" />
     </BuildingBlocks_BindingsLocalizedField>
+    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:81" Type="BuildingBlocks_BindingsIntegerVariable">
+      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
+      <binding>weakenedType</binding>
+      <inheritsNamespace>True</inheritsNamespace>
+      <isPulled>False</isPulled>
+      <isWatched>False</isWatched>
+    </BuildingBlocks_BindingsIntegerVariable>
+    <BuildingBlocks_BindingsBooleanFromIntegerSwitch Pointer="ptr:74" Type="BuildingBlocks_BindingsBooleanFromIntegerSwitch">
+      <defaultValue>False</defaultValue>
+      <exceptions Type="ActivityBehaviorRequestCondition" Count="2">
+        <Int64>1</Int64>
+        <Int64>2</Int64>
+      </exceptions>
+      <input PointsTo="ptr:81" />
+    </BuildingBlocks_BindingsBooleanFromIntegerSwitch>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

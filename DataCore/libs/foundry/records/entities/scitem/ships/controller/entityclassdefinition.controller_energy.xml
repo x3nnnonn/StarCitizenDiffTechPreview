@@ -94,14 +94,7 @@
       <allowTogglePowerObservedItems>False</allowTogglePowerObservedItems>
       <operatorModeDefinitionsOverride />
       <additionalItemControlPriorities Type="SCItemControlPriorities">
-        <itemControlPriorities Type="SCItemControlPriorityTable" Count="6">
-          <SCItemControlPriorityTable Type="SCItemControlPriorityTable">
-            <itemType>Relay</itemType>
-            <defaultPriority Type="SCItemControlPriorityCustomValue">
-              <priority>10</priority>
-            </defaultPriority>
-            <tagPrioritiesTable Type="SCItemControlPriorityTag" Count="0" />
-          </SCItemControlPriorityTable>
+        <itemControlPriorities Type="SCItemControlPriorityTable" Count="5">
           <SCItemControlPriorityTable Type="SCItemControlPriorityTable">
             <itemType>QuantumFuelTank</itemType>
             <defaultPriority Type="SCItemControlPriorityCustomValue">

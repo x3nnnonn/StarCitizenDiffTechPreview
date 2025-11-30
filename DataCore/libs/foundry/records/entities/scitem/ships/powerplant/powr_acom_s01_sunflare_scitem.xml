@@ -160,8 +160,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -194,7 +194,7 @@
             <poweredAmbientCoolingMultiplier>1</poweredAmbientCoolingMultiplier>
             <minOperatingTemperature>0</minOperatingTemperature>
             <minCoolingTemperature>300</minCoolingTemperature>
-            <enableOverheat>True</enableOverheat>
+            <enableOverheat>False</enableOverheat>
             <overheatTemperature>675</overheatTemperature>
             <overheatWarningTemperature>488</overheatWarningTemperature>
             <overheatRecoveryTemperature>468</overheatRecoveryTemperature>
@@ -466,7 +466,7 @@
           <distortion>0.6</distortion>
         </SMisfireStatCondition>
         <SMisfireCriticalItemStateCondition Type="SMisfireCriticalItemStateCondition">
-          <criticalConditions Type="ActorStateData_JumpFallValidationParams" Count="1">
+          <criticalConditions Type="ActorStateData_StateValidationParams" Count="1">
             <EnumChoice>Damage</EnumChoice>
           </criticalConditions>
           <misfireArray Type="SMisfireEffect" Count="1">
@@ -489,7 +489,7 @@
         <SHostExplosionEffect Pointer="ptr:2" Type="SHostExplosionEffect">
           <effectTrigger />
           <effectTag />
-          <explosionChance>0.2</explosionChance>
+          <explosionChance>0.05</explosionChance>
           <explosionCountdown>39</explosionCountdown>
           <degradationAdditionalRollsFactor>0</degradationAdditionalRollsFactor>
           <criticalMalfunctionStates Type="SCriticalMalfunctionStates">

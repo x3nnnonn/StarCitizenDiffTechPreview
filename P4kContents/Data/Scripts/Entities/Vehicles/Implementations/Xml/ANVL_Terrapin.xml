@@ -204,6 +204,20 @@
                 </Part>
               </Parts>
             </Part>
+            <Part name="hardpoint_scanner_turret" class="ItemPort">
+              <ItemPort minsize="2" maxsize="2" flags="uneditable">
+                <Types>
+                  <Type type="Turret" subtypes="TopTurret" />
+                </Types>
+                <Connections>
+                  <Connection pipeClass="Power" pipe="MainPower" />
+                  <Connection pipeClass="Heat" pipe="MainHeat" />
+                  <Connection pipeClass="WeaponRegen" pipe="WeaponRegenTurret" />
+                  <Connection pipeClass="WeaponAmmoLoad" pipe="WeaponAmmoLoadTurret" />
+                </Connections>
+                <ControllerDef controllableTags="supportSeat" />
+              </ItemPort>
+            </Part>
             <Part name="hardpoint_thruster_top_left" class="ItemPort">
               <ItemPort minSize="1" maxSize="1" flags="uneditable" display_name="port_NameThrustManoeuv01">
                 <Yaw min="-60" max="45" />
@@ -449,15 +463,6 @@
                 </ControllerDef>
               </ItemPort>
             </Part>
-            <Part name="hardpoint_weapon_rack_forward" class="ItemPort" />
-            <Part name="hardpoint_weapon_rack_aft" class="ItemPort" />
-            <Part name="hardpoint_controller_missile" class="ItemPort">
-              <ItemPort minSize="1" maxSize="1" flags="invisible uneditable">
-                <Types>
-                  <Type type="MissileController" />
-                </Types>
-              </ItemPort>
-            </Part>
             <Part name="hardpoint_weapon_regen_pool" class="ItemPort" />
             <Part name="hardpoint_weapon_regen_pool_turrets" class="ItemPort" />
             <Part name="hardpoint_controller_capacitor_assignment" class="ItemPort">
@@ -493,20 +498,6 @@
                 </Connections>
               </ItemPort>
             </Part>
-            <Part name="hardpoint_scanner" class="ItemPort">
-              <ItemPort minsize="2" maxsize="2" flags="uneditable">
-                <Types>
-                  <Type type="Turret" subtypes="TopTurret" />
-                </Types>
-                <Connections>
-                  <Connection pipeClass="Power" pipe="MainPower" />
-                  <Connection pipeClass="Heat" pipe="MainHeat" />
-                  <Connection pipeClass="WeaponRegen" pipe="WeaponRegenTurret" />
-                  <Connection pipeClass="WeaponAmmoLoad" pipe="WeaponAmmoLoadTurret" />
-                </Connections>
-                <ControllerDef controllableTags="supportSeat" />
-              </ItemPort>
-            </Part>
             <Part name="hardpoint_bed" class="ItemPort">
               <ItemPort minSize="1" maxSize="1" flags="uneditable" display_name="port_NameBed">
                 <Types>
@@ -535,7 +526,7 @@
                 </ControllerDef>
               </ItemPort>
             </Part>
-            <Part name="nose" class="AnimatedJoint" damageMax="15000" detachRatio="1" detachBaseForce="0,1.5,-2" detachRandomForce="0.0, -0.6, -1.8." detachRandomRotation="12.5, -11.2, -13.3" detachProbability="1">
+            <Part name="nose" class="AnimatedJoint" damageMax="20000" detachRatio="1" detachBaseForce="0,1.5,-2" detachRandomForce="0.0, -0.6, -1.8." detachRandomRotation="12.5, -11.2, -13.3" detachProbability="1">
               <Effects>
                 <DetachFx joint="nose" squibPhysical="40" squibEnergy="40" squibRadius="0.8" pos_offset="1.81307,-1.08252,1.79676" rot_offset="0.0,1.0,0.0" helperID="nose_SQUIB_0.8m001" effect="empty" />
                 <DetachFx joint="nose" squibPhysical="40" squibEnergy="40" squibRadius="0.9" pos_offset="4.05047,-0.107845,0.0173959" rot_offset="0.0,1.0,0.0" helperID="nose_SQUIB_0.9m004" effect="empty" />

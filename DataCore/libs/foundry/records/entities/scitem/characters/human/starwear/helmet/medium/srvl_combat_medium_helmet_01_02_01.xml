@@ -23,7 +23,7 @@
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b97f2439-cde7-45f9-acc3-5eab75b0f84c" RecordId="b97f2439-cde7-45f9-acc3-5eab75b0f84c" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.eca4cc23-79f7-4511-9cf1-1a832385383d" RecordId="eca4cc23-79f7-4511-9cf1-1a832385383d" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6839e2cc-1816-4e9e-8af5-1054e906183f" RecordId="6839e2cc-1816-4e9e-8af5-1054e906183f" />
-    <Tag />
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1a1c31a2-ea76-4907-8dfc-cb3e3b4d0b6d" RecordId="1a1c31a2-ea76-4907-8dfc-cb3e3b4d0b6d" />
   </tags>
   <StaticEntityClassData Type="EntityClassStaticDataParams" Count="2">
     <DefaultEntitlementEntityParams Type="DefaultEntitlementEntityParams">
@@ -48,8 +48,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -116,9 +116,9 @@
         <RequiredTags />
         <DisplayType />
         <Localization Type="SCItemLocalization">
-          <Name>@LOC_PLACEHOLDER</Name>
+          <Name>@item_Name_srvl_combat_medium_helmet_01_02_01</Name>
           <ShortName>@LOC_EMPTY</ShortName>
-          <Description>@LOC_EMPTY</Description>
+          <Description>@item_Desc_srvl_combat_medium_helmet_01_02_01</Description>
           <displayFeatures Type="SCExtendedLocalizationLevelParams">
             <LogoSimplifiedWhite />
             <FrontendBackground />
@@ -159,9 +159,9 @@
           <z>0.352</z>
         </inventoryOccupancyLocalBoundsMax>
         <inventoryOccupancyDimensionsUIOverride Type="Vec3">
-          <x>0.38</x>
-          <y>0.38</y>
-          <z>0.38</z>
+          <x>0.75</x>
+          <y>0.75</y>
+          <z>0.75</z>
         </inventoryOccupancyDimensionsUIOverride>
         <ignoredAttachAxis>None</ignoredAttachAxis>
         <attachCheckCenterOfMass>False</attachCheckCenterOfMass>
@@ -188,7 +188,7 @@
           </Material>
           <SimulationGeometry />
           <Palette Type="TintPaletteRef">
-            <RootRecord />
+            <RootRecord ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/tintpalettes/gangs/shatteredblade.xml" />
             <ChildPath />
             <SwizzleOverride />
           </Palette>
@@ -230,7 +230,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/tintpalettes/gangs/shatteredblade.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -266,14 +266,14 @@
             <Tags>Female</Tags>
             <Geometry Type="SGeometryDataParams">
               <Geometry Type="GlobalResourceGeometry">
-                <path />
+                <path>Objects/Characters/Human/female_v2/armor/srvl/f_srvl_combat_medium_helmet_01.skin</path>
               </Geometry>
               <Material Type="GlobalResourceMaterial">
                 <path>Objects/Characters/Human/male_v7/armor/srvl/mtl_var/m_srvl_combat_medium_01/m_srvl_combat_medium_helmet_01_02.mtl</path>
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/tintpalettes/gangs/shatteredblade.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -916,7 +916,7 @@
                 </SubGeometry>
               </SGeometryNodeParams>
               <SGeometryNodeParams Type="SGeometryNodeParams">
-                <Tags>inverntoryStoredEntity</Tags>
+                <Tags>inventoryStoredEntity</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
                     <path>Objects/Characters/Human/male_v7/armor/srvl/srvl_combat_medium_helmet_01_02_01.cdf</path>
@@ -926,7 +926,7 @@
                   </Material>
                   <SimulationGeometry />
                   <Palette Type="TintPaletteRef">
-                    <RootRecord />
+                    <RootRecord ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/tintpalettes/gangs/shatteredblade.xml" />
                     <ChildPath />
                     <SwizzleOverride />
                   </Palette>
@@ -965,11 +965,11 @@
                     <path>Objects/Characters/Human/male_v7/armor/srvl/srvl_combat_medium_helmet_01_02_01.cdf</path>
                   </Geometry>
                   <Material Type="GlobalResourceMaterial">
-                    <path />
+                    <path>Objects/Characters/Human/male_v7/armor/srvl/mtl_var/m_srvl_combat_medium_01/m_srvl_combat_medium_helmet_01_02.mtl</path>
                   </Material>
                   <SimulationGeometry />
                   <Palette Type="TintPaletteRef">
-                    <RootRecord />
+                    <RootRecord ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/tintpalettes/gangs/shatteredblade.xml" />
                     <ChildPath />
                     <SwizzleOverride />
                   </Palette>
@@ -1014,7 +1014,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/tintpalettes/gangs/shatteredblade.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -1525,7 +1525,7 @@
                 </SubGeometry>
               </SGeometryNodeParams>
               <SGeometryNodeParams Type="SGeometryNodeParams">
-                <Tags>inverntoryStoredEntity</Tags>
+                <Tags>inventoryStoredEntity</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
                     <path>Objects/Characters/Human/male_v7/armor/srvl/srvl_combat_medium_helmet_01_02_01.cdf</path>
@@ -1535,7 +1535,7 @@
                   </Material>
                   <SimulationGeometry />
                   <Palette Type="TintPaletteRef">
-                    <RootRecord />
+                    <RootRecord ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/tintpalettes/gangs/shatteredblade.xml" />
                     <ChildPath />
                     <SwizzleOverride />
                   </Palette>
@@ -1571,14 +1571,14 @@
                 <Tags>tableDisplay</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
-                    <path />
+                    <path>Objects/Characters/Human/male_v7/armor/srvl/srvl_combat_medium_helmet_01_02_01.cdf</path>
                   </Geometry>
                   <Material Type="GlobalResourceMaterial">
-                    <path />
+                    <path>Objects/Characters/Human/male_v7/armor/srvl/mtl_var/m_srvl_combat_medium_01/m_srvl_combat_medium_helmet_01_02.mtl</path>
                   </Material>
                   <SimulationGeometry />
                   <Palette Type="TintPaletteRef">
-                    <RootRecord />
+                    <RootRecord ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/tintpalettes/gangs/shatteredblade.xml" />
                     <ChildPath />
                     <SwizzleOverride />
                   </Palette>
@@ -1623,7 +1623,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/tintpalettes/gangs/shatteredblade.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -1761,7 +1761,7 @@
       <Ports Type="SItemPortDef" Count="9">
         <SItemPortDef Type="SItemPortDef">
           <Name>visor_display</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_TypeVisor</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
@@ -1803,7 +1803,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1853,7 +1853,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>radar</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_TypeRadar</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
@@ -1895,7 +1895,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Radar</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1967,7 +1967,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>long_range_radar</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_SubTypeRadar</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
@@ -2009,7 +2009,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Radar</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2059,7 +2059,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>ping</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_Name_test_ping</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
@@ -2146,7 +2146,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>scanner</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_NameFPS_Scanner</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
@@ -2188,7 +2188,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Avionics</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2238,7 +2238,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>flashlight</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@itemPort_flashlight</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
@@ -2280,7 +2280,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Suit</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Flashlight</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2332,7 +2332,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>holo_display</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_TypeDisplay</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags>uneditable</Flags>
@@ -2374,7 +2374,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Display</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2424,7 +2424,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>helmet_visor</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_TypeVisor</DisplayName>
           <PortTags />
           <RequiredPortTags />
           <Flags />
@@ -2511,7 +2511,7 @@
         </SItemPortDef>
         <SItemPortDef Type="SItemPortDef">
           <Name>universal_necksock</Name>
-          <DisplayName>@LOC_EMPTY</DisplayName>
+          <DisplayName>@item_TypeChar_Armor_Helmet</DisplayName>
           <PortTags>necksock</PortTags>
           <RequiredPortTags>necksock</RequiredPortTags>
           <Flags />
@@ -2553,7 +2553,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Char_Flair</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3435,13 +3435,25 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
-              <Interactions Type="SInteractionStateTransition" Count="2">
+              <Interactions Type="SInteractionStateTransition" Count="5">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
                   <Interaction PointsTo="ptr:7" />
                   <NextState />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
                   <Interaction PointsTo="ptr:6" />
+                  <NextState />
+                </SInteractionStateTransition>
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:1" />
+                  <NextState />
+                </SInteractionStateTransition>
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:2" />
+                  <NextState />
+                </SInteractionStateTransition>
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:3" />
                   <NextState />
                 </SInteractionStateTransition>
               </Interactions>

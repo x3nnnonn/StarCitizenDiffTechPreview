@@ -735,17 +735,29 @@
     </BuildingBlocks_WidgetCircle>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="2">
+  <operations Type="BuildingBlocks_Node" Count="4">
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
       <widget PointsTo="ptr:2" />
       <field>ParamInput0</field>
       <input PointsTo="ptr:3" />
     </BuildingBlocks_BindingsLocalizedField>
-    <BuildingBlocks_BindingsLocalizedComponentParameter Pointer="ptr:3" Type="BuildingBlocks_BindingsLocalizedComponentParameter">
-      <name>Size</name>
+    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:4" Type="BuildingBlocks_BindingsIntegerComponentParameter">
+      <name>SizeClass</name>
       <parameter>ParamInput0</parameter>
-      <defaultValue>@LOC_EMPTY</defaultValue>
-    </BuildingBlocks_BindingsLocalizedComponentParameter>
+      <defaultValue>0</defaultValue>
+    </BuildingBlocks_BindingsIntegerComponentParameter>
+    <BuildingBlocks_BindingsLocalizedFromInteger Pointer="ptr:5" Type="BuildingBlocks_BindingsLocalizedFromInteger">
+      <defaultNZeros>0</defaultNZeros>
+      <nZeros />
+      <withSeparators>False</withSeparators>
+      <input PointsTo="ptr:4" />
+    </BuildingBlocks_BindingsLocalizedFromInteger>
+    <BindingsOperations_LocalizationCombine Pointer="ptr:3" Type="BindingsOperations_LocalizationCombine">
+      <inputL />
+      <inputR PointsTo="ptr:5" />
+      <value>@input_key_keyboard_s</value>
+      <withSpace>False</withSpace>
+    </BindingsOperations_LocalizationCombine>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

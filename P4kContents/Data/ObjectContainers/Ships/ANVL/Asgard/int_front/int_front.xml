@@ -1,4 +1,4 @@
-<ObjectContainer version="11" name="int_front" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="178" entityCountDynamic="0" entityCountUnique="0" minBounds="-10.51061249975586,-35.911336074951173,-3.9310259999999992" maxBounds="10.792881,21.17702579498291,12.25" radius="96.153465" crcSOC="2215812201">
+<ObjectContainer version="11" name="int_front" tags="" type="" editorBuildChangelist="10717593" entityCountPLA="0" entityCountALE="0" entityCountStatic="178" entityCountDynamic="0" entityCountUnique="0" minBounds="-10.51061249975586,-35.911336074951173,-3.9310259999999992" maxBounds="10.792881,21.17702579498291,12.25" radius="96.153465" crcSOC="3959402825">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
@@ -126,7 +126,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-2.699331,5.7080259,4.0517678" type="Noattach" name="Port3_ControlPanel_Screen_DoorControl_9x16_Small-011[Bathroom_SETUP]" display_name="Port3_ControlPanel_Screen_DoorControl_9x16_Small-011[Bathroom_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-3.3792031,4.6573758,3.768189" type="Noattach" name="Port3_Door_RN_RoomConnector_Breachable_OpenClose_IP-004[Bathroom_SETUP]" display_name="Port3_Door_RN_RoomConnector_Breachable_OpenClose_IP-004[Bathroom_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -146,7 +146,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.125,17.125,2.375" type="Noattach" name="Port5_ChipSet_LightControl_Cockpit[Cockpit_SETUP]" display_name="Port5_ChipSet_LightControl_Cockpit[Cockpit_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-2.699331,5.7080259,4.0517678" type="Noattach" name="Port5_ControlPanel_Screen_DoorControl_9x16_Small-011[Bathroom_SETUP]" display_name="Port5_ControlPanel_Screen_DoorControl_9x16_Small-011[Bathroom_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -156,7 +156,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-3.3792031,4.6573758,3.768189" type="Noattach" name="Port6_Door_RN_RoomConnector_Breachable_OpenClose_IP-004[Bathroom_SETUP]" display_name="Port6_Door_RN_RoomConnector_Breachable_OpenClose_IP-004[Bathroom_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.125,17.125,2.375" type="Noattach" name="Port6_ChipSet_LightControl_Cockpit[Cockpit_SETUP]" display_name="Port6_ChipSet_LightControl_Cockpit[Cockpit_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -246,7 +246,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-0.98602402,15.8371,3.1762569" type="Noattach" name="Port15_Gadget_Cabinet_kegr_fire_extinguisher_NG[Cockpit_SETUP]" display_name="Port15_Gadget_Cabinet_kegr_fire_extinguisher_NG[Cockpit_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.0625,11.0625,-0.0625" type="Noattach" name="Port15_ChipSet_LightControl_Turret[Engineering_SETUP]" display_name="Port15_ChipSet_LightControl_Turret[Engineering_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -256,7 +256,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.0625,11.0625,-0.0625" type="Noattach" name="Port16_ChipSet_LightControl_Turret[Engineering_SETUP]" display_name="Port16_ChipSet_LightControl_Turret[Engineering_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-0.98602402,15.8371,3.1762569" type="Noattach" name="Port16_Gadget_Cabinet_kegr_fire_extinguisher_NG[Cockpit_SETUP]" display_name="Port16_Gadget_Cabinet_kegr_fire_extinguisher_NG[Cockpit_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -296,7 +296,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-2.445261,9.625,0.888951" type="Noattach" name="Port20_Door_RN_RoomConnector_Breachable_OpenClose-001[Engineering_SETUP]" display_name="Port20_Door_RN_RoomConnector_Breachable_OpenClose-001[Engineering_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-4.5230389,9.049221,1.204644" type="Noattach" name="Port20_ControlPanel_Screen_DoorControl_Physical-003[Engineering_SETUP]" display_name="Port20_ControlPanel_Screen_DoorControl_Physical-003[Engineering_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -306,7 +306,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-4.5230389,9.049221,1.204644" type="Noattach" name="Port21_ControlPanel_Screen_DoorControl_Physical-003[Engineering_SETUP]" display_name="Port21_ControlPanel_Screen_DoorControl_Physical-003[Engineering_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="2.625,5.25,0" type="Noattach" name="Port21_Door_RN_RoomConnector_Breachable_OpenClose_IP-000[Engineering_SETUP]" display_name="Port21_Door_RN_RoomConnector_Breachable_OpenClose_IP-000[Engineering_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -326,7 +326,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="2.625,5.25,0" type="Noattach" name="Port23_Door_RN_RoomConnector_Breachable_OpenClose_IP-000[Engineering_SETUP]" display_name="Port23_Door_RN_RoomConnector_Breachable_OpenClose_IP-000[Engineering_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-2.445261,9.625,0.888951" type="Noattach" name="Port23_Door_RN_RoomConnector_Breachable_OpenClose-001[Engineering_SETUP]" display_name="Port23_Door_RN_RoomConnector_Breachable_OpenClose-001[Engineering_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -356,7 +356,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-3.125,3.75,0.125" type="Noattach" name="Port26_Door_RN_RoomConnector_Breachable_OpenClose[Engineering_SETUP]" display_name="Port26_Door_RN_RoomConnector_Breachable_OpenClose[Engineering_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-2.625,8.625,0" type="Noattach" name="Port26_Door_RN_RoomConnector_Breachable_OpenClose_IP-015[Engineering_SETUP]" display_name="Port26_Door_RN_RoomConnector_Breachable_OpenClose_IP-015[Engineering_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -376,7 +376,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-2.625,8.625,0" type="Noattach" name="Port28_Door_RN_RoomConnector_Breachable_OpenClose_IP-015[Engineering_SETUP]" display_name="Port28_Door_RN_RoomConnector_Breachable_OpenClose_IP-015[Engineering_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-3.866616,12.119178,1.147464" type="Noattach" name="Port28_ControlPanel_Screen_DoorControl_Physical[Engineering_SETUP]" display_name="Port28_ControlPanel_Screen_DoorControl_Physical[Engineering_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -386,7 +386,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-3.866616,12.119178,1.147464" type="Noattach" name="Port29_ControlPanel_Screen_DoorControl_Physical[Engineering_SETUP]" display_name="Port29_ControlPanel_Screen_DoorControl_Physical[Engineering_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-3.125,3.75,0.125" type="Noattach" name="Port29_Door_RN_RoomConnector_Breachable_OpenClose[Engineering_SETUP]" display_name="Port29_Door_RN_RoomConnector_Breachable_OpenClose[Engineering_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -606,7 +606,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="5.2612119,4.478971,3.8957541" type="Noattach" name="Port51_Room_RN_Habs[Habs_ZONE]" display_name="Port51_Room_RN_Habs[Habs_ZONE]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="2.6998639,3.303359,4.0595899" type="Noattach" name="Port51_ControlPanel_Screen_DoorControl_9x16_Small-013[Habs_SETUP]" display_name="Port51_ControlPanel_Screen_DoorControl_9x16_Small-013[Habs_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -616,7 +616,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="2.6998639,3.303359,4.0595899" type="Noattach" name="Port52_ControlPanel_Screen_DoorControl_9x16_Small-013[Habs_SETUP]" display_name="Port52_ControlPanel_Screen_DoorControl_9x16_Small-013[Habs_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="3.7866671,5.4876218,4.1052718" type="Noattach" name="Port52_ControlPanel_Screen_DoorControl_9x16_Small-012[Habs_SETUP]" display_name="Port52_ControlPanel_Screen_DoorControl_9x16_Small-012[Habs_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -626,7 +626,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="3.7866671,5.4876218,4.1052718" type="Noattach" name="Port53_ControlPanel_Screen_DoorControl_9x16_Small-012[Habs_SETUP]" display_name="Port53_ControlPanel_Screen_DoorControl_9x16_Small-012[Habs_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="5.2612119,4.478971,3.8957541" type="Noattach" name="Port53_Room_RN_Habs[Habs_ZONE]" display_name="Port53_Room_RN_Habs[Habs_ZONE]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -666,7 +666,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-0.72450203,4.5951619,3.8851509" type="Noattach" name="Port57_ControlPanel_Screen_DoorControl_Physical-007[Top_Corridor_SETUP]" display_name="Port57_ControlPanel_Screen_DoorControl_Physical-007[Top_Corridor_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.67439598,4.1187692,2.413909" type="Noattach" name="Port57_ControlPanel_Screen_DoorControl_Physical-008[Top_Corridor_SETUP]" display_name="Port57_ControlPanel_Screen_DoorControl_Physical-008[Top_Corridor_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -676,7 +676,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0.67439598,4.1187692,2.413909" type="Noattach" name="Port58_ControlPanel_Screen_DoorControl_Physical-008[Top_Corridor_SETUP]" display_name="Port58_ControlPanel_Screen_DoorControl_Physical-008[Top_Corridor_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="-0.72450203,4.5951619,3.8851509" type="Noattach" name="Port58_ControlPanel_Screen_DoorControl_Physical-007[Top_Corridor_SETUP]" display_name="Port58_ControlPanel_Screen_DoorControl_Physical-007[Top_Corridor_SETUP]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>

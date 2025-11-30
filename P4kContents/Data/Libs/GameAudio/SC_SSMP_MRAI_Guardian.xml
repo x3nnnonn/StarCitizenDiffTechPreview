@@ -10,6 +10,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MRAI_Guardian" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MRAI_Guardian_WingsLandingGear_Retract_Right">
       <WwiseEvent wwise_duration_max="3" wwise_duration_min="3" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MRAI_Guardian_WingsLandingGear_Retract_Right" wwise_radius_max="50" />
@@ -20,6 +21,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MRAI_Guardian" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MRAI_Guardian_WingsLandingGear_Deploy_Right">
       <WwiseEvent wwise_duration_max="4" wwise_duration_min="4" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MRAI_Guardian_WingsLandingGear_Deploy_Right" wwise_radius_max="50" />
@@ -30,6 +32,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MRAI_Guardian" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MRAI_Guardian_WingsLandingGear_Deploy_Left">
       <WwiseEvent wwise_duration_max="4" wwise_duration_min="4" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MRAI_Guardian_WingsLandingGear_Deploy_Left" wwise_radius_max="50" />
@@ -40,6 +43,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MRAI_Guardian" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MRAI_Guardian_Ext_Weapon_Locker_Retract">
       <WwiseEvent wwise_duration_max="2.31608343" wwise_duration_min="2.31608343" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MRAI_Guardian_Ext_Weapon_Locker_Retract" wwise_radius_max="50" />
@@ -68,6 +72,7 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MRAI_Guardian" />
       <Tags />
@@ -94,4 +99,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

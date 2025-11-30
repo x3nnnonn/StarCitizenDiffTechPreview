@@ -13825,7 +13825,7 @@
       <heldCursor>Auto</heldCursor>
     </BuildingBlocks_DisplayWidget>
   </library>
-  <operations Type="BuildingBlocks_Node" Count="46">
+  <operations Type="BuildingBlocks_Node" Count="48">
     <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:22" Type="BuildingBlocks_BindingsIntegerVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>order</binding>
@@ -14138,6 +14138,18 @@
       <soundTag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ddae5d01-e074-4a5b-85c7-70747936e0fe" RecordId="ddae5d01-e074-4a5b-85c7-70747936e0fe" />
       <triggerOnInitialValue>False</triggerOnInitialValue>
     </BindingsOperations_AudioEvent>
+    <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:48" Type="BuildingBlocks_BindingsBooleanVariable">
+      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
+      <binding>inventory2025/enabled</binding>
+      <inheritsNamespace>True</inheritsNamespace>
+      <isPulled>False</isPulled>
+      <isWatched>False</isWatched>
+    </BuildingBlocks_BindingsBooleanVariable>
+    <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
+      <widget PointsTo="ptr:21" />
+      <field>IsActive</field>
+      <input PointsTo="ptr:48" />
+    </BuildingBlocks_BindingsBooleanField>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

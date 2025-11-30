@@ -487,14 +487,16 @@
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
   <operations Type="BuildingBlocks_Node" Count="2">
-    <BuildingBlocks_BindingsBooleanComponentParameter Pointer="ptr:2" Type="BuildingBlocks_BindingsBooleanComponentParameter">
-      <name>hideBellButton</name>
-      <parameter>ParamInput0</parameter>
-      <defaultValue>True</defaultValue>
-    </BuildingBlocks_BindingsBooleanComponentParameter>
+    <BuildingBlocks_BindingsBooleanVariable Pointer="ptr:2" Type="BuildingBlocks_BindingsBooleanVariable">
+      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
+      <binding>/resourceNetworkUI/notifications/isShowingPopup</binding>
+      <inheritsNamespace>True</inheritsNamespace>
+      <isPulled>False</isPulled>
+      <isWatched>False</isWatched>
+    </BuildingBlocks_BindingsBooleanVariable>
     <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
       <widget PointsTo="ptr:1" />
-      <field>ParamInput0</field>
+      <field>ParamInput1</field>
       <input PointsTo="ptr:2" />
     </BuildingBlocks_BindingsBooleanField>
   </operations>

@@ -835,17 +835,12 @@
     </BuildingBlocks_WidgetTextField>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="5">
+  <operations Type="BuildingBlocks_Node" Count="7">
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
       <widget PointsTo="ptr:2" />
       <field>ParamInput0</field>
       <input PointsTo="ptr:3" />
     </BuildingBlocks_BindingsLocalizedField>
-    <BuildingBlocks_BindingsLocalizedComponentParameter Pointer="ptr:3" Type="BuildingBlocks_BindingsLocalizedComponentParameter">
-      <name>Tier</name>
-      <parameter>ParamInput0</parameter>
-      <defaultValue>@LOC_EMPTY</defaultValue>
-    </BuildingBlocks_BindingsLocalizedComponentParameter>
     <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:4" Type="BuildingBlocks_BindingsIntegerComponentParameter">
       <name>registeredState</name>
       <parameter>ParamInput0</parameter>
@@ -874,6 +869,23 @@
       <field>PrimaryStateTag</field>
       <input PointsTo="ptr:5" />
     </BuildingBlocks_BindingsStringField>
+    <BuildingBlocks_BindingsIntegerComponentParameter Pointer="ptr:6" Type="BuildingBlocks_BindingsIntegerComponentParameter">
+      <name>SizeClass</name>
+      <parameter>ParamInput0</parameter>
+      <defaultValue>0</defaultValue>
+    </BuildingBlocks_BindingsIntegerComponentParameter>
+    <BuildingBlocks_BindingsLocalizedFromInteger Pointer="ptr:7" Type="BuildingBlocks_BindingsLocalizedFromInteger">
+      <defaultNZeros>0</defaultNZeros>
+      <nZeros />
+      <withSeparators>False</withSeparators>
+      <input PointsTo="ptr:6" />
+    </BuildingBlocks_BindingsLocalizedFromInteger>
+    <BindingsOperations_LocalizationCombine Pointer="ptr:3" Type="BindingsOperations_LocalizationCombine">
+      <inputL />
+      <inputR PointsTo="ptr:7" />
+      <value>@input_key_keyboard_t</value>
+      <withSpace>False</withSpace>
+    </BindingsOperations_LocalizationCombine>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

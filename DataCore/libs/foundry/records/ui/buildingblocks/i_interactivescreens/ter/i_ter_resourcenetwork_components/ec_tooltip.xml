@@ -357,11 +357,16 @@
       <stylesheetOverride />
       <canvas ReferencedFile="file://./../../../../../../../../libs/foundry/records/ui/buildingblocks/i_interactivescreens/ter/i_ter_resourcenetwork_components/types/generic/gen_ec_tooltip.xml" />
       <sizingMethod>Size</sizingMethod>
-      <paramInputValues Type="BuildingBlocks_ComponentParameterInputBase" Count="0" />
+      <paramInputValues Type="BuildingBlocks_ComponentParameterInputBase" Count="1">
+        <BuildingBlocks_ComponentParameterInputInteger Type="BuildingBlocks_ComponentParameterInputInteger">
+          <parameter>ParamInput0</parameter>
+          <value>1</value>
+        </BuildingBlocks_ComponentParameterInputInteger>
+      </paramInputValues>
     </BuildingBlocks_WidgetCanvas>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="15">
+  <operations Type="BuildingBlocks_Node" Count="7">
     <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:1" Type="BuildingBlocks_BindingsLocalizedVariable">
       <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
       <binding>TooltipLabel</binding>
@@ -383,171 +388,18 @@
     <BuildingBlocks_BindingsLocalizedField Type="BuildingBlocks_BindingsLocalizedField">
       <widget PointsTo="ptr:3" />
       <field>ParamInput0</field>
-      <input PointsTo="ptr:5" />
+      <input PointsTo="ptr:1" />
     </BuildingBlocks_BindingsLocalizedField>
-    <BindingsOperations_LocalizationCombine Pointer="ptr:5" Type="BindingsOperations_LocalizationCombine">
-      <inputL PointsTo="ptr:6" />
-      <inputR PointsTo="ptr:7" />
-      <value>@LOC_EMPTY</value>
-      <withSpace>True</withSpace>
-    </BindingsOperations_LocalizationCombine>
-    <BuildingBlocks_BindingsIntegerVariable Pointer="ptr:11" Type="BuildingBlocks_BindingsIntegerVariable">
-      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
-      <binding>state</binding>
-      <inheritsNamespace>True</inheritsNamespace>
-      <isPulled>False</isPulled>
-      <isWatched>False</isWatched>
-    </BuildingBlocks_BindingsIntegerVariable>
-    <BuildingBlocks_BindingsColorField Type="BuildingBlocks_BindingsColorField">
+    <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
       <widget PointsTo="ptr:3" />
-      <field>ParamInput0</field>
-      <input PointsTo="ptr:8" />
-    </BuildingBlocks_BindingsColorField>
-    <BuildingBlocks_BindingsColorFromIntegerSwitch Pointer="ptr:8" Type="BuildingBlocks_BindingsColorFromIntegerSwitch">
-      <defaultValue />
-      <input PointsTo="ptr:9" />
-      <pairs Type="BuildingBlocks_ColorIntegerPairDef" Count="4">
-        <BuildingBlocks_ColorIntegerPairDef Type="BuildingBlocks_ColorIntegerPairDef">
-          <integer>0</integer>
-          <color Type="BuildingBlocks_ColorStyle">
-            <color>Base</color>
-            <alpha>1</alpha>
-          </color>
-        </BuildingBlocks_ColorIntegerPairDef>
-        <BuildingBlocks_ColorIntegerPairDef Type="BuildingBlocks_ColorIntegerPairDef">
-          <integer>1</integer>
-          <color Type="BuildingBlocks_ColorStyle">
-            <color>Moderate</color>
-            <alpha>1</alpha>
-          </color>
-        </BuildingBlocks_ColorIntegerPairDef>
-        <BuildingBlocks_ColorIntegerPairDef Type="BuildingBlocks_ColorIntegerPairDef">
-          <integer>2</integer>
-          <color Type="BuildingBlocks_ColorStyle">
-            <color>Critical</color>
-            <alpha>1</alpha>
-          </color>
-        </BuildingBlocks_ColorIntegerPairDef>
-        <BuildingBlocks_ColorIntegerPairDef Type="BuildingBlocks_ColorIntegerPairDef">
-          <integer>3</integer>
-          <color Type="BuildingBlocks_ColorSolid">
-            <color Type="SRGBA8">
-              <r>189</r>
-              <g>198</g>
-              <b>202</b>
-              <a>255</a>
-            </color>
-          </color>
-        </BuildingBlocks_ColorIntegerPairDef>
-      </pairs>
-    </BuildingBlocks_BindingsColorFromIntegerSwitch>
-    <BindingsOperations_LocalizationCombine Pointer="ptr:12" Type="BindingsOperations_LocalizationCombine">
-      <inputL />
-      <inputR PointsTo="ptr:10" />
-      <value>@input_key_keyboard_minus</value>
-      <withSpace>True</withSpace>
-    </BindingsOperations_LocalizationCombine>
-    <BuildingBlocks_BindingsIntegerFromIntegerSwitch Pointer="ptr:9" Type="BuildingBlocks_BindingsIntegerFromIntegerSwitch">
-      <defaultValue>0</defaultValue>
-      <defaultOverride />
-      <values Type="BuildingBlocks_IntegerIntegerPair" Count="7">
-        <BuildingBlocks_IntegerIntegerPair Type="BuildingBlocks_IntegerIntegerPair">
-          <first>0</first>
-          <second>0</second>
-          <secondOverride />
-        </BuildingBlocks_IntegerIntegerPair>
-        <BuildingBlocks_IntegerIntegerPair Type="BuildingBlocks_IntegerIntegerPair">
-          <first>1</first>
-          <second>2</second>
-          <secondOverride />
-        </BuildingBlocks_IntegerIntegerPair>
-        <BuildingBlocks_IntegerIntegerPair Type="BuildingBlocks_IntegerIntegerPair">
-          <first>2</first>
-          <second>2</second>
-          <secondOverride />
-        </BuildingBlocks_IntegerIntegerPair>
-        <BuildingBlocks_IntegerIntegerPair Type="BuildingBlocks_IntegerIntegerPair">
-          <first>3</first>
-          <second>2</second>
-          <secondOverride />
-        </BuildingBlocks_IntegerIntegerPair>
-        <BuildingBlocks_IntegerIntegerPair Type="BuildingBlocks_IntegerIntegerPair">
-          <first>4</first>
-          <second>2</second>
-          <secondOverride />
-        </BuildingBlocks_IntegerIntegerPair>
-        <BuildingBlocks_IntegerIntegerPair Type="BuildingBlocks_IntegerIntegerPair">
-          <first>5</first>
-          <second>2</second>
-          <secondOverride />
-        </BuildingBlocks_IntegerIntegerPair>
-        <BuildingBlocks_IntegerIntegerPair Type="BuildingBlocks_IntegerIntegerPair">
-          <first>6</first>
-          <second>2</second>
-          <secondOverride />
-        </BuildingBlocks_IntegerIntegerPair>
-      </values>
-      <input PointsTo="ptr:11" />
-    </BuildingBlocks_BindingsIntegerFromIntegerSwitch>
-    <BuildingBlocks_BindingsLocalizedVariable Pointer="ptr:6" Type="BuildingBlocks_BindingsLocalizedVariable">
-      <path Type="BuildingBlocks_BindingsPathBase" Count="0" />
-      <binding>tooltip</binding>
-      <inheritsNamespace>True</inheritsNamespace>
-      <isPulled>False</isPulled>
-      <isWatched>False</isWatched>
-    </BuildingBlocks_BindingsLocalizedVariable>
-    <BuildingBlocks_BindingsLocalizationFromIntegerSwitch Pointer="ptr:10" Type="BuildingBlocks_BindingsLocalizationFromIntegerSwitch">
-      <defaultValue>@LOC_EMPTY</defaultValue>
-      <defaultOverride />
-      <values Type="BuildingBlocks_IntegerLocalizedPair" Count="7">
-        <BuildingBlocks_IntegerLocalizedPair Type="BuildingBlocks_IntegerLocalizedPair">
-          <first>0</first>
-          <second>@LOC_EMPTY</second>
-          <secondOverride />
-        </BuildingBlocks_IntegerLocalizedPair>
-        <BuildingBlocks_IntegerLocalizedPair Type="BuildingBlocks_IntegerLocalizedPair">
-          <first>1</first>
-          <second>@RN_Warning_Damaged</second>
-          <secondOverride />
-        </BuildingBlocks_IntegerLocalizedPair>
-        <BuildingBlocks_IntegerLocalizedPair Type="BuildingBlocks_IntegerLocalizedPair">
-          <first>2</first>
-          <second>@RN_Warning_Overheating</second>
-          <secondOverride />
-        </BuildingBlocks_IntegerLocalizedPair>
-        <BuildingBlocks_IntegerLocalizedPair Type="BuildingBlocks_IntegerLocalizedPair">
-          <first>3</first>
-          <second>@RN_Warning_NoPower</second>
-          <secondOverride />
-        </BuildingBlocks_IntegerLocalizedPair>
-        <BuildingBlocks_IntegerLocalizedPair Type="BuildingBlocks_IntegerLocalizedPair">
-          <first>4</first>
-          <second>@RN_Warning_Distorted</second>
-          <secondOverride />
-        </BuildingBlocks_IntegerLocalizedPair>
-        <BuildingBlocks_IntegerLocalizedPair Type="BuildingBlocks_IntegerLocalizedPair">
-          <first>5</first>
-          <second>@RN_Warning_OverheatAutoShutOff</second>
-          <secondOverride />
-        </BuildingBlocks_IntegerLocalizedPair>
-        <BuildingBlocks_IntegerLocalizedPair Type="BuildingBlocks_IntegerLocalizedPair">
-          <first>6</first>
-          <second>@RN_Warning_Destroyed</second>
-          <secondOverride />
-        </BuildingBlocks_IntegerLocalizedPair>
-      </values>
-      <input PointsTo="ptr:11" />
-    </BuildingBlocks_BindingsLocalizationFromIntegerSwitch>
-    <BuildingBlocks_BindingsLocalizedFromBoolean Pointer="ptr:7" Type="BuildingBlocks_BindingsLocalizedFromBoolean">
-      <isTrue>@LOC_EMPTY</isTrue>
-      <isFalse>@LOC_EMPTY</isFalse>
-      <inputTrue />
-      <inputFalse PointsTo="ptr:12" />
-      <input PointsTo="ptr:13" />
-    </BuildingBlocks_BindingsLocalizedFromBoolean>
-    <BindingsOperation_BooleanFromLocalizationIsEmpty Pointer="ptr:13" Type="BindingsOperation_BooleanFromLocalizationIsEmpty">
-      <input PointsTo="ptr:10" />
-    </BindingsOperation_BooleanFromLocalizationIsEmpty>
+      <field>IsActive</field>
+      <input PointsTo="ptr:4" />
+    </BuildingBlocks_BindingsBooleanField>
+    <BuildingBlocks_BindingsBooleanField Type="BuildingBlocks_BindingsBooleanField">
+      <widget PointsTo="ptr:3" />
+      <field>Instantiated</field>
+      <input PointsTo="ptr:4" />
+    </BuildingBlocks_BindingsBooleanField>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

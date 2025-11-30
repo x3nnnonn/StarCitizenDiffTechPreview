@@ -132,7 +132,7 @@
           </Offset>
           <boneName>hardpoint_oc_ext_lighting</boneName>
           <shouldRequestNavMeshRegenerationOnLoad>False</shouldRequestNavMeshRegenerationOnLoad>
-          <resourceNetworkItemportName />
+          <resourceNetworkItemportName>hardpoint_relay</resourceNetworkItemportName>
         </SVehicleObjectContainerParams>
         <SVehicleObjectContainerParams Type="SVehicleObjectContainerParams">
           <fileName>objectcontainers/vehicles/grin/MTC/front.socpak</fileName>
@@ -151,7 +151,7 @@
           </Offset>
           <boneName>hardpoint_oc_cockpit</boneName>
           <shouldRequestNavMeshRegenerationOnLoad>False</shouldRequestNavMeshRegenerationOnLoad>
-          <resourceNetworkItemportName />
+          <resourceNetworkItemportName>hardpoint_relay</resourceNetworkItemportName>
         </SVehicleObjectContainerParams>
         <SVehicleObjectContainerParams Type="SVehicleObjectContainerParams">
           <fileName>objectcontainers/vehicles/grin/MTC/rear.socpak</fileName>
@@ -170,7 +170,7 @@
           </Offset>
           <boneName>hardpoint_oc_rear</boneName>
           <shouldRequestNavMeshRegenerationOnLoad>False</shouldRequestNavMeshRegenerationOnLoad>
-          <resourceNetworkItemportName />
+          <resourceNetworkItemportName>hardpoint_relay</resourceNetworkItemportName>
         </SVehicleObjectContainerParams>
       </objectContainers>
       <physicsGrid Type="SVehiclePhysicsGridParams">
@@ -1313,7 +1313,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/grin/mtc/grin_mtc_black_black_gold_solid.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -1356,7 +1356,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/grin/mtc/grin_mtc_lightgrey_lightgrey_red_solid.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -1399,7 +1399,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/grin/mtc/grin_mtc_brown_brown_red_camo_a.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -1442,7 +1442,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/grin/mtc/grin_mtc_grey_grey_red_camo_a.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -1611,7 +1611,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Door</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1659,7 +1659,7 @@
             <z>-1</z>
           </detachDirection>
         </SItemPortDef>
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:1" Type="SItemPortDef">
           <Name>hardpoint_relay</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
@@ -1703,7 +1703,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1795,7 +1795,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1887,7 +1887,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Door</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1979,7 +1979,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Usable</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2071,7 +2071,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Door</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2163,7 +2163,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Cargo</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2211,7 +2211,7 @@
             <z>-1</z>
           </detachDirection>
         </SItemPortDef>
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:2" Type="SItemPortDef">
           <Name>hardpoint_fuel_tank_hydrogen</Name>
           <DisplayName>@port_NameFuelTank01</DisplayName>
           <PortTags />
@@ -2255,7 +2255,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>FuelTank</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2303,7 +2303,7 @@
             <z>-1</z>
           </detachDirection>
         </SItemPortDef>
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:3" Type="SItemPortDef">
           <Name>hardpoint_engineeringscreen</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
@@ -2347,7 +2347,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>SeatDashboard</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -2857,15 +2857,20 @@
       <PortFlags />
       <PortTags />
       <RequiredItemTags />
-      <InternalResourceLinks Type="SInternalResourceLink" Count="0" />
-      <InternalHardpointLinks Type="SInternalHardpointLink" Count="30">
+      <InternalResourceLinks Type="SInternalResourceLink" Count="2">
+        <SInternalResourceLink Type="SInternalResourceLink">
+          <port1 PointsTo="ptr:1" />
+          <port2 PointsTo="ptr:2" />
+        </SInternalResourceLink>
+        <SInternalResourceLink Type="SInternalResourceLink">
+          <port1 PointsTo="ptr:1" />
+          <port2 PointsTo="ptr:3" />
+        </SInternalResourceLink>
+      </InternalResourceLinks>
+      <InternalHardpointLinks Type="SInternalHardpointLink" Count="19">
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
           <port2>hardpoint_power_plant</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
-          <port2>hardpoint_seat_access</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
@@ -2885,10 +2890,6 @@
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
-          <port2>hardpoint_GRIN_MXC_Fuelport</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
           <port2>hardpoint_comp_radar</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
@@ -2901,39 +2902,7 @@
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
-          <port2>hardpoint_GRIN_MXC_Door</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
-          <port2>hardpoint_GRIN_MTC_Blastshield</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
           <port2>hardpoint_GRIN_MTC_Turret</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
-          <port2>hardpoint_GRIN_MTC_cargohatch</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
-          <port2>hardpoint_MTC_jumpseat</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
-          <port2>hardpoint_MTC_jumpseat_seataccess</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
-          <port2>hardpoint_personalstorage</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
-          <port2>hardpoint_fuel_tank_hydrogen</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
-          <port2>hardpoint_engineeringscreen</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
@@ -2973,16 +2942,12 @@
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
-          <port2>hardpoint_selfdestruct</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
-          <port2>hardpoint_extinguisher</port2>
+          <port2>hardpoint_GRIN_MXC_Door</port2>
         </SInternalHardpointLink>
       </InternalHardpointLinks>
       <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
-      <doorsIgnorePower>False</doorsIgnorePower>
+      <doorsIgnorePower>True</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="7">
@@ -3446,11 +3411,11 @@
       <entrancesRecord ReferencedFile="file://./../../../../../libs/foundry/records/ui/vehicleentrance/grin_mtc.xml" />
     </EntranceDisplayComponentParams>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="HealthIconData" Count="1">
+      <perceptionTypes Type="ActorStatusUIWarning" Count="1">
         <EnumChoice>Vehicle</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
+      <excludedSenses Type="ActorStatusPreset" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
       <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
       <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />

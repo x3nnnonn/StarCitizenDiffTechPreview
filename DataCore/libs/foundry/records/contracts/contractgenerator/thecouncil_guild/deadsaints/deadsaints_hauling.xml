@@ -210,7 +210,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="2">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable />
+              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stanton.xml" />
             </ContractPrerequisite_Locality>
             <ContractPrerequisite_CompletedContractTags Type="ContractPrerequisite_CompletedContractTags">
               <includePrerequisiteWhenSharing>False</includePrerequisiteWhenSharing>
@@ -298,11 +298,11 @@
             <stringParamOverrides Type="ContractStringParam" Count="2">
               <ContractStringParam Type="ContractStringParam">
                 <param>Title</param>
-                <value>@DeadSaints_HaulCargo_AToB_title</value>
+                <value>@DeadSaints_HaulCargo_AToB_intro_title</value>
               </ContractStringParam>
               <ContractStringParam Type="ContractStringParam">
                 <param>Description</param>
-                <value>@DeadSaints_HaulCargo_AToB_desc_ToGrimHEX_Danger</value>
+                <value>@DeadSaints_HaulCargo_AToB_intro_desc</value>
               </ContractStringParam>
             </stringParamOverrides>
             <boolParamOverrides Type="ContractBoolParam" Count="0" />
@@ -549,7 +549,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="2">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable />
+              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/pyro.xml" />
             </ContractPrerequisite_Locality>
             <ContractPrerequisite_CompletedContractTags Type="ContractPrerequisite_CompletedContractTags">
               <includePrerequisiteWhenSharing>False</includePrerequisiteWhenSharing>
@@ -1211,7 +1211,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="2">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable />
+              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stanton.xml" />
             </ContractPrerequisite_Locality>
             <ContractPrerequisite_CompletedContractTags Type="ContractPrerequisite_CompletedContractTags">
               <includePrerequisiteWhenSharing>False</includePrerequisiteWhenSharing>
@@ -1228,8 +1228,8 @@
             </ContractPrerequisite_CompletedContractTags>
           </additionalPrerequisites>
           <generationParams Type="ContractGenerationParams_Legacy">
-            <maxInstances>1</maxInstances>
-            <maxInstancesPerPlayer>-1</maxInstancesPerPlayer>
+            <maxInstances>-1</maxInstances>
+            <maxInstancesPerPlayer>1</maxInstancesPerPlayer>
             <respawnTime>5</respawnTime>
             <respawnTimeVariation>2</respawnTimeVariation>
           </generationParams>
@@ -2245,7 +2245,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="2">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable />
+              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stanton.xml" />
             </ContractPrerequisite_Locality>
             <ContractPrerequisite_CompletedContractTags Type="ContractPrerequisite_CompletedContractTags">
               <includePrerequisiteWhenSharing>False</includePrerequisiteWhenSharing>
@@ -2569,7 +2569,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="2">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable />
+              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/pyro.xml" />
             </ContractPrerequisite_Locality>
             <ContractPrerequisite_CompletedContractTags Type="ContractPrerequisite_CompletedContractTags">
               <includePrerequisiteWhenSharing>False</includePrerequisiteWhenSharing>
@@ -3068,7 +3068,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="2">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable />
+              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stanton.xml" />
             </ContractPrerequisite_Locality>
             <ContractPrerequisite_CompletedContractTags Type="ContractPrerequisite_CompletedContractTags">
               <includePrerequisiteWhenSharing>False</includePrerequisiteWhenSharing>
@@ -3422,7 +3422,7 @@
           <subContracts Type="SubContract" Count="0" />
           <additionalPrerequisites Type="ContractPrerequisiteBase" Count="2">
             <ContractPrerequisite_Locality Type="ContractPrerequisite_Locality">
-              <localityAvailable />
+              <localityAvailable ReferencedFile="file://./../../../../../../../libs/foundry/records/missiondata/pu_missionlocality/stanton.xml" />
             </ContractPrerequisite_Locality>
             <ContractPrerequisite_CompletedContractTags Type="ContractPrerequisite_CompletedContractTags">
               <includePrerequisiteWhenSharing>False</includePrerequisiteWhenSharing>

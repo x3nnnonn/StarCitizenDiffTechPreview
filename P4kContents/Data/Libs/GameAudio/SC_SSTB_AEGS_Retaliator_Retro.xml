@@ -48,8 +48,10 @@
         <ATLRTPCDependee atl_name="LFO_Thrusters_Afterburner_Max" />
         <ATLRTPCDependee atl_name="MDT_Ship_Thrusters_30s_Riser" />
         <ATLRTPCDependee atl_name="GP_Ship_Acceleration_Forward_Normalized" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Retro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Retaliator_Retro_Off_LP">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSTB_AEGS_Retaliator_Retro_Off_LP" wwise_radius_max="0" />
@@ -95,8 +97,10 @@
         <ATLRTPCDependee atl_name="LFO_Ship_Thrusters_Detail" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Usage_Slow_Lerp" />
         <ATLRTPCDependee atl_name="GP_Ship_Linear_Real_Acceleration_LS" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Retro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Retaliator_Retro_Afterburner_Off_LP">
       <WwiseEvent wwise_duration_max="3.17838955" wwise_duration_min="2.8316226" wwise_duration_type="OneShot" wwise_name="Play_SSTB_AEGS_Retaliator_Retro_Afterburner_Off_LP" wwise_radius_max="60" />
@@ -142,8 +146,10 @@
         <ATLRTPCDependee atl_name="GP_Thrusters_Afterburner_On" />
         <ATLRTPCDependee atl_name="LFO_Ship_Thrusters_Detail" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Meter_Retro_Misfire" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Retro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Retaliator_Retro_LP">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTB_AEGS_Retaliator_Retro_LP" wwise_radius_max="500" />
@@ -189,8 +195,10 @@
         <ATLRTPCDependee atl_name="LFO_Ship_Thrusters_Detail" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Usage_Slow_Lerp" />
         <ATLRTPCDependee atl_name="GP_Ship_Linear_Real_Acceleration_LS" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Retro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Retaliator_Retro_Afterburner_LP">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTB_AEGS_Retaliator_Retro_Afterburner_LP" wwise_radius_max="500" />
@@ -236,8 +244,10 @@
         <ATLRTPCDependee atl_name="GP_Thrusters_Afterburner_On" />
         <ATLRTPCDependee atl_name="LFO_Ship_Thrusters_Detail" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Meter_Retro_Misfire" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Retro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTS_AEGS_Retaliator_Retro_Generic_Misfire">
       <WwiseEvent wwise_duration_max="2.6486578" wwise_duration_type="OneShot" wwise_name="Play_SSTS_AEGS_Retaliator_Retro_Generic_Misfire" wwise_radius_max="500" />
@@ -273,8 +283,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Retro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Retaliator_Retro_Turn_On">
       <WwiseEvent wwise_duration_max="7.556779" wwise_duration_min="5.419371" wwise_duration_type="OneShot" wwise_name="Play_SSTB_AEGS_Retaliator_Retro_Turn_On" wwise_radius_max="60" />
@@ -290,6 +302,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Retro" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -302,4 +315,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

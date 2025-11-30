@@ -2,7 +2,7 @@
  <Layers>
   <Layer fullname="Interior/Rear" externalLayerLevelDir="data/levels/!ship_setup/anvl/carrack/Layers/" externalLayerParentDir="Interior/" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear.lyr" ParentGUID="{31E2E412-15EA-4142-AAC9-97E921FD50DE}" layerHash="4448334">
    <Layer name="Cartography" layerHash="3945213340" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Cartography.lyr">
-    <Layer name="Cartography_ART" layerHash="1758424644" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Cartography/Cartography_ART.lyr">
+    <Layer name="Cartography_ART" layerHash="3645528119" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Cartography/Cartography_ART.lyr">
      <Object name="crk_exp_chart_room-211" type="Brush" guid="472a1f81-da1c-8902-abc0-7ed301465885"/>
      <Object name="crk_exp_chart_room-216" type="Brush" guid="451b16a2-917f-c003-382f-22eca68ce392"/>
      <Object name="crk_exp_chart_room-163" type="Brush" guid="46ff7416-abeb-ed05-313a-c75cb446a68e"/>
@@ -486,7 +486,7 @@
      <Object name="RoomConnector_Corridor_Bottom_Junction_Right-001" type="RoomConnector" guid="4748fa98-2983-e3b8-e244-be3ff6410092" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
      <Object name="RoomConnector_Corridor_Bottom_Junction_Left-001" type="RoomConnector" guid="6ebc247e-2ee2-fef8-93b4-6e25ac2101b5" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
     </Layer>
-    <Layer name="Corridor_Bottom_LIGHTING" layerHash="4152262725" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Corridor_Bottom/Corridor_Bottom_LIGHTING.lyr">
+    <Layer name="Corridor_Bottom_LIGHTING" layerHash="501504556" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Corridor_Bottom/Corridor_Bottom_LIGHTING.lyr">
      <Object name="Lt_Cor_Bottom-020" type="Light" guid="42bab7ea-79df-3100-2d95-dafcc58ad7b5" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="crk_add_stairs_lip_a-547" type="Brush" guid="4cb2a080-32e6-4201-db49-bd9d33d032a0"/>
      <Object name="anvl_crk_addon_light_rect-087" type="Brush" guid="4233d609-0259-6f01-b099-bb7e66f0bd8f"/>
@@ -572,7 +572,7 @@
      <Object name="lights_suits_bottom_aux-026" type="Light" guid="4e9647f6-e216-b863-621c-83ba363732a6" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Lt_Cor_Bottom-022" type="Light" guid="40c02faa-d58a-7966-b990-1dd62bdd8897" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="lights_suits_rim-094" type="Light" guid="43b08ebb-3955-fb66-cc4b-067bc85c0f92" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="crk_add_stairs_lip_a-570" type="Brush" guid="42ee7837-561e-bd67-be06-c57760c34d92"/>
+     <Object name="crk_add_stairs_lip_a-569" type="Brush" guid="42ee7837-561e-bd67-be06-c57760c34d92"/>
      <Object name="lights_suits_rim-122" type="Light" guid="4e29b7f7-c5e5-9169-0236-ee8f036fc28f" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="crk_add_stairs_lip_a-558" type="Brush" guid="40472823-1d3b-ab6b-d4dc-23e78f717097"/>
      <Object name="Lt_Cor_Bottom-017" type="Light" guid="44ede08d-b0d7-256e-4594-1d5da8e1fdb9" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -580,7 +580,7 @@
      <Object name="crk_add_stairs_lip_a-239" type="Brush" guid="44d45e83-37be-1271-825c-33fd672c1aa6"/>
      <Object name="lights_suits_bottom_aux-029" type="Light" guid="437da11e-8f64-a971-8e04-c7cdf63a2bab" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="lights_suits_rim-136" type="Light" guid="40ad4864-8bab-ae71-9453-45405703b482" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="crk_add_stairs_lip_a-569" type="Brush" guid="43961802-bba4-5475-6a9a-8a88a8b0a4b1"/>
+     <Object name="crk_add_stairs_lip_a-570" type="Brush" guid="43961802-bba4-5475-6a9a-8a88a8b0a4b1"/>
      <Object name="lights_suits_rim-096" type="Light" guid="4bfbeb78-dca8-df75-9c5a-123f64d5a8ae" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="lights__emg_runner-082" type="Light" guid="4505f444-e858-6b76-5efa-5cdbda2551bf" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="crk_add_stairs_lip_a-550" type="Brush" guid="4b6531e3-9623-f079-fcc3-b4218071afb1"/>
@@ -1030,7 +1030,7 @@
      <Object name="anvl_crk_eng_pipe_1m-291" type="Brush" guid="43a0cf4e-c23d-eaff-49d1-1fffc10a85b2"/>
      <Object name="anvl_crk_eng_pipe_1m-293" type="Brush" guid="4201665a-553d-f7ff-79c2-d5f74a7c1282"/>
     </Layer>
-    <Layer name="Corridors_Eva_LIGHTING" layerHash="1795306407" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Corridors_EVA/Corridors_Eva_LIGHTING.lyr">
+    <Layer name="Corridors_Eva_LIGHTING" layerHash="2737008346" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Corridors_EVA/Corridors_Eva_LIGHTING.lyr">
      <Object name="LightGroup_Corr_EVA" type="LightGroup" guid="42b9655d-6efb-f301-42a2-1533bde6dc89" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,60cc8ca1-8927-4e92-af99-9cd367e0595c,5b803369-07d1-470f-996a-9372ca50e617,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
      <Object name="lights_suits_topdown-009" type="Light" guid="4d567ac7-3887-f503-f692-540f60bb5c9e" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light_Cor_door_top-005" type="Light" guid="488366a2-a379-bf04-976b-5817d2e7dbad" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -1038,7 +1038,7 @@
      <Object name="lights__emg_runner-193" type="Light" guid="416d755d-1485-ad09-5f96-7f87430407bb" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light_Cor_escpod" type="Light" guid="414498f9-f97c-530b-24cb-a6c1c66b41b3" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light_Cor_Pipe_FakeShadows-133" type="Light" guid="427e8eb5-b11d-250d-d406-7889e6682fa8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="Light-928" type="Light" guid="4acac7fd-6649-640d-1938-dbc20bc73995" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-000" type="Light" guid="4acac7fd-6649-640d-1938-dbc20bc73995" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_lift_floor_main_mid-154" type="Brush" guid="40e2d63b-4d73-8f13-b757-d912a7fa0990"/>
      <Object name="lights_suits_bottom_aux-016" type="Light" guid="426b9119-2672-f51a-e6ad-3a5cac5e4191" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="lights_suits_bottom_aux-018" type="Light" guid="44b23879-a737-121c-f007-a8f8f0de8499" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -1109,7 +1109,7 @@
      <Object name="crk_add_stairs_lip_a-537" type="Brush" guid="4ca69b77-0d60-ed83-cec7-dfc681107985"/>
      <Object name="lights_suits_rim-059" type="Light" guid="4f23b746-90bc-2a84-1abb-bbe3381443a9" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="crk_add_stairs_lip_a-461" type="Brush" guid="4067ff38-447a-6484-7edc-1fd0333e39a4"/>
-     <Object name="Light-991" type="Light" guid="49f921fe-c766-2e87-6a48-f3174b01e9b3" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-989" type="Light" guid="49f921fe-c766-2e87-6a48-f3174b01e9b3" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="lights_suits_rim-066" type="Light" guid="430dfb84-4a45-3f88-17b3-a934bb62e295" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="lights_suits_rim-055" type="Light" guid="47a695e4-c0c9-c08b-b19d-ec5d9cb44e9c" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="lights__emg_runner-190" type="Light" guid="4598d3a6-239f-bd8e-638b-74a01fb765a9" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -1124,7 +1124,7 @@
      <Object name="lights__emg_runner-086" type="Light" guid="4ca35b10-a909-b39c-358b-0675369c348a" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_lift_floor_main_mid-139" type="Brush" guid="4e7f0c8e-5e6d-0d9f-adeb-0bfd0f843dbf"/>
      <Object name="lights_suits_bottom_aux-012" type="Light" guid="4c806d55-1a6f-419f-71d3-335acc0e57a7" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="Light-992" type="Light" guid="4194d656-5dff-7b9f-563c-9a3d93279292" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-991" type="Light" guid="4194d656-5dff-7b9f-563c-9a3d93279292" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="crk_add_stairs_lip_a-536" type="Brush" guid="471b8828-9252-b6a2-8513-967f180dcaa0"/>
      <Object name="anvl_crk_lift_floor_main_mid-145" type="Brush" guid="427933e7-85e8-67a7-1f06-7815fa87a88f"/>
      <Object name="LB_Corr_EVA_Left" type="LightBox" guid="468a8952-8bf4-2dab-f600-297c16e60ea1" tags=""/>
@@ -1720,7 +1720,7 @@
      <Object name="LeftTurretCorridor_Turret_Room_RN" type="Room_RN" guid="44b9a6b9-0470-cbe8-5094-e3b497f28bb7" tags="00ead468-9073-485b-a6df-ca6b94053603,31e25a6b-44e9-4d72-9930-55db1d615f52,afd66f73-2769-4e3f-b17c-a08c6dd1b361,a7c06cc7-a715-43b3-93b6-486483f26d18,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="RightTurretCorridor_Turret_Room_RN" type="Room_RN" guid="4ac1c16a-d273-2dfa-5ba6-be2500207aa8" tags="00ead468-9073-485b-a6df-ca6b94053603,31e25a6b-44e9-4d72-9930-55db1d615f52,afd66f73-2769-4e3f-b17c-a08c6dd1b361,a7c06cc7-a715-43b3-93b6-486483f26d18,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     </Layer>
-    <Layer name="Corridors_Turrets_LIGHTING" layerHash="3351760542" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Corridors_Turrets/Corridors_Turrets_LIGHTING.lyr">
+    <Layer name="Corridors_Turrets_LIGHTING" layerHash="921683632" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Corridors_Turrets/Corridors_Turrets_LIGHTING.lyr">
      <Object name="anvl_crk_addon_light_rect-004" type="Brush" guid="4574f1dc-16c6-f101-e599-06600e7fb184"/>
      <Object name="anvl_crk_addon_light_rect_double-105" type="Brush" guid="4c97a8ea-220f-2102-5201-0b3c0650f9a1"/>
      <Object name="anvl_crk_addon_light_strip_short-022" type="Brush" guid="41cfaa18-c22e-3505-ced6-97ac5d5cb1a2"/>
@@ -1793,7 +1793,7 @@
      <Object name="Light-784" type="Light" guid="4520907e-5ee7-d043-ad00-44fe30b06d8c" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_addon_light_rect_double-117" type="Brush" guid="41c80259-134b-1444-beea-63ec08c9629c"/>
      <Object name="anvl_crk_addon_light_rect_double-118" type="Brush" guid="426bb851-46e1-2644-9fa9-4b9f0e4be180"/>
-     <Object name="anvl_crk_addon_light_rect-341" type="Brush" guid="4df04616-c9f8-ca44-3f15-bb9c02896dbd"/>
+     <Object name="anvl_crk_addon_light_rect-340" type="Brush" guid="4df04616-c9f8-ca44-3f15-bb9c02896dbd"/>
      <Object name="lights__emg_runner-160" type="Light" guid="49ff7928-9d35-b345-a2dd-86b682cf2990" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="TurretCor_SideLights-011" type="Light" guid="4b192f0e-5c81-0346-5cf6-9900bb8f209c" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_addon_light_strip_short-025" type="Brush" guid="467af3f6-9df6-5746-1462-fab202efdaa9"/>
@@ -1809,7 +1809,7 @@
      <Object name="TurretCor_Ceiling_door-001" type="Light" guid="4f468ce5-572f-3450-15bd-412a0f4f9a91" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_addon_panel_01-028" type="Brush" guid="4f2550ce-7527-e650-4eaa-6ef6807c4e8c"/>
      <Object name="anvl_crk_addon_light_strip_short-026" type="Brush" guid="4efa3ab4-082e-e451-b9d7-aba768604ca6"/>
-     <Object name="anvl_crk_addon_light_rect-340" type="Brush" guid="401748d9-9b66-e551-ae0a-8e28179b1296"/>
+     <Object name="anvl_crk_addon_light_rect-341" type="Brush" guid="401748d9-9b66-e551-ae0a-8e28179b1296"/>
      <Object name="TurretCor_LB_UnderFloor_Main-007" type="Light" guid="451d0292-a502-7852-d294-17a331400b9c" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="light_hab_corr_vent=_unit-061" type="Light" guid="42f53cf8-bcf3-cb52-51d5-42462d9fb298" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_addon_panel_01-030" type="Brush" guid="46bb07b1-2f03-1d54-a53d-73dd60a955a7"/>
@@ -1824,7 +1824,7 @@
      <Object name="Light-838" type="Light" guid="477763c4-9014-785c-5241-cc01db7f6fb5" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_addon_light_rect_double-124" type="Brush" guid="4dff177a-091c-015d-dbf2-0139667a08a1"/>
      <Object name="lights_walkway-013" type="Light" guid="43d5743f-3069-975d-6bde-5befe5239a87" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="anvl_crk_addon_light_rect-335" type="Brush" guid="4cc5d0c7-2363-545e-72ea-ed81dd0d969f"/>
+     <Object name="anvl_crk_addon_light_rect-334" type="Brush" guid="4cc5d0c7-2363-545e-72ea-ed81dd0d969f"/>
      <Object name="TurretCor_Compo_Overhead-001" type="Light" guid="4f93c865-35f3-845e-2236-7383ed46a399" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="lights__emg_runner-163" type="Light" guid="4137a823-b337-645f-6661-ba7c0bbe73ab" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="lights__emg_runner-164" type="Light" guid="4f0474c3-ecbe-1f61-1438-4da9f5039fa8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -1840,7 +1840,7 @@
      <Object name="anvl_crk_addon_light_rect_double-126" type="Brush" guid="4688150d-31be-9e70-a8f3-1d3c10f98fb5"/>
      <Object name="TurretCor_Overhead_Generic -008" type="Light" guid="4ff5a56c-45e2-8671-2964-3692c7130c9a" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="lights_walkway-014" type="Light" guid="4295251d-fe5e-9871-3e46-105b850b20ba" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="anvl_crk_addon_light_rect-336" type="Brush" guid="4d2733dd-7e1f-0b72-4146-525584ac19be"/>
+     <Object name="anvl_crk_addon_light_rect-333" type="Brush" guid="4d2733dd-7e1f-0b72-4146-525584ac19be"/>
      <Object name="light_hab_corr_vent=_unit-076" type="Light" guid="4891d268-5009-3c72-f413-3131e3c059a1" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="light_hab_corr_vent=_unit-065" type="Light" guid="4c805fc7-9312-c772-89c8-5f58e0cf1db1" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_addon_light_rect_double-127" type="Brush" guid="42772413-61c2-3973-6258-7be55799a993"/>
@@ -1893,11 +1893,11 @@
      <Object name="FogVolume_Messhall-013" type="FogVolume" guid="422121f5-7d22-f1a0-8617-990629fd36b5" tags=""/>
      <Object name="LB_Corr_Turret_Junc_Floor" type="LightBox" guid="4e31955a-1653-4fa1-b420-13b6813c4898" tags=""/>
      <Object name="lights__emg_runner-166" type="Light" guid="49bb03b8-da49-14a2-ce81-4e0f0e59b98d" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="anvl_crk_addon_light_rect-213" type="Brush" guid="442c1bee-b17f-5ba2-bd16-bf5db01db288"/>
+     <Object name="anvl_crk_addon_light_rect-331" type="Brush" guid="442c1bee-b17f-5ba2-bd16-bf5db01db288"/>
      <Object name="light_hab_corr_vent=_unit-083" type="Light" guid="401f5f6b-842d-21a5-3b86-a136aa4959bb" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="TurretCor_Overhead_Generic -013" type="Light" guid="474864ba-b3a7-3ba5-8317-d4d1b2974c8c" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="probe_corr_turret_junc_right" type="EnvironmentLight" guid="4b88f206-508a-5ea6-1716-ee4bb09f82a3" tags=""/>
-     <Object name="anvl_crk_addon_light_rect-334" type="Brush" guid="484b18d1-7946-cca8-6fdb-59c225a469b8"/>
+     <Object name="anvl_crk_addon_light_rect-213" type="Brush" guid="484b18d1-7946-cca8-6fdb-59c225a469b8"/>
      <Object name="TurretCor_Overhead_Generic -015" type="Light" guid="47704a46-8018-00a9-d67a-239621917e96" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_addon_light_rect_double-135" type="Brush" guid="4f5f23a3-484c-91aa-ee34-01b8873da2bb"/>
      <Object name="LB_Underfloor_Lighting-001" type="LightBox" guid="48d62c32-e2ec-caaa-98f6-64f18b304b8b" tags=""/>
@@ -1918,12 +1918,12 @@
      <Object name="Light-840" type="Light" guid="469578b4-7264-52c0-70c4-cfa1e665eab4" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_addon_light_strip_long-016" type="Brush" guid="485cbbb3-1738-0fc2-b897-afb6aaf0e691"/>
      <Object name="lights_landingpad-027" type="Light" guid="42e019d6-ff45-2ac2-2397-008736139882" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="anvl_crk_addon_light_rect-332" type="Brush" guid="4ad0518b-979b-b7c3-feb5-1cff3faa5da8"/>
+     <Object name="anvl_crk_addon_light_rect-335" type="Brush" guid="4ad0518b-979b-b7c3-feb5-1cff3faa5da8"/>
      <Object name="TurretCor_SideLights-037" type="Light" guid="48c8187c-82a2-65c4-fa07-6b8f9779d8b8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="light_hab_corr_vent=_unit-016" type="Light" guid="4c64396e-3f00-71c4-2966-f8ebe64c2688" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_addon_panel_01-074" type="Brush" guid="480529e7-15be-2fc5-de77-40ecb76e47b5"/>
      <Object name="lights__emg_runner-168" type="Light" guid="4de426bb-854d-3fc5-f0b4-2f1f5b964e8c" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="anvl_crk_addon_light_rect-214" type="Brush" guid="4d3092b9-05eb-c7c5-4957-4e31014cacba"/>
+     <Object name="anvl_crk_addon_light_rect-295" type="Brush" guid="4d3092b9-05eb-c7c5-4957-4e31014cacba"/>
      <Object name="lights__emg_runner-169" type="Light" guid="42e94e48-a68f-19c6-cc3a-4f7b61a86984" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="LB_TurretJunc_Underfloor_Lighting-001" type="LightBox" guid="4ae9574f-2113-cec7-7faf-55dc5affe6aa" tags=""/>
      <Object name="probe_turretcorr_left_end" type="EnvironmentLight" guid="4067869d-c827-d1c7-15fd-a8a6cdf9a199" tags=""/>
@@ -1935,8 +1935,8 @@
      <Object name="probe_corr_turret_junc_left" type="EnvironmentLight" guid="4c175fe0-1f7b-cecc-3600-48471b5531b0" tags=""/>
      <Object name="anvl_crk_addon_panel_01-077" type="Brush" guid="41f7f98e-9fba-3fcd-17e5-81ad19706dad"/>
      <Object name="lights__emg_runner-170" type="Light" guid="49769738-7e82-9dcd-09eb-69176f578c9e" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="anvl_crk_addon_light_rect-294" type="Brush" guid="43b8590b-7a28-dfcd-c46b-25ec63c6d58b"/>
-     <Object name="anvl_crk_addon_light_rect-333" type="Brush" guid="4a024a13-e3b2-24cf-3dd5-c6fbb50b2aa4"/>
+     <Object name="anvl_crk_addon_light_rect-214" type="Brush" guid="43b8590b-7a28-dfcd-c46b-25ec63c6d58b"/>
+     <Object name="anvl_crk_addon_light_rect-332" type="Brush" guid="4a024a13-e3b2-24cf-3dd5-c6fbb50b2aa4"/>
      <Object name="anvl_crk_addon_panel_01-078" type="Brush" guid="48dd613e-4850-91cf-d281-ac45d4978cbd"/>
      <Object name="TurretCor_Overhead_Generic -010" type="Light" guid="488ebaad-43dd-a5cf-8a53-2a31642de7a3" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_addon_light_rect_double-137" type="Brush" guid="437d00e9-bd64-81d2-f03e-a4a8b20f208e"/>
@@ -1949,7 +1949,7 @@
      <Object name="TurretCor_Compo_Overhead-002" type="Light" guid="4a7bbb43-28d7-fbd6-cb15-1fe914cfc8bc" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_addon_light_rect-290" type="Brush" guid="4f52994a-df3f-4bd7-4499-1d8da4f13fb8"/>
      <Object name="anvl_crk_addon_light_rect-215" type="Brush" guid="4dda6932-12ea-01d9-f0c2-01b31d777f87"/>
-     <Object name="anvl_crk_addon_light_rect-331" type="Brush" guid="42d68f61-4da0-28da-75ef-08360ca6e59f"/>
+     <Object name="anvl_crk_addon_light_rect-336" type="Brush" guid="42d68f61-4da0-28da-75ef-08360ca6e59f"/>
      <Object name="anvl_crk_addon_light_strip_long-022" type="Brush" guid="453659bd-b65b-49da-b1e8-49934b372893"/>
      <Object name="Light-471" type="Light" guid="44876dac-e271-51da-3c3e-67cee0f39ba0" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_addon_panel_01-085" type="Brush" guid="4a5b62b3-0779-28dc-0e75-fe2b2307e897"/>
@@ -1962,9 +1962,9 @@
      <Object name="probe_turretcorr_right_end" type="EnvironmentLight" guid="4b21e70d-d2e4-e5e6-713f-f542efa2dbb3" tags=""/>
      <Object name="Light_Cor_door_top-085" type="Light" guid="4c954511-661a-66e7-9c55-cf460e2df593" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="LB_grav_door_left" type="LightBox" guid="47b7c95a-717a-4ee9-b1fa-48128198d09a" tags=""/>
-     <Object name="anvl_crk_addon_light_rect-216" type="Brush" guid="4e1e4574-7300-dfea-db5b-9007cc9c2e8f"/>
+     <Object name="anvl_crk_addon_light_rect-294" type="Brush" guid="4e1e4574-7300-dfea-db5b-9007cc9c2e8f"/>
      <Object name="FogVolume_Messhall-014" type="FogVolume" guid="478e8044-62d1-40ec-0e27-4a3bc1f528ba" tags=""/>
-     <Object name="anvl_crk_addon_light_rect-295" type="Brush" guid="49d4b505-dcd8-ceec-04a7-58d366494e9a"/>
+     <Object name="anvl_crk_addon_light_rect-216" type="Brush" guid="49d4b505-dcd8-ceec-04a7-58d366494e9a"/>
      <Object name="TurretCor_SideLights-028" type="Light" guid="48019487-0189-7eed-b45c-d7963da8ec99" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_addon_light_rect_double-140" type="Brush" guid="478d0655-9238-8cee-90a9-c78063c9a581"/>
      <Object name="TurretCor_SideLights-029" type="Light" guid="45a13f4a-0b6f-a4ee-96ef-e8deec4eb393" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -2493,7 +2493,7 @@
     <Layer name="Engineering_ATMO" layerHash="1826100765" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Engineering/Engineering_ATMO.lyr">
      <Object name="Engineering_Room_RN" type="Room_RN" guid="4411ed53-a1ea-f6a2-59fe-1a1e47f364b4" tags="00ead468-9073-485b-a6df-ca6b94053603,31e25a6b-44e9-4d72-9930-55db1d615f52,afd66f73-2769-4e3f-b17c-a08c6dd1b361,a7c06cc7-a715-43b3-93b6-486483f26d18,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     </Layer>
-    <Layer name="Engineering_LIGHTING" layerHash="1842014307" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Engineering/Engineering_LIGHTING.lyr">
+    <Layer name="Engineering_LIGHTING" layerHash="2922951716" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Engineering/Engineering_LIGHTING.lyr">
      <Object name="Light_Cor_Pipe_FakeShadows-123" type="Light" guid="4b677a6e-da12-ab00-e914-fcd0cc0a5fa2" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light-480" type="Light" guid="4806399e-d774-d600-8657-eae7800f4080" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="light_hab_corr_vent=_unit-052" type="Light" guid="405ce807-d140-3a01-2945-f87974f9f689" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -2536,7 +2536,7 @@
      <Object name="anvl_crk_lift_floor_main_mid-127" type="Brush" guid="40772e1e-317c-d92f-bb75-ea0a30d57490"/>
      <Object name="anvl_crk_lift_floor_main_mid-050" type="Brush" guid="42144390-728d-e92f-753f-0447f3606faa"/>
      <Object name="anvl_crk_lift_floor_main_mid-116" type="Brush" guid="4b4cfa11-af02-7030-1e98-1d1d28a237a8"/>
-     <Object name="Light-993" type="Light" guid="4b47217b-8b07-2e31-7bb6-897d0f7786bc" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-992" type="Light" guid="4b47217b-8b07-2e31-7bb6-897d0f7786bc" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_lift_floor_main_mid-049" type="Brush" guid="4d799721-42b6-6a33-ff49-309ce1790aa9"/>
      <Object name="lights_door_siderooms-011" type="Light" guid="4c7dc9cf-efce-ab33-c104-3c2c1e6bb391" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="light_hab_corr_vent=_unit-058" type="Light" guid="48b5efde-151a-8934-c319-aae61280cab2" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -2563,7 +2563,7 @@
      <Object name="Light_Cor_Pipe_FakeShadows-088" type="Light" guid="48743d74-ccae-6c42-79fe-6bcf12403092" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="LB_Engineering_sideroom_doorway_right-001" type="LightBox" guid="4346cb89-9a28-9042-adb1-3b891ffcdb9f" tags=""/>
      <Object name="Light-341" type="Light" guid="4c370b2e-77ab-1144-5a77-eccd0544bba8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="Light-994" type="Light" guid="4326bc6b-01ae-ec45-97cb-0964f4f7d2b1" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-993" type="Light" guid="4326bc6b-01ae-ec45-97cb-0964f4f7d2b1" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="light_hab_corr_vent=_unit-057" type="Light" guid="493b08c7-8632-ff46-4e27-a5835d6b6eb1" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="LightGroup_Engineering" type="LightGroup" guid="4a4ba193-08c1-b948-775a-896f4423bcb0" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,60cc8ca1-8927-4e92-af99-9cd367e0595c,5b803369-07d1-470f-996a-9372ca50e617,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="lights_door_siderooms-001" type="Light" guid="4c756ba3-b96e-1949-4ce2-b2477d974989" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -2676,7 +2676,7 @@
      <Object name="Light-647" type="Light" guid="45d21344-fccf-e3f2-5fd6-48014b737fb8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light_Cor_Pipe_FakeShadows-090" type="Light" guid="4a2abd93-ef0d-8df3-751c-a868f0d6b195" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light_Cor_Pipe_FakeShadows-125" type="Light" guid="4e8d73c4-fe58-7ef4-9015-97e75dd3fc93" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="Light-995" type="Light" guid="4411eee9-5674-12f7-83c3-f8f86c7ec7b1" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-994" type="Light" guid="4411eee9-5674-12f7-83c3-f8f86c7ec7b1" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light_Cor_Pipe_FakeShadows-093" type="Light" guid="423c6345-a35a-52f7-4292-ab5cac0b4381" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light-738" type="Light" guid="427428eb-c563-5ff7-9b73-18b2671490a4" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Lt_End_Bottom_KEY" type="Light" guid="4b1c06b6-ae53-a5f7-0b98-33f658ca5ba1" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -2691,7 +2691,7 @@
      <Object name="anvl_crk_addon_light_rect-205" type="Brush" guid="4aeea2e3-c45a-f5ff-34fc-73ecd3a17c89"/>
     </Layer>
     <Layer name="Engineering_PROPS" layerHash="3897435636" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Engineering/Engineering_PROPS.lyr"/>
-    <Layer name="Engineering_SETUP" layerHash="2334167723" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Engineering/Engineering_SETUP.lyr">
+    <Layer name="Engineering_SETUP" layerHash="3285175250" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Engineering/Engineering_SETUP.lyr">
      <Object name="crk_engineering_fuel_cap_right" type="GeomEntity" guid="42069ead-da33-0803-eb17-4aa2716887b6" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
      <Object name="RenderToTextureView-042" type="RenderToTextureView" guid="4dbf6dfe-4d97-1b06-68ff-a36c47d88b94" tags=""/>
      <Object name="Door_RN_Shield_Generator_01" type="Door_RN_NoRoomConnector_Breachable_OpenReverse_IP" guid="44771137-a655-b10a-1885-f3d0a390d087" tags="849b8481-5893-4301-964e-4f39f3e27ad8,00ead468-9073-485b-a6df-ca6b94053603,0e515dc0-2cd7-4b2e-8578-f14a234f5eed,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,65c060b9-cf53-4706-93e7-9184a27cc9c1,75d84438-295e-409a-8a0f-9a530cc14218,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,e0f9e2de-6b05-46df-b244-b98e64409a43,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
@@ -2753,7 +2753,7 @@
     <Layer name="Eva_Lookout_ATMO" layerHash="3788160420" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Eva_Lookout/Eva_Lookout_ATMO.lyr">
      <Object name="Lookout_EVA_Room_RN" type="Room_RN" guid="472f3f16-76ad-61af-befc-08e22d804a9a" tags="00ead468-9073-485b-a6df-ca6b94053603,6fe55369-1239-4b70-83e3-a4051919e4d8,afd66f73-2769-4e3f-b17c-a08c6dd1b361,a7c06cc7-a715-43b3-93b6-486483f26d18,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     </Layer>
-    <Layer name="Eva_Lookout_LIGHTING" layerHash="1191575369" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Eva_Lookout/Eva_Lookout_LIGHTING.lyr">
+    <Layer name="Eva_Lookout_LIGHTING" layerHash="2052074008" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Eva_Lookout/Eva_Lookout_LIGHTING.lyr">
      <Object name="LightGroup_EVA" type="LightGroup" guid="461d720c-8bae-7708-6bc6-8ac0b660e28a" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,60cc8ca1-8927-4e92-af99-9cd367e0595c,5b803369-07d1-470f-996a-9372ca50e617,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
      <Object name="Light_Cor_Pipe_FakeShadows-147" type="Light" guid="4f1141c9-f5d1-7e08-7625-a3cd8cd204b3" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light_Cor_Pipe_FakeShadows-142" type="Light" guid="4be8bb5e-c895-cd0a-79c0-7f879c0d1592" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -2784,9 +2784,9 @@
      <Object name="anvl_crk_lift_floor_main_mid-152" type="Brush" guid="48efb117-0964-83d9-cfff-ba62395bb8bf"/>
      <Object name="anvl_crk_lift_floor_main_mid-149" type="Brush" guid="4f8e2eb4-daa5-18dd-bb5f-652d66972daf"/>
      <Object name="Light-496" type="Light" guid="4ac93d3d-2054-98dd-42e2-d8ecdfb0efba" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="Light-996" type="Light" guid="49cd531b-891c-93de-cb9e-720417431b83" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-995" type="Light" guid="49cd531b-891c-93de-cb9e-720417431b83" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="lights_landingpad-022" type="Light" guid="4cc99a88-48e2-c9e5-0e24-b5419f4d9ebe" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="Light-997" type="Light" guid="49e283c1-e8f4-74ed-2948-5eff41f667ab" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-996" type="Light" guid="49e283c1-e8f4-74ed-2948-5eff41f667ab" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="LB_Undergrate" type="LightBox" guid="47f35197-7f0f-65ee-9a8d-3809d351cb92" tags=""/>
      <Object name="anvl_crk_lift_floor_main_mid-162" type="Brush" guid="4f11552c-55cd-ecf8-941a-6ef50a55ec99"/>
      <Object name="anvl_crk_lift_floor_main_mid-150" type="Brush" guid="401c4eb9-31b3-95fa-4e69-5a76051b9999"/>
@@ -2806,7 +2806,7 @@
     </Layer>
    </Layer>
    <Layer name="Gravity" layerHash="425411159" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Gravity.lyr">
-    <Layer name="Gravity_ART" layerHash="1179801832" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Gravity/Gravity_ART.lyr">
+    <Layer name="Gravity_ART" layerHash="1585139515" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Gravity/Gravity_ART.lyr">
      <Object name="crk_add_stairs_lip_a-207" type="Brush" guid="4db724a7-2a55-c104-8bd0-67b5858951a0"/>
      <Object name="anvl_crk_eng_wall_4m-105" type="Brush" guid="45a85248-a1e6-a711-9696-d624348e6c8e"/>
      <Object name="crk_add_stairs_lip_a-161" type="Brush" guid="48f2ad6a-249f-f925-d67d-17819cff1187"/>
@@ -2844,29 +2844,29 @@
     <Layer name="Gravity_ATMO" layerHash="3193876880" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Gravity/Gravity_ATMO.lyr">
      <Object name="Gravity_Room_RN" type="Room_RN" guid="485511da-0684-b83f-6283-da59ec192da9" tags="00ead468-9073-485b-a6df-ca6b94053603,31e25a6b-44e9-4d72-9930-55db1d615f52,afd66f73-2769-4e3f-b17c-a08c6dd1b361,a7c06cc7-a715-43b3-93b6-486483f26d18,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     </Layer>
-    <Layer name="Gravity_LIGHTING" layerHash="3294169424" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Gravity/Gravity_LIGHTING.lyr">
+    <Layer name="Gravity_LIGHTING" layerHash="3440073311" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Gravity/Gravity_LIGHTING.lyr">
      <Object name="Light-842" type="Light" guid="43959987-3470-ec13-70e6-5d6951f6b38f" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light_Cor_Pipe_FakeShadows-078" type="Light" guid="4b81455b-d72e-4318-5734-f2c6c77d9a99" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="Light-998" type="Light" guid="437783e2-10bd-8618-3a97-aee06857a586" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-997" type="Light" guid="437783e2-10bd-8618-3a97-aee06857a586" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light-845" type="Light" guid="41c24f86-e0cb-c01a-15d6-e31577c8babc" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="Light-999" type="Light" guid="4c96a676-cfa2-f21a-ce5e-58b75297d19d" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-998" type="Light" guid="4c96a676-cfa2-f21a-ce5e-58b75297d19d" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="LightGroup_Gravity" type="LightGroup" guid="4c35dfd5-37c6-0d1e-9e4f-f41d77658da5" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,60cc8ca1-8927-4e92-af99-9cd367e0595c,5b803369-07d1-470f-996a-9372ca50e617,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
-     <Object name="Light-1000" type="Light" guid="417f9597-3c3e-1e24-7f19-048c0a695385" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-999" type="Light" guid="417f9597-3c3e-1e24-7f19-048c0a695385" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light-947" type="Light" guid="424edf39-d9e0-5e2f-2e6e-a843c68908a7" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="Light-1001" type="Light" guid="4d23580a-9aed-843b-4ce5-57ae48f6f1a4" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-1000" type="Light" guid="4d23580a-9aed-843b-4ce5-57ae48f6f1a4" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="EnvironmentProbe004" type="EnvironmentLight" guid="4db8fe95-a273-9e3e-57a4-fd67405ffc91" tags=""/>
      <Object name="lights_landingpad-031" type="Light" guid="476e551e-db4a-bb40-35db-94ab990b53a7" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light-599" type="Light" guid="4e23089c-dd3a-8241-4fcd-182745dc2e96" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="Light-1002" type="Light" guid="4d5a20eb-5dfe-7148-a816-a086bcdd7a9e" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="Light-1003" type="Light" guid="40178c25-4f7f-a34a-b945-32581ad5fe90" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-1001" type="Light" guid="4d5a20eb-5dfe-7148-a816-a086bcdd7a9e" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-1002" type="Light" guid="40178c25-4f7f-a34a-b945-32581ad5fe90" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_lift_floor_main_mid-034" type="Brush" guid="49f8a8ae-28c0-5966-be2a-3845fb30b398"/>
      <Object name="Light-853" type="Light" guid="4dd35d26-01ac-ca69-26d8-f24881e28cbf" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light-836" type="Light" guid="41d2e54e-106a-b770-00af-5cee371b9d9a" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light-854" type="Light" guid="48f547c1-2f29-737b-bad9-b0c0cd99109d" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="Light-1004" type="Light" guid="46de53b6-bbb5-c97e-ba0e-e56f24cbaf9f" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-1003" type="Light" guid="46de53b6-bbb5-c97e-ba0e-e56f24cbaf9f" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="LB_Grav_Pipes_L" type="LightBox" guid="4e9d49a8-ba7b-ac8f-3c3c-f4fbea694dad" tags=""/>
      <Object name="anvl_crk_lift_floor_main_mid-035" type="Brush" guid="4d7969a9-f126-f68f-27b1-91719df8a1aa"/>
-     <Object name="Light-1005" type="Light" guid="47e9e205-b80d-2a96-730d-33b67193c487" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-1004" type="Light" guid="47e9e205-b80d-2a96-730d-33b67193c487" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_lift_floor_main_mid-164" type="Brush" guid="4f06d865-d55f-4899-92e4-b04871d0d1ad"/>
      <Object name="Light-948" type="Light" guid="4a38607e-74d8-6e9c-8d4e-fb26c89876a9" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="Light-902" type="Light" guid="4166975a-690a-3a9d-d40f-c03c7fddb587" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -2881,14 +2881,14 @@
      <Object name="Light_Cor_Pipe_FakeShadows-075" type="Light" guid="463e2f84-af1e-cdd8-60ec-625638da9282" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="anvl_crk_lift_floor_main_mid-036" type="Brush" guid="4d4e7fae-0493-4ce0-07e0-ad8fafa056a7"/>
      <Object name="anvl_crk_lift_floor_main_mid-033" type="Brush" guid="4c02f97e-adaa-2bea-b0c7-9ea3cc1af8ae"/>
-     <Object name="Light-1006" type="Light" guid="49d8c463-c374-61ef-93f1-258a8e7e23b2" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-     <Object name="Light-1007" type="Light" guid="4e88956b-97fb-09f0-231d-6e1322448899" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-1005" type="Light" guid="49d8c463-c374-61ef-93f1-258a8e7e23b2" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+     <Object name="Light-1006" type="Light" guid="4e88956b-97fb-09f0-231d-6e1322448899" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
      <Object name="LB_Grav_Pipes_r" type="LightBox" guid="4e59e00f-351f-9df9-4712-5db13bd714a4" tags=""/>
      <Object name="FogVolume-016" type="FogVolume" guid="4d266419-846c-39fa-08ae-b3703a70e689" tags=""/>
      <Object name="Light_Cor_Pipe_FakeShadows-077" type="Light" guid="48d2ac4a-ffef-a1fe-e145-9c35881beb9f" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     </Layer>
     <Layer name="Gravity_PROPS" layerHash="606759848" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Gravity/Gravity_PROPS.lyr"/>
-    <Layer name="Gravity_SETUP" layerHash="1703981625" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Gravity/Gravity_SETUP.lyr">
+    <Layer name="Gravity_SETUP" layerHash="2340871171" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Gravity/Gravity_SETUP.lyr">
      <Object name="crk_gravity_console" type="GeomEntity" guid="44d86ea5-1233-3c83-a251-0996ce90cb85" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
     </Layer>
     <Layer name="Gravity_VFX" layerHash="4245742967" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Gravity/Gravity_VFX.lyr"/>
@@ -3063,7 +3063,7 @@
      <Object name="crk_add_stairs_lip_a-327" type="Brush" guid="4c6b322c-affd-fdf5-9aed-2ce78aa51eb5"/>
      <Object name="crk_add_stairs_lip_a-323" type="Brush" guid="4296acd2-0fdf-a6f6-a3f0-9eb6b7233ba4"/>
     </Layer>
-    <Layer name="Lift_Main_SETUP" layerHash="2985101354" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Lift_Main/Lift_Main_SETUP.lyr">
+    <Layer name="Lift_Main_SETUP" layerHash="4132258294" externalLayerFilePath="data/levels/!ship_setup/anvl/carrack/Layers/Interior/Rear/Lift_Main/Lift_Main_SETUP.lyr">
      <Object name="TransitDestination-025" type="TransitDestination" guid="49e4fc2a-3c05-5221-a732-31eaa1ea2eb5" tags=""/>
      <Object name="TransitDestination-026" type="TransitDestination" guid="49c40559-13ab-4a40-0d9e-2881119517b2" tags=""/>
      <Object name="TransitInteractionUIPanelTemplate-013" type="TransitInteractionUIPanelExterior_Carrack" guid="4242d3ac-6978-ce56-6f05-6f61141627a2" tags="849b8481-5893-4301-964e-4f39f3e27ad8,5ace9427-e331-45f9-9816-531026a2da04,b5e7e39d-18cd-42d8-85b0-7862c0075765,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,78afd517-a3a1-48f5-b251-0a7c28f865bb,eac0031a-3373-451e-80cc-4148d13a213d,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
@@ -3074,7 +3074,7 @@
      <Object name="TransitDestination-011" type="TransitDestination" guid="479ce006-1653-047e-0468-b347a8b0a5a7" tags=""/>
      <Object name="anvl_crk_eng_wall_4m-112" type="Brush" guid="4adeb2b9-24ee-2495-8c86-a599583032ad"/>
      <Object name="TransitInteractionUIPanelTemplate-025" type="TransitInteractionUIPanelExterior_Carrack" guid="429ebc44-7803-5ea3-4c7b-ac81664e35a8" tags="849b8481-5893-4301-964e-4f39f3e27ad8,5ace9427-e331-45f9-9816-531026a2da04,b5e7e39d-18cd-42d8-85b0-7862c0075765,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,78afd517-a3a1-48f5-b251-0a7c28f865bb,eac0031a-3373-451e-80cc-4148d13a213d,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
-     <Object name="ElevatorDoorDefault_ANVL_Carrack-005" type="ElevatorDoorDefault_ANVL_Carrack" guid="49e09f2a-2655-99a3-2e75-645c4be8ec8b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,00ead468-9073-485b-a6df-ca6b94053603,9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,0e515dc0-2cd7-4b2e-8578-f14a234f5eed,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,65c060b9-cf53-4706-93e7-9184a27cc9c1,75d84438-295e-409a-8a0f-9a530cc14218,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,5caff6ec-c71b-4e1c-b939-83263471611d,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,81bc340e-4964-4c2d-9689-fdbb23e4fd9f,1a1f10a2-894c-45ca-93d2-4785233c5250,78afd517-a3a1-48f5-b251-0a7c28f865bb,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+     <Object name="ElevatorDoorDefault_ANVL_Carrack-001" type="ElevatorDoorDefault_ANVL_Carrack" guid="49e09f2a-2655-99a3-2e75-645c4be8ec8b" tags="849b8481-5893-4301-964e-4f39f3e27ad8,00ead468-9073-485b-a6df-ca6b94053603,9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,0e515dc0-2cd7-4b2e-8578-f14a234f5eed,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,65c060b9-cf53-4706-93e7-9184a27cc9c1,75d84438-295e-409a-8a0f-9a530cc14218,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,5caff6ec-c71b-4e1c-b939-83263471611d,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,81bc340e-4964-4c2d-9689-fdbb23e4fd9f,1a1f10a2-894c-45ca-93d2-4785233c5250,78afd517-a3a1-48f5-b251-0a7c28f865bb,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
      <Object name="TransitGateway-025" type="TransitGateway" guid="4ac31d2c-97b1-22a5-2a58-ded6a57232b9" tags="632d7f73-4302-4268-8cd8-30572518a6a4,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
      <Object name="anvl_crk_eng_wall_4m-106" type="Brush" guid="40750c8d-6abb-b8b4-41d5-110ceaae4ea1"/>
      <Object name="anvl_crk_eng_wall_4m-110" type="Brush" guid="4e5bfc43-79e1-5fbc-1d2e-174fbc17c799"/>
@@ -3082,7 +3082,7 @@
      <Object name="TransitGateway-023" type="TransitGateway" guid="4d8cf32f-3abe-94ca-cf15-0c35c4ffee83" tags="632d7f73-4302-4268-8cd8-30572518a6a4,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
      <Object name="TransitManager-007" type="TransitManager" guid="46496e76-b25e-90d0-e73c-09cbae9c058a" tags="00ead468-9073-485b-a6df-ca6b94053603,35973a83-edc1-4dc2-8599-ea1adf9be424,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,84ee3196-9be9-490f-9902-e0953e270965"/>
      <Object name="TransitGateway-024" type="TransitGateway" guid="4f111e27-a6e2-a7d1-34e8-8c66644066b1" tags="632d7f73-4302-4268-8cd8-30572518a6a4,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
-     <Object name="ElevatorDoorDefault_ANVL_Carrack-001" type="ElevatorDoorDefault_ANVL_Carrack" guid="471bc644-db0e-3edc-8da2-844cf0f5e5ac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,00ead468-9073-485b-a6df-ca6b94053603,9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,0e515dc0-2cd7-4b2e-8578-f14a234f5eed,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,65c060b9-cf53-4706-93e7-9184a27cc9c1,75d84438-295e-409a-8a0f-9a530cc14218,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,5caff6ec-c71b-4e1c-b939-83263471611d,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,81bc340e-4964-4c2d-9689-fdbb23e4fd9f,1a1f10a2-894c-45ca-93d2-4785233c5250,78afd517-a3a1-48f5-b251-0a7c28f865bb,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
+     <Object name="ElevatorDoorDefault_ANVL_Carrack-005" type="ElevatorDoorDefault_ANVL_Carrack" guid="471bc644-db0e-3edc-8da2-844cf0f5e5ac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,00ead468-9073-485b-a6df-ca6b94053603,9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,0e515dc0-2cd7-4b2e-8578-f14a234f5eed,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,65c060b9-cf53-4706-93e7-9184a27cc9c1,75d84438-295e-409a-8a0f-9a530cc14218,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,5caff6ec-c71b-4e1c-b939-83263471611d,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,81bc340e-4964-4c2d-9689-fdbb23e4fd9f,1a1f10a2-894c-45ca-93d2-4785233c5250,78afd517-a3a1-48f5-b251-0a7c28f865bb,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
      <Object name="ElevatorDoorDefault_ANVL_Carrack-006" type="ElevatorDoorDefault_ANVL_Carrack" guid="4d98a5f0-ce6c-45ec-ce0a-110a443f3eb6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,00ead468-9073-485b-a6df-ca6b94053603,9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,0e515dc0-2cd7-4b2e-8578-f14a234f5eed,99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,65c060b9-cf53-4706-93e7-9184a27cc9c1,75d84438-295e-409a-8a0f-9a530cc14218,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,5caff6ec-c71b-4e1c-b939-83263471611d,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,a200fe19-284b-47d5-a4c2-83adbc5814ea,81bc340e-4964-4c2d-9689-fdbb23e4fd9f,1a1f10a2-894c-45ca-93d2-4785233c5250,78afd517-a3a1-48f5-b251-0a7c28f865bb,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,e0b2d2b3-a446-4bdc-a5f2-e9ca80835a1d"/>
      <Object name="TransitGateway-026" type="TransitGateway" guid="40b673d1-f410-dbec-6e4c-627834793999" tags="632d7f73-4302-4268-8cd8-30572518a6a4,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3"/>
      <Object name="TransitNavSpline-005" type="TransitNavSpline" guid="4896ec5c-1454-f7f2-5dda-51fe4af34a9b" tags="00ead468-9073-485b-a6df-ca6b94053603,43af619d-c16a-4148-9f06-00ee9b64dcb7"/>

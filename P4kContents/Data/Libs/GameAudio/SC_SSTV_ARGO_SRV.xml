@@ -49,8 +49,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTV_ARGO_SRV" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTV_ARGO_SRV_VTOL_Thruster_Loop">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTV_ARGO_SRV_VTOL_Thruster_Loop" wwise_radius_max="0" />
@@ -100,8 +102,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTV_ARGO_SRV" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTV_ARGO_SRV_VTOL_Thruster_OneShot_End">
       <WwiseEvent wwise_duration_max="4.882106" wwise_duration_min="2.239279" wwise_duration_type="OneShot" wwise_name="Play_SSTV_ARGO_SRV_VTOL_Thruster_OneShot_End" wwise_radius_max="550" />
@@ -149,8 +153,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTV_ARGO_SRV" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTV_ARGO_SRV_VTOL_Thruster_Thrust_OneShot_End">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSTV_ARGO_SRV_VTOL_Thruster_Thrust_OneShot_End" wwise_radius_max="550" />
@@ -197,8 +203,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTV_ARGO_SRV" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTV_ARGO_SRV_VTOL_Thruster_Thrust_OneShot_Start">
       <WwiseEvent wwise_duration_max="4.71675" wwise_duration_min="4.601" wwise_duration_type="OneShot" wwise_name="Play_SSTV_ARGO_SRV_VTOL_Thruster_Thrust_OneShot_Start" wwise_radius_max="550" />
@@ -245,8 +253,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTV_ARGO_SRV" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTV_ARGO_SRV_VTOL_Thruster_OneShot_Start">
       <WwiseEvent wwise_duration_max="5.216992" wwise_duration_min="3.36876655" wwise_duration_type="OneShot" wwise_name="Play_SSTV_ARGO_SRV_VTOL_Thruster_OneShot_Start" wwise_radius_max="550" />
@@ -294,8 +304,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTV_ARGO_SRV" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -308,4 +320,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

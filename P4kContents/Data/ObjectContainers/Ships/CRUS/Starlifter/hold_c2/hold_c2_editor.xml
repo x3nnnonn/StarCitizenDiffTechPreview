@@ -1,7 +1,7 @@
 <ObjectContainer sourceLevel="data/levels/!ship_setup/crus/starlifter">
  <Layers>
   <Layer fullname="Starlifter_Interior/Hold_C2" externalLayerLevelDir="data/levels/!ship_setup/crus/starlifter/Layers/" externalLayerParentDir="Starlifter_Interior/" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Hold_C2.lyr" ParentGUID="{BDEECEB8-449F-4167-A6AA-8FA910815C61}" layerHash="3748277388">
-   <Layer name="Hold_C2_ART" layerHash="4119173631" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Hold_C2/Hold_C2_ART.lyr">
+   <Layer name="Hold_C2_ART" layerHash="2699536834" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Hold_C2/Hold_C2_ART.lyr">
     <Object name="crus_starlifter_hold_floor_decal_a-001" type="Brush" guid="48b2cb22-8c95-0a00-900e-00f856384ebb"/>
     <Object name="crus_starlifter_hold_floor_2x4m_clean-001" type="Brush" guid="4b6cb5ab-8115-0401-291b-3116adeb4b83"/>
     <Object name="crus_starlifter_hold_shoulder_right-001" type="Brush" guid="49c2a9b7-84f4-1301-d583-00fb046281b5"/>
@@ -365,12 +365,12 @@
     <Object name="crus_starlifter_hold_floor_2x1m01-046" type="Brush" guid="43f2eb52-3ad2-11ff-9c00-7b1abb402892"/>
     <Object name="crus_starlifter_hold_floor_2x1m_a-028" type="Brush" guid="401cfa7c-3a8f-12ff-3bcb-74db8d7ed485"/>
    </Layer>
-   <Layer name="Hold_C2_LIGHTING" layerHash="1310228413" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Hold_C2/Hold_C2_LIGHTING.lyr">
+   <Layer name="Hold_C2_LIGHTING" layerHash="937791042" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Hold_C2/Hold_C2_LIGHTING.lyr">
     <Object name="Lt_Hold_Wall_Ceiling_Top_EMSV-001" type="Light" guid="400e83e2-acda-7c01-b2d0-0bc278e93aa6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Hold_Wall_Ceiling_Top_EMSV-002" type="Light" guid="4e186322-33cd-6403-5aff-8bca43b18290" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Light-000" type="Light" guid="454ce10f-414b-d503-b670-310ef918cb9d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Hold_Wall_Ceiling_Top_EMSV-012" type="Light" guid="4262921e-5ac3-fe03-a5e3-2329748afc93" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-    <Object name="ChipSet_DEFCON-011" type="ChipSet_DEFCON" guid="4a7499f5-1fdd-0604-5755-876ba8d2f4b3" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+    <Object name="ChipSet_DEFCON-011" type="ChipSet_DEFCON" guid="4a7499f5-1fdd-0604-5755-876ba8d2f4b3" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     <Object name="Lt_Hold_Front_Ramp_Forward-002" type="Light" guid="4ef1f3e5-4c17-a204-0a02-cf46996ff9ba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Hold_Front_Ramp_Ceiling-004" type="Light" guid="46900948-5adb-5a0c-ccfb-f5adab4da580" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="Lt_Hold_Wall_Bulkhead_B_Upper-004" type="Light" guid="44777fa4-552f-7b12-df5e-da5ed6fe78ae" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -470,10 +470,8 @@
    </Layer>
    <Layer name="Hold_C2_NAVMESH" layerHash="809269062" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Hold_C2/Hold_C2_NAVMESH.lyr"/>
    <Layer name="Hold_C2_ROOM" layerHash="1163053500" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Hold_C2/Hold_C2_ROOM.lyr"/>
-   <Layer name="Hold_C2_Room_Atmo" layerHash="1302619014" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Hold_C2/Hold_C2_Room_Atmo.lyr">
-    <Object name="Front_Ramp_RoomConnector-006" type="RoomConnector" guid="6fbedbe8-4933-fc41-44f4-3056237542ba" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
+   <Layer name="Hold_C2_Room_Atmo" layerHash="3546252293" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Hold_C2/Hold_C2_Room_Atmo.lyr">
     <Object name="Hold_C2_Room_RN" type="Room_RN" guid="4543a556-7fb3-694f-3ed7-27b999eb31ae" tags="00ead468-9073-485b-a6df-ca6b94053603,a6b8743c-94e1-47df-a8ab-0048c706a509,6a02960e-c347-4f8d-8899-35cc546f2a29,6dd22f9d-1758-4a2d-820f-6f1ad5f5fa78,afd66f73-2769-4e3f-b17c-a08c6dd1b361,a7c06cc7-a715-43b3-93b6-486483f26d18,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
-    <Object name="RoomConnector_Hold_001" type="RoomConnector" guid="6fd09be3-6bbb-b991-2b22-2fbf7b7ee0a5" tags="9ab4a7dd-0a3a-4850-b0b3-481df6ea78c3,afd66f73-2769-4e3f-b17c-a08c6dd1b361,5caff6ec-c71b-4e1c-b939-83263471611d,81bc340e-4964-4c2d-9689-fdbb23e4fd9f"/>
    </Layer>
    <Layer name="Hold_C2_SETUP" layerHash="1429150809" externalLayerFilePath="data/levels/!ship_setup/crus/starlifter/Layers/Starlifter_Interior/Hold_C2/Hold_C2_SETUP.lyr">
     <Object name="TagPoint-C2_Fleetweek_Rear" type="TagPoint" guid="4fc92c2a-7009-2403-878c-dc7105eac084" tags="00ead468-9073-485b-a6df-ca6b94053603,4aadb78b-a4f0-4155-b629-21f8bdc25ae1,ea708629-7d16-45b3-b362-878c90792430,a5873ef9-64e1-49fd-a317-637d683f22f0"/>

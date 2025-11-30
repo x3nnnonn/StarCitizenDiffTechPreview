@@ -144,7 +144,7 @@
           </Offset>
           <boneName>hardpoint_ext_lights</boneName>
           <shouldRequestNavMeshRegenerationOnLoad>False</shouldRequestNavMeshRegenerationOnLoad>
-          <resourceNetworkItemportName />
+          <resourceNetworkItemportName>hardpoint_relay_interior</resourceNetworkItemportName>
         </SVehicleObjectContainerParams>
         <SVehicleObjectContainerParams Type="SVehicleObjectContainerParams">
           <fileName>ObjectContainers/Ships/RSI/Meteor/base_int_body_main.socpak</fileName>
@@ -200,7 +200,7 @@
         <y>0</y>
         <z>0</z>
       </landingRotationOffset>
-      <fusePenetrationDamageMultiplier>0.001</fusePenetrationDamageMultiplier>
+      <fusePenetrationDamageMultiplier>0.05</fusePenetrationDamageMultiplier>
       <componentPenetrationDamageMultiplier>0.4</componentPenetrationDamageMultiplier>
     </VehicleComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
@@ -208,7 +208,7 @@
         <WearRange />
         <DirtRange />
         <InventoryItems Type="SLoadoutInventoryItem" Count="0" />
-        <entries Type="SItemPortLoadoutEntryParams" Count="65">
+        <entries Type="SItemPortLoadoutEntryParams" Count="64">
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_paint</itemPortName>
             <entityClassName />
@@ -387,13 +387,6 @@
             <itemPortName>hardpoint_radar</itemPortName>
             <entityClassName />
             <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/radar/radr_grnp_s01_ecouter.xml" />
-            <inventoryContainer />
-            <loadout />
-          </SItemPortLoadoutEntryParams>
-          <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
-            <itemPortName>hardpoint_ping</itemPortName>
-            <entityClassName />
-            <entityClassReference />
             <inventoryContainer />
             <loadout />
           </SItemPortLoadoutEntryParams>
@@ -627,7 +620,7 @@
           <SItemPortLoadoutEntryParams Type="SItemPortLoadoutEntryParams">
             <itemPortName>hardpoint_weapon_lower_right</itemPortName>
             <entityClassName />
-            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/weapon_mounts/gimbal/entityclassdefinition.mount_gimbal_s3.xml" />
+            <entityClassReference ReferencedFile="file://./../../../../../libs/foundry/records/entities/scitem/ships/weapon_mounts/gimbal/mount_gimbal_s5_rsi_meteor.xml" />
             <inventoryContainer />
             <loadout Type="SItemPortLoadoutManualParams">
               <WearRange />
@@ -2122,6 +2115,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -2150,6 +2146,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -2178,6 +2177,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -3565,7 +3567,7 @@
         <Pipes Type="SEnergyPipeDefinition" Count="0" />
       </masterController>
       <Ports Type="SItemPortDef" Count="4">
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:2" Type="SItemPortDef">
           <Name>hardpoint_controller_fuel</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
@@ -3674,7 +3676,7 @@
             <z>-1</z>
           </detachDirection>
         </SItemPortDef>
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:3" Type="SItemPortDef">
           <Name>hardpoint_fuel_port</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags>Ship_Dock_Refuel</PortTags>
@@ -3718,7 +3720,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>DockingCollar</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3788,7 +3790,7 @@
             <z>-1</z>
           </detachDirection>
         </SItemPortDef>
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:4" Type="SItemPortDef">
           <Name>hardpoint_air_traffic_controller</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
@@ -3832,7 +3834,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AirTrafficController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3902,7 +3904,7 @@
             <z>-1</z>
           </detachDirection>
         </SItemPortDef>
-        <SItemPortDef Type="SItemPortDef">
+        <SItemPortDef Pointer="ptr:1" Type="SItemPortDef">
           <Name>hardpoint_relay_interior</Name>
           <DisplayName>@LOC_EMPTY</DisplayName>
           <PortTags />
@@ -3946,7 +3948,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Relay</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -3998,8 +4000,21 @@
       <PortFlags />
       <PortTags>rsi_meteor</PortTags>
       <RequiredItemTags />
-      <InternalResourceLinks Type="SInternalResourceLink" Count="0" />
-      <InternalHardpointLinks Type="SInternalHardpointLink" Count="58">
+      <InternalResourceLinks Type="SInternalResourceLink" Count="3">
+        <SInternalResourceLink Type="SInternalResourceLink">
+          <port1 PointsTo="ptr:1" />
+          <port2 PointsTo="ptr:2" />
+        </SInternalResourceLink>
+        <SInternalResourceLink Type="SInternalResourceLink">
+          <port1 PointsTo="ptr:1" />
+          <port2 PointsTo="ptr:3" />
+        </SInternalResourceLink>
+        <SInternalResourceLink Type="SInternalResourceLink">
+          <port1 PointsTo="ptr:1" />
+          <port2 PointsTo="ptr:4" />
+        </SInternalResourceLink>
+      </InternalResourceLinks>
+      <InternalHardpointLinks Type="SInternalHardpointLink" Count="52">
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
           <port2>hardpoint_seat_pilot</port2>
@@ -4046,10 +4061,6 @@
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
-          <port2>hardpoint_controller_fuel</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay_interior</port1>
           <port2>hardpoint_controller_capacitor_assignment</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
@@ -4078,14 +4089,6 @@
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
-          <port2>hardpoint_scanner</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay_interior</port1>
-          <port2>hardpoint_ping</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay_interior</port1>
           <port2>hardpoint_computer</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
@@ -4110,10 +4113,6 @@
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
-          <port2>hardpoint_fuel_intake_right</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay_interior</port1>
           <port2>hardpoint_quantum_drive</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
@@ -4123,10 +4122,6 @@
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
           <port2>hardpoint_lifesupport</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay_interior</port1>
-          <port2>hardpoint_fuel_port</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
@@ -4146,11 +4141,11 @@
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
-          <port2>hardpoint_main_cannon_left</port2>
+          <port2>hardpoint_weapon_main_cannon_left</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
-          <port2>hardpoint_main_cannon_right</port2>
+          <port2>hardpoint_weapon_main_cannon_right</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
@@ -4175,10 +4170,6 @@
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
           <port2>hardpoint_countermeasure_launcher_right</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay_interior</port1>
-          <port2>landingpad_helper</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay_interior</port1>
@@ -4233,9 +4224,9 @@
           <port2>hardpoint_fuel_ground</port2>
         </SInternalHardpointLink>
       </InternalHardpointLinks>
-      <LinkAllItemsToResourceNetwork>True</LinkAllItemsToResourceNetwork>
+      <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
-      <doorsIgnorePower>False</doorsIgnorePower>
+      <doorsIgnorePower>True</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="7">
@@ -4306,7 +4297,7 @@
           <asopReset>False</asopReset>
           <networkAuthority>Local</networkAuthority>
           <States Type="SInteractionState" Count="3">
-            <SInteractionState Pointer="ptr:1" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:5" Type="SInteractionState">
               <StateName>Normal</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -4329,7 +4320,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:2" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:6" Type="SInteractionState">
               <StateName>Aux/Warning</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -4353,7 +4344,7 @@
                 <tags Type="Tag" Count="0" />
               </entityTags>
             </SInteractionState>
-            <SInteractionState Pointer="ptr:3" Type="SInteractionState">
+            <SInteractionState Pointer="ptr:7" Type="SInteractionState">
               <StateName>Critical</StateName>
               <EnterStateEffectGroup />
               <ExitStateEffectGroup />
@@ -4633,12 +4624,12 @@
       </adapters>
     </AINavigationDynamicTriggerComponent>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="HealthIconData" Count="2">
+      <perceptionTypes Type="ActorStatusUIWarning" Count="2">
         <EnumChoice>Vehicle</EnumChoice>
         <EnumChoice>Spaceship</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
+      <excludedSenses Type="ActorStatusPreset" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
       <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
       <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />
@@ -4665,9 +4656,9 @@
       <shotAlertTime>1</shotAlertTime>
     </AnnunciatorProviderParams>
     <EntityComponentResourceNetworkUIProviderParams Type="EntityComponentResourceNetworkUIProviderParams">
-      <normalState PointsTo="ptr:1" />
-      <auxState PointsTo="ptr:2" />
-      <criticalState PointsTo="ptr:3" />
+      <normalState PointsTo="ptr:5" />
+      <auxState PointsTo="ptr:6" />
+      <criticalState PointsTo="ptr:7" />
     </EntityComponentResourceNetworkUIProviderParams>
     <AtmosphericFlightDataParams Type="AtmosphericFlightDataParams" />
     <PositionTrackerComponentParams Type="PositionTrackerComponentParams" />

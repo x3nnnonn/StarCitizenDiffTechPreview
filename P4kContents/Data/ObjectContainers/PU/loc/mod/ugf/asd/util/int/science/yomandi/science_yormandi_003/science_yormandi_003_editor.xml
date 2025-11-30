@@ -1,6 +1,6 @@
 <ObjectContainer sourceLevel="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003">
  <Layers>
-  <Layer fullname="base/science_yormandi_003" externalLayerLevelDir="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/" externalLayerParentDir="base/" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003.lyr" ParentGUID="{B7CCAA6F-5534-446C-BBAC-4B83C4D947DC}" layerHash="1371403210">
+  <Layer fullname="base/science_yormandi_003" externalLayerLevelDir="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/" externalLayerParentDir="base/" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003.lyr" ParentGUID="{B7CCAA6F-5534-446C-BBAC-4B83C4D947DC}" layerHash="178522147">
    <Layer name="ai" layerHash="4068347214" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/ai.lyr">
     <Object name="Pool1_AreaBox" type="AreaBox" guid="46bfbe5d-ff9f-f936-2547-a35a213ba9b2" tags=""/>
     <Object name="ActionArea-YormandiArena" type="ActionArea" guid="4121280e-35f2-6168-e77b-51dc2bb59e9a" tags="00ead468-9073-485b-a6df-ca6b94053603,1442b7c7-06e8-441a-ae64-f1fc065a0e88,6021d779-64a2-4cc8-b968-cf88bf03d37e,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
@@ -19,7 +19,7 @@
     <Object name="Pool3_ActionArea" type="ActionArea" guid="4aeb5fb9-f91a-b5fc-ed9c-57bc7bf2fa90" tags="00ead468-9073-485b-a6df-ca6b94053603,2fbd6af9-2eff-479c-b1d7-2fba96f010ef,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
    </Layer>
    <Layer name="areas" layerHash="2499185774" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas.lyr">
-    <Layer name="airlock" layerHash="84969397" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/airlock.lyr">
+    <Layer name="airlock" layerHash="1799587576" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/airlock.lyr">
      <Layer name="floor" layerHash="1630030626" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/airlock/floor.lyr">
       <Object name="util_ugf_wall_set_f_wall_connector_10m_a-4387" type="Brush" guid="450301b2-5d16-eb6c-5e63-8da014807582"/>
       <Object name="util_ugf_wall_set_f_wall_connector_10m_a-4386" type="Brush" guid="478adcca-2f8e-4bf1-969b-eeb79f2147bf"/>
@@ -541,7 +541,7 @@
       <Object name="room_c_sm_wall_addon_frame_1m_b-019" type="Brush" guid="4b26463e-f529-89f9-d480-76f2ed73749e"/>
       <Object name="room_c_sm_wall_addon_frame_1m_b-010" type="Brush" guid="47dcb1bb-d526-93fa-8357-95234c77d6b6"/>
      </Layer>
-     <Layer name="prop" layerHash="2513122740" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/entrance_bridge/prop.lyr">
+     <Layer name="prop" layerHash="951358004" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/entrance_bridge/prop.lyr">
       <Object name="CoverSurface014-001" type="AICoverSurface" guid="466edf54-4042-c109-20cd-a1908fb0da80" tags="8e89c35f-9669-40ce-b8ed-e5ee28b24905"/>
       <Object name="ammo-box_1_ballistic_open_05x025x025_a-068" type="Brush" guid="433e88bc-599b-8e0c-e006-c6e93c3dfba4"/>
       <Object name="whitebox_cover_3-124" type="Brush" guid="4a3bd597-4688-ff0d-0ce0-1e12471c8b94"/>
@@ -672,7 +672,7 @@
      <Object name="util_ugf_wall_set_g_wall_connector_10m_a-753" type="Brush" guid="42c52243-ea5c-6a3b-42df-e862ba20bdbf"/>
      <Object name="shanty_beam_01x01x02_a-003" type="Brush" guid="49fcabc7-231e-87e4-3c54-e2f53c27efab"/>
     </Layer>
-    <Layer name="exit" layerHash="2215437825" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/exit.lyr">
+    <Layer name="exit" layerHash="749122610" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/exit.lyr">
      <Layer name="ceiling" layerHash="533695259" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/exit/ceiling.lyr"/>
      <Layer name="floor" layerHash="2963425972" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/exit/floor.lyr">
       <Object name="util_ugf_wall_set_f_wall_connector_10m_a-4319" type="Brush" guid="43a058e3-c953-ae00-01d8-75b46d5c22bb"/>
@@ -685,7 +685,7 @@
       <Object name="util_ugf_wall_set_f_wall_connector_10m_a-4330" type="Brush" guid="4362b8eb-eb8e-95d3-07de-0c4782941490"/>
       <Object name="util_ugf_wall_set_f_wall_connector_10m_a-4321" type="Brush" guid="4ebed049-1714-20e4-7b38-cb17135c5191"/>
      </Layer>
-     <Layer name="prop" layerHash="1736359492" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/exit/prop.lyr">
+     <Layer name="prop" layerHash="3441935889" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/exit/prop.lyr">
       <Object name="medical_tray_3_a-012" type="Brush" guid="4e479000-db72-4309-6843-dff5fd914c93"/>
       <Object name="crate_dry_1_0125x0125x0125_stack_a-004" type="Brush" guid="42a5849d-b15e-c109-5235-9c86c14aacba"/>
       <Object name="whitebox_cover_3-131" type="Brush" guid="4b0ec11b-ee46-800e-5a76-53677aa82e88"/>
@@ -876,7 +876,7 @@
       <Object name="roomsm_floor_straight_04x04x0025_a-18978" type="Brush" guid="4b81a95b-f1f6-dbf8-e5bc-6518054a73a0"/>
       <Object name="roomsm_floor_straight_04x04x0025_a-18965" type="Brush" guid="419f8474-28f4-fcfa-840c-f44d1148458f"/>
      </Layer>
-     <Layer name="prop" layerHash="3631336586" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/viewroom/prop.lyr">
+     <Layer name="prop" layerHash="3050702722" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/viewroom/prop.lyr">
       <Object name="monitor_1_a-001" type="Brush" guid="488bbb5d-2920-8400-9c39-b73b11e4ad8a"/>
       <Object name="util_ugf_wall_set_f_wall_connector_10m_a-4366" type="Brush" guid="4ae62e6b-ee8f-3d02-8ae7-c2988082e5af"/>
       <Object name="EnvironmentScreen_Fluff-003" type="EnvironmentScreen_Fluff" guid="4fa3bd62-058a-5702-02b1-50ce82ebb2b4" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
@@ -986,7 +986,7 @@
       <Object name="util_ugf_wall_set_f_wall_connector_10m_a-4370" type="Brush" guid="44841468-ea27-87fb-5f24-761023a569a4"/>
       <Object name="screen_hospital_1_b-016" type="Brush" guid="4b22a41c-a39d-9ffb-3295-3f721145a899"/>
      </Layer>
-     <Layer name="wall" layerHash="3460434810" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/viewroom/wall.lyr">
+     <Layer name="wall" layerHash="4218879252" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/areas/viewroom/wall.lyr">
       <Object name="roomsm_floor_straight_04x04x0025_a-4902" type="Brush" guid="453fc18d-d23a-8400-16ee-3031a3a14299"/>
       <Object name="roomsm_floor_straight_04x04x0025_a-18594" type="Brush" guid="4f55b2ec-aa02-ed03-4ece-c2c56855d383"/>
       <Object name="roomsm_floor_straight_04x04x0025_a-18945" type="Brush" guid="4c08688a-bc22-b007-c3dd-138ba049bd8d"/>
@@ -1647,6 +1647,27 @@
     <Object name="pivot_marker-001" type="Brush" guid="4433af8b-2240-7127-f61d-c9c90fafd992"/>
     <Object name="asd_yormandi_gate_001" type="Brush" guid="40cc12ae-3898-7084-51ca-1b980af13f9f"/>
    </Layer>
+   <Layer name="collision" layerHash="1716973500" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/collision.lyr">
+    <Object name="Designer-19539" type="Designer" guid="4ac3a292-d20b-ee07-bd9b-e4fd62a83a8e"/>
+    <Object name="Designer-19541" type="Designer" guid="4ac35f30-4508-790a-a0b3-195cc1185d98"/>
+    <Object name="Designer-19535" type="Designer" guid="49d0dec9-8889-7111-a0ea-f7056ecf95b2"/>
+    <Object name="Designer-19525" type="Designer" guid="48db09e4-5816-691d-7bd8-db5cf265efb7"/>
+    <Object name="Designer-19526" type="Designer" guid="42e5caea-88e1-9b2d-fc1b-f520c70e248e"/>
+    <Object name="Designer-19547" type="Designer" guid="4eb32a6d-ca40-e33d-121a-15c01892c482"/>
+    <Object name="Designer-19530" type="Designer" guid="4be1c254-6ffe-9557-51a2-7371260ff1b8"/>
+    <Object name="Designer-19534" type="Designer" guid="48679bf3-a435-5a5d-9a61-e2a848bdf1a7"/>
+    <Object name="Designer-19546" type="Designer" guid="438b1e32-14dd-a761-285a-ea26ede7bb9a"/>
+    <Object name="Designer-19527" type="Designer" guid="45f108db-ecca-6e73-60bc-c42c7ae31c8f"/>
+    <Object name="Designer-19538" type="Designer" guid="4ca63c11-027e-f87c-7a00-dbc45a9142bf"/>
+    <Object name="Designer-19542" type="Designer" guid="40599f6c-6946-ea95-22ba-2be60fba03a7"/>
+    <Object name="Designer-19529" type="Designer" guid="4481deb9-d0eb-24a2-89df-a1382c3104a9"/>
+    <Object name="Designer-19544" type="Designer" guid="449fdb06-153c-88bb-dbd1-aa192634bc84"/>
+    <Object name="Designer-19540" type="Designer" guid="4e8468e1-a0de-04ca-99a6-e26e2f60e485"/>
+    <Object name="Designer-19545" type="Designer" guid="41112952-1af4-b8cc-35d1-4a4b904babb2"/>
+    <Object name="Designer-19528" type="Designer" guid="4b1feb4a-b288-aecd-eea3-c99edc9f4fab"/>
+    <Object name="Designer-19536" type="Designer" guid="474f579c-f5c1-18dd-9fe2-3469119c02bc"/>
+    <Object name="Designer-19537" type="Designer" guid="4e8af4b7-e7f8-45ea-9fe5-c4f326b5408a"/>
+   </Layer>
    <Layer name="cover" layerHash="2278887032" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/cover.lyr"/>
    <Layer name="decal" layerHash="3978290046" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/decal.lyr">
     <Object name="Decal-3759" type="Decal" guid="4a5786de-df3c-f901-ef9b-d0b112f2888e"/>
@@ -1919,7 +1940,7 @@
     <Object name="Decal-3781" type="Decal" guid="411c4e73-07d1-cdfd-bc5b-1ae26e87b5a6"/>
     <Object name="Decal-3735" type="Decal" guid="4c3221cd-0edb-34fe-3094-b4ac01a467a9"/>
    </Layer>
-   <Layer name="geo" layerHash="3887997173" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/geo.lyr">
+   <Layer name="geo" layerHash="1631520033" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/geo.lyr">
     <Object name="Designer-19341" type="Designer" guid="4404fb4d-abfb-9d04-6cc0-10e920658898"/>
     <Object name="Designer-19315" type="Designer" guid="45429d01-75db-4105-07a6-78a22f5794ba"/>
     <Object name="Designer-19348" type="Designer" guid="4ee9639a-d2bf-a30b-19df-da2d6171e08c"/>
@@ -2941,14 +2962,14 @@
     <Object name="ATS_Int_Sci_Server_03" type="AudioTriggerSpot" guid="4c54feaf-494c-c7f6-06d5-fd9128d77ba4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="ATS_Int_Sci_Yormandi_Drops_12" type="AudioTriggerSpot" guid="44bde719-571d-5ff8-987c-ee22d25aee96" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
    </Layer>
-   <Layer name="sys" layerHash="1495348321" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/sys.lyr">
+   <Layer name="sys" layerHash="4213490296" externalLayerFilePath="data/levels/!oc/pu/loc/mod/ugf/asd/util/int/science/yormandi/science_yormandi_003/Layers/base/science_yormandi_003/sys.lyr">
     <Object name="Designer-19497" type="Designer" guid="4d247ebd-b86b-1601-e781-6a17a9fbdfb4"/>
     <Object name="Designer-19517" type="Designer" guid="461813b6-d233-1b01-20c9-c17d84b82d8a"/>
     <Object name="Designer-19488" type="Designer" guid="41337b34-0cf4-440c-a547-97b7d2c18ea9"/>
     <Object name="Designer-19516" type="Designer" guid="417262b2-5969-220f-9deb-61538881a9ae"/>
     <Object name="Designer-19508" type="Designer" guid="447494b5-855e-3312-7a6e-908bebb0dba6"/>
     <Object name="Designer-19522" type="Designer" guid="4edd36c4-ccd2-ab16-6b0c-bc9e79cf0792"/>
-    <Object name="Designer-19524" type="Designer" guid="4b2d1049-82c3-461b-0055-645e74160b97"/>
+    <Object name="Designer-19523" type="Designer" guid="4b2d1049-82c3-461b-0055-645e74160b97"/>
     <Object name="Designer-19489" type="Designer" guid="41abf63e-ae28-c521-1e64-6e1639c98ead"/>
     <Object name="Designer-19519" type="Designer" guid="40c6dc74-9a87-0d26-cefc-403eb21fb4ad"/>
     <Object name="Designer-19515" type="Designer" guid="41fbb493-5fff-4d28-e565-bb11913195b5"/>
@@ -2956,12 +2977,12 @@
     <Object name="AreaBox" type="AreaBox" guid="41e0ed2f-e96c-d234-65bd-ff87ed57ff90" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
     <Object name="Designer-19512" type="Designer" guid="4c00bdd3-d36d-9f44-01d0-cbf9997354a4"/>
     <Object name="Designer-19496" type="Designer" guid="4ff50737-6584-0745-a450-42b33cd1be92"/>
-    <Object name="Designer-19521" type="Designer" guid="4ecfa278-2e23-014e-25d9-7ef9b8c3d6bc"/>
-    <Object name="Designer-19523" type="Designer" guid="46fc56ca-d4f5-5f4f-2bfb-2eb19f27fb80"/>
+    <Object name="Designer-19520" type="Designer" guid="4ecfa278-2e23-014e-25d9-7ef9b8c3d6bc"/>
+    <Object name="Designer-19521" type="Designer" guid="46fc56ca-d4f5-5f4f-2bfb-2eb19f27fb80"/>
     <Object name="Designer-19500" type="Designer" guid="49142468-2e19-bf51-07d4-ecdb788bb282"/>
     <Object name="Designer-19507" type="Designer" guid="48d42d74-1a59-fc55-0e07-c654abf65d83"/>
     <Object name="Designer-19506" type="Designer" guid="49152e95-a8fe-0d56-a0dd-0c50103f1a9c"/>
-    <Object name="Designer-19520" type="Designer" guid="4e9dc96c-f705-615a-dd77-78bcc9b1a0bc"/>
+    <Object name="Designer-19524" type="Designer" guid="4e9dc96c-f705-615a-dd77-78bcc9b1a0bc"/>
     <Object name="Designer-19503" type="Designer" guid="4a9ab910-9a79-6d75-6ccf-b05d513f8ca7"/>
     <Object name="Designer-19509" type="Designer" guid="4b47bdbe-dac9-3b85-a48f-1409674e1f84"/>
     <Object name="Designer-19511" type="Designer" guid="475863d0-b07a-b596-e962-90d5272a07a6"/>

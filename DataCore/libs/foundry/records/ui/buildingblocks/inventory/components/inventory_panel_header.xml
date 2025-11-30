@@ -3199,8 +3199,8 @@
     </BuildingBlocks_WidgetCheckboxControl>
   </scene>
   <library Type="BuildingBlocks_WidgetBase" Count="0" />
-  <operations Type="BuildingBlocks_Node" Count="9">
-    <BuildingBlocks_BindingsLocalizedComponentParameter Pointer="ptr:6" Type="BuildingBlocks_BindingsLocalizedComponentParameter">
+  <operations Type="BuildingBlocks_Node" Count="14">
+    <BuildingBlocks_BindingsLocalizedComponentParameter Pointer="ptr:13" Type="BuildingBlocks_BindingsLocalizedComponentParameter">
       <name>TextString</name>
       <parameter>ParamInput0</parameter>
       <defaultValue>@LOC_EMPTY</defaultValue>
@@ -3245,6 +3245,33 @@
       <field>ParamInput0</field>
       <input PointsTo="ptr:11" />
     </BuildingBlocks_BindingsStringField>
+    <BuildingBlocks_BindingsLocalizedComponentParameter Pointer="ptr:12" Type="BuildingBlocks_BindingsLocalizedComponentParameter">
+      <name>TextString</name>
+      <parameter>ParamInput1</parameter>
+      <defaultValue>@LOC_EMPTY</defaultValue>
+    </BuildingBlocks_BindingsLocalizedComponentParameter>
+    <BindingsOperation_BooleanFromLocalizationIsEmpty Pointer="ptr:15" Type="BindingsOperation_BooleanFromLocalizationIsEmpty">
+      <input PointsTo="ptr:12" />
+    </BindingsOperation_BooleanFromLocalizationIsEmpty>
+    <BuildingBlocks_BindingsLocalizedFromBoolean Pointer="ptr:6" Type="BuildingBlocks_BindingsLocalizedFromBoolean">
+      <isTrue>@LOC_EMPTY</isTrue>
+      <isFalse>@LOC_EMPTY</isFalse>
+      <inputTrue PointsTo="ptr:13" />
+      <inputFalse PointsTo="ptr:14" />
+      <input PointsTo="ptr:15" />
+    </BuildingBlocks_BindingsLocalizedFromBoolean>
+    <BindingsOperations_LocalizationCombine Pointer="ptr:16" Type="BindingsOperations_LocalizationCombine">
+      <inputL PointsTo="ptr:13" />
+      <inputR />
+      <value>@text_ui_units_slash</value>
+      <withSpace>True</withSpace>
+    </BindingsOperations_LocalizationCombine>
+    <BindingsOperations_LocalizationCombine Pointer="ptr:14" Type="BindingsOperations_LocalizationCombine">
+      <inputL PointsTo="ptr:16" />
+      <inputR PointsTo="ptr:12" />
+      <value>@LOC_EMPTY</value>
+      <withSpace>True</withSpace>
+    </BindingsOperations_LocalizationCombine>
   </operations>
   <overrideDefaultTooltipCanvas />
   <overrideDefaultCalloutCanvas />

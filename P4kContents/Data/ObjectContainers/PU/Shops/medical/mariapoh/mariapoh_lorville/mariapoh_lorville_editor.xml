@@ -4,14 +4,14 @@
    <Layer name="EnvironmentFX_MLBA" layerHash="3947432354" externalLayerFilePath="data/levels/!oc/pu/shops/medical/mariapoh/Layers/MariaPOH_Lorville_Base_A/EnvironmentFX_MLBA.lyr"/>
    <Layer name="Audio_MLBA" layerHash="2620914803" externalLayerFilePath="data/levels/!oc/pu/shops/medical/mariapoh/Layers/MariaPOH_Lorville_Base_A/Audio_MLBA.lyr"/>
    <Layer name="Gameplay_MLBA" layerHash="3585264154" externalLayerFilePath="data/levels/!oc/pu/shops/medical/mariapoh/Layers/MariaPOH_Lorville_Base_A/Gameplay_MLBA.lyr">
-    <Object name="SES_op_room_door-004" type="AudioTriggerSpot" guid="46350198-7b77-4808-0a22-aca58dd072a8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+    <Object name="SES_op_room_door-005" type="AudioTriggerSpot" guid="46350198-7b77-4808-0a22-aca58dd072a8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="Prefab007" type="Prefab" guid="4207712f-8f0f-9749-a439-c61d84d78197"/>
-    <Object name="SES_op_room_door-005" type="AudioTriggerSpot" guid="4bf1b084-52ba-3657-86ac-fb611282daa8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+    <Object name="SES_op_room_door" type="AudioTriggerSpot" guid="4bf1b084-52ba-3657-86ac-fb611282daa8" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="Prefab007-006" type="Prefab" guid="4f4bfde4-54df-985b-5a32-dfb2585eb380"/>
     <Object name="ATS_medDoor_Fasade_Sound" type="AudioTriggerSpot" guid="40e55802-ea47-2575-7961-5e7af23d11b7" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="Prefab007-005" type="Prefab" guid="49ca7cca-af3f-1690-19bd-5a1773d851bd"/>
     <Object name="Prefab045-366" type="Prefab" guid="44c76ee9-60a5-3b9f-fb53-f992e54b7b94"/>
-    <Object name="SES_op_room_door" type="AudioTriggerSpot" guid="41e19ad2-baf3-40ea-2909-f25d519bcfaa" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+    <Object name="SES_op_room_door-006" type="AudioTriggerSpot" guid="41e19ad2-baf3-40ea-2909-f25d519bcfaa" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
    </Layer>
    <Layer name="Lights_MLBA" layerHash="1671843749" externalLayerFilePath="data/levels/!oc/pu/shops/medical/mariapoh/Layers/MariaPOH_Lorville_Base_A/Lights_MLBA.lyr">
     <Object name="Light-134" type="Light" guid="48513aa5-6fa6-0800-cb4d-e0deddf06b91" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
@@ -185,7 +185,7 @@
    <Layer name="VisArea_MLBA" layerHash="2423538545" externalLayerFilePath="data/levels/!oc/pu/shops/medical/mariapoh/Layers/MariaPOH_Lorville_Base_A/VisArea_MLBA.lyr"/>
    <Layer name="Props_MLBA" layerHash="4200935215" externalLayerFilePath="data/levels/!oc/pu/shops/medical/mariapoh/Layers/MariaPOH_Lorville_Base_A/Props_MLBA.lyr">
     <Object name="hangar_business_v2_desk_01-003" type="Brush" guid="4239ceae-80e0-ce1d-9f3f-195d1047bf98"/>
-    <Object name="medical_bench_3seats_a-019" type="Brush" guid="417ced9b-96aa-ca21-c549-708c90caecb5"/>
+    <Object name="medical_bench_3seats_a-016" type="Brush" guid="417ced9b-96aa-ca21-c549-708c90caecb5"/>
     <Object name="desk_welcome_top_straight_a-009" type="Brush" guid="42b738a4-471f-b924-cd7f-c721818fb4b0"/>
     <Object name="desk_welcome_top_straight_a-007" type="Brush" guid="43947be6-ebbf-3025-e7f9-faab90096591"/>
     <Object name="Prefab045-272" type="Prefab" guid="4a2518e4-5d7e-c72f-19ee-f3d918022c87"/>
@@ -193,7 +193,7 @@
     <Object name="medical_bench_3seats_a-020" type="Brush" guid="4d350233-5a89-9d40-04e7-f554b2279193"/>
     <Object name="Light-219" type="Light" guid="4651b6f9-eaf6-3641-d51f-73d224477b96" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="Prefab045-440" type="Prefab" guid="4a103d85-cdfb-5c49-47a7-4bc8427f5c83"/>
-    <Object name="medical_bench_3seats_a-016" type="Brush" guid="4ffd75bf-f54b-2763-ae58-3f02f6aed5bf"/>
+    <Object name="medical_bench_3seats_a-018" type="Brush" guid="4ffd75bf-f54b-2763-ae58-3f02f6aed5bf"/>
     <Object name="Prefab045-439" type="Prefab" guid="4bee7fb0-f4a9-cb64-7fb3-ac7a3291b8ba"/>
     <Object name="planter_modrn_medium_a-008" type="Brush" guid="4a14edf2-e26a-206f-7b40-e17e135ed8bc"/>
     <Object name="Prefab001-044" type="Prefab" guid="41c26fd0-c189-b976-7993-b4c9129406b0"/>
@@ -211,45 +211,45 @@
     <Object name="Prefab045-441" type="Prefab" guid="4fee340f-4343-f5a5-5f4c-bb434f759382"/>
     <Object name="Light-173" type="Light" guid="4223125f-9c44-36a6-5224-3d9c02aef487" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="Light-171" type="Light" guid="4ac8ce64-3a9b-b1ae-880e-774ee3b60cac" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-    <Object name="medical_bench_3seats_a-018" type="Brush" guid="46688908-a88c-f2ae-bcf3-99c53b9fc08f"/>
-    <Object name="medical_bench_3seats_a-015" type="Brush" guid="4f4d03d9-d4fa-98af-802e-d92483b8c383"/>
+    <Object name="medical_bench_3seats_a-019" type="Brush" guid="46688908-a88c-f2ae-bcf3-99c53b9fc08f"/>
+    <Object name="medical_bench_3seats_a-017" type="Brush" guid="4f4d03d9-d4fa-98af-802e-d92483b8c383"/>
     <Object name="Light-174" type="Light" guid="46b92b8d-77d8-c3b5-57e4-5af1baa617a6" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="planter_modrn_medium_a-005" type="Brush" guid="4c78f9e8-016e-adb6-7d54-0354f674e698"/>
     <Object name="desk_welcome_top_straight_a-004" type="Brush" guid="4b591e12-886f-fbb9-8d3b-fa418a0a0083"/>
     <Object name="desk_welcome_top_straight_a-008" type="Brush" guid="401298d6-58af-0abb-7641-9e43fcf01f84"/>
-    <Object name="medical_bed_a-004" type="Brush" guid="41f13d80-6d42-cabb-2217-031d8852e4b4"/>
+    <Object name="medical_bed_a-003" type="Brush" guid="41f13d80-6d42-cabb-2217-031d8852e4b4"/>
     <Object name="prop_medical_machinery_a-004" type="Brush" guid="4cea88b4-b9ab-e4c1-3a41-7b2a57a6a39d"/>
     <Object name="desk_welcome_bottom_straight_a-003" type="Brush" guid="41660fa0-16c9-07c2-07c2-219c1b1bd8a0"/>
-    <Object name="Light-221" type="Light" guid="492884b7-31eb-25cc-e817-f52e6f38e89d" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+    <Object name="Light-220" type="Light" guid="492884b7-31eb-25cc-e817-f52e6f38e89d" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="hangar_business_v2_desk_01-004" type="Brush" guid="465aeef0-53f2-98cc-8ea1-0edcd4f5b080"/>
     <Object name="Light-000" type="Light" guid="495874c9-50c4-10cd-e335-a928344118a6" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-    <Object name="Light-218" type="Light" guid="4cdce9b2-bf4a-a2d5-9483-c4233cdf5794" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+    <Object name="Light-002" type="Light" guid="4cdce9b2-bf4a-a2d5-9483-c4233cdf5794" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="Prefab045-278" type="Prefab" guid="4bcd75de-f90c-3fd7-791e-ba6a90df10ab"/>
     <Object name="planter_modrn_medium_a-003" type="Brush" guid="43f70d4d-bc47-7cd9-2d79-1b91f66b02b1"/>
-    <Object name="medical_bed_a-003" type="Brush" guid="47eecfc4-051f-abd9-fde5-b2bf4587169a"/>
+    <Object name="medical_bed_a-004" type="Brush" guid="47eecfc4-051f-abd9-fde5-b2bf4587169a"/>
     <Object name="Prefab045-273" type="Prefab" guid="47cd1d77-c569-5cdb-f56b-86958a9f49b2"/>
-    <Object name="medical_bench_3seats_a-017" type="Brush" guid="4867eace-0424-6fde-bb03-4e7dc8ef8586"/>
+    <Object name="medical_bench_3seats_a-015" type="Brush" guid="4867eace-0424-6fde-bb03-4e7dc8ef8586"/>
     <Object name="Prefab045-260" type="Prefab" guid="43882424-993a-77e6-fe06-917cc6eee084"/>
-    <Object name="Light-220" type="Light" guid="41ad8b65-82c5-27e9-622f-b6797dfb139a" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+    <Object name="Light-218" type="Light" guid="41ad8b65-82c5-27e9-622f-b6797dfb139a" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="Prefab045-271" type="Prefab" guid="475ec2e2-ce04-c3eb-83cf-f4ff9f91aca0"/>
     <Object name="planter_modrn_medium_a-006" type="Brush" guid="46a236c2-958e-5fed-230a-903e340ecab7"/>
     <Object name="Light-217" type="Light" guid="4fc7484a-a1a2-14f7-0de4-de905fe8e9ab" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
    </Layer>
-   <Layer name="BaseGeo_MLBA" layerHash="2686887360" externalLayerFilePath="data/levels/!oc/pu/shops/medical/mariapoh/Layers/MariaPOH_Lorville_Base_A/BaseGeo_MLBA.lyr">
+   <Layer name="BaseGeo_MLBA" layerHash="817409243" externalLayerFilePath="data/levels/!oc/pu/shops/medical/mariapoh/Layers/MariaPOH_Lorville_Base_A/BaseGeo_MLBA.lyr">
     <Object name="roomsm_trim_straight_04x0025x01_a-093" type="Brush" guid="42b7d686-bd14-0100-c504-59504aa66981"/>
     <Object name="roomlg_floor_straight_08x08x0025_a-063" type="Brush" guid="4393ae34-de64-2200-690b-c90318f4728d"/>
     <Object name="roomsm_wall_straight_04x01x04_a-113" type="Brush" guid="4f057c23-206c-7800-2358-7285cc7021a9"/>
     <Object name="Prefab045-374" type="Prefab" guid="4c61b2da-37f2-e100-ac8e-7932791e1b83"/>
     <Object name="roomlg_wall_straight_top_04x01x04_a-042" type="Brush" guid="420a49df-9261-1601-7f41-ef1e0ac17bbd"/>
     <Object name="roomsm_addon_elevator_shaft_open_04x04x04_a-002" type="Brush" guid="40b81854-2e01-d201-01b4-f9f4c66f008d"/>
-    <Object name="wall_1x8x8_a-006" type="Brush" guid="4da17794-adae-d501-4a3e-d328e50211b1"/>
+    <Object name="wall_1x8x8_a-005" type="Brush" guid="4da17794-adae-d501-4a3e-d328e50211b1"/>
     <Object name="Prefab045-425" type="Prefab" guid="4048e7b4-91a4-bf02-3640-c6f5972c70be"/>
     <Object name="roomlg_floor_straight_08x08x0025_a-044" type="Brush" guid="4f70b773-2eb9-f103-7372-68135a38c999"/>
     <Object name="Prefab045-421" type="Prefab" guid="4b4567b0-9533-3804-8d4b-48e17f744daf"/>
     <Object name="roomsm_wall_straight_04x01x04_a-118" type="Brush" guid="4c2fdf8c-0c48-ee04-1644-f8c45a9188b5"/>
     <Object name="wall_1x8x8_door_b-001" type="Brush" guid="472a6bec-59b5-1205-b87f-f13c2d9aea94"/>
     <Object name="roomsm_wall_straight_04x01x04_a-133" type="Brush" guid="4a7117ac-a8ac-6b07-690d-c3a5bb7050ac"/>
-    <Object name="corner_01x01x08_in_a-003" type="Brush" guid="48688e8f-f561-7207-15b2-46a68e8e7c95"/>
+    <Object name="corner_01x01x08_in_a-002" type="Brush" guid="48688e8f-f561-7207-15b2-46a68e8e7c95"/>
     <Object name="SES_op_room_door-003" type="AudioTriggerSpot" guid="47b1f4b9-0c83-bc07-b672-8fc08722f295" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="roomlg_floor_straight_08x08x0025_a-056" type="Brush" guid="492c21bb-34e9-620b-3fbc-28e009775998"/>
     <Object name="roomlg_ceiling_straight_08x08x0025_a-022" type="Brush" guid="4f7ace16-368a-a00b-b63c-7fc523c61e92"/>
@@ -264,8 +264,8 @@
     <Object name="roomlg_floor_straight_08x08x0025_a-050" type="Brush" guid="4d718e8e-deb7-6e13-20fa-eee0efe9bfaa"/>
     <Object name="Prefab045-076" type="Prefab" guid="4bc4d8b6-76ce-1514-22e0-9b6abb3bbca9"/>
     <Object name="roomsm_wall_straight_04x01x04_a-050" type="Brush" guid="42568d5d-cba1-2214-d7ce-d4b84d67a68c"/>
-    <Object name="wall_1x8x8_a-011" type="Brush" guid="4f427cc4-a6de-1615-eb4d-46c324d2b0b9"/>
-    <Object name="corner_01x01x08_in_a-008" type="Brush" guid="4900c1d4-721d-3b15-1d82-ea23879b0c99"/>
+    <Object name="wall_1x8x8_a-010" type="Brush" guid="4f427cc4-a6de-1615-eb4d-46c324d2b0b9"/>
+    <Object name="corner_01x01x08_in_a-006" type="Brush" guid="4900c1d4-721d-3b15-1d82-ea23879b0c99"/>
     <Object name="Prefab045-275" type="Prefab" guid="48ebc153-6d4f-d616-ac20-482e9d7237b9"/>
     <Object name="roomsm_trim_straight_04x0025x01_a-057" type="Brush" guid="4a164d76-d901-1c17-7b3f-0281ea4a43b5"/>
     <Object name="roomlg_wall_straight_top_04x01x04_a-034" type="Brush" guid="468b15d2-b25f-5418-6b3e-daffc200cc90"/>
@@ -276,7 +276,7 @@
     <Object name="wall_1x8x8_a-007" type="Brush" guid="4654bb8a-9f47-461c-a4d0-6d22f57f4285"/>
     <Object name="door_medical_b-016" type="Brush" guid="4e6dcf46-27ab-791c-253a-ce9b8261adab"/>
     <Object name="Prefab045-290" type="Prefab" guid="49069133-b6c1-af1c-b681-0641d8b8c7b4"/>
-    <Object name="corner_01x01x08_in_a-002" type="Brush" guid="47e11a25-70b6-d91d-15ce-eaec7c57dcbb"/>
+    <Object name="corner_01x01x08_in_a-003" type="Brush" guid="47e11a25-70b6-d91d-15ce-eaec7c57dcbb"/>
     <Object name="Prefab045-377" type="Prefab" guid="4b284cf6-71bc-351e-e3ce-b163b3119e85"/>
     <Object name="Prefab045-422" type="Prefab" guid="49bc3f89-6cc3-3c1f-f643-6e8a23116699"/>
     <Object name="roomsm_trim_straight_04x0025x01_a-069" type="Brush" guid="445c3aea-fb8a-7a1f-c53b-e51b53cd61a9"/>
@@ -286,9 +286,9 @@
     <Object name="roomsm_addon_pillar_mid_01x01x03_a-033" type="Brush" guid="495ca783-d23c-9221-6860-aa8a8135d0b8"/>
     <Object name="Prefab045-437" type="Prefab" guid="462e6b3b-8555-d621-2ceb-b56c6062baac"/>
     <Object name="Prefab045-438" type="Prefab" guid="40310a66-d652-0322-e1cd-d5a26e6a26a1"/>
-    <Object name="wall_1x8x8_door_a-003" type="Brush" guid="46571b31-25ba-5925-0500-d5597e617daf"/>
+    <Object name="wall_1x8x8_door_a-004" type="Brush" guid="46571b31-25ba-5925-0500-d5597e617daf"/>
     <Object name="medical_window_a-006" type="Brush" guid="491a95e7-36ea-e525-cfbc-1c3d323e3e94"/>
-    <Object name="corner_01x01x08_in_a-005" type="Brush" guid="44eb882a-2253-b126-9636-bd3cb9d67eae"/>
+    <Object name="corner_01x01x08_in_a-008" type="Brush" guid="44eb882a-2253-b126-9636-bd3cb9d67eae"/>
     <Object name="roomsm_addon_pillar_mid_01x01x03_a-032" type="Brush" guid="48364e44-df5e-f027-e194-6d1b77740e98"/>
     <Object name="Prefab045-426" type="Prefab" guid="46e8789c-3649-dd28-263b-6df2fc75db8f"/>
     <Object name="roomlg_floor_straight_08x08x0025_a-054" type="Brush" guid="48f08bc9-845e-4529-1ae7-0873ccf36789"/>
@@ -298,7 +298,7 @@
     <Object name="Prefab045-431" type="Prefab" guid="4d948d6b-6d9b-002d-bf7c-bd1e42abe989"/>
     <Object name="roomsm_wall_straight_door_04x01x04_a-034" type="Brush" guid="49ef0eea-6d37-632d-1b79-71af97aeea89"/>
     <Object name="roomsm_trim_straight_04x0025x01_a-074" type="Brush" guid="4cf63382-81e4-e32d-67d9-fada63cdf394"/>
-    <Object name="wall_1x8x8_a-015" type="Brush" guid="462ca6cc-5d1f-6d2e-484b-3d5e32c0949f"/>
+    <Object name="wall_1x8x8_a-016" type="Brush" guid="462ca6cc-5d1f-6d2e-484b-3d5e32c0949f"/>
     <Object name="roomsm_wall_straight_04x01x04_a-066" type="Brush" guid="4d371f99-cb4d-012f-2c34-34c82900b8ae"/>
     <Object name="roomsm_trim_straight_04x0025x01_a-081" type="Brush" guid="42e23f4f-5865-ff2f-1365-053e4c7e5eb8"/>
     <Object name="Prefab045-375" type="Prefab" guid="4f8b8020-bacc-f132-4d8e-f874f6268baf"/>
@@ -363,26 +363,26 @@
     <Object name="dual_anim_bars_01-005" type="Brush" guid="45f4053b-7c93-d35d-b367-b2bcb9ac409f"/>
     <Object name="roomlg_wall_straight_top_04x01x04_a-030" type="Brush" guid="4e28f177-ec97-bf5e-5fb3-ee7974b264bf"/>
     <Object name="wall_1x8x8_door_a-006" type="Brush" guid="49c77d4b-63bc-e15e-e80b-e163e5fa5882"/>
-    <Object name="dual_anim_bars_01-006" type="Brush" guid="44ce6c2b-c454-155f-4fae-fc368f35eb87"/>
+    <Object name="dual_anim_bars_01-007" type="Brush" guid="44ce6c2b-c454-155f-4fae-fc368f35eb87"/>
     <Object name="ATS_medDoor_Fasade_Sound-002" type="AudioTriggerSpot" guid="427cf757-a352-3d5f-c3fe-a0c4dde1a389" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-    <Object name="ceiling_08x08_straight_a-004" type="Brush" guid="4852c4f2-f56b-f05f-2060-9e942b5edd8a"/>
+    <Object name="ceiling_08x08_straight_a-003" type="Brush" guid="4852c4f2-f56b-f05f-2060-9e942b5edd8a"/>
     <Object name="roomsm_wall_straight_04x01x04_a-059" type="Brush" guid="47ac1d22-68a3-0f60-bc2a-eddb87c31a8e"/>
     <Object name="roomsm_wall_straight_04x01x04_a-096" type="Brush" guid="405cad7e-185b-ae60-2dad-ff31870cb29e"/>
     <Object name="corner_01x01x08_in_a-010" type="Brush" guid="4b632d27-ece7-db61-7cd7-6f719c75a29a"/>
     <Object name="roomlg_floor_straight_08x08x0025_a-047" type="Brush" guid="4f8cc150-8570-6362-ee11-6df24528548a"/>
-    <Object name="wall_1x8x8_a-016" type="Brush" guid="414842c4-0e10-1f63-7512-8c92ca9818ad"/>
+    <Object name="wall_1x8x8_a-015" type="Brush" guid="414842c4-0e10-1f63-7512-8c92ca9818ad"/>
     <Object name="Prefab045-427" type="Prefab" guid="4a63f7d6-8533-7263-928c-4f0baca358b2"/>
     <Object name="roomsm_wall_straight_04x01x04_a-060" type="Brush" guid="427991e7-6870-4066-71f6-9fb6cfc3a88f"/>
     <Object name="roomsm_wall_straight_04x01x04_a-110" type="Brush" guid="4cee2a8d-d7ac-db66-1cf2-ab40cfb59cb9"/>
-    <Object name="floor_08x08_center_a-009" type="Brush" guid="4ade35e2-3154-6067-2b5b-6356c5d0a3a7"/>
+    <Object name="floor_08x08_center_a-007" type="Brush" guid="4ade35e2-3154-6067-2b5b-6356c5d0a3a7"/>
     <Object name="anim_graph_bar_03-004" type="Brush" guid="4ab7f572-1fa7-6d67-982a-53b1507ae5ab"/>
     <Object name="Prefab045-435" type="Prefab" guid="433976c4-4f92-ca68-0a4a-e745a14c5eb2"/>
-    <Object name="generic_scroll_text01-009" type="Brush" guid="423af279-5780-0469-6365-d76ae1394fa3"/>
+    <Object name="generic_scroll_text01-008" type="Brush" guid="423af279-5780-0469-6365-d76ae1394fa3"/>
     <Object name="Prefab045-352" type="Prefab" guid="407ddc3b-1430-3f69-f085-2908f1daa99a"/>
     <Object name="anim_circular_widget_01-001" type="Brush" guid="430d3360-43b2-5d6a-69eb-72db638a04bf"/>
     <Object name="wall_1x8x8_door_a-002" type="Brush" guid="4b89e7a6-7919-e86b-ece1-55d95311b6a4"/>
     <Object name="roomsm_wall_straight_04x01x04_a-120" type="Brush" guid="48f7e01d-be50-136c-339d-c8707ec70e82"/>
-    <Object name="generic_scroll_text01-011" type="Brush" guid="4c31f3ee-5bb0-236c-8e5c-83cc2a7f95b9"/>
+    <Object name="generic_scroll_text01-012" type="Brush" guid="4c31f3ee-5bb0-236c-8e5c-83cc2a7f95b9"/>
     <Object name="roomlg_floor_straight_08x08x0025_a-064" type="Brush" guid="4e3b2e41-0bad-c46c-5119-bad671e3caa6"/>
     <Object name="roomsm_addon_pillar_mid_01x01x03_a-025" type="Brush" guid="43ef3bf7-1ed9-2d6d-8ad7-e379c835929a"/>
     <Object name="wall_1x8x8_door_b-003" type="Brush" guid="41143513-329b-156f-a6a3-f518ec65dfa0"/>
@@ -430,12 +430,12 @@
     <Object name="Prefab045-261" type="Prefab" guid="41ecdf88-2b77-f790-e10d-388364171fad"/>
     <Object name="roomsm_trim_straight_04x0025x01_a-095" type="Brush" guid="4897efd0-3cdf-2391-a113-aeb5c8e4acb9"/>
     <Object name="roomlg_addon_pillar_bottom_01x01x04_a-007" type="Brush" guid="4025b4d2-b551-dd91-31c2-0ac463470b8f"/>
-    <Object name="wall_1x8x8_a-010" type="Brush" guid="47cc65ef-fbf6-0e93-f318-0a1b8b1d188b"/>
+    <Object name="wall_1x8x8_a-011" type="Brush" guid="47cc65ef-fbf6-0e93-f318-0a1b8b1d188b"/>
     <Object name="roomsm_wall_straight_04x01x04_a-122" type="Brush" guid="4c8c0027-08dd-1293-14b3-a7b335de8084"/>
     <Object name="Prefab045-355" type="Prefab" guid="44a8cc36-1ed2-4d93-0ee6-6486ca9eb695"/>
-    <Object name="door_medical_b-014" type="Brush" guid="46e1a183-4947-b193-8a91-a222d3f14aa9"/>
+    <Object name="door_medical_b-015" type="Brush" guid="46e1a183-4947-b193-8a91-a222d3f14aa9"/>
     <Object name="roomlg_floor_straight_08x08x0025_a-062" type="Brush" guid="4c690c7a-6471-1794-11f0-62265e7423b1"/>
-    <Object name="anim_graph_bar_03-003" type="Brush" guid="47e257f5-d67e-5f94-5bf0-05e8ed1342bc"/>
+    <Object name="anim_graph_bar_03-002" type="Brush" guid="47e257f5-d67e-5f94-5bf0-05e8ed1342bc"/>
     <Object name="roomsm_wall_straight_04x01x04_a-053" type="Brush" guid="4716b86a-9c85-9d94-11f9-946512912da3"/>
     <Object name="roomlg_floor_straight_08x08x0025_a-055" type="Brush" guid="4966f9dc-cb06-9f94-3706-a855cbc8009b"/>
     <Object name="roomsm_addon_pillar_bottom_01x01x005_a-012" type="Brush" guid="4a32026e-0bd1-cd94-d322-a8d3e06bcd8c"/>
@@ -454,7 +454,7 @@
     <Object name="roomlg_floor_straight_08x08x0025_a-049" type="Brush" guid="4a31e283-952a-159e-768d-6767ac87d58b"/>
     <Object name="roomsm_trim_straight_04x0025x01_a-091" type="Brush" guid="43abc5ed-eb7e-2d9e-8bf5-196f34318fa4"/>
     <Object name="anim_graph_bar_01-002" type="Brush" guid="4815ada4-1cd8-4b9e-ea58-5da9d5da8b85"/>
-    <Object name="door_medical_b-015" type="Brush" guid="4643ac63-6a9a-519e-b892-9deb6c1c119c"/>
+    <Object name="door_medical_b-014" type="Brush" guid="4643ac63-6a9a-519e-b892-9deb6c1c119c"/>
     <Object name="generic_scroll_text01-007" type="Brush" guid="48b5ee57-e920-9e9e-3b20-819b32f0adaa"/>
     <Object name="corner_01x01x08_in_a-013" type="Brush" guid="44a3a658-657c-faa0-68f9-9a4552235e9d"/>
     <Object name="Prefab045-385" type="Prefab" guid="4c551c74-66ae-a3a1-76fc-71416d9b588d"/>
@@ -478,15 +478,15 @@
     <Object name="Prefab045-370" type="Prefab" guid="4564e06a-f735-2cae-b75b-3b2ef318b0aa"/>
     <Object name="wall_16x01x08_a-004" type="Brush" guid="4fee240f-763c-dcaf-c39f-902e73c15b8e"/>
     <Object name="roomlg_wall_straight_top_04x01x04_a-024" type="Brush" guid="43b2ff53-15c8-18b0-f247-4b779d5d1384"/>
-    <Object name="wall_1x8x8_a-005" type="Brush" guid="4a4ed097-e5b1-43b1-fda0-372603a9e4b0"/>
+    <Object name="wall_1x8x8_a-006" type="Brush" guid="4a4ed097-e5b1-43b1-fda0-372603a9e4b0"/>
     <Object name="roomsm_trim_straight_04x0025x01_a-076" type="Brush" guid="48e676a0-63ba-c7b1-a38b-4f7ca2f44c90"/>
     <Object name="roomlg_wall_straight_top_04x01x04_a-044" type="Brush" guid="4a00faa8-0106-fdb1-0054-ecad99de5c8e"/>
     <Object name="roomsm_wall_straight_04x01x04_a-104" type="Brush" guid="4dd243d5-d794-feb1-7209-9af75986bfb0"/>
     <Object name="roomsm_trim_straight_04x0025x01_a-065" type="Brush" guid="44fc7018-4795-beb2-9d57-33aa116e50b5"/>
-    <Object name="ceiling_08x08_straight_a-003" type="Brush" guid="42f4beb5-bba9-f9b2-868d-b70a3c8443b4"/>
+    <Object name="ceiling_08x08_straight_a-004" type="Brush" guid="42f4beb5-bba9-f9b2-868d-b70a3c8443b4"/>
     <Object name="Prefab045-334" type="Prefab" guid="470fb8bd-2366-e9b3-448f-1ec8158109b3"/>
     <Object name="Prefab045-369" type="Prefab" guid="4d1de79a-aeb9-0bb4-47e7-46efa05dbfa0"/>
-    <Object name="dual_anim_bars_01-007" type="Brush" guid="4b6dafb1-4a0c-87b4-d61d-92ecd2ffea8a"/>
+    <Object name="dual_anim_bars_01-006" type="Brush" guid="4b6dafb1-4a0c-87b4-d61d-92ecd2ffea8a"/>
     <Object name="ATS_medDoor_Fasade_Sound-001" type="AudioTriggerSpot" guid="45e2ff5a-9e23-ccb4-0f35-c3988a0e2b91" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="roomlg_wall_straight_top_04x01x04_a-043" type="Brush" guid="4c66d581-0be3-1fb5-63e7-6cd728872289"/>
     <Object name="roomsm_trim_straight_04x0025x01_a-055" type="Brush" guid="443036bf-abe9-adb5-6c39-7c8856acc7a0"/>
@@ -499,7 +499,7 @@
     <Object name="roomlg_ceiling_straight_08x08x0025_a-021" type="Brush" guid="4a706f4b-1094-19b9-b7ef-129759631985"/>
     <Object name="Prefab045-432" type="Prefab" guid="4e114275-9e2d-46ba-cc86-6145fab5198b"/>
     <Object name="SES_op_room_door-008" type="AudioTriggerSpot" guid="4556e4c6-71ce-8cba-9934-60e407ef9cab" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
-    <Object name="wall_1x8x8_door_a-004" type="Brush" guid="4d881f17-8e31-bfba-fc88-c1c60e0dc195"/>
+    <Object name="wall_1x8x8_door_a-003" type="Brush" guid="4d881f17-8e31-bfba-fc88-c1c60e0dc195"/>
     <Object name="roomsm_trim_straight_04x0025x01_a-086" type="Brush" guid="44cd235b-2bec-e2bc-76ee-7880a3bd6d8d"/>
     <Object name="roomsm_wall_straight_04x005x04_a-009" type="Brush" guid="4daee4ee-7808-d4bd-d12e-c1de04ddf79b"/>
     <Object name="medical_bed_a-006" type="Brush" guid="4d5bfd60-5704-e3be-2a6c-c94f5aeceea1"/>
@@ -518,7 +518,7 @@
     <Object name="corner_01x01x08_in_a-012" type="Brush" guid="41b63d8c-fa03-17c8-96c6-eca93eef6882"/>
     <Object name="roomlg_wall_straight_top_04x01x04_a-022" type="Brush" guid="4ee88a73-6ef2-78c9-fde1-f8add5ef9b9f"/>
     <Object name="Prefab045-376" type="Prefab" guid="482fde4d-d15a-86c9-5bf4-83f28c9a3096"/>
-    <Object name="generic_scroll_text01-008" type="Brush" guid="48bdd083-5a93-9dc9-fd3b-b4a32c46ebbc"/>
+    <Object name="generic_scroll_text01-009" type="Brush" guid="48bdd083-5a93-9dc9-fd3b-b4a32c46ebbc"/>
     <Object name="roomsm_wall_straight_04x01x04_a-147" type="Brush" guid="498f2a8e-570b-dcc9-67e3-bb450ac83599"/>
     <Object name="wall_1x8x8_door_a-005" type="Brush" guid="447f25d7-1141-5acb-926e-6f5983273493"/>
     <Object name="roomsm_wall_straight_04x01x04_a-146" type="Brush" guid="4a64b1e6-9b42-17cd-209b-820d110cf48c"/>
@@ -541,7 +541,7 @@
     <Object name="medical_desk_a-005" type="Brush" guid="433ba684-9df6-2cdd-2354-cb30f6670984"/>
     <Object name="door_frame_double_a-005" type="Brush" guid="48086b3e-8a6c-bcdd-d670-538251fab09b"/>
     <Object name="Prefab045-420" type="Prefab" guid="458fa0af-bc85-07de-fc49-8e73808ddda0"/>
-    <Object name="generic_scroll_text01-012" type="Brush" guid="4ec6c200-da4d-65df-12f2-6e40b61b11ba"/>
+    <Object name="generic_scroll_text01-011" type="Brush" guid="4ec6c200-da4d-65df-12f2-6e40b61b11ba"/>
     <Object name="roomlg_wall_straight_top_04x01x04_a-021" type="Brush" guid="4fb34110-8854-5fe0-01be-301efef038ba"/>
     <Object name="roomsm_wall_straight_04x01x04_a-099" type="Brush" guid="4fd31114-46cf-9fe1-6bd2-815f6e9a59bb"/>
     <Object name="Prefab045-330" type="Prefab" guid="431eee6c-74ba-e5e1-1ab2-90271d92dd8e"/>
@@ -559,8 +559,8 @@
     <Object name="roomlg_floor_straight_08x08x0025_a-060" type="Brush" guid="42f57e6e-5601-d4ed-1f0d-e16b08c2eb90"/>
     <Object name="Prefab045-390" type="Prefab" guid="4e38001c-fa49-06ee-7e6e-5e695bd41580"/>
     <Object name="roomsm_trim_straight_04x0025x01_a-097" type="Brush" guid="498159d9-95e0-32ef-9140-f525f43c8eac"/>
-    <Object name="anim_graph_bar_03-002" type="Brush" guid="4dec7cec-7f2d-8cf0-47d4-9c2a35d9b3bf"/>
-    <Object name="SES_op_room_door-006" type="AudioTriggerSpot" guid="4387acf8-d47d-57f1-01b4-513e6ce9ed81" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
+    <Object name="anim_graph_bar_03-003" type="Brush" guid="4dec7cec-7f2d-8cf0-47d4-9c2a35d9b3bf"/>
+    <Object name="SES_op_room_door-004" type="AudioTriggerSpot" guid="4387acf8-d47d-57f1-01b4-513e6ce9ed81" tags="612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8"/>
     <Object name="roomsm_addon_pillar_mid_01x01x03_a-027" type="Brush" guid="42bb5152-2286-b6f1-c0de-30eb0e3fed92"/>
     <Object name="roomsm_trim_straight_04x0025x01_a-059" type="Brush" guid="44f7d85b-c374-03f3-470f-a028e63e0a82"/>
     <Object name="roomlg_addon_pillar_top_01x04x04_a-020" type="Brush" guid="47a11b19-8089-acf3-e581-dfd8517c10ab"/>
@@ -571,16 +571,16 @@
     <Object name="dual_anim_bars_01-003" type="Brush" guid="410aff24-d21a-d5f5-1e55-e71e1c837da6"/>
     <Object name="medical_bed_a-005" type="Brush" guid="40933a7b-7622-e2f5-b530-dcfeba954a81"/>
     <Object name="Prefab045-373" type="Prefab" guid="453b199b-a623-7ff6-37f5-39c2871351a7"/>
-    <Object name="floor_08x08_center_a-007" type="Brush" guid="44ce9259-8c9e-53f7-eff5-438f083075b8"/>
+    <Object name="floor_08x08_center_a-009" type="Brush" guid="44ce9259-8c9e-53f7-eff5-438f083075b8"/>
     <Object name="roomsm_wall_straight_door_04x01x04_a-170" type="Brush" guid="49d0be6d-6d4f-b3f7-d6b9-8830dba737a1"/>
     <Object name="roomsm_wall_straight_door_04x01x04_a-166" type="Brush" guid="485063d9-b847-d2f8-4979-f19cb3f555a4"/>
     <Object name="roomsm_trim_straight_04x0025x01_a-088" type="Brush" guid="4f0a3e4b-2382-fff8-91c0-730445c5a9a9"/>
     <Object name="Prefab045-384" type="Prefab" guid="4bf94f2b-83b8-edf9-a7a4-0dd9a982538f"/>
     <Object name="roomsm_trim_straight_04x0025x01_a-089" type="Brush" guid="494b97d8-0cf8-fdf9-972c-9efab9254eae"/>
-    <Object name="corner_01x01x08_in_a-006" type="Brush" guid="42df740a-553c-2afa-ceaa-09df4f6932b8"/>
+    <Object name="corner_01x01x08_in_a-007" type="Brush" guid="42df740a-553c-2afa-ceaa-09df4f6932b8"/>
     <Object name="roomlg_ceiling_straight_08x08x0025_a-020" type="Brush" guid="4307c6cf-3488-d1fc-683c-ceb92fc55aa9"/>
     <Object name="infographic_window_02-002" type="Brush" guid="40774e91-9e28-1ffd-65a0-fdbeaf6926a5"/>
-    <Object name="corner_01x01x08_in_a-007" type="Brush" guid="4564c99e-87b7-6dfd-ef42-af7c3b42cba7"/>
+    <Object name="corner_01x01x08_in_a-005" type="Brush" guid="4564c99e-87b7-6dfd-ef42-af7c3b42cba7"/>
     <Object name="infographic_window_02-003" type="Brush" guid="4a760c2b-7166-1cfe-ef3b-a7991b244fb4"/>
     <Object name="roomsm_wall_straight_04x01x04_a-063" type="Brush" guid="48e3f6b5-c854-2dfe-eb40-652087873d9b"/>
     <Object name="Prefab001-039" type="Prefab" guid="489e6804-c908-5cfe-c1a4-bcfb5f314f8a"/>

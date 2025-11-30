@@ -10,9 +10,9 @@
     <b>0</b>
   </defaultEditorColor>
   <entityDensityClass ReferencedFile="file://./../../../../../../../../../../libs/foundry/records/densityclasses/fpsitemsdensityclass.xml" />
-  <tags Type="Tag" Count="11">
+  <tags Type="Tag" Count="12">
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.8f77e0fc-4086-4d66-ae9e-8601b0a3c7f4" RecordId="8f77e0fc-4086-4d66-ae9e-8601b0a3c7f4" />
-    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.59ca5e36-b9a2-4459-ad0e-5745bcf5d899" RecordId="59ca5e36-b9a2-4459-ad0e-5745bcf5d899" />
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b285311b-1f68-4a69-b73f-1295e83a3909" RecordId="b285311b-1f68-4a69-b73f-1295e83a3909" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.ba75cc73-a4c9-447a-9912-1fd8ccc7031b" RecordId="ba75cc73-a4c9-447a-9912-1fd8ccc7031b" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.7fd80cf6-bce8-4499-a4a2-e1a8f3fefd7e" RecordId="7fd80cf6-bce8-4499-a4a2-e1a8f3fefd7e" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.1caa8797-db36-48d0-9809-dd44e3270c31" RecordId="1caa8797-db36-48d0-9809-dd44e3270c31" />
@@ -22,6 +22,7 @@
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.a6c5f3ee-3547-410b-8b48-af7a4390fb5e" RecordId="a6c5f3ee-3547-410b-8b48-af7a4390fb5e" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.b97f2439-cde7-45f9-acc3-5eab75b0f84c" RecordId="b97f2439-cde7-45f9-acc3-5eab75b0f84c" />
     <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.eca4cc23-79f7-4511-9cf1-1a832385383d" RecordId="eca4cc23-79f7-4511-9cf1-1a832385383d" />
+    <Tag RecordReference="file://./../../../../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.d1fc00f6-b7d3-4a32-bad6-0599490db488" RecordId="d1fc00f6-b7d3-4a32-bad6-0599490db488" />
   </tags>
   <StaticEntityClassData Type="EntityClassStaticDataParams" Count="2">
     <DefaultEntitlementEntityParams Type="DefaultEntitlementEntityParams">
@@ -38,7 +39,7 @@
       <trackerProperties Type="SObjectDataBankEntryTrackerParams" />
     </EntityUIDisplayParams>
   </StaticEntityClassData>
-  <Components Type="DataForgeComponentParams" Count="32">
+  <Components Type="DataForgeComponentParams" Count="31">
     <SEntityPhysicsControllerParams Type="SEntityPhysicsControllerParams">
       <PhysType Type="SEntityRigidPhysicsControllerParams">
         <Mass>5</Mass>
@@ -46,8 +47,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -110,13 +111,13 @@
         <Grade>1</Grade>
         <Manufacturer />
         <inheritParentManufacturer>False</inheritParentManufacturer>
-        <Tags>SM_RestrictedArm Helmet HelmetCarryable</Tags>
+        <Tags>SM_RestrictedArm Helmet HelmetCarryable srvl_helmet_01_hair_extension srvl_helmet Set_01 Texture_01 Color_01 Texture_07</Tags>
         <RequiredTags />
         <DisplayType />
         <Localization Type="SCItemLocalization">
-          <Name>@LOC_PLACEHOLDER</Name>
+          <Name>@item_Name_srvl_helmet_01_07_01</Name>
           <ShortName>@LOC_EMPTY</ShortName>
-          <Description>@LOC_EMPTY</Description>
+          <Description>@item_Desc_srvl_helmet_01</Description>
           <displayFeatures Type="SCExtendedLocalizationLevelParams">
             <LogoSimplifiedWhite />
             <FrontendBackground />
@@ -157,9 +158,9 @@
           <z>0.352</z>
         </inventoryOccupancyLocalBoundsMax>
         <inventoryOccupancyDimensionsUIOverride Type="Vec3">
-          <x>0.38</x>
-          <y>0.38</y>
-          <z>0.38</z>
+          <x>0.75</x>
+          <y>0.75</y>
+          <z>0.75</z>
         </inventoryOccupancyDimensionsUIOverride>
         <ignoredAttachAxis>None</ignoredAttachAxis>
         <attachCheckCenterOfMass>False</attachCheckCenterOfMass>
@@ -179,7 +180,7 @@
         <Tags />
         <Geometry Type="SGeometryDataParams">
           <Geometry Type="GlobalResourceGeometry">
-            <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_helmet_01_hair_prop.skin</path>
+            <path />
           </Geometry>
           <Material Type="GlobalResourceMaterial">
             <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_helmet_01_07.mtl</path>
@@ -264,7 +265,7 @@
             <Tags>Female</Tags>
             <Geometry Type="SGeometryDataParams">
               <Geometry Type="GlobalResourceGeometry">
-                <path />
+                <path>Objects/Characters/Human/female_v2/armor/srvl/f_srvl_helmet_01_hair.skin</path>
               </Geometry>
               <Material Type="GlobalResourceMaterial">
                 <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_helmet_01_07.mtl</path>
@@ -277,7 +278,7 @@
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
-              <ProxyCDFPath />
+              <ProxyCDFPath>Objects/Characters/Human/female_v2/wearables/armor/helmet/f_srvl_helmet_01.cdf</ProxyCDFPath>
               <ModifiersPath />
               <AttachFlags>0</AttachFlags>
               <DeformerType>Standard</DeformerType>
@@ -914,10 +915,10 @@
                 </SubGeometry>
               </SGeometryNodeParams>
               <SGeometryNodeParams Type="SGeometryNodeParams">
-                <Tags>inverntoryStoredEntity</Tags>
+                <Tags>inventoryStoredEntity</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
-                    <path>Objects/Characters/Human/male_v7/armor/default_helmet_prop.cdf</path>
+                    <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_helmet_01_hair.skin</path>
                   </Geometry>
                   <Material Type="GlobalResourceMaterial">
                     <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_helmet_01_07.mtl</path>
@@ -960,10 +961,10 @@
                 <Tags>tableDisplay</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
-                    <path>Objects/Characters/Human/male_v7/armor/default_helmet_prop.cdf</path>
+                    <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_helmet_01_hair.skin</path>
                   </Geometry>
                   <Material Type="GlobalResourceMaterial">
-                    <path />
+                    <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_helmet_01_07.mtl</path>
                   </Material>
                   <SimulationGeometry />
                   <Palette Type="TintPaletteRef">
@@ -1005,7 +1006,7 @@
             <Tags>Male</Tags>
             <Geometry Type="SGeometryDataParams">
               <Geometry Type="GlobalResourceGeometry">
-                <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_helmet_01_hair_prop.skin</path>
+                <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_helmet_01_hair.skin</path>
               </Geometry>
               <Material Type="GlobalResourceMaterial">
                 <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_helmet_01_07.mtl</path>
@@ -1018,7 +1019,7 @@
               </Palette>
               <Slot>Main</Slot>
               <MaterialAttachments />
-              <ProxyCDFPath />
+              <ProxyCDFPath>Objects/Characters/Human/male_v7/wearables/armor/helmet/m_srvl_helmet_01.cdf</ProxyCDFPath>
               <ModifiersPath />
               <AttachFlags>0</AttachFlags>
               <DeformerType>Standard</DeformerType>
@@ -1042,7 +1043,7 @@
               <LodRatio>100</LodRatio>
             </Geometry>
             <ScaleMultiplier>1</ScaleMultiplier>
-            <SubGeometry Type="SGeometryNodeParams" Count="4">
+            <SubGeometry Type="SGeometryNodeParams" Count="3">
               <SGeometryNodeParams Type="SGeometryNodeParams">
                 <Tags>fp</Tags>
                 <Geometry Type="SGeometryDataParams">
@@ -1523,10 +1524,10 @@
                 </SubGeometry>
               </SGeometryNodeParams>
               <SGeometryNodeParams Type="SGeometryNodeParams">
-                <Tags>inverntoryStoredEntity</Tags>
+                <Tags>inventoryStoredEntity</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
-                    <path>Objects/Characters/Human/male_v7/armor/default_helmet_prop.cdf</path>
+                    <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_helmet_01_hair.skin</path>
                   </Geometry>
                   <Material Type="GlobalResourceMaterial">
                     <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_helmet_01_07.mtl</path>
@@ -1569,53 +1570,10 @@
                 <Tags>tableDisplay</Tags>
                 <Geometry Type="SGeometryDataParams">
                   <Geometry Type="GlobalResourceGeometry">
-                    <path />
-                  </Geometry>
-                  <Material Type="GlobalResourceMaterial">
-                    <path />
-                  </Material>
-                  <SimulationGeometry />
-                  <Palette Type="TintPaletteRef">
-                    <RootRecord />
-                    <ChildPath />
-                    <SwizzleOverride />
-                  </Palette>
-                  <Slot>Main</Slot>
-                  <MaterialAttachments />
-                  <ProxyCDFPath />
-                  <ModifiersPath />
-                  <AttachFlags>0</AttachFlags>
-                  <DeformerType>Standard</DeformerType>
-                  <ProtosBShapeExclude>0</ProtosBShapeExclude>
-                  <VisTP>True</VisTP>
-                  <VisFP>True</VisFP>
-                  <VisShadow>True</VisShadow>
-                  <VisSecondaryViews>True</VisSecondaryViews>
-                  <WrinkleMap>False</WrinkleMap>
-                  <EnableDecalProjection>False</EnableDecalProjection>
-                  <BBoxJoint />
-                  <BBoxRadius>0</BBoxRadius>
-                  <Wear>0</Wear>
-                  <Dirt>0</Dirt>
-                  <Interference>0</Interference>
-                  <Damage>0</Damage>
-                  <RenderLayer>Default</RenderLayer>
-                  <VisAreaMode>AABB_Center</VisAreaMode>
-                  <SunShadowMode>Upto_400m</SunShadowMode>
-                  <viewDistRatio />
-                  <LodRatio>100</LodRatio>
-                </Geometry>
-                <ScaleMultiplier>1</ScaleMultiplier>
-                <SubGeometry Type="SGeometryNodeParams" Count="0" />
-              </SGeometryNodeParams>
-              <SGeometryNodeParams Type="SGeometryNodeParams">
-                <Tags>HeadWear</Tags>
-                <Geometry Type="SGeometryDataParams">
-                  <Geometry Type="GlobalResourceGeometry">
                     <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_helmet_01_hair.skin</path>
                   </Geometry>
                   <Material Type="GlobalResourceMaterial">
-                    <path />
+                    <path>Objects/Characters/Human/male_v7/armor/srvl/m_srvl_helmet_01_07.mtl</path>
                   </Material>
                   <SimulationGeometry />
                   <Palette Type="TintPaletteRef">
@@ -1715,7 +1673,7 @@
     </SGeometryResourceParams>
     <SCItemPurchasableParams Type="SCItemPurchasableParams">
       <Display />
-      <displayName>@LOC_PLACEHOLDER</displayName>
+      <displayName>@item_Name_clda_helmet_01_01_01</displayName>
       <displayType>@item_displayType_Helmet</displayType>
       <displayThumbnail />
       <allowTryOn>True</allowTryOn>
@@ -2633,13 +2591,25 @@
               <EnterStatePlaySequence />
               <ExitStatePlaySequence />
               <StateAutoChange />
-              <Interactions Type="SInteractionStateTransition" Count="2">
+              <Interactions Type="SInteractionStateTransition" Count="5">
                 <SInteractionStateTransition Type="SInteractionStateTransition">
                   <Interaction PointsTo="ptr:7" />
                   <NextState />
                 </SInteractionStateTransition>
                 <SInteractionStateTransition Type="SInteractionStateTransition">
                   <Interaction PointsTo="ptr:6" />
+                  <NextState />
+                </SInteractionStateTransition>
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:1" />
+                  <NextState />
+                </SInteractionStateTransition>
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:2" />
+                  <NextState />
+                </SInteractionStateTransition>
+                <SInteractionStateTransition Type="SInteractionStateTransition">
+                  <Interaction PointsTo="ptr:3" />
                   <NextState />
                 </SInteractionStateTransition>
               </Interactions>
@@ -4129,99 +4099,6 @@
       <AnimationTasks Type="SSequencerAnimationTaskParamsBase" Count="0" />
       <defaultAnimation />
     </SAnimationControllerParams>
-    <SurfaceRaindropsComponentParams Type="SurfaceRaindropsComponentParams">
-      <enable>True</enable>
-      <surfaceParticleRtt Type="SurfaceParticleRTTParams">
-        <cameraFov>1</cameraFov>
-        <aspectRatio>1</aspectRatio>
-        <particleEffect Type="GlobalResourceParticle">
-          <path />
-        </particleEffect>
-        <sdfTexture>textures/vfx/sdf_textures/abstract/cells_sdf.dds</sdfTexture>
-      </surfaceParticleRtt>
-      <customEmitters Type="SurfaceRaindrops_Emitter" Count="2">
-        <SurfaceRaindrops_Emitter Type="SurfaceRaindrops_Emitter">
-          <particleEffect Type="GlobalResourceParticle">
-            <path>1112917b-0354-e979-1c7b-3b3a4956129c|RttEffects/rtt_water.Rain.Visor</path>
-          </particleEffect>
-          <linkedToSdf>True</linkedToSdf>
-          <humidityRange Type="Range">
-            <minimum>2</minimum>
-            <maximum>3</maximum>
-          </humidityRange>
-          <temperatureRange Type="Range">
-            <minimum>270</minimum>
-            <maximum>276</maximum>
-          </temperatureRange>
-          <fadeOutDuration>10</fadeOutDuration>
-        </SurfaceRaindrops_Emitter>
-        <SurfaceRaindrops_Emitter Type="SurfaceRaindrops_Emitter">
-          <particleEffect Type="GlobalResourceParticle">
-            <path>20d9556d-1334-7ed4-286d-5f33fe49fad2|RttEffects/rtt_water.Slush.Visor</path>
-          </particleEffect>
-          <linkedToSdf>True</linkedToSdf>
-          <humidityRange Type="Range">
-            <minimum>2</minimum>
-            <maximum>3</maximum>
-          </humidityRange>
-          <temperatureRange Type="Range">
-            <minimum>270</minimum>
-            <maximum>276</maximum>
-          </temperatureRange>
-          <fadeOutDuration>10</fadeOutDuration>
-        </SurfaceRaindrops_Emitter>
-      </customEmitters>
-      <wipeEffect Type="GlobalResourceParticle">
-        <path>86f21271-e157-9e53-0d76-a73264abb5e9|master/rtt_effects.water.all_substances.visor_wipe</path>
-      </wipeEffect>
-      <enableCloudCondensation>False</enableCloudCondensation>
-      <inactiveDuration>10</inactiveDuration>
-      <maximumSpeed>1</maximumSpeed>
-      <waterSprayHeightRange Type="Range">
-        <minimum>0.1</minimum>
-        <maximum>1</maximum>
-      </waterSprayHeightRange>
-      <waterSprayBaseDensity>0.2</waterSprayBaseDensity>
-      <acceleration Type="SurfaceRaindrops_Acceleration">
-        <speedMultiplier>0.5</speedMultiplier>
-        <maximumInfluenceSpeed>0.5</maximumInfluenceSpeed>
-        <rotationMultiplierSpeedRange Type="Range">
-          <minimum>0.1</minimum>
-          <maximum>1</maximum>
-        </rotationMultiplierSpeedRange>
-        <rotationMultiplierAxes Type="Vec3">
-          <x>1</x>
-          <y>1</y>
-          <z>1</z>
-        </rotationMultiplierAxes>
-        <maximumAcceleration>0.3</maximumAcceleration>
-        <helper />
-        <offset Type="QuatT">
-          <Rotation Type="Ang3">
-            <x>90</x>
-            <y>0</y>
-            <z>0</z>
-          </Rotation>
-          <Position Type="Vec3">
-            <x>0</x>
-            <y>0</y>
-            <z>0</z>
-          </Position>
-        </offset>
-      </acceleration>
-      <occluderSettings Type="SurfaceRaindrops_Occluder">
-        <distanceToVisor>0.04</distanceToVisor>
-        <numberOfWaveSamples>10</numberOfWaveSamples>
-      </occluderSettings>
-      <overrideControls Type="SurfaceRaindrops_Override">
-        <enabled>False</enabled>
-        <useFlatVisor>False</useFlatVisor>
-        <density>0</density>
-        <rainEnabled>False</rainEnabled>
-        <snowEnabled>False</snowEnabled>
-      </overrideControls>
-      <renderNodeLoadoutEntries Type="SItemPortLoadoutEntryParams" Count="0" />
-    </SurfaceRaindropsComponentParams>
     <DataForgeComponentParams />
   </Components>
 </EntityClassDefinition.srvl_helmet_01_07_01_hair_extension>

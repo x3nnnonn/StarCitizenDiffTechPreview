@@ -86,7 +86,7 @@
         <Tags />
         <Geometry Type="SGeometryDataParams">
           <Geometry Type="GlobalResourceGeometry">
-            <path>Objects/Spaceships/Ships/AEGS/Retaliator/Interior/module_standard/aegs_ret_module_standard_rear_external.cgf</path>
+            <path>Objects/Spaceships/Ships/AEGS/Retaliator/Interior/module_standard/aegs_ret_module_standard_rear_external.cga</path>
           </Geometry>
           <Material Type="GlobalResourceMaterial">
             <path />
@@ -147,8 +147,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>2</maxLoggedCollisions>
         <Damping>0</Damping>
         <DampingZeroG>0.01</DampingZeroG>

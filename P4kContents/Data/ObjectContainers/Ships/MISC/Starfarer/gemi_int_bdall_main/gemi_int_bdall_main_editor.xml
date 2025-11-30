@@ -1,6 +1,6 @@
 <ObjectContainer sourceLevel="data/levels/!ship_setup/misc/starfarer">
  <Layers>
-  <Layer fullname="gemi_int_bdall_main" externalLayerLevelDir="data/levels/!ship_setup/misc/starfarer/Layers/" externalLayerParentDir="" externalLayerFilePath="data/levels/!ship_setup/misc/starfarer/Layers/gemi_int_bdall_main.lyr" layerHash="1353387757">
+  <Layer fullname="gemi_int_bdall_main" externalLayerLevelDir="data/levels/!ship_setup/misc/starfarer/Layers/" externalLayerParentDir="" externalLayerFilePath="data/levels/!ship_setup/misc/starfarer/Layers/gemi_int_bdall_main.lyr" layerHash="3634918015">
    <Layer name="gemi_int_bdall_Atmosphere" layerHash="3793645756" externalLayerFilePath="data/levels/!ship_setup/misc/starfarer/Layers/gemi_int_bdall_main/gemi_int_bdall_Atmosphere.lyr">
     <Object name="Room_gemi_Cargo_Stairs_R_Upper" type="Room_RN" guid="40a85743-1759-de10-c578-bea1877570b6" tags="00ead468-9073-485b-a6df-ca6b94053603,afd66f73-2769-4e3f-b17c-a08c6dd1b361,a7c06cc7-a715-43b3-93b6-486483f26d18,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     <Object name="Room_gemi_cargoacc" type="Room_RN" guid="49e39ffb-e5da-e51c-7696-f284762cb6ba" tags="00ead468-9073-485b-a6df-ca6b94053603,afd66f73-2769-4e3f-b17c-a08c6dd1b361,a7c06cc7-a715-43b3-93b6-486483f26d18,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
@@ -113,7 +113,7 @@
     <Object name="VibrationAudioPoint-116" type="VibrationAudioPoint" guid="4fec7f09-3fd9-5bff-fbd0-9b52b063eeb4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     <Object name="ATS_cargo_access_elec-017" type="AudioTriggerSpot" guid="4adef8ac-8402-d6ff-e909-58f01b0dfd97" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
    </Layer>
-   <Layer name="gemi_int_bdall_Geo" layerHash="2260871578" externalLayerFilePath="data/levels/!ship_setup/misc/starfarer/Layers/gemi_int_bdall_main/gemi_int_bdall_Geo.lyr">
+   <Layer name="gemi_int_bdall_Geo" layerHash="3123103172" externalLayerFilePath="data/levels/!ship_setup/misc/starfarer/Layers/gemi_int_bdall_main/gemi_int_bdall_Geo.lyr">
     <Object name="crg_widebulkhead-055" type="Brush" guid="44997225-553b-0a02-6dc0-817afe2926b4"/>
     <Object name="crg_dc_bulkhead-016" type="Brush" guid="4921e469-39ce-4c03-fd59-134622771cb1"/>
     <Object name="crg_seatbay-017" type="Brush" guid="40b17b20-9e0a-a003-1ded-32a5922b4a8b"/>
@@ -1031,9 +1031,9 @@
    </Layer>
    <Object name="ObjectContainerPivot002-001" type="ObjectContainerPivot" guid="4244306b-313c-1004-7a29-acda158749bd" tags=""/>
    <Object name="Ledge013-001" type="LedgeObject" guid="47a48b4d-443f-7d39-b4d7-74ba7b6809a7" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
-   <Object name="Gadget_Cabinet_kegr_fire_extinguisher_01_hightech_med_high-003" type="Gadget_Cabinet_kegr_fire_extinguisher_01_hightech_med_high" guid="4202b80c-84e1-9d45-a172-6d53d83c7884" tags="99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,2f2df42c-c545-45af-b714-eb987d3cb985"/>
+   <Object name="Gadget_Cabinet_kegr_fire_extinguisher_01_hightech_med_high-004" type="Gadget_Cabinet_kegr_fire_extinguisher_01_hightech_med_high" guid="4202b80c-84e1-9d45-a172-6d53d83c7884" tags="99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,2f2df42c-c545-45af-b714-eb987d3cb985"/>
    <Object name="Ledge015-001" type="LedgeObject" guid="429d88a0-3abd-817a-cdaf-9f9a389837a0" tags="3f7cc6f8-0557-41ae-bd4d-ee23ade9faf4,a200fe19-284b-47d5-a4c2-83adbc5814ea"/>
-   <Object name="Gadget_Cabinet_kegr_fire_extinguisher_01_hightech_med_high-004" type="Gadget_Cabinet_kegr_fire_extinguisher_01_hightech_med_high" guid="4b0d88b7-cc27-9cc0-8739-c3811e010fae" tags="99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,2f2df42c-c545-45af-b714-eb987d3cb985"/>
+   <Object name="Gadget_Cabinet_kegr_fire_extinguisher_01_hightech_med_high-003" type="Gadget_Cabinet_kegr_fire_extinguisher_01_hightech_med_high" guid="4b0d88b7-cc27-9cc0-8739-c3811e010fae" tags="99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,2f2df42c-c545-45af-b714-eb987d3cb985"/>
    <Object name="Ladder-004" type="Ladder" guid="4e08ccb2-b641-4de9-769b-997f09079da8" tags="00ead468-9073-485b-a6df-ca6b94053603,a200fe19-284b-47d5-a4c2-83adbc5814ea,fb1b0b03-f91f-4b1a-8683-17a8e6b10296,d88a4dd7-8289-4a29-b8c2-59fdaf276c93,0a63a3b2-cce2-4ed9-a83d-59ab5aadb14e"/>
    <Layer fullname="gemi_int_bdall_main/gemi_int_bdall_VFX/gemi_int_bdall_Default" externalLayerLevelDir="data/levels/!ship_setup/misc/starfarer/Layers/" externalLayerParentDir="gemi_int_bdall_main/gemi_int_bdall_VFX/" externalLayerFilePath="data/levels/!ship_setup/misc/starfarer/Layers/gemi_int_bdall_main/gemi_int_bdall_VFX/gemi_int_bdall_Default.lyr" ParentGUID="{765EF6D1-3E79-4078-BF50-A376CEDC6006}" layerHash="3586807133">
     <Object name="interior.Vent_coolant_Small_gpu-045" type="ParticleEffect" guid="4f5a96d0-4da8-e403-7236-6fa853bc8997" tags="1588f7c4-d470-4f6b-8358-4d70ff8002bb,f5ab0fbd-391d-49ba-8891-773a1d5ea6f5"/>

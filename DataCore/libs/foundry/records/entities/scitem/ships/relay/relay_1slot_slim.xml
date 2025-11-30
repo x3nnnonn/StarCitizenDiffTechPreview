@@ -33,7 +33,7 @@
         <RequiredTags />
         <DisplayType />
         <Localization Type="SCItemLocalization">
-          <Name>@LOC_PLACEHOLDER</Name>
+          <Name>@item_TypeRelay</Name>
           <ShortName>@LOC_EMPTY</ShortName>
           <Description>@LOC_EMPTY</Description>
           <displayFeatures Type="SCExtendedLocalizationLevelParams">
@@ -161,7 +161,7 @@
     <ItemControlComponentParams Type="ItemControlComponentParams">
       <turnedOnByDefault>True</turnedOnByDefault>
       <forceOn>False</forceOn>
-      <asopSpawnState>None</asopSpawnState>
+      <asopSpawnState>On</asopSpawnState>
       <throttleParams Type="ItemThrottleParamsBase" Count="0" />
       <masterModeExclusionsOverride />
     </ItemControlComponentParams>
@@ -418,8 +418,8 @@
               <onEntityAttachedState PointsTo="ptr:4" />
               <onEntityDetachedState PointsTo="ptr:2" />
               <onPortDestroyedState PointsTo="ptr:2" />
-              <itemTypes Type="StatusEffectValue" Count="0" />
-              <itemSubTypes Type="SpeedThreshold" Count="0" />
+              <itemTypes Type="ProbabilisticStatusEffect" Count="0" />
+              <itemSubTypes Type="StatusEffect" Count="0" />
             </SItemPortStateModifier>
           </StateModifiers>
         </SInteractionStateType>
@@ -593,17 +593,17 @@
               <name>Non Functional Red</name>
               <enabled>True</enabled>
               <color Type="RGB">
-                <r>1</r>
+                <r>0.3712377</r>
                 <g>0</g>
                 <b>0</b>
               </color>
               <useTemperature>False</useTemperature>
               <colorTemperature>6500</colorTemperature>
-              <diffuseMultiplier>0.1</diffuseMultiplier>
+              <diffuseMultiplier>0.02</diffuseMultiplier>
               <viewDistanceRatio>100</viewDistanceRatio>
               <castShadow>False</castShadow>
               <shadowQualityCap>Full</shadowQualityCap>
-              <maxShadowCastDistance>0</maxShadowCastDistance>
+              <maxShadowCastDistance>0.2</maxShadowCastDistance>
               <ambient>False</ambient>
               <softBulb>False</softBulb>
               <fakeLight>False</fakeLight>
@@ -617,7 +617,7 @@
               <visibleShadows>True</visibleShadows>
               <lightImportance>Standard</lightImportance>
               <lightType Type="EntityEffectSystem_LightType_PointLight">
-                <radius>0.25</radius>
+                <radius>0.115</radius>
                 <attenuationBulbSize>0</attenuationBulbSize>
                 <attenuationTweak>1</attenuationTweak>
               </lightType>
@@ -634,11 +634,11 @@
                   <Rotation Type="Ang3">
                     <x>0</x>
                     <y>0</y>
-                    <z>-90</z>
+                    <z>0</z>
                   </Rotation>
                   <Position Type="Vec3">
                     <x>0</x>
-                    <y>0.2</y>
+                    <y>0.22</y>
                     <z>0.14</z>
                   </Position>
                 </offset>
@@ -648,20 +648,20 @@
               <tag RecordReference="file://./../../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.6b616b29-201b-4d76-bf07-00fb90cd963d" RecordId="6b616b29-201b-4d76-bf07-00fb90cd963d" />
             </EntityEffectSystem_LightTagEffect>
             <EntityEffectSystem_LightTagEffect Type="EntityEffectSystem_LightTagEffect">
-              <name>Warning ORange</name>
+              <name>Warning Orange</name>
               <enabled>True</enabled>
               <color Type="RGB">
                 <r>0.9473065</r>
-                <g>0.4735315</g>
+                <g>0.3762622</g>
                 <b>0.00303527</b>
               </color>
               <useTemperature>False</useTemperature>
               <colorTemperature>6500</colorTemperature>
-              <diffuseMultiplier>0.1</diffuseMultiplier>
+              <diffuseMultiplier>0.02</diffuseMultiplier>
               <viewDistanceRatio>100</viewDistanceRatio>
               <castShadow>False</castShadow>
-              <shadowQualityCap>Full</shadowQualityCap>
-              <maxShadowCastDistance>0</maxShadowCastDistance>
+              <shadowQualityCap>OneEighth</shadowQualityCap>
+              <maxShadowCastDistance>0.2</maxShadowCastDistance>
               <ambient>False</ambient>
               <softBulb>False</softBulb>
               <fakeLight>False</fakeLight>
@@ -675,8 +675,8 @@
               <visibleShadows>True</visibleShadows>
               <lightImportance>Standard</lightImportance>
               <lightType Type="EntityEffectSystem_LightType_PointLight">
-                <radius>0.25</radius>
-                <attenuationBulbSize>0</attenuationBulbSize>
+                <radius>0.115</radius>
+                <attenuationBulbSize>0.001</attenuationBulbSize>
                 <attenuationTweak>1</attenuationTweak>
               </lightType>
               <lightLink />
@@ -692,7 +692,7 @@
                   <Rotation Type="Ang3">
                     <x>0</x>
                     <y>0</y>
-                    <z>-90</z>
+                    <z>0</z>
                   </Rotation>
                   <Position Type="Vec3">
                     <x>0</x>
@@ -706,11 +706,11 @@
                 <EntityEffectSystem_LightPropertyLink Type="EntityEffectSystem_LightPropertyLink">
                   <modifiers Type="SEntityEffectSystem_PropertyModifier" Count="1">
                     <SEntityEffectSystem_BlinkingModifier Type="SEntityEffectSystem_BlinkingModifier">
-                      <startDelay>0.5</startDelay>
-                      <minimumValue>0</minimumValue>
-                      <minimumDuration>0.25</minimumDuration>
+                      <startDelay>0</startDelay>
+                      <minimumValue>1</minimumValue>
+                      <minimumDuration>0</minimumDuration>
                       <maximumValue>5</maximumValue>
-                      <maximumDuration>1.5</maximumDuration>
+                      <maximumDuration>0</maximumDuration>
                     </SEntityEffectSystem_BlinkingModifier>
                   </modifiers>
                   <parameterName />
@@ -790,7 +790,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>Misc</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Fuse</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>

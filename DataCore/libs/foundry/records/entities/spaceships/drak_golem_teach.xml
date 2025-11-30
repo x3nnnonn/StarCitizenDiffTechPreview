@@ -198,7 +198,7 @@
         <y>0</y>
         <z>0</z>
       </landingRotationOffset>
-      <fusePenetrationDamageMultiplier>0.001</fusePenetrationDamageMultiplier>
+      <fusePenetrationDamageMultiplier>0.05</fusePenetrationDamageMultiplier>
       <componentPenetrationDamageMultiplier>0.5</componentPenetrationDamageMultiplier>
     </VehicleComponentParams>
     <SEntityComponentDefaultLoadoutParams Type="SEntityComponentDefaultLoadoutParams">
@@ -2898,6 +2898,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -2926,6 +2929,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -2954,6 +2960,9 @@
             <afterburnerEnabledOneShot Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerEnabledOneShot>
+            <afterburnerDisabledOneShot Type="GlobalResourceAudio">
+              <audioTrigger />
+            </afterburnerDisabledOneShot>
             <afterburnerStartLoop Type="GlobalResourceAudio">
               <audioTrigger />
             </afterburnerStartLoop>
@@ -4229,7 +4238,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/drak/golem_ox/drak_golem_black_red_black.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -4272,7 +4281,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/drak/golem_ox/drak_golem_blue_black_green.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -4315,7 +4324,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/drak/golem_ox/drak_golem_gray_metal_metal.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -4358,7 +4367,7 @@
               </Material>
               <SimulationGeometry />
               <Palette Type="TintPaletteRef">
-                <RootRecord />
+                <RootRecord ReferencedFile="file://./../../../../../libs/foundry/records/tintpalettes/brand/drak/golem_ox/drak_golem_yellow_gray_white.xml" />
                 <ChildPath />
                 <SwizzleOverride />
               </Palette>
@@ -4744,7 +4753,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>MissileController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5010,7 +5019,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>AirTrafficController</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -5150,14 +5159,10 @@
       <PortTags />
       <RequiredItemTags />
       <InternalResourceLinks Type="SInternalResourceLink" Count="0" />
-      <InternalHardpointLinks Type="SInternalHardpointLink" Count="50">
+      <InternalHardpointLinks Type="SInternalHardpointLink" Count="53">
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
           <port2>hardpoint_seat_pilot</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
-          <port2>hardpoint_seat_access</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
@@ -5170,10 +5175,6 @@
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
           <port2>hardpoint_controller_shield</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
-          <port2>hardpoint_armor</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
@@ -5213,7 +5214,7 @@
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
-          <port2>hardpoint_avionics</port2>
+          <port2>hardpoint_computer</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
@@ -5313,27 +5314,11 @@
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
-          <port2>hardpoint_vtol_thruster_left_01</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
-          <port2>hardpoint_vtol_thruster_left_02</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
           <port2>hardpoint_vtol_thruster_main_left</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
           <port2>hardpoint_vtol_retro_thruster_right</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
-          <port2>hardpoint_vtol_thruster_right_01</port2>
-        </SInternalHardpointLink>
-        <SInternalHardpointLink Type="SInternalHardpointLink">
-          <port1>hardpoint_relay</port1>
-          <port2>hardpoint_vtol_thruster_right_02</port2>
         </SInternalHardpointLink>
         <SInternalHardpointLink Type="SInternalHardpointLink">
           <port1>hardpoint_relay</port1>
@@ -5351,10 +5336,46 @@
           <port1>hardpoint_relay</port1>
           <port2>hardpoint_missile_right</port2>
         </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_controller_cooler</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_controller_energy</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_controller_weapon</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_controller_door</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_controller_missile</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_controller_capacitor_assignment</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_controller_comms</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_controller_light</port2>
+        </SInternalHardpointLink>
+        <SInternalHardpointLink Type="SInternalHardpointLink">
+          <port1>hardpoint_relay</port1>
+          <port2>hardpoint_controller_mining</port2>
+        </SInternalHardpointLink>
       </InternalHardpointLinks>
-      <LinkAllItemsToResourceNetwork>True</LinkAllItemsToResourceNetwork>
+      <LinkAllItemsToResourceNetwork>False</LinkAllItemsToResourceNetwork>
       <cheatResourceNetworkUpdate>False</cheatResourceNetworkUpdate>
-      <doorsIgnorePower>False</doorsIgnorePower>
+      <doorsIgnorePower>True</doorsIgnorePower>
       <destroyEntitiesOnItemportList Type="SItemPortDef" Count="0" />
       <resourceNetworkPowerPools Type="ResourceNetworkPowerPoolSetup">
         <itemPools Type="PowerPool" Count="7">
@@ -6155,12 +6176,12 @@
       </adapters>
     </AINavigationDynamicTriggerComponent>
     <SObservableComponentParams Type="SObservableComponentParams">
-      <perceptionTypes Type="HealthIconData" Count="2">
+      <perceptionTypes Type="ActorStatusUIWarning" Count="2">
         <EnumChoice>Vehicle</EnumChoice>
         <EnumChoice>Spaceship</EnumChoice>
       </perceptionTypes>
       <defaultPerceptionStatus>Invalid</defaultPerceptionStatus>
-      <excludedSenses Type="ActorStatusIncapacitatedUIData" Count="0" />
+      <excludedSenses Type="ActorStatusPreset" Count="0" />
       <observablePoints Type="SObservablePointDef" Count="0" />
       <visionObservablePointOrdering Type="SObservablePointDef" Count="0" />
       <aimingObservablePointOrdering Type="SObservablePointDef" Count="0" />

@@ -103,6 +103,8 @@
   <File Name="m_ccc_combat_heavy_helmet_01.cdf" CRC32="0x63DF3B90" Size="617" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_combat_heavy_helmet_01.skin" CRC32="0x1E04A69A" Size="1896" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_combat_heavy_helmet_01.skinm" CRC32="0xEE4F288E" Size="892696" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_combat_medium_01_02.mtl" CRC32="0x62A7F96C" Size="44054" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_combat_medium_helmet_01_02.mtl" CRC32="0xC1C7E7E9" Size="21457" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_heavy_armor_helmet_01_01_01.mtl" CRC32="0x0E395DD7" Size="16515" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_heavy_armor_helmet_01_lod1.cgf" CRC32="0x4FD841C3" Size="200" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_heavy_armor_helmet_01_lod1.cgfm" CRC32="0x3047ADE1" Size="470128" CompressionType="100" Encrypted="False" />
@@ -216,7 +218,43 @@
   <File Name="m_ccc_medium_armor_legs_01_prop.cgfm" CRC32="0xDA8301F1" Size="886968" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_medium_armor_legs_01.skin" CRC32="0x724C9739" Size="4080" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_medium_armor_legs_01.skinm" CRC32="0xC0A37AFC" Size="1556440" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_01_01.mtl" CRC32="0x2C27F8F2" Size="21602" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_02_prop.cdf" CRC32="0x74EBC643" Size="626" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_medium_helmet_01_iae2024.mtl" CRC32="0x5452D4B5" Size="23006" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_lod1.skin" CRC32="0x725AA1A3" Size="1904" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_lod1.skinm" CRC32="0xEA512842" Size="590912" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_lod2.skin" CRC32="0x1D01634C" Size="1904" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_lod2.skinm" CRC32="0x00AF5279" Size="361256" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_lod3.skin" CRC32="0x2F3664AC" Size="1896" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_lod3.skinm" CRC32="0x9A62BB43" Size="195480" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_lod4.skin" CRC32="0xAE59E6E4" Size="1896" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_lod4.skinm" CRC32="0x48E7416F" Size="109456" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod1.cgf" CRC32="0x2D0D4694" Size="216" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod1.cgfm" CRC32="0xD8BA42B0" Size="342056" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod1.skin" CRC32="0xB416D773" Size="1072" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod1.skinm" CRC32="0xB378CA29" Size="590912" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod2.cgf" CRC32="0x163DCFB0" Size="216" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod2.cgfm" CRC32="0xC67CF0CD" Size="216664" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod2.skin" CRC32="0xA2152469" Size="1072" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod2.skinm" CRC32="0xDF69CCB9" Size="361256" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod3.cgf" CRC32="0x21789E20" Size="216" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod3.cgfm" CRC32="0x13F9E256" Size="165032" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod3.skin" CRC32="0x87F6A163" Size="1064" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod3.skinm" CRC32="0x0495D254" Size="195480" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod4.cgf" CRC32="0x0AA50C2A" Size="208" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod4.cgfm" CRC32="0xD0984E6A" Size="148264" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod4.skin" CRC32="0x429345B6" Size="1064" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod4.skinm" CRC32="0x52B01D47" Size="109456" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod5.cgf" CRC32="0x0093FB94" Size="208" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_lod5.cgfm" CRC32="0x0A8D57E3" Size="67720" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop_skeleton.chr" CRC32="0xCE76C62E" Size="1056" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop.cdf" CRC32="0x88A4173F" Size="529" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop.cgf" CRC32="0x1A924CD3" Size="227736" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop.cgfm" CRC32="0x5EC51F54" Size="550464" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop.skin" CRC32="0x9D7CFE9B" Size="1256" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01_prop.skinm" CRC32="0x3B887070" Size="869696" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01.skin" CRC32="0x4A7900C4" Size="1904" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_medium_helmet_01.skinm" CRC32="0x5DE70C53" Size="869696" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_scarecrow_helmet_01_01_01.mtl" CRC32="0x30CFE05C" Size="16869" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_scarecrow_helmet_01_01_12.mtl" CRC32="0x22C83EFF" Size="17009" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_scarecrow_helmet_01_lod1.skin" CRC32="0x1F8EC72A" Size="1512" CompressionType="100" Encrypted="False" />
@@ -318,6 +356,8 @@
   <File Name="m_ccc_viral_helmet_01_prop_skeleton.chr" CRC32="0x901060D9" Size="3448" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_viral_helmet_01_prop.cgf" CRC32="0xA4E255D4" Size="423848" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_viral_helmet_01_prop.cgfm" CRC32="0x0EB7A0AD" Size="932544" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_viral_helmet_01_prop.skin" CRC32="0x1C16440A" Size="3536" CompressionType="100" Encrypted="False" />
+  <File Name="m_ccc_viral_helmet_01_prop.skinm" CRC32="0xB180894D" Size="1290248" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_viral_helmet_01.skin" CRC32="0xE5D75B3D" Size="5184" CompressionType="100" Encrypted="False" />
   <File Name="m_ccc_viral_helmet_01.skinm" CRC32="0x413C4276" Size="1597024" CompressionType="100" Encrypted="False" />
 </Directory>

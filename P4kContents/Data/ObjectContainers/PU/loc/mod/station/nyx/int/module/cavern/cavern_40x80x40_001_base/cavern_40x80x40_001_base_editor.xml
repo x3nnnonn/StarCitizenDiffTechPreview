@@ -11,7 +11,7 @@
     <Layer name="railing" layerHash="3747063147" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_001_base/geo/railing.lyr"/>
     <Layer name="rocks" layerHash="3468784538" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_001_base/geo/rocks.lyr">
      <Layer name="dressing_rocks" layerHash="662441860" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_001_base/geo/rocks/dressing_rocks.lyr"/>
-     <Layer name="wb_rocks" layerHash="1122265572" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_001_base/geo/rocks/wb_rocks.lyr">
+     <Layer name="wb_rocks" layerHash="223478129" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_001_base/geo/rocks/wb_rocks.lyr">
       <Object name="bo_plt_d-2100" type="Brush" guid="40d855b4-ca33-0600-efbd-33daa7d23f89"/>
       <Object name="bo_plt_d-2088" type="Brush" guid="409e260b-0a49-1a00-24da-e2e71456fca1"/>
       <Object name="bo_plt_d-870" type="Brush" guid="41a13ed9-5d4d-4800-d2c1-2ae9c64196a2"/>
@@ -91,6 +91,7 @@
       <Object name="bo_plt_d-2068" type="Brush" guid="4c3d873d-5634-f424-03f2-77b52ba912b8"/>
       <Object name="bo_plt_d-2118" type="Brush" guid="4a62b7ba-4cdb-2425-679a-9f5071b01798"/>
       <Object name="bo_plt_d-562" type="Brush" guid="4203b59e-6f93-4a25-ae05-81f4099989b5"/>
+      <Object name="bo_plt_d-2191" type="Brush" guid="4b14193c-635b-9525-abe4-204e11f56a81"/>
       <Object name="bo_plt_d-767" type="Brush" guid="4eadbb93-f127-fd25-2330-1a768e5555bc"/>
       <Object name="bo_plt_d-087" type="Brush" guid="451ce54c-6ff9-2526-52f0-cf37bd67c499"/>
       <Object name="bo_plt_d-725" type="Brush" guid="4ddf80c8-56ef-cd26-3869-fa4a81e2de80"/>
@@ -99,6 +100,7 @@
       <Object name="bo_plt_d-580" type="Brush" guid="4c31a3a5-280f-5a27-8f21-01ef86373085"/>
       <Object name="bo_plt_d-582" type="Brush" guid="4b79c547-b570-9a27-16a4-444cf329febe"/>
       <Object name="bo_plt_d-592" type="Brush" guid="4738aed8-7235-a627-ff93-068e22268596"/>
+      <Object name="bo_plt_d-2185" type="Brush" guid="4477c9b7-7408-da28-074d-e43b504b49b2"/>
       <Object name="bo_plt_d-598" type="Brush" guid="41b94005-29b9-f028-d665-4b84a1a085bd"/>
       <Object name="bo_plt_d-1128" type="Brush" guid="4d325433-2362-1629-1ae2-c7350590c6a8"/>
       <Object name="bo_plt_d-742" type="Brush" guid="428e68af-8c9b-6a29-2f40-a916c66473bf"/>
@@ -120,6 +122,7 @@
       <Object name="bo_plt_d-898" type="Brush" guid="4da98eb5-77e6-622e-9b14-15d696cb54b9"/>
       <Object name="bo_plt_d-1106" type="Brush" guid="44a7afe8-80e3-a22e-4f1a-a05864f16a8c"/>
       <Object name="bo_plt_d-1211" type="Brush" guid="4815b076-8bfe-ab2e-2136-d4bc988ff093"/>
+      <Object name="bo_plt_d-2190" type="Brush" guid="4b870d04-90d9-322f-30a5-8a0f5f523db3"/>
       <Object name="bo_plt_d-2105" type="Brush" guid="48f937ab-dbf0-bb2f-1a4d-22261224378f"/>
       <Object name="bo_plt_d-070" type="Brush" guid="4996158b-7914-8630-c9bc-2e220b65afb4"/>
       <Object name="bo_plt_d-2106" type="Brush" guid="40464d3a-46a8-9630-3257-f9b6baeae9ba"/>
@@ -171,6 +174,7 @@
       <Object name="bo_plt_d-2103" type="Brush" guid="4002055c-9625-c642-471b-8524fd1b7e96"/>
       <Object name="bo_plt_d-2183" type="Brush" guid="49e8bcc7-1605-d342-6280-ccdb4796f28e"/>
       <Object name="bo_plt_d-841" type="Brush" guid="41ca5394-f875-3f43-020a-8c82b5ba39b8"/>
+      <Object name="bo_plt_d-2188" type="Brush" guid="49cd9b07-907c-8743-27e5-52ee662d4497"/>
       <Object name="bo_plt_d-566" type="Brush" guid="43fe5b01-00fe-d043-b612-1cfcc6d7579d"/>
       <Object name="bo_plt_d-607" type="Brush" guid="41478fe7-0338-0844-60ae-4f5d0944afab"/>
       <Object name="bo_plt_d-1142" type="Brush" guid="4f99ed69-93b1-2f44-0ce2-4e7cfa43a2a3"/>
@@ -251,11 +255,13 @@
       <Object name="bo_plt_d-686" type="Brush" guid="44b58f79-49c3-bd5e-089e-7aca66876684"/>
       <Object name="bo_plt_d-2148" type="Brush" guid="4c59b668-18a9-5c5f-d655-8f04ec05c583"/>
       <Object name="bo_plt_d-1072" type="Brush" guid="4d4e5a28-70ca-b15f-195b-b533955e49af"/>
+      <Object name="bo_plt_d-2187" type="Brush" guid="47f9e376-dcef-1460-eca9-f5ae735b0d89"/>
       <Object name="bo_plt_d-230" type="Brush" guid="418a3a9b-55a7-bc60-22ce-5072eaefc1a5"/>
       <Object name="bo_plt_d-685" type="Brush" guid="4634915d-a4fa-ea60-c889-0d85c2c5d9a1"/>
       <Object name="bo_plt_d-911" type="Brush" guid="4a849c9f-f051-0761-679f-18624e7213a6"/>
       <Object name="bo_plt_d-621" type="Brush" guid="4fd8bcec-c721-6d61-1d56-806d8d217dba"/>
       <Object name="bo_plt_d-605" type="Brush" guid="4587f174-6465-9761-88e3-2445c18859b3"/>
+      <Object name="bo_plt_d-2186" type="Brush" guid="41e3b1db-8a10-9162-1689-2498c483ac84"/>
       <Object name="bo_plt_d-2156" type="Brush" guid="4d6bdcf1-be77-4f63-4fcc-3918fc6581aa"/>
       <Object name="bo_plt_d-1163" type="Brush" guid="42e48815-65a0-7263-c916-87612bf4aeb9"/>
       <Object name="bo_plt_d-687" type="Brush" guid="4fabb270-9434-7d63-96b0-e16fd903018b"/>
@@ -280,6 +286,7 @@
       <Object name="bo_plt_d-2104" type="Brush" guid="44394779-1b57-a66c-f12f-08bb6abf9f9b"/>
       <Object name="bo_plt_d-713" type="Brush" guid="4efbcea5-1005-156d-3ec6-c1512060499b"/>
       <Object name="bo_plt_d-2144" type="Brush" guid="4ce3d0eb-10ea-dc6e-c109-5eae4d679ea3"/>
+      <Object name="bo_plt_d-2194" type="Brush" guid="45c3a5e0-c6da-2f6f-2e83-3162f872129e"/>
       <Object name="bo_plt_d-2175" type="Brush" guid="41c8997c-c45b-a46f-f24d-6f780bc94f9a"/>
       <Object name="bo_plt_d-600" type="Brush" guid="45a037d8-8c19-b56f-d250-bebcd111f29b"/>
       <Object name="bo_plt_d-008" type="Brush" guid="45df1a3e-f746-c16f-b0f6-c3255d28b2ba"/>
@@ -326,6 +333,7 @@
       <Object name="bo_plt_d-1187" type="Brush" guid="4628d2b0-5f3c-9b7f-e3a5-cdb57b5ff78c"/>
       <Object name="bo_plt_d-1175" type="Brush" guid="4e68d81c-e645-da80-bc80-073f91fb6588"/>
       <Object name="bo_plt_d-2126" type="Brush" guid="447c9622-16c2-f980-fc98-f1a573647198"/>
+      <Object name="bo_plt_d-2189" type="Brush" guid="41ffbe91-ebeb-5981-275c-17950c0eb18a"/>
       <Object name="bo_plt_d-019" type="Brush" guid="4e58e57a-1342-1882-ea61-ccd76324b790"/>
       <Object name="bo_plt_d-093" type="Brush" guid="4fe5e45d-0b8d-5582-20e3-f2a0046c4790"/>
       <Object name="bo_plt_d-849" type="Brush" guid="46dbeb9f-9c22-9282-513c-987298aa978c"/>
@@ -444,6 +452,7 @@
       <Object name="bo_plt_d-1205" type="Brush" guid="446b14ae-7e36-adb0-e3ab-17af393b5bab"/>
       <Object name="bo_plt_d-913" type="Brush" guid="4bee3446-b275-30b1-7f5d-db2439b0c197"/>
       <Object name="bo_plt_d-096" type="Brush" guid="4a5dbedb-bb1d-92b2-54f0-292037463fb6"/>
+      <Object name="bo_plt_d-2193" type="Brush" guid="44df02dc-1dad-b5b2-8956-25436d22fdbb"/>
       <Object name="bo_plt_d-923" type="Brush" guid="49f974a7-5193-c3b3-bd27-26afb569b6bc"/>
       <Object name="bo_plt_d-966" type="Brush" guid="4413b07f-86c1-dab3-92e0-d8110a2d7a8b"/>
       <Object name="bo_plt_d-1088" type="Brush" guid="484fba8b-cbcc-fdb3-0d34-7c48b30d1f91"/>
@@ -473,6 +482,7 @@
       <Object name="bo_plt_d-1124" type="Brush" guid="41e4d5df-5d4e-49bd-28c6-a89c142e269b"/>
       <Object name="bo_plt_d-2066" type="Brush" guid="48222ffc-ffc4-94bd-475b-5674fec35f95"/>
       <Object name="bo_plt_d-750" type="Brush" guid="4ebc518b-7357-9abd-3d89-395bfc673c84"/>
+      <Object name="bo_plt_d-2192" type="Brush" guid="4ed1de6d-4d70-82be-0b94-1e8ecaae0d9c"/>
       <Object name="bo_plt_d-2166" type="Brush" guid="4bed0bf6-4b27-9cbf-9d14-b5d27fd02d9b"/>
       <Object name="bo_plt_d-1136" type="Brush" guid="439e3a30-27d4-73c0-7786-a0dc806e12a9"/>
       <Object name="bo_plt_d-2092" type="Brush" guid="46af1748-9fac-92c0-6347-aaca8634b98f"/>
@@ -639,7 +649,7 @@
       <Object name="bo_plt_d-873" type="Brush" guid="43836bb7-f632-7eff-eec8-85d9bed19aa1"/>
      </Layer>
     </Layer>
-    <Layer name="wall" layerHash="2692597276" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_001_base/geo/wall.lyr">
+    <Layer name="wall" layerHash="1434070524" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_001_base/geo/wall.lyr">
      <Object name="Designer-277" type="Designer" guid="40e0e16c-96a8-f902-75c0-97cacd7d00b5"/>
      <Object name="Designer-267" type="Designer" guid="4266d65f-e6e7-ea09-8bf1-adb717a84dbe"/>
      <Object name="Designer-637" type="Designer" guid="4cdd052e-1674-d421-3177-bec4a00fb8bd"/>
@@ -669,7 +679,10 @@
    <Layer name="proc" layerHash="1691382640" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_001_base/proc.lyr"/>
    <Layer name="prop" layerHash="1399170563" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_001_base/prop.lyr"/>
    <Layer name="sfx" layerHash="168803404" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_001_base/sfx.lyr"/>
-   <Layer name="sys" layerHash="3955111079" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_001_base/sys.lyr"/>
+   <Layer name="sys" layerHash="2014651076" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_001_base/sys.lyr">
+    <Object name="Room_cavern_40x80x40_001_base_001" type="Room" guid="46ab3079-bd8c-4d54-7541-23027bae339b" tags="00ead468-9073-485b-a6df-ca6b94053603,a7c06cc7-a715-43b3-93b6-486483f26d18,202f8d6a-1a10-45e2-9db0-8cb3b1b672f3,612e0d16-9961-4deb-9dd3-d98351d50ceb,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
+    <Object name="AreaBox_cavern_40x80x40_001_base_001" type="AreaBox" guid="4dc810c0-63bc-1a5b-5402-33458c4d91a9" tags="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
+   </Layer>
    <Layer name="vfx" layerHash="101642386" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_001_base/vfx.lyr"/>
    <Layer name="vis" layerHash="2360864378" externalLayerFilePath="Data/Levels/!oc/pu/loc/mod/station/nyx/int/module/cavern/Layers/base/cavern/cavern_40x80x40_001_base/vis.lyr">
     <Object name="GenericShape-063" type="GenericShape" guid="4576a009-e50e-6030-1aef-856eac566eaa" tags=""/>

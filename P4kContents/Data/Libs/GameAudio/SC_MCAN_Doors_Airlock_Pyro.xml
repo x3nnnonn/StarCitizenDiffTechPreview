@@ -32,8 +32,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Doors_Airlock_Pyro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Pyro_Rundown_Stations_Airlock_Door_Lp_End">
       <WwiseEvent wwise_duration_max="5.671729" wwise_duration_min="4.611521" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Pyro_Rundown_Stations_Airlock_Door_Lp_End" wwise_radius_max="40" />
@@ -66,8 +68,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Doors_Airlock_Pyro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Pyro_Rundown_Stations_AirLock_Door_Lp">
       <WwiseEvent wwise_duration_max="7.847" wwise_duration_min="7.676354" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Pyro_Rundown_Stations_AirLock_Door_Lp" wwise_radius_max="40" />
@@ -100,8 +104,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Doors_Airlock_Pyro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_MCAN_Pyro_Rundown_Stations_AirLock_Door_Lp">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_MCAN_Pyro_Rundown_Stations_AirLock_Door_Lp" wwise_radius_max="0" />
@@ -134,8 +140,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Doors_Airlock_Pyro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Pyro_Rundown_Stations_Airlock_Flaps_Open">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_MCAN_Pyro_Rundown_Stations_Airlock_Flaps_Open" wwise_radius_max="15" />
@@ -146,6 +154,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Doors_Airlock_Pyro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Pyro_Rundown_Stations_Airlock_OpenCreak">
       <WwiseEvent wwise_duration_max="5.66666651" wwise_duration_min="2.69320822" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Pyro_Rundown_Stations_Airlock_OpenCreak" wwise_radius_max="20" />
@@ -178,8 +187,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Doors_Airlock_Pyro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCDR_Pyro_Rundown_Stations_AirLock_Groan">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_MCDR_Pyro_Rundown_Stations_AirLock_Groan" wwise_radius_max="40" />
@@ -212,8 +223,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Doors_Airlock_Pyro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Pyro_Rundown_Stations_AirLock_Door_Lp_01">
       <WwiseEvent wwise_duration_max="7.847" wwise_duration_min="7.676354" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Pyro_Rundown_Stations_AirLock_Door_Lp_01" wwise_radius_max="40" />
@@ -246,8 +259,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Doors_Airlock_Pyro" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Pyro_Rundown_Stations_AirLock_AirRelease_01">
       <WwiseEvent wwise_duration_max="2.23893762" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Pyro_Rundown_Stations_AirLock_AirRelease_01" wwise_radius_max="20" />
@@ -280,8 +295,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Doors_Airlock_Pyro" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -294,4 +311,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

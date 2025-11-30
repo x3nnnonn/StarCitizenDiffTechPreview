@@ -43,8 +43,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSPB_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSPB_MISC_HULL_A_Loop">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSPB_MISC_HULL_A_Loop" wwise_radius_max="0" />
@@ -88,8 +90,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSPB_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSPB_MISC_HULL_A_PassBy_Oneshot">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSPB_MISC_HULL_A_PassBy_Oneshot" wwise_radius_max="0" />
@@ -130,8 +134,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSPB_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSPB_MISC_HULL_A_PassBy_Oneshot">
       <WwiseEvent wwise_duration_max="20.3665752" wwise_duration_min="12.2623177" wwise_duration_type="OneShot" wwise_name="Play_SSPB_MISC_HULL_A_PassBy_Oneshot" wwise_radius_max="9000" />
@@ -172,8 +178,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSPB_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -186,4 +194,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

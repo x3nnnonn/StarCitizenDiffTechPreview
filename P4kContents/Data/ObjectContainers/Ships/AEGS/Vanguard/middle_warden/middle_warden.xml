@@ -1,4 +1,4 @@
-<ObjectContainer version="11" name="middle_warden" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="34" entityCountDynamic="0" entityCountUnique="0" minBounds="-3.875,-0.62499991586303638,-2.875" maxBounds="3.875,8.0611740000000012,5.625" radius="14.537379" crcSOC="3136983036">
+<ObjectContainer version="11" name="middle_warden" tags="" type="" editorBuildChangelist="10717593" entityCountPLA="0" entityCountALE="0" entityCountStatic="34" entityCountDynamic="0" entityCountUnique="0" minBounds="-3.875,-0.62499991586303638,-2.875" maxBounds="3.875,8.0611740000000012,5.625" radius="14.537379" crcSOC="1835948655">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="bdc65a43-4368-43cc-842e-0022d69c9f3c"/>
@@ -66,7 +66,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="1.5,1.875,-0.625" type="Noattach" name="Port2_Door_RN_Bathroom_Frosted_Door[module_warden_art]" display_name="Port2_Door_RN_Bathroom_Frosted_Door[module_warden_art]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,7.125,-1.625" type="Noattach" name="Port2_Door_RN_RoomConnector_Breachable_OpenReverse_IP-001[module_warden_art]" display_name="Port2_Door_RN_RoomConnector_Breachable_OpenReverse_IP-001[module_warden_art]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -76,7 +76,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,7.125,-1.625" type="Noattach" name="Port3_Door_RN_RoomConnector_Breachable_OpenReverse_IP-000[module_warden_art]" display_name="Port3_Door_RN_RoomConnector_Breachable_OpenReverse_IP-000[module_warden_art]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,0.375,-0.5" type="Noattach" name="Port3_Door_RN_RoomConnector_Breachable_OpenReverse_IP[module_warden_art]" display_name="Port3_Door_RN_RoomConnector_Breachable_OpenReverse_IP[module_warden_art]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -86,7 +86,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,0.375,-0.5" type="Noattach" name="Port4_Door_RN_RoomConnector_Breachable_OpenReverse_IP-001[module_warden_art]" display_name="Port4_Door_RN_RoomConnector_Breachable_OpenReverse_IP-001[module_warden_art]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="1.5,1.875,-0.625" type="Noattach" name="Port4_Door_RN_Bathroom_Frosted_Door[module_warden_art]" display_name="Port4_Door_RN_Bathroom_Frosted_Door[module_warden_art]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -96,7 +96,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="1.75,5.375,-0.5" type="Noattach" name="Port5_Door_RN_Avionics_warden[module_warden_art]" display_name="Port5_Door_RN_Avionics_warden[module_warden_art]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,2.391,-0.17829999" type="Noattach" name="Port5_LightGroup_warden[module_warden_lighting]" display_name="Port5_LightGroup_warden[module_warden_lighting]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -106,7 +106,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="0,2.391,-0.17829999" type="Noattach" name="Port6_LightGroup_warden[module_warden_lighting]" display_name="Port6_LightGroup_warden[module_warden_lighting]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="1.75,5.375,-0.5" type="Noattach" name="Port6_Door_RN_Avionics_warden[module_warden_art]" display_name="Port6_Door_RN_Avionics_warden[module_warden_art]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="1" gridBehavior="Interior" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>

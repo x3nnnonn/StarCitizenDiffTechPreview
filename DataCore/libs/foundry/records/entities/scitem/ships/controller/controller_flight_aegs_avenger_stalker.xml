@@ -405,16 +405,16 @@
       <linkPlugs Type="Tag" Count="0" />
     </SInteractionLinkParams>
     <IFCSParams Type="IFCSParams">
-      <scmSpeed>260</scmSpeed>
+      <scmSpeed>262</scmSpeed>
       <boostSpeedForward>610</boostSpeedForward>
       <boostSpeedBackward>280</boostSpeedBackward>
       <maxSpeed>1425</maxSpeed>
       <maxSpeedPrecisionModeFullProximityAssist>10</maxSpeedPrecisionModeFullProximityAssist>
       <maxSpeedPrecisionModeZeroProximityAssist>30</maxSpeedPrecisionModeZeroProximityAssist>
       <maxAngularVelocity Type="Vec3">
-        <x>52.5</x>
-        <y>180</y>
-        <z>48.5</z>
+        <x>53</x>
+        <y>190</y>
+        <z>48</z>
       </maxAngularVelocity>
       <pitchYawLimiterType>Ellipsoid</pitchYawLimiterType>
       <linearLimiterType>NormalizedUniformWithMaxRadius</linearLimiterType>
@@ -1777,22 +1777,22 @@
       <positiveLinearScale Type="Vec3">
         <x>1</x>
         <y>1</y>
-        <z>1.05</z>
+        <z>0.786</z>
       </positiveLinearScale>
       <negativeLinearScale Type="Vec3">
         <x>1</x>
-        <y>1</y>
-        <z>0.7</z>
+        <y>0.73</y>
+        <z>0.525</z>
       </negativeLinearScale>
       <positiveAngularScale Type="Vec3">
-        <x>0.1581</x>
-        <y>0.232</y>
-        <z>0.296</z>
+        <x>0.11</x>
+        <y>0.158</y>
+        <z>0.205</z>
       </positiveAngularScale>
       <negativeAngularScale Type="Vec3">
-        <x>0.131</x>
-        <y>0.232</y>
-        <z>0.296</z>
+        <x>0.0912</x>
+        <y>0.158</y>
+        <z>0.205</z>
       </negativeAngularScale>
       <intoxicationModifierRef ReferencedFile="file://./../../../../../../../libs/foundry/records/intoxication/globalifcsintoxicationmodifierparams.xml" />
       <authoredMotionLimits Type="SIFCSAuthoredMotionLimits">

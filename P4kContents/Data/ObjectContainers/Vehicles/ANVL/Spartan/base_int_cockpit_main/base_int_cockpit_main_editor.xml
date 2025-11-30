@@ -11,10 +11,10 @@
      <Object name="ATLAS_Centurion_Interior_Panel-001" type="Brush" guid="4e63c8ba-b0c9-2ec2-4200-b2093e5d7ca9"/>
     </Layer>
     <Layer name="cockpit_AUDIO" layerHash="2998925335" externalLayerFilePath="data/levels/!ship_setup/anvl/atlas/Layers/interior/cockpit/cockpit_AUDIO.lyr">
-     <Layer name="cockpit_audio_atmospherics" layerHash="3159898224" externalLayerFilePath="data/levels/!ship_setup/anvl/atlas/Layers/interior/cockpit/cockpit_AUDIO/cockpit_audio_atmospherics.lyr">
-      <Object name="AudioEnvironmentFeedbackPoint-002" type="AudioEnvironmentFeedbackPoint" guid="4c2e02b5-f05d-3423-ded3-a0da444ba2b5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
+     <Layer name="cockpit_audio_atmospherics" layerHash="3249892650" externalLayerFilePath="data/levels/!ship_setup/anvl/atlas/Layers/interior/cockpit/cockpit_AUDIO/cockpit_audio_atmospherics.lyr">
+      <Object name="AudioEnvironmentFeedbackPoint-000" type="AudioEnvironmentFeedbackPoint" guid="4c2e02b5-f05d-3423-ded3-a0da444ba2b5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
       <Object name="AudioEnvironmentFeedbackPoint-003" type="AudioEnvironmentFeedbackPoint" guid="4f8e840d-fb4f-6d98-2642-6dc7564ecebe" tags="849b8481-5893-4301-964e-4f39f3e27ad8,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
-      <Object name="AudioEnvironmentFeedbackPoint-000" type="AudioEnvironmentFeedbackPoint" guid="4821b3d1-3bdc-fab2-888f-09ecc82c9482" tags="849b8481-5893-4301-964e-4f39f3e27ad8,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
+      <Object name="AudioEnvironmentFeedbackPoint-002" type="AudioEnvironmentFeedbackPoint" guid="4821b3d1-3bdc-fab2-888f-09ecc82c9482" tags="849b8481-5893-4301-964e-4f39f3e27ad8,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      </Layer>
      <Layer name="cockpit_audio_vibration" layerHash="2550552282" externalLayerFilePath="data/levels/!ship_setup/anvl/atlas/Layers/interior/cockpit/cockpit_AUDIO/cockpit_audio_vibration.lyr">
       <Object name="VibrationAudioPoint-000" type="VibrationAudioPoint" guid="4d128cc6-c1db-6e02-3677-a7f5275e0580" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -29,7 +29,7 @@
      <Object name="ATS_Cockpit_Spot_FX-001" type="AudioTriggerSpot" guid="4e215c9c-952d-447f-c81c-d40dcb7fdb85" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="AS_Cockpit" type="AreaShape" guid="4e891992-e4a3-30c6-5373-d228c002e096" tags="f1b1052f-f3b0-4f44-b809-96380bfc4e97"/>
     </Layer>
-    <Layer name="cockpit_LIGHTING" layerHash="3922154205" externalLayerFilePath="data/levels/!ship_setup/anvl/atlas/Layers/interior/cockpit/cockpit_LIGHTING.lyr">
+    <Layer name="cockpit_LIGHTING" layerHash="947418543" externalLayerFilePath="data/levels/!ship_setup/anvl/atlas/Layers/interior/cockpit/cockpit_LIGHTING.lyr">
      <Object name="Lt_CP_Wall_Sides_Lower-004" type="Light" guid="45448898-8e3b-ca00-e759-a97b7fc324ae" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_Sys_Rack_Top-005" type="Light" guid="4d3e95f6-3b53-e102-0b39-cf3920655582" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_Sys_Rack_Top-002" type="Light" guid="4ad2b69e-750c-a504-80cd-6510d28257ae" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -100,7 +100,7 @@
      <Object name="Lt_CP_UnderDash-001" type="Light" guid="4554f052-a01c-2fce-e013-2936e8c8f7af" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_CP_Dash_Button_EMSV-024" type="Light" guid="40f408ba-fa5a-58d2-9c47-ad47d0f05b9c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_CP_Wall_Top_Large-004" type="Light" guid="4a8419c6-2eaf-98d9-fe6d-ba0043aced99" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-     <Object name="ChipSet_DEFCON-000" type="ChipSet_DEFCON" guid="4cf11b0d-8936-60e2-f9fe-7852596f1ba8" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+     <Object name="ChipSet_DEFCON-000" type="ChipSet_DEFCON" guid="4cf11b0d-8936-60e2-f9fe-7852596f1ba8" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="Lt_CP_Screen_Backlight-005" type="Light" guid="4ceee79f-55bb-92e4-37d8-2aa3f6fa2482" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_CP_Dash_Button_EMSV-001" type="Light" guid="4477cd23-9d5b-fee5-6ff0-bfd68e07d8be" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_CP_Dash_Button_EMSV-026" type="Light" guid="47e106f3-7136-47f3-645a-e53ed9a423bf" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -129,7 +129,7 @@
     </Layer>
    </Layer>
    <Layer name="systems" layerHash="2642758003" externalLayerFilePath="data/levels/!ship_setup/anvl/atlas/Layers/interior/systems.lyr">
-    <Layer name="systems_ART" layerHash="2512696581" externalLayerFilePath="data/levels/!ship_setup/anvl/atlas/Layers/interior/systems/systems_ART.lyr">
+    <Layer name="systems_ART" layerHash="545757913" externalLayerFilePath="data/levels/!ship_setup/anvl/atlas/Layers/interior/systems/systems_ART.lyr">
      <Object name="radr_wlop_v01_pl01-001" type="GeomEntity" guid="458230ab-90a7-f21a-fb7c-83530100a796" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
      <Object name="anvl_atlas_ceiling_center_1-125m_a-001" type="Brush" guid="4da4c102-e1d0-2c30-88ba-abe5bf99a4b3"/>
      <Object name="anvl_atlas_front_bulkhead_0-125m_a-001" type="Brush" guid="4c2d26ee-16f7-9b7d-b158-32169d777eb5"/>

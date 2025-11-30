@@ -10,7 +10,9 @@
     <b>0</b>
   </defaultEditorColor>
   <entityDensityClass />
-  <tags Type="Tag" Count="0" />
+  <tags Type="Tag" Count="1">
+    <Tag RecordReference="file://./../../../../../../libs/foundry/records/tagdatabase/tagdatabase.tagdatabase.xml" RecordName="Tag.5132c9bc-475d-4afc-a146-a778cb410717" RecordId="5132c9bc-475d-4afc-a146-a778cb410717" />
+  </tags>
   <StaticEntityClassData Type="EntityClassStaticDataParams" Count="0" />
   <Components Type="DataForgeComponentParams" Count="24">
     <SAttachableComponentParams Type="SAttachableComponentParams">
@@ -1215,8 +1217,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -2670,7 +2672,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>ControlPanel</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>DoorPart</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2764,7 +2766,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>ControlPanel</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>DoorPart</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -2968,8 +2970,8 @@
     </SEntityComponentSequencerParams>
     <ItemControlComponentParams Type="ItemControlComponentParams">
       <turnedOnByDefault>True</turnedOnByDefault>
-      <forceOn>False</forceOn>
-      <asopSpawnState>None</asopSpawnState>
+      <forceOn>True</forceOn>
+      <asopSpawnState>On</asopSpawnState>
       <throttleParams Type="ItemThrottleParamsBase" Count="0" />
       <masterModeExclusionsOverride />
     </ItemControlComponentParams>
@@ -5358,14 +5360,14 @@
     </InteriorMapEntityVisiblityEntityComponentParams>
     <SEntityComponentRoomConnectorParams Type="SEntityComponentRoomConnectorParams">
       <defaultAreaBounds Type="Vec3">
-        <x>2.25</x>
-        <y>1</y>
-        <z>2.5</z>
+        <x>8</x>
+        <y>8</y>
+        <z>1</z>
       </defaultAreaBounds>
       <boundsOffset Type="Vec3">
         <x>0</x>
         <y>0</y>
-        <z>1.25</z>
+        <z>0</z>
       </boundsOffset>
       <orientationMode>AutoDetectWidest</orientationMode>
       <enableConnectorBridging>True</enableConnectorBridging>

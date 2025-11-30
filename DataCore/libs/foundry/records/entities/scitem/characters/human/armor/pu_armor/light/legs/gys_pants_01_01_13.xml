@@ -46,8 +46,8 @@
         <breakableParams />
         <gameCollisionClass />
         <spawnBoxScale>0.5</spawnBoxScale>
-        <PhysFlagsOverride Type="StatusCost" Count="0" />
-        <PhysFlagsColliderOverride Type="StatusCost" Count="0" />
+        <PhysFlagsOverride Type="ActorStatusUIData" Count="0" />
+        <PhysFlagsColliderOverride Type="ActorStatusUIData" Count="0" />
         <maxLoggedCollisions>1</maxLoggedCollisions>
         <Damping>0.01</Damping>
         <DampingZeroG>0.01</DampingZeroG>
@@ -114,9 +114,9 @@
         <RequiredTags />
         <DisplayType />
         <Localization Type="SCItemLocalization">
-          <Name>@item_Name_gys_pants_01_01_01</Name>
+          <Name>@item_name_gys_pants_01_01_13</Name>
           <ShortName>@LOC_EMPTY</ShortName>
-          <Description>@item_Desc_gys_pants_01</Description>
+          <Description>@item_desc_gys_pants_01_01_13</Description>
           <displayFeatures Type="SCExtendedLocalizationLevelParams">
             <LogoSimplifiedWhite />
             <FrontendBackground />
@@ -453,7 +453,7 @@
     </SGeometryResourceParams>
     <SCItemPurchasableParams Type="SCItemPurchasableParams">
       <Display />
-      <displayName>@item_Name_gys_pants_01_01_01</displayName>
+      <displayName>@item_name_gys_pants_01_01_13</displayName>
       <displayType>@item_displayType_ArmorLegs</displayType>
       <displayThumbnail />
       <allowTryOn>True</allowTryOn>
@@ -584,7 +584,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>FPS_Consumable</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -678,7 +678,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>FPS_Consumable</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -815,14 +815,14 @@
           <Types Type="SItemPortDefTypes" Count="2">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponPersonal</Type>
-              <SubTypes Type="SpeedThreshold" Count="2">
+              <SubTypes Type="StatusEffect" Count="2">
                 <EnumChoice>Gadget</EnumChoice>
                 <EnumChoice>Rocket</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>RemovableChip</Type>
-              <SubTypes Type="SpeedThreshold" Count="1">
+              <SubTypes Type="StatusEffect" Count="1">
                 <EnumChoice>Hacking</EnumChoice>
               </SubTypes>
             </SItemPortDefTypes>
@@ -918,7 +918,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponPersonal</Type>
-              <SubTypes Type="SpeedThreshold" Count="2">
+              <SubTypes Type="StatusEffect" Count="2">
                 <EnumChoice>Knife</EnumChoice>
                 <EnumChoice>Gadget</EnumChoice>
               </SubTypes>
@@ -1015,7 +1015,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>FPS_Consumable</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1109,7 +1109,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>FPS_Consumable</Type>
-              <SubTypes Type="SpeedThreshold" Count="0" />
+              <SubTypes Type="StatusEffect" Count="0" />
             </SItemPortDefTypes>
           </Types>
           <Extension />
@@ -1203,7 +1203,7 @@
           <Types Type="SItemPortDefTypes" Count="1">
             <SItemPortDefTypes Type="SItemPortDefTypes">
               <Type>WeaponPersonal</Type>
-              <SubTypes Type="SpeedThreshold" Count="2">
+              <SubTypes Type="StatusEffect" Count="2">
                 <EnumChoice>Small</EnumChoice>
                 <EnumChoice>Rocket</EnumChoice>
               </SubTypes>

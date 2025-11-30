@@ -1,4 +1,4 @@
-<ObjectContainer version="11" name="control_setup" tags="" type="" editorBuildChangelist="10634538" entityCountPLA="0" entityCountALE="0" entityCountStatic="380" entityCountDynamic="0" entityCountUnique="0" minBounds="-1061.5872436300269,-663.89648110547569,-1980.9285781290819" maxBounds="683.11174993350869,1802.1948023923906,633.21993202732119" radius="2973.2361" crcSOC="779077546">
+<ObjectContainer version="11" name="control_setup" tags="" type="" editorBuildChangelist="10717593" entityCountPLA="0" entityCountALE="0" entityCountStatic="380" entityCountDynamic="0" entityCountUnique="0" minBounds="-1061.5872436300269,-663.89648110547569,-1980.9285781290819" maxBounds="683.11174993350869,1802.1948023923906,633.21993202732119" radius="2973.2361" crcSOC="2689080623">
  <StaticEntityTags>
   <Tags>
    <Tag TagId="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
@@ -63,7 +63,7 @@
    <TilePipeEntry name="AtmosphereOut" class="Output"/>
   </TilePipeEntries>
   <TileItemPortEntries>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="767135.56,613851.81,191801.5" type="Noattach" name="Port0_ANVL_Valkyrie_Door_Left[Control_Gameplay]" display_name="Port0_ANVL_Valkyrie_Door_Left[Control_Gameplay]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="767128.56,613862.63,191792.48" type="Noattach" name="Port0_ANVL_Valkyrie_Rear_Ramp[Control_Gameplay]" display_name="Port0_ANVL_Valkyrie_Rear_Ramp[Control_Gameplay]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>
@@ -73,7 +73,7 @@
      <connection pipe="AtmosphereOut" pipeClass="Output"/>
     </connections>
    </ItemPort>
-   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="767128.56,613862.63,191792.48" type="Noattach" name="Port1_ANVL_Valkyrie_Rear_Ramp[Control_Gameplay]" display_name="Port1_ANVL_Valkyrie_Rear_Ramp[Control_Gameplay]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
+   <ItemPort minSize="1" maxSize="1" interactionSize="-1" interactionOffset="767135.56,613851.81,191801.5" type="Noattach" name="Port1_ANVL_Valkyrie_Door_Left[Control_Gameplay]" display_name="Port1_ANVL_Valkyrie_Door_Left[Control_Gameplay]" flags="static" requiredTags="" portTags="" selectTag="" resourceLinkToParent="0" gridBehavior="Both" helper="" offset="0,0,0" rotation="1,0,0,0">
     <Types />
     <AttachmentPoints />
     <connections>

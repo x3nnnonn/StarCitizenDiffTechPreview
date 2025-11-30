@@ -15,7 +15,7 @@
     <Layer name="Bathroom_ART" layerHash="2789720319" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Bathroom/Bathroom_ART.lyr">
      <Object name="ORIG_400_Bathroom-001" type="Brush" guid="42f8e033-a50c-6762-b595-66b91d1855a5"/>
     </Layer>
-    <Layer name="Bathroom_LIGHTING" layerHash="1022413993" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Bathroom/Bathroom_LIGHTING.lyr">
+    <Layer name="Bathroom_LIGHTING" layerHash="3401996785" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Bathroom/Bathroom_LIGHTING.lyr">
      <Object name="LT_400i_Bathroom_WardrobeDown_Key" type="Light" guid="4243283b-81de-cd0e-cd29-e40d20da1f98" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LT_400i_Bathroom_CeilingDown_Key-001 " type="Light" guid="496ac358-df78-0712-8300-f8bcafaed7a6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LB_400i_Bathroom_Mirror" type="LightBox" guid="49010c2a-d8c5-a932-0a23-dc042382a894" tags=""/>
@@ -34,7 +34,7 @@
      <Object name="FV_400i_CaptainsQuarters_Main-004" type="FogVolume" guid="4f5dc4af-eccf-ecd4-e61b-00cf7e57938f" tags=""/>
      <Object name="LT_400i_Bathroom_ShowerDownNiche_Key" type="Light" guid="43297b8e-200c-b5ed-78be-fd6026404f8a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="EP_400i_Bathroom_Main" type="EnvironmentLight" guid="41fe3809-a7f3-43ee-11d2-6ce37a02b5a0" tags=""/>
-     <Object name="ChipSet_DEFCON-000" type="ChipSet_DEFCON" guid="4342b207-1034-d2f3-cae2-42625db725b2" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+     <Object name="ChipSet_DEFCON-000" type="ChipSet_DEFCON" guid="4342b207-1034-d2f3-cae2-42625db725b2" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
     </Layer>
     <Layer name="Bathroom_PROPS" layerHash="3318272825" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Bathroom/Bathroom_PROPS.lyr">
      <Object name="personal_toothbrush_1_a-033" type="Brush" guid="4cadbc83-c1c3-df02-1bef-071d9f54d29d"/>
@@ -137,14 +137,14 @@
      <Object name="ORIG_400i_bridge-008" type="Brush" guid="491c815f-b0ae-6183-0ef9-5e7217aae596"/>
      <Object name="SurfaceRaindropsTarget-001" type="SurfaceRaindropsTarget" guid="48eb6bf2-0176-8c9d-0abb-6f2fab6ff7a0" tags=""/>
     </Layer>
-    <Layer name="Bridge_LIGHTING" layerHash="3568780272" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Bridge/Bridge_LIGHTING.lyr">
+    <Layer name="Bridge_LIGHTING" layerHash="2022074510" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Bridge/Bridge_LIGHTING.lyr">
      <Object name="LT_400i_Bridge_floorstrip_EMSV" type="Light" guid="4b0b699a-247f-8c01-f303-c1f82a24059a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LT_400i_Bridge_FrontFloor_EMSV-002" type="Light" guid="4ba609b8-4a39-2f25-ddd6-30dab6b63fae" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="FOG_400i_Bridge_MainFogVol" type="FogVolume" guid="4c9f29d9-1c93-a844-b3a5-b939189ab1a0" tags=""/>
      <Object name="LT_400i_Bridge_FrontFloor_EMSV-001" type="Light" guid="4ad2bed5-16e0-ba49-b095-030e59887da1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LT_400i_Bridge_ceiling_strip_EMSV" type="Light" guid="47578973-03ca-124c-c478-191cf6ddefb4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LT_400i_Bridge_wall_KEY-002" type="Light" guid="4f14e97a-3eaf-bb51-e25b-6dd722b370b1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-     <Object name="ChipSet_DEFCON-001" type="ChipSet_DEFCON" guid="4d3859ba-972d-9d6c-f27a-8916e1c4feb1" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+     <Object name="ChipSet_DEFCON-001" type="ChipSet_DEFCON" guid="4d3859ba-972d-9d6c-f27a-8916e1c4feb1" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="LT_400i_Bridge_wall_KEY-004" type="Light" guid="4eda0bce-b81e-1476-0bbf-08c493b341a1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LT_400i_Bridge_wall_KEY-001" type="Light" guid="429d0ad9-a040-c278-8e47-d8b8c2ad739d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LightGroup_bridge" type="LightGroup" guid="4dba6a2a-5992-c286-aabf-47c5ae96ba96" tags="849b8481-5893-4301-964e-4f39f3e27ad8,c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,60cc8ca1-8927-4e92-af99-9cd367e0595c,5b803369-07d1-470f-996a-9372ca50e617,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb,da9672e0-71c5-4c46-98a6-5746fcb83cd2"/>
@@ -187,7 +187,7 @@
      <Object name="ORIG_400i_bedrooms_R-002" type="Brush" guid="4fe89762-fe60-f443-e0ba-786e1ec1e390"/>
      <Object name="accessory_storage_briefcase_a-001" type="Brush" guid="49d7a26b-d4c9-544b-4f27-38961f9f1190"/>
     </Layer>
-    <Layer name="Captains_Quarters_LIGHTING" layerHash="4200268401" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Captains_Quarters/Captains_Quarters_LIGHTING.lyr">
+    <Layer name="Captains_Quarters_LIGHTING" layerHash="576635019" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Captains_Quarters/Captains_Quarters_LIGHTING.lyr">
      <Object name="Driver_LightControlChip-006" type="ChipSet_LightControl" guid="40db6bcb-0093-1f0f-c679-38f40784e8ba" tags="99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
      <Object name="Lt_400i_CrewQuarters_CeilingBox_KEY-012" type="Light" guid="486b4c1f-7bee-4b12-fc5a-b8a006707c92" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="FV_400i_CaptainsQuarters_Main" type="FogVolume" guid="46572668-8822-9517-a15b-c8414c3a609d" tags=""/>
@@ -204,14 +204,14 @@
      <Object name="Lt_400i_CrewQuarters_EntranceDoorFrame_KEY-002" type="Light" guid="42fb3dfc-66bc-115d-da43-2de80cbc4192" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_CaptainsQuarters_CeilingBedDown_Left_up_KEY" type="Light" guid="46b95c9f-f9ed-5f72-5502-ce14adc558a6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LB_400i_CrewQuarters_CeilingMain-001" type="LightBox" guid="4c5a08d3-67ba-fd99-2a21-9cc18b6343a4" tags=""/>
-     <Object name="ChipSet_DEFCON-002" type="ChipSet_DEFCON" guid="47787a84-4d9b-fbc5-0d6b-9df30524e5ad" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+     <Object name="ChipSet_DEFCON-002" type="ChipSet_DEFCON" guid="47787a84-4d9b-fbc5-0d6b-9df30524e5ad" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="Lt_400i_CaptainsQuarters_Shelves_TopRight_KEY" type="Light" guid="472582fd-5908-ddcd-1d71-c38e4361428c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_CaptainsQuarters_BedBar_KEY" type="Light" guid="45ae460d-ebea-0cd0-b4e6-11adf702fbad" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_CrewQuarters_CeilingBedDownLeft_Right_KEY-001" type="Light" guid="433b3714-4364-f1dd-f022-9168d75cb7b1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_CaptainsQuarters_CeilingBedDown_Right_up_KEY" type="Light" guid="4a1d7bcf-8be5-3aee-ceaf-ef692b0c398a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_captains_CeilingDownWardrobe_shadow_KEY" type="Light" guid="4cbdd4a4-1342-c9fa-7188-52e6be64bfba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="Captains_Quarters_PROPS" layerHash="1590024289" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Captains_Quarters/Captains_Quarters_PROPS.lyr">
+    <Layer name="Captains_Quarters_PROPS" layerHash="286625956" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Captains_Quarters/Captains_Quarters_PROPS.lyr">
      <Object name="fern_green_1_c-005" type="GeomEntity" guid="41259ef7-fde3-fa09-f54b-27183c7f4ebc" tags="99b98536-c1a5-4062-b895-b0c5e4482a14"/>
      <Object name="planter_interior_1_a-015" type="Brush" guid="408f8ea5-8ea2-9e1d-ab00-5c72190a25bb"/>
      <Object name="sculpture_interior_1_table_a-001" type="Brush" guid="42a787f6-06e4-ce2e-10bf-243bb80af28d"/>
@@ -327,7 +327,7 @@
      <Object name="ATS_ORIG_400i_Cargo_Bay_EMF-001" type="AudioTriggerSpot" guid="467f39e7-ffe7-b2f9-902b-ca8672862fa9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="VIAP_ORIG_400i_Cargo_Bay_Air_Vent-002" type="VibrationAudioPoint" guid="4719b318-0681-b2fd-203b-cb79b5c2168f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="Cargo_Bay_LIGHTING" layerHash="3204532141" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Cargo_Bay/Cargo_Bay_LIGHTING.lyr">
+    <Layer name="Cargo_Bay_LIGHTING" layerHash="2808309234" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Cargo_Bay/Cargo_Bay_LIGHTING.lyr">
      <Object name="Light-130" type="Light" guid="40b9e0fc-0211-9300-f45e-95d2fc4e3780" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Light_flr_main-020" type="Light" guid="454e7849-8bfb-4403-1bf2-cb1720b33f84" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_cargo_walllow_FILL-004" type="Light" guid="48b8f8bb-9500-aa06-19b2-199a3c743b89" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -389,7 +389,7 @@
      <Object name="LT_400i_CargoBay_EscapePod_StripLight_EMV-003" type="Light" guid="433a399b-4708-57c5-00dc-dd320cfd01ba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LT_400i_CargoBay_EscapePod_buttons_EMSV-004" type="Light" guid="473d3cdf-b0eb-b8cd-ca7c-7b70a1f02294" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_cargo_wall_FILL-001" type="Light" guid="49390172-69a5-f0cf-9613-0388c6ef32a4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-     <Object name="ChipSet_DEFCON-003" type="ChipSet_DEFCON" guid="4452ed72-e4ca-99d3-6699-c1f8ef0d2caf" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+     <Object name="ChipSet_DEFCON-003" type="ChipSet_DEFCON" guid="4452ed72-e4ca-99d3-6699-c1f8ef0d2caf" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="LT_400i_CargoBay_EscapePod_StripLight_EMV-004" type="Light" guid="4a65444d-6837-57d4-6f96-857174a413aa" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LT_400i_CargoBay_EscapePod_StripLight_EMV-001" type="Light" guid="4f807a5c-eb63-92d7-2737-1195841e2488" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_cargo_wall_FILL-005" type="Light" guid="4bfb44b8-9db5-3bd8-1f7f-644a350816b4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -461,7 +461,7 @@
      <Object name="VIAP_ORIG_400i_Corridor_Floor-001" type="VibrationAudioPoint" guid="4115a184-c6c1-66f1-d8d8-57099dd92898" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="VIAP_ORIG_400i_Corridor_Roof_Panel-001" type="VibrationAudioPoint" guid="48804628-d216-a6ff-2790-08c8da37bc9d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="Corridor_LIGHTING" layerHash="32526214" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Corridor/Corridor_LIGHTING.lyr">
+    <Layer name="Corridor_LIGHTING" layerHash="2589882303" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Corridor/Corridor_LIGHTING.lyr">
      <Object name="LT_400i_Corridor_LadderShaftDownMain_KEY" type="Light" guid="4cd654e5-8d1d-9c0a-d1cd-9c31a7df9aa5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LT_400i_lift_FILL-001" type="Light" guid="41ffdf19-2bd7-520c-cf8d-5656770afbb3" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="FV_400i_CaptainsQuarters_Main-002" type="FogVolume" guid="4881b157-30aa-3619-f45e-7bd72c3ef1af" tags=""/>
@@ -474,7 +474,7 @@
      <Object name="LT_400i_Bathroom_CeilingDownLeft_Right_Key-008" type="Light" guid="492726f9-471c-2560-fc5f-853038048290" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LT_400i_Corridor_LiftShaftMainCeilingPL_KEY-004" type="Light" guid="4ddc9cc0-bfbb-9868-2111-924769864f9a" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LT_400i_Corridor_LiftShaftMainCeilingPL_KEY-010" type="Light" guid="4cff1d09-ab21-a772-ee68-09d943d6faa0" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-     <Object name="ChipSet_DEFCON-004" type="ChipSet_DEFCON" guid="4a9be432-555a-a175-aad1-519ecf67e5b6" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+     <Object name="ChipSet_DEFCON-004" type="ChipSet_DEFCON" guid="4a9be432-555a-a175-aad1-519ecf67e5b6" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="LT_400i_Bathroom_CeilingDownLeft_Right_Key-057" type="Light" guid="44568259-9b75-7176-7875-8267afe1bc98" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="FV_400i_CaptainsQuarters_Main-001" type="FogVolume" guid="4a197630-da25-7986-55b5-850622500692" tags=""/>
      <Object name="LT_400i_Corridor_LiftShaftMainCeilingPL_KEY-002" type="Light" guid="4dc8357d-83f8-2588-7fa4-6381088f9091" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -535,7 +535,7 @@
      <Object name="AAA_Crew_Quarters_Audio" type="AudioAreaAmbience" guid="48c4f4e0-3f0a-a9c5-4c96-0e57bbcb86b4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,04cb0de3-43e5-4c2e-9234-a61c8e31608f,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="ATS_ORIG_400i_Crew_Quarters_Right_Wall_Vent-001" type="AudioTriggerSpot" guid="440ff587-09ea-44fd-30ae-e4ebaa7b86b4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="Crew_Quarters_LIGHTING" layerHash="1147462596" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Crew_Quarters/Crew_Quarters_LIGHTING.lyr">
+    <Layer name="Crew_Quarters_LIGHTING" layerHash="3291673167" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Crew_Quarters/Crew_Quarters_LIGHTING.lyr">
      <Object name="Lt_400i_CrewQuarters_CeilingBedDownLeft_Left_KEY" type="Light" guid="49aea4a4-dbac-b204-8aec-a29cd2000fb9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_CrewQuarters_CeilingDownWardrobe_KEY" type="Light" guid="49746e28-10e5-3f18-ca86-f4610585beb1" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LB_400i_CrewQuarters_CeilingMain" type="LightBox" guid="4e2747a9-b1c2-c31a-5d6f-f0673c09b19a" tags=""/>
@@ -552,7 +552,7 @@
      <Object name="Lt_400i_CrewQuarters_CeilingBedDownLeft_Left_up_ KEY" type="Light" guid="484c4184-cd59-2785-6fd7-fa66a8f9959d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_CrewQuarters_CeilingBox_KEY" type="Light" guid="4e897385-eabe-cd8f-021a-6788e8dfc8bd" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="FV_400i_CaptainsQuarters_Main-003" type="FogVolume" guid="44585468-d88b-24ab-b962-7e521e45e9b5" tags=""/>
-     <Object name="ChipSet_DEFCON-005" type="ChipSet_DEFCON" guid="43b417df-fe33-dfb3-51f4-a22b2c77eda4" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+     <Object name="ChipSet_DEFCON-005" type="ChipSet_DEFCON" guid="43b417df-fe33-dfb3-51f4-a22b2c77eda4" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="Driver_LightControlChip-005" type="ChipSet_LightControl" guid="42a23247-aaad-0db6-833c-32b98e7ac4be" tags="99b98536-c1a5-4062-b895-b0c5e4482a14,c4ec8876-3979-4a9d-9d1c-83375094c9b7,da9672e0-71c5-4c46-98a6-5746fcb83cd2,afd66f73-2769-4e3f-b17c-a08c6dd1b361,1a1f10a2-894c-45ca-93d2-4785233c5250"/>
      <Object name="Lt_400i_CrewQuarters_BedBarRight_KEY" type="Light" guid="42be49af-7e4c-c8b9-6c14-0876983fe3bb" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_CrewQuarters_EntranceDoorFrame_KEY" type="Light" guid="4b469cb4-4712-83c1-c514-6ca41f9b879c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -562,7 +562,7 @@
      <Object name="LB_400i_CrewQuarters_CeilingMain-003" type="LightBox" guid="4be79e32-32ed-d0f8-ae21-cfb24645989b" tags=""/>
      <Object name="Lt_400i_CrewQuarters_CeilingBedDownLeft_Right_up_KEY" type="Light" guid="4e9618eb-af5b-88f9-f110-2afd8d00e3b5" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="Crew_Quarters_PROPS" layerHash="1254571099" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Crew_Quarters/Crew_Quarters_PROPS.lyr">
+    <Layer name="Crew_Quarters_PROPS" layerHash="2764699952" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Crew_Quarters/Crew_Quarters_PROPS.lyr">
      <Object name="clock_alarm_1_a-003" type="Brush" guid="4a4ebf4a-077b-2902-05e9-9c204bd1f4b9"/>
      <Object name="mug_coffee_1_a-002" type="Brush" guid="4eaf1c20-6fdd-9833-a69a-d86ad2a34d9b"/>
      <Object name="clock_alarm_1_a-002" type="Brush" guid="4f653ae8-140d-fb36-d305-def74d853386"/>
@@ -630,7 +630,7 @@
      <Object name="VIAP_ORIG_400i_Engineering_Composite_Wall-004" type="VibrationAudioPoint" guid="4fc4129d-d786-11f0-be52-2df9d9d1c8b4" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="ATS_ORIG_400i_Engineering_Elevator_Vent-001" type="AudioTriggerSpot" guid="4038ab3b-87d4-0ef3-ceea-6f6d55802780" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
     </Layer>
-    <Layer name="Engineering_LIGHTING" layerHash="4263563140" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Engineering/Engineering_LIGHTING.lyr">
+    <Layer name="Engineering_LIGHTING" layerHash="1964466606" externalLayerFilePath="data/levels/!ship_setup/orig/400i/Layers/Interior/Body/Engineering/Engineering_LIGHTING.lyr">
      <Object name="Lt_400i_engineering_aircon_FILL-001" type="Light" guid="4a280f5a-c61b-6500-da14-94ffbf694c93" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_engineering_componentdr_EMSV-006" type="Light" guid="4137cad0-551a-d804-dded-a4045fafd3ac" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_engineering_componenthousing_back_KEY-001" type="Light" guid="4426d6ce-5ee2-4505-2b4e-bd1e9bcce4a9" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
@@ -653,7 +653,7 @@
      <Object name="Lt_400i_engineering_componenthousing_back_KEY-002" type="Light" guid="49e9d28e-47de-3355-7ab6-a92ab74d9199" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="LT_400i_engineering_liftstrip_EMSV" type="Light" guid="4b63b4d3-8a92-1856-a978-cdb9b78f879c" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_engineering_lift_EMSV-003" type="Light" guid="4a283c69-422f-6d58-080b-87a403a372a6" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
-     <Object name="ChipSet_DEFCON-006" type="ChipSet_DEFCON" guid="47f086bd-27d9-9c59-bfd6-cea82f74428d" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361"/>
+     <Object name="ChipSet_DEFCON-006" type="ChipSet_DEFCON" guid="47f086bd-27d9-9c59-bfd6-cea82f74428d" tags="c4ec8876-3979-4a9d-9d1c-83375094c9b7,afd66f73-2769-4e3f-b17c-a08c6dd1b361,04cb0de3-43e5-4c2e-9234-a61c8e31608f,849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb"/>
      <Object name="Lt_400i_engineering_componentdr_EMSV-003" type="Light" guid="4f26ae1d-2961-115b-1f8e-dfd17423398d" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_engineering_componentbase_KEY-006" type="Light" guid="4b67fa18-27bf-395c-d467-db955c00139f" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>
      <Object name="Lt_400i_engineering_componenthousing_KEY-003" type="Light" guid="4fa4c4a1-dde3-5d63-11a5-04be27cd40ba" tags="849b8481-5893-4301-964e-4f39f3e27ad8,612e0d16-9961-4deb-9dd3-d98351d50ceb,04cb0de3-43e5-4c2e-9234-a61c8e31608f"/>

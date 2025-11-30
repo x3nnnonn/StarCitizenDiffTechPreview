@@ -406,13 +406,13 @@
     </SInteractionLinkParams>
     <IFCSParams Type="IFCSParams">
       <scmSpeed>260</scmSpeed>
-      <boostSpeedForward>610</boostSpeedForward>
-      <boostSpeedBackward>230</boostSpeedBackward>
-      <maxSpeed>1425</maxSpeed>
+      <boostSpeedForward>600</boostSpeedForward>
+      <boostSpeedBackward>270</boostSpeedBackward>
+      <maxSpeed>1430</maxSpeed>
       <maxSpeedPrecisionModeFullProximityAssist>10</maxSpeedPrecisionModeFullProximityAssist>
       <maxSpeedPrecisionModeZeroProximityAssist>30</maxSpeedPrecisionModeZeroProximityAssist>
       <maxAngularVelocity Type="Vec3">
-        <x>52</x>
+        <x>54</x>
         <y>180</y>
         <z>48</z>
       </maxAngularVelocity>
@@ -1775,24 +1775,24 @@
       <scmMaxDragMultiplier>4</scmMaxDragMultiplier>
       <thrusterImbalanceMessage>@dfm_ui_UnexpectedTorqueImbalance</thrusterImbalanceMessage>
       <positiveLinearScale Type="Vec3">
-        <x>1.005</x>
-        <y>1</y>
-        <z>1</z>
+        <x>1.12</x>
+        <y>1.056</y>
+        <z>1.12</z>
       </positiveLinearScale>
       <negativeLinearScale Type="Vec3">
-        <x>1</x>
-        <y>1</y>
-        <z>1</z>
+        <x>1.105</x>
+        <y>1.02</y>
+        <z>1.026</z>
       </negativeLinearScale>
       <positiveAngularScale Type="Vec3">
-        <x>0.18</x>
-        <y>0.242</y>
-        <z>0.24</z>
+        <x>0.187</x>
+        <y>0.189</y>
+        <z>0.166</z>
       </positiveAngularScale>
       <negativeAngularScale Type="Vec3">
-        <x>0.195</x>
-        <y>0.243</y>
-        <z>0.24</z>
+        <x>0.197</x>
+        <y>0.189</y>
+        <z>0.168</z>
       </negativeAngularScale>
       <intoxicationModifierRef ReferencedFile="file://./../../../../../../../libs/foundry/records/intoxication/globalifcsintoxicationmodifierparams.xml" />
       <authoredMotionLimits Type="SIFCSAuthoredMotionLimits">

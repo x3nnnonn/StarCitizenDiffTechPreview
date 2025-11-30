@@ -33,8 +33,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Medical_Bed_Low_Tech_Canister_Deploy">
       <WwiseEvent wwise_duration_max="1.75166667" wwise_duration_min="1.75166667" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Medical_Bed_Low_Tech_Canister_Deploy" wwise_radius_max="25" />
@@ -68,8 +70,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Medical_High_Tech_Bed_Retract">
       <WwiseEvent wwise_duration_max="2.195625" wwise_duration_min="2.195625" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Medical_High_Tech_Bed_Retract" wwise_radius_max="25" />
@@ -103,8 +107,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Medical_High_Tech_Bed_Deploy">
       <WwiseEvent wwise_duration_max="2.37595844" wwise_duration_min="2.37595844" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Medical_High_Tech_Bed_Deploy" wwise_radius_max="25" />
@@ -138,8 +144,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Medical_Bed_High_Tech_Screen_Retract">
       <WwiseEvent wwise_duration_max="1.84758329" wwise_duration_min="1.84758329" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Medical_Bed_High_Tech_Screen_Retract" wwise_radius_max="10" />
@@ -173,8 +181,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Medical_Bed_High_Tech_Canister_Deploy">
       <WwiseEvent wwise_duration_max="1.8155" wwise_duration_min="1.8155" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Medical_Bed_High_Tech_Canister_Deploy" wwise_radius_max="10" />
@@ -208,8 +218,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Medical_Bed_High_Tech_Screen_Deploy">
       <WwiseEvent wwise_duration_max="1.75166667" wwise_duration_min="1.75166667" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Medical_Bed_High_Tech_Screen_Deploy" wwise_radius_max="10" />
@@ -243,8 +255,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Medical_Low_Tech_Bed_Retract">
       <WwiseEvent wwise_duration_max="2.33822918" wwise_duration_min="2.33822918" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Medical_Low_Tech_Bed_Retract" wwise_radius_max="25" />
@@ -278,8 +292,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Medical_Bed_Low_Tech_Screen_Retract">
       <WwiseEvent wwise_duration_max="2.0981667" wwise_duration_min="2.0981667" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Medical_Bed_Low_Tech_Screen_Retract" wwise_radius_max="25" />
@@ -313,8 +329,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Medical_Low_Tech_Bed_Deploy">
       <WwiseEvent wwise_duration_max="2.26256251" wwise_duration_min="2.26256251" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Medical_Low_Tech_Bed_Deploy" wwise_radius_max="25" />
@@ -348,8 +366,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Medical_Bed_High_Tech_Canister_Retract">
       <WwiseEvent wwise_duration_max="2.23429155" wwise_duration_min="2.23429155" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Medical_Bed_High_Tech_Canister_Retract" wwise_radius_max="10" />
@@ -383,8 +403,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Medical_Bed_Low_Tech_Screen_Deploy">
       <WwiseEvent wwise_duration_max="2.40966678" wwise_duration_min="2.40966678" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Medical_Bed_Low_Tech_Screen_Deploy" wwise_radius_max="25" />
@@ -418,8 +440,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Medical_High_Tech_Bed_Scan">
       <WwiseEvent wwise_duration_max="4.0802083" wwise_duration_min="4.0802083" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Medical_High_Tech_Bed_Scan" wwise_radius_max="10" />
@@ -453,8 +477,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Medical_Low_Tech_Bed_Scan">
       <WwiseEvent wwise_duration_max="3.858354" wwise_duration_min="3.858354" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Medical_Low_Tech_Bed_Scan" wwise_radius_max="25" />
@@ -488,8 +514,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Gurney_1_a_Low_Tech_Lower">
       <WwiseEvent wwise_duration_max="1.67770839" wwise_duration_min="1.67770839" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Gurney_1_a_Low_Tech_Lower" wwise_radius_max="25" />
@@ -523,8 +551,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Gurney_1_a_High_Tech_Raise">
       <WwiseEvent wwise_duration_max="1.15356255" wwise_duration_min="1.15356255" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Gurney_1_a_High_Tech_Raise" wwise_radius_max="25" />
@@ -558,8 +588,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Gurney_1_a_High_Tech_Lower">
       <WwiseEvent wwise_duration_max="1.10047913" wwise_duration_min="1.10047913" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Gurney_1_a_High_Tech_Lower" wwise_radius_max="25" />
@@ -593,8 +625,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_MCAN_Hospital_Gurney_1_a_Low_Tech_Raise">
       <WwiseEvent wwise_duration_max="1.47783339" wwise_duration_min="1.47783339" wwise_duration_type="OneShot" wwise_name="Play_MCAN_Hospital_Gurney_1_a_Low_Tech_Raise" wwise_radius_max="25" />
@@ -628,8 +662,10 @@
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="DM_SCEV_EnvDucker" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_MCAN_Medical" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -642,4 +678,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

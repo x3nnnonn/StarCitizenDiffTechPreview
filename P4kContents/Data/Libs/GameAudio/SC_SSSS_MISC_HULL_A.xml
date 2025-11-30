@@ -40,8 +40,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSS_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSS_MISC_HULL_A_Main_Thruster_Spool_Loop">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSS_MISC_HULL_A_Main_Thruster_Spool_Loop" wwise_radius_max="250" />
@@ -82,8 +84,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSS_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSS_MISC_HULL_A_Ignite_Main_Thruster">
       <WwiseEvent wwise_duration_max="9.556188" wwise_duration_min="9.556188" wwise_duration_type="OneShot" wwise_name="Play_SSSS_MISC_HULL_A_Ignite_Main_Thruster" wwise_radius_max="700" />
@@ -123,8 +127,10 @@
         <ATLRTPCDependee atl_name="DM_Ship_Simple_Thruster" />
         <ATLRTPCDependee atl_name="DM_WPHD_Large_3p_Ducking_Meter" />
         <ATLRTPCDependee atl_name="DM_Ship_Final_Explosion" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSS_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSS_MISC_HULL_A_Shutdown_Main_Thruster">
       <WwiseEvent wwise_duration_max="6.938033" wwise_duration_min="6.548631" wwise_duration_type="OneShot" wwise_name="Play_SSSS_MISC_HULL_A_Shutdown_Main_Thruster" wwise_radius_max="700" />
@@ -164,8 +170,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSS_MISC_HULL_A" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -178,4 +186,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

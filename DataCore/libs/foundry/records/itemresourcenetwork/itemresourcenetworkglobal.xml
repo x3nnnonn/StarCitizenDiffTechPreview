@@ -144,7 +144,7 @@
   <thrusterCoolantMultiplier>1</thrusterCoolantMultiplier>
   <powerBaseConversionRate>1</powerBaseConversionRate>
   <uiParams Type="ItemResourceNetworkUIParams">
-    <typeData Type="ItemResourceNetworkTypeUIData" Count="189">
+    <typeData Type="ItemResourceNetworkTypeUIData" Count="190">
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
         <toolTip>@LOC_EMPTY</toolTip>
         <typeIcon />
@@ -363,6 +363,10 @@
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
         <toolTip>@LOC_EMPTY</toolTip>
+        <typeIcon />
+      </ItemResourceNetworkTypeUIData>
+      <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
+        <toolTip>@RN_Tooltips_Coolant</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_coolant.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
@@ -430,7 +434,7 @@
         <typeIcon>UI/Textures/Vector/Ships/ProfessionScreens/Engineering/Engineering_Icon_RoomLift.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_EMP.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
@@ -458,7 +462,7 @@
         <typeIcon />
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_Tooltips_Engine</toolTip>
         <typeIcon>UI/Textures/Vector/Ships/ProfessionScreens/Engineering/Engineering_Icon_ItemThrusters.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
@@ -550,7 +554,7 @@
         <typeIcon />
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_generator_gravity.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
@@ -574,7 +578,7 @@
         <typeIcon />
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/Ships/ProfessionScreens/Engineering/Engineering_Icon_ItemJumpDrive.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
@@ -586,7 +590,7 @@
         <typeIcon />
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_Tooltips_LifeSupportGenerator</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_life_support.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
@@ -626,19 +630,19 @@
         <typeIcon />
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_Tooltips_Engine</toolTip>
         <typeIcon>UI/Textures/Vector/Ships/ProfessionScreens/Engineering/Engineering_Icon_ItemThrusters.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_Tooltips_Engine</toolTip>
         <typeIcon>UI/Textures/Vector/Ships/ProfessionScreens/Engineering/Engineering_Icon_ItemThrusters.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_mining.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_mining.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
@@ -698,15 +702,15 @@
         <typeIcon />
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_Tooltips_PowerPlant</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_generator_power.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_quantum.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_QED.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
@@ -714,7 +718,7 @@
         <typeIcon>UI/Textures/Vector/Ships/ProfessionScreens/Engineering/Engineering_Icon_ItemTank.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_radar.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
@@ -738,31 +742,31 @@
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_room.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_salvage.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_salvage.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_salvage.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_salvage.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_salvage.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_salvage.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_salvage.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
@@ -790,7 +794,7 @@
         <typeIcon />
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_Tooltips_ShieldGenerator</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_generator_shield.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
@@ -830,11 +834,11 @@
         <typeIcon />
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_tractor beam.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_OnOffOnly</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_tractor beam.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
@@ -874,7 +878,7 @@
         <typeIcon>UI/Textures/Vector/Ships/ProfessionScreens/Engineering/Engineering_Icon_ItemGun.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
-        <toolTip>@LOC_EMPTY</toolTip>
+        <toolTip>@RN_Tooltips_Gun</toolTip>
         <typeIcon>UI/Textures/Vector/General/CommonIcons/icon_common_weapon_gun.svg</typeIcon>
       </ItemResourceNetworkTypeUIData>
       <ItemResourceNetworkTypeUIData Type="ItemResourceNetworkTypeUIData">
@@ -902,7 +906,7 @@
         <typeIcon />
       </ItemResourceNetworkTypeUIData>
     </typeData>
-    <exclusiveTypes Type="StatusEffectValue" Count="10">
+    <exclusiveTypes Type="ProbabilisticStatusEffect" Count="10">
       <EnumChoice>SeatAccess</EnumChoice>
       <EnumChoice>SeatDashboard</EnumChoice>
       <EnumChoice>WeaponRegenPool</EnumChoice>
@@ -915,15 +919,15 @@
       <EnumChoice>MainEngine</EnumChoice>
     </exclusiveTypes>
     <doorFilter Type="ItemResourceNetworkMapTriggerEntry">
-      <icon>UI/Textures/Vector/General/CommonIcons/icon_common_Doors.svg</icon>
+      <icon>UI/Textures/Vector/ModularKitStyles/AEGS_ENV/AEGS_ENV_Icon_Doors.svg</icon>
       <name>@RN_Filters_Doors</name>
     </doorFilter>
     <itemFilter Type="ItemResourceNetworkMapTriggerEntry">
-      <icon>UI/Textures/Vector/General/CommonIcons/icon_common_CPU.svg</icon>
-      <name>@RN_Filters_Items</name>
+      <icon>UI/Textures/Vector/ModularKitStyles/AEGS_ENV/AEGS_ENV_Icon_Systems.svg</icon>
+      <name>@RN_Filters_Systems</name>
     </itemFilter>
     <roomFilter Type="ItemResourceNetworkMapTriggerEntry">
-      <icon>UI/Textures/Vector/General/CommonIcons/icon_common_Rooms.svg</icon>
+      <icon>UI/Textures/Vector/ModularKitStyles/AEGS_ENV/AEGS_ENV_Icon_Rooms.svg</icon>
       <name>@RN_Filters_Rooms</name>
     </roomFilter>
     <healthRanges Type="ActivityBehaviorRequestCondition" Count="4">
@@ -1045,10 +1049,11 @@
   </powerParams>
   <defaultPowerDistributionParams Type="ItemResourceNetworkDefaultPowerDistributionParams">
     <powerDistPoolsFillMin>True</powerDistPoolsFillMin>
-    <powerDistCoolerMin>0.5</powerDistCoolerMin>
+    <powerDistCoolerMin>1</powerDistCoolerMin>
     <powerDistPoolsProportion>1</powerDistPoolsProportion>
     <poolDefaultWeapons>0.5</poolDefaultWeapons>
     <poolDefaultEngines>0.5</poolDefaultEngines>
     <poolDefaultShields>0.5</poolDefaultShields>
   </defaultPowerDistributionParams>
+  <misfireRepairGracePeriod>1.5</misfireRepairGracePeriod>
 </ItemResourceNetworkGlobal.ItemResourceNetworkGlobal>

@@ -10,6 +10,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Landing_Gear_Front_Retract">
       <WwiseEvent wwise_duration_max="4.476917" wwise_duration_min="4.476917" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Landing_Gear_Front_Retract" wwise_radius_max="100" />
@@ -38,8 +39,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Ladder_Deploy">
       <WwiseEvent wwise_duration_max="4.236729" wwise_duration_min="4.236729" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Ladder_Deploy" wwise_radius_max="50" />
@@ -68,8 +71,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Ladder_Retract">
       <WwiseEvent wwise_duration_max="4.63" wwise_duration_min="4.63" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Ladder_Retract" wwise_radius_max="50" />
@@ -98,8 +103,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Ladder_Door_Close">
       <WwiseEvent wwise_duration_max="2.03681254" wwise_duration_min="2.03681254" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Ladder_Door_Close" wwise_radius_max="50" />
@@ -128,8 +135,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Ladder_Door_Open">
       <WwiseEvent wwise_duration_max="1.88979161" wwise_duration_min="1.88979161" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Ladder_Door_Open" wwise_radius_max="50" />
@@ -140,6 +149,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Airlock_Door_Close">
       <WwiseEvent wwise_duration_max="1.339125" wwise_duration_min="1.339125" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Airlock_Door_Close" wwise_radius_max="50" />
@@ -168,8 +178,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Airlock_Door_Open">
       <WwiseEvent wwise_duration_max="1.17935419" wwise_duration_min="1.17935419" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Airlock_Door_Open" wwise_radius_max="50" />
@@ -180,6 +192,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Landing_Gear_Back_Deploy">
       <WwiseEvent wwise_duration_max="5.17920828" wwise_duration_min="5.17920828" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Landing_Gear_Back_Deploy" wwise_radius_max="100" />
@@ -208,8 +221,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Landing_Gear_Back_Retract">
       <WwiseEvent wwise_duration_max="4.476917" wwise_duration_min="4.476917" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Landing_Gear_Back_Retract" wwise_radius_max="100" />
@@ -238,8 +253,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Landing_Gear_Door_Close">
       <WwiseEvent wwise_duration_max="2.220875" wwise_duration_min="2.220875" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Landing_Gear_Door_Close" wwise_radius_max="100" />
@@ -268,8 +285,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Landing_Gear_Door_Open">
       <WwiseEvent wwise_duration_max="2.86731243" wwise_duration_min="2.86731243" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Landing_Gear_Door_Open" wwise_radius_max="100" />
@@ -298,8 +317,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_OHSliding_Wide_Open">
       <WwiseEvent wwise_duration_max="1.2" wwise_duration_min="1.16975" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_OHSliding_Wide_Open" wwise_radius_max="50" />
@@ -328,8 +349,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Bulkhead_Door_Double_Open">
       <WwiseEvent wwise_duration_max="1.63735414" wwise_duration_min="1.5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Bulkhead_Door_Double_Open" wwise_radius_max="50" />
@@ -358,8 +381,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Component_RoundSliding_Close">
       <WwiseEvent wwise_duration_max="2" wwise_duration_min="1.92116666" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Component_RoundSliding_Close" wwise_radius_max="50" />
@@ -388,8 +413,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Component_RoundSliding_Open">
       <WwiseEvent wwise_duration_max="2" wwise_duration_min="2" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Component_RoundSliding_Open" wwise_radius_max="50" />
@@ -418,8 +445,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_OHSliding_Sqr_Close">
       <WwiseEvent wwise_duration_max="1.58510411" wwise_duration_min="1.55622911" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_OHSliding_Sqr_Close" wwise_radius_max="50" />
@@ -448,8 +477,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_OHSliding_Sqr_Open">
       <WwiseEvent wwise_duration_max="1.20891666" wwise_duration_min="1.2" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_OHSliding_Sqr_Open" wwise_radius_max="50" />
@@ -478,8 +509,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_OHSliding_Wide_Close">
       <WwiseEvent wwise_duration_max="1.53447914" wwise_duration_min="1.51460421" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_OHSliding_Wide_Close" wwise_radius_max="50" />
@@ -508,8 +541,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Bulkhead_Door_Double_Close">
       <WwiseEvent wwise_duration_max="1.63735414" wwise_duration_min="1.5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Bulkhead_Door_Double_Close" wwise_radius_max="50" />
@@ -538,8 +573,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_RearComponent_Close">
       <WwiseEvent wwise_duration_max="2.2" wwise_duration_min="2" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_RearComponent_Close" wwise_radius_max="50" />
@@ -568,8 +605,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_RearComponent_Open">
       <WwiseEvent wwise_duration_max="1.5" wwise_duration_min="1.5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_RearComponent_Open" wwise_radius_max="50" />
@@ -598,8 +637,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_WC_Close">
       <WwiseEvent wwise_duration_max="1.72266662" wwise_duration_min="1.72266662" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_WC_Close" wwise_radius_max="50" />
@@ -628,8 +669,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_WC_Open">
       <WwiseEvent wwise_duration_max="1.80166662" wwise_duration_min="1.72266662" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_WC_Open" wwise_radius_max="50" />
@@ -658,8 +701,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_RadarLifeSupport_Close">
       <WwiseEvent wwise_duration_max="2.7" wwise_duration_min="2.24310422" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_RadarLifeSupport_Close" wwise_radius_max="50" />
@@ -688,8 +733,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_RadarLifeSupport_Open">
       <WwiseEvent wwise_duration_max="2.5" wwise_duration_min="2.287604" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_RadarLifeSupport_Open" wwise_radius_max="50" />
@@ -718,8 +765,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Elevator_Lower">
       <WwiseEvent wwise_duration_max="5" wwise_duration_min="5" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Elevator_Lower" wwise_radius_max="50" />
@@ -730,6 +779,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Elevator_Raise">
       <WwiseEvent wwise_duration_max="4.616667" wwise_duration_min="4.616667" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Elevator_Raise" wwise_radius_max="50" />
@@ -740,6 +790,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSMP_MISC_Fortune_Gate_Open">
       <WwiseEvent wwise_duration_max="0.8789375" wwise_duration_min="0.8789375" wwise_duration_type="OneShot" wwise_name="Play_SSMP_MISC_Fortune_Gate_Open" wwise_radius_max="10" />
@@ -768,8 +819,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSMP_MISC_Fortune" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -782,4 +835,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

@@ -52,8 +52,10 @@
         <ATLRTPCDependee atl_name="MIX_Mono" />
         <ATLRTPCDependee atl_name="GP_Ship_Atmospheric_Density" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Player_Input" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Retaliator_Primary_Afterburner_LP">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTB_AEGS_Retaliator_Primary_Afterburner_LP" wwise_radius_max="500" />
@@ -104,8 +106,10 @@
         <ATLRTPCDependee atl_name="GP_Ship_Velocity_Forward_Backward_Normalized" />
         <ATLRTPCDependee atl_name="GP_Ship_Build_Quality" />
         <ATLRTPCDependee atl_name="GP_Ship_Atmospheric_Density" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Retaliator_Primary_Off_LP">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTB_AEGS_Retaliator_Primary_Off_LP" wwise_radius_max="60" />
@@ -159,8 +163,10 @@
         <ATLRTPCDependee atl_name="GP_Ship_Atmospheric_Density" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Player_Input" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Thruster_On" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Retaliator_Primary_Afterburner_Off_LP">
       <WwiseEvent wwise_duration_max="3.17838955" wwise_duration_min="2.8316226" wwise_duration_type="OneShot" wwise_name="Play_SSTB_AEGS_Retaliator_Primary_Afterburner_Off_LP" wwise_radius_max="60" />
@@ -211,8 +217,10 @@
         <ATLRTPCDependee atl_name="GP_Ship_Velocity_Forward_Backward_Normalized" />
         <ATLRTPCDependee atl_name="GP_Ship_Build_Quality" />
         <ATLRTPCDependee atl_name="GP_Ship_Atmospheric_Density" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTS_AEGS_Retaliator_Primary_Switch_Master_Modes_LP">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSTS_AEGS_Retaliator_Primary_Switch_Master_Modes_LP" wwise_radius_max="500" />
@@ -251,8 +259,10 @@
         <ATLRTPCDependee atl_name="MDT_Ship_Thrusters_30s_Riser" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Meter_Primary_Misfire" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Meter_MAV_Rumble" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTS_AEGS_Retaliator_Primary_Generic_Misfire">
       <WwiseEvent wwise_duration_max="2.6486578" wwise_duration_type="OneShot" wwise_name="Play_SSTS_AEGS_Retaliator_Primary_Generic_Misfire" wwise_radius_max="500" />
@@ -288,8 +298,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Stop_SSTB_AEGS_Retaliator_Primary_Thrusters">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Stop_SSTB_AEGS_Retaliator_Primary_Thrusters" wwise_radius_max="0" />
@@ -348,8 +360,10 @@
         <ATLRTPCDependee atl_name="MDT_Ship_Thrusters_30s_Riser" />
         <ATLRTPCDependee atl_name="GP_Thrutsers_Meter_Afterburner_Primary" />
         <ATLRTPCDependee atl_name="Thruster_Time_Since_Last_Afterburner_Start" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTS_AEGS_Retaliator_Primary_Switch_Master_Modes_LP_End">
       <WwiseEvent wwise_duration_max="3.367386" wwise_duration_type="OneShot" wwise_name="Play_SSTS_AEGS_Retaliator_Primary_Switch_Master_Modes_LP_End" wwise_radius_max="500" />
@@ -388,8 +402,10 @@
         <ATLRTPCDependee atl_name="MDT_Ship_Thrusters_30s_Riser" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Meter_Primary_Misfire" />
         <ATLRTPCDependee atl_name="GP_Thrusters_Meter_MAV_Rumble" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Primary" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSTB_AEGS_Retaliator_Primary_Turn_On">
       <WwiseEvent wwise_duration_max="6.356779" wwise_duration_min="4.71937132" wwise_duration_type="OneShot" wwise_name="Play_SSTB_AEGS_Retaliator_Primary_Turn_On" wwise_radius_max="60" />
@@ -405,6 +421,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSTB_AEGS_Retaliator_Primary" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -417,4 +434,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>

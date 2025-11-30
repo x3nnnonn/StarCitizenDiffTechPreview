@@ -9,6 +9,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSE_Salvage_Beam_Impact" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSE_Salvage_Beam_Impact_Material_Melting">
       <WwiseEvent wwise_duration_type="OneShot" wwise_name="Play_SSSE_Salvage_Beam_Impact_Material_Melting" wwise_radius_max="200" />
@@ -18,6 +19,7 @@
         <ATLRTPCDependee atl_name="Listener_Volume" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSE_Salvage_Beam_Impact" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSE_Salvage_Beam_Impact_Loop">
       <WwiseEvent wwise_duration_type="Infinite" wwise_name="Play_SSSE_Salvage_Beam_Impact_Loop" wwise_radius_max="200" />
@@ -50,8 +52,10 @@
         <ATLRTPCDependee atl_name="Salvage_RMC_Drain_Rate" />
         <ATLRTPCDependee atl_name="Salvage_Scraper_Size" />
         <ATLRTPCDependee atl_name="Salvage_Remaining_Material" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSE_Salvage_Beam_Impact" />
+      <Tags />
     </ATLTrigger>
     <ATLTrigger atl_name="Play_SSSE_Salvage_Beam_Impact_Loop_Off">
       <WwiseEvent wwise_duration_max="5.26078653" wwise_duration_min="2.83917356" wwise_duration_type="OneShot" wwise_name="Play_SSSE_Salvage_Beam_Impact_Loop_Off" wwise_radius_max="200" />
@@ -84,8 +88,10 @@
         <ATLRTPCDependee atl_name="Listener_Above_Water" />
         <ATLRTPCDependee atl_name="comm_call_active" />
         <ATLRTPCDependee atl_name="MIX_Mono" />
+        <ATLRTPCDependee atl_name="DX_Comm_Call_Meter" />
       </RTPCDependees>
       <ATLPreload atl_name="SC_SSSE_Salvage_Beam_Impact" />
+      <Tags />
     </ATLTrigger>
   </AudioTriggers>
   <AudioPreloads>
@@ -98,4 +104,8 @@
       </ATLConfigGroup>
     </ATLPreloadRequest>
   </AudioPreloads>
+  <AudioExternalSources />
+  <AudioEnvironments />
+  <AudioRTPCs />
+  <AudioSwitches />
 </ATLConfig>
